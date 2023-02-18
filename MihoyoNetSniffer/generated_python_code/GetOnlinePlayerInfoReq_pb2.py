@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetOnlinePlayerInfoReq.proto\"x\n\x16GetOnlinePlayerInfoReq\x12\x14\n\x0cis_online_id\x18\x08 \x01(\x08\x12\x14\n\ntarget_uid\x18\x01 \x01(\rH\x00\x12\x13\n\tonline_id\x18\x07 \x01(\tH\x00\x12\x10\n\x06psn_id\x18\x04 \x01(\tH\x00\x42\x0b\n\tplayer_idb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetOnlinePlayerInfoReq.proto\"v\n\x16GetOnlinePlayerInfoReq\x12\x12\n\nisOnlineId\x18\x03 \x01(\x08\x12\x14\n\ntarget_uid\x18\x04 \x01(\rH\x00\x12\x13\n\tonline_id\x18\n \x01(\tH\x00\x12\x10\n\x06psn_id\x18\x0c \x01(\tH\x00\x42\x0b\n\tplayer_idB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetOnlinePlayerInfoReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetOnlinePlayerInfoReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETONLINEPLAYERINFOREQ._serialized_start=32
-  _GETONLINEPLAYERINFOREQ._serialized_end=152
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETONLINEPLAYERINFOREQ']._serialized_start=32
+  _globals['_GETONLINEPLAYERINFOREQ']._serialized_end=150
 # @@protoc_insertion_point(module_scope)

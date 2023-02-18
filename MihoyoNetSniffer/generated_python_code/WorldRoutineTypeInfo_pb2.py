@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import WorldRoutineInfo_pb2 as WorldRoutineInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWorldRoutineTypeInfo.proto\x1a\x16WorldRoutineInfo.proto\"{\n\x14WorldRoutineTypeInfo\x12\x19\n\x11next_refresh_time\x18\r \x01(\r\x12\x32\n\x17world_routine_info_list\x18\n \x03(\x0b\x32\x11.WorldRoutineInfo\x12\x14\n\x0croutine_type\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWorldRoutineTypeInfo.proto\x1a\x16WorldRoutineInfo.proto\"u\n\x14WorldRoutineTypeInfo\x12\x13\n\x0broutineType\x18\r \x01(\r\x12\x17\n\x0fnextRefreshTime\x18\x0f \x01(\r\x12/\n\x14worldRoutineInfoList\x18\x06 \x03(\x0b\x32\x11.WorldRoutineInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldRoutineTypeInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldRoutineTypeInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WORLDROUTINETYPEINFO._serialized_start=54
-  _WORLDROUTINETYPEINFO._serialized_end=177
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WORLDROUTINETYPEINFO']._serialized_start=54
+  _globals['_WORLDROUTINETYPEINFO']._serialized_end=171
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerCookArgsReq.proto\"=\n\x11PlayerCookArgsReq\x12\x11\n\trecipe_id\x18\r \x01(\r\x12\x15\n\rassist_avatar\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerCookArgsReq.proto\";\n\x11PlayerCookArgsReq\x12\x10\n\x08recipeId\x18\x05 \x01(\r\x12\x14\n\x0c\x61ssistAvatar\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCookArgsReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCookArgsReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERCOOKARGSREQ._serialized_start=27
-  _PLAYERCOOKARGSREQ._serialized_end=88
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERCOOKARGSREQ']._serialized_start=27
+  _globals['_PLAYERCOOKARGSREQ']._serialized_end=86
 # @@protoc_insertion_point(module_scope)

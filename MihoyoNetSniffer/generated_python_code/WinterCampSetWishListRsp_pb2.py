@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWinterCampSetWishListRsp.proto\"A\n\x18WinterCampSetWishListRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x14\n\x0citem_id_list\x18\x03 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWinterCampSetWishListRsp.proto\"?\n\x18WinterCampSetWishListRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x12\n\nitemIdList\x18\x03 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampSetWishListRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampSetWishListRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINTERCAMPSETWISHLISTRSP._serialized_start=34
-  _WINTERCAMPSETWISHLISTRSP._serialized_end=99
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WINTERCAMPSETWISHLISTRSP']._serialized_start=34
+  _globals['_WINTERCAMPSETWISHLISTRSP']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TreasureSeelieCollectOrbsNotify.proto\"I\n\x1fTreasureSeelieCollectOrbsNotify\x12\x13\n\x0b\x63urrent_num\x18\x0c \x01(\r\x12\x11\n\ttotal_num\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TreasureSeelieCollectOrbsNotify.proto\"G\n\x1fTreasureSeelieCollectOrbsNotify\x12\x12\n\ncurrentNum\x18\x01 \x01(\r\x12\x10\n\x08totalNum\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureSeelieCollectOrbsNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureSeelieCollectOrbsNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TREASURESEELIECOLLECTORBSNOTIFY._serialized_start=41
-  _TREASURESEELIECOLLECTORBSNOTIFY._serialized_end=114
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TREASURESEELIECOLLECTORBSNOTIFY']._serialized_start=41
+  _globals['_TREASURESEELIECOLLECTORBSNOTIFY']._serialized_end=112
 # @@protoc_insertion_point(module_scope)

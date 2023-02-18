@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ClientCollectorData_pb2 as ClientCollectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43lientCollectorDataNotify.proto\x1a\x19\x43lientCollectorData.proto\"U\n\x19\x43lientCollectorDataNotify\x12\x38\n\x1a\x63lient_collector_data_list\x18\x01 \x03(\x0b\x32\x14.ClientCollectorDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43lientCollectorDataNotify.proto\x1a\x19\x43lientCollectorData.proto\"R\n\x19\x43lientCollectorDataNotify\x12\x35\n\x17\x63lientCollectorDataList\x18\t \x03(\x0b\x32\x14.ClientCollectorDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientCollectorDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientCollectorDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CLIENTCOLLECTORDATANOTIFY._serialized_start=62
-  _CLIENTCOLLECTORDATANOTIFY._serialized_end=147
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CLIENTCOLLECTORDATANOTIFY']._serialized_start=62
+  _globals['_CLIENTCOLLECTORDATANOTIFY']._serialized_end=144
 # @@protoc_insertion_point(module_scope)

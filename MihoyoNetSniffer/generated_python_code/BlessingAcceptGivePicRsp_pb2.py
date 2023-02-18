@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42lessingAcceptGivePicRsp.proto\"W\n\x18\x42lessingAcceptGivePicRsp\x12\r\n\x05index\x18\x0f \x01(\r\x12\x0e\n\x06pic_id\x18\x0c \x01(\r\x12\x0b\n\x03uid\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42lessingAcceptGivePicRsp.proto\"V\n\x18\x42lessingAcceptGivePicRsp\x12\r\n\x05picId\x18\x0c \x01(\r\x12\r\n\x05index\x18\r \x01(\r\x12\x0b\n\x03uid\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingAcceptGivePicRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingAcceptGivePicRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BLESSINGACCEPTGIVEPICRSP._serialized_start=34
-  _BLESSINGACCEPTGIVEPICRSP._serialized_end=121
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BLESSINGACCEPTGIVEPICRSP']._serialized_start=34
+  _globals['_BLESSINGACCEPTGIVEPICRSP']._serialized_end=120
 # @@protoc_insertion_point(module_scope)

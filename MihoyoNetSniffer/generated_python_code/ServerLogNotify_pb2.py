@@ -15,13 +15,15 @@ import ServerLogLevel_pb2 as ServerLogLevel__pb2
 import ServerLogType_pb2 as ServerLogType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ServerLogNotify.proto\x1a\x14ServerLogLevel.proto\x1a\x13ServerLogType.proto\"k\n\x0fServerLogNotify\x12\x12\n\nserver_log\x18\x0b \x01(\t\x12\"\n\tlog_level\x18\x05 \x01(\x0e\x32\x0f.ServerLogLevel\x12 \n\x08log_type\x18\t \x01(\x0e\x32\x0e.ServerLogTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ServerLogNotify.proto\x1a\x14ServerLogLevel.proto\x1a\x13ServerLogType.proto\"h\n\x0fServerLogNotify\x12\x11\n\tserverLog\x18\n \x01(\t\x12!\n\x08logLevel\x18\x0f \x01(\x0e\x32\x0f.ServerLogLevel\x12\x1f\n\x07logType\x18\t \x01(\x0e\x32\x0e.ServerLogTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerLogNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerLogNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SERVERLOGNOTIFY._serialized_start=68
-  _SERVERLOGNOTIFY._serialized_end=175
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SERVERLOGNOTIFY']._serialized_start=68
+  _globals['_SERVERLOGNOTIFY']._serialized_end=172
 # @@protoc_insertion_point(module_scope)

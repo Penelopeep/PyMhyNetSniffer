@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGMessagePack_pb2 as GCGMessagePack__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGMessagePackNotify.proto\x1a\x14GCGMessagePack.proto\"R\n\x14GCGMessagePackNotify\x12\x12\n\nserver_seq\x18\x02 \x01(\r\x12&\n\rmsg_pack_list\x18\x0c \x03(\x0b\x32\x0f.GCGMessagePackb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGMessagePackNotify.proto\x1a\x14GCGMessagePack.proto\"O\n\x14GCGMessagePackNotify\x12$\n\x0bmsgPackList\x18\r \x03(\x0b\x32\x0f.GCGMessagePack\x12\x11\n\tserverSeq\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMessagePackNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMessagePackNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMESSAGEPACKNOTIFY._serialized_start=52
-  _GCGMESSAGEPACKNOTIFY._serialized_end=134
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMESSAGEPACKNOTIFY']._serialized_start=52
+  _globals['_GCGMESSAGEPACKNOTIFY']._serialized_end=131
 # @@protoc_insertion_point(module_scope)

@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGalleryBalloonScoreNotify.proto\"\xa7\x01\n\x19GalleryBalloonScoreNotify\x12\x42\n\ruid_score_map\x18\x0c \x03(\x0b\x32+.GalleryBalloonScoreNotify.UidScoreMapEntry\x12\x12\n\ngallery_id\x18\x0b \x01(\r\x1a\x32\n\x10UidScoreMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGalleryBalloonScoreNotify.proto\"\xa4\x01\n\x19GalleryBalloonScoreNotify\x12@\n\x0buidScoreMap\x18\x0c \x03(\x0b\x32+.GalleryBalloonScoreNotify.UidScoreMapEntry\x12\x11\n\tgalleryId\x18\x02 \x01(\r\x1a\x32\n\x10UidScoreMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryBalloonScoreNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryBalloonScoreNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _GALLERYBALLOONSCORENOTIFY_UIDSCOREMAPENTRY._options = None
   _GALLERYBALLOONSCORENOTIFY_UIDSCOREMAPENTRY._serialized_options = b'8\001'
-  _GALLERYBALLOONSCORENOTIFY._serialized_start=36
-  _GALLERYBALLOONSCORENOTIFY._serialized_end=203
-  _GALLERYBALLOONSCORENOTIFY_UIDSCOREMAPENTRY._serialized_start=153
-  _GALLERYBALLOONSCORENOTIFY_UIDSCOREMAPENTRY._serialized_end=203
+  _globals['_GALLERYBALLOONSCORENOTIFY']._serialized_start=36
+  _globals['_GALLERYBALLOONSCORENOTIFY']._serialized_end=200
+  _globals['_GALLERYBALLOONSCORENOTIFY_UIDSCOREMAPENTRY']._serialized_start=150
+  _globals['_GALLERYBALLOONSCORENOTIFY_UIDSCOREMAPENTRY']._serialized_end=200
 # @@protoc_insertion_point(module_scope)

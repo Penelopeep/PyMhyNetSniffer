@@ -11,16 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_IBEKDNOGMLA_pb2 as Unk2700__IBEKDNOGMLA__pb2
+import IrodoriChessMysteryInfo_pb2 as IrodoriChessMysteryInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16IrodoriChessInfo.proto\x1a\x19Unk2700_IBEKDNOGMLA.proto\"\xa8\x01\n\x10IrodoriChessInfo\x12*\n\x0cmystery_info\x18\x03 \x01(\x0b\x32\x14.Unk2700_IBEKDNOGMLA\x12\x15\n\rleft_monsters\x18\x0c \x01(\r\x12\x1b\n\x13Unk2700_MABMPAAGHCJ\x18\r \x03(\r\x12\x17\n\x0f\x62uilding_points\x18\x07 \x01(\r\x12\x1b\n\x13Unk2700_CDOKENJJJMH\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16IrodoriChessInfo.proto\x1a\x1dIrodoriChessMysteryInfo.proto\"\x99\x01\n\x10IrodoriChessInfo\x12\x13\n\x0b\x66pdiemhhpko\x18\x03 \x03(\r\x12\x14\n\x0cleftMonsters\x18\x0b \x01(\r\x12-\n\x0b\x64\x63\x66\x63ppdjgod\x18\n \x01(\x0b\x32\x18.IrodoriChessMysteryInfo\x12\x13\n\x0bsettleScore\x18\x08 \x01(\r\x12\x16\n\x0e\x62uildingPoints\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriChessInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriChessInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _IRODORICHESSINFO._serialized_start=54
-  _IRODORICHESSINFO._serialized_end=222
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_IRODORICHESSINFO']._serialized_start=58
+  _globals['_IRODORICHESSINFO']._serialized_end=211
 # @@protoc_insertion_point(module_scope)

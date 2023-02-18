@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import DeathZoneInfo_pb2 as DeathZoneInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44\x65\x61thZoneInfoNotify.proto\x1a\x13\x44\x65\x61thZoneInfo.proto\"C\n\x13\x44\x65\x61thZoneInfoNotify\x12,\n\x14\x64\x65\x61th_zone_info_list\x18\x0f \x03(\x0b\x32\x0e.DeathZoneInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44\x65\x61thZoneInfoNotify.proto\x1a\x13\x44\x65\x61thZoneInfo.proto\"@\n\x13\x44\x65\x61thZoneInfoNotify\x12)\n\x11\x64\x65\x61thZoneInfoList\x18\x03 \x03(\x0b\x32\x0e.DeathZoneInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeathZoneInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeathZoneInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DEATHZONEINFONOTIFY._serialized_start=50
-  _DEATHZONEINFONOTIFY._serialized_end=117
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DEATHZONEINFONOTIFY']._serialized_start=50
+  _globals['_DEATHZONEINFONOTIFY']._serialized_end=114
 # @@protoc_insertion_point(module_scope)

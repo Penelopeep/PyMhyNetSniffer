@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n TowerGetFloorStarRewardRsp.proto\"?\n\x1aTowerGetFloorStarRewardRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x10\n\x08\x66loor_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n TowerGetFloorStarRewardRsp.proto\">\n\x1aTowerGetFloorStarRewardRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x0f\n\x07\x66loorId\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerGetFloorStarRewardRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerGetFloorStarRewardRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TOWERGETFLOORSTARREWARDRSP._serialized_start=36
-  _TOWERGETFLOORSTARREWARDRSP._serialized_end=99
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TOWERGETFLOORSTARREWARDRSP']._serialized_start=36
+  _globals['_TOWERGETFLOORSTARREWARDRSP']._serialized_end=98
 # @@protoc_insertion_point(module_scope)

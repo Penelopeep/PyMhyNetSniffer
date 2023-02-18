@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import LockReason_pb2 as LockReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cLockedPersonallineData.proto\"\xd7\x01\n\x16LockedPersonallineData\x12\x37\n\x0block_reason\x18\r \x01(\x0e\x32\".LockedPersonallineData.LockReason\x12\x18\n\x10personal_line_id\x18\x03 \x01(\r\x12\x14\n\nchapter_id\x18\x04 \x01(\rH\x00\x12\x0f\n\x05level\x18\x0f \x01(\rH\x00\":\n\nLockReason\x12\x15\n\x11LOCK_REASON_LEVEL\x10\x00\x12\x15\n\x11LOCK_REASON_QUEST\x10\x01\x42\x07\n\x05paramb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cLockedPersonallineData.proto\x1a\x10LockReason.proto\"\x81\x01\n\x16LockedPersonallineData\x12\x16\n\x0epersonalLineId\x18\x06 \x01(\r\x12\x1f\n\nlockReason\x18\x04 \x01(\x0e\x32\x0b.LockReason\x12\x14\n\nchapter_id\x18\x05 \x01(\rH\x00\x12\x0f\n\x05level\x18\r \x01(\rH\x00\x42\x07\n\x05paramB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LockedPersonallineData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LockedPersonallineData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LOCKEDPERSONALLINEDATA._serialized_start=33
-  _LOCKEDPERSONALLINEDATA._serialized_end=248
-  _LOCKEDPERSONALLINEDATA_LOCKREASON._serialized_start=181
-  _LOCKEDPERSONALLINEDATA_LOCKREASON._serialized_end=239
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LOCKEDPERSONALLINEDATA']._serialized_start=51
+  _globals['_LOCKEDPERSONALLINEDATA']._serialized_end=180
 # @@protoc_insertion_point(module_scope)

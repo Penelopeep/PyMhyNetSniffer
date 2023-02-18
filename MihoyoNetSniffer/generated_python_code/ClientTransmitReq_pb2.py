@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import TransmitReason_pb2 as TransmitReason__pb2
 import Vector_pb2 as Vector__pb2
+import TransmitReason_pb2 as TransmitReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43lientTransmitReq.proto\x1a\x14TransmitReason.proto\x1a\x0cVector.proto\"r\n\x11\x43lientTransmitReq\x12\x1f\n\x06reason\x18\x03 \x01(\x0e\x32\x0f.TransmitReason\x12\x10\n\x08scene_id\x18\t \x01(\r\x12\x14\n\x03rot\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x04 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43lientTransmitReq.proto\x1a\x0cVector.proto\x1a\x14TransmitReason.proto\"q\n\x11\x43lientTransmitReq\x12\x14\n\x03rot\x18\t \x01(\x0b\x32\x07.Vector\x12\x1f\n\x06reason\x18\r \x01(\x0e\x32\x0f.TransmitReason\x12\x14\n\x03pos\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x0f\n\x07sceneId\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientTransmitReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientTransmitReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CLIENTTRANSMITREQ._serialized_start=63
-  _CLIENTTRANSMITREQ._serialized_end=177
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CLIENTTRANSMITREQ']._serialized_start=63
+  _globals['_CLIENTTRANSMITREQ']._serialized_end=176
 # @@protoc_insertion_point(module_scope)

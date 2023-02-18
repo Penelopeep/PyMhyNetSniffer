@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41ttackHitEffectResult.proto\"\xc5\x01\n\x15\x41ttackHitEffectResult\x12\x1b\n\x13Unk3300_DABGDGLAIKL\x18\r \x01(\x02\x12\x1b\n\x13Unk3300_JDEFHMKICPF\x18\n \x01(\x02\x12\x1b\n\x13Unk3300_ECHOFBLGIIO\x18\t \x01(\x02\x12\x1b\n\x13Unk3300_LCKECJCKKJK\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_KLNGDAMMFIF\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_MNGCOAIGGAL\x18\x03 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41ttackHitEffectResult.proto\"\xae\x01\n\x15\x41ttackHitEffectResult\x12\x1b\n\x13Unk3300_KLNGDAMMFIF\x18\x03 \x01(\r\x12\x13\n\x0b\x61irStrength\x18\x06 \x01(\x02\x12\x1b\n\x13Unk3300_LCKECJCKKJK\x18\r \x01(\r\x12\x13\n\x0bhitHaltTime\x18\x0f \x01(\x02\x12\x17\n\x0fretreatStrength\x18\x04 \x01(\x02\x12\x18\n\x10hitHaltTimeScale\x18\x07 \x01(\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AttackHitEffectResult_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AttackHitEffectResult_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ATTACKHITEFFECTRESULT._serialized_start=32
-  _ATTACKHITEFFECTRESULT._serialized_end=229
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ATTACKHITEFFECTRESULT']._serialized_start=32
+  _globals['_ATTACKHITEFFECTRESULT']._serialized_end=206
 # @@protoc_insertion_point(module_scope)

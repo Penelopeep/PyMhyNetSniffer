@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AddQuestContentProgressReq.proto\"W\n\x1a\x41\x64\x64QuestContentProgressReq\x12\x14\n\x0c\x63ontent_type\x18\x01 \x01(\r\x12\x14\n\x0c\x61\x64\x64_progress\x18\x06 \x01(\r\x12\r\n\x05param\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AddQuestContentProgressReq.proto\"U\n\x1a\x41\x64\x64QuestContentProgressReq\x12\x13\n\x0b\x61\x64\x64Progress\x18\x02 \x01(\r\x12\r\n\x05param\x18\t \x01(\r\x12\x13\n\x0b\x63ontentType\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddQuestContentProgressReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddQuestContentProgressReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ADDQUESTCONTENTPROGRESSREQ._serialized_start=36
-  _ADDQUESTCONTENTPROGRESSREQ._serialized_end=123
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ADDQUESTCONTENTPROGRESSREQ']._serialized_start=36
+  _globals['_ADDQUESTCONTENTPROGRESSREQ']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

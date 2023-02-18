@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import TreasureMapBonusChallengeInfo_pb2 as TreasureMapBonusChallengeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TreasureMapBonusChallengeNotify.proto\x1a#TreasureMapBonusChallengeInfo.proto\"O\n\x1fTreasureMapBonusChallengeNotify\x12,\n\x04info\x18\r \x01(\x0b\x32\x1e.TreasureMapBonusChallengeInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TreasureMapBonusChallengeNotify.proto\x1a#TreasureMapBonusChallengeInfo.proto\"O\n\x1fTreasureMapBonusChallengeNotify\x12,\n\x04info\x18\x05 \x01(\x0b\x32\x1e.TreasureMapBonusChallengeInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapBonusChallengeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapBonusChallengeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TREASUREMAPBONUSCHALLENGENOTIFY._serialized_start=78
-  _TREASUREMAPBONUSCHALLENGENOTIFY._serialized_end=157
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TREASUREMAPBONUSCHALLENGENOTIFY']._serialized_start=78
+  _globals['_TREASUREMAPBONUSCHALLENGENOTIFY']._serialized_end=157
 # @@protoc_insertion_point(module_scope)

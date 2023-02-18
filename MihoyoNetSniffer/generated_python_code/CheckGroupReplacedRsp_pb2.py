@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43heckGroupReplacedRsp.proto\"H\n\x15\x43heckGroupReplacedRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x1e\n\x16replaced_group_id_list\x18\n \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43heckGroupReplacedRsp.proto\"E\n\x15\x43heckGroupReplacedRsp\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x1b\n\x13replacedGroupIdList\x18\x06 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CheckGroupReplacedRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CheckGroupReplacedRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHECKGROUPREPLACEDRSP._serialized_start=31
-  _CHECKGROUPREPLACEDRSP._serialized_end=103
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHECKGROUPREPLACEDRSP']._serialized_start=31
+  _globals['_CHECKGROUPREPLACEDRSP']._serialized_end=100
 # @@protoc_insertion_point(module_scope)

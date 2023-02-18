@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46ungusCaptureSettleNotify.proto\"/\n\x19\x46ungusCaptureSettleNotify\x12\x12\n\nis_success\x18\x0e \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46ungusCaptureSettleNotify.proto\".\n\x19\x46ungusCaptureSettleNotify\x12\x11\n\tisSuccess\x18\x04 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusCaptureSettleNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusCaptureSettleNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FUNGUSCAPTURESETTLENOTIFY._serialized_start=35
-  _FUNGUSCAPTURESETTLENOTIFY._serialized_end=82
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FUNGUSCAPTURESETTLENOTIFY']._serialized_start=35
+  _globals['_FUNGUSCAPTURESETTLENOTIFY']._serialized_end=81
 # @@protoc_insertion_point(module_scope)

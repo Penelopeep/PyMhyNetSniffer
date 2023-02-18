@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Investigation_pb2 as Investigation__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerInvestigationNotify.proto\x1a\x13Investigation.proto\"G\n\x19PlayerInvestigationNotify\x12*\n\x12investigation_list\x18\x0c \x03(\x0b\x32\x0e.Investigationb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerInvestigationNotify.proto\x1a\x13Investigation.proto\"F\n\x19PlayerInvestigationNotify\x12)\n\x11investigationList\x18\x0c \x03(\x0b\x32\x0e.InvestigationB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerInvestigationNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerInvestigationNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERINVESTIGATIONNOTIFY._serialized_start=56
-  _PLAYERINVESTIGATIONNOTIFY._serialized_end=127
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERINVESTIGATIONNOTIFY']._serialized_start=56
+  _globals['_PLAYERINVESTIGATIONNOTIFY']._serialized_end=126
 # @@protoc_insertion_point(module_scope)

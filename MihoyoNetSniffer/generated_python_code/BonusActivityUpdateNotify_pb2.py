@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import BonusActivityInfo_pb2 as BonusActivityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x42onusActivityUpdateNotify.proto\x1a\x17\x42onusActivityInfo.proto\"Q\n\x19\x42onusActivityUpdateNotify\x12\x34\n\x18\x62onus_activity_info_list\x18\x07 \x03(\x0b\x32\x12.BonusActivityInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x42onusActivityUpdateNotify.proto\x1a\x17\x42onusActivityInfo.proto\"N\n\x19\x42onusActivityUpdateNotify\x12\x31\n\x15\x62onusActivityInfoList\x18\x08 \x03(\x0b\x32\x12.BonusActivityInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BonusActivityUpdateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BonusActivityUpdateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BONUSACTIVITYUPDATENOTIFY._serialized_start=60
-  _BONUSACTIVITYUPDATENOTIFY._serialized_end=141
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BONUSACTIVITYUPDATENOTIFY']._serialized_start=60
+  _globals['_BONUSACTIVITYUPDATENOTIFY']._serialized_end=138
 # @@protoc_insertion_point(module_scope)

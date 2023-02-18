@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSetCodexPushtipsReadRsp.proto\"M\n\x17SetCodexPushtipsReadRsp\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x0f\n\x07type_id\x18\x04 \x01(\r\x12\x10\n\x08\x63odex_id\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSetCodexPushtipsReadRsp.proto\"K\n\x17SetCodexPushtipsReadRsp\x12\x0f\n\x07\x63odexId\x18\x0e \x01(\r\x12\x0e\n\x06typeId\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetCodexPushtipsReadRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetCodexPushtipsReadRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SETCODEXPUSHTIPSREADRSP._serialized_start=33
-  _SETCODEXPUSHTIPSREADRSP._serialized_end=110
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SETCODEXPUSHTIPSREADRSP']._serialized_start=33
+  _globals['_SETCODEXPUSHTIPSREADRSP']._serialized_end=108
 # @@protoc_insertion_point(module_scope)

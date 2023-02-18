@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import VisionType_pb2 as VisionType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SceneEntityDisappearNotify.proto\x1a\x10VisionType.proto\"e\n\x1aSceneEntityDisappearNotify\x12\r\n\x05param\x18\x0f \x01(\r\x12#\n\x0e\x64isappear_type\x18\x0c \x01(\x0e\x32\x0b.VisionType\x12\x13\n\x0b\x65ntity_list\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SceneEntityDisappearNotify.proto\x1a\x10VisionType.proto\"c\n\x1aSceneEntityDisappearNotify\x12\x12\n\nentityList\x18\r \x03(\r\x12\r\n\x05param\x18\n \x01(\r\x12\"\n\rdisappearType\x18\x07 \x01(\x0e\x32\x0b.VisionTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntityDisappearNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntityDisappearNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEENTITYDISAPPEARNOTIFY._serialized_start=54
-  _SCENEENTITYDISAPPEARNOTIFY._serialized_end=155
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SCENEENTITYDISAPPEARNOTIFY']._serialized_start=54
+  _globals['_SCENEENTITYDISAPPEARNOTIFY']._serialized_end=153
 # @@protoc_insertion_point(module_scope)

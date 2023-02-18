@@ -11,18 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import InBattleChessSettleInfo_pb2 as InBattleChessSettleInfo__pb2
-import InBattleIrodoriChessSettleInfo_pb2 as InBattleIrodoriChessSettleInfo__pb2
-import InBattleMechanicusSettleInfo_pb2 as InBattleMechanicusSettleInfo__pb2
+import MechanicusSettleInfo_pb2 as MechanicusSettleInfo__pb2
+import ChessSettleInfo_pb2 as ChessSettleInfo__pb2
+import IrodoriChessSettleInfo_pb2 as IrodoriChessSettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n MultistagePlaySettleNotify.proto\x1a\x1dInBattleChessSettleInfo.proto\x1a$InBattleIrodoriChessSettleInfo.proto\x1a\"InBattleMechanicusSettleInfo.proto\"\x8d\x02\n\x1aMultistagePlaySettleNotify\x12\x10\n\x08group_id\x18\x03 \x01(\r\x12\x12\n\nplay_index\x18\t \x01(\r\x12@\n\x16mechanicus_settle_info\x18\x89\x05 \x01(\x0b\x32\x1d.InBattleMechanicusSettleInfoH\x00\x12\x36\n\x11\x63hess_settle_info\x18\x80\x04 \x01(\x0b\x32\x18.InBattleChessSettleInfoH\x00\x12\x45\n\x19irodori_chess_settle_info\x18\x88\x04 \x01(\x0b\x32\x1f.InBattleIrodoriChessSettleInfoH\x00\x42\x08\n\x06\x64\x65tailb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n MultistagePlaySettleNotify.proto\x1a\x1aMechanicusSettleInfo.proto\x1a\x15\x43hessSettleInfo.proto\x1a\x1cIrodoriChessSettleInfo.proto\"\xf2\x01\n\x1aMultistagePlaySettleNotify\x12\x11\n\tplayIndex\x18\x0f \x01(\r\x12\x0f\n\x07groupId\x18\x01 \x01(\r\x12\x38\n\x16mechanicus_settle_info\x18\xd9\t \x01(\x0b\x32\x15.MechanicusSettleInfoH\x00\x12.\n\x11\x63hess_settle_info\x18\xc8\x01 \x01(\x0b\x32\x10.ChessSettleInfoH\x00\x12<\n\x19irodori_chess_settle_info\x18` \x01(\x0b\x32\x17.IrodoriChessSettleInfoH\x00\x42\x08\n\x06\x64\x65tailB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MultistagePlaySettleNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MultistagePlaySettleNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MULTISTAGEPLAYSETTLENOTIFY._serialized_start=142
-  _MULTISTAGEPLAYSETTLENOTIFY._serialized_end=411
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MULTISTAGEPLAYSETTLENOTIFY']._serialized_start=118
+  _globals['_MULTISTAGEPLAYSETTLENOTIFY']._serialized_end=360
 # @@protoc_insertion_point(module_scope)

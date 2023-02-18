@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cIrodoriChessPlayerInfo.proto\"T\n\x16IrodoriChessPlayerInfo\x12\x14\n\x0csettle_score\x18\x0b \x01(\r\x12\x0b\n\x03uid\x18\n \x01(\r\x12\x17\n\x0f\x62uilding_points\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cIrodoriChessPlayerInfo.proto\"R\n\x16IrodoriChessPlayerInfo\x12\x13\n\x0bsettleScore\x18\x04 \x01(\r\x12\x16\n\x0e\x62uildingPoints\x18\x08 \x01(\r\x12\x0b\n\x03uid\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriChessPlayerInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriChessPlayerInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _IRODORICHESSPLAYERINFO._serialized_start=32
-  _IRODORICHESSPLAYERINFO._serialized_end=116
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_IRODORICHESSPLAYERINFO']._serialized_start=32
+  _globals['_IRODORICHESSPLAYERINFO']._serialized_end=114
 # @@protoc_insertion_point(module_scope)

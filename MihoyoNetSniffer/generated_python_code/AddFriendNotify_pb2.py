@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FriendBrief_pb2 as FriendBrief__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41\x64\x64\x46riendNotify.proto\x1a\x11\x46riendBrief.proto\"P\n\x0f\x41\x64\x64\x46riendNotify\x12)\n\x13target_friend_brief\x18\x02 \x01(\x0b\x32\x0c.FriendBrief\x12\x12\n\ntarget_uid\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41\x64\x64\x46riendNotify.proto\x1a\x11\x46riendBrief.proto\"M\n\x0f\x41\x64\x64\x46riendNotify\x12\x11\n\ttargetUid\x18\x04 \x01(\r\x12\'\n\x11targetFriendBrief\x18\x0c \x01(\x0b\x32\x0c.FriendBriefB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddFriendNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddFriendNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ADDFRIENDNOTIFY._serialized_start=44
-  _ADDFRIENDNOTIFY._serialized_end=124
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ADDFRIENDNOTIFY']._serialized_start=44
+  _globals['_ADDFRIENDNOTIFY']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

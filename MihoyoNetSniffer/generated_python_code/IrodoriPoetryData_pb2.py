@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import IrodoriPoetryThemeData_pb2 as IrodoriPoetryThemeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17IrodoriPoetryData.proto\x1a\x1cIrodoriPoetryThemeData.proto\"[\n\x11IrodoriPoetryData\x12\x30\n\x0ftheme_data_list\x18\x02 \x03(\x0b\x32\x17.IrodoriPoetryThemeData\x12\x14\n\x0c\x63ur_theme_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17IrodoriPoetryData.proto\x1a\x1cIrodoriPoetryThemeData.proto\"W\n\x11IrodoriPoetryData\x12.\n\rthemeDataList\x18\n \x03(\x0b\x32\x17.IrodoriPoetryThemeData\x12\x12\n\ncurThemeId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriPoetryData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriPoetryData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _IRODORIPOETRYDATA._serialized_start=57
-  _IRODORIPOETRYDATA._serialized_end=148
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_IRODORIPOETRYDATA']._serialized_start=57
+  _globals['_IRODORIPOETRYDATA']._serialized_end=144
 # @@protoc_insertion_point(module_scope)

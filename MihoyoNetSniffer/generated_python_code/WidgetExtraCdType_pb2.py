@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17WidgetExtraCdType.proto*[\n\x11WidgetExtraCdType\x12\x1d\n\x19WIDGET_EXTRA_CD_TYPE_NONE\x10\x00\x12\'\n#WIDGET_EXTRA_CD_TYPE_E_SKILL_SHARED\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17WidgetExtraCdType.proto*F\n\x11WidgetExtraCdType\x12\x08\n\x04NONE\x10\x00\x12\'\n#WIDGET_EXTRA_CD_TYPE_E_SKILL_SHARED\x10\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetExtraCdType_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetExtraCdType_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WIDGETEXTRACDTYPE._serialized_start=27
-  _WIDGETEXTRACDTYPE._serialized_end=118
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WIDGETEXTRACDTYPE']._serialized_start=27
+  _globals['_WIDGETEXTRACDTYPE']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

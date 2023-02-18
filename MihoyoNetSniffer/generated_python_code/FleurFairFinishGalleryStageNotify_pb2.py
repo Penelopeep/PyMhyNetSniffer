@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'FleurFairFinishGalleryStageNotify.proto\"#\n!FleurFairFinishGalleryStageNotifyb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'FleurFairFinishGalleryStageNotify.proto\"#\n!FleurFairFinishGalleryStageNotifyB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairFinishGalleryStageNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairFinishGalleryStageNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FLEURFAIRFINISHGALLERYSTAGENOTIFY._serialized_start=43
-  _FLEURFAIRFINISHGALLERYSTAGENOTIFY._serialized_end=78
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FLEURFAIRFINISHGALLERYSTAGENOTIFY']._serialized_start=43
+  _globals['_FLEURFAIRFINISHGALLERYSTAGENOTIFY']._serialized_end=78
 # @@protoc_insertion_point(module_scope)

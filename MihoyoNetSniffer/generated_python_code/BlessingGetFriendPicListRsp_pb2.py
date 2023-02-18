@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import BlessingFriendPicData_pb2 as BlessingFriendPicData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingGetFriendPicListRsp.proto\x1a\x1b\x42lessingFriendPicData.proto\"d\n\x1b\x42lessingGetFriendPicListRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x34\n\x14\x66riend_pic_data_list\x18\x08 \x03(\x0b\x32\x16.BlessingFriendPicDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingGetFriendPicListRsp.proto\x1a\x1b\x42lessingFriendPicData.proto\"a\n\x1b\x42lessingGetFriendPicListRsp\x12\x31\n\x11\x66riendPicDataList\x18\x0c \x03(\x0b\x32\x16.BlessingFriendPicData\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingGetFriendPicListRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingGetFriendPicListRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BLESSINGGETFRIENDPICLISTRSP._serialized_start=66
-  _BLESSINGGETFRIENDPICLISTRSP._serialized_end=166
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BLESSINGGETFRIENDPICLISTRSP']._serialized_start=66
+  _globals['_BLESSINGGETFRIENDPICLISTRSP']._serialized_end=163
 # @@protoc_insertion_point(module_scope)

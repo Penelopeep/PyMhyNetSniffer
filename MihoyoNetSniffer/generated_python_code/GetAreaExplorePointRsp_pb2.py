@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetAreaExplorePointRsp.proto\"[\n\x16GetAreaExplorePointRsp\x12\x1a\n\x12\x65xplore_point_list\x18\x04 \x03(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x14\n\x0c\x61rea_id_list\x18\x0b \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetAreaExplorePointRsp.proto\"W\n\x16GetAreaExplorePointRsp\x12\x12\n\nareaIdList\x18\r \x03(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x18\n\x10\x65xplorePointList\x18\x03 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetAreaExplorePointRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetAreaExplorePointRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETAREAEXPLOREPOINTRSP._serialized_start=32
-  _GETAREAEXPLOREPOINTRSP._serialized_end=123
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETAREAEXPLOREPOINTRSP']._serialized_start=32
+  _globals['_GETAREAEXPLOREPOINTRSP']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

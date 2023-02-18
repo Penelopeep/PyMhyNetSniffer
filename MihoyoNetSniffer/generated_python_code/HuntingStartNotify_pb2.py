@@ -15,13 +15,15 @@ import HuntingPair_pb2 as HuntingPair__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18HuntingStartNotify.proto\x1a\x11HuntingPair.proto\x1a\x0cVector.proto\"}\n\x12HuntingStartNotify\x12\"\n\x0chunting_pair\x18\x03 \x01(\x0b\x32\x0c.HuntingPair\x12\x11\n\tfail_time\x18\x05 \x01(\r\x12\x1e\n\rclue_position\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08is_final\x18\x08 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18HuntingStartNotify.proto\x1a\x11HuntingPair.proto\x1a\x0cVector.proto\"y\n\x12HuntingStartNotify\x12\x10\n\x08\x66\x61ilTime\x18\x04 \x01(\r\x12!\n\x0bhuntingPair\x18\x0c \x01(\x0b\x32\x0c.HuntingPair\x12\x0f\n\x07isFinal\x18\x07 \x01(\x08\x12\x1d\n\x0c\x63luePosition\x18\x0e \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HuntingStartNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HuntingStartNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HUNTINGSTARTNOTIFY._serialized_start=61
-  _HUNTINGSTARTNOTIFY._serialized_end=186
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HUNTINGSTARTNOTIFY']._serialized_start=61
+  _globals['_HUNTINGSTARTNOTIFY']._serialized_end=182
 # @@protoc_insertion_point(module_scope)

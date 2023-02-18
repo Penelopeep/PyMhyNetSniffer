@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import DigMarkPoint_pb2 as DigMarkPoint__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&DigActivityMarkPointChangeNotify.proto\x1a\x12\x44igMarkPoint.proto\"N\n DigActivityMarkPointChangeNotify\x12*\n\x13\x64ig_mark_point_list\x18\x01 \x03(\x0b\x32\r.DigMarkPointb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&DigActivityMarkPointChangeNotify.proto\x1a\x12\x44igMarkPoint.proto\"K\n DigActivityMarkPointChangeNotify\x12\'\n\x10\x64igMarkPointList\x18\x04 \x03(\x0b\x32\r.DigMarkPointB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DigActivityMarkPointChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DigActivityMarkPointChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DIGACTIVITYMARKPOINTCHANGENOTIFY._serialized_start=62
-  _DIGACTIVITYMARKPOINTCHANGENOTIFY._serialized_end=140
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DIGACTIVITYMARKPOINTCHANGENOTIFY']._serialized_start=62
+  _globals['_DIGACTIVITYMARKPOINTCHANGENOTIFY']._serialized_end=137
 # @@protoc_insertion_point(module_scope)

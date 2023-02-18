@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$CancelCityReputationRequestReq.proto\"E\n\x1e\x43\x61ncelCityReputationRequestReq\x12\x0f\n\x07\x63ity_id\x18\x0e \x01(\r\x12\x12\n\nrequest_id\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$CancelCityReputationRequestReq.proto\"C\n\x1e\x43\x61ncelCityReputationRequestReq\x12\x0e\n\x06\x63ityId\x18\x04 \x01(\r\x12\x11\n\trequestId\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CancelCityReputationRequestReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CancelCityReputationRequestReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CANCELCITYREPUTATIONREQUESTREQ._serialized_start=40
-  _CANCELCITYREPUTATIONREQUESTREQ._serialized_end=109
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CANCELCITYREPUTATIONREQUESTREQ']._serialized_start=40
+  _globals['_CANCELCITYREPUTATIONREQUESTREQ']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

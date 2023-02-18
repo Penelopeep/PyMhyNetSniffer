@@ -15,13 +15,15 @@ import TowerMonthlyBrief_pb2 as TowerMonthlyBrief__pb2
 import TowerMonthlyCombatRecord_pb2 as TowerMonthlyCombatRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TowerMonthlyDetail.proto\x1a\x17TowerMonthlyBrief.proto\x1a\x1eTowerMonthlyCombatRecord.proto\"y\n\x12TowerMonthlyDetail\x12\x38\n\x15monthly_combat_record\x18\x0f \x01(\x0b\x32\x19.TowerMonthlyCombatRecord\x12)\n\rmonthly_brief\x18\x04 \x01(\x0b\x32\x12.TowerMonthlyBriefb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TowerMonthlyDetail.proto\x1a\x17TowerMonthlyBrief.proto\x1a\x1eTowerMonthlyCombatRecord.proto\"v\n\x12TowerMonthlyDetail\x12(\n\x0cmonthlyBrief\x18\x05 \x01(\x0b\x32\x12.TowerMonthlyBrief\x12\x36\n\x13monthlyCombatRecord\x18\x01 \x01(\x0b\x32\x19.TowerMonthlyCombatRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerMonthlyDetail_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerMonthlyDetail_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TOWERMONTHLYDETAIL._serialized_start=85
-  _TOWERMONTHLYDETAIL._serialized_end=206
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TOWERMONTHLYDETAIL']._serialized_start=85
+  _globals['_TOWERMONTHLYDETAIL']._serialized_end=203
 # @@protoc_insertion_point(module_scope)

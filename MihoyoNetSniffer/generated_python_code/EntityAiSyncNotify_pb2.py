@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import AiSyncInfo_pb2 as AiSyncInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45ntityAiSyncNotify.proto\x1a\x10\x41iSyncInfo.proto\"_\n\x12\x45ntityAiSyncNotify\x12\x1e\n\tinfo_list\x18\x0e \x03(\x0b\x32\x0b.AiSyncInfo\x12)\n!local_avatar_alerted_monster_list\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45ntityAiSyncNotify.proto\x1a\x10\x41iSyncInfo.proto\"Z\n\x12\x45ntityAiSyncNotify\x12%\n\x1dlocalAvatarAlertedMonsterList\x18\x08 \x03(\r\x12\x1d\n\x08infoList\x18\n \x03(\x0b\x32\x0b.AiSyncInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityAiSyncNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityAiSyncNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ENTITYAISYNCNOTIFY._serialized_start=46
-  _ENTITYAISYNCNOTIFY._serialized_end=141
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ENTITYAISYNCNOTIFY']._serialized_start=46
+  _globals['_ENTITYAISYNCNOTIFY']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

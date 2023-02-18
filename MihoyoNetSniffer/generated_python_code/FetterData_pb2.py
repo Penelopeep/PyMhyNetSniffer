@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x46\x65tterData.proto\"N\n\nFetterData\x12\x11\n\tfetter_id\x18\x01 \x01(\r\x12\x14\n\x0c\x66\x65tter_state\x18\x02 \x01(\r\x12\x17\n\x0f\x63ond_index_list\x18\x03 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x46\x65tterData.proto\"J\n\nFetterData\x12\x10\n\x08\x66\x65tterId\x18\x01 \x01(\r\x12\x13\n\x0b\x66\x65tterState\x18\x02 \x01(\r\x12\x15\n\rcondIndexList\x18\x03 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FetterData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FetterData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FETTERDATA._serialized_start=20
-  _FETTERDATA._serialized_end=98
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FETTERDATA']._serialized_start=20
+  _globals['_FETTERDATA']._serialized_end=94
 # @@protoc_insertion_point(module_scope)

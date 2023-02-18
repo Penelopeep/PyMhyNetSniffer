@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomePictureFrameInfo_pb2 as HomePictureFrameInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomePictureFrameInfoNotify.proto\x1a\x1aHomePictureFrameInfo.proto\"T\n\x1aHomePictureFrameInfoNotify\x12\x36\n\x17picture_frame_info_list\x18\x07 \x03(\x0b\x32\x15.HomePictureFrameInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomePictureFrameInfoNotify.proto\x1a\x1aHomePictureFrameInfo.proto\"Q\n\x1aHomePictureFrameInfoNotify\x12\x33\n\x14pictureFrameInfoList\x18\x08 \x03(\x0b\x32\x15.HomePictureFrameInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomePictureFrameInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomePictureFrameInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEPICTUREFRAMEINFONOTIFY._serialized_start=64
-  _HOMEPICTUREFRAMEINFONOTIFY._serialized_end=148
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEPICTUREFRAMEINFONOTIFY']._serialized_start=64
+  _globals['_HOMEPICTUREFRAMEINFONOTIFY']._serialized_end=145
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import SealBattleType_pb2 as SealBattleType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSealBattleBeginNotify.proto\x1a\x14SealBattleType.proto\"\x85\x01\n\x15SealBattleBeginNotify\x12$\n\x0b\x62\x61ttle_type\x18\n \x01(\x0e\x32\x0f.SealBattleType\x12\x16\n\x0eseal_entity_id\x18\x07 \x01(\r\x12\x19\n\x11seal_max_progress\x18\r \x01(\r\x12\x13\n\x0bseal_radius\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSealBattleBeginNotify.proto\x1a\x14SealBattleType.proto\"\x7f\n\x15SealBattleBeginNotify\x12\x12\n\nsealRadius\x18\x0c \x01(\r\x12\x17\n\x0fsealMaxProgress\x18\x02 \x01(\r\x12\x14\n\x0csealEntityId\x18\x0f \x01(\r\x12#\n\nbattleType\x18\x04 \x01(\x0e\x32\x0f.SealBattleTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SealBattleBeginNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SealBattleBeginNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SEALBATTLEBEGINNOTIFY._serialized_start=54
-  _SEALBATTLEBEGINNOTIFY._serialized_end=187
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SEALBATTLEBEGINNOTIFY']._serialized_start=53
+  _globals['_SEALBATTLEBEGINNOTIFY']._serialized_end=180
 # @@protoc_insertion_point(module_scope)

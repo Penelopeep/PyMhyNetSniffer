@@ -11,15 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import SkillRequest_pb2 as SkillRequest__pb2
+import ReliquaryRequest_pb2 as ReliquaryRequest__pb2
+import ElementReliquaryRequest_pb2 as ElementReliquaryRequest__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ompoundUnlockNotify.proto\"+\n\x14\x43ompoundUnlockNotify\x12\x13\n\x0b\x63ompound_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ompoundUnlockNotify.proto\x1a\x12SkillRequest.proto\x1a\x16ReliquaryRequest.proto\x1a\x1d\x45lementReliquaryRequest.proto\"\xcb\x01\n\x14\x43ompoundUnlockNotify\x12\x10\n\x08\x61vatarId\x18\x08 \x01(\r\x12\'\n\rskill_request\x18\x99\r \x01(\x0b\x32\r.SkillRequestH\x00\x12.\n\x11reliquary_request\x18v \x01(\x0b\x32\x11.ReliquaryRequestH\x00\x12>\n\x19\x65lement_reliquary_request\x18\xd1\x08 \x01(\x0b\x32\x18.ElementReliquaryRequestH\x00\x42\x08\n\x06\x64\x65tailB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CompoundUnlockNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CompoundUnlockNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _COMPOUNDUNLOCKNOTIFY._serialized_start=30
-  _COMPOUNDUNLOCKNOTIFY._serialized_end=73
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_COMPOUNDUNLOCKNOTIFY']._serialized_start=106
+  _globals['_COMPOUNDUNLOCKNOTIFY']._serialized_end=309
 # @@protoc_insertion_point(module_scope)

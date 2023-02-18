@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingRecvFriendPicNotify.proto\":\n\x1b\x42lessingRecvFriendPicNotify\x12\x0e\n\x06pic_id\x18\x04 \x01(\r\x12\x0b\n\x03uid\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingRecvFriendPicNotify.proto\"9\n\x1b\x42lessingRecvFriendPicNotify\x12\x0b\n\x03uid\x18\x0f \x01(\r\x12\r\n\x05picId\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingRecvFriendPicNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingRecvFriendPicNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BLESSINGRECVFRIENDPICNOTIFY._serialized_start=37
-  _BLESSINGRECVFRIENDPICNOTIFY._serialized_end=95
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BLESSINGRECVFRIENDPICNOTIFY']._serialized_start=37
+  _globals['_BLESSINGRECVFRIENDPICNOTIFY']._serialized_end=94
 # @@protoc_insertion_point(module_scope)

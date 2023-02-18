@@ -11,16 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_ONCHFHBBCBN_pb2 as Unk2700__ONCHFHBBCBN__pb2
+import HomeBalloonGalleryRecord_pb2 as HomeBalloonGalleryRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x42\x61lloonGalleryInfo.proto\x1a\x19Unk2700_ONCHFHBBCBN.proto\"?\n\x12\x42\x61lloonGalleryInfo\x12)\n\x0brecord_list\x18\x0f \x03(\x0b\x32\x14.Unk2700_ONCHFHBBCBNb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x42\x61lloonGalleryInfo.proto\x1a\x1eHomeBalloonGalleryRecord.proto\"C\n\x12\x42\x61lloonGalleryInfo\x12-\n\nrecordList\x18\x07 \x03(\x0b\x32\x19.HomeBalloonGalleryRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BalloonGalleryInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BalloonGalleryInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BALLOONGALLERYINFO._serialized_start=55
-  _BALLOONGALLERYINFO._serialized_end=118
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BALLOONGALLERYINFO']._serialized_start=60
+  _globals['_BALLOONGALLERYINFO']._serialized_end=127
 # @@protoc_insertion_point(module_scope)

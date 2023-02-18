@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FungusTrainingProgressDetail_pb2 as FungusTrainingProgressDetail__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$FungusFighterRuntimeDataNotify.proto\x1a\"FungusTrainingProgressDetail.proto\"X\n\x1e\x46ungusFighterRuntimeDataNotify\x12\x36\n\x0fprogress_detail\x18\x07 \x01(\x0b\x32\x1d.FungusTrainingProgressDetailb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$FungusFighterRuntimeDataNotify.proto\x1a\"FungusTrainingProgressDetail.proto\"W\n\x1e\x46ungusFighterRuntimeDataNotify\x12\x35\n\x0eprogressDetail\x18\x0e \x01(\x0b\x32\x1d.FungusTrainingProgressDetailB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusFighterRuntimeDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusFighterRuntimeDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FUNGUSFIGHTERRUNTIMEDATANOTIFY._serialized_start=76
-  _FUNGUSFIGHTERRUNTIMEDATANOTIFY._serialized_end=164
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FUNGUSFIGHTERRUNTIMEDATANOTIFY']._serialized_start=76
+  _globals['_FUNGUSFIGHTERRUNTIMEDATANOTIFY']._serialized_end=163
 # @@protoc_insertion_point(module_scope)

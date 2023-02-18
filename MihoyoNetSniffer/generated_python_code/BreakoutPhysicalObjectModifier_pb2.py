@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$BreakoutPhysicalObjectModifier.proto\"\xad\x02\n\x1e\x42reakoutPhysicalObjectModifier\x12\x0c\n\x04type\x18\x01 \x01(\r\x12\n\n\x02id\x18\x02 \x01(\r\x12\x0e\n\x06param1\x18\x03 \x01(\x05\x12\x0e\n\x06param2\x18\x04 \x01(\x05\x12\x0e\n\x06param3\x18\x05 \x01(\x05\x12\x0e\n\x06param4\x18\x06 \x01(\x05\x12\x0e\n\x06param5\x18\x07 \x01(\x05\x12\x0e\n\x06param6\x18\x08 \x01(\x05\x12\r\n\x05\x62ool1\x18\t \x01(\x08\x12\x10\n\x08\x64uration\x18\n \x01(\x05\x12\x10\n\x08\x65nd_time\x18\x0b \x01(\x05\x12\r\n\x05\x63ombo\x18\x0c \x01(\r\x12\x0f\n\x07peer_id\x18\r \x01(\r\x12\x12\n\nskill_type\x18\x0e \x01(\r\x12\r\n\x05level\x18\x0f \x01(\r\x12\x1b\n\x13\x63hoose_player_count\x18\x10 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$BreakoutPhysicalObjectModifier.proto\"\xb9\x02\n\x1e\x42reakoutPhysicalObjectModifier\x12\x0c\n\x04type\x18\x01 \x01(\r\x12\n\n\x02id\x18\x02 \x01(\r\x12\x0e\n\x06param1\x18\x03 \x01(\x05\x12\x0e\n\x06param2\x18\x04 \x01(\x05\x12\x0e\n\x06param3\x18\x05 \x01(\x05\x12\x13\n\x0bondeciihanm\x18\x06 \x01(\x05\x12\x13\n\x0b\x62\x63obaoidmmc\x18\x07 \x01(\x05\x12\x13\n\x0b\x62\x63mmggaidek\x18\x08 \x01(\x05\x12\x13\n\x0b\x64gbbbnffmlb\x18\t \x01(\x08\x12\x10\n\x08\x64uration\x18\n \x01(\x05\x12\x0f\n\x07\x65ndTime\x18\x0b \x01(\x05\x12\r\n\x05\x63ombo\x18\x0c \x01(\r\x12\x0e\n\x06peerId\x18\r \x01(\r\x12\x13\n\x0bhichllhajdp\x18\x0e \x01(\r\x12\r\n\x05level\x18\x0f \x01(\r\x12\x13\n\x0bnfheenapfmf\x18\x10 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BreakoutPhysicalObjectModifier_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BreakoutPhysicalObjectModifier_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BREAKOUTPHYSICALOBJECTMODIFIER._serialized_start=41
-  _BREAKOUTPHYSICALOBJECTMODIFIER._serialized_end=342
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BREAKOUTPHYSICALOBJECTMODIFIER']._serialized_start=41
+  _globals['_BREAKOUTPHYSICALOBJECTMODIFIER']._serialized_end=354
 # @@protoc_insertion_point(module_scope)

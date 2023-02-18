@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MassivePropParam.proto\"c\n\x10MassivePropParam\x12\x0c\n\x04type\x18\x01 \x01(\x05\x12\x1a\n\x12reaction_info_list\x18\x02 \x03(\r\x12\x12\n\nparam_list\x18\x03 \x03(\x02\x12\x11\n\tsync_flag\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MassivePropParam.proto\"]\n\x10MassivePropParam\x12\x0c\n\x04type\x18\x01 \x01(\x05\x12\x13\n\x0b\x62keclhnchpn\x18\x02 \x03(\r\x12\x11\n\tparamList\x18\x03 \x03(\x02\x12\x13\n\x0b\x65\x65jlkopeggc\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MassivePropParam_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MassivePropParam_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MASSIVEPROPPARAM._serialized_start=26
-  _MASSIVEPROPPARAM._serialized_end=125
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MASSIVEPROPPARAM']._serialized_start=26
+  _globals['_MASSIVEPROPPARAM']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

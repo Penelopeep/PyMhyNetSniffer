@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import WidgetCoolDownData_pb2 as WidgetCoolDownData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWidgetCoolDownNotify.proto\x1a\x18WidgetCoolDownData.proto\"\x87\x01\n\x14WidgetCoolDownNotify\x12\x37\n\x1anormal_cool_down_data_list\x18\x02 \x03(\x0b\x32\x13.WidgetCoolDownData\x12\x36\n\x19group_cool_down_data_list\x18\x0e \x03(\x0b\x32\x13.WidgetCoolDownDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWidgetCoolDownNotify.proto\x1a\x18WidgetCoolDownData.proto\"\x7f\n\x14WidgetCoolDownNotify\x12\x33\n\x16normalCoolDownDataList\x18\x0f \x03(\x0b\x32\x13.WidgetCoolDownData\x12\x32\n\x15groupCoolDownDataList\x18\n \x03(\x0b\x32\x13.WidgetCoolDownDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetCoolDownNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetCoolDownNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WIDGETCOOLDOWNNOTIFY._serialized_start=57
-  _WIDGETCOOLDOWNNOTIFY._serialized_end=192
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WIDGETCOOLDOWNNOTIFY']._serialized_start=56
+  _globals['_WIDGETCOOLDOWNNOTIFY']._serialized_end=183
 # @@protoc_insertion_point(module_scope)

@@ -11,18 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import BreakoutActionType_pb2 as BreakoutActionType__pb2
 import BreakoutVector2_pb2 as BreakoutVector2__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x42reakoutAction.proto\x1a\x15\x42reakoutVector2.proto\"\xc3\x05\n\x0e\x42reakoutAction\x12\x37\n\x0b\x61\x63tion_type\x18\x01 \x01(\x0e\x32\".BreakoutAction.BreakoutActionType\x12\x18\n\x10\x63lient_game_time\x18\x02 \x01(\x04\x12\x18\n\x10server_game_time\x18\x03 \x01(\x04\x12\x11\n\tis_failed\x18\x04 \x01(\x08\x12\x11\n\tpre_index\x18\x05 \x01(\r\x12\x11\n\tnew_index\x18\x06 \x01(\r\x12\x1d\n\x03pos\x18\x07 \x01(\x0b\x32\x10.BreakoutVector2\x12\"\n\x08move_dir\x18\x08 \x01(\x0b\x32\x10.BreakoutVector2\x12\r\n\x05speed\x18\t \x01(\x05\x12\x0f\n\x07peer_id\x18\n \x01(\r\x12\x14\n\x0c\x65lement_type\x18\x0b \x01(\r\x12\x1d\n\x15\x65lement_reaction_buff\x18\x0c \x01(\r\x12\x1c\n\x14speed_increase_count\x18\r \x01(\r\x12\x16\n\x0ehas_extra_ball\x18\x0e \x01(\x08\x12(\n\x0e\x65xtra_ball_dir\x18\x0f \x01(\x0b\x32\x10.BreakoutVector2\x12\x18\n\x10\x65xtra_ball_index\x18\x10 \x01(\r\x12\x0e\n\x06offset\x18\x11 \x01(\x05\x12\x1b\n\x13Unk3300_AIEBGJHBOHL\x18\x12 \x01(\x04\"\xcb\x01\n\x12\x42reakoutActionType\x12\x1d\n\x19\x42REAKOUT_ACTION_TYPE_NONE\x10\x00\x12$\n BREAKOUT_ACTION_TYPE_LAUNCH_BALL\x10\x01\x12%\n!BREAKOUT_ACTION_TYPE_DESTROY_BALL\x10\x02\x12\'\n#BREAKOUT_ACTION_TYPE_FALLING_OBJECT\x10\x03\x12 \n\x1c\x42REAKOUT_ACTION_TYPE_MISSILE\x10\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x42reakoutAction.proto\x1a\x18\x42reakoutActionType.proto\x1a\x15\x42reakoutVector2.proto\"\xc2\x03\n\x0e\x42reakoutAction\x12\'\n\nactionType\x18\x01 \x01(\x0e\x32\x13.BreakoutActionType\x12\x16\n\x0e\x63lientGameTime\x18\x02 \x01(\x04\x12\x16\n\x0eserverGameTime\x18\x03 \x01(\x04\x12\x13\n\x0bmbfjjacbmck\x18\x04 \x01(\x08\x12\x13\n\x0bgddolpoemjk\x18\x05 \x01(\r\x12\x13\n\x0bjoandihiadc\x18\x06 \x01(\r\x12\x1d\n\x03pos\x18\x07 \x01(\x0b\x32\x10.BreakoutVector2\x12%\n\x0bmjehpphliia\x18\x08 \x01(\x0b\x32\x10.BreakoutVector2\x12\r\n\x05speed\x18\t \x01(\x05\x12\x0e\n\x06peerId\x18\n \x01(\r\x12\x13\n\x0b\x65lementType\x18\x0b \x01(\r\x12\x13\n\x0binhflokdoal\x18\x0c \x01(\r\x12\x13\n\x0b\x61piembahlab\x18\r \x01(\r\x12\x13\n\x0bmhkdmdjeaan\x18\x0e \x01(\x08\x12%\n\x0b\x63jegmomlbck\x18\x0f \x01(\x0b\x32\x10.BreakoutVector2\x12\x13\n\x0bidngdpalicj\x18\x10 \x01(\r\x12\x0e\n\x06offset\x18\x11 \x01(\x05\x12\x13\n\x0blccmdkibdpf\x18\x12 \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BreakoutAction_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BreakoutAction_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BREAKOUTACTION._serialized_start=48
-  _BREAKOUTACTION._serialized_end=755
-  _BREAKOUTACTION_BREAKOUTACTIONTYPE._serialized_start=552
-  _BREAKOUTACTION_BREAKOUTACTIONTYPE._serialized_end=755
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BREAKOUTACTION']._serialized_start=74
+  _globals['_BREAKOUTACTION']._serialized_end=524
 # @@protoc_insertion_point(module_scope)

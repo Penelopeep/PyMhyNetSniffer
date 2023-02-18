@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CodexTypeData_pb2 as CodexTypeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ViewCodexReq.proto\x1a\x13\x43odexTypeData.proto\"6\n\x0cViewCodexReq\x12&\n\x0etype_data_list\x18\x0c \x03(\x0b\x32\x0e.CodexTypeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ViewCodexReq.proto\x1a\x13\x43odexTypeData.proto\"4\n\x0cViewCodexReq\x12$\n\x0ctypeDataList\x18\t \x03(\x0b\x32\x0e.CodexTypeDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ViewCodexReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ViewCodexReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _VIEWCODEXREQ._serialized_start=43
-  _VIEWCODEXREQ._serialized_end=97
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_VIEWCODEXREQ']._serialized_start=43
+  _globals['_VIEWCODEXREQ']._serialized_end=95
 # @@protoc_insertion_point(module_scope)

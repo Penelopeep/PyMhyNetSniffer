@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rUgcType.proto*5\n\x07UgcType\x12\x11\n\rUGC_TYPE_NONE\x10\x00\x12\x17\n\x13UGC_TYPE_MUSIC_GAME\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rUgcType.proto*5\n\x07UgcType\x12\x11\n\rUGC_TYPE_NONE\x10\x00\x12\x17\n\x13UGC_TYPE_MUSIC_GAME\x10\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UgcType_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UgcType_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _UGCTYPE._serialized_start=17
-  _UGCTYPE._serialized_end=70
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_UGCTYPE']._serialized_start=17
+  _globals['_UGCTYPE']._serialized_end=70
 # @@protoc_insertion_point(module_scope)

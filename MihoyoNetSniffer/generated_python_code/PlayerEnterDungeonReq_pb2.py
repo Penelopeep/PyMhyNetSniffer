@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import DungeonEnterPosInfo_pb2 as DungeonEnterPosInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerEnterDungeonReq.proto\x1a\x19\x44ungeonEnterPosInfo.proto\"k\n\x15PlayerEnterDungeonReq\x12\x12\n\ndungeon_id\x18\x04 \x01(\r\x12,\n\x0e\x65nter_pos_info\x18\t \x01(\x0b\x32\x14.DungeonEnterPosInfo\x12\x10\n\x08point_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerEnterDungeonReq.proto\x1a\x19\x44ungeonEnterPosInfo.proto\"g\n\x15PlayerEnterDungeonReq\x12\x11\n\tdungeonId\x18\x02 \x01(\r\x12\x0f\n\x07pointId\x18\t \x01(\r\x12*\n\x0c\x65nterPosInfo\x18\x04 \x01(\x0b\x32\x14.DungeonEnterPosInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerEnterDungeonReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerEnterDungeonReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERENTERDUNGEONREQ._serialized_start=58
-  _PLAYERENTERDUNGEONREQ._serialized_end=165
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERENTERDUNGEONREQ']._serialized_start=58
+  _globals['_PLAYERENTERDUNGEONREQ']._serialized_end=161
 # @@protoc_insertion_point(module_scope)

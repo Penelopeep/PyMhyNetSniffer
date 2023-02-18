@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGSkillPreviewReactionInfo_pb2 as GCGSkillPreviewReactionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(GCGSkillPreviewElementReactionInfo.proto\x1a!GCGSkillPreviewReactionInfo.proto\"\x93\x01\n\"GCGSkillPreviewElementReactionInfo\x12\x1b\n\x13Unk3300_JOBNBDJHAPJ\x18\x0c \x03(\r\x12\x1b\n\x13Unk3300_BELBNDNDGAO\x18\x0e \x03(\r\x12\x33\n\rreaction_list\x18\x01 \x03(\x0b\x32\x1c.GCGSkillPreviewReactionInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(GCGSkillPreviewElementReactionInfo.proto\x1a!GCGSkillPreviewReactionInfo.proto\"\x92\x01\n\"GCGSkillPreviewElementReactionInfo\x12\x1b\n\x13Unk3300_BELBNDNDGAO\x18\x0c \x03(\r\x12\x1b\n\x13Unk3300_JOBNBDJHAPJ\x18\x02 \x03(\r\x12\x32\n\x0creactionList\x18\t \x03(\x0b\x32\x1c.GCGSkillPreviewReactionInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSkillPreviewElementReactionInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSkillPreviewElementReactionInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSKILLPREVIEWELEMENTREACTIONINFO._serialized_start=80
-  _GCGSKILLPREVIEWELEMENTREACTIONINFO._serialized_end=227
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGSKILLPREVIEWELEMENTREACTIONINFO']._serialized_start=80
+  _globals['_GCGSKILLPREVIEWELEMENTREACTIONINFO']._serialized_end=226
 # @@protoc_insertion_point(module_scope)

@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x41iThreatInfo.proto\"y\n\x0c\x41iThreatInfo\x12\x35\n\rai_threat_map\x18\x0b \x03(\x0b\x32\x1e.AiThreatInfo.AiThreatMapEntry\x1a\x32\n\x10\x41iThreatMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x41iThreatInfo.proto\"w\n\x0c\x41iThreatInfo\x12\x33\n\x0b\x61iThreatMap\x18\r \x03(\x0b\x32\x1e.AiThreatInfo.AiThreatMapEntry\x1a\x32\n\x10\x41iThreatMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AiThreatInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AiThreatInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _AITHREATINFO_AITHREATMAPENTRY._options = None
   _AITHREATINFO_AITHREATMAPENTRY._serialized_options = b'8\001'
-  _AITHREATINFO._serialized_start=22
-  _AITHREATINFO._serialized_end=143
-  _AITHREATINFO_AITHREATMAPENTRY._serialized_start=93
-  _AITHREATINFO_AITHREATMAPENTRY._serialized_end=143
+  _globals['_AITHREATINFO']._serialized_start=22
+  _globals['_AITHREATINFO']._serialized_end=141
+  _globals['_AITHREATINFO_AITHREATMAPENTRY']._serialized_start=91
+  _globals['_AITHREATINFO_AITHREATMAPENTRY']._serialized_end=141
 # @@protoc_insertion_point(module_scope)

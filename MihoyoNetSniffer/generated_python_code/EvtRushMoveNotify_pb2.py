@@ -15,13 +15,15 @@ import EvtRushMoveInfo_pb2 as EvtRushMoveInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45vtRushMoveNotify.proto\x1a\x15\x45vtRushMoveInfo.proto\x1a\x11\x46orwardType.proto\"e\n\x11\x45vtRushMoveNotify\x12,\n\x12\x65vt_rush_move_info\x18\x01 \x01(\x0b\x32\x10.EvtRushMoveInfo\x12\"\n\x0c\x66orward_type\x18\n \x01(\x0e\x32\x0c.ForwardTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45vtRushMoveNotify.proto\x1a\x15\x45vtRushMoveInfo.proto\x1a\x11\x46orwardType.proto\"a\n\x11\x45vtRushMoveNotify\x12)\n\x0f\x65vtRushMoveInfo\x18\r \x01(\x0b\x32\x10.EvtRushMoveInfo\x12!\n\x0b\x66orwardType\x18\x01 \x01(\x0e\x32\x0c.ForwardTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtRushMoveNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtRushMoveNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EVTRUSHMOVENOTIFY._serialized_start=69
-  _EVTRUSHMOVENOTIFY._serialized_end=170
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_EVTRUSHMOVENOTIFY']._serialized_start=69
+  _globals['_EVTRUSHMOVENOTIFY']._serialized_end=166
 # @@protoc_insertion_point(module_scope)

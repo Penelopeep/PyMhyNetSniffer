@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import SumoDungeonAvatar_pb2 as SumoDungeonAvatar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SumoDungeonTeam.proto\x1a\x17SumoDungeonAvatar.proto\"B\n\x0fSumoDungeonTeam\x12/\n\x13\x64ungeon_avatar_list\x18\x0b \x03(\x0b\x32\x12.SumoDungeonAvatarb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SumoDungeonTeam.proto\x1a\x17SumoDungeonAvatar.proto\"@\n\x0fSumoDungeonTeam\x12-\n\x11\x64ungeonAvatarList\x18\x04 \x03(\x0b\x32\x12.SumoDungeonAvatarB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoDungeonTeam_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoDungeonTeam_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SUMODUNGEONTEAM._serialized_start=50
-  _SUMODUNGEONTEAM._serialized_end=116
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SUMODUNGEONTEAM']._serialized_start=50
+  _globals['_SUMODUNGEONTEAM']._serialized_end=114
 # @@protoc_insertion_point(module_scope)

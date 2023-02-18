@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"SummerTimeV2DungeonStageInfo.proto\"u\n\x1cSummerTimeV2DungeonStageInfo\x12\x0f\n\x07is_open\x18\x06 \x01(\x08\x12\x10\n\x08stage_id\x18\x03 \x01(\r\x12\x1f\n\x17is_prev_dungeon_succeed\x18\x0c \x01(\x08\x12\x11\n\topen_time\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"SummerTimeV2DungeonStageInfo.proto\"o\n\x1cSummerTimeV2DungeonStageInfo\x12\x1c\n\x14isPrevDungeonSucceed\x18\x04 \x01(\x08\x12\x0e\n\x06isOpen\x18\x0e \x01(\x08\x12\x10\n\x08openTime\x18\r \x01(\r\x12\x0f\n\x07stageId\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SummerTimeV2DungeonStageInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SummerTimeV2DungeonStageInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SUMMERTIMEV2DUNGEONSTAGEINFO._serialized_start=38
-  _SUMMERTIMEV2DUNGEONSTAGEINFO._serialized_end=155
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SUMMERTIMEV2DUNGEONSTAGEINFO']._serialized_start=38
+  _globals['_SUMMERTIMEV2DUNGEONSTAGEINFO']._serialized_end=149
 # @@protoc_insertion_point(module_scope)

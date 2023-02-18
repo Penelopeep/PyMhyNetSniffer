@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ChessEntranceInfo_pb2 as ChessEntranceInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43hessEntranceDetailInfo.proto\x1a\x17\x43hessEntranceInfo.proto\"@\n\x17\x43hessEntranceDetailInfo\x12%\n\tinfo_list\x18\t \x03(\x0b\x32\x12.ChessEntranceInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43hessEntranceDetailInfo.proto\x1a\x17\x43hessEntranceInfo.proto\"?\n\x17\x43hessEntranceDetailInfo\x12$\n\x08infoList\x18\x06 \x03(\x0b\x32\x12.ChessEntranceInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessEntranceDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessEntranceDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHESSENTRANCEDETAILINFO._serialized_start=58
-  _CHESSENTRANCEDETAILINFO._serialized_end=122
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHESSENTRANCEDETAILINFO']._serialized_start=58
+  _globals['_CHESSENTRANCEDETAILINFO']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ClientReconnectReason_pb2 as ClientReconnectReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43lientReconnectNotify.proto\x1a\x1b\x43lientReconnectReason.proto\"?\n\x15\x43lientReconnectNotify\x12&\n\x06reason\x18\x01 \x01(\x0e\x32\x16.ClientReconnectReasonb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43lientReconnectNotify.proto\x1a\x1b\x43lientReconnectReason.proto\"?\n\x15\x43lientReconnectNotify\x12&\n\x06reason\x18\x01 \x01(\x0e\x32\x16.ClientReconnectReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientReconnectNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientReconnectNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CLIENTRECONNECTNOTIFY._serialized_start=60
-  _CLIENTRECONNECTNOTIFY._serialized_end=123
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CLIENTRECONNECTNOTIFY']._serialized_start=60
+  _globals['_CLIENTRECONNECTNOTIFY']._serialized_end=123
 # @@protoc_insertion_point(module_scope)

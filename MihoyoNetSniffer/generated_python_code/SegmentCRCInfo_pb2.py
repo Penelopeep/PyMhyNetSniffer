@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SegmentCRCInfo.proto\"\\\n\x0eSegmentCRCInfo\x12\x0c\n\x04size\x18\x06 \x01(\r\x12\x0b\n\x03\x63rc\x18\x08 \x01(\t\x12\x0e\n\x06module\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x0e\n\x06offset\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SegmentCRCInfo.proto\"\\\n\x0eSegmentCRCInfo\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x0b\n\x03\x63rc\x18\x0c \x01(\t\x12\x0e\n\x06offset\x18\x05 \x01(\r\x12\x0e\n\x06module\x18\x0e \x01(\r\x12\x0c\n\x04size\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SegmentCRCInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SegmentCRCInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SEGMENTCRCINFO._serialized_start=24
-  _SEGMENTCRCINFO._serialized_end=116
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SEGMENTCRCINFO']._serialized_start=24
+  _globals['_SEGMENTCRCINFO']._serialized_end=116
 # @@protoc_insertion_point(module_scope)

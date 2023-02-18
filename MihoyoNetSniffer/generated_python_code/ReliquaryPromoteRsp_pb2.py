@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19ReliquaryPromoteRsp.proto\"\xb9\x01\n\x13ReliquaryPromoteRsp\x12\x1b\n\x13Unk3300_IALPGNADFKA\x18\x08 \x03(\r\x12\x1b\n\x13Unk3300_GGFCIPAKKDP\x18\t \x01(\r\x12\x1b\n\x13Unk3300_MGELABLMFOE\x18\r \x03(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x1d\n\x15target_reliquary_guid\x18\x06 \x01(\x04\x12\x1b\n\x13Unk3300_MBEBIACJNBB\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19ReliquaryPromoteRsp.proto\"\xab\x01\n\x13ReliquaryPromoteRsp\x12\x19\n\x11\x63urAppendPropList\x18\x0c \x03(\r\x12\x1b\n\x13targetReliquaryGuid\x18\x02 \x01(\x04\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x19\n\x11oldAppendPropList\x18\x0b \x03(\r\x12\x17\n\x0foldPromoteLevel\x18\x07 \x01(\r\x12\x17\n\x0f\x63urPromoteLevel\x18\x0f \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReliquaryPromoteRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReliquaryPromoteRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _RELIQUARYPROMOTERSP._serialized_start=30
-  _RELIQUARYPROMOTERSP._serialized_end=215
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_RELIQUARYPROMOTERSP']._serialized_start=30
+  _globals['_RELIQUARYPROMOTERSP']._serialized_end=201
 # @@protoc_insertion_point(module_scope)

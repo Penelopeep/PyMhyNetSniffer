@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import UgcType_pb2 as UgcType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetUgcBriefInfoReq.proto\x1a\rUgcType.proto\"B\n\x12GetUgcBriefInfoReq\x12\x10\n\x08ugc_guid\x18\x05 \x01(\x04\x12\x1a\n\x08ugc_type\x18\x01 \x01(\x0e\x32\x08.UgcTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetUgcBriefInfoReq.proto\x1a\rUgcType.proto\"@\n\x12GetUgcBriefInfoReq\x12\x19\n\x07ugcType\x18\n \x01(\x0e\x32\x08.UgcType\x12\x0f\n\x07ugcGuid\x18\x0b \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetUgcBriefInfoReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetUgcBriefInfoReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETUGCBRIEFINFOREQ._serialized_start=43
-  _GETUGCBRIEFINFOREQ._serialized_end=109
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETUGCBRIEFINFOREQ']._serialized_start=43
+  _globals['_GETUGCBRIEFINFOREQ']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

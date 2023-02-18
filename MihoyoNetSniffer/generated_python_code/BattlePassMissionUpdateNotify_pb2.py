@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import BattlePassMission_pb2 as BattlePassMission__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#BattlePassMissionUpdateNotify.proto\x1a\x17\x42\x61ttlePassMission.proto\"I\n\x1d\x42\x61ttlePassMissionUpdateNotify\x12(\n\x0cmission_list\x18\x01 \x03(\x0b\x32\x12.BattlePassMissionb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#BattlePassMissionUpdateNotify.proto\x1a\x17\x42\x61ttlePassMission.proto\"H\n\x1d\x42\x61ttlePassMissionUpdateNotify\x12\'\n\x0bmissionList\x18\n \x03(\x0b\x32\x12.BattlePassMissionB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattlePassMissionUpdateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattlePassMissionUpdateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BATTLEPASSMISSIONUPDATENOTIFY._serialized_start=64
-  _BATTLEPASSMISSIONUPDATENOTIFY._serialized_end=137
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BATTLEPASSMISSIONUPDATENOTIFY']._serialized_start=64
+  _globals['_BATTLEPASSMISSIONUPDATENOTIFY']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

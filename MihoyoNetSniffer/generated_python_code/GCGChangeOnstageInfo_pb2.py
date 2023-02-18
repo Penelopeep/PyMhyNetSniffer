@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGSkillPreviewInfo_pb2 as GCGSkillPreviewInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGChangeOnstageInfo.proto\x1a\x19GCGSkillPreviewInfo.proto\"v\n\x14GCGChangeOnstageInfo\x12\x10\n\x08is_quick\x18\x0b \x01(\x08\x12\x11\n\tcard_guid\x18\x06 \x01(\r\x12\x39\n\x1b\x63hange_onstage_preview_info\x18\x05 \x01(\x0b\x32\x14.GCGSkillPreviewInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGChangeOnstageInfo.proto\x1a\x19GCGSkillPreviewInfo.proto\"q\n\x14GCGChangeOnstageInfo\x12\x10\n\x08\x63\x61rdGuid\x18\x04 \x01(\r\x12\x36\n\x18\x63hangeOnstagePreviewInfo\x18\x08 \x01(\x0b\x32\x14.GCGSkillPreviewInfo\x12\x0f\n\x07isQuick\x18\x05 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGChangeOnstageInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGChangeOnstageInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGCHANGEONSTAGEINFO._serialized_start=57
-  _GCGCHANGEONSTAGEINFO._serialized_end=175
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGCHANGEONSTAGEINFO']._serialized_start=57
+  _globals['_GCGCHANGEONSTAGEINFO']._serialized_end=170
 # @@protoc_insertion_point(module_scope)

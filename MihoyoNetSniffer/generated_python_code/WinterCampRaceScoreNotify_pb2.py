@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWinterCampRaceScoreNotify.proto\":\n\x19WinterCampRaceScoreNotify\x12\x11\n\tmax_score\x18\t \x01(\r\x12\n\n\x02id\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWinterCampRaceScoreNotify.proto\"9\n\x19WinterCampRaceScoreNotify\x12\x10\n\x08maxScore\x18\x07 \x01(\r\x12\n\n\x02id\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampRaceScoreNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampRaceScoreNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINTERCAMPRACESCORENOTIFY._serialized_start=35
-  _WINTERCAMPRACESCORENOTIFY._serialized_end=93
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WINTERCAMPRACESCORENOTIFY']._serialized_start=35
+  _globals['_WINTERCAMPRACESCORENOTIFY']._serialized_end=92
 # @@protoc_insertion_point(module_scope)

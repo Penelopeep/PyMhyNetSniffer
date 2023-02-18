@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import BargainResultType_pb2 as BargainResultType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x42\x61rgainOfferPriceRsp.proto\x1a\x17\x42\x61rgainResultType.proto\"{\n\x14\x42\x61rgainOfferPriceRsp\x12\x14\n\x0cresult_param\x18\x0c \x01(\r\x12*\n\x0e\x62\x61rgain_result\x18\n \x01(\x0e\x32\x12.BargainResultType\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x10\n\x08\x63ur_mood\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x42\x61rgainOfferPriceRsp.proto\x1a\x17\x42\x61rgainResultType.proto\"x\n\x14\x42\x61rgainOfferPriceRsp\x12)\n\rbargainResult\x18\x02 \x01(\x0e\x32\x12.BargainResultType\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x0f\n\x07\x63urMood\x18\x07 \x01(\x05\x12\x13\n\x0bresultParam\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BargainOfferPriceRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BargainOfferPriceRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BARGAINOFFERPRICERSP._serialized_start=55
-  _BARGAINOFFERPRICERSP._serialized_end=178
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BARGAINOFFERPRICERSP']._serialized_start=55
+  _globals['_BARGAINOFFERPRICERSP']._serialized_end=175
 # @@protoc_insertion_point(module_scope)

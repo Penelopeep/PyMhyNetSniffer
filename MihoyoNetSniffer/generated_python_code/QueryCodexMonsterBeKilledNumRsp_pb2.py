@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%QueryCodexMonsterBeKilledNumRsp.proto\"\x83\x01\n\x1fQueryCodexMonsterBeKilledNumRsp\x12\x1b\n\x13Unk3300_ALELNLIODAO\x18\x0b \x03(\r\x12\x1b\n\x13Unk3300_INHAGEELNNC\x18\x05 \x03(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x15\n\rcodex_id_list\x18\n \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%QueryCodexMonsterBeKilledNumRsp.proto\"{\n\x1fQueryCodexMonsterBeKilledNumRsp\x12\x17\n\x0f\x62\x65KilledNumList\x18\x0e \x03(\r\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x13\n\x0b\x63odexIdList\x18\x04 \x03(\r\x12\x19\n\x11\x62\x65\x43\x61pturedNumList\x18\x05 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QueryCodexMonsterBeKilledNumRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QueryCodexMonsterBeKilledNumRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _QUERYCODEXMONSTERBEKILLEDNUMRSP._serialized_start=42
-  _QUERYCODEXMONSTERBEKILLEDNUMRSP._serialized_end=173
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_QUERYCODEXMONSTERBEKILLEDNUMRSP']._serialized_start=41
+  _globals['_QUERYCODEXMONSTERBEKILLEDNUMRSP']._serialized_end=164
 # @@protoc_insertion_point(module_scope)

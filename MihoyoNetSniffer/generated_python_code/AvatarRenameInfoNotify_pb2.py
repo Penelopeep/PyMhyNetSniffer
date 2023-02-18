@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import AvatarRenameInfo_pb2 as AvatarRenameInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x41vatarRenameInfoNotify.proto\x1a\x16\x41vatarRenameInfo.proto\"G\n\x16\x41vatarRenameInfoNotify\x12-\n\x12\x61vatar_rename_list\x18\x0b \x03(\x0b\x32\x11.AvatarRenameInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x41vatarRenameInfoNotify.proto\x1a\x16\x41vatarRenameInfo.proto\"E\n\x16\x41vatarRenameInfoNotify\x12+\n\x10\x61vatarRenameList\x18\x0c \x03(\x0b\x32\x11.AvatarRenameInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarRenameInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarRenameInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATARRENAMEINFONOTIFY._serialized_start=56
-  _AVATARRENAMEINFONOTIFY._serialized_end=127
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_AVATARRENAMEINFONOTIFY']._serialized_start=56
+  _globals['_AVATARRENAMEINFONOTIFY']._serialized_end=125
 # @@protoc_insertion_point(module_scope)

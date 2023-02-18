@@ -13,21 +13,23 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0bQuest.proto\"\xf1\x03\n\x05Quest\x12\x10\n\x08quest_id\x18\x01 \x01(\r\x12\r\n\x05state\x18\x02 \x01(\r\x12\x12\n\nstart_time\x18\x04 \x01(\r\x12\x11\n\tis_random\x18\x05 \x01(\x08\x12\x17\n\x0fparent_quest_id\x18\x06 \x01(\r\x12\x17\n\x0fquest_config_id\x18\x07 \x01(\r\x12\x17\n\x0fstart_game_time\x18\x08 \x01(\r\x12\x13\n\x0b\x61\x63\x63\x65pt_time\x18\t \x01(\r\x12\x17\n\x0flacked_npc_list\x18\n \x03(\r\x12\x1c\n\x14\x66inish_progress_list\x18\x0b \x03(\r\x12\x1a\n\x12\x66\x61il_progress_list\x18\x0c \x03(\r\x12\x30\n\x0elacked_npc_map\x18\r \x03(\x0b\x32\x18.Quest.LackedNpcMapEntry\x12\x19\n\x11lacked_place_list\x18\x0e \x03(\r\x12\x34\n\x10lacked_place_map\x18\x0f \x03(\x0b\x32\x1a.Quest.LackedPlaceMapEntry\x1a\x33\n\x11LackedNpcMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x35\n\x13LackedPlaceMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0bQuest.proto\"\xdb\x03\n\x05Quest\x12\x0f\n\x07questId\x18\x01 \x01(\r\x12\r\n\x05state\x18\x02 \x01(\r\x12\x11\n\tstartTime\x18\x04 \x01(\r\x12\x10\n\x08isRandom\x18\x05 \x01(\x08\x12\x15\n\rparentQuestId\x18\x06 \x01(\r\x12\x15\n\rquestConfigId\x18\x07 \x01(\r\x12\x15\n\rstartGameTime\x18\x08 \x01(\r\x12\x12\n\nacceptTime\x18\t \x01(\r\x12\x15\n\rlackedNpcList\x18\n \x03(\r\x12\x1a\n\x12\x66inishProgressList\x18\x0b \x03(\r\x12\x18\n\x10\x66\x61ilProgressList\x18\x0c \x03(\r\x12.\n\x0clackedNpcMap\x18\r \x03(\x0b\x32\x18.Quest.LackedNpcMapEntry\x12\x17\n\x0flackedPlaceList\x18\x0e \x03(\r\x12\x32\n\x0elackedPlaceMap\x18\x0f \x03(\x0b\x32\x1a.Quest.LackedPlaceMapEntry\x1a\x33\n\x11LackedNpcMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x35\n\x13LackedPlaceMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Quest_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Quest_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _QUEST_LACKEDNPCMAPENTRY._options = None
   _QUEST_LACKEDNPCMAPENTRY._serialized_options = b'8\001'
   _QUEST_LACKEDPLACEMAPENTRY._options = None
   _QUEST_LACKEDPLACEMAPENTRY._serialized_options = b'8\001'
-  _QUEST._serialized_start=16
-  _QUEST._serialized_end=513
-  _QUEST_LACKEDNPCMAPENTRY._serialized_start=407
-  _QUEST_LACKEDNPCMAPENTRY._serialized_end=458
-  _QUEST_LACKEDPLACEMAPENTRY._serialized_start=460
-  _QUEST_LACKEDPLACEMAPENTRY._serialized_end=513
+  _globals['_QUEST']._serialized_start=16
+  _globals['_QUEST']._serialized_end=491
+  _globals['_QUEST_LACKEDNPCMAPENTRY']._serialized_start=385
+  _globals['_QUEST_LACKEDNPCMAPENTRY']._serialized_end=436
+  _globals['_QUEST_LACKEDPLACEMAPENTRY']._serialized_start=438
+  _globals['_QUEST_LACKEDPLACEMAPENTRY']._serialized_end=491
 # @@protoc_insertion_point(module_scope)

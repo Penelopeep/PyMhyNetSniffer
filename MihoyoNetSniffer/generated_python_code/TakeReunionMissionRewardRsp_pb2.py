@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ReunionMissionInfo_pb2 as ReunionMissionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeReunionMissionRewardRsp.proto\x1a\x18ReunionMissionInfo.proto\"\x82\x01\n\x1bTakeReunionMissionRewardRsp\x12\x11\n\treward_id\x18\r \x01(\r\x12)\n\x0cmission_info\x18\x02 \x01(\x0b\x32\x13.ReunionMissionInfo\x12\x14\n\x0creward_index\x18\x06 \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeReunionMissionRewardRsp.proto\x1a\x18ReunionMissionInfo.proto\"\x7f\n\x1bTakeReunionMissionRewardRsp\x12(\n\x0bmissionInfo\x18\x0c \x01(\x0b\x32\x13.ReunionMissionInfo\x12\x13\n\x0brewardIndex\x18\x05 \x01(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x10\n\x08rewardId\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeReunionMissionRewardRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeReunionMissionRewardRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TAKEREUNIONMISSIONREWARDRSP._serialized_start=64
-  _TAKEREUNIONMISSIONREWARDRSP._serialized_end=194
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TAKEREUNIONMISSIONREWARDRSP']._serialized_start=63
+  _globals['_TAKEREUNIONMISSIONREWARDRSP']._serialized_end=190
 # @@protoc_insertion_point(module_scope)

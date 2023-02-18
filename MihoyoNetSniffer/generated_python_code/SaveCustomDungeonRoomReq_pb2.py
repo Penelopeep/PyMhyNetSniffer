@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import CustomDungeonRoom_pb2 as CustomDungeonRoom__pb2
 import CustomDungeonSetting_pb2 as CustomDungeonSetting__pb2
+import CustomDungeonRoom_pb2 as CustomDungeonRoom__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSaveCustomDungeonRoomReq.proto\x1a\x17\x43ustomDungeonRoom.proto\x1a\x1a\x43ustomDungeonSetting.proto\"\x8e\x01\n\x18SaveCustomDungeonRoomReq\x12&\n\x07setting\x18\x01 \x01(\x0b\x32\x15.CustomDungeonSetting\x12/\n\x13\x63ustom_dungeon_room\x18\x04 \x01(\x0b\x32\x12.CustomDungeonRoom\x12\x19\n\x11is_update_setting\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSaveCustomDungeonRoomReq.proto\x1a\x1a\x43ustomDungeonSetting.proto\x1a\x17\x43ustomDungeonRoom.proto\"\x8a\x01\n\x18SaveCustomDungeonRoomReq\x12&\n\x07setting\x18\x0e \x01(\x0b\x32\x15.CustomDungeonSetting\x12-\n\x11\x63ustomDungeonRoom\x18\x0f \x01(\x0b\x32\x12.CustomDungeonRoom\x12\x17\n\x0fisUpdateSetting\x18\x03 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SaveCustomDungeonRoomReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SaveCustomDungeonRoomReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SAVECUSTOMDUNGEONROOMREQ._serialized_start=88
-  _SAVECUSTOMDUNGEONROOMREQ._serialized_end=230
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SAVECUSTOMDUNGEONROOMREQ']._serialized_start=88
+  _globals['_SAVECUSTOMDUNGEONROOMREQ']._serialized_end=226
 # @@protoc_insertion_point(module_scope)

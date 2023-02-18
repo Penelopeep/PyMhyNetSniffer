@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ForgeQueueManipulateType_pb2 as ForgeQueueManipulateType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orgeQueueManipulateReq.proto\x1a\x1e\x46orgeQueueManipulateType.proto\"e\n\x17\x46orgeQueueManipulateReq\x12\x16\n\x0e\x66orge_queue_id\x18\x03 \x01(\r\x12\x32\n\x0fmanipulate_type\x18\x04 \x01(\x0e\x32\x19.ForgeQueueManipulateTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orgeQueueManipulateReq.proto\x1a\x1e\x46orgeQueueManipulateType.proto\"b\n\x17\x46orgeQueueManipulateReq\x12\x14\n\x0c\x66orgeQueueId\x18\x05 \x01(\r\x12\x31\n\x0emanipulateType\x18\x02 \x01(\x0e\x32\x19.ForgeQueueManipulateTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeQueueManipulateReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeQueueManipulateReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FORGEQUEUEMANIPULATEREQ._serialized_start=65
-  _FORGEQUEUEMANIPULATEREQ._serialized_end=166
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FORGEQUEUEMANIPULATEREQ']._serialized_start=65
+  _globals['_FORGEQUEUEMANIPULATEREQ']._serialized_end=163
 # @@protoc_insertion_point(module_scope)

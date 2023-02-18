@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetShopmallDataRsp.proto\"=\n\x12GetShopmallDataRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x16\n\x0eshop_type_list\x18\x07 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetShopmallDataRsp.proto\";\n\x12GetShopmallDataRsp\x12\x14\n\x0cshopTypeList\x18\n \x03(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetShopmallDataRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetShopmallDataRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETSHOPMALLDATARSP._serialized_start=28
-  _GETSHOPMALLDATARSP._serialized_end=89
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETSHOPMALLDATARSP']._serialized_start=28
+  _globals['_GETSHOPMALLDATARSP']._serialized_end=87
 # @@protoc_insertion_point(module_scope)

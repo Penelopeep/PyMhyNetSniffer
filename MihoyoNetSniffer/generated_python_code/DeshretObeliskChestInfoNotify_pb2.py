@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import DeshretObeliskChestInfo_pb2 as DeshretObeliskChestInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DeshretObeliskChestInfoNotify.proto\x1a\x1d\x44\x65shretObeliskChestInfo.proto\"R\n\x1d\x44\x65shretObeliskChestInfoNotify\x12\x31\n\x0f\x63hest_info_list\x18\x06 \x03(\x0b\x32\x18.DeshretObeliskChestInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DeshretObeliskChestInfoNotify.proto\x1a\x1d\x44\x65shretObeliskChestInfo.proto\"P\n\x1d\x44\x65shretObeliskChestInfoNotify\x12/\n\rchestInfoList\x18\x04 \x03(\x0b\x32\x18.DeshretObeliskChestInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeshretObeliskChestInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeshretObeliskChestInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DESHRETOBELISKCHESTINFONOTIFY._serialized_start=70
-  _DESHRETOBELISKCHESTINFONOTIFY._serialized_end=152
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DESHRETOBELISKCHESTINFONOTIFY']._serialized_start=70
+  _globals['_DESHRETOBELISKCHESTINFONOTIFY']._serialized_end=150
 # @@protoc_insertion_point(module_scope)

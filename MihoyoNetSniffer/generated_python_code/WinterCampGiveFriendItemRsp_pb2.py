@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!WinterCampGiveFriendItemRsp.proto\"J\n\x1bWinterCampGiveFriendItemRsp\x12\x1a\n\x12limit_item_id_list\x18\x03 \x03(\r\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!WinterCampGiveFriendItemRsp.proto\"G\n\x1bWinterCampGiveFriendItemRsp\x12\x17\n\x0flimitItemIdList\x18\x07 \x03(\r\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampGiveFriendItemRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampGiveFriendItemRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINTERCAMPGIVEFRIENDITEMRSP._serialized_start=37
-  _WINTERCAMPGIVEFRIENDITEMRSP._serialized_end=111
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WINTERCAMPGIVEFRIENDITEMRSP']._serialized_start=37
+  _globals['_WINTERCAMPGIVEFRIENDITEMRSP']._serialized_end=108
 # @@protoc_insertion_point(module_scope)

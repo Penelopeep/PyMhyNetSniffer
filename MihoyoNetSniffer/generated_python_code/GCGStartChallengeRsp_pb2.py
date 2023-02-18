@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGLevelType_pb2 as GCGLevelType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGStartChallengeRsp.proto\x1a\x12GCGLevelType.proto\"o\n\x14GCGStartChallengeRsp\x12\x11\n\tconfig_id\x18\x08 \x01(\r\x12\x10\n\x08level_id\x18\x05 \x01(\r\x12!\n\nlevel_type\x18\x0b \x01(\x0e\x32\r.GCGLevelType\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGStartChallengeRsp.proto\x1a\x12GCGLevelType.proto\"\x80\x01\n\x14GCGStartChallengeRsp\x12\"\n\x0bmegbpmengog\x18\x0f \x03(\x0b\x32\r.GCGLevelType\x12\"\n\x0bnojngpppded\x18\x05 \x03(\x0b\x32\r.GCGLevelType\x12 \n\tlevelType\x18\x0c \x01(\x0b\x32\r.GCGLevelTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGStartChallengeRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGStartChallengeRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSTARTCHALLENGERSP._serialized_start=50
-  _GCGSTARTCHALLENGERSP._serialized_end=161
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGSTARTCHALLENGERSP']._serialized_start=51
+  _globals['_GCGSTARTCHALLENGERSP']._serialized_end=179
 # @@protoc_insertion_point(module_scope)

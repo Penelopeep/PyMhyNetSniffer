@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fMistTrialFloorLevelNotify.proto\"J\n\x19MistTrialFloorLevelNotify\x12\x18\n\x10\x64ungeon_scene_id\x18\x06 \x01(\r\x12\x13\n\x0b\x66loor_level\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fMistTrialFloorLevelNotify.proto\"G\n\x19MistTrialFloorLevelNotify\x12\x16\n\x0e\x64ungeonSceneId\x18\t \x01(\r\x12\x12\n\nfloorLevel\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialFloorLevelNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialFloorLevelNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MISTTRIALFLOORLEVELNOTIFY._serialized_start=35
-  _MISTTRIALFLOORLEVELNOTIFY._serialized_end=109
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MISTTRIALFLOORLEVELNOTIFY']._serialized_start=35
+  _globals['_MISTTRIALFLOORLEVELNOTIFY']._serialized_end=106
 # @@protoc_insertion_point(module_scope)

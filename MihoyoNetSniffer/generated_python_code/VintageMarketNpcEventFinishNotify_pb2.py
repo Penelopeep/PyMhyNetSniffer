@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'VintageMarketNpcEventFinishNotify.proto\"a\n!VintageMarketNpcEventFinishNotify\x12\x0e\n\x06\x63oin_a\x18\x03 \x01(\r\x12\x0e\n\x06\x63oin_c\x18\t \x01(\r\x12\x1c\n\x14unlock_strategy_list\x18\x0c \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'VintageMarketNpcEventFinishNotify.proto\"]\n!VintageMarketNpcEventFinishNotify\x12\x1a\n\x12unlockStrategyList\x18\x0f \x03(\r\x12\r\n\x05\x63oinA\x18\x0c \x01(\r\x12\r\n\x05\x63oinC\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageMarketNpcEventFinishNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageMarketNpcEventFinishNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _VINTAGEMARKETNPCEVENTFINISHNOTIFY._serialized_start=43
-  _VINTAGEMARKETNPCEVENTFINISHNOTIFY._serialized_end=140
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_VINTAGEMARKETNPCEVENTFINISHNOTIFY']._serialized_start=43
+  _globals['_VINTAGEMARKETNPCEVENTFINISHNOTIFY']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GearColumnInfo.proto\"\x95\x01\n\x0eGearColumnInfo\x12\x1b\n\x13Unk3300_GHIBPOIAIGF\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_KEEGLHMBAKM\x18\x08 \x01(\x08\x12\x1b\n\x13Unk3300_EDLLMBGNDEH\x18\x02 \x01(\r\x12\x0f\n\x07gear_id\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_HGIKKDOBANK\x18\x0f \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GearColumnInfo.proto\"\x94\x01\n\x0eGearColumnInfo\x12\x1b\n\x13Unk3300_HGIKKDOBANK\x18\t \x01(\x08\x12\x0e\n\x06gearId\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_KEEGLHMBAKM\x18\x08 \x01(\x08\x12\x1b\n\x13Unk3300_GHIBPOIAIGF\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_EDLLMBGNDEH\x18\x0f \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GearColumnInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GearColumnInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GEARCOLUMNINFO._serialized_start=25
-  _GEARCOLUMNINFO._serialized_end=174
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GEARCOLUMNINFO']._serialized_start=25
+  _globals['_GEARCOLUMNINFO']._serialized_end=173
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ChangeCustomDungeonRoomRsp.proto\">\n\x1a\x43hangeCustomDungeonRoomRsp\x12\x0f\n\x07room_id\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ChangeCustomDungeonRoomRsp.proto\"=\n\x1a\x43hangeCustomDungeonRoomRsp\x12\x0e\n\x06roomId\x18\n \x01(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeCustomDungeonRoomRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeCustomDungeonRoomRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHANGECUSTOMDUNGEONROOMRSP._serialized_start=36
-  _CHANGECUSTOMDUNGEONROOMRSP._serialized_end=98
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHANGECUSTOMDUNGEONROOMRSP']._serialized_start=36
+  _globals['_CHANGECUSTOMDUNGEONROOMRSP']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

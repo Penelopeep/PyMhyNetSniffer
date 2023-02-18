@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TakeoffEquipRsp.proto\"E\n\x0fTakeoffEquipRsp\x12\x0c\n\x04slot\x18\x03 \x01(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x13\n\x0b\x61vatar_guid\x18\x07 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TakeoffEquipRsp.proto\"D\n\x0fTakeoffEquipRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x0c\n\x04slot\x18\x03 \x01(\r\x12\x12\n\navatarGuid\x18\x05 \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeoffEquipRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeoffEquipRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TAKEOFFEQUIPRSP._serialized_start=25
-  _TAKEOFFEQUIPRSP._serialized_end=94
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TAKEOFFEQUIPRSP']._serialized_start=25
+  _globals['_TAKEOFFEQUIPRSP']._serialized_end=93
 # @@protoc_insertion_point(module_scope)

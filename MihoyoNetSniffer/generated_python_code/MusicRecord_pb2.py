@@ -11,16 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_AAAMOFPACEA_pb2 as Unk2700__AAAMOFPACEA__pb2
+import UgcMusicTrack_pb2 as UgcMusicTrack__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11MusicRecord.proto\x1a\x19Unk2700_AAAMOFPACEA.proto\"]\n\x0bMusicRecord\x12\x31\n\x13Unk2700_MBJFOAGKKDJ\x18\x04 \x03(\x0b\x32\x14.Unk2700_AAAMOFPACEA\x12\x1b\n\x13Unk2700_DFIBAIILJHN\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11MusicRecord.proto\x1a\x13UgcMusicTrack.proto\"F\n\x0bMusicRecord\x12&\n\x0emusicTrackList\x18\x03 \x03(\x0b\x32\x0e.UgcMusicTrack\x12\x0f\n\x07musicId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MusicRecord_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MusicRecord_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MUSICRECORD._serialized_start=48
-  _MUSICRECORD._serialized_end=141
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MUSICRECORD']._serialized_start=42
+  _globals['_MUSICRECORD']._serialized_end=112
 # @@protoc_insertion_point(module_scope)

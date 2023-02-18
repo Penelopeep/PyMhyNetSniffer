@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ParentQuest_pb2 as ParentQuest__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46inishedParentQuestNotify.proto\x1a\x11ParentQuest.proto\"D\n\x19\x46inishedParentQuestNotify\x12\'\n\x11parent_quest_list\x18\r \x03(\x0b\x32\x0c.ParentQuestb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46inishedParentQuestNotify.proto\x1a\x11ParentQuest.proto\"B\n\x19\x46inishedParentQuestNotify\x12%\n\x0fparentQuestList\x18\x03 \x03(\x0b\x32\x0c.ParentQuestB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FinishedParentQuestNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FinishedParentQuestNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FINISHEDPARENTQUESTNOTIFY._serialized_start=54
-  _FINISHEDPARENTQUESTNOTIFY._serialized_end=122
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FINISHEDPARENTQUESTNOTIFY']._serialized_start=54
+  _globals['_FINISHEDPARENTQUESTNOTIFY']._serialized_end=120
 # @@protoc_insertion_point(module_scope)

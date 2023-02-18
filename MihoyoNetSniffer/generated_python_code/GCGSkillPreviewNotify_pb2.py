@@ -16,13 +16,15 @@ import GCGSkillPreviewInfo_pb2 as GCGSkillPreviewInfo__pb2
 import GCGSkillPreviewPlayCardInfo_pb2 as GCGSkillPreviewPlayCardInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGCGSkillPreviewNotify.proto\x1a\x1aGCGChangeOnstageInfo.proto\x1a\x19GCGSkillPreviewInfo.proto\x1a!GCGSkillPreviewPlayCardInfo.proto\"\xed\x01\n\x15GCGSkillPreviewNotify\x12\x15\n\rcontroller_id\x18\r \x01(\r\x12\x30\n\x12skill_preview_list\x18\x0f \x03(\x0b\x32\x14.GCGSkillPreviewInfo\x12:\n\x1b\x63hange_onstage_preview_list\x18\x03 \x03(\x0b\x32\x15.GCGChangeOnstageInfo\x12\x34\n\x0eplay_card_list\x18\x0b \x03(\x0b\x32\x1c.GCGSkillPreviewPlayCardInfo\x12\x19\n\x11onstage_card_guid\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGCGSkillPreviewNotify.proto\x1a\x1aGCGChangeOnstageInfo.proto\x1a\x19GCGSkillPreviewInfo.proto\x1a!GCGSkillPreviewPlayCardInfo.proto\"\xe3\x01\n\x15GCGSkillPreviewNotify\x12\x37\n\x18\x63hangeOnstagePreviewList\x18\x02 \x03(\x0b\x32\x15.GCGChangeOnstageInfo\x12\x14\n\x0c\x63ontrollerId\x18\x03 \x01(\r\x12.\n\x10skillPreviewList\x18\x06 \x03(\x0b\x32\x14.GCGSkillPreviewInfo\x12\x32\n\x0cplayCardList\x18\t \x03(\x0b\x32\x1c.GCGSkillPreviewPlayCardInfo\x12\x17\n\x0fonstageCardGuid\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSkillPreviewNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSkillPreviewNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSKILLPREVIEWNOTIFY._serialized_start=122
-  _GCGSKILLPREVIEWNOTIFY._serialized_end=359
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGSKILLPREVIEWNOTIFY']._serialized_start=122
+  _globals['_GCGSKILLPREVIEWNOTIFY']._serialized_end=349
 # @@protoc_insertion_point(module_scope)

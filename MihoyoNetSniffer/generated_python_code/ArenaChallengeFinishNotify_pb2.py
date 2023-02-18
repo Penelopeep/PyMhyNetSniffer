@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ArenaChallengeChildChallengeInfo_pb2 as ArenaChallengeChildChallengeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ArenaChallengeFinishNotify.proto\x1a&ArenaChallengeChildChallengeInfo.proto\"\xab\x01\n\x1a\x41renaChallengeFinishNotify\x12\x12\n\nis_success\x18\x08 \x01(\x08\x12\x1b\n\x13Unk3300_FDFNFLAKONG\x18\x03 \x01(\r\x12?\n\x14\x63hild_challenge_list\x18\x0e \x03(\x0b\x32!.ArenaChallengeChildChallengeInfo\x12\x1b\n\x13Unk3300_DBHAGHMMLAI\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ArenaChallengeFinishNotify.proto\x1a&ArenaChallengeChildChallengeInfo.proto\"\xa8\x01\n\x1a\x41renaChallengeFinishNotify\x12\x11\n\tisSuccess\x18\x07 \x01(\x08\x12=\n\x12\x63hildChallengeList\x18\x06 \x03(\x0b\x32!.ArenaChallengeChildChallengeInfo\x12\x1b\n\x13Unk3300_DBHAGHMMLAI\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_FDFNFLAKONG\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ArenaChallengeFinishNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ArenaChallengeFinishNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ARENACHALLENGEFINISHNOTIFY._serialized_start=77
-  _ARENACHALLENGEFINISHNOTIFY._serialized_end=248
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ARENACHALLENGEFINISHNOTIFY']._serialized_start=77
+  _globals['_ARENACHALLENGEFINISHNOTIFY']._serialized_end=245
 # @@protoc_insertion_point(module_scope)

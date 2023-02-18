@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import Reason_pb2 as Reason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15PlayerLogoutReq.proto\"\x8b\x02\n\x0fPlayerLogoutReq\x12\'\n\x06reason\x18\t \x01(\x0e\x32\x17.PlayerLogoutReq.Reason\"\xce\x01\n\x06Reason\x12\x15\n\x11REASON_DISCONNECT\x10\x00\x12\x15\n\x11REASON_CLIENT_REQ\x10\x01\x12\x12\n\x0eREASON_TIMEOUT\x10\x02\x12\x14\n\x10REASON_ADMIN_REQ\x10\x03\x12\x17\n\x13REASON_SERVER_CLOSE\x10\x04\x12\x13\n\x0fREASON_GM_CLEAR\x10\x05\x12\x1a\n\x16REASON_PLAYER_TRANSFER\x10\x06\x12\"\n\x1eREASON_CLIENT_CHECKSUM_INVALID\x10\x07\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15PlayerLogoutReq.proto\x1a\x0cReason.proto\"*\n\x0fPlayerLogoutReq\x12\x17\n\x06reason\x18\x01 \x01(\x0e\x32\x07.ReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerLogoutReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerLogoutReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERLOGOUTREQ._serialized_start=26
-  _PLAYERLOGOUTREQ._serialized_end=293
-  _PLAYERLOGOUTREQ_REASON._serialized_start=87
-  _PLAYERLOGOUTREQ_REASON._serialized_end=293
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERLOGOUTREQ']._serialized_start=39
+  _globals['_PLAYERLOGOUTREQ']._serialized_end=81
 # @@protoc_insertion_point(module_scope)

@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import LunaRiteHintPoint_pb2 as LunaRiteHintPoint__pb2
 import LunaRiteHintStatusType_pb2 as LunaRiteHintStatusType__pb2
+import LunaRiteHintPoint_pb2 as LunaRiteHintPoint__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aLunaRiteHintPointRsp.proto\x1a\x17LunaRiteHintPoint.proto\x1a\x1cLunaRiteHintStatusType.proto\"\x8e\x01\n\x14LunaRiteHintPointRsp\x12\x0f\n\x07\x61rea_id\x18\t \x01(\r\x12&\n\nhint_point\x18\x0b \x03(\x0b\x32\x12.LunaRiteHintPoint\x12,\n\x0bhint_status\x18\x05 \x01(\x0e\x32\x17.LunaRiteHintStatusType\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aLunaRiteHintPointRsp.proto\x1a\x1cLunaRiteHintStatusType.proto\x1a\x17LunaRiteHintPoint.proto\"\x8b\x01\n\x14LunaRiteHintPointRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x0e\n\x06\x61reaId\x18\x05 \x01(\r\x12+\n\nhintStatus\x18\x03 \x01(\x0e\x32\x17.LunaRiteHintStatusType\x12%\n\thintPoint\x18\x0c \x03(\x0b\x32\x12.LunaRiteHintPointB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteHintPointRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteHintPointRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LUNARITEHINTPOINTRSP._serialized_start=86
-  _LUNARITEHINTPOINTRSP._serialized_end=228
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LUNARITEHINTPOINTRSP']._serialized_start=86
+  _globals['_LUNARITEHINTPOINTRSP']._serialized_end=225
 # @@protoc_insertion_point(module_scope)

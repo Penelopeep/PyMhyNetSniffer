@@ -15,13 +15,15 @@ import CustomDungeonBanInfo_pb2 as CustomDungeonBanInfo__pb2
 import CustomDungeonBrief_pb2 as CustomDungeonBrief__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GetCustomDungeonRsp.proto\x1a\x1a\x43ustomDungeonBanInfo.proto\x1a\x18\x43ustomDungeonBrief.proto\"x\n\x13GetCustomDungeonRsp\x12\'\n\nbrief_list\x18\x05 \x03(\x0b\x32\x13.CustomDungeonBrief\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\'\n\x08\x62\x61n_info\x18\n \x01(\x0b\x32\x15.CustomDungeonBanInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GetCustomDungeonRsp.proto\x1a\x1a\x43ustomDungeonBanInfo.proto\x1a\x18\x43ustomDungeonBrief.proto\"v\n\x13GetCustomDungeonRsp\x12&\n\x07\x62\x61nInfo\x18\x0e \x01(\x0b\x32\x15.CustomDungeonBanInfo\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12&\n\tbriefList\x18\x0c \x03(\x0b\x32\x13.CustomDungeonBriefB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetCustomDungeonRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetCustomDungeonRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETCUSTOMDUNGEONRSP._serialized_start=83
-  _GETCUSTOMDUNGEONRSP._serialized_end=203
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETCUSTOMDUNGEONRSP']._serialized_start=83
+  _globals['_GETCUSTOMDUNGEONRSP']._serialized_end=201
 # @@protoc_insertion_point(module_scope)

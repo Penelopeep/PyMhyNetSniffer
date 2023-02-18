@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomePlantFieldStatus_pb2 as HomePlantFieldStatus__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomePlantSubFieldData.proto\x1a\x1aHomePlantFieldStatus.proto\"\xa8\x01\n\x15HomePlantSubFieldData\x12+\n\x0c\x66ield_status\x18\x05 \x01(\x0e\x32\x15.HomePlantFieldStatus\x12\x1b\n\x13Unk3300_IELHEAAMAKG\x18\x07 \x01(\r\x12\x16\n\x0e\x65ntity_id_list\x18\x0c \x03(\r\x12\x10\n\x08\x65nd_time\x18\x06 \x01(\x07\x12\x1b\n\x13Unk3300_GAJHLGKLBBK\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomePlantSubFieldData.proto\x1a\x1aHomePlantFieldStatus.proto\"\x90\x01\n\x15HomePlantSubFieldData\x12\x0f\n\x07\x65ndTime\x18\x0f \x01(\r\x12\x14\n\x0c\x65ntityIdList\x18\x04 \x03(\r\x12\x14\n\x0chomeGatherId\x18\n \x01(\r\x12*\n\x0b\x66ieldStatus\x18\x08 \x01(\x0e\x32\x15.HomePlantFieldStatus\x12\x0e\n\x06seedId\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomePlantSubFieldData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomePlantSubFieldData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEPLANTSUBFIELDDATA._serialized_start=60
-  _HOMEPLANTSUBFIELDDATA._serialized_end=228
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEPLANTSUBFIELDDATA']._serialized_start=60
+  _globals['_HOMEPLANTSUBFIELDDATA']._serialized_end=204
 # @@protoc_insertion_point(module_scope)

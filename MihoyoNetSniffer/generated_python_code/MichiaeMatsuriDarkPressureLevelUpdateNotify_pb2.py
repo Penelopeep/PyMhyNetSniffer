@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n1MichiaeMatsuriDarkPressureLevelUpdateNotify.proto\"J\n+MichiaeMatsuriDarkPressureLevelUpdateNotify\x12\x1b\n\x13\x64\x61rk_pressure_level\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n1MichiaeMatsuriDarkPressureLevelUpdateNotify.proto\"H\n+MichiaeMatsuriDarkPressureLevelUpdateNotify\x12\x19\n\x11\x64\x61rkPressureLevel\x18\x0f \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MichiaeMatsuriDarkPressureLevelUpdateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MichiaeMatsuriDarkPressureLevelUpdateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MICHIAEMATSURIDARKPRESSURELEVELUPDATENOTIFY._serialized_start=53
-  _MICHIAEMATSURIDARKPRESSURELEVELUPDATENOTIFY._serialized_end=127
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MICHIAEMATSURIDARKPRESSURELEVELUPDATENOTIFY']._serialized_start=53
+  _globals['_MICHIAEMATSURIDARKPRESSURELEVELUPDATENOTIFY']._serialized_end=125
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41skAddFriendRsp.proto\"E\n\x0f\x41skAddFriendRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x12\n\ntarget_uid\x18\t \x01(\r\x12\r\n\x05param\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41skAddFriendRsp.proto\"D\n\x0f\x41skAddFriendRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\r\n\x05param\x18\r \x01(\r\x12\x11\n\ttargetUid\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AskAddFriendRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AskAddFriendRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ASKADDFRIENDRSP._serialized_start=25
-  _ASKADDFRIENDRSP._serialized_end=94
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ASKADDFRIENDRSP']._serialized_start=25
+  _globals['_ASKADDFRIENDRSP']._serialized_end=93
 # @@protoc_insertion_point(module_scope)

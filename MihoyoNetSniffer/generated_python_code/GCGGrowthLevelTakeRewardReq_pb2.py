@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GCGGrowthLevelTakeRewardReq.proto\",\n\x1bGCGGrowthLevelTakeRewardReq\x12\r\n\x05level\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GCGGrowthLevelTakeRewardReq.proto\"9\n\x1bGCGGrowthLevelTakeRewardReq\x12\x0b\n\x03\x65xp\x18\x0f \x01(\r\x12\r\n\x05level\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGGrowthLevelTakeRewardReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGGrowthLevelTakeRewardReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGGROWTHLEVELTAKEREWARDREQ._serialized_start=37
-  _GCGGROWTHLEVELTAKEREWARDREQ._serialized_end=81
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGGROWTHLEVELTAKEREWARDREQ']._serialized_start=37
+  _globals['_GCGGROWTHLEVELTAKEREWARDREQ']._serialized_end=94
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import RogueDiaryAvatar_pb2 as RogueDiaryAvatar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cStartRogueDiaryPlayRsp.proto\x1a\x16RogueDiaryAvatar.proto\"\x97\x01\n\x16StartRogueDiaryPlayRsp\x12&\n\x0b\x61vatar_list\x18\x0f \x03(\x0b\x32\x11.RogueDiaryAvatar\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12,\n\x11trial_avatar_list\x18\t \x03(\x0b\x32\x11.RogueDiaryAvatar\x12\x16\n\x0erand_card_list\x18\x02 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cStartRogueDiaryPlayRsp.proto\x1a\x16RogueDiaryAvatar.proto\"\x92\x01\n\x16StartRogueDiaryPlayRsp\x12*\n\x0ftrialAvatarList\x18\x08 \x03(\x0b\x32\x11.RogueDiaryAvatar\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x14\n\x0crandCardList\x18\x02 \x03(\r\x12%\n\navatarList\x18\r \x03(\x0b\x32\x11.RogueDiaryAvatarB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StartRogueDiaryPlayRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StartRogueDiaryPlayRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _STARTROGUEDIARYPLAYRSP._serialized_start=57
-  _STARTROGUEDIARYPLAYRSP._serialized_end=208
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_STARTROGUEDIARYPLAYRSP']._serialized_start=57
+  _globals['_STARTROGUEDIARYPLAYRSP']._serialized_end=203
 # @@protoc_insertion_point(module_scope)

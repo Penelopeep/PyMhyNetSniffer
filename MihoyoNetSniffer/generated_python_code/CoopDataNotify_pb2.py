@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CoopChapter_pb2 as CoopChapter__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x43oopDataNotify.proto\x1a\x11\x43oopChapter.proto\"\x83\x01\n\x0e\x43oopDataNotify\x12\x18\n\x10is_have_progress\x18\x0b \x01(\x08\x12\x16\n\x0e\x63ur_coop_point\x18\x01 \x01(\r\x12\x1b\n\x13viewed_chapter_list\x18\x06 \x03(\r\x12\"\n\x0c\x63hapter_list\x18\x03 \x03(\x0b\x32\x0c.CoopChapterb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x43oopDataNotify.proto\x1a\x11\x43oopChapter.proto\"|\n\x0e\x43oopDataNotify\x12\x19\n\x11viewedChapterList\x18\x08 \x03(\r\x12\x16\n\x0eisHaveProgress\x18\x0e \x01(\x08\x12!\n\x0b\x63hapterList\x18\x0c \x03(\x0b\x32\x0c.CoopChapter\x12\x14\n\x0c\x63urCoopPoint\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _COOPDATANOTIFY._serialized_start=44
-  _COOPDATANOTIFY._serialized_end=175
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_COOPDATANOTIFY']._serialized_start=43
+  _globals['_COOPDATANOTIFY']._serialized_end=167
 # @@protoc_insertion_point(module_scope)

@@ -15,13 +15,15 @@ import GCGActionType_pb2 as GCGActionType__pb2
 import GCGMessage_pb2 as GCGMessage__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GCGMessagePack.proto\x1a\x13GCGActionType.proto\x1a\x10GCGMessage.proto\"k\n\x0eGCGMessagePack\x12#\n\x0b\x61\x63tion_type\x18\t \x01(\x0e\x32\x0e.GCGActionType\x12\x1d\n\x08msg_list\x18\x05 \x03(\x0b\x32\x0b.GCGMessage\x12\x15\n\rcontroller_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GCGMessagePack.proto\x1a\x13GCGActionType.proto\x1a\x10GCGMessage.proto\"}\n\x0eGCGMessagePack\x12\x14\n\x0c\x63ontrollerId\x18\x0c \x01(\r\x12\x13\n\x0bijojhencdld\x18\x01 \x01(\r\x12\x1c\n\x07msgList\x18\x03 \x03(\x0b\x32\x0b.GCGMessage\x12\"\n\nactionType\x18\x08 \x01(\x0e\x32\x0e.GCGActionTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMessagePack_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMessagePack_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMESSAGEPACK._serialized_start=63
-  _GCGMESSAGEPACK._serialized_end=170
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMESSAGEPACK']._serialized_start=63
+  _globals['_GCGMESSAGEPACK']._serialized_end=188
 # @@protoc_insertion_point(module_scope)

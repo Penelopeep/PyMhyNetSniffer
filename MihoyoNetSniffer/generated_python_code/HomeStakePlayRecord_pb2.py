@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeGroupPlayerInfo_pb2 as HomeGroupPlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeStakePlayRecord.proto\x1a\x19HomeGroupPlayerInfo.proto\"`\n\x13HomeStakePlayRecord\x12\x36\n\x18\x65ngaged_player_info_list\x18\x07 \x03(\x0b\x32\x14.HomeGroupPlayerInfo\x12\x11\n\ttimestamp\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeStakePlayRecord.proto\x1a\x19HomeGroupPlayerInfo.proto\"]\n\x13HomeStakePlayRecord\x12\x11\n\ttimestamp\x18\n \x01(\r\x12\x33\n\x15\x65ngagedPlayerInfoList\x18\x05 \x03(\x0b\x32\x14.HomeGroupPlayerInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeStakePlayRecord_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeStakePlayRecord_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMESTAKEPLAYRECORD._serialized_start=56
-  _HOMESTAKEPLAYRECORD._serialized_end=152
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMESTAKEPLAYRECORD']._serialized_start=56
+  _globals['_HOMESTAKEPLAYRECORD']._serialized_end=149
 # @@protoc_insertion_point(module_scope)

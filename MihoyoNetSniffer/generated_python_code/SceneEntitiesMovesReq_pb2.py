@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import EntityMoveInfo_pb2 as EntityMoveInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSceneEntitiesMovesReq.proto\x1a\x14\x45ntityMoveInfo.proto\"G\n\x15SceneEntitiesMovesReq\x12.\n\x15\x65ntity_move_info_list\x18\x0b \x03(\x0b\x32\x0f.EntityMoveInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSceneEntitiesMovesReq.proto\x1a\x14\x45ntityMoveInfo.proto\"D\n\x15SceneEntitiesMovesReq\x12+\n\x12\x65ntityMoveInfoList\x18\x08 \x03(\x0b\x32\x0f.EntityMoveInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntitiesMovesReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntitiesMovesReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEENTITIESMOVESREQ._serialized_start=53
-  _SCENEENTITIESMOVESREQ._serialized_end=124
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SCENEENTITIESMOVESREQ']._serialized_start=53
+  _globals['_SCENEENTITIESMOVESREQ']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

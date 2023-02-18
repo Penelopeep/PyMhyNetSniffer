@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGalleryBalloonShootNotify.proto\"\x9b\x01\n\x19GalleryBalloonShootNotify\x12\x19\n\x11trigger_entity_id\x18\x03 \x01(\r\x12\r\n\x05\x63ombo\x18\x0f \x01(\r\x12\x1a\n\x12\x63ombo_disable_time\x18\t \x01(\x04\x12\x11\n\tcur_score\x18\x01 \x01(\r\x12\x11\n\tadd_score\x18\x02 \x01(\x05\x12\x12\n\ngallery_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGalleryBalloonShootNotify.proto\"\x94\x01\n\x19GalleryBalloonShootNotify\x12\x11\n\tgalleryId\x18\x08 \x01(\r\x12\x17\n\x0ftriggerEntityId\x18\x02 \x01(\r\x12\x10\n\x08\x61\x64\x64Score\x18\x05 \x01(\x05\x12\x10\n\x08\x63urScore\x18\x0e \x01(\r\x12\r\n\x05\x63ombo\x18\x07 \x01(\r\x12\x18\n\x10\x63omboDisableTime\x18\x06 \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryBalloonShootNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryBalloonShootNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GALLERYBALLOONSHOOTNOTIFY._serialized_start=36
-  _GALLERYBALLOONSHOOTNOTIFY._serialized_end=191
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GALLERYBALLOONSHOOTNOTIFY']._serialized_start=36
+  _globals['_GALLERYBALLOONSHOOTNOTIFY']._serialized_end=184
 # @@protoc_insertion_point(module_scope)

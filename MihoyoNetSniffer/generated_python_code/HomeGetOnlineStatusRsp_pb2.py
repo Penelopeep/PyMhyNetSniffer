@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeGetOnlineStatusRsp.proto\x1a\x16OnlinePlayerInfo.proto\"V\n\x16HomeGetOnlineStatusRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12+\n\x10player_info_list\x18\x02 \x03(\x0b\x32\x11.OnlinePlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeGetOnlineStatusRsp.proto\x1a\x16OnlinePlayerInfo.proto\"T\n\x16HomeGetOnlineStatusRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12)\n\x0eplayerInfoList\x18\t \x03(\x0b\x32\x11.OnlinePlayerInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetOnlineStatusRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetOnlineStatusRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEGETONLINESTATUSRSP._serialized_start=56
-  _HOMEGETONLINESTATUSRSP._serialized_end=142
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEGETONLINESTATUSRSP']._serialized_start=56
+  _globals['_HOMEGETONLINESTATUSRSP']._serialized_end=140
 # @@protoc_insertion_point(module_scope)

@@ -15,13 +15,15 @@ import CrystalLinkAvatarInfo_pb2 as CrystalLinkAvatarInfo__pb2
 import CrystalLinkBuffInfo_pb2 as CrystalLinkBuffInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43rystalLinkTeamInfo.proto\x1a\x1b\x43rystalLinkAvatarInfo.proto\x1a\x19\x43rystalLinkBuffInfo.proto\"u\n\x13\x43rystalLinkTeamInfo\x12\x30\n\x10\x61vatar_info_list\x18\x0e \x03(\x0b\x32\x16.CrystalLinkAvatarInfo\x12,\n\x0e\x62uff_info_list\x18\x0c \x03(\x0b\x32\x14.CrystalLinkBuffInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43rystalLinkTeamInfo.proto\x1a\x1b\x43rystalLinkAvatarInfo.proto\x1a\x19\x43rystalLinkBuffInfo.proto\"q\n\x13\x43rystalLinkTeamInfo\x12.\n\x0e\x61vatarInfoList\x18\r \x03(\x0b\x32\x16.CrystalLinkAvatarInfo\x12*\n\x0c\x62uffInfoList\x18\n \x03(\x0b\x32\x14.CrystalLinkBuffInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CrystalLinkTeamInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CrystalLinkTeamInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CRYSTALLINKTEAMINFO._serialized_start=85
-  _CRYSTALLINKTEAMINFO._serialized_end=202
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CRYSTALLINKTEAMINFO']._serialized_start=85
+  _globals['_CRYSTALLINKTEAMINFO']._serialized_end=198
 # @@protoc_insertion_point(module_scope)

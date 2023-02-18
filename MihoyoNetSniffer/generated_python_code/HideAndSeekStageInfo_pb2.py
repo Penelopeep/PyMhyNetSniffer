@@ -11,21 +11,23 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import HideAndSeekPlayerBattleInfo_pb2 as HideAndSeekPlayerBattleInfo__pb2
 import HideAndSeekStageType_pb2 as HideAndSeekStageType__pb2
+import HideAndSeekPlayerBattleInfo_pb2 as HideAndSeekPlayerBattleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHideAndSeekStageInfo.proto\x1a!HideAndSeekPlayerBattleInfo.proto\x1a\x1aHideAndSeekStageType.proto\"\xad\x02\n\x14HideAndSeekStageInfo\x12\x12\n\nhunter_uid\x18\t \x01(\r\x12\x41\n\x0f\x62\x61ttle_info_map\x18\x08 \x03(\x0b\x32(.HideAndSeekStageInfo.BattleInfoMapEntry\x12\x17\n\x0fis_record_score\x18\x05 \x01(\x08\x12\x16\n\x0ehider_uid_list\x18\x02 \x03(\r\x12\x0e\n\x06map_id\x18\r \x01(\r\x12)\n\nstage_type\x18\x06 \x01(\x0e\x32\x15.HideAndSeekStageType\x1aR\n\x12\x42\x61ttleInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12+\n\x05value\x18\x02 \x01(\x0b\x32\x1c.HideAndSeekPlayerBattleInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHideAndSeekStageInfo.proto\x1a\x1aHideAndSeekStageType.proto\x1a!HideAndSeekPlayerBattleInfo.proto\"\x9f\x02\n\x14HideAndSeekStageInfo\x12\x13\n\x0bmgkdaffbijb\x18\x0b \x01(\r\x12;\n\x0b\x62gbdjeipaco\x18\x0c \x03(\x0b\x32&.HideAndSeekStageInfo.BgbdjeipacoEntry\x12\x15\n\risRecordScore\x18\x0f \x01(\x08\x12\x13\n\x0b\x61mbepllnpla\x18\t \x03(\r\x12\r\n\x05mapId\x18\x08 \x01(\r\x12(\n\tstageType\x18\x01 \x01(\x0e\x32\x15.HideAndSeekStageType\x1aP\n\x10\x42gbdjeipacoEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12+\n\x05value\x18\x02 \x01(\x0b\x32\x1c.HideAndSeekPlayerBattleInfo:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekStageInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekStageInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HIDEANDSEEKSTAGEINFO_BATTLEINFOMAPENTRY._options = None
-  _HIDEANDSEEKSTAGEINFO_BATTLEINFOMAPENTRY._serialized_options = b'8\001'
-  _HIDEANDSEEKSTAGEINFO._serialized_start=94
-  _HIDEANDSEEKSTAGEINFO._serialized_end=395
-  _HIDEANDSEEKSTAGEINFO_BATTLEINFOMAPENTRY._serialized_start=313
-  _HIDEANDSEEKSTAGEINFO_BATTLEINFOMAPENTRY._serialized_end=395
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _HIDEANDSEEKSTAGEINFO_BGBDJEIPACOENTRY._options = None
+  _HIDEANDSEEKSTAGEINFO_BGBDJEIPACOENTRY._serialized_options = b'8\001'
+  _globals['_HIDEANDSEEKSTAGEINFO']._serialized_start=94
+  _globals['_HIDEANDSEEKSTAGEINFO']._serialized_end=381
+  _globals['_HIDEANDSEEKSTAGEINFO_BGBDJEIPACOENTRY']._serialized_start=301
+  _globals['_HIDEANDSEEKSTAGEINFO_BGBDJEIPACOENTRY']._serialized_end=381
 # @@protoc_insertion_point(module_scope)

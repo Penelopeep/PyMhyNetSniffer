@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import PlayerWidgetInfo_pb2 as PlayerWidgetInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eRemotePlayerWidgetNotify.proto\x1a\x16PlayerWidgetInfo.proto\"N\n\x18RemotePlayerWidgetNotify\x12\x32\n\x17player_widget_info_list\x18\n \x03(\x0b\x32\x11.PlayerWidgetInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eRemotePlayerWidgetNotify.proto\x1a\x16PlayerWidgetInfo.proto\"K\n\x18RemotePlayerWidgetNotify\x12/\n\x14playerWidgetInfoList\x18\x08 \x03(\x0b\x32\x11.PlayerWidgetInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RemotePlayerWidgetNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RemotePlayerWidgetNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _REMOTEPLAYERWIDGETNOTIFY._serialized_start=58
-  _REMOTEPLAYERWIDGETNOTIFY._serialized_end=136
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_REMOTEPLAYERWIDGETNOTIFY']._serialized_start=58
+  _globals['_REMOTEPLAYERWIDGETNOTIFY']._serialized_end=133
 # @@protoc_insertion_point(module_scope)

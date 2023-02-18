@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeLimitedShopInfo_pb2 as HomeLimitedShopInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13HomeBasicInfo.proto\x1a\x19HomeLimitedShopInfo.proto\"\xe5\x01\n\rHomeBasicInfo\x12\x0b\n\x03\x65xp\x18\x03 \x01(\x04\x12\x1b\n\x13Unk3300_AKPAPPGOFGN\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_GNFGFIIGHEA\x18\x0e \x01(\r\x12\x17\n\x0fowner_nick_name\x18\x06 \x01(\t\x12\x1b\n\x13Unk3300_KGCBFKGGHDD\x18\x04 \x01(\r\x12/\n\x11limited_shop_info\x18\r \x01(\x0b\x32\x14.HomeLimitedShopInfo\x12\x17\n\x0fis_in_edit_mode\x18\x07 \x01(\x08\x12\r\n\x05level\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13HomeBasicInfo.proto\x1a\x19HomeLimitedShopInfo.proto\"\xca\x01\n\rHomeBasicInfo\x12\x14\n\x0chomeOwnerUid\x18\x0b \x01(\r\x12\x13\n\x0b\x63urModuleId\x18\x02 \x01(\r\x12-\n\x0flimitedShopInfo\x18\x0f \x01(\x0b\x32\x14.HomeLimitedShopInfo\x12\r\n\x05level\x18\t \x01(\r\x12\x15\n\rownerNickName\x18\x03 \x01(\t\x12\x14\n\x0cisInEditMode\x18\x0e \x01(\x08\x12\x16\n\x0e\x63urRoomSceneId\x18\x07 \x01(\r\x12\x0b\n\x03\x65xp\x18\r \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeBasicInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeBasicInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEBASICINFO._serialized_start=51
-  _HOMEBASICINFO._serialized_end=280
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEBASICINFO']._serialized_start=51
+  _globals['_HOMEBASICINFO']._serialized_end=253
 # @@protoc_insertion_point(module_scope)

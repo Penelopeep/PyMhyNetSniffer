@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import MainCoop_pb2 as MainCoop__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aMainCoopUpdateNotify.proto\x1a\x0eMainCoop.proto\"9\n\x14MainCoopUpdateNotify\x12!\n\x0emain_coop_list\x18\n \x03(\x0b\x32\t.MainCoopb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aMainCoopUpdateNotify.proto\x1a\x0eMainCoop.proto\"7\n\x14MainCoopUpdateNotify\x12\x1f\n\x0cmainCoopList\x18\x05 \x03(\x0b\x32\t.MainCoopB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MainCoopUpdateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MainCoopUpdateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MAINCOOPUPDATENOTIFY._serialized_start=46
-  _MAINCOOPUPDATENOTIFY._serialized_end=103
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MAINCOOPUPDATENOTIFY']._serialized_start=46
+  _globals['_MAINCOOPUPDATENOTIFY']._serialized_end=101
 # @@protoc_insertion_point(module_scope)

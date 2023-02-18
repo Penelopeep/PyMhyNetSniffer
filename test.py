@@ -1,32 +1,21 @@
 from MihoyoNetSniffer.sniffer import Sniffer
-from MihoyoNetSniffer.packet import GameNetwork
-from base64 import b64encode
 
-def test(uid, packet):
-	try:
-		for i in packet.content.parent_quest_list:
-			if i.video_key:
-				print(f'{i.parent_quest_id}: {i.video_key}')
-	except Exception:
-		pass
-
-
-
-
-#a = GameNetwork('genshin_packet_pipe')
-#a.start()
-from time import sleep
-# sleep(10)
-# a.stop()
 a = Sniffer()
-print('完成')
-a.add_handle('FinishedParentQuestNotify', test)
-a.add_handle('FinishedParentQuestUpdateNotify', test)
+
+# Blacklisted packets, add/remove a command to add to this list, remember to remove "#"
+#a.add_to_blacklist('PlayerMoveReq')
+#a.add_to_blacklist('PingReq')
+#a.add_to_blacklist('PingRsp')
+
+# Whitelisted packets, add/remove a command to add to this list, remember to remove "#"
+#a.add_to_whitelist('PlayerMoveReq')
+#a.add_to_whitelist('PingReq')
+#a.add_to_whitelist('PingRsp')
+
 a.start()
 try:
-	a.process_loop.join()
+    a.process_loop.join()
 except KeyboardInterrupt:
-	pass
+    pass
 finally:
-	a.stop()
-	breakpoint()
+    a.stop()

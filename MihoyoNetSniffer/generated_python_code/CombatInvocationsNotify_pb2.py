@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CombatInvokeEntry_pb2 as CombatInvokeEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43ombatInvocationsNotify.proto\x1a\x17\x43ombatInvokeEntry.proto\"B\n\x17\x43ombatInvocationsNotify\x12\'\n\x0binvoke_list\x18\x0e \x03(\x0b\x32\x12.CombatInvokeEntryb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43ombatInvocationsNotify.proto\x1a\x17\x43ombatInvokeEntry.proto\"A\n\x17\x43ombatInvocationsNotify\x12&\n\ninvokeList\x18\x0b \x03(\x0b\x32\x12.CombatInvokeEntryB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CombatInvocationsNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CombatInvocationsNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _COMBATINVOCATIONSNOTIFY._serialized_start=58
-  _COMBATINVOCATIONSNOTIFY._serialized_end=124
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_COMBATINVOCATIONSNOTIFY']._serialized_start=58
+  _globals['_COMBATINVOCATIONSNOTIFY']._serialized_end=123
 # @@protoc_insertion_point(module_scope)

@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ChannelerSlabAssistInfo_pb2 as ChannelerSlabAssistInfo__pb2
 import ChannelerSlabBuffSchemeInfo_pb2 as ChannelerSlabBuffSchemeInfo__pb2
+import ChannelerSlabAssistInfo_pb2 as ChannelerSlabAssistInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hannelerSlabBuffInfo.proto\x1a\x1d\x43hannelerSlabAssistInfo.proto\x1a!ChannelerSlabBuffSchemeInfo.proto\"\xd7\x01\n\x15\x43hannelerSlabBuffInfo\x12\x32\n\x10\x61ssist_info_list\x18\x0b \x03(\x0b\x32\x18.ChannelerSlabAssistInfo\x12\x39\n\x13Unk3300_CDFLIONGKCH\x18\x08 \x01(\x0b\x32\x1c.ChannelerSlabBuffSchemeInfo\x12\x39\n\x13Unk3300_ANENHMAADLN\x18\x0e \x01(\x0b\x32\x1c.ChannelerSlabBuffSchemeInfo\x12\x14\n\x0c\x62uff_id_list\x18\x06 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hannelerSlabBuffInfo.proto\x1a!ChannelerSlabBuffSchemeInfo.proto\x1a\x1d\x43hannelerSlabAssistInfo.proto\"\xd3\x01\n\x15\x43hannelerSlabBuffInfo\x12\x39\n\x13Unk3300_ANENHMAADLN\x18\x06 \x01(\x0b\x32\x1c.ChannelerSlabBuffSchemeInfo\x12\x12\n\nbuffIdList\x18\n \x03(\r\x12\x39\n\x13Unk3300_CDFLIONGKCH\x18\t \x01(\x0b\x32\x1c.ChannelerSlabBuffSchemeInfo\x12\x30\n\x0e\x61ssistInfoList\x18\x0e \x03(\x0b\x32\x18.ChannelerSlabAssistInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabBuffInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabBuffInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHANNELERSLABBUFFINFO._serialized_start=98
-  _CHANNELERSLABBUFFINFO._serialized_end=313
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHANNELERSLABBUFFINFO']._serialized_start=98
+  _globals['_CHANNELERSLABBUFFINFO']._serialized_end=309
 # @@protoc_insertion_point(module_scope)

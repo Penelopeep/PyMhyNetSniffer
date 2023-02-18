@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import FinishReason_pb2 as FinishReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eRemoveRandTaskInfoNotify.proto\"\xf3\x01\n\x18RemoveRandTaskInfoNotify\x12\x14\n\x0crand_task_id\x18\n \x01(\r\x12\x36\n\x06reason\x18\r \x01(\x0e\x32&.RemoveRandTaskInfoNotify.FinishReason\x12\x0f\n\x07is_succ\x18\x05 \x01(\x08\"x\n\x0c\x46inishReason\x12\x19\n\x15\x46INISH_REASON_DEFAULT\x10\x00\x12\x17\n\x13\x46INISH_REASON_CLEAR\x10\x01\x12\x1a\n\x16\x46INISH_REASON_DISTANCE\x10\x02\x12\x18\n\x14\x46INISH_REASON_FINISH\x10\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eRemoveRandTaskInfoNotify.proto\x1a\x12\x46inishReason.proto\"]\n\x18RemoveRandTaskInfoNotify\x12\x12\n\nrandTaskId\x18\t \x01(\r\x12\x0e\n\x06isSucc\x18\x07 \x01(\x08\x12\x1d\n\x06reason\x18\x02 \x01(\x0e\x32\r.FinishReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RemoveRandTaskInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RemoveRandTaskInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _REMOVERANDTASKINFONOTIFY._serialized_start=35
-  _REMOVERANDTASKINFONOTIFY._serialized_end=278
-  _REMOVERANDTASKINFONOTIFY_FINISHREASON._serialized_start=158
-  _REMOVERANDTASKINFONOTIFY_FINISHREASON._serialized_end=278
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_REMOVERANDTASKINFONOTIFY']._serialized_start=54
+  _globals['_REMOVERANDTASKINFONOTIFY']._serialized_end=147
 # @@protoc_insertion_point(module_scope)

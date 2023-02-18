@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ActivityRecvGiftData_pb2 as ActivityRecvGiftData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ActivityGetRecvGiftListRsp.proto\x1a\x1a\x41\x63tivityRecvGiftData.proto\"q\n\x1a\x41\x63tivityGetRecvGiftListRsp\x12\x13\n\x0bschedule_id\x18\x07 \x01(\r\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12-\n\x0erecv_gift_list\x18\n \x03(\x0b\x32\x15.ActivityRecvGiftDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ActivityGetRecvGiftListRsp.proto\x1a\x1a\x41\x63tivityRecvGiftData.proto\"n\n\x1a\x41\x63tivityGetRecvGiftListRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12+\n\x0crecvGiftList\x18\x07 \x03(\x0b\x32\x15.ActivityRecvGiftData\x12\x12\n\nscheduleId\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityGetRecvGiftListRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityGetRecvGiftListRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ACTIVITYGETRECVGIFTLISTRSP._serialized_start=64
-  _ACTIVITYGETRECVGIFTLISTRSP._serialized_end=177
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ACTIVITYGETRECVGIFTLISTRSP']._serialized_start=64
+  _globals['_ACTIVITYGETRECVGIFTLISTRSP']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

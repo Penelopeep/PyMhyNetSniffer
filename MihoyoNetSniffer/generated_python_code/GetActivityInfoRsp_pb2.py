@@ -15,13 +15,15 @@ import ActivityInfo_pb2 as ActivityInfo__pb2
 import Uint32Pair_pb2 as Uint32Pair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetActivityInfoRsp.proto\x1a\x12\x41\x63tivityInfo.proto\x1a\x10Uint32Pair.proto\"\xae\x01\n\x12GetActivityInfoRsp\x12<\n\'disable_transfer_point_interaction_list\x18\n \x03(\x0b\x32\x0b.Uint32Pair\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12)\n\x12\x61\x63tivity_info_list\x18\x02 \x03(\x0b\x32\r.ActivityInfo\x12\x1e\n\x16\x61\x63tivated_sale_id_list\x18\x01 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetActivityInfoRsp.proto\x1a\x12\x41\x63tivityInfo.proto\x1a\x10Uint32Pair.proto\"\xa5\x01\n\x12GetActivityInfoRsp\x12\'\n\x10\x61\x63tivityInfoList\x18\r \x03(\x0b\x32\r.ActivityInfo\x12\x38\n#disableTransferPointInteractionList\x18\x03 \x03(\x0b\x32\x0b.Uint32Pair\x12\x1b\n\x13\x61\x63tivatedSaleIdList\x18\x07 \x03(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetActivityInfoRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetActivityInfoRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETACTIVITYINFORSP._serialized_start=67
-  _GETACTIVITYINFORSP._serialized_end=241
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETACTIVITYINFORSP']._serialized_start=67
+  _globals['_GETACTIVITYINFORSP']._serialized_end=232
 # @@protoc_insertion_point(module_scope)

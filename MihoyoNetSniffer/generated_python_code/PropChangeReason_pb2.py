@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16PropChangeReason.proto*\x87\x04\n\x10PropChangeReason\x12\x1b\n\x17PROP_CHANGE_REASON_NONE\x10\x00\x12%\n!PROP_CHANGE_REASON_STATUE_RECOVER\x10\x01\x12\"\n\x1ePROP_CHANGE_REASON_ENERGY_BALL\x10\x02\x12\x1e\n\x1aPROP_CHANGE_REASON_ABILITY\x10\x03\x12\x1e\n\x1aPROP_CHANGE_REASON_LEVELUP\x10\x04\x12\x1b\n\x17PROP_CHANGE_REASON_ITEM\x10\x05\x12\"\n\x1ePROP_CHANGE_REASON_AVATAR_CARD\x10\x06\x12#\n\x1fPROP_CHANGE_REASON_CITY_LEVELUP\x10\x07\x12%\n!PROP_CHANGE_REASON_AVATAR_UPGRADE\x10\x08\x12%\n!PROP_CHANGE_REASON_AVATAR_PROMOTE\x10\t\x12%\n!PROP_CHANGE_REASON_PLAYER_ADD_EXP\x10\n\x12#\n\x1fPROP_CHANGE_REASON_FINISH_QUEST\x10\x0b\x12\x19\n\x15PROP_CHANGE_REASON_GM\x10\x0c\x12\x30\n,PROP_CHANGE_REASON_MANUAL_ADJUST_WORLD_LEVEL\x10\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16PropChangeReason.proto*\x87\x04\n\x10PropChangeReason\x12\x1b\n\x17PROP_CHANGE_REASON_NONE\x10\x00\x12%\n!PROP_CHANGE_REASON_STATUE_RECOVER\x10\x01\x12\"\n\x1ePROP_CHANGE_REASON_ENERGY_BALL\x10\x02\x12\x1e\n\x1aPROP_CHANGE_REASON_ABILITY\x10\x03\x12\x1e\n\x1aPROP_CHANGE_REASON_LEVELUP\x10\x04\x12\x1b\n\x17PROP_CHANGE_REASON_ITEM\x10\x05\x12\"\n\x1ePROP_CHANGE_REASON_AVATAR_CARD\x10\x06\x12#\n\x1fPROP_CHANGE_REASON_CITY_LEVELUP\x10\x07\x12%\n!PROP_CHANGE_REASON_AVATAR_UPGRADE\x10\x08\x12%\n!PROP_CHANGE_REASON_AVATAR_PROMOTE\x10\t\x12%\n!PROP_CHANGE_REASON_PLAYER_ADD_EXP\x10\n\x12#\n\x1fPROP_CHANGE_REASON_FINISH_QUEST\x10\x0b\x12\x19\n\x15PROP_CHANGE_REASON_GM\x10\x0c\x12\x30\n,PROP_CHANGE_REASON_MANUAL_ADJUST_WORLD_LEVEL\x10\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PropChangeReason_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PropChangeReason_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PROPCHANGEREASON._serialized_start=27
-  _PROPCHANGEREASON._serialized_end=546
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PROPCHANGEREASON']._serialized_start=27
+  _globals['_PROPCHANGEREASON']._serialized_end=546
 # @@protoc_insertion_point(module_scope)

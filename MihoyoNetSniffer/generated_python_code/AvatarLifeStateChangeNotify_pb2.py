@@ -15,13 +15,15 @@ import PlayerDieType_pb2 as PlayerDieType__pb2
 import ServerBuff_pb2 as ServerBuff__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AvatarLifeStateChangeNotify.proto\x1a\x13PlayerDieType.proto\x1a\x10ServerBuff.proto\"\xd8\x01\n\x1b\x41vatarLifeStateChangeNotify\x12\x18\n\x10source_entity_id\x18\x0b \x01(\r\x12%\n\x10server_buff_list\x18\x0e \x03(\x0b\x32\x0b.ServerBuff\x12\x19\n\x11move_reliable_seq\x18\x0c \x01(\r\x12\x12\n\nlife_state\x18\x06 \x01(\r\x12 \n\x08\x64ie_type\x18\x05 \x01(\x0e\x32\x0e.PlayerDieType\x12\x12\n\nattack_tag\x18\x0f \x01(\t\x12\x13\n\x0b\x61vatar_guid\x18\x02 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AvatarLifeStateChangeNotify.proto\x1a\x13PlayerDieType.proto\x1a\x10ServerBuff.proto\"\xce\x01\n\x1b\x41vatarLifeStateChangeNotify\x12\x11\n\tlifeState\x18\x08 \x01(\r\x12\x17\n\x0fmoveReliableSeq\x18\n \x01(\r\x12\x1f\n\x07\x64ieType\x18\x01 \x01(\x0e\x32\x0e.PlayerDieType\x12\x11\n\tattackTag\x18\x06 \x01(\t\x12\x12\n\navatarGuid\x18\x03 \x01(\x04\x12\x16\n\x0esourceEntityId\x18\x05 \x01(\r\x12#\n\x0eserverBuffList\x18\x04 \x03(\x0b\x32\x0b.ServerBuffB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarLifeStateChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarLifeStateChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATARLIFESTATECHANGENOTIFY._serialized_start=77
-  _AVATARLIFESTATECHANGENOTIFY._serialized_end=293
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_AVATARLIFESTATECHANGENOTIFY']._serialized_start=77
+  _globals['_AVATARLIFESTATECHANGENOTIFY']._serialized_end=283
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import TreasureMapDetectorData_pb2 as TreasureMapDetectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapDetectorDataNotify.proto\x1a\x1dTreasureMapDetectorData.proto\"G\n\x1dTreasureMapDetectorDataNotify\x12&\n\x04\x64\x61ta\x18\x07 \x01(\x0b\x32\x18.TreasureMapDetectorDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapDetectorDataNotify.proto\x1a\x1dTreasureMapDetectorData.proto\"G\n\x1dTreasureMapDetectorDataNotify\x12&\n\x04\x64\x61ta\x18\x06 \x01(\x0b\x32\x18.TreasureMapDetectorDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapDetectorDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapDetectorDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TREASUREMAPDETECTORDATANOTIFY._serialized_start=70
-  _TREASUREMAPDETECTORDATANOTIFY._serialized_end=141
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TREASUREMAPDETECTORDATANOTIFY']._serialized_start=70
+  _globals['_TREASUREMAPDETECTORDATANOTIFY']._serialized_end=141
 # @@protoc_insertion_point(module_scope)

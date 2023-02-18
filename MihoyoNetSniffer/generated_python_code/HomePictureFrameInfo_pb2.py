@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHomePictureFrameInfo.proto\"8\n\x14HomePictureFrameInfo\x12\x12\n\npicture_id\x18\t \x01(\r\x12\x0c\n\x04guid\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHomePictureFrameInfo.proto\"7\n\x14HomePictureFrameInfo\x12\x11\n\tpictureId\x18\x01 \x01(\r\x12\x0c\n\x04guid\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomePictureFrameInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomePictureFrameInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEPICTUREFRAMEINFO._serialized_start=30
-  _HOMEPICTUREFRAMEINFO._serialized_end=86
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEPICTUREFRAMEINFO']._serialized_start=30
+  _globals['_HOMEPICTUREFRAMEINFO']._serialized_end=85
 # @@protoc_insertion_point(module_scope)

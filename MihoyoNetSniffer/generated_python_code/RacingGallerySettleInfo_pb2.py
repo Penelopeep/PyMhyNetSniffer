@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GalleryStopReason_pb2 as GalleryStopReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dRacingGallerySettleInfo.proto\x1a\x17GalleryStopReason.proto\"c\n\x17RacingGallerySettleInfo\x12\x12\n\nwinner_uid\x18\n \x01(\r\x12\x10\n\x08use_time\x18\x0f \x01(\r\x12\"\n\x06reason\x18\x0b \x01(\x0e\x32\x12.GalleryStopReasonb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dRacingGallerySettleInfo.proto\x1a\x17GalleryStopReason.proto\"a\n\x17RacingGallerySettleInfo\x12\x0f\n\x07useTime\x18\t \x01(\r\x12\"\n\x06reason\x18\x03 \x01(\x0e\x32\x12.GalleryStopReason\x12\x11\n\twinnerUid\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RacingGallerySettleInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RacingGallerySettleInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _RACINGGALLERYSETTLEINFO._serialized_start=58
-  _RACINGGALLERYSETTLEINFO._serialized_end=157
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_RACINGGALLERYSETTLEINFO']._serialized_start=58
+  _globals['_RACINGGALLERYSETTLEINFO']._serialized_end=155
 # @@protoc_insertion_point(module_scope)

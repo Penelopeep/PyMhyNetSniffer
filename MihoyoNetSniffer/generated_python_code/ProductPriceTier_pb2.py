@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ProductPriceTier.proto\":\n\x10ProductPriceTier\x12\x12\n\nprice_tier\x18\x03 \x01(\t\x12\x12\n\nproduct_id\x18\x0e \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ProductPriceTier.proto\"8\n\x10ProductPriceTier\x12\x11\n\tproductId\x18\n \x01(\t\x12\x11\n\tpriceTier\x18\x06 \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ProductPriceTier_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ProductPriceTier_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PRODUCTPRICETIER._serialized_start=26
-  _PRODUCTPRICETIER._serialized_end=84
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PRODUCTPRICETIER']._serialized_start=26
+  _globals['_PRODUCTPRICETIER']._serialized_end=82
 # @@protoc_insertion_point(module_scope)

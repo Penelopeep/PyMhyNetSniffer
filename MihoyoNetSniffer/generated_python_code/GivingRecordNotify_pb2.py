@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GivingRecord_pb2 as GivingRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GivingRecordNotify.proto\x1a\x12GivingRecord.proto\"?\n\x12GivingRecordNotify\x12)\n\x12giving_record_list\x18\r \x03(\x0b\x32\r.GivingRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GivingRecordNotify.proto\x1a\x12GivingRecord.proto\"=\n\x12GivingRecordNotify\x12\'\n\x10givingRecordList\x18\x04 \x03(\x0b\x32\r.GivingRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GivingRecordNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GivingRecordNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GIVINGRECORDNOTIFY._serialized_start=48
-  _GIVINGRECORDNOTIFY._serialized_end=111
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GIVINGRECORDNOTIFY']._serialized_start=48
+  _globals['_GIVINGRECORDNOTIFY']._serialized_end=109
 # @@protoc_insertion_point(module_scope)

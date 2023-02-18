@@ -11,18 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GameplayRecommendationElementReliquaryRequest_pb2 as GameplayRecommendationElementReliquaryRequest__pb2
-import GameplayRecommendationReliquaryRequest_pb2 as GameplayRecommendationReliquaryRequest__pb2
-import GameplayRecommendationSkillRequest_pb2 as GameplayRecommendationSkillRequest__pb2
+import SkillResponse_pb2 as SkillResponse__pb2
+import ReliquaryResponse_pb2 as ReliquaryResponse__pb2
+import ElementReliquaryResponse_pb2 as ElementReliquaryResponse__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GetGameplayRecommendationReq.proto\x1a\x33GameplayRecommendationElementReliquaryRequest.proto\x1a,GameplayRecommendationReliquaryRequest.proto\x1a(GameplayRecommendationSkillRequest.proto\"\x96\x02\n\x1cGetGameplayRecommendationReq\x12\x11\n\tavatar_id\x18\x06 \x01(\r\x12=\n\rskill_request\x18\x9e\x0c \x01(\x0b\x32#.GameplayRecommendationSkillRequestH\x00\x12\x44\n\x11reliquary_request\x18H \x01(\x0b\x32\'.GameplayRecommendationReliquaryRequestH\x00\x12T\n\x19\x65lement_reliquary_request\x18\xe3\x06 \x01(\x0b\x32..GameplayRecommendationElementReliquaryRequestH\x00\x42\x08\n\x06\x64\x65tailb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GetGameplayRecommendationReq.proto\x1a\x13SkillResponse.proto\x1a\x17ReliquaryResponse.proto\x1a\x1e\x45lementReliquaryResponse.proto\"\xeb\x01\n\x1cGetGameplayRecommendationReq\x12\x10\n\x08\x61vatarId\x18\x01 \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12)\n\x0eskill_response\x18\xdf\x01 \x01(\x0b\x32\x0e.SkillResponseH\x00\x12\x31\n\x12reliquary_response\x18\xac\x0f \x01(\x0b\x32\x12.ReliquaryResponseH\x00\x12@\n\x1a\x65lement_reliquary_response\x18\xf8\x0e \x01(\x0b\x32\x19.ElementReliquaryResponseH\x00\x42\x08\n\x06\x64\x65tailB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetGameplayRecommendationReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetGameplayRecommendationReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETGAMEPLAYRECOMMENDATIONREQ._serialized_start=180
-  _GETGAMEPLAYRECOMMENDATIONREQ._serialized_end=458
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETGAMEPLAYRECOMMENDATIONREQ']._serialized_start=117
+  _globals['_GETGAMEPLAYRECOMMENDATIONREQ']._serialized_end=352
 # @@protoc_insertion_point(module_scope)

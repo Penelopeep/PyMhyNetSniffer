@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Item_pb2 as Item__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GadgetAutoPickDropInfoNotify.proto\x1a\nItem.proto\"8\n\x1cGadgetAutoPickDropInfoNotify\x12\x18\n\titem_list\x18\x0f \x03(\x0b\x32\x05.Itemb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GadgetAutoPickDropInfoNotify.proto\x1a\nItem.proto\"7\n\x1cGadgetAutoPickDropInfoNotify\x12\x17\n\x08itemList\x18\x0f \x03(\x0b\x32\x05.ItemB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetAutoPickDropInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetAutoPickDropInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GADGETAUTOPICKDROPINFONOTIFY._serialized_start=50
-  _GADGETAUTOPICKDROPINFONOTIFY._serialized_end=106
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GADGETAUTOPICKDROPINFONOTIFY']._serialized_start=50
+  _globals['_GADGETAUTOPICKDROPINFONOTIFY']._serialized_end=105
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGetPlayerBlacklistReq.proto\"\x17\n\x15GetPlayerBlacklistReqb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGetPlayerBlacklistReq.proto\"\x17\n\x15GetPlayerBlacklistReqB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetPlayerBlacklistReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetPlayerBlacklistReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETPLAYERBLACKLISTREQ._serialized_start=31
-  _GETPLAYERBLACKLISTREQ._serialized_end=54
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETPLAYERBLACKLISTREQ']._serialized_start=31
+  _globals['_GETPLAYERBLACKLISTREQ']._serialized_end=54
 # @@protoc_insertion_point(module_scope)

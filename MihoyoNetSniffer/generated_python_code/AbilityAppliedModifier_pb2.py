@@ -11,18 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import AbilityAttachedModifier_pb2 as AbilityAttachedModifier__pb2
 import AbilityString_pb2 as AbilityString__pb2
+import AbilityAttachedModifier_pb2 as AbilityAttachedModifier__pb2
 import ModifierDurability_pb2 as ModifierDurability__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x41\x62ilityAppliedModifier.proto\x1a\x1d\x41\x62ilityAttachedModifier.proto\x1a\x13\x41\x62ilityString.proto\x1a\x18ModifierDurability.proto\"\xe9\x03\n\x16\x41\x62ilityAppliedModifier\x12\x19\n\x11modifier_local_id\x18\x01 \x01(\x05\x12 \n\x18parent_ability_entity_id\x18\x02 \x01(\r\x12+\n\x13parent_ability_name\x18\x03 \x01(\x0b\x32\x0e.AbilityString\x12/\n\x17parent_ability_override\x18\x04 \x01(\x0b\x32\x0e.AbilityString\x12\x1c\n\x14instanced_ability_id\x18\x05 \x01(\r\x12\x1d\n\x15instanced_modifier_id\x18\x06 \x01(\r\x12\x16\n\x0e\x65xist_duration\x18\x07 \x01(\x02\x12=\n\x1b\x61ttached_instanced_modifier\x18\x08 \x01(\x0b\x32\x18.AbilityAttachedModifier\x12\x17\n\x0f\x61pply_entity_id\x18\t \x01(\r\x12\"\n\x1ais_attached_parent_ability\x18\n \x01(\x08\x12\x30\n\x13modifier_durability\x18\x0b \x01(\x0b\x32\x13.ModifierDurability\x12\x11\n\tsbuff_uid\x18\x0c \x01(\r\x12\x1e\n\x16is_serverbuff_modifier\x18\r \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x41\x62ilityAppliedModifier.proto\x1a\x13\x41\x62ilityString.proto\x1a\x1d\x41\x62ilityAttachedModifier.proto\x1a\x18ModifierDurability.proto\"\xd0\x03\n\x16\x41\x62ilityAppliedModifier\x12\x17\n\x0fmodifierLocalId\x18\x01 \x01(\x05\x12\x1d\n\x15parentAbilityEntityId\x18\x02 \x01(\r\x12)\n\x11parentAbilityName\x18\x03 \x01(\x0b\x32\x0e.AbilityString\x12-\n\x15parentAbilityOverride\x18\x04 \x01(\x0b\x32\x0e.AbilityString\x12\x1a\n\x12instancedAbilityId\x18\x05 \x01(\r\x12\x1b\n\x13instancedModifierId\x18\x06 \x01(\r\x12\x15\n\rexistDuration\x18\x07 \x01(\x02\x12;\n\x19\x61ttachedInstancedModifier\x18\x08 \x01(\x0b\x32\x18.AbilityAttachedModifier\x12\x15\n\rapplyEntityId\x18\t \x01(\r\x12\x1f\n\x17isAttachedParentAbility\x18\n \x01(\x08\x12/\n\x12modifierDurability\x18\x0b \x01(\x0b\x32\x13.ModifierDurability\x12\x10\n\x08sbuffUid\x18\x0c \x01(\r\x12\x1c\n\x14isServerbuffModifier\x18\r \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityAppliedModifier_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityAppliedModifier_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ABILITYAPPLIEDMODIFIER._serialized_start=111
-  _ABILITYAPPLIEDMODIFIER._serialized_end=600
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ABILITYAPPLIEDMODIFIER']._serialized_start=111
+  _globals['_ABILITYAPPLIEDMODIFIER']._serialized_end=575
 # @@protoc_insertion_point(module_scope)

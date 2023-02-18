@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GachaActivityTakeRewardReq.proto\"\x95\x01\n\x1aGachaActivityTakeRewardReq\x12\x43\n\rrobot_num_map\x18\x07 \x03(\x0b\x32,.GachaActivityTakeRewardReq.RobotNumMapEntry\x1a\x32\n\x10RobotNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GachaActivityTakeRewardReq.proto\"\x93\x01\n\x1aGachaActivityTakeRewardReq\x12\x41\n\x0brobotNumMap\x18\x01 \x03(\x0b\x32,.GachaActivityTakeRewardReq.RobotNumMapEntry\x1a\x32\n\x10RobotNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaActivityTakeRewardReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaActivityTakeRewardReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _GACHAACTIVITYTAKEREWARDREQ_ROBOTNUMMAPENTRY._options = None
   _GACHAACTIVITYTAKEREWARDREQ_ROBOTNUMMAPENTRY._serialized_options = b'8\001'
-  _GACHAACTIVITYTAKEREWARDREQ._serialized_start=37
-  _GACHAACTIVITYTAKEREWARDREQ._serialized_end=186
-  _GACHAACTIVITYTAKEREWARDREQ_ROBOTNUMMAPENTRY._serialized_start=136
-  _GACHAACTIVITYTAKEREWARDREQ_ROBOTNUMMAPENTRY._serialized_end=186
+  _globals['_GACHAACTIVITYTAKEREWARDREQ']._serialized_start=37
+  _globals['_GACHAACTIVITYTAKEREWARDREQ']._serialized_end=184
+  _globals['_GACHAACTIVITYTAKEREWARDREQ_ROBOTNUMMAPENTRY']._serialized_start=134
+  _globals['_GACHAACTIVITYTAKEREWARDREQ_ROBOTNUMMAPENTRY']._serialized_end=184
 # @@protoc_insertion_point(module_scope)

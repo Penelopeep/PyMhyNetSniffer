@@ -15,13 +15,15 @@ import EvtSetAttackTargetInfo_pb2 as EvtSetAttackTargetInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtSetAttackTargetNotify.proto\x1a\x1c\x45vtSetAttackTargetInfo.proto\x1a\x11\x46orwardType.proto\"{\n\x18\x45vtSetAttackTargetNotify\x12;\n\x1a\x65vt_set_attack_target_info\x18\r \x01(\x0b\x32\x17.EvtSetAttackTargetInfo\x12\"\n\x0c\x66orward_type\x18\x06 \x01(\x0e\x32\x0c.ForwardTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtSetAttackTargetNotify.proto\x1a\x1c\x45vtSetAttackTargetInfo.proto\x1a\x11\x46orwardType.proto\"v\n\x18\x45vtSetAttackTargetNotify\x12\x37\n\x16\x65vtSetAttackTargetInfo\x18\x01 \x01(\x0b\x32\x17.EvtSetAttackTargetInfo\x12!\n\x0b\x66orwardType\x18\x0f \x01(\x0e\x32\x0c.ForwardTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtSetAttackTargetNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtSetAttackTargetNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EVTSETATTACKTARGETNOTIFY._serialized_start=83
-  _EVTSETATTACKTARGETNOTIFY._serialized_end=206
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_EVTSETATTACKTARGETNOTIFY']._serialized_start=83
+  _globals['_EVTSETATTACKTARGETNOTIFY']._serialized_end=201
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%GalleryBounceConjuringHitNotify.proto\"\\\n\x1fGalleryBounceConjuringHitNotify\x12\x12\n\ngallery_id\x18\x08 \x01(\r\x12\x11\n\tadd_score\x18\x0f \x01(\r\x12\x12\n\nis_perfect\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%GalleryBounceConjuringHitNotify.proto\"Y\n\x1fGalleryBounceConjuringHitNotify\x12\x11\n\tisPerfect\x18\x0f \x01(\x08\x12\x11\n\tgalleryId\x18\x07 \x01(\r\x12\x10\n\x08\x61\x64\x64Score\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryBounceConjuringHitNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryBounceConjuringHitNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GALLERYBOUNCECONJURINGHITNOTIFY._serialized_start=41
-  _GALLERYBOUNCECONJURINGHITNOTIFY._serialized_end=133
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GALLERYBOUNCECONJURINGHITNOTIFY']._serialized_start=41
+  _globals['_GALLERYBOUNCECONJURINGHITNOTIFY']._serialized_end=130
 # @@protoc_insertion_point(module_scope)

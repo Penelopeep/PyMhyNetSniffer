@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FriendBrief_pb2 as FriendBrief__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orceAddPlayerFriendRsp.proto\x1a\x11\x46riendBrief.proto\"i\n\x17\x46orceAddPlayerFriendRsp\x12)\n\x13target_friend_brief\x18\x03 \x01(\x0b\x32\x0c.FriendBrief\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x12\n\ntarget_uid\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orceAddPlayerFriendRsp.proto\x1a\x11\x46riendBrief.proto\"f\n\x17\x46orceAddPlayerFriendRsp\x12\'\n\x11targetFriendBrief\x18\x0c \x01(\x0b\x32\x0c.FriendBrief\x12\x11\n\ttargetUid\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForceAddPlayerFriendRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForceAddPlayerFriendRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FORCEADDPLAYERFRIENDRSP._serialized_start=52
-  _FORCEADDPLAYERFRIENDRSP._serialized_end=157
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FORCEADDPLAYERFRIENDRSP']._serialized_start=52
+  _globals['_FORCEADDPLAYERFRIENDRSP']._serialized_end=154
 # @@protoc_insertion_point(module_scope)

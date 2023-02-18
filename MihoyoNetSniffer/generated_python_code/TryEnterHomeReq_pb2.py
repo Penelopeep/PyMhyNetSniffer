@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TryEnterHomeReq.proto\"^\n\x0fTryEnterHomeReq\x12!\n\x19is_transfer_to_safe_point\x18\r \x01(\x08\x12\x14\n\x0ctarget_point\x18\n \x01(\r\x12\x12\n\ntarget_uid\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TryEnterHomeReq.proto\"X\n\x0fTryEnterHomeReq\x12\x13\n\x0btargetPoint\x18\x0b \x01(\r\x12\x1d\n\x15isTransferToSafePoint\x18\x04 \x01(\x08\x12\x11\n\ttargetUid\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TryEnterHomeReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TryEnterHomeReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TRYENTERHOMEREQ._serialized_start=25
-  _TRYENTERHOMEREQ._serialized_end=119
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TRYENTERHOMEREQ']._serialized_start=25
+  _globals['_TRYENTERHOMEREQ']._serialized_end=113
 # @@protoc_insertion_point(module_scope)

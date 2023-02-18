@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$MuqadasPotionRestartDungeonRsp.proto\"1\n\x1eMuqadasPotionRestartDungeonRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$MuqadasPotionRestartDungeonRsp.proto\"1\n\x1eMuqadasPotionRestartDungeonRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MuqadasPotionRestartDungeonRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MuqadasPotionRestartDungeonRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MUQADASPOTIONRESTARTDUNGEONRSP._serialized_start=40
-  _MUQADASPOTIONRESTARTDUNGEONRSP._serialized_end=89
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MUQADASPOTIONRESTARTDUNGEONRSP']._serialized_start=40
+  _globals['_MUQADASPOTIONRESTARTDUNGEONRSP']._serialized_end=89
 # @@protoc_insertion_point(module_scope)

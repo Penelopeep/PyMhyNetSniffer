@@ -11,15 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import CompoundBoostTakeStatusType_pb2 as CompoundBoostTakeStatusType__pb2
+import CompoundQueueData_pb2 as CompoundQueueData__pb2
+import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerCompoundMaterialBoostReq.proto\"\x8d\x01\n\x1ePlayerCompoundMaterialBoostReq\x12\x14\n\x0cis_boost_all\x18\r \x01(\x08\x12\x1b\n\x13Unk3300_PPDDLODBIKG\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_BGHFBCLHCIG\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_FEGPHHFLFLM\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerCompoundMaterialBoostReq.proto\x1a!CompoundBoostTakeStatusType.proto\x1a\x17\x43ompoundQueueData.proto\x1a\x0fItemParam.proto\"\xb8\x01\n\x1ePlayerCompoundMaterialBoostReq\x12\x31\n\x15\x63ompoundQueueDataList\x18\x06 \x03(\x0b\x32\x12.CompoundQueueData\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x1f\n\x0bikceidbkdla\x18\x0e \x03(\x0b\x32\n.ItemParam\x12\x31\n\x0bobkcgkalonf\x18\x08 \x01(\x0e\x32\x1c.CompoundBoostTakeStatusTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCompoundMaterialBoostReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCompoundMaterialBoostReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERCOMPOUNDMATERIALBOOSTREQ._serialized_start=41
-  _PLAYERCOMPOUNDMATERIALBOOSTREQ._serialized_end=182
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERCOMPOUNDMATERIALBOOSTREQ']._serialized_start=118
+  _globals['_PLAYERCOMPOUNDMATERIALBOOSTREQ']._serialized_end=302
 # @@protoc_insertion_point(module_scope)

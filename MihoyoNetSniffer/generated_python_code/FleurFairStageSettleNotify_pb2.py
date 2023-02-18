@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import FleurFairBossSettleInfo_pb2 as FleurFairBossSettleInfo__pb2
-import FleurFairGallerySettleInfo_pb2 as FleurFairGallerySettleInfo__pb2
+import GallerySettleInfo_pb2 as GallerySettleInfo__pb2
+import BossSettleInfo_pb2 as BossSettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FleurFairStageSettleNotify.proto\x1a\x1d\x46leurFairBossSettleInfo.proto\x1a FleurFairGallerySettleInfo.proto\"\xac\x01\n\x1a\x46leurFairStageSettleNotify\x12\x12\n\nstage_type\x18\x07 \x01(\r\x12:\n\x13gallery_settle_info\x18\x01 \x01(\x0b\x32\x1b.FleurFairGallerySettleInfoH\x00\x12\x34\n\x10\x62oss_settle_info\x18\x0c \x01(\x0b\x32\x18.FleurFairBossSettleInfoH\x00\x42\x08\n\x06\x64\x65tailb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FleurFairStageSettleNotify.proto\x1a\x17GallerySettleInfo.proto\x1a\x14\x42ossSettleInfo.proto\"\x99\x01\n\x1a\x46leurFairStageSettleNotify\x12\x11\n\tstageType\x18\t \x01(\r\x12\x31\n\x13gallery_settle_info\x18\n \x01(\x0b\x32\x12.GallerySettleInfoH\x00\x12+\n\x10\x62oss_settle_info\x18\x08 \x01(\x0b\x32\x0f.BossSettleInfoH\x00\x42\x08\n\x06\x64\x65tailB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairStageSettleNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairStageSettleNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FLEURFAIRSTAGESETTLENOTIFY._serialized_start=102
-  _FLEURFAIRSTAGESETTLENOTIFY._serialized_end=274
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FLEURFAIRSTAGESETTLENOTIFY']._serialized_start=84
+  _globals['_FLEURFAIRSTAGESETTLENOTIFY']._serialized_end=237
 # @@protoc_insertion_point(module_scope)

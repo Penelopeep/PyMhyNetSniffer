@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#AnimatorForceSetAirMoveNotify.proto\x1a\x11\x46orwardType.proto\"k\n\x1d\x41nimatorForceSetAirMoveNotify\x12\"\n\x0c\x66orward_type\x18\x0c \x01(\x0e\x32\x0c.ForwardType\x12\x13\n\x0bin_air_move\x18\x06 \x01(\x08\x12\x11\n\tentity_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#AnimatorForceSetAirMoveNotify.proto\x1a\x11\x46orwardType.proto\"g\n\x1d\x41nimatorForceSetAirMoveNotify\x12\x11\n\tinAirMove\x18\x01 \x01(\x08\x12!\n\x0b\x66orwardType\x18\x0b \x01(\x0e\x32\x0c.ForwardType\x12\x10\n\x08\x65ntityId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnimatorForceSetAirMoveNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnimatorForceSetAirMoveNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ANIMATORFORCESETAIRMOVENOTIFY._serialized_start=58
-  _ANIMATORFORCESETAIRMOVENOTIFY._serialized_end=165
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ANIMATORFORCESETAIRMOVENOTIFY']._serialized_start=58
+  _globals['_ANIMATORFORCESETAIRMOVENOTIFY']._serialized_end=161
 # @@protoc_insertion_point(module_scope)

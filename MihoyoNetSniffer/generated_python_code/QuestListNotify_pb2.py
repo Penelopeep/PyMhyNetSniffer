@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Quest_pb2 as Quest__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15QuestListNotify.proto\x1a\x0bQuest.proto\"-\n\x0fQuestListNotify\x12\x1a\n\nquest_list\x18\r \x03(\x0b\x32\x06.Questb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15QuestListNotify.proto\x1a\x0bQuest.proto\",\n\x0fQuestListNotify\x12\x19\n\tquestList\x18\r \x03(\x0b\x32\x06.QuestB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestListNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestListNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _QUESTLISTNOTIFY._serialized_start=38
-  _QUESTLISTNOTIFY._serialized_end=83
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_QUESTLISTNOTIFY']._serialized_start=38
+  _globals['_QUESTLISTNOTIFY']._serialized_end=82
 # @@protoc_insertion_point(module_scope)

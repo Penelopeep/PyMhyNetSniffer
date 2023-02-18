@@ -2,7 +2,7 @@ import os.path
 import sys
 from importlib.util import spec_from_file_location, module_from_spec
 from concurrent.futures import ThreadPoolExecutor
-from .packet import RawPacket
+from MihoyoNetSniffer.packet import RawPacket
 
 parser_code_path = os.path.dirname(os.path.abspath(__file__)) + os.sep + 'generated_python_code'
 sys.path.insert(0, parser_code_path)

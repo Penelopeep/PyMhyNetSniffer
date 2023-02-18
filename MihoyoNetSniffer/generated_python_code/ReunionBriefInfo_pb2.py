@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ReunionPrivilegeInfo_pb2 as ReunionPrivilegeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ReunionBriefInfo.proto\x1a\x1aReunionPrivilegeInfo.proto\"\xd3\x02\n\x10ReunionBriefInfo\x12\x1c\n\x14\x66irst_day_start_time\x18\x01 \x01(\r\x12\x0f\n\x07version\x18\x0b \x01(\t\x12\x12\n\nmission_id\x18\x06 \x01(\r\x12\x13\n\x0b\x66inish_time\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_OKGAAEDENEI\x18\r \x01(\x08\x12\x14\n\x0cprivilege_id\x18\x05 \x01(\r\x12-\n\x0eprivilege_info\x18\n \x01(\x0b\x32\x15.ReunionPrivilegeInfo\x12\x12\n\nstart_time\x18\x0e \x01(\r\x12\x1c\n\x14\x66irst_gift_reward_id\x18\t \x01(\r\x12\x1b\n\x13Unk3300_ODKLPOMKKPD\x18\x08 \x01(\x08\x12\x1b\n\x13Unk3300_MHHLEJIFFIM\x18\x07 \x01(\x08\x12\x19\n\x11sign_in_config_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ReunionBriefInfo.proto\x1a\x1aReunionPrivilegeInfo.proto\"\xc5\x02\n\x10ReunionBriefInfo\x12\x13\n\x0bprivilegeId\x18\x0f \x01(\r\x12\x12\n\nfinishTime\x18\x05 \x01(\r\x12\x11\n\tmissionId\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_ODKLPOMKKPD\x18\x0e \x01(\x08\x12,\n\rprivilegeInfo\x18\x08 \x01(\x0b\x32\x15.ReunionPrivilegeInfo\x12\x1b\n\x13Unk3300_MHHLEJIFFIM\x18\r \x01(\x08\x12\x0f\n\x07version\x18\x07 \x01(\t\x12\x19\n\x11\x66irstGiftRewardId\x18\t \x01(\r\x12\x19\n\x11\x66irstDayStartTime\x18\x01 \x01(\r\x12\x11\n\tstartTime\x18\n \x01(\r\x12\x16\n\x0esignInConfigId\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_OKGAAEDENEI\x18\x02 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReunionBriefInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReunionBriefInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _REUNIONBRIEFINFO._serialized_start=55
-  _REUNIONBRIEFINFO._serialized_end=394
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_REUNIONBRIEFINFO']._serialized_start=55
+  _globals['_REUNIONBRIEFINFO']._serialized_end=380
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMonsterAlertChangeNotify.proto\"c\n\x18MonsterAlertChangeNotify\x12\x1b\n\x13monster_entity_list\x18\x05 \x03(\r\x12\x10\n\x08is_alert\x18\x0c \x01(\r\x12\x18\n\x10\x61vatar_entity_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMonsterAlertChangeNotify.proto\"^\n\x18MonsterAlertChangeNotify\x12\x16\n\x0e\x61vatarEntityId\x18\x02 \x01(\r\x12\x0f\n\x07isAlert\x18\n \x01(\r\x12\x19\n\x11monsterEntityList\x18\x0f \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MonsterAlertChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MonsterAlertChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MONSTERALERTCHANGENOTIFY._serialized_start=34
-  _MONSTERALERTCHANGENOTIFY._serialized_end=133
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MONSTERALERTCHANGENOTIFY']._serialized_start=34
+  _globals['_MONSTERALERTCHANGENOTIFY']._serialized_end=128
 # @@protoc_insertion_point(module_scope)

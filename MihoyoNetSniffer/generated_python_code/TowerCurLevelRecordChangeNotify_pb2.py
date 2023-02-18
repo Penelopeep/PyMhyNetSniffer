@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import TowerCurLevelRecord_pb2 as TowerCurLevelRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TowerCurLevelRecordChangeNotify.proto\x1a\x19TowerCurLevelRecord.proto\"Q\n\x1fTowerCurLevelRecordChangeNotify\x12.\n\x10\x63ur_level_record\x18\x01 \x01(\x0b\x32\x14.TowerCurLevelRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TowerCurLevelRecordChangeNotify.proto\x1a\x19TowerCurLevelRecord.proto\"O\n\x1fTowerCurLevelRecordChangeNotify\x12,\n\x0e\x63urLevelRecord\x18\x05 \x01(\x0b\x32\x14.TowerCurLevelRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerCurLevelRecordChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerCurLevelRecordChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TOWERCURLEVELRECORDCHANGENOTIFY._serialized_start=68
-  _TOWERCURLEVELRECORDCHANGENOTIFY._serialized_end=149
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TOWERCURLEVELRECORDCHANGENOTIFY']._serialized_start=68
+  _globals['_TOWERCURLEVELRECORDCHANGENOTIFY']._serialized_end=147
 # @@protoc_insertion_point(module_scope)

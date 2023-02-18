@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGetParentQuestVideoKeyReq.proto\"4\n\x19GetParentQuestVideoKeyReq\x12\x17\n\x0fparent_quest_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGetParentQuestVideoKeyReq.proto\"2\n\x19GetParentQuestVideoKeyReq\x12\x15\n\rparentQuestId\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetParentQuestVideoKeyReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetParentQuestVideoKeyReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETPARENTQUESTVIDEOKEYREQ._serialized_start=35
-  _GETPARENTQUESTVIDEOKEYREQ._serialized_end=87
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETPARENTQUESTVIDEOKEYREQ']._serialized_start=35
+  _globals['_GETPARENTQUESTVIDEOKEYREQ']._serialized_end=85
 # @@protoc_insertion_point(module_scope)

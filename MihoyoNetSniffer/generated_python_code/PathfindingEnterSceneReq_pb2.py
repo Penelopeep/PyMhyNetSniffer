@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ObstacleInfo_pb2 as ObstacleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePathfindingEnterSceneReq.proto\x1a\x12ObstacleInfo.proto\"\xc1\x01\n\x18PathfindingEnterSceneReq\x12\x10\n\x08scene_id\x18\n \x01(\r\x12\x1b\n\x13Unk3300_MGGFOILELKH\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_JHLKDOHPIFB\x18\x02 \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\r \x03(\r\x12\x0f\n\x07version\x18\x0b \x01(\r\x12\x11\n\tis_editor\x18\x08 \x01(\x08\x12 \n\tobstacles\x18\x05 \x03(\x0b\x32\r.ObstacleInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePathfindingEnterSceneReq.proto\x1a\x12ObstacleInfo.proto\"\xbe\x01\n\x18PathfindingEnterSceneReq\x12\x12\n\nactivityId\x18\x08 \x03(\r\x12\x1b\n\x13Unk3300_JHLKDOHPIFB\x18\x01 \x01(\r\x12\x0f\n\x07sceneId\x18\x0b \x01(\r\x12\x10\n\x08isEditor\x18\r \x01(\x08\x12\x0f\n\x07version\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_MGGFOILELKH\x18\x03 \x01(\r\x12 \n\tobstacles\x18\n \x03(\x0b\x32\r.ObstacleInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PathfindingEnterSceneReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PathfindingEnterSceneReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PATHFINDINGENTERSCENEREQ._serialized_start=55
-  _PATHFINDINGENTERSCENEREQ._serialized_end=248
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PATHFINDINGENTERSCENEREQ']._serialized_start=55
+  _globals['_PATHFINDINGENTERSCENEREQ']._serialized_end=245
 # @@protoc_insertion_point(module_scope)

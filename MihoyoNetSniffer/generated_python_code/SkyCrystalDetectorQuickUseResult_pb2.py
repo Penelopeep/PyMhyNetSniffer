@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import SkyCrystalDetectorData_pb2 as SkyCrystalDetectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SkyCrystalDetectorQuickUseResult.proto\x1a\x1cSkyCrystalDetectorData.proto\"o\n SkyCrystalDetectorQuickUseResult\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12:\n\x19sky_crystal_detector_data\x18\x04 \x01(\x0b\x32\x17.SkyCrystalDetectorDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SkyCrystalDetectorQuickUseResult.proto\x1a\x1cSkyCrystalDetectorData.proto\"l\n SkyCrystalDetectorQuickUseResult\x12\x37\n\x16skyCrystalDetectorData\x18\x0e \x01(\x0b\x32\x17.SkyCrystalDetectorData\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SkyCrystalDetectorQuickUseResult_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SkyCrystalDetectorQuickUseResult_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SKYCRYSTALDETECTORQUICKUSERESULT._serialized_start=72
-  _SKYCRYSTALDETECTORQUICKUSERESULT._serialized_end=183
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SKYCRYSTALDETECTORQUICKUSERESULT']._serialized_start=72
+  _globals['_SKYCRYSTALDETECTORQUICKUSERESULT']._serialized_end=180
 # @@protoc_insertion_point(module_scope)

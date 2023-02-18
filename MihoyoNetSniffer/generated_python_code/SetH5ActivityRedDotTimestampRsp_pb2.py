@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SetH5ActivityRedDotTimestampRsp.proto\"2\n\x1fSetH5ActivityRedDotTimestampRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SetH5ActivityRedDotTimestampRsp.proto\"2\n\x1fSetH5ActivityRedDotTimestampRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetH5ActivityRedDotTimestampRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetH5ActivityRedDotTimestampRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SETH5ACTIVITYREDDOTTIMESTAMPRSP._serialized_start=41
-  _SETH5ACTIVITYREDDOTTIMESTAMPRSP._serialized_end=91
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SETH5ACTIVITYREDDOTTIMESTAMPRSP']._serialized_start=41
+  _globals['_SETH5ACTIVITYREDDOTTIMESTAMPRSP']._serialized_end=91
 # @@protoc_insertion_point(module_scope)

@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import DungeonEntryInfo_pb2 as DungeonEntryInfo__pb2
 import DungeonEntryPointInfo_pb2 as DungeonEntryPointInfo__pb2
+import DungeonEntryInfo_pb2 as DungeonEntryInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonEntryInfoRsp.proto\x1a\x16\x44ungeonEntryInfo.proto\x1a\x1b\x44ungeonEntryPointInfo.proto\"\xbf\x01\n\x13\x44ungeonEntryInfoRsp\x12-\n\x12\x64ungeon_entry_list\x18\x08 \x03(\x0b\x32\x11.DungeonEntryInfo\x12\x1c\n\x14recommend_dungeon_id\x18\x0f \x01(\r\x12\x38\n\x18\x64ungeon_entry_point_list\x18\n \x03(\x0b\x32\x16.DungeonEntryPointInfo\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x10\n\x08point_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonEntryInfoRsp.proto\x1a\x1b\x44ungeonEntryPointInfo.proto\x1a\x16\x44ungeonEntryInfo.proto\"\xb7\x01\n\x13\x44ungeonEntryInfoRsp\x12\x35\n\x15\x64ungeonEntryPointList\x18\x05 \x03(\x0b\x32\x16.DungeonEntryPointInfo\x12\x1a\n\x12recommendDungeonId\x18\x04 \x01(\r\x12\x0f\n\x07pointId\x18\x07 \x01(\r\x12+\n\x10\x64ungeonEntryList\x18\x01 \x03(\x0b\x32\x11.DungeonEntryInfo\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonEntryInfoRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonEntryInfoRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DUNGEONENTRYINFORSP._serialized_start=83
-  _DUNGEONENTRYINFORSP._serialized_end=274
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DUNGEONENTRYINFORSP']._serialized_start=83
+  _globals['_DUNGEONENTRYINFORSP']._serialized_end=266
 # @@protoc_insertion_point(module_scope)

@@ -14,17 +14,19 @@ _sym_db = _symbol_database.Default()
 import ForgeQueueData_pb2 as ForgeQueueData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x46orgeGetQueueDataRsp.proto\x1a\x14\x46orgeQueueData.proto\"\xc8\x01\n\x14\x46orgeGetQueueDataRsp\x12\x15\n\rmax_queue_num\x18\x04 \x01(\r\x12\x41\n\x0f\x66orge_queue_map\x18\t \x03(\x0b\x32(.ForgeGetQueueDataRsp.ForgeQueueMapEntry\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x1a\x45\n\x12\x46orgeQueueMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1e\n\x05value\x18\x02 \x01(\x0b\x32\x0f.ForgeQueueData:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x46orgeGetQueueDataRsp.proto\x1a\x14\x46orgeQueueData.proto\"\xc4\x01\n\x14\x46orgeGetQueueDataRsp\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x13\n\x0bmaxQueueNum\x18\x07 \x01(\r\x12?\n\rforgeQueueMap\x18\x04 \x03(\x0b\x32(.ForgeGetQueueDataRsp.ForgeQueueMapEntry\x1a\x45\n\x12\x46orgeQueueMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1e\n\x05value\x18\x02 \x01(\x0b\x32\x0f.ForgeQueueData:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeGetQueueDataRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeGetQueueDataRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _FORGEGETQUEUEDATARSP_FORGEQUEUEMAPENTRY._options = None
   _FORGEGETQUEUEDATARSP_FORGEQUEUEMAPENTRY._serialized_options = b'8\001'
-  _FORGEGETQUEUEDATARSP._serialized_start=53
-  _FORGEGETQUEUEDATARSP._serialized_end=253
-  _FORGEGETQUEUEDATARSP_FORGEQUEUEMAPENTRY._serialized_start=184
-  _FORGEGETQUEUEDATARSP_FORGEQUEUEMAPENTRY._serialized_end=253
+  _globals['_FORGEGETQUEUEDATARSP']._serialized_start=53
+  _globals['_FORGEGETQUEUEDATARSP']._serialized_end=249
+  _globals['_FORGEGETQUEUEDATARSP_FORGEQUEUEMAPENTRY']._serialized_start=180
+  _globals['_FORGEGETQUEUEDATARSP_FORGEQUEUEMAPENTRY']._serialized_end=249
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGEndReason_pb2 as GCGEndReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GCGMsgGameOver.proto\x1a\x12GCGEndReason.proto\"N\n\x0eGCGMsgGameOver\x12!\n\nend_reason\x18\x06 \x01(\x0e\x32\r.GCGEndReason\x12\x19\n\x11win_controller_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GCGMsgGameOver.proto\x1a\x12GCGEndReason.proto\"K\n\x0eGCGMsgGameOver\x12 \n\tendReason\x18\x04 \x01(\x0e\x32\r.GCGEndReason\x12\x17\n\x0fwinControllerId\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgGameOver_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgGameOver_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGGAMEOVER._serialized_start=44
-  _GCGMSGGAMEOVER._serialized_end=122
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMSGGAMEOVER']._serialized_start=44
+  _globals['_GCGMSGGAMEOVER']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

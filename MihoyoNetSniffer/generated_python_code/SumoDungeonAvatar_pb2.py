@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SumoDungeonAvatar.proto\"L\n\x11SumoDungeonAvatar\x12\x10\n\x08is_alive\x18\r \x01(\x08\x12\x10\n\x08is_trial\x18\x04 \x01(\x08\x12\x13\n\x0b\x61vatar_guid\x18\n \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SumoDungeonAvatar.proto\"I\n\x11SumoDungeonAvatar\x12\x0f\n\x07isAlive\x18\n \x01(\x08\x12\x0f\n\x07isTrial\x18\x05 \x01(\x08\x12\x12\n\navatarGuid\x18\x03 \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoDungeonAvatar_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoDungeonAvatar_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SUMODUNGEONAVATAR._serialized_start=27
-  _SUMODUNGEONAVATAR._serialized_end=103
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SUMODUNGEONAVATAR']._serialized_start=27
+  _globals['_SUMODUNGEONAVATAR']._serialized_end=100
 # @@protoc_insertion_point(module_scope)

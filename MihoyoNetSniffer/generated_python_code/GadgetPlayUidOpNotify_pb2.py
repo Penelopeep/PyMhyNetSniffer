@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGadgetPlayUidOpNotify.proto\"\x82\x01\n\x15GadgetPlayUidOpNotify\x12\x11\n\tparam_str\x18\x0e \x01(\t\x12\n\n\x02op\x18\x02 \x01(\r\x12\x11\n\tentity_id\x18\n \x01(\r\x12\x12\n\nparam_list\x18\x0c \x03(\r\x12\x11\n\tplay_type\x18\t \x01(\r\x12\x10\n\x08uid_list\x18\x05 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGadgetPlayUidOpNotify.proto\"}\n\x15GadgetPlayUidOpNotify\x12\x0f\n\x07uidList\x18\x0c \x03(\r\x12\x10\n\x08playType\x18\x0e \x01(\r\x12\n\n\x02op\x18\t \x01(\r\x12\x10\n\x08paramStr\x18\x02 \x01(\t\x12\x11\n\tparamList\x18\x0b \x03(\r\x12\x10\n\x08\x65ntityId\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetPlayUidOpNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetPlayUidOpNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GADGETPLAYUIDOPNOTIFY._serialized_start=32
-  _GADGETPLAYUIDOPNOTIFY._serialized_end=162
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GADGETPLAYUIDOPNOTIFY']._serialized_start=31
+  _globals['_GADGETPLAYUIDOPNOTIFY']._serialized_end=156
 # @@protoc_insertion_point(module_scope)

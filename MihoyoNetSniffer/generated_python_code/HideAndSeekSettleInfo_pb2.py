@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ExhibitionDisplayInfo_pb2 as ExhibitionDisplayInfo__pb2
 import ProfilePicture_pb2 as ProfilePicture__pb2
+import ExhibitionDisplayInfo_pb2 as ExhibitionDisplayInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHideAndSeekSettleInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\x1a\x14ProfilePicture.proto\"\xb2\x01\n\x15HideAndSeekSettleInfo\x12)\n\tcard_list\x18\x02 \x03(\x0b\x32\x16.ExhibitionDisplayInfo\x12\x10\n\x08nickname\x18\x0f \x01(\t\x12\x12\n\nhead_image\x18\t \x01(\r\x12\x0b\n\x03uid\x18\x06 \x01(\r\x12\x11\n\tonline_id\x18\x05 \x01(\t\x12(\n\x0fprofile_picture\x18\x0e \x01(\x0b\x32\x0f.ProfilePictureb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHideAndSeekSettleInfo.proto\x1a\x14ProfilePicture.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\"\xae\x01\n\x15HideAndSeekSettleInfo\x12\x0b\n\x03uid\x18\x01 \x01(\r\x12(\n\x08\x63\x61rdList\x18\x02 \x03(\x0b\x32\x16.ExhibitionDisplayInfo\x12\x11\n\theadImage\x18\x03 \x01(\r\x12\x10\n\x08onlineId\x18\n \x01(\t\x12\x10\n\x08nickname\x18\t \x01(\t\x12\'\n\x0eprofilePicture\x18\x05 \x01(\x0b\x32\x0f.ProfilePictureB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekSettleInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekSettleInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HIDEANDSEEKSETTLEINFO._serialized_start=83
-  _HIDEANDSEEKSETTLEINFO._serialized_end=261
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HIDEANDSEEKSETTLEINFO']._serialized_start=83
+  _globals['_HIDEANDSEEKSETTLEINFO']._serialized_end=257
 # @@protoc_insertion_point(module_scope)

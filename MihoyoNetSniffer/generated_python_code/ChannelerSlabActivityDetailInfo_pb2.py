@@ -12,17 +12,19 @@ _sym_db = _symbol_database.Default()
 
 
 import ChannelerSlabBuffInfo_pb2 as ChannelerSlabBuffInfo__pb2
-import ChannelerSlabChallengeStage_pb2 as ChannelerSlabChallengeStage__pb2
 import ChannelerSlabLoopDungeonStageInfo_pb2 as ChannelerSlabLoopDungeonStageInfo__pb2
+import ChannelerSlabChallengeStage_pb2 as ChannelerSlabChallengeStage__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%ChannelerSlabActivityDetailInfo.proto\x1a\x1b\x43hannelerSlabBuffInfo.proto\x1a!ChannelerSlabChallengeStage.proto\x1a\'ChannelerSlabLoopDungeonStageInfo.proto\"\xda\x01\n\x1f\x43hannelerSlabActivityDetailInfo\x12\x43\n\x17loop_dungeon_stage_info\x18\x02 \x01(\x0b\x32\".ChannelerSlabLoopDungeonStageInfo\x12)\n\tbuff_info\x18\t \x01(\x0b\x32\x16.ChannelerSlabBuffInfo\x12\x30\n\nstage_list\x18\x08 \x03(\x0b\x32\x1c.ChannelerSlabChallengeStage\x12\x15\n\rplay_end_time\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%ChannelerSlabActivityDetailInfo.proto\x1a\x1b\x43hannelerSlabBuffInfo.proto\x1a\'ChannelerSlabLoopDungeonStageInfo.proto\x1a!ChannelerSlabChallengeStage.proto\"\xd3\x01\n\x1f\x43hannelerSlabActivityDetailInfo\x12(\n\x08\x62uffInfo\x18\r \x01(\x0b\x32\x16.ChannelerSlabBuffInfo\x12\x13\n\x0bplayEndTime\x18\x07 \x01(\r\x12@\n\x14loopDungeonStageInfo\x18\x04 \x01(\x0b\x32\".ChannelerSlabLoopDungeonStageInfo\x12/\n\tstageList\x18\t \x03(\x0b\x32\x1c.ChannelerSlabChallengeStageB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHANNELERSLABACTIVITYDETAILINFO._serialized_start=147
-  _CHANNELERSLABACTIVITYDETAILINFO._serialized_end=365
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHANNELERSLABACTIVITYDETAILINFO']._serialized_start=147
+  _globals['_CHANNELERSLABACTIVITYDETAILINFO']._serialized_end=358
 # @@protoc_insertion_point(module_scope)

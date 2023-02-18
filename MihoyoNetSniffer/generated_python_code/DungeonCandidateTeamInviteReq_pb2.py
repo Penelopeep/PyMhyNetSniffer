@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DungeonCandidateTeamInviteReq.proto\"4\n\x1d\x44ungeonCandidateTeamInviteReq\x12\x13\n\x0bplayer_uids\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DungeonCandidateTeamInviteReq.proto\"3\n\x1d\x44ungeonCandidateTeamInviteReq\x12\x12\n\nplayerUids\x18\x0b \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamInviteReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamInviteReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DUNGEONCANDIDATETEAMINVITEREQ._serialized_start=39
-  _DUNGEONCANDIDATETEAMINVITEREQ._serialized_end=91
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DUNGEONCANDIDATETEAMINVITEREQ']._serialized_start=39
+  _globals['_DUNGEONCANDIDATETEAMINVITEREQ']._serialized_end=90
 # @@protoc_insertion_point(module_scope)

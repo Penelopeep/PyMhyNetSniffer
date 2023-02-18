@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import MatchPlayerInfo_pb2 as MatchPlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GCGMatchInfo.proto\x1a\x15MatchPlayerInfo.proto\"5\n\x0cGCGMatchInfo\x12%\n\x0bplayer_list\x18\x0f \x03(\x0b\x32\x10.MatchPlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GCGMatchInfo.proto\x1a\x15MatchPlayerInfo.proto\"4\n\x0cGCGMatchInfo\x12$\n\nplayerList\x18\x05 \x03(\x0b\x32\x10.MatchPlayerInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMatchInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMatchInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMATCHINFO._serialized_start=45
-  _GCGMATCHINFO._serialized_end=98
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMATCHINFO']._serialized_start=45
+  _globals['_GCGMATCHINFO']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

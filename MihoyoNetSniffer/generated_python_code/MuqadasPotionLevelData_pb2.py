@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cMuqadasPotionLevelData.proto\"N\n\x16MuqadasPotionLevelData\x12\x0f\n\x07is_open\x18\x01 \x01(\x08\x12\x10\n\x08level_id\x18\x02 \x01(\r\x12\x11\n\tmax_score\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cMuqadasPotionLevelData.proto\"K\n\x16MuqadasPotionLevelData\x12\x0f\n\x07levelId\x18\x0e \x01(\r\x12\x0e\n\x06isOpen\x18\n \x01(\x08\x12\x10\n\x08maxScore\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MuqadasPotionLevelData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MuqadasPotionLevelData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MUQADASPOTIONLEVELDATA._serialized_start=32
-  _MUQADASPOTIONLEVELDATA._serialized_end=110
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MUQADASPOTIONLEVELDATA']._serialized_start=32
+  _globals['_MUQADASPOTIONLEVELDATA']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

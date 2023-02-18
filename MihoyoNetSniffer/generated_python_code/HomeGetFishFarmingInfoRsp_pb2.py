@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeFishFarmingInfo_pb2 as HomeFishFarmingInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeGetFishFarmingInfoRsp.proto\x1a\x19HomeFishFarmingInfo.proto\"b\n\x19HomeGetFishFarmingInfoRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x34\n\x16\x66ish_farming_info_list\x18\x0c \x03(\x0b\x32\x14.HomeFishFarmingInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeGetFishFarmingInfoRsp.proto\x1a\x19HomeFishFarmingInfo.proto\"_\n\x19HomeGetFishFarmingInfoRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x31\n\x13\x66ishFarmingInfoList\x18\x01 \x03(\x0b\x32\x14.HomeFishFarmingInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetFishFarmingInfoRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetFishFarmingInfoRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEGETFISHFARMINGINFORSP._serialized_start=62
-  _HOMEGETFISHFARMINGINFORSP._serialized_end=160
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEGETFISHFARMINGINFORSP']._serialized_start=62
+  _globals['_HOMEGETFISHFARMINGINFORSP']._serialized_end=157
 # @@protoc_insertion_point(module_scope)

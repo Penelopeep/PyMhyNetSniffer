@@ -13,15 +13,17 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43ityReputationRequestInfo.proto\"\xbd\x01\n\x19\x43ityReputationRequestInfo\x12\x41\n\x11request_info_list\x18\x04 \x03(\x0b\x32&.CityReputationRequestInfo.RequestInfo\x12\x0f\n\x07is_open\x18\x0e \x01(\x08\x1aL\n\x0bRequestInfo\x12\x17\n\x0fis_taken_reward\x18\x04 \x01(\x08\x12\x12\n\nrequest_id\x18\x08 \x01(\r\x12\x10\n\x08quest_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43ityReputationRequestInfo.proto\"\xb6\x01\n\x19\x43ityReputationRequestInfo\x12\x0e\n\x06isOpen\x18\x01 \x01(\x08\x12?\n\x0frequestInfoList\x18\x02 \x03(\x0b\x32&.CityReputationRequestInfo.RequestInfo\x1aH\n\x0bRequestInfo\x12\x11\n\trequestId\x18\x0b \x01(\r\x12\x0f\n\x07questId\x18\x0e \x01(\r\x12\x15\n\risTakenReward\x18\r \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CityReputationRequestInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CityReputationRequestInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CITYREPUTATIONREQUESTINFO._serialized_start=36
-  _CITYREPUTATIONREQUESTINFO._serialized_end=225
-  _CITYREPUTATIONREQUESTINFO_REQUESTINFO._serialized_start=149
-  _CITYREPUTATIONREQUESTINFO_REQUESTINFO._serialized_end=225
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CITYREPUTATIONREQUESTINFO']._serialized_start=36
+  _globals['_CITYREPUTATIONREQUESTINFO']._serialized_end=218
+  _globals['_CITYREPUTATIONREQUESTINFO_REQUESTINFO']._serialized_start=146
+  _globals['_CITYREPUTATIONREQUESTINFO_REQUESTINFO']._serialized_end=218
 # @@protoc_insertion_point(module_scope)

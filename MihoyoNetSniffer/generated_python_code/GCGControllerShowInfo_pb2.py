@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ProfilePicture_pb2 as ProfilePicture__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGCGControllerShowInfo.proto\x1a\x14ProfilePicture.proto\"\x8e\x01\n\x15GCGControllerShowInfo\x12\x0e\n\x06psn_id\x18\x0c \x01(\t\x12\x11\n\tnick_name\x18\n \x01(\t\x12\x11\n\tonline_id\x18\x0f \x01(\t\x12(\n\x0fprofile_picture\x18\x03 \x01(\x0b\x32\x0f.ProfilePicture\x12\x15\n\rcontroller_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGCGControllerShowInfo.proto\x1a\x14ProfilePicture.proto\"\x89\x01\n\x15GCGControllerShowInfo\x12\x10\n\x08onlineId\x18\x05 \x01(\t\x12\x14\n\x0c\x63ontrollerId\x18\x06 \x01(\r\x12\x10\n\x08nickName\x18\x01 \x01(\t\x12\'\n\x0eprofilePicture\x18\x04 \x01(\x0b\x32\x0f.ProfilePicture\x12\r\n\x05psnId\x18\n \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGControllerShowInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGControllerShowInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGCONTROLLERSHOWINFO._serialized_start=54
-  _GCGCONTROLLERSHOWINFO._serialized_end=196
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGCONTROLLERSHOWINFO']._serialized_start=54
+  _globals['_GCGCONTROLLERSHOWINFO']._serialized_end=191
 # @@protoc_insertion_point(module_scope)

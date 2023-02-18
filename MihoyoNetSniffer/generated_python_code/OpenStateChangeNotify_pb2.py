@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bOpenStateChangeNotify.proto\"\x8e\x01\n\x15OpenStateChangeNotify\x12@\n\x0eopen_state_map\x18\x03 \x03(\x0b\x32(.OpenStateChangeNotify.OpenStateMapEntry\x1a\x33\n\x11OpenStateMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bOpenStateChangeNotify.proto\"\x8c\x01\n\x15OpenStateChangeNotify\x12>\n\x0copenStateMap\x18\x0f \x03(\x0b\x32(.OpenStateChangeNotify.OpenStateMapEntry\x1a\x33\n\x11OpenStateMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OpenStateChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OpenStateChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _OPENSTATECHANGENOTIFY_OPENSTATEMAPENTRY._options = None
   _OPENSTATECHANGENOTIFY_OPENSTATEMAPENTRY._serialized_options = b'8\001'
-  _OPENSTATECHANGENOTIFY._serialized_start=32
-  _OPENSTATECHANGENOTIFY._serialized_end=174
-  _OPENSTATECHANGENOTIFY_OPENSTATEMAPENTRY._serialized_start=123
-  _OPENSTATECHANGENOTIFY_OPENSTATEMAPENTRY._serialized_end=174
+  _globals['_OPENSTATECHANGENOTIFY']._serialized_start=32
+  _globals['_OPENSTATECHANGENOTIFY']._serialized_end=172
+  _globals['_OPENSTATECHANGENOTIFY_OPENSTATEMAPENTRY']._serialized_start=121
+  _globals['_OPENSTATECHANGENOTIFY_OPENSTATEMAPENTRY']._serialized_end=172
 # @@protoc_insertion_point(module_scope)

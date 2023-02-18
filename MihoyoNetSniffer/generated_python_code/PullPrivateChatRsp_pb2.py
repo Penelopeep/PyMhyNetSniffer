@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ChatInfo_pb2 as ChatInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PullPrivateChatRsp.proto\x1a\x0e\x43hatInfo.proto\"C\n\x12PullPrivateChatRsp\x12\x1c\n\tchat_info\x18\x06 \x03(\x0b\x32\t.ChatInfo\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PullPrivateChatRsp.proto\x1a\x0e\x43hatInfo.proto\"B\n\x12PullPrivateChatRsp\x12\x1b\n\x08\x63hatInfo\x18\t \x03(\x0b\x32\t.ChatInfo\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PullPrivateChatRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PullPrivateChatRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PULLPRIVATECHATRSP._serialized_start=44
-  _PULLPRIVATECHATRSP._serialized_end=111
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PULLPRIVATECHATRSP']._serialized_start=44
+  _globals['_PULLPRIVATECHATRSP']._serialized_end=110
 # @@protoc_insertion_point(module_scope)

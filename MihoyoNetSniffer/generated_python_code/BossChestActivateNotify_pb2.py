@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42ossChestActivateNotify.proto\"F\n\x17\x42ossChestActivateNotify\x12\x11\n\tentity_id\x18\x0f \x01(\r\x12\x18\n\x10qualify_uid_list\x18\x07 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42ossChestActivateNotify.proto\"C\n\x17\x42ossChestActivateNotify\x12\x16\n\x0equalifyUidList\x18\x06 \x03(\r\x12\x10\n\x08\x65ntityId\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BossChestActivateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BossChestActivateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BOSSCHESTACTIVATENOTIFY._serialized_start=33
-  _BOSSCHESTACTIVATENOTIFY._serialized_end=103
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BOSSCHESTACTIVATENOTIFY']._serialized_start=33
+  _globals['_BOSSCHESTACTIVATENOTIFY']._serialized_end=100
 # @@protoc_insertion_point(module_scope)

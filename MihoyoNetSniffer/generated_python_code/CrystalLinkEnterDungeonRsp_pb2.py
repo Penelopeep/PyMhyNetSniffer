@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CrystalLinkTeamInfo_pb2 as CrystalLinkTeamInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n CrystalLinkEnterDungeonRsp.proto\x1a\x19\x43rystalLinkTeamInfo.proto\"\x84\x01\n\x1a\x43rystalLinkEnterDungeonRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x15\n\rdifficulty_id\x18\x0f \x01(\r\x12\x10\n\x08level_id\x18\x07 \x01(\r\x12,\n\x0eteam_info_list\x18\x0c \x03(\x0b\x32\x14.CrystalLinkTeamInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n CrystalLinkEnterDungeonRsp.proto\x1a\x19\x43rystalLinkTeamInfo.proto\"\x80\x01\n\x1a\x43rystalLinkEnterDungeonRsp\x12\x0f\n\x07levelId\x18\x0b \x01(\r\x12\x14\n\x0c\x64ifficultyId\x18\x02 \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12*\n\x0cteamInfoList\x18\n \x03(\x0b\x32\x14.CrystalLinkTeamInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CrystalLinkEnterDungeonRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CrystalLinkEnterDungeonRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CRYSTALLINKENTERDUNGEONRSP._serialized_start=64
-  _CRYSTALLINKENTERDUNGEONRSP._serialized_end=196
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CRYSTALLINKENTERDUNGEONRSP']._serialized_start=64
+  _globals['_CRYSTALLINKENTERDUNGEONRSP']._serialized_end=192
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46\x65\x61tureBlockInfo.proto\":\n\x10\x46\x65\x61tureBlockInfo\x12\x14\n\x0c\x66\x65\x61ture_type\x18\x01 \x01(\r\x12\x10\n\x08\x65nd_time\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46\x65\x61tureBlockInfo.proto\"8\n\x10\x46\x65\x61tureBlockInfo\x12\x13\n\x0b\x66\x65\x61tureType\x18\x01 \x01(\r\x12\x0f\n\x07\x65ndTime\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FeatureBlockInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FeatureBlockInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FEATUREBLOCKINFO._serialized_start=26
-  _FEATUREBLOCKINFO._serialized_end=84
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FEATUREBLOCKINFO']._serialized_start=26
+  _globals['_FEATUREBLOCKINFO']._serialized_end=82
 # @@protoc_insertion_point(module_scope)

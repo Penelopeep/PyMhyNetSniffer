@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GalleryStopReason.proto*\x9b\x04\n\x11GalleryStopReason\x12\x1c\n\x18GALLERY_STOP_REASON_NONE\x10\x00\x12\x1e\n\x1aGALLERY_STOP_REASON_TIMEUP\x10\x01\x12(\n$GALLERY_STOP_REASON_CLIENT_INTERRUPT\x10\x02\x12-\n)GALLERY_STOP_REASON_LUA_INTERRUPT_SUCCESS\x10\x03\x12*\n&GALLERY_STOP_REASON_LUA_INTERRUPT_FAIL\x10\x04\x12)\n%GALLERY_STOP_REASON_OWNER_LEAVE_SCENE\x10\x05\x12(\n$GALLERY_STOP_REASON_PLAY_INIT_FAILED\x10\x06\x12*\n&GALLERY_STOP_REASON_OTHER_PLAYER_ENTER\x10\x07\x12\"\n\x1eGALLERY_STOP_REASON_AVATAR_DIE\x10\x08\x12 \n\x1cGALLERY_STOP_REASON_FINISHED\x10\t\x12&\n\"GALLERY_STOP_REASON_FUNGUS_ALL_DIE\x10\n\x12\'\n#GALLERY_STOP_REASON_LIFE_COUNT_ZERO\x10\x0b\x12+\n\'GALLERY_STOP_REASON_Unk3300_DFPLGCGIIDM\x10\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GalleryStopReason.proto*\x9b\x04\n\x11GalleryStopReason\x12\x1c\n\x18GALLERY_STOP_REASON_NONE\x10\x00\x12\x1e\n\x1aGALLERY_STOP_REASON_TIMEUP\x10\x01\x12(\n$GALLERY_STOP_REASON_CLIENT_INTERRUPT\x10\x02\x12-\n)GALLERY_STOP_REASON_LUA_INTERRUPT_SUCCESS\x10\x03\x12*\n&GALLERY_STOP_REASON_LUA_INTERRUPT_FAIL\x10\x04\x12)\n%GALLERY_STOP_REASON_OWNER_LEAVE_SCENE\x10\x05\x12(\n$GALLERY_STOP_REASON_PLAY_INIT_FAILED\x10\x06\x12*\n&GALLERY_STOP_REASON_OTHER_PLAYER_ENTER\x10\x07\x12\"\n\x1eGALLERY_STOP_REASON_AVATAR_DIE\x10\x08\x12 \n\x1cGALLERY_STOP_REASON_FINISHED\x10\t\x12&\n\"GALLERY_STOP_REASON_FUNGUS_ALL_DIE\x10\n\x12\'\n#GALLERY_STOP_REASON_LIFE_COUNT_ZERO\x10\x0b\x12+\n\'GALLERY_STOP_REASON_Unk3300_DFPLGCGIIDM\x10\x0c\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryStopReason_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryStopReason_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GALLERYSTOPREASON._serialized_start=28
-  _GALLERYSTOPREASON._serialized_end=567
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GALLERYSTOPREASON']._serialized_start=28
+  _globals['_GALLERYSTOPREASON']._serialized_end=567
 # @@protoc_insertion_point(module_scope)

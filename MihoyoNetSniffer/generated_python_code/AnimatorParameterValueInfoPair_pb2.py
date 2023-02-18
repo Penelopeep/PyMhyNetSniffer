@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import AnimatorParameterValueInfo_pb2 as AnimatorParameterValueInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$AnimatorParameterValueInfoPair.proto\x1a AnimatorParameterValueInfo.proto\"e\n\x1e\x41nimatorParameterValueInfoPair\x12\x0f\n\x07name_id\x18\x01 \x01(\x05\x12\x32\n\ranimator_para\x18\x02 \x01(\x0b\x32\x1b.AnimatorParameterValueInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$AnimatorParameterValueInfoPair.proto\x1a AnimatorParameterValueInfo.proto\"c\n\x1e\x41nimatorParameterValueInfoPair\x12\x0e\n\x06nameId\x18\x01 \x01(\x05\x12\x31\n\x0c\x61nimatorPara\x18\x02 \x01(\x0b\x32\x1b.AnimatorParameterValueInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnimatorParameterValueInfoPair_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnimatorParameterValueInfoPair_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ANIMATORPARAMETERVALUEINFOPAIR._serialized_start=74
-  _ANIMATORPARAMETERVALUEINFOPAIR._serialized_end=175
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ANIMATORPARAMETERVALUEINFOPAIR']._serialized_start=74
+  _globals['_ANIMATORPARAMETERVALUEINFOPAIR']._serialized_end=173
 # @@protoc_insertion_point(module_scope)

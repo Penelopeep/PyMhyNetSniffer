@@ -14,17 +14,19 @@ _sym_db = _symbol_database.Default()
 import InBattleMechanicusCardInfo_pb2 as InBattleMechanicusCardInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(InBattleMechanicusCardResultNotify.proto\x1a InBattleMechanicusCardInfo.proto\"\xcf\x02\n\"InBattleMechanicusCardResultNotify\x12\x10\n\x08group_id\x18\n \x01(\r\x12.\n\tcard_list\x18\x08 \x03(\x0b\x32\x1b.InBattleMechanicusCardInfo\x12\x12\n\nplay_index\x18\x0e \x01(\r\x12\x62\n\x19player_confirmed_card_map\x18\t \x03(\x0b\x32?.InBattleMechanicusCardResultNotify.PlayerConfirmedCardMapEntry\x12\x1a\n\x12wait_begin_time_us\x18\x02 \x01(\x04\x12\x14\n\x0cwait_seconds\x18\x05 \x01(\r\x1a=\n\x1bPlayerConfirmedCardMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(InBattleMechanicusCardResultNotify.proto\x1a InBattleMechanicusCardInfo.proto\"\xc5\x02\n\"InBattleMechanicusCardResultNotify\x12\x11\n\tplayIndex\x18\n \x01(\r\x12\x17\n\x0fwaitBeginTimeUs\x18\x04 \x01(\x04\x12-\n\x08\x63\x61rdList\x18\x05 \x03(\x0b\x32\x1b.InBattleMechanicusCardInfo\x12_\n\x16playerConfirmedCardMap\x18\x0c \x03(\x0b\x32?.InBattleMechanicusCardResultNotify.PlayerConfirmedCardMapEntry\x12\x0f\n\x07groupId\x18\x0f \x01(\r\x12\x13\n\x0bwaitSeconds\x18\t \x01(\r\x1a=\n\x1bPlayerConfirmedCardMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusCardResultNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusCardResultNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _INBATTLEMECHANICUSCARDRESULTNOTIFY_PLAYERCONFIRMEDCARDMAPENTRY._options = None
   _INBATTLEMECHANICUSCARDRESULTNOTIFY_PLAYERCONFIRMEDCARDMAPENTRY._serialized_options = b'8\001'
-  _INBATTLEMECHANICUSCARDRESULTNOTIFY._serialized_start=79
-  _INBATTLEMECHANICUSCARDRESULTNOTIFY._serialized_end=414
-  _INBATTLEMECHANICUSCARDRESULTNOTIFY_PLAYERCONFIRMEDCARDMAPENTRY._serialized_start=353
-  _INBATTLEMECHANICUSCARDRESULTNOTIFY_PLAYERCONFIRMEDCARDMAPENTRY._serialized_end=414
+  _globals['_INBATTLEMECHANICUSCARDRESULTNOTIFY']._serialized_start=79
+  _globals['_INBATTLEMECHANICUSCARDRESULTNOTIFY']._serialized_end=404
+  _globals['_INBATTLEMECHANICUSCARDRESULTNOTIFY_PLAYERCONFIRMEDCARDMAPENTRY']._serialized_start=343
+  _globals['_INBATTLEMECHANICUSCARDRESULTNOTIFY_PLAYERCONFIRMEDCARDMAPENTRY']._serialized_end=404
 # @@protoc_insertion_point(module_scope)

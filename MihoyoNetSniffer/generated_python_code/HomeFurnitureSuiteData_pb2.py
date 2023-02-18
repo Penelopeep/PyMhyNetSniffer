@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeFurnitureSuiteData.proto\x1a\x0cVector.proto\"\x94\x01\n\x16HomeFurnitureSuiteData\x12\x17\n\x0fis_allow_summon\x18\x04 \x01(\x08\x12\x10\n\x08suite_id\x18\x03 \x01(\r\x12\x0c\n\x04guid\x18\x05 \x01(\r\x12\x1a\n\tspawn_pos\x18\t \x01(\x0b\x32\x07.Vector\x12%\n\x1dincluded_furniture_index_list\x18\x0b \x03(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeFurnitureSuiteData.proto\x1a\x0cVector.proto\"\x8d\x01\n\x16HomeFurnitureSuiteData\x12\"\n\x1aincludedFurnitureIndexList\x18\x07 \x03(\x05\x12\x0c\n\x04guid\x18\x0c \x01(\r\x12\x0f\n\x07suiteId\x18\x0f \x01(\r\x12\x15\n\risAllowSummon\x18\x0e \x01(\x08\x12\x19\n\x08spawnPos\x18\n \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeFurnitureSuiteData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeFurnitureSuiteData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEFURNITURESUITEDATA._serialized_start=47
-  _HOMEFURNITURESUITEDATA._serialized_end=195
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEFURNITURESUITEDATA']._serialized_start=47
+  _globals['_HOMEFURNITURESUITEDATA']._serialized_end=188
 # @@protoc_insertion_point(module_scope)

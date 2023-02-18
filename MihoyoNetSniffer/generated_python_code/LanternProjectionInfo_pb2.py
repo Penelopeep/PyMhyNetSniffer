@@ -15,13 +15,15 @@ import ClientInputType_pb2 as ClientInputType__pb2
 import LanternProjectionLevelInfo_pb2 as LanternProjectionLevelInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bLanternProjectionInfo.proto\x1a\x15\x43lientInputType.proto\x1a LanternProjectionLevelInfo.proto\"\xbf\x01\n\x15LanternProjectionInfo\x12-\n\x13Unk3300_FAIAIJGCBJG\x18\x05 \x03(\x0e\x32\x10.ClientInputType\x12\x17\n\x0fopen_stage_list\x18\x0f \x03(\r\x12/\n\nlevel_list\x18\r \x03(\x0b\x32\x1b.LanternProjectionLevelInfo\x12-\n\x13Unk3300_EBHHFKLDOFB\x18\n \x03(\x0e\x32\x10.ClientInputTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bLanternProjectionInfo.proto\x1a\x15\x43lientInputType.proto\x1a LanternProjectionLevelInfo.proto\"\xbc\x01\n\x15LanternProjectionInfo\x12-\n\x13Unk3300_FAIAIJGCBJG\x18\x02 \x03(\x0e\x32\x10.ClientInputType\x12-\n\x13Unk3300_EBHHFKLDOFB\x18\x0e \x03(\x0e\x32\x10.ClientInputType\x12.\n\tlevelList\x18\x0b \x03(\x0b\x32\x1b.LanternProjectionLevelInfo\x12\x15\n\ropenStageList\x18\x0c \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanternProjectionInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanternProjectionInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LANTERNPROJECTIONINFO._serialized_start=89
-  _LANTERNPROJECTIONINFO._serialized_end=280
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LANTERNPROJECTIONINFO']._serialized_start=89
+  _globals['_LANTERNPROJECTIONINFO']._serialized_end=277
 # @@protoc_insertion_point(module_scope)

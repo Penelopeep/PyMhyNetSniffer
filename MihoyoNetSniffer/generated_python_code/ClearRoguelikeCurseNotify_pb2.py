@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43learRoguelikeCurseNotify.proto\"\xdc\x01\n\x19\x43learRoguelikeCurseNotify\x12\x14\n\x0cis_clear_all\x18\x0b \x01(\x08\x12\x46\n\x0f\x63lear_curse_map\x18\x05 \x03(\x0b\x32-.ClearRoguelikeCurseNotify.ClearCurseMapEntry\x12\x0f\n\x07\x63\x61rd_id\x18\t \x01(\r\x12\x1a\n\x12is_curse_all_clear\x18\x04 \x01(\x08\x1a\x34\n\x12\x43learCurseMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43learRoguelikeCurseNotify.proto\"\xd4\x01\n\x19\x43learRoguelikeCurseNotify\x12\x17\n\x0fisCurseAllClear\x18\x0e \x01(\x08\x12\x12\n\nisClearAll\x18\t \x01(\x08\x12\x44\n\rclearCurseMap\x18\x0c \x03(\x0b\x32-.ClearRoguelikeCurseNotify.ClearCurseMapEntry\x12\x0e\n\x06\x63\x61rdId\x18\x06 \x01(\r\x1a\x34\n\x12\x43learCurseMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClearRoguelikeCurseNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClearRoguelikeCurseNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _CLEARROGUELIKECURSENOTIFY_CLEARCURSEMAPENTRY._options = None
   _CLEARROGUELIKECURSENOTIFY_CLEARCURSEMAPENTRY._serialized_options = b'8\001'
-  _CLEARROGUELIKECURSENOTIFY._serialized_start=36
-  _CLEARROGUELIKECURSENOTIFY._serialized_end=256
-  _CLEARROGUELIKECURSENOTIFY_CLEARCURSEMAPENTRY._serialized_start=204
-  _CLEARROGUELIKECURSENOTIFY_CLEARCURSEMAPENTRY._serialized_end=256
+  _globals['_CLEARROGUELIKECURSENOTIFY']._serialized_start=36
+  _globals['_CLEARROGUELIKECURSENOTIFY']._serialized_end=248
+  _globals['_CLEARROGUELIKECURSENOTIFY_CLEARCURSEMAPENTRY']._serialized_start=196
+  _globals['_CLEARROGUELIKECURSENOTIFY_CLEARCURSEMAPENTRY']._serialized_end=248
 # @@protoc_insertion_point(module_scope)

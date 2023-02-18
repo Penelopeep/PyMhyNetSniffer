@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import SalvageEscortSettleInfo_pb2 as SalvageEscortSettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSalvageEscortSettleNotify.proto\x1a\x1dSalvageEscortSettleInfo.proto\"^\n\x19SalvageEscortSettleNotify\x12-\n\x0bsettle_info\x18\x01 \x01(\x0b\x32\x18.SalvageEscortSettleInfo\x12\x12\n\ngallery_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSalvageEscortSettleNotify.proto\x1a\x1dSalvageEscortSettleInfo.proto\"\\\n\x19SalvageEscortSettleNotify\x12\x11\n\tgalleryId\x18\x05 \x01(\r\x12,\n\nsettleInfo\x18\x02 \x01(\x0b\x32\x18.SalvageEscortSettleInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvageEscortSettleNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvageEscortSettleNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SALVAGEESCORTSETTLENOTIFY._serialized_start=66
-  _SALVAGEESCORTSETTLENOTIFY._serialized_end=160
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SALVAGEESCORTSETTLENOTIFY']._serialized_start=66
+  _globals['_SALVAGEESCORTSETTLENOTIFY']._serialized_end=158
 # @@protoc_insertion_point(module_scope)

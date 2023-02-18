@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import BreakoutPhysicalObject_pb2 as BreakoutPhysicalObject__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x42reakoutSpawnPoint.proto\x1a\x1c\x42reakoutPhysicalObject.proto\"m\n\x12\x42reakoutSpawnPoint\x12\n\n\x02id\x18\x01 \x01(\r\x12\x16\n\x0e\x62rick_suite_id\x18\x02 \x01(\r\x12\x33\n\x12spawned_brick_list\x18\x03 \x03(\x0b\x32\x17.BreakoutPhysicalObjectb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x42reakoutSpawnPoint.proto\x1a\x1c\x42reakoutPhysicalObject.proto\"c\n\x12\x42reakoutSpawnPoint\x12\n\n\x02id\x18\x01 \x01(\r\x12\x13\n\x0bjkjacakbdch\x18\x02 \x01(\r\x12,\n\x0b\x63lnllfklpjc\x18\x03 \x03(\x0b\x32\x17.BreakoutPhysicalObjectB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BreakoutSpawnPoint_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BreakoutSpawnPoint_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BREAKOUTSPAWNPOINT._serialized_start=58
-  _BREAKOUTSPAWNPOINT._serialized_end=167
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BREAKOUTSPAWNPOINT']._serialized_start=58
+  _globals['_BREAKOUTSPAWNPOINT']._serialized_end=157
 # @@protoc_insertion_point(module_scope)

@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import HitColliderType_pb2 as HitColliderType__pb2
 import Vector_pb2 as Vector__pb2
+import HitColliderType_pb2 as HitColliderType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12HitCollision.proto\x1a\x15HitColliderType.proto\x1a\x0cVector.proto\"\xc2\x01\n\x0cHitCollision\x12\x15\n\rhit_box_index\x18\x08 \x01(\x05\x12+\n\x11hit_collider_type\x18\x05 \x01(\x0e\x32\x10.HitColliderType\x12\x1b\n\x13Unk3300_LNHIOLFMGCN\x18\x07 \x01(\x02\x12\x18\n\x07hit_dir\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x1a\n\thit_point\x18\x0e \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_OJHBMLIAPJN\x18\n \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12HitCollision.proto\x1a\x0cVector.proto\x1a\x15HitColliderType.proto\"\xc1\x01\n\x0cHitCollision\x12\x1e\n\x16\x61ttackeeHitEntityAngle\x18\x0c \x01(\x02\x12\x17\n\x06hitDir\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x19\n\x08hitPoint\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x13\n\x0bhitBoxIndex\x18\n \x01(\x05\x12\x1d\n\x15\x61ttackeeHitForceAngle\x18\x0f \x01(\x02\x12)\n\x0fhitColliderType\x18\t \x01(\x0e\x32\x10.HitColliderTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HitCollision_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HitCollision_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HITCOLLISION._serialized_start=60
-  _HITCOLLISION._serialized_end=254
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HITCOLLISION']._serialized_start=60
+  _globals['_HITCOLLISION']._serialized_end=253
 # @@protoc_insertion_point(module_scope)

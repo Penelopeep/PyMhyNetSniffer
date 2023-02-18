@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41vatarEquipAffixInfo.proto\"D\n\x14\x41vatarEquipAffixInfo\x12\x16\n\x0e\x65quip_affix_id\x18\x01 \x01(\r\x12\x14\n\x0cleft_cd_time\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41vatarEquipAffixInfo.proto\"@\n\x14\x41vatarEquipAffixInfo\x12\x14\n\x0c\x65quipAffixId\x18\x01 \x01(\r\x12\x12\n\nleftCdTime\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarEquipAffixInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarEquipAffixInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATAREQUIPAFFIXINFO._serialized_start=30
-  _AVATAREQUIPAFFIXINFO._serialized_end=98
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_AVATAREQUIPAFFIXINFO']._serialized_start=30
+  _globals['_AVATAREQUIPAFFIXINFO']._serialized_end=94
 # @@protoc_insertion_point(module_scope)

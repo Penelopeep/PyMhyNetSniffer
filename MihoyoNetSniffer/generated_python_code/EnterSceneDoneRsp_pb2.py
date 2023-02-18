@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45nterSceneDoneRsp.proto\"?\n\x11\x45nterSceneDoneRsp\x12\x19\n\x11\x65nter_scene_token\x18\x01 \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45nterSceneDoneRsp.proto\"=\n\x11\x45nterSceneDoneRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x17\n\x0f\x65nterSceneToken\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterSceneDoneRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterSceneDoneRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ENTERSCENEDONERSP._serialized_start=27
-  _ENTERSCENEDONERSP._serialized_end=90
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ENTERSCENEDONERSP']._serialized_start=27
+  _globals['_ENTERSCENEDONERSP']._serialized_end=88
 # @@protoc_insertion_point(module_scope)

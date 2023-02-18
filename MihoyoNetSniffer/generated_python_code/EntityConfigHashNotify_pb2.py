@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import EntityConfigHashEntry_pb2 as EntityConfigHashEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45ntityConfigHashNotify.proto\x1a\x1b\x45ntityConfigHashEntry.proto\"\xb7\x01\n\x16\x45ntityConfigHashNotify\x12\x33\n\x13Unk3300_NAMDIKJILAI\x18\x01 \x03(\x0b\x32\x16.EntityConfigHashEntry\x12\x33\n\x13Unk3300_BLBEKMDGCMB\x18\x02 \x03(\x0b\x32\x16.EntityConfigHashEntry\x12\x33\n\x13Unk3300_NLMPHBGMOEN\x18\t \x03(\x0b\x32\x16.EntityConfigHashEntryb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45ntityConfigHashNotify.proto\x1a\x1b\x45ntityConfigHashEntry.proto\"\xac\x01\n\x16\x45ntityConfigHashNotify\x12/\n\x0f\x61vatarEntryList\x18\x0c \x03(\x0b\x32\x16.EntityConfigHashEntry\x12\x30\n\x10\x61\x62ilityEntryList\x18\x07 \x03(\x0b\x32\x16.EntityConfigHashEntry\x12/\n\x0f\x63ombatEntryList\x18\x01 \x03(\x0b\x32\x16.EntityConfigHashEntryB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityConfigHashNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityConfigHashNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ENTITYCONFIGHASHNOTIFY._serialized_start=62
-  _ENTITYCONFIGHASHNOTIFY._serialized_end=245
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ENTITYCONFIGHASHNOTIFY']._serialized_start=62
+  _globals['_ENTITYCONFIGHASHNOTIFY']._serialized_end=234
 # @@protoc_insertion_point(module_scope)

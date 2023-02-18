@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGCGDSChangeCardFaceRsp.proto\"M\n\x16GCGDSChangeCardFaceRsp\x12\x11\n\tface_type\x18\t \x01(\r\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x0f\n\x07\x63\x61rd_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGCGDSChangeCardFaceRsp.proto\"5\n\x16GCGDSChangeCardFaceRsp\x12\x0e\n\x06\x63\x61rdId\x18\x06 \x01(\r\x12\x0b\n\x03num\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGDSChangeCardFaceRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGDSChangeCardFaceRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGDSCHANGECARDFACERSP._serialized_start=32
-  _GCGDSCHANGECARDFACERSP._serialized_end=109
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGDSCHANGECARDFACERSP']._serialized_start=32
+  _globals['_GCGDSCHANGECARDFACERSP']._serialized_end=85
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CodexTypeData_pb2 as CodexTypeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ViewCodexRsp.proto\x1a\x13\x43odexTypeData.proto\"\xa6\x01\n\x0cViewCodexRsp\x12&\n\x0etype_data_list\x18\x0c \x03(\x0b\x32\x0e.CodexTypeData\x12\x1b\n\x13Unk3300_IDNOLALHFFA\x18\x03 \x03(\r\x12\x1b\n\x13Unk3300_CBGDAAOBGNB\x18\n \x03(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12#\n\x1brecent_viewed_pushtips_list\x18\x0e \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ViewCodexRsp.proto\x1a\x13\x43odexTypeData.proto\"\xa1\x01\n\x0cViewCodexRsp\x12\x1b\n\x13Unk3300_CBGDAAOBGNB\x18\x0e \x03(\r\x12 \n\x18recentViewedPushtipsList\x18\r \x03(\r\x12$\n\x0ctypeDataList\x18\x08 \x03(\x0b\x32\x0e.CodexTypeData\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x1b\n\x13Unk3300_IDNOLALHFFA\x18\x07 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ViewCodexRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ViewCodexRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _VIEWCODEXRSP._serialized_start=44
-  _VIEWCODEXRSP._serialized_end=210
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_VIEWCODEXRSP']._serialized_start=44
+  _globals['_VIEWCODEXRSP']._serialized_end=205
 # @@protoc_insertion_point(module_scope)

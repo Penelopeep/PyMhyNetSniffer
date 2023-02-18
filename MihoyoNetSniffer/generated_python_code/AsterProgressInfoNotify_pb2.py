@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import AsterProgressDetailInfo_pb2 as AsterProgressDetailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41sterProgressInfoNotify.proto\x1a\x1d\x41sterProgressDetailInfo.proto\"A\n\x17\x41sterProgressInfoNotify\x12&\n\x04info\x18\x02 \x01(\x0b\x32\x18.AsterProgressDetailInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41sterProgressInfoNotify.proto\x1a\x1d\x41sterProgressDetailInfo.proto\"A\n\x17\x41sterProgressInfoNotify\x12&\n\x04info\x18\x07 \x01(\x0b\x32\x18.AsterProgressDetailInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AsterProgressInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AsterProgressInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ASTERPROGRESSINFONOTIFY._serialized_start=64
-  _ASTERPROGRESSINFONOTIFY._serialized_end=129
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ASTERPROGRESSINFONOTIFY']._serialized_start=64
+  _globals['_ASTERPROGRESSINFONOTIFY']._serialized_end=129
 # @@protoc_insertion_point(module_scope)

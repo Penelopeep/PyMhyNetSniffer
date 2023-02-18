@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeScenePointFishFarmingInfo_pb2 as HomeScenePointFishFarmingInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,HomeUpdateScenePointFishFarmingInfoReq.proto\x1a#HomeScenePointFishFarmingInfo.proto\"c\n&HomeUpdateScenePointFishFarmingInfoReq\x12\x39\n\x11\x66ish_farming_info\x18\x02 \x01(\x0b\x32\x1e.HomeScenePointFishFarmingInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,HomeUpdateScenePointFishFarmingInfoReq.proto\x1a#HomeScenePointFishFarmingInfo.proto\"a\n&HomeUpdateScenePointFishFarmingInfoReq\x12\x37\n\x0f\x66ishFarmingInfo\x18\n \x01(\x0b\x32\x1e.HomeScenePointFishFarmingInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeUpdateScenePointFishFarmingInfoReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeUpdateScenePointFishFarmingInfoReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEUPDATESCENEPOINTFISHFARMINGINFOREQ._serialized_start=85
-  _HOMEUPDATESCENEPOINTFISHFARMINGINFOREQ._serialized_end=184
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEUPDATESCENEPOINTFISHFARMINGINFOREQ']._serialized_start=85
+  _globals['_HOMEUPDATESCENEPOINTFISHFARMINGINFOREQ']._serialized_end=182
 # @@protoc_insertion_point(module_scope)

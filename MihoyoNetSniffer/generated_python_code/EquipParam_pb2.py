@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x45quipParam.proto\"Z\n\nEquipParam\x12\x0f\n\x07item_id\x18\x01 \x01(\r\x12\x10\n\x08item_num\x18\x02 \x01(\r\x12\x12\n\nitem_level\x18\x03 \x01(\r\x12\x15\n\rpromote_level\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x45quipParam.proto\"V\n\nEquipParam\x12\x0e\n\x06itemId\x18\x01 \x01(\r\x12\x0f\n\x07itemNum\x18\x02 \x01(\r\x12\x11\n\titemLevel\x18\x03 \x01(\r\x12\x14\n\x0cpromoteLevel\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EquipParam_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EquipParam_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EQUIPPARAM._serialized_start=20
-  _EQUIPPARAM._serialized_end=110
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_EQUIPPARAM']._serialized_start=20
+  _globals['_EQUIPPARAM']._serialized_end=106
 # @@protoc_insertion_point(module_scope)

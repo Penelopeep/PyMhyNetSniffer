@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetReunionSignInInfoReq.proto\"4\n\x17GetReunionSignInInfoReq\x12\x19\n\x11sign_in_config_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetReunionSignInInfoReq.proto\"1\n\x17GetReunionSignInInfoReq\x12\x16\n\x0esignInConfigId\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetReunionSignInInfoReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetReunionSignInInfoReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETREUNIONSIGNININFOREQ._serialized_start=33
-  _GETREUNIONSIGNININFOREQ._serialized_end=85
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETREUNIONSIGNININFOREQ']._serialized_start=33
+  _globals['_GETREUNIONSIGNININFOREQ']._serialized_end=82
 # @@protoc_insertion_point(module_scope)

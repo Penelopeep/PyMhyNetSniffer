@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&OpenBlossomCircleCampGuideNotify.proto\"S\n OpenBlossomCircleCampGuideNotify\x12\x12\n\nrefresh_id\x18\x08 \x01(\r\x12\x1b\n\x13\x63ircle_camp_id_list\x18\x06 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&OpenBlossomCircleCampGuideNotify.proto\"O\n OpenBlossomCircleCampGuideNotify\x12\x18\n\x10\x63ircleCampIdList\x18\r \x03(\r\x12\x11\n\trefreshId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OpenBlossomCircleCampGuideNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OpenBlossomCircleCampGuideNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _OPENBLOSSOMCIRCLECAMPGUIDENOTIFY._serialized_start=42
-  _OPENBLOSSOMCIRCLECAMPGUIDENOTIFY._serialized_end=125
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_OPENBLOSSOMCIRCLECAMPGUIDENOTIFY']._serialized_start=42
+  _globals['_OPENBLOSSOMCIRCLECAMPGUIDENOTIFY']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

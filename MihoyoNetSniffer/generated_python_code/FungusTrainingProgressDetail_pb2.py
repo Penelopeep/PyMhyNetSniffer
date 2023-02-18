@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import FungusFighterMonsterDetail_pb2 as FungusFighterMonsterDetail__pb2
 import FungusTrainingPoolPreviewDetail_pb2 as FungusTrainingPoolPreviewDetail__pb2
+import FungusFighterMonsterDetail_pb2 as FungusFighterMonsterDetail__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"FungusTrainingProgressDetail.proto\x1a FungusFighterMonsterDetail.proto\x1a%FungusTrainingPoolPreviewDetail.proto\"\x97\x02\n\x1c\x46ungusTrainingProgressDetail\x12\x1b\n\x13Unk3300_EEOIMDJOHCM\x18\n \x03(\r\x12\x17\n\x0ftotal_used_time\x18\x03 \x01(\r\x12\x38\n\x13monster_detail_list\x18\x0e \x03(\x0b\x32\x1b.FungusFighterMonsterDetail\x12\x12\n\ndungeon_id\x18\x01 \x01(\r\x12\x43\n\x19monster_pool_preview_list\x18\x05 \x03(\x0b\x32 .FungusTrainingPoolPreviewDetail\x12\x11\n\tcur_round\x18\t \x01(\r\x12\x1b\n\x13Unk3300_NLHEFGBEOAC\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"FungusTrainingProgressDetail.proto\x1a%FungusTrainingPoolPreviewDetail.proto\x1a FungusFighterMonsterDetail.proto\"\x8e\x02\n\x1c\x46ungusTrainingProgressDetail\x12\x1b\n\x13Unk3300_EEOIMDJOHCM\x18\x0f \x03(\r\x12\x10\n\x08\x63urRound\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_NLHEFGBEOAC\x18\x08 \x03(\r\x12@\n\x16monsterPoolPreviewList\x18\t \x03(\x0b\x32 .FungusTrainingPoolPreviewDetail\x12\x15\n\rtotalUsedTime\x18\x04 \x01(\r\x12\x36\n\x11monsterDetailList\x18\x02 \x03(\x0b\x32\x1b.FungusFighterMonsterDetail\x12\x11\n\tdungeonId\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusTrainingProgressDetail_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusTrainingProgressDetail_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FUNGUSTRAININGPROGRESSDETAIL._serialized_start=112
-  _FUNGUSTRAININGPROGRESSDETAIL._serialized_end=391
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FUNGUSTRAININGPROGRESSDETAIL']._serialized_start=112
+  _globals['_FUNGUSTRAININGPROGRESSDETAIL']._serialized_end=382
 # @@protoc_insertion_point(module_scope)

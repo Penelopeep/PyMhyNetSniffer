@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CharAmusementStageData_pb2 as CharAmusementStageData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43harAmusementDetailInfo.proto\x1a\x1c\x43harAmusementStageData.proto\"K\n\x17\x43harAmusementDetailInfo\x12\x30\n\x0fstage_data_list\x18\x0c \x03(\x0b\x32\x17.CharAmusementStageDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43harAmusementDetailInfo.proto\x1a\x1c\x43harAmusementStageData.proto\"I\n\x17\x43harAmusementDetailInfo\x12.\n\rstageDataList\x18\x01 \x03(\x0b\x32\x17.CharAmusementStageDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CharAmusementDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CharAmusementDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHARAMUSEMENTDETAILINFO._serialized_start=63
-  _CHARAMUSEMENTDETAILINFO._serialized_end=138
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHARAMUSEMENTDETAILINFO']._serialized_start=63
+  _globals['_CHARAMUSEMENTDETAILINFO']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

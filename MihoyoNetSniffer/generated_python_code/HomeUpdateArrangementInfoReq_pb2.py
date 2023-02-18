@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeSceneArrangementInfo_pb2 as HomeSceneArrangementInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"HomeUpdateArrangementInfoReq.proto\x1a\x1eHomeSceneArrangementInfo.proto\"Y\n\x1cHomeUpdateArrangementInfoReq\x12\x39\n\x16scene_arrangement_info\x18\x06 \x01(\x0b\x32\x19.HomeSceneArrangementInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"HomeUpdateArrangementInfoReq.proto\x1a\x1eHomeSceneArrangementInfo.proto\"W\n\x1cHomeUpdateArrangementInfoReq\x12\x37\n\x14sceneArrangementInfo\x18\x02 \x01(\x0b\x32\x19.HomeSceneArrangementInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeUpdateArrangementInfoReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeUpdateArrangementInfoReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEUPDATEARRANGEMENTINFOREQ._serialized_start=70
-  _HOMEUPDATEARRANGEMENTINFOREQ._serialized_end=159
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEUPDATEARRANGEMENTINFOREQ']._serialized_start=70
+  _globals['_HOMEUPDATEARRANGEMENTINFOREQ']._serialized_end=157
 # @@protoc_insertion_point(module_scope)

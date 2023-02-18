@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GadgetStateNotify.proto\"_\n\x11GadgetStateNotify\x12\x18\n\x10gadget_entity_id\x18\x07 \x01(\r\x12\x14\n\x0cgadget_state\x18\x05 \x01(\r\x12\x1a\n\x12is_enable_interact\x18\x06 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GadgetStateNotify.proto\"Z\n\x11GadgetStateNotify\x12\x13\n\x0bgadgetState\x18\t \x01(\r\x12\x16\n\x0egadgetEntityId\x18\x07 \x01(\r\x12\x18\n\x10isEnableInteract\x18\x0f \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetStateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetStateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GADGETSTATENOTIFY._serialized_start=27
-  _GADGETSTATENOTIFY._serialized_end=122
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GADGETSTATENOTIFY']._serialized_start=27
+  _globals['_GADGETSTATENOTIFY']._serialized_end=117
 # @@protoc_insertion_point(module_scope)

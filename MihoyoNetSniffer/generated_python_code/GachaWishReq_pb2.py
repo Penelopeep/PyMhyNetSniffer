@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GachaWishReq.proto\"N\n\x0cGachaWishReq\x12\x12\n\ngacha_type\x18\x03 \x01(\r\x12\x19\n\x11gacha_schedule_id\x18\x0c \x01(\r\x12\x0f\n\x07item_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GachaWishReq.proto\"J\n\x0cGachaWishReq\x12\x11\n\tgachaType\x18\x06 \x01(\r\x12\x17\n\x0fgachaScheduleId\x18\n \x01(\r\x12\x0e\n\x06itemId\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaWishReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaWishReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GACHAWISHREQ._serialized_start=22
-  _GACHAWISHREQ._serialized_end=100
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GACHAWISHREQ']._serialized_start=22
+  _globals['_GACHAWISHREQ']._serialized_end=96
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GachaUpInfo_pb2 as GachaUpInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGachaInfo.proto\x1a\x11GachaUpInfo.proto\"\xe7\x05\n\tGachaInfo\x12\x1b\n\x13Unk3300_JLELMHELIDC\x18\x05 \x01(\r\x12\x12\n\ngacha_type\x18\x07 \x01(\r\x12\x1c\n\x13Unk3300_NMOKGFGDFFC\x18\xba\x07 \x01(\r\x12\x1c\n\x13Unk3300_GKDEEFNFCAC\x18\xfc\x0b \x01(\t\x12\x1b\n\x13Unk3300_FOGPKBALHPI\x18\x0f \x01(\t\x12\x1b\n\x13Unk3300_HLPKLMGIBIB\x18\x01 \x01(\t\x12\x12\n\nbegin_time\x18\x0e \x01(\r\x12\x13\n\x0bschedule_id\x18\x08 \x01(\r\x12\x1c\n\x13Unk3300_LBLEBDLJDLL\x18\xdc\x03 \x03(\r\x12\x1b\n\x13Unk3300_GLPMIEMBGGL\x18\n \x01(\r\x12\x1b\n\x13Unk3300_BCJONGECBOH\x18\x04 \x01(\t\x12\x1b\n\x13Unk3300_JOGAHFBKHNJ\x18r \x01(\t\x12\x1c\n\x13Unk3300_HLANONBCBLM\x18\xf5\x01 \x01(\r\x12\x10\n\x08\x65nd_time\x18\x02 \x01(\r\x12\x1c\n\x13Unk3300_COABNBJCKEO\x18\x9c\x04 \x03(\r\x12\x1b\n\x13Unk3300_MEDMCPFCIOO\x18\r \x01(\r\x12\x1c\n\x13Unk3300_BLLMPAJNCPI\x18\xfb\t \x01(\r\x12\x1b\n\x13Unk3300_DBFMKAMNPCL\x18\t \x01(\r\x12\x1b\n\x13Unk3300_DDBOLMGHEKN\x18\x06 \x01(\r\x12\x14\n\x0bis_new_wish\x18\xc7\x07 \x01(\x08\x12\x1b\n\x13Unk3300_JLBFLPEMAPP\x18\x0c \x01(\r\x12\x1c\n\x13Unk3300_KEIJFMKAKDH\x18\xac\x0c \x01(\r\x12\x1c\n\x13Unk3300_ODFKNFOMAGE\x18\xeb\t \x01(\t\x12)\n\x12gacha_up_info_list\x18\xb1\x0c \x03(\x0b\x32\x0c.GachaUpInfo\x12\x1b\n\x13Unk3300_PLFMMOFNGAG\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_OFOHDLDFCLF\x18\x0b \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGachaInfo.proto\x1a\x11GachaUpInfo.proto\"\x90\x05\n\tGachaInfo\x12\x17\n\x0fgachaPrefabPath\x18\t \x01(\t\x12\x12\n\nscheduleId\x18\x02 \x01(\r\x12\x1b\n\x12\x64isplayUp5ItemList\x18\xbb\x0e \x03(\r\x12\x13\n\x0bgachaSortId\x18\x06 \x01(\r\x12\x1b\n\x12\x64isplayUp4ItemList\x18\x97\x02 \x03(\r\x12\x12\n\tisNewWish\x18\xe5\x06 \x01(\x08\x12\x17\n\x0fgachaTimesLimit\x18\x0b \x01(\r\x12\x13\n\x0b\x63ostItemNum\x18\x0e \x01(\r\x12\x16\n\x0egachaRecordUrl\x18\x07 \x01(\t\x12\x15\n\x0ctitleTextmap\x18\xcc\t \x01(\t\x12&\n\x0fgachaUpInfoList\x18\xac\x0e \x03(\x0b\x32\x0c.GachaUpInfo\x12\x1e\n\x16gachaPreviewPrefabPath\x18\x08 \x01(\t\x12\"\n\x1a\x63urScheduleDailyGachaTimes\x18\x30 \x01(\r\x12\x11\n\tgachaType\x18\x01 \x01(\r\x12\x15\n\rtenCostItemId\x18\x04 \x01(\r\x12\x16\n\x0eleftGachaTimes\x18\x0c \x01(\r\x12\x14\n\x0cgachaProbUrl\x18\x05 \x01(\t\x12\x1c\n\x13gachaProbUrlOversea\x18\xfd\x05 \x01(\t\x12\x13\n\nwishItemId\x18\xb5\x02 \x01(\r\x12\x16\n\x0etenCostItemNum\x18\n \x01(\r\x12\x18\n\x0fwishMaxProgress\x18\x85\r \x01(\r\x12\x12\n\ncostItemId\x18\r \x01(\r\x12\x11\n\tbeginTime\x18\x0f \x01(\r\x12\x1e\n\x15gachaRecordUrlOversea\x18\xec\x07 \x01(\t\x12\x15\n\x0cwishProgress\x18\xf6\x01 \x01(\r\x12\x0f\n\x07\x65ndTime\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GACHAINFO._serialized_start=39
-  _GACHAINFO._serialized_end=782
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GACHAINFO']._serialized_start=39
+  _globals['_GACHAINFO']._serialized_end=695
 # @@protoc_insertion_point(module_scope)

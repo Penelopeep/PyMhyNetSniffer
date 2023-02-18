@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41nchorPointData.proto\x1a\x0cVector.proto\"z\n\x0f\x41nchorPointData\x12\x10\n\x08scene_id\x18\x03 \x01(\r\x12\x14\n\x03rot\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08\x65nd_time\x18\x08 \x01(\r\x12\x14\n\x03pos\x18\x0b \x01(\x0b\x32\x07.Vector\x12\x17\n\x0f\x61nchor_point_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41nchorPointData.proto\x1a\x0cVector.proto\"v\n\x0f\x41nchorPointData\x12\x0f\n\x07sceneId\x18\x0f \x01(\r\x12\x14\n\x03rot\x18\r \x01(\x0b\x32\x07.Vector\x12\x0f\n\x07\x65ndTime\x18\n \x01(\r\x12\x14\n\x03pos\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x15\n\ranchorPointId\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnchorPointData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnchorPointData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ANCHORPOINTDATA._serialized_start=39
-  _ANCHORPOINTDATA._serialized_end=161
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ANCHORPOINTDATA']._serialized_start=39
+  _globals['_ANCHORPOINTDATA']._serialized_end=157
 # @@protoc_insertion_point(module_scope)

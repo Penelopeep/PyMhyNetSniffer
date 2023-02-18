@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import DraftInviteFailReason_pb2 as DraftInviteFailReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44raftInviteFailInfo.proto\x1a\x1b\x44raftInviteFailReason.proto\"J\n\x13\x44raftInviteFailInfo\x12&\n\x06reason\x18\x06 \x01(\x0e\x32\x16.DraftInviteFailReason\x12\x0b\n\x03uid\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44raftInviteFailInfo.proto\x1a\x1b\x44raftInviteFailReason.proto\"J\n\x13\x44raftInviteFailInfo\x12&\n\x06reason\x18\t \x01(\x0e\x32\x16.DraftInviteFailReason\x12\x0b\n\x03uid\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftInviteFailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftInviteFailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DRAFTINVITEFAILINFO._serialized_start=58
-  _DRAFTINVITEFAILINFO._serialized_end=132
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DRAFTINVITEFAILINFO']._serialized_start=58
+  _globals['_DRAFTINVITEFAILINFO']._serialized_end=132
 # @@protoc_insertion_point(module_scope)

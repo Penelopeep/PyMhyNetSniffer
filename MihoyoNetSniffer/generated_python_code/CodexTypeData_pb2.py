@@ -14,17 +14,19 @@ _sym_db = _symbol_database.Default()
 import CodexType_pb2 as CodexType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x43odexTypeData.proto\x1a\x0f\x43odexType.proto\"\xef\x01\n\rCodexTypeData\x12\x18\n\x10have_viewed_list\x18\r \x03(\x08\x12\x15\n\rcodex_id_list\x18\t \x03(\r\x12R\n\x1cweapon_max_promote_level_map\x18\x0c \x03(\x0b\x32,.CodexTypeData.WeaponMaxPromoteLevelMapEntry\x12\x18\n\x04type\x18\x0e \x01(\x0e\x32\n.CodexType\x1a?\n\x1dWeaponMaxPromoteLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x43odexTypeData.proto\x1a\x0f\x43odexType.proto\"\xe7\x01\n\rCodexTypeData\x12\x13\n\x0b\x63odexIdList\x18\x04 \x03(\r\x12\x16\n\x0ehaveViewedList\x18\x08 \x03(\x08\x12\x18\n\x04type\x18\x0e \x01(\x0e\x32\n.CodexType\x12N\n\x18weaponMaxPromoteLevelMap\x18\x03 \x03(\x0b\x32,.CodexTypeData.WeaponMaxPromoteLevelMapEntry\x1a?\n\x1dWeaponMaxPromoteLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CodexTypeData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CodexTypeData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _CODEXTYPEDATA_WEAPONMAXPROMOTELEVELMAPENTRY._options = None
   _CODEXTYPEDATA_WEAPONMAXPROMOTELEVELMAPENTRY._serialized_options = b'8\001'
-  _CODEXTYPEDATA._serialized_start=41
-  _CODEXTYPEDATA._serialized_end=280
-  _CODEXTYPEDATA_WEAPONMAXPROMOTELEVELMAPENTRY._serialized_start=217
-  _CODEXTYPEDATA_WEAPONMAXPROMOTELEVELMAPENTRY._serialized_end=280
+  _globals['_CODEXTYPEDATA']._serialized_start=41
+  _globals['_CODEXTYPEDATA']._serialized_end=272
+  _globals['_CODEXTYPEDATA_WEAPONMAXPROMOTELEVELMAPENTRY']._serialized_start=209
+  _globals['_CODEXTYPEDATA_WEAPONMAXPROMOTELEVELMAPENTRY']._serialized_end=272
 # @@protoc_insertion_point(module_scope)

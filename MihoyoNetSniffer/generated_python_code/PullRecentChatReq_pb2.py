@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PullRecentChatReq.proto\"=\n\x11PullRecentChatReq\x12\x10\n\x08pull_num\x18\x03 \x01(\r\x12\x16\n\x0e\x62\x65gin_sequence\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PullRecentChatReq.proto\";\n\x11PullRecentChatReq\x12\x15\n\rbeginSequence\x18\x0e \x01(\r\x12\x0f\n\x07pullNum\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PullRecentChatReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PullRecentChatReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PULLRECENTCHATREQ._serialized_start=27
-  _PULLRECENTCHATREQ._serialized_end=88
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PULLRECENTCHATREQ']._serialized_start=27
+  _globals['_PULLRECENTCHATREQ']._serialized_end=86
 # @@protoc_insertion_point(module_scope)

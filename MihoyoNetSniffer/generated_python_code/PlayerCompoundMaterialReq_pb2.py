@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerCompoundMaterialReq.proto\"?\n\x19PlayerCompoundMaterialReq\x12\x13\n\x0b\x63ompound_id\x18\x04 \x01(\r\x12\r\n\x05\x63ount\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerCompoundMaterialReq.proto\">\n\x19PlayerCompoundMaterialReq\x12\r\n\x05\x63ount\x18\x03 \x01(\r\x12\x12\n\ncompoundId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCompoundMaterialReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCompoundMaterialReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERCOMPOUNDMATERIALREQ._serialized_start=35
-  _PLAYERCOMPOUNDMATERIALREQ._serialized_end=98
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERCOMPOUNDMATERIALREQ']._serialized_start=35
+  _globals['_PLAYERCOMPOUNDMATERIALREQ']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

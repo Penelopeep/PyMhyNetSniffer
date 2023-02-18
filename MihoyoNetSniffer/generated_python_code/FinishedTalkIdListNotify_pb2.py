@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46inishedTalkIdListNotify.proto\"9\n\x18\x46inishedTalkIdListNotify\x12\x1d\n\x15\x66inished_talk_id_list\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46inishedTalkIdListNotify.proto\"6\n\x18\x46inishedTalkIdListNotify\x12\x1a\n\x12\x66inishedTalkIdList\x18\n \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FinishedTalkIdListNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FinishedTalkIdListNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FINISHEDTALKIDLISTNOTIFY._serialized_start=34
-  _FINISHEDTALKIDLISTNOTIFY._serialized_end=91
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FINISHEDTALKIDLISTNOTIFY']._serialized_start=34
+  _globals['_FINISHEDTALKIDLISTNOTIFY']._serialized_end=88
 # @@protoc_insertion_point(module_scope)

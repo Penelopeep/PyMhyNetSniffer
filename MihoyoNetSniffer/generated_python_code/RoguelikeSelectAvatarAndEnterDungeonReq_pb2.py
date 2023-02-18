@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n-RoguelikeSelectAvatarAndEnterDungeonReq.proto\"\x81\x01\n\'RoguelikeSelectAvatarAndEnterDungeonReq\x12\x10\n\x08stage_id\x18\x01 \x01(\r\x12 \n\x18onstage_avatar_guid_list\x18\x0c \x03(\x04\x12\"\n\x1a\x62\x61\x63kstage_avatar_guid_list\x18\x04 \x03(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n-RoguelikeSelectAvatarAndEnterDungeonReq.proto\"z\n\'RoguelikeSelectAvatarAndEnterDungeonReq\x12\x1d\n\x15onstageAvatarGuidList\x18\x05 \x03(\x04\x12\x0f\n\x07stageId\x18\x0c \x01(\r\x12\x1f\n\x17\x62\x61\x63kstageAvatarGuidList\x18\x01 \x03(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeSelectAvatarAndEnterDungeonReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeSelectAvatarAndEnterDungeonReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROGUELIKESELECTAVATARANDENTERDUNGEONREQ._serialized_start=50
-  _ROGUELIKESELECTAVATARANDENTERDUNGEONREQ._serialized_end=179
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ROGUELIKESELECTAVATARANDENTERDUNGEONREQ']._serialized_start=49
+  _globals['_ROGUELIKESELECTAVATARANDENTERDUNGEONREQ']._serialized_end=171
 # @@protoc_insertion_point(module_scope)

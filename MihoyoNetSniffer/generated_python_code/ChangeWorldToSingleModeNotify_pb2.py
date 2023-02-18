@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#ChangeWorldToSingleModeNotify.proto\"\x1f\n\x1d\x43hangeWorldToSingleModeNotifyb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#ChangeWorldToSingleModeNotify.proto\"\x1f\n\x1d\x43hangeWorldToSingleModeNotifyB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeWorldToSingleModeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeWorldToSingleModeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHANGEWORLDTOSINGLEMODENOTIFY._serialized_start=39
-  _CHANGEWORLDTOSINGLEMODENOTIFY._serialized_end=70
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHANGEWORLDTOSINGLEMODENOTIFY']._serialized_start=39
+  _globals['_CHANGEWORLDTOSINGLEMODENOTIFY']._serialized_end=70
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x44ropHintNotify.proto\x1a\x0cVector.proto\"A\n\x0e\x44ropHintNotify\x12\x14\n\x0citem_id_list\x18\x0c \x03(\r\x12\x19\n\x08position\x18\t \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x44ropHintNotify.proto\x1a\x0cVector.proto\"?\n\x0e\x44ropHintNotify\x12\x19\n\x08position\x18\t \x01(\x0b\x32\x07.Vector\x12\x12\n\nitemIdList\x18\n \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DropHintNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DropHintNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DROPHINTNOTIFY._serialized_start=38
-  _DROPHINTNOTIFY._serialized_end=103
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DROPHINTNOTIFY']._serialized_start=38
+  _globals['_DROPHINTNOTIFY']._serialized_end=101
 # @@protoc_insertion_point(module_scope)

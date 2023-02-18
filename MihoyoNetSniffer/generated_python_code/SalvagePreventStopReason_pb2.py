@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSalvagePreventStopReason.proto*\xb0\x02\n\x18SalvagePreventStopReason\x12$\n SALVAGE_PREVENT_STOP_REASON_NONE\x10\x00\x12\'\n#SALVAGE_PREVENT_STOP_REASON_SUCCESS\x10\x01\x12\'\n#SALVAGE_PREVENT_STOP_REASON_ARRIVAL\x10\x02\x12)\n%SALVAGE_PREVENT_STOP_REASON_INTERRUPT\x10\x03\x12%\n!SALVAGE_PREVENT_STOP_REASON_LEAVE\x10\x04\x12$\n SALVAGE_PREVENT_STOP_REASON_FULL\x10\x05\x12$\n SALVAGE_PREVENT_STOP_REASON_AWAY\x10\x06\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSalvagePreventStopReason.proto*\xb0\x02\n\x18SalvagePreventStopReason\x12$\n SALVAGE_PREVENT_STOP_REASON_NONE\x10\x00\x12\'\n#SALVAGE_PREVENT_STOP_REASON_SUCCESS\x10\x01\x12\'\n#SALVAGE_PREVENT_STOP_REASON_ARRIVAL\x10\x02\x12)\n%SALVAGE_PREVENT_STOP_REASON_INTERRUPT\x10\x03\x12%\n!SALVAGE_PREVENT_STOP_REASON_LEAVE\x10\x04\x12$\n SALVAGE_PREVENT_STOP_REASON_FULL\x10\x05\x12$\n SALVAGE_PREVENT_STOP_REASON_AWAY\x10\x06\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvagePreventStopReason_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvagePreventStopReason_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SALVAGEPREVENTSTOPREASON._serialized_start=35
-  _SALVAGEPREVENTSTOPREASON._serialized_end=339
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SALVAGEPREVENTSTOPREASON']._serialized_start=35
+  _globals['_SALVAGEPREVENTSTOPREASON']._serialized_end=339
 # @@protoc_insertion_point(module_scope)

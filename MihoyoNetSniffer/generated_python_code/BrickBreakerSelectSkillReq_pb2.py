@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BrickBreakerSelectSkillReq.proto\".\n\x1a\x42rickBreakerSelectSkillReq\x12\x10\n\x08skill_id\x18\x05 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BrickBreakerSelectSkillReq.proto\"-\n\x1a\x42rickBreakerSelectSkillReq\x12\x0f\n\x07skillId\x18\x0f \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BrickBreakerSelectSkillReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BrickBreakerSelectSkillReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BRICKBREAKERSELECTSKILLREQ._serialized_start=36
-  _BRICKBREAKERSELECTSKILLREQ._serialized_end=82
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BRICKBREAKERSELECTSKILLREQ']._serialized_start=36
+  _globals['_BRICKBREAKERSELECTSKILLREQ']._serialized_end=81
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import PlayerRoutineInfo_pb2 as PlayerRoutineInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPlayerRoutineDataNotify.proto\x1a\x17PlayerRoutineInfo.proto\"H\n\x17PlayerRoutineDataNotify\x12-\n\x11routine_info_list\x18\x0b \x03(\x0b\x32\x12.PlayerRoutineInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPlayerRoutineDataNotify.proto\x1a\x17PlayerRoutineInfo.proto\"F\n\x17PlayerRoutineDataNotify\x12+\n\x0froutineInfoList\x18\x0c \x03(\x0b\x32\x12.PlayerRoutineInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerRoutineDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerRoutineDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERROUTINEDATANOTIFY._serialized_start=58
-  _PLAYERROUTINEDATANOTIFY._serialized_end=130
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERROUTINEDATANOTIFY']._serialized_start=58
+  _globals['_PLAYERROUTINEDATANOTIFY']._serialized_end=128
 # @@protoc_insertion_point(module_scope)

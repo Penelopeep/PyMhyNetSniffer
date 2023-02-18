@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import RogueCellState_pb2 as RogueCellState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13RogueCellInfo.proto\x1a\x14RogueCellState.proto\"\x7f\n\rRogueCellInfo\x12\x12\n\ndungeon_id\x18\x01 \x01(\r\x12\x16\n\x0e\x63\x65ll_config_id\x18\x0e \x01(\r\x12\x0f\n\x07\x63\x65ll_id\x18\x02 \x01(\r\x12\x1e\n\x05state\x18\t \x01(\x0e\x32\x0f.RogueCellState\x12\x11\n\tcell_type\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13RogueCellInfo.proto\x1a\x14RogueCellState.proto\"z\n\rRogueCellInfo\x12\x14\n\x0c\x63\x65llConfigId\x18\x08 \x01(\r\x12\x1e\n\x05state\x18\x02 \x01(\x0e\x32\x0f.RogueCellState\x12\x0e\n\x06\x63\x65llId\x18\x04 \x01(\r\x12\x10\n\x08\x63\x65llType\x18\x03 \x01(\r\x12\x11\n\tdungeonId\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueCellInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueCellInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROGUECELLINFO._serialized_start=45
-  _ROGUECELLINFO._serialized_end=172
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ROGUECELLINFO']._serialized_start=45
+  _globals['_ROGUECELLINFO']._serialized_end=167
 # @@protoc_insertion_point(module_scope)

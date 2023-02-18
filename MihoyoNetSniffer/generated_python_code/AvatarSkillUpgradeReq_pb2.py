@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41vatarSkillUpgradeReq.proto\"X\n\x15\x41vatarSkillUpgradeReq\x12\x13\n\x0b\x61vatar_guid\x18\x05 \x01(\x04\x12\x17\n\x0f\x61vatar_skill_id\x18\x0c \x01(\r\x12\x11\n\told_level\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41vatarSkillUpgradeReq.proto\"T\n\x15\x41vatarSkillUpgradeReq\x12\x15\n\ravatarSkillId\x18\n \x01(\r\x12\x12\n\navatarGuid\x18\x02 \x01(\x04\x12\x10\n\x08oldLevel\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSkillUpgradeReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSkillUpgradeReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATARSKILLUPGRADEREQ._serialized_start=31
-  _AVATARSKILLUPGRADEREQ._serialized_end=119
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_AVATARSKILLUPGRADEREQ']._serialized_start=31
+  _globals['_AVATARSKILLUPGRADEREQ']._serialized_end=115
 # @@protoc_insertion_point(module_scope)

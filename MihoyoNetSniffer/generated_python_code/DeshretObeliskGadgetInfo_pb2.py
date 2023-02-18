@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44\x65shretObeliskGadgetInfo.proto\"1\n\x18\x44\x65shretObeliskGadgetInfo\x12\x15\n\rargument_list\x18\x01 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44\x65shretObeliskGadgetInfo.proto\"0\n\x18\x44\x65shretObeliskGadgetInfo\x12\x14\n\x0c\x61rgumentList\x18\x01 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeshretObeliskGadgetInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeshretObeliskGadgetInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DESHRETOBELISKGADGETINFO._serialized_start=34
-  _DESHRETOBELISKGADGETINFO._serialized_end=83
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DESHRETOBELISKGADGETINFO']._serialized_start=34
+  _globals['_DESHRETOBELISKGADGETINFO']._serialized_end=82
 # @@protoc_insertion_point(module_scope)

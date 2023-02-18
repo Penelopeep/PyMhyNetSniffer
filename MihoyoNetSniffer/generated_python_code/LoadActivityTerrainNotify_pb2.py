@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fLoadActivityTerrainNotify.proto\"0\n\x19LoadActivityTerrainNotify\x12\x13\n\x0b\x61\x63tivity_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fLoadActivityTerrainNotify.proto\"/\n\x19LoadActivityTerrainNotify\x12\x12\n\nactivityId\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LoadActivityTerrainNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LoadActivityTerrainNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LOADACTIVITYTERRAINNOTIFY._serialized_start=35
-  _LOADACTIVITYTERRAINNOTIFY._serialized_end=83
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LOADACTIVITYTERRAINNOTIFY']._serialized_start=35
+  _globals['_LOADACTIVITYTERRAINNOTIFY']._serialized_end=82
 # @@protoc_insertion_point(module_scope)

@@ -12,21 +12,23 @@ _sym_db = _symbol_database.Default()
 
 
 import AvatarInfo_pb2 as AvatarInfo__pb2
-import AvatarRenameInfo_pb2 as AvatarRenameInfo__pb2
 import AvatarTeam_pb2 as AvatarTeam__pb2
+import AvatarRenameInfo_pb2 as AvatarRenameInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarDataNotify.proto\x1a\x10\x41vatarInfo.proto\x1a\x16\x41vatarRenameInfo.proto\x1a\x10\x41vatarTeam.proto\"\x9d\x03\n\x10\x41vatarDataNotify\x12 \n\x0b\x61vatar_list\x18\x0e \x03(\x0b\x32\x0b.AvatarInfo\x12-\n\x12\x61vatar_rename_list\x18\x08 \x03(\x0b\x32\x11.AvatarRenameInfo\x12\x1a\n\x12\x63ur_avatar_team_id\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_HHKJBGKHIEJ\x18\x06 \x03(\r\x12\x1d\n\x15temp_avatar_guid_list\x18\x0f \x03(\x04\x12\x1a\n\x12\x63hoose_avatar_guid\x18\x01 \x01(\x04\x12=\n\x0f\x61vatar_team_map\x18\x0b \x03(\x0b\x32$.AvatarDataNotify.AvatarTeamMapEntry\x12\x1b\n\x13Unk3300_MDNLGGMGHAF\x18\x05 \x03(\r\x12%\n\x1d\x62\x61\x63kup_avatar_team_order_list\x18\x03 \x03(\r\x1a\x41\n\x12\x41vatarTeamMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1a\n\x05value\x18\x02 \x01(\x0b\x32\x0b.AvatarTeam:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarDataNotify.proto\x1a\x10\x41vatarInfo.proto\x1a\x10\x41vatarTeam.proto\x1a\x16\x41vatarRenameInfo.proto\"\x87\x03\n\x10\x41vatarDataNotify\x12\x18\n\x10\x63hooseAvatarGuid\x18\x04 \x01(\x04\x12\x18\n\x10ownedCostumeList\x18\x0f \x03(\r\x12\x1f\n\navatarList\x18\x08 \x03(\x0b\x32\x0b.AvatarInfo\x12\x17\n\x0f\x63urAvatarTeamId\x18\x05 \x01(\r\x12;\n\ravatarTeamMap\x18\x06 \x03(\x0b\x32$.AvatarDataNotify.AvatarTeamMapEntry\x12\x19\n\x11ownedFlycloakList\x18\x02 \x03(\r\x12+\n\x10\x61vatarRenameList\x18\x07 \x03(\x0b\x32\x11.AvatarRenameInfo\x12!\n\x19\x62\x61\x63kupAvatarTeamOrderList\x18\x0c \x03(\r\x12\x1a\n\x12tempAvatarGuidList\x18\x0e \x03(\x04\x1a\x41\n\x12\x41vatarTeamMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1a\n\x05value\x18\x02 \x01(\x0b\x32\x0b.AvatarTeam:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _AVATARDATANOTIFY_AVATARTEAMMAPENTRY._options = None
   _AVATARDATANOTIFY_AVATARTEAMMAPENTRY._serialized_options = b'8\001'
-  _AVATARDATANOTIFY._serialized_start=87
-  _AVATARDATANOTIFY._serialized_end=500
-  _AVATARDATANOTIFY_AVATARTEAMMAPENTRY._serialized_start=435
-  _AVATARDATANOTIFY_AVATARTEAMMAPENTRY._serialized_end=500
+  _globals['_AVATARDATANOTIFY']._serialized_start=87
+  _globals['_AVATARDATANOTIFY']._serialized_end=478
+  _globals['_AVATARDATANOTIFY_AVATARTEAMMAPENTRY']._serialized_start=413
+  _globals['_AVATARDATANOTIFY_AVATARTEAMMAPENTRY']._serialized_end=478
 # @@protoc_insertion_point(module_scope)

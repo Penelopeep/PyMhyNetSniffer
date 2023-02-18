@@ -11,21 +11,23 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import FishInfo_pb2 as FishInfo__pb2
 import FishingScore_pb2 as FishingScore__pb2
+import FishInfo_pb2 as FishInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46ishingGallerySettleInfo.proto\x1a\x0e\x46ishInfo.proto\x1a\x12\x46ishingScore.proto\"\xba\x01\n\x18\x46ishingGallerySettleInfo\x12)\n\x12\x66ishing_score_list\x18\x0f \x03(\x0b\x32\r.FishingScore\x12\x38\n\x08\x66ish_map\x18\n \x03(\x0b\x32&.FishingGallerySettleInfo.FishMapEntry\x1a\x39\n\x0c\x46ishMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x18\n\x05value\x18\x02 \x01(\x0b\x32\t.FishInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46ishingGallerySettleInfo.proto\x1a\x12\x46ishingScore.proto\x1a\x0e\x46ishInfo.proto\"\xb7\x01\n\x18\x46ishingGallerySettleInfo\x12\'\n\x10\x66ishingScoreList\x18\x04 \x03(\x0b\x32\r.FishingScore\x12\x37\n\x07\x66ishMap\x18\t \x03(\x0b\x32&.FishingGallerySettleInfo.FishMapEntry\x1a\x39\n\x0c\x46ishMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x18\n\x05value\x18\x02 \x01(\x0b\x32\t.FishInfo:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishingGallerySettleInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishingGallerySettleInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _FISHINGGALLERYSETTLEINFO_FISHMAPENTRY._options = None
   _FISHINGGALLERYSETTLEINFO_FISHMAPENTRY._serialized_options = b'8\001'
-  _FISHINGGALLERYSETTLEINFO._serialized_start=71
-  _FISHINGGALLERYSETTLEINFO._serialized_end=257
-  _FISHINGGALLERYSETTLEINFO_FISHMAPENTRY._serialized_start=200
-  _FISHINGGALLERYSETTLEINFO_FISHMAPENTRY._serialized_end=257
+  _globals['_FISHINGGALLERYSETTLEINFO']._serialized_start=71
+  _globals['_FISHINGGALLERYSETTLEINFO']._serialized_end=254
+  _globals['_FISHINGGALLERYSETTLEINFO_FISHMAPENTRY']._serialized_start=197
+  _globals['_FISHINGGALLERYSETTLEINFO_FISHMAPENTRY']._serialized_end=254
 # @@protoc_insertion_point(module_scope)

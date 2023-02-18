@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ShapeBox_pb2 as ShapeBox__pb2
 import ShapeSphere_pb2 as ShapeSphere__pb2
+import ShapeBox_pb2 as ShapeBox__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'MassiveEntityElementOpBatchNotify.proto\x1a\x0eShapeBox.proto\x1a\x11ShapeSphere.proto\"\xa0\x02\n!MassiveEntityElementOpBatchNotify\x12\x13\n\x0b\x61ttacker_id\x18\x08 \x01(\r\x12!\n\x19\x61ttack_element_durability\x18\x04 \x01(\x02\x12\x1b\n\x13Unk3300_PNANGDNNFCH\x18\x02 \x01(\x05\x12\x13\n\x0b\x65ntity_type\x18\n \x01(\x05\x12\x1b\n\x13Unk3300_KNLDJPEMCKP\x18\x07 \x01(\x05\x12\x0e\n\x06op_idx\x18\x0b \x01(\r\x12\x0f\n\x07user_id\x18\x01 \x01(\r\x12$\n\x0cshape_sphere\x18\x0e \x01(\x0b\x32\x0c.ShapeSphereH\x00\x12\x1e\n\tshape_box\x18\r \x01(\x0b\x32\t.ShapeBoxH\x00\x42\r\n\x0b\x63heck_shapeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'MassiveEntityElementOpBatchNotify.proto\x1a\x11ShapeSphere.proto\x1a\x0eShapeBox.proto\"\x9a\x02\n!MassiveEntityElementOpBatchNotify\x12\x1f\n\x17\x61ttackElementDurability\x18\x06 \x01(\x02\x12\x1b\n\x13Unk3300_KNLDJPEMCKP\x18\t \x01(\x05\x12\x1b\n\x13Unk3300_PNANGDNNFCH\x18\x0b \x01(\x05\x12\x12\n\nattackerId\x18\n \x01(\r\x12\x0e\n\x06userId\x18\x04 \x01(\r\x12\x12\n\nentityType\x18\x02 \x01(\x05\x12$\n\x0cshape_sphere\x18\x07 \x01(\x0b\x32\x0c.ShapeSphereH\x00\x12\x1e\n\tshape_box\x18\x08 \x01(\x0b\x32\t.ShapeBoxH\x00\x12\r\n\x05opIdx\x18\x01 \x01(\rB\r\n\x0b\x63heck_shapeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MassiveEntityElementOpBatchNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MassiveEntityElementOpBatchNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MASSIVEENTITYELEMENTOPBATCHNOTIFY._serialized_start=79
-  _MASSIVEENTITYELEMENTOPBATCHNOTIFY._serialized_end=367
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MASSIVEENTITYELEMENTOPBATCHNOTIFY']._serialized_start=79
+  _globals['_MASSIVEENTITYELEMENTOPBATCHNOTIFY']._serialized_end=361
 # @@protoc_insertion_point(module_scope)

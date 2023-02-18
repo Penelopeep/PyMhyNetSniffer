@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGClientPerformType_pb2 as GCGClientPerformType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GCGMsgClientPerform.proto\x1a\x1aGCGClientPerformType.proto\"V\n\x13GCGMsgClientPerform\x12\x12\n\nparam_list\x18\x04 \x03(\r\x12+\n\x0cperform_type\x18\x01 \x01(\x0e\x32\x15.GCGClientPerformTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GCGMsgClientPerform.proto\x1a\x1aGCGClientPerformType.proto\"T\n\x13GCGMsgClientPerform\x12*\n\x0bperformType\x18\x02 \x01(\x0e\x32\x15.GCGClientPerformType\x12\x11\n\tparamList\x18\x05 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgClientPerform_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgClientPerform_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGCLIENTPERFORM._serialized_start=57
-  _GCGMSGCLIENTPERFORM._serialized_end=143
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMSGCLIENTPERFORM']._serialized_start=57
+  _globals['_GCGMSGCLIENTPERFORM']._serialized_end=141
 # @@protoc_insertion_point(module_scope)

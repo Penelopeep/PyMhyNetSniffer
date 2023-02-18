@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CoopReward_pb2 as CoopReward__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43oopRewardUpdateNotify.proto\x1a\x10\x43oopReward.proto\":\n\x16\x43oopRewardUpdateNotify\x12 \n\x0breward_list\x18\x0e \x03(\x0b\x32\x0b.CoopRewardb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43oopRewardUpdateNotify.proto\x1a\x10\x43oopReward.proto\"9\n\x16\x43oopRewardUpdateNotify\x12\x1f\n\nrewardList\x18\x0b \x03(\x0b\x32\x0b.CoopRewardB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopRewardUpdateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopRewardUpdateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _COOPREWARDUPDATENOTIFY._serialized_start=50
-  _COOPREWARDUPDATENOTIFY._serialized_end=108
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_COOPREWARDUPDATENOTIFY']._serialized_start=50
+  _globals['_COOPREWARDUPDATENOTIFY']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

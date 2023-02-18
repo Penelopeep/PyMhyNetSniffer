@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43ityReputationExploreInfo.proto\"h\n\x19\x43ityReputationExploreInfo\x12\x17\n\x0f\x65xplore_percent\x18\x01 \x01(\r\x12!\n\x19taken_explore_reward_list\x18\x0f \x03(\r\x12\x0f\n\x07is_open\x18\r \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43ityReputationExploreInfo.proto\"c\n\x19\x43ityReputationExploreInfo\x12\x1e\n\x16takenExploreRewardList\x18\t \x03(\r\x12\x0e\n\x06isOpen\x18\x01 \x01(\x08\x12\x16\n\x0e\x65xplorePercent\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CityReputationExploreInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CityReputationExploreInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CITYREPUTATIONEXPLOREINFO._serialized_start=35
-  _CITYREPUTATIONEXPLOREINFO._serialized_end=139
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CITYREPUTATIONEXPLOREINFO']._serialized_start=35
+  _globals['_CITYREPUTATIONEXPLOREINFO']._serialized_end=134
 # @@protoc_insertion_point(module_scope)

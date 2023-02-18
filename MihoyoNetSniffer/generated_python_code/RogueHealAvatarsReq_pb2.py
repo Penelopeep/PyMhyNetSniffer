@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19RogueHealAvatarsReq.proto\":\n\x13RogueHealAvatarsReq\x12\x0f\n\x07\x63\x65ll_id\x18\x02 \x01(\r\x12\x12\n\ndungeon_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19RogueHealAvatarsReq.proto\"8\n\x13RogueHealAvatarsReq\x12\x11\n\tdungeonId\x18\x0c \x01(\r\x12\x0e\n\x06\x63\x65llId\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueHealAvatarsReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueHealAvatarsReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROGUEHEALAVATARSREQ._serialized_start=29
-  _ROGUEHEALAVATARSREQ._serialized_end=87
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ROGUEHEALAVATARSREQ']._serialized_start=29
+  _globals['_ROGUEHEALAVATARSREQ']._serialized_end=85
 # @@protoc_insertion_point(module_scope)

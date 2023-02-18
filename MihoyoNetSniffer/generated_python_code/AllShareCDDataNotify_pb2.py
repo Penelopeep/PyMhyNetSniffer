@@ -14,17 +14,19 @@ _sym_db = _symbol_database.Default()
 import ShareCDInfo_pb2 as ShareCDInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41llShareCDDataNotify.proto\x1a\x11ShareCDInfo.proto\"\xa1\x01\n\x14\x41llShareCDDataNotify\x12\x44\n\x11share_cd_info_map\x18\r \x03(\x0b\x32).AllShareCDDataNotify.ShareCdInfoMapEntry\x1a\x43\n\x13ShareCdInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1b\n\x05value\x18\x02 \x01(\x0b\x32\x0c.ShareCDInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41llShareCDDataNotify.proto\x1a\x11ShareCDInfo.proto\"\x9e\x01\n\x14\x41llShareCDDataNotify\x12\x41\n\x0eshareCdInfoMap\x18\x02 \x03(\x0b\x32).AllShareCDDataNotify.ShareCdInfoMapEntry\x1a\x43\n\x13ShareCdInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1b\n\x05value\x18\x02 \x01(\x0b\x32\x0c.ShareCDInfo:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AllShareCDDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AllShareCDDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _ALLSHARECDDATANOTIFY_SHARECDINFOMAPENTRY._options = None
   _ALLSHARECDDATANOTIFY_SHARECDINFOMAPENTRY._serialized_options = b'8\001'
-  _ALLSHARECDDATANOTIFY._serialized_start=50
-  _ALLSHARECDDATANOTIFY._serialized_end=211
-  _ALLSHARECDDATANOTIFY_SHARECDINFOMAPENTRY._serialized_start=144
-  _ALLSHARECDDATANOTIFY_SHARECDINFOMAPENTRY._serialized_end=211
+  _globals['_ALLSHARECDDATANOTIFY']._serialized_start=50
+  _globals['_ALLSHARECDDATANOTIFY']._serialized_end=208
+  _globals['_ALLSHARECDDATANOTIFY_SHARECDINFOMAPENTRY']._serialized_start=141
+  _globals['_ALLSHARECDDATANOTIFY_SHARECDINFOMAPENTRY']._serialized_end=208
 # @@protoc_insertion_point(module_scope)

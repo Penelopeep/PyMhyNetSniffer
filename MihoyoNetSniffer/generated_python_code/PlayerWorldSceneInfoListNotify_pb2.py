@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import PlayerWorldSceneInfo_pb2 as PlayerWorldSceneInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerWorldSceneInfoListNotify.proto\x1a\x1aPlayerWorldSceneInfo.proto\"J\n\x1ePlayerWorldSceneInfoListNotify\x12(\n\tinfo_list\x18\x02 \x03(\x0b\x32\x15.PlayerWorldSceneInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerWorldSceneInfoListNotify.proto\x1a\x1aPlayerWorldSceneInfo.proto\"I\n\x1ePlayerWorldSceneInfoListNotify\x12\'\n\x08infoList\x18\x05 \x03(\x0b\x32\x15.PlayerWorldSceneInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerWorldSceneInfoListNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerWorldSceneInfoListNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERWORLDSCENEINFOLISTNOTIFY._serialized_start=68
-  _PLAYERWORLDSCENEINFOLISTNOTIFY._serialized_end=142
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERWORLDSCENEINFOLISTNOTIFY']._serialized_start=68
+  _globals['_PLAYERWORLDSCENEINFOLISTNOTIFY']._serialized_end=141
 # @@protoc_insertion_point(module_scope)

@@ -12,17 +12,18 @@ _sym_db = _symbol_database.Default()
 
 
 import Vector_pb2 as Vector__pb2
+import Type_pb2 as Type__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45ntityJumpNotify.proto\x1a\x0cVector.proto\"\xb6\x01\n\x10\x45ntityJumpNotify\x12\x14\n\x03pos\x18\x06 \x01(\x0b\x32\x07.Vector\x12)\n\tjump_type\x18\x02 \x01(\x0e\x32\x16.EntityJumpNotify.Type\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12\x14\n\x03rot\x18\t \x01(\x0b\x32\x07.Vector\"8\n\x04Type\x12\r\n\tTYPE_NULL\x10\x00\x12\x0f\n\x0bTYPE_ACTIVE\x10\x01\x12\x10\n\x0cTYPE_PASSIVE\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45ntityJumpNotify.proto\x1a\x0cVector.proto\x1a\nType.proto\"i\n\x10\x45ntityJumpNotify\x12\x14\n\x03rot\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08\x65ntityId\x18\x0b \x01(\r\x12\x17\n\x08jumpType\x18\x03 \x01(\x0e\x32\x05.TypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityJumpNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityJumpNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ENTITYJUMPNOTIFY._serialized_start=41
-  _ENTITYJUMPNOTIFY._serialized_end=223
-  _ENTITYJUMPNOTIFY_TYPE._serialized_start=167
-  _ENTITYJUMPNOTIFY_TYPE._serialized_end=223
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ENTITYJUMPNOTIFY']._serialized_start=52
+  _globals['_ENTITYJUMPNOTIFY']._serialized_end=157
 # @@protoc_insertion_point(module_scope)

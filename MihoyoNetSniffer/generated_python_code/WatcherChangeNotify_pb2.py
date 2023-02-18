@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WatcherChangeNotify.proto\"O\n\x13WatcherChangeNotify\x12\x1b\n\x13Unk3300_ELDNONOCFMM\x18\n \x03(\r\x12\x1b\n\x13Unk3300_FDMJACFMOLG\x18\x05 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WatcherChangeNotify.proto\"I\n\x13WatcherChangeNotify\x12\x16\n\x0enewWatcherList\x18\x04 \x03(\r\x12\x1a\n\x12removedWatcherList\x18\x03 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WatcherChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WatcherChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WATCHERCHANGENOTIFY._serialized_start=29
-  _WATCHERCHANGENOTIFY._serialized_end=108
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WATCHERCHANGENOTIFY']._serialized_start=29
+  _globals['_WATCHERCHANGENOTIFY']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

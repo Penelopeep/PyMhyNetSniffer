@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import WinterCampStageInfo_pb2 as WinterCampStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%WinterCampStageInfoChangeNotify.proto\x1a\x19WinterCampStageInfo.proto\"x\n\x1fWinterCampStageInfoChangeNotify\x12*\n\x0c\x65xplore_info\x18\x05 \x01(\x0b\x32\x14.WinterCampStageInfo\x12)\n\x0b\x62\x61ttle_info\x18\x0f \x01(\x0b\x32\x14.WinterCampStageInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%WinterCampStageInfoChangeNotify.proto\x1a\x19WinterCampStageInfo.proto\"v\n\x1fWinterCampStageInfoChangeNotify\x12(\n\nbattleInfo\x18\x0f \x01(\x0b\x32\x14.WinterCampStageInfo\x12)\n\x0b\x65xploreInfo\x18\x03 \x01(\x0b\x32\x14.WinterCampStageInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampStageInfoChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampStageInfoChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINTERCAMPSTAGEINFOCHANGENOTIFY._serialized_start=68
-  _WINTERCAMPSTAGEINFOCHANGENOTIFY._serialized_end=188
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WINTERCAMPSTAGEINFOCHANGENOTIFY']._serialized_start=68
+  _globals['_WINTERCAMPSTAGEINFOCHANGENOTIFY']._serialized_end=186
 # @@protoc_insertion_point(module_scope)

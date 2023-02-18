@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45xecuteGadgetLuaReq.proto\"_\n\x13\x45xecuteGadgetLuaReq\x12\x0e\n\x06param3\x18\x01 \x01(\x05\x12\x0e\n\x06param2\x18\x0e \x01(\x05\x12\x18\n\x10source_entity_id\x18\x0f \x01(\r\x12\x0e\n\x06param1\x18\r \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45xecuteGadgetLuaReq.proto\"]\n\x13\x45xecuteGadgetLuaReq\x12\x0e\n\x06param2\x18\x0f \x01(\x05\x12\x0e\n\x06param3\x18\x08 \x01(\x05\x12\x16\n\x0esourceEntityId\x18\x06 \x01(\r\x12\x0e\n\x06param1\x18\x0e \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExecuteGadgetLuaReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExecuteGadgetLuaReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EXECUTEGADGETLUAREQ._serialized_start=29
-  _EXECUTEGADGETLUAREQ._serialized_end=124
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_EXECUTEGADGETLUAREQ']._serialized_start=29
+  _globals['_EXECUTEGADGETLUAREQ']._serialized_end=122
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SceneInitFinishReq.proto\"/\n\x12SceneInitFinishReq\x12\x19\n\x11\x65nter_scene_token\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SceneInitFinishReq.proto\"-\n\x12SceneInitFinishReq\x12\x17\n\x0f\x65nterSceneToken\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneInitFinishReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneInitFinishReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEINITFINISHREQ._serialized_start=28
-  _SCENEINITFINISHREQ._serialized_end=75
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SCENEINITFINISHREQ']._serialized_start=28
+  _globals['_SCENEINITFINISHREQ']._serialized_end=73
 # @@protoc_insertion_point(module_scope)

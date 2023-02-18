@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetQuestTalkHistoryRsp.proto\"X\n\x16GetQuestTalkHistoryRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x17\n\x0fparent_quest_id\x18\x03 \x01(\r\x12\x14\n\x0ctalk_id_list\x18\x05 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetQuestTalkHistoryRsp.proto\"T\n\x16GetQuestTalkHistoryRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x15\n\rparentQuestId\x18\r \x01(\r\x12\x12\n\ntalkIdList\x18\x07 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetQuestTalkHistoryRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetQuestTalkHistoryRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETQUESTTALKHISTORYRSP._serialized_start=32
-  _GETQUESTTALKHISTORYRSP._serialized_end=120
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETQUESTTALKHISTORYRSP']._serialized_start=32
+  _globals['_GETQUESTTALKHISTORYRSP']._serialized_end=116
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hangeMpTeamAvatarReq.proto\"J\n\x15\x43hangeMpTeamAvatarReq\x12\x17\n\x0f\x63ur_avatar_guid\x18\x03 \x01(\x04\x12\x18\n\x10\x61vatar_guid_list\x18\x0e \x03(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hangeMpTeamAvatarReq.proto\"F\n\x15\x43hangeMpTeamAvatarReq\x12\x15\n\rcurAvatarGuid\x18\x08 \x01(\x04\x12\x16\n\x0e\x61vatarGuidList\x18\x02 \x03(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeMpTeamAvatarReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeMpTeamAvatarReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHANGEMPTEAMAVATARREQ._serialized_start=31
-  _CHANGEMPTEAMAVATARREQ._serialized_end=105
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHANGEMPTEAMAVATARREQ']._serialized_start=31
+  _globals['_CHANGEMPTEAMAVATARREQ']._serialized_end=101
 # @@protoc_insertion_point(module_scope)

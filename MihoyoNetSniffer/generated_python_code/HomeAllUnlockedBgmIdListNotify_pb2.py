@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAllUnlockedBgmIdListNotify.proto\"B\n\x1eHomeAllUnlockedBgmIdListNotify\x12 \n\x18\x61ll_unlocked_bgm_id_list\x18\x0e \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAllUnlockedBgmIdListNotify.proto\">\n\x1eHomeAllUnlockedBgmIdListNotify\x12\x1c\n\x14\x61llUnlockedBgmIdList\x18\r \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAllUnlockedBgmIdListNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAllUnlockedBgmIdListNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEALLUNLOCKEDBGMIDLISTNOTIFY._serialized_start=40
-  _HOMEALLUNLOCKEDBGMIDLISTNOTIFY._serialized_end=106
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEALLUNLOCKEDBGMIDLISTNOTIFY']._serialized_start=40
+  _globals['_HOMEALLUNLOCKEDBGMIDLISTNOTIFY']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

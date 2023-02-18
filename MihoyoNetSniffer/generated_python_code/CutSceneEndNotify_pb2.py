@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43utSceneEndNotify.proto\"9\n\x11\x43utSceneEndNotify\x12\x13\n\x0b\x63utscene_id\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43utSceneEndNotify.proto\"8\n\x11\x43utSceneEndNotify\x12\x12\n\ncutsceneId\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\t \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CutSceneEndNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CutSceneEndNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CUTSCENEENDNOTIFY._serialized_start=27
-  _CUTSCENEENDNOTIFY._serialized_end=84
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CUTSCENEENDNOTIFY']._serialized_start=27
+  _globals['_CUTSCENEENDNOTIFY']._serialized_end=83
 # @@protoc_insertion_point(module_scope)

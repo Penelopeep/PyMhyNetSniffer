@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FoundationStatus_pb2 as FoundationStatus__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46oundationInfo.proto\x1a\x16\x46oundationStatus.proto\"y\n\x0e\x46oundationInfo\x12!\n\x06status\x18\x01 \x01(\x0e\x32\x11.FoundationStatus\x12\x10\n\x08uid_list\x18\x02 \x03(\r\x12\x1b\n\x13\x63urrent_building_id\x18\x03 \x01(\r\x12\x15\n\rlocked_by_uid\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46oundationInfo.proto\x1a\x16\x46oundationStatus.proto\"t\n\x0e\x46oundationInfo\x12!\n\x06status\x18\x01 \x01(\x0e\x32\x11.FoundationStatus\x12\x0f\n\x07uidList\x18\x02 \x03(\r\x12\x19\n\x11\x63urrentBuildingId\x18\x03 \x01(\r\x12\x13\n\x0blockedByUid\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FoundationInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FoundationInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FOUNDATIONINFO._serialized_start=48
-  _FOUNDATIONINFO._serialized_end=169
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FOUNDATIONINFO']._serialized_start=48
+  _globals['_FOUNDATIONINFO']._serialized_end=164
 # @@protoc_insertion_point(module_scope)

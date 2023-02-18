@@ -11,16 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGTCTavernChallengeData_pb2 as GCGTCTavernChallengeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$GCGTCTavernChallengeDataNotify.proto\x1a\x1eGCGTCTavernChallengeData.proto\"Z\n\x1eGCGTCTavernChallengeDataNotify\x12\x38\n\x15tavern_challenge_list\x18\x05 \x03(\x0b\x32\x19.GCGTCTavernChallengeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$GCGTCTavernChallengeDataNotify.proto\"F\n\x1eGCGTCTavernChallengeDataNotify\x12\x0f\n\x07levelId\x18\x02 \x01(\r\x12\x13\n\x0b\x63\x61\x61\x61\x63\x63pgkff\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGTCTavernChallengeDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGTCTavernChallengeDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGTCTAVERNCHALLENGEDATANOTIFY._serialized_start=72
-  _GCGTCTAVERNCHALLENGEDATANOTIFY._serialized_end=162
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGTCTAVERNCHALLENGEDATANOTIFY']._serialized_start=40
+  _globals['_GCGTCTAVERNCHALLENGEDATANOTIFY']._serialized_end=110
 # @@protoc_insertion_point(module_scope)

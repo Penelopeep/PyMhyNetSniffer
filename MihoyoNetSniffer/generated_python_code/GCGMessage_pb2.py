@@ -11,49 +11,51 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGMsgAddCards_pb2 as GCGMsgAddCards__pb2
-import GCGMsgAddDice_pb2 as GCGMsgAddDice__pb2
-import GCGMsgCardUpdate_pb2 as GCGMsgCardUpdate__pb2
-import GCGMsgCharDie_pb2 as GCGMsgCharDie__pb2
-import GCGMsgClientPerform_pb2 as GCGMsgClientPerform__pb2
-import GCGMsgCostDice_pb2 as GCGMsgCostDice__pb2
-import GCGMsgCostRevise_pb2 as GCGMsgCostRevise__pb2
-import GCGMsgDiceReroll_pb2 as GCGMsgDiceReroll__pb2
-import GCGMsgDiceRoll_pb2 as GCGMsgDiceRoll__pb2
-import GCGMsgDuelDataChange_pb2 as GCGMsgDuelDataChange__pb2
-import GCGMsgGameOver_pb2 as GCGMsgGameOver__pb2
-import GCGMsgModifyAdd_pb2 as GCGMsgModifyAdd__pb2
-import GCGMsgModifyRemove_pb2 as GCGMsgModifyRemove__pb2
-import GCGMsgMoveCard_pb2 as GCGMsgMoveCard__pb2
-import GCGMsgNewCard_pb2 as GCGMsgNewCard__pb2
-import GCGMsgNoDamageSkillResult_pb2 as GCGMsgNoDamageSkillResult__pb2
-import GCGMsgOpTimer_pb2 as GCGMsgOpTimer__pb2
-import GCGMsgPVEIntentionChange_pb2 as GCGMsgPVEIntentionChange__pb2
-import GCGMsgPVEIntentionInfo_pb2 as GCGMsgPVEIntentionInfo__pb2
-import GCGMsgPass_pb2 as GCGMsgPass__pb2
-import GCGMsgPhaseChange_pb2 as GCGMsgPhaseChange__pb2
-import GCGMsgPhaseContinue_pb2 as GCGMsgPhaseContinue__pb2
-import GCGMsgReactionBegin_pb2 as GCGMsgReactionBegin__pb2
-import GCGMsgReactionEnd_pb2 as GCGMsgReactionEnd__pb2
-import GCGMsgRemoveCards_pb2 as GCGMsgRemoveCards__pb2
-import GCGMsgSelectOnStage_pb2 as GCGMsgSelectOnStage__pb2
-import GCGMsgSelectOnStageByEffect_pb2 as GCGMsgSelectOnStageByEffect__pb2
-import GCGMsgSkillLimitsChange_pb2 as GCGMsgSkillLimitsChange__pb2
-import GCGMsgSkillResult_pb2 as GCGMsgSkillResult__pb2
-import GCGMsgTokenChange_pb2 as GCGMsgTokenChange__pb2
-import GCGMsgUpdateController_pb2 as GCGMsgUpdateController__pb2
-import GCGMsgUseSkill_pb2 as GCGMsgUseSkill__pb2
-import GCGMsgUseSkillEnd_pb2 as GCGMsgUseSkillEnd__pb2
-import GCGMsgWaitingListChange_pb2 as GCGMsgWaitingListChange__pb2
+import TokenChange_pb2 as TokenChange__pb2
+import PhaseChange_pb2 as PhaseChange__pb2
+import AddCards_pb2 as AddCards__pb2
+import RemoveCards_pb2 as RemoveCards__pb2
+import SelectOnStage_pb2 as SelectOnStage__pb2
+import DiceRoll_pb2 as DiceRoll__pb2
+import DiceReroll_pb2 as DiceReroll__pb2
+import Pass_pb2 as Pass__pb2
+import CharDie_pb2 as CharDie__pb2
+import SkillResult_pb2 as SkillResult__pb2
+import CostDice_pb2 as CostDice__pb2
+import AddDice_pb2 as AddDice__pb2
+import MoveCard_pb2 as MoveCard__pb2
+import UseSkill_pb2 as UseSkill__pb2
+import NewCard_pb2 as NewCard__pb2
+import UpdateController_pb2 as UpdateController__pb2
+import ModifyAdd_pb2 as ModifyAdd__pb2
+import ModifyRemove_pb2 as ModifyRemove__pb2
+import UseSkillEnd_pb2 as UseSkillEnd__pb2
+import DuelDataChange_pb2 as DuelDataChange__pb2
+import ClientPerform_pb2 as ClientPerform__pb2
+import GameOver_pb2 as GameOver__pb2
+import OpTimer_pb2 as OpTimer__pb2
+import WaitingListChange_pb2 as WaitingListChange__pb2
+import CardUpdate_pb2 as CardUpdate__pb2
+import SelectOnStageByEffect_pb2 as SelectOnStageByEffect__pb2
+import CostRevise_pb2 as CostRevise__pb2
+import PhaseContinue_pb2 as PhaseContinue__pb2
+import PveIntentionInfo_pb2 as PveIntentionInfo__pb2
+import PveIntentionChange_pb2 as PveIntentionChange__pb2
+import SkillLimitsChange_pb2 as SkillLimitsChange__pb2
+import NoDamageSkillResult_pb2 as NoDamageSkillResult__pb2
+import ReactionBegin_pb2 as ReactionBegin__pb2
+import ReactionEnd_pb2 as ReactionEnd__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10GCGMessage.proto\x1a\x14GCGMsgAddCards.proto\x1a\x13GCGMsgAddDice.proto\x1a\x16GCGMsgCardUpdate.proto\x1a\x13GCGMsgCharDie.proto\x1a\x19GCGMsgClientPerform.proto\x1a\x14GCGMsgCostDice.proto\x1a\x16GCGMsgCostRevise.proto\x1a\x16GCGMsgDiceReroll.proto\x1a\x14GCGMsgDiceRoll.proto\x1a\x1aGCGMsgDuelDataChange.proto\x1a\x14GCGMsgGameOver.proto\x1a\x15GCGMsgModifyAdd.proto\x1a\x18GCGMsgModifyRemove.proto\x1a\x14GCGMsgMoveCard.proto\x1a\x13GCGMsgNewCard.proto\x1a\x1fGCGMsgNoDamageSkillResult.proto\x1a\x13GCGMsgOpTimer.proto\x1a\x1eGCGMsgPVEIntentionChange.proto\x1a\x1cGCGMsgPVEIntentionInfo.proto\x1a\x10GCGMsgPass.proto\x1a\x17GCGMsgPhaseChange.proto\x1a\x19GCGMsgPhaseContinue.proto\x1a\x19GCGMsgReactionBegin.proto\x1a\x17GCGMsgReactionEnd.proto\x1a\x17GCGMsgRemoveCards.proto\x1a\x19GCGMsgSelectOnStage.proto\x1a!GCGMsgSelectOnStageByEffect.proto\x1a\x1dGCGMsgSkillLimitsChange.proto\x1a\x17GCGMsgSkillResult.proto\x1a\x17GCGMsgTokenChange.proto\x1a\x1cGCGMsgUpdateController.proto\x1a\x14GCGMsgUseSkill.proto\x1a\x17GCGMsgUseSkillEnd.proto\x1a\x1dGCGMsgWaitingListChange.proto\"\xa8\x0c\n\nGCGMessage\x12*\n\x0ctoken_change\x18\x02 \x01(\x0b\x32\x12.GCGMsgTokenChangeH\x00\x12*\n\x0cphase_change\x18\n \x01(\x0b\x32\x12.GCGMsgPhaseChangeH\x00\x12$\n\tadd_cards\x18\x05 \x01(\x0b\x32\x0f.GCGMsgAddCardsH\x00\x12*\n\x0cremove_cards\x18\x0c \x01(\x0b\x32\x12.GCGMsgRemoveCardsH\x00\x12/\n\x0fselect_on_stage\x18\x06 \x01(\x0b\x32\x14.GCGMsgSelectOnStageH\x00\x12$\n\tdice_roll\x18\x0e \x01(\x0b\x32\x0f.GCGMsgDiceRollH\x00\x12(\n\x0b\x64ice_reroll\x18\x0f \x01(\x0b\x32\x11.GCGMsgDiceRerollH\x00\x12\x1b\n\x04pass\x18\x08 \x01(\x0b\x32\x0b.GCGMsgPassH\x00\x12\"\n\x08\x63har_die\x18\x04 \x01(\x0b\x32\x0e.GCGMsgCharDieH\x00\x12*\n\x0cskill_result\x18\x03 \x01(\x0b\x32\x12.GCGMsgSkillResultH\x00\x12$\n\tcost_dice\x18\r \x01(\x0b\x32\x0f.GCGMsgCostDiceH\x00\x12\"\n\x08\x61\x64\x64_dice\x18\x07 \x01(\x0b\x32\x0e.GCGMsgAddDiceH\x00\x12$\n\tmove_card\x18\x0b \x01(\x0b\x32\x0f.GCGMsgMoveCardH\x00\x12$\n\tuse_skill\x18\x01 \x01(\x0b\x32\x0f.GCGMsgUseSkillH\x00\x12#\n\x08new_card\x18\xa8\x02 \x01(\x0b\x32\x0e.GCGMsgNewCardH\x00\x12\x35\n\x11update_controller\x18\xd7\x08 \x01(\x0b\x32\x17.GCGMsgUpdateControllerH\x00\x12\'\n\nmodify_add\x18\xc5\r \x01(\x0b\x32\x10.GCGMsgModifyAddH\x00\x12-\n\rmodify_remove\x18\xde\x0f \x01(\x0b\x32\x13.GCGMsgModifyRemoveH\x00\x12,\n\ruse_skill_end\x18\xd8\n \x01(\x0b\x32\x12.GCGMsgUseSkillEndH\x00\x12\x32\n\x10\x64uel_data_change\x18\xff\r \x01(\x0b\x32\x15.GCGMsgDuelDataChangeH\x00\x12/\n\x0e\x63lient_perform\x18\x8d\r \x01(\x0b\x32\x14.GCGMsgClientPerformH\x00\x12%\n\tgame_over\x18\xf8\x04 \x01(\x0b\x32\x0f.GCGMsgGameOverH\x00\x12#\n\x08op_timer\x18\x9a\x01 \x01(\x0b\x32\x0e.GCGMsgOpTimerH\x00\x12\x38\n\x13waiting_list_change\x18\xc7\x0f \x01(\x0b\x32\x18.GCGMsgWaitingListChangeH\x00\x12)\n\x0b\x63\x61rd_update\x18\xa6\r \x01(\x0b\x32\x11.GCGMsgCardUpdateH\x00\x12\x42\n\x19select_on_stage_by_effect\x18\xc9\r \x01(\x0b\x32\x1c.GCGMsgSelectOnStageByEffectH\x00\x12)\n\x0b\x63ost_revise\x18\xd4\x03 \x01(\x0b\x32\x11.GCGMsgCostReviseH\x00\x12/\n\x0ephase_continue\x18\x85\t \x01(\x0b\x32\x14.GCGMsgPhaseContinueH\x00\x12\x36\n\x12pve_intention_info\x18\xd2\x06 \x01(\x0b\x32\x17.GCGMsgPVEIntentionInfoH\x00\x12:\n\x14pve_intention_change\x18\xf4\t \x01(\x0b\x32\x19.GCGMsgPVEIntentionChangeH\x00\x12\x38\n\x13skill_limits_change\x18\xc6\x05 \x01(\x0b\x32\x18.GCGMsgSkillLimitsChangeH\x00\x12=\n\x16no_damage_skill_result\x18\x85\x06 \x01(\x0b\x32\x1a.GCGMsgNoDamageSkillResultH\x00\x12/\n\x0ereaction_begin\x18\xf3\x01 \x01(\x0b\x32\x14.GCGMsgReactionBeginH\x00\x12+\n\x0creaction_end\x18\x94\t \x01(\x0b\x32\x12.GCGMsgReactionEndH\x00\x42\t\n\x07messageb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10GCGMessage.proto\x1a\x11TokenChange.proto\x1a\x11PhaseChange.proto\x1a\x0e\x41\x64\x64\x43\x61rds.proto\x1a\x11RemoveCards.proto\x1a\x13SelectOnStage.proto\x1a\x0e\x44iceRoll.proto\x1a\x10\x44iceReroll.proto\x1a\nPass.proto\x1a\rCharDie.proto\x1a\x11SkillResult.proto\x1a\x0e\x43ostDice.proto\x1a\rAddDice.proto\x1a\x0eMoveCard.proto\x1a\x0eUseSkill.proto\x1a\rNewCard.proto\x1a\x16UpdateController.proto\x1a\x0fModifyAdd.proto\x1a\x12ModifyRemove.proto\x1a\x11UseSkillEnd.proto\x1a\x14\x44uelDataChange.proto\x1a\x13\x43lientPerform.proto\x1a\x0eGameOver.proto\x1a\rOpTimer.proto\x1a\x17WaitingListChange.proto\x1a\x10\x43\x61rdUpdate.proto\x1a\x1bSelectOnStageByEffect.proto\x1a\x10\x43ostRevise.proto\x1a\x13PhaseContinue.proto\x1a\x16PveIntentionInfo.proto\x1a\x18PveIntentionChange.proto\x1a\x17SkillLimitsChange.proto\x1a\x19NoDamageSkillResult.proto\x1a\x13ReactionBegin.proto\x1a\x11ReactionEnd.proto\"\xdb\n\n\nGCGMessage\x12$\n\x0ctoken_change\x18\n \x01(\x0b\x32\x0c.TokenChangeH\x00\x12$\n\x0cphase_change\x18\x0f \x01(\x0b\x32\x0c.PhaseChangeH\x00\x12\x1e\n\tadd_cards\x18\x0b \x01(\x0b\x32\t.AddCardsH\x00\x12$\n\x0cremove_cards\x18\x07 \x01(\x0b\x32\x0c.RemoveCardsH\x00\x12)\n\x0fselect_on_stage\x18\t \x01(\x0b\x32\x0e.SelectOnStageH\x00\x12\x1e\n\tdice_roll\x18\x03 \x01(\x0b\x32\t.DiceRollH\x00\x12\"\n\x0b\x64ice_reroll\x18\x0c \x01(\x0b\x32\x0b.DiceRerollH\x00\x12\x15\n\x04pass\x18\x05 \x01(\x0b\x32\x05.PassH\x00\x12\x1c\n\x08\x63har_die\x18\x06 \x01(\x0b\x32\x08.CharDieH\x00\x12$\n\x0cskill_result\x18\x01 \x01(\x0b\x32\x0c.SkillResultH\x00\x12\x1e\n\tcost_dice\x18\x04 \x01(\x0b\x32\t.CostDiceH\x00\x12\x1c\n\x08\x61\x64\x64_dice\x18\r \x01(\x0b\x32\x08.AddDiceH\x00\x12\x1e\n\tmove_card\x18\x0e \x01(\x0b\x32\t.MoveCardH\x00\x12\x1e\n\tuse_skill\x18\x02 \x01(\x0b\x32\t.UseSkillH\x00\x12\x1d\n\x08new_card\x18\xfa\x0c \x01(\x0b\x32\x08.NewCardH\x00\x12/\n\x11update_controller\x18\xcc\x01 \x01(\x0b\x32\x11.UpdateControllerH\x00\x12!\n\nmodify_add\x18\xe9\x07 \x01(\x0b\x32\n.ModifyAddH\x00\x12\'\n\rmodify_remove\x18\xa7\x0b \x01(\x0b\x32\r.ModifyRemoveH\x00\x12&\n\ruse_skill_end\x18\xf3\r \x01(\x0b\x32\x0c.UseSkillEndH\x00\x12,\n\x10\x64uel_data_change\x18\xce\x08 \x01(\x0b\x32\x0f.DuelDataChangeH\x00\x12)\n\x0e\x63lient_perform\x18\xc9\t \x01(\x0b\x32\x0e.ClientPerformH\x00\x12\x1f\n\tgame_over\x18\x80\x05 \x01(\x0b\x32\t.GameOverH\x00\x12\x1d\n\x08op_timer\x18\x8a\x06 \x01(\x0b\x32\x08.OpTimerH\x00\x12\x32\n\x13waiting_list_change\x18\x85\x04 \x01(\x0b\x32\x12.WaitingListChangeH\x00\x12#\n\x0b\x63\x61rd_update\x18\x84\n \x01(\x0b\x32\x0b.CardUpdateH\x00\x12<\n\x19select_on_stage_by_effect\x18\x9e\x04 \x01(\x0b\x32\x16.SelectOnStageByEffectH\x00\x12#\n\x0b\x63ost_revise\x18\x96\x05 \x01(\x0b\x32\x0b.CostReviseH\x00\x12)\n\x0ephase_continue\x18\xd8\x02 \x01(\x0b\x32\x0e.PhaseContinueH\x00\x12\x30\n\x12pve_intention_info\x18\xcf\x07 \x01(\x0b\x32\x11.PveIntentionInfoH\x00\x12\x34\n\x14pve_intention_change\x18\xcf\x05 \x01(\x0b\x32\x13.PveIntentionChangeH\x00\x12\x32\n\x13skill_limits_change\x18\xd5\x04 \x01(\x0b\x32\x12.SkillLimitsChangeH\x00\x12\x37\n\x16no_damage_skill_result\x18\xcb\x0b \x01(\x0b\x32\x14.NoDamageSkillResultH\x00\x12)\n\x0ereaction_begin\x18\xaa\x01 \x01(\x0b\x32\x0e.ReactionBeginH\x00\x12$\n\x0creaction_end\x18: \x01(\x0b\x32\x0c.ReactionEndH\x00\x42\t\n\x07messageB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMessage_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMessage_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMESSAGE._serialized_start=884
-  _GCGMESSAGE._serialized_end=2460
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMESSAGE']._serialized_start=680
+  _globals['_GCGMESSAGE']._serialized_end=2051
 # @@protoc_insertion_point(module_scope)

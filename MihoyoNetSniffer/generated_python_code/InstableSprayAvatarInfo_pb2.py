@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dInstableSprayAvatarInfo.proto\">\n\x17InstableSprayAvatarInfo\x12\x11\n\tavatar_id\x18\n \x01(\x04\x12\x10\n\x08is_trial\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dInstableSprayAvatarInfo.proto\"<\n\x17InstableSprayAvatarInfo\x12\x0f\n\x07isTrial\x18\x02 \x01(\x08\x12\x10\n\x08\x61vatarId\x18\x0c \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InstableSprayAvatarInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InstableSprayAvatarInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _INSTABLESPRAYAVATARINFO._serialized_start=33
-  _INSTABLESPRAYAVATARINFO._serialized_end=95
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_INSTABLESPRAYAVATARINFO']._serialized_start=33
+  _globals['_INSTABLESPRAYAVATARINFO']._serialized_end=93
 # @@protoc_insertion_point(module_scope)

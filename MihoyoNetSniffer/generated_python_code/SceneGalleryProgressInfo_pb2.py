@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSceneGalleryProgressInfo.proto\"g\n\x18SceneGalleryProgressInfo\x12\x0b\n\x03key\x18\x03 \x01(\t\x12\x0f\n\x07ui_form\x18\x0c \x01(\r\x12\x1b\n\x13progress_stage_list\x18\x07 \x03(\r\x12\x10\n\x08progress\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSceneGalleryProgressInfo.proto\"d\n\x18SceneGalleryProgressInfo\x12\x19\n\x11progressStageList\x18\x08 \x03(\r\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x10\n\x08progress\x18\r \x01(\r\x12\x0e\n\x06uiForm\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryProgressInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryProgressInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYPROGRESSINFO._serialized_start=34
-  _SCENEGALLERYPROGRESSINFO._serialized_end=137
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SCENEGALLERYPROGRESSINFO']._serialized_start=34
+  _globals['_SCENEGALLERYPROGRESSINFO']._serialized_end=134
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGBossChallengeData_pb2 as GCGBossChallengeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GCGBossChallengeUpdateNotify.proto\x1a\x1aGCGBossChallengeData.proto\"M\n\x1cGCGBossChallengeUpdateNotify\x12-\n\x0e\x62oss_challenge\x18\x07 \x01(\x0b\x32\x15.GCGBossChallengeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GCGBossChallengeUpdateNotify.proto\x1a\x1aGCGBossChallengeData.proto\"J\n\x1cGCGBossChallengeUpdateNotify\x12*\n\x0bjmpbgnfplkb\x18\t \x01(\x0b\x32\x15.GCGBossChallengeDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGBossChallengeUpdateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGBossChallengeUpdateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGBOSSCHALLENGEUPDATENOTIFY._serialized_start=66
-  _GCGBOSSCHALLENGEUPDATENOTIFY._serialized_end=143
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGBOSSCHALLENGEUPDATENOTIFY']._serialized_start=66
+  _globals['_GCGBOSSCHALLENGEUPDATENOTIFY']._serialized_end=140
 # @@protoc_insertion_point(module_scope)

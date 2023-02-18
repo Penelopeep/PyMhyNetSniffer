@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bTreasureMapRegionInfo.proto\x1a\x0cVector.proto\"\xff\x01\n\x15TreasureMapRegionInfo\x12\x15\n\rregion_radius\x18\r \x01(\r\x12\x11\n\tregion_id\x18\n \x01(\r\x12\"\n\x11region_center_pos\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_HHBHLPHLHIL\x18\x06 \x01(\x08\x12\x12\n\nstart_time\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_LKEMEDPMIGM\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_NIBJOAJLCJI\x18\x01 \x01(\x08\x12\x10\n\x08scene_id\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_MNEKJILFHOA\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bTreasureMapRegionInfo.proto\x1a\x0cVector.proto\"\xf9\x01\n\x15TreasureMapRegionInfo\x12\x1b\n\x13Unk3300_LKEMEDPMIGM\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_MNEKJILFHOA\x18\x0c \x01(\r\x12\x11\n\tstartTime\x18\x06 \x01(\r\x12\x0f\n\x07sceneId\x18\x01 \x01(\r\x12\x10\n\x08regionId\x18\x0e \x01(\r\x12\x14\n\x0cregionRadius\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_HHBHLPHLHIL\x18\x0f \x01(\x08\x12\x1b\n\x13Unk3300_NIBJOAJLCJI\x18\x02 \x01(\x08\x12 \n\x0fregionCenterPos\x18\r \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapRegionInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapRegionInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TREASUREMAPREGIONINFO._serialized_start=46
-  _TREASUREMAPREGIONINFO._serialized_end=301
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TREASUREMAPREGIONINFO']._serialized_start=46
+  _globals['_TREASUREMAPREGIONINFO']._serialized_end=295
 # @@protoc_insertion_point(module_scope)

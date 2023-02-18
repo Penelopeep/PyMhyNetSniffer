@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16QuestTransmitRsp.proto\"G\n\x10QuestTransmitRsp\x12\x10\n\x08quest_id\x18\x02 \x01(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x10\n\x08point_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16QuestTransmitRsp.proto\"E\n\x10QuestTransmitRsp\x12\x0f\n\x07pointId\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x0f\n\x07questId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestTransmitRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestTransmitRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _QUESTTRANSMITRSP._serialized_start=26
-  _QUESTTRANSMITRSP._serialized_end=97
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_QUESTTRANSMITRSP']._serialized_start=26
+  _globals['_QUESTTRANSMITRSP']._serialized_end=95
 # @@protoc_insertion_point(module_scope)

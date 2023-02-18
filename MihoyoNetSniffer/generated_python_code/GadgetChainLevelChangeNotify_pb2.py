@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GadgetChainLevelChangeNotify.proto\"\xb2\x01\n\x1cGadgetChainLevelChangeNotify\x12V\n\x16gadget_chain_level_map\x18\r \x03(\x0b\x32\x36.GadgetChainLevelChangeNotify.GadgetChainLevelMapEntry\x1a:\n\x18GadgetChainLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GadgetChainLevelChangeNotify.proto\"\xaf\x01\n\x1cGadgetChainLevelChangeNotify\x12S\n\x13gadgetChainLevelMap\x18\x0e \x03(\x0b\x32\x36.GadgetChainLevelChangeNotify.GadgetChainLevelMapEntry\x1a:\n\x18GadgetChainLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetChainLevelChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetChainLevelChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _GADGETCHAINLEVELCHANGENOTIFY_GADGETCHAINLEVELMAPENTRY._options = None
   _GADGETCHAINLEVELCHANGENOTIFY_GADGETCHAINLEVELMAPENTRY._serialized_options = b'8\001'
-  _GADGETCHAINLEVELCHANGENOTIFY._serialized_start=39
-  _GADGETCHAINLEVELCHANGENOTIFY._serialized_end=217
-  _GADGETCHAINLEVELCHANGENOTIFY_GADGETCHAINLEVELMAPENTRY._serialized_start=159
-  _GADGETCHAINLEVELCHANGENOTIFY_GADGETCHAINLEVELMAPENTRY._serialized_end=217
+  _globals['_GADGETCHAINLEVELCHANGENOTIFY']._serialized_start=39
+  _globals['_GADGETCHAINLEVELCHANGENOTIFY']._serialized_end=214
+  _globals['_GADGETCHAINLEVELCHANGENOTIFY_GADGETCHAINLEVELMAPENTRY']._serialized_start=156
+  _globals['_GADGETCHAINLEVELCHANGENOTIFY_GADGETCHAINLEVELMAPENTRY']._serialized_end=214
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12HomeResource.proto\"c\n\x0cHomeResource\x12\x1b\n\x13Unk3300_LJCAIDECBND\x18\x06 \x01(\r\x12\x19\n\x11next_refresh_time\x18\r \x01(\x07\x12\x1b\n\x13Unk3300_LINAPIIPNOB\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12HomeResource.proto\"O\n\x0cHomeResource\x12\x12\n\nstoreLimit\x18\x0f \x01(\r\x12\x12\n\nstoreValue\x18\n \x01(\r\x12\x17\n\x0fnextRefreshTime\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeResource_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeResource_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMERESOURCE._serialized_start=22
-  _HOMERESOURCE._serialized_end=121
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMERESOURCE']._serialized_start=22
+  _globals['_HOMERESOURCE']._serialized_end=101
 # @@protoc_insertion_point(module_scope)

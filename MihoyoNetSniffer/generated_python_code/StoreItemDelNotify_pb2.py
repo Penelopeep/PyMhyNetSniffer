@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import StoreType_pb2 as StoreType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18StoreItemDelNotify.proto\x1a\x0fStoreType.proto\"G\n\x12StoreItemDelNotify\x12\x1e\n\nstore_type\x18\x06 \x01(\x0e\x32\n.StoreType\x12\x11\n\tguid_list\x18\x08 \x03(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18StoreItemDelNotify.proto\x1a\x0fStoreType.proto\"E\n\x12StoreItemDelNotify\x12\x10\n\x08guidList\x18\x06 \x03(\x04\x12\x1d\n\tstoreType\x18\n \x01(\x0e\x32\n.StoreTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StoreItemDelNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StoreItemDelNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _STOREITEMDELNOTIFY._serialized_start=45
-  _STOREITEMDELNOTIFY._serialized_end=116
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_STOREITEMDELNOTIFY']._serialized_start=45
+  _globals['_STOREITEMDELNOTIFY']._serialized_end=114
 # @@protoc_insertion_point(module_scope)

@@ -11,16 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGSettleOption_pb2 as GCGSettleOption__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGSettleOptionRsp.proto\x1a\x15GCGSettleOption.proto\"G\n\x12GCGSettleOptionRsp\x12 \n\x06option\x18\x02 \x01(\x0e\x32\x10.GCGSettleOption\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGSettleOptionRsp.proto\"8\n\x12GCGSettleOptionRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x11\n\tcloseTime\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSettleOptionRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSettleOptionRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSETTLEOPTIONRSP._serialized_start=51
-  _GCGSETTLEOPTIONRSP._serialized_end=122
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGSETTLEOPTIONRSP']._serialized_start=28
+  _globals['_GCGSETTLEOPTIONRSP']._serialized_end=84
 # @@protoc_insertion_point(module_scope)

@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlantFlowerGiveFriendFlowerReq.proto\"\xc2\x01\n\x1ePlantFlowerGiveFriendFlowerReq\x12\x13\n\x0bschedule_id\x18\x06 \x01(\r\x12\x0b\n\x03uid\x18\x03 \x01(\r\x12I\n\x0e\x66lower_num_map\x18\r \x03(\x0b\x32\x31.PlantFlowerGiveFriendFlowerReq.FlowerNumMapEntry\x1a\x33\n\x11\x46lowerNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlantFlowerGiveFriendFlowerReq.proto\"\xbf\x01\n\x1ePlantFlowerGiveFriendFlowerReq\x12\x0b\n\x03uid\x18\x01 \x01(\r\x12G\n\x0c\x66lowerNumMap\x18\x0e \x03(\x0b\x32\x31.PlantFlowerGiveFriendFlowerReq.FlowerNumMapEntry\x12\x12\n\nscheduleId\x18\x05 \x01(\r\x1a\x33\n\x11\x46lowerNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerGiveFriendFlowerReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerGiveFriendFlowerReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _PLANTFLOWERGIVEFRIENDFLOWERREQ_FLOWERNUMMAPENTRY._options = None
   _PLANTFLOWERGIVEFRIENDFLOWERREQ_FLOWERNUMMAPENTRY._serialized_options = b'8\001'
-  _PLANTFLOWERGIVEFRIENDFLOWERREQ._serialized_start=41
-  _PLANTFLOWERGIVEFRIENDFLOWERREQ._serialized_end=235
-  _PLANTFLOWERGIVEFRIENDFLOWERREQ_FLOWERNUMMAPENTRY._serialized_start=184
-  _PLANTFLOWERGIVEFRIENDFLOWERREQ_FLOWERNUMMAPENTRY._serialized_end=235
+  _globals['_PLANTFLOWERGIVEFRIENDFLOWERREQ']._serialized_start=41
+  _globals['_PLANTFLOWERGIVEFRIENDFLOWERREQ']._serialized_end=232
+  _globals['_PLANTFLOWERGIVEFRIENDFLOWERREQ_FLOWERNUMMAPENTRY']._serialized_start=181
+  _globals['_PLANTFLOWERGIVEFRIENDFLOWERREQ_FLOWERNUMMAPENTRY']._serialized_end=232
 # @@protoc_insertion_point(module_scope)

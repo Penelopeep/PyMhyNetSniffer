@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeAvatarTalkFinishInfo_pb2 as HomeAvatarTalkFinishInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAvatarTalkFinishInfoNotify.proto\x1a\x1eHomeAvatarTalkFinishInfo.proto\"Z\n\x1eHomeAvatarTalkFinishInfoNotify\x12\x38\n\x15\x61vatar_talk_info_list\x18\t \x03(\x0b\x32\x19.HomeAvatarTalkFinishInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAvatarTalkFinishInfoNotify.proto\x1a\x1eHomeAvatarTalkFinishInfo.proto\"W\n\x1eHomeAvatarTalkFinishInfoNotify\x12\x35\n\x12\x61vatarTalkInfoList\x18\x0b \x03(\x0b\x32\x19.HomeAvatarTalkFinishInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarTalkFinishInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarTalkFinishInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEAVATARTALKFINISHINFONOTIFY._serialized_start=72
-  _HOMEAVATARTALKFINISHINFONOTIFY._serialized_end=162
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEAVATARTALKFINISHINFONOTIFY']._serialized_start=72
+  _globals['_HOMEAVATARTALKFINISHINFONOTIFY']._serialized_end=159
 # @@protoc_insertion_point(module_scope)

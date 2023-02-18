@@ -11,16 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import OneoffGatherPointDetectorData_pb2 as OneoffGatherPointDetectorData__pb2
+import DetectorData_pb2 as DetectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)OneoffGatherPointDetectorDataNotify.proto\x1a#OneoffGatherPointDetectorData.proto\"u\n#OneoffGatherPointDetectorDataNotify\x12N\n&oneoff_gather_point_detector_data_list\x18\x02 \x03(\x0b\x32\x1e.OneoffGatherPointDetectorDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)OneoffGatherPointDetectorDataNotify.proto\x1a\x12\x44\x65tectorData.proto\"_\n#OneoffGatherPointDetectorDataNotify\x12\x38\n!oneoffGatherPointDetectorDataList\x18\n \x03(\x0b\x32\r.DetectorDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OneoffGatherPointDetectorDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OneoffGatherPointDetectorDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ONEOFFGATHERPOINTDETECTORDATANOTIFY._serialized_start=82
-  _ONEOFFGATHERPOINTDETECTORDATANOTIFY._serialized_end=199
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ONEOFFGATHERPOINTDETECTORDATANOTIFY']._serialized_start=65
+  _globals['_ONEOFFGATHERPOINTDETECTORDATANOTIFY']._serialized_end=160
 # @@protoc_insertion_point(module_scope)

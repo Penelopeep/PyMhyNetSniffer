@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11HitTreeInfo.proto\x1a\x0cVector.proto\";\n\x0bHitTreeInfo\x12\x19\n\x08tree_pos\x18\n \x01(\x0b\x32\x07.Vector\x12\x11\n\ttree_type\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11HitTreeInfo.proto\x1a\x0cVector.proto\"9\n\x0bHitTreeInfo\x12\x10\n\x08treeType\x18\x01 \x01(\r\x12\x18\n\x07treePos\x18\x02 \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HitTreeInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HitTreeInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HITTREEINFO._serialized_start=35
-  _HITTREEINFO._serialized_end=94
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HITTREEINFO']._serialized_start=35
+  _globals['_HITTREEINFO']._serialized_end=92
 # @@protoc_insertion_point(module_scope)

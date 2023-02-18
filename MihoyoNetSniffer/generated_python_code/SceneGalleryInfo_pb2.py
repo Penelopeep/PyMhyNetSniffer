@@ -11,48 +11,53 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import BalloonInfo_pb2 as BalloonInfo__pb2
+import FallInfo_pb2 as FallInfo__pb2
+import FlowerInfo_pb2 as FlowerInfo__pb2
+import BulletInfo_pb2 as BulletInfo__pb2
+import BrokenFloorInfo_pb2 as BrokenFloorInfo__pb2
+import HideAndSeekInfo_pb2 as HideAndSeekInfo__pb2
+import BuoyantCombatInfo_pb2 as BuoyantCombatInfo__pb2
+import BounceConjuringInfo_pb2 as BounceConjuringInfo__pb2
+import HandballInfo_pb2 as HandballInfo__pb2
+import SumoInfo_pb2 as SumoInfo__pb2
+import SalvagePreventInfo_pb2 as SalvagePreventInfo__pb2
+import SalvageEscortInfo_pb2 as SalvageEscortInfo__pb2
+import HomeBalloonInfo_pb2 as HomeBalloonInfo__pb2
+import CrystalLinkInfo_pb2 as CrystalLinkInfo__pb2
+import IrodoriMasterInfo_pb2 as IrodoriMasterInfo__pb2
+import LuminanceStoneChallengeInfo_pb2 as LuminanceStoneChallengeInfo__pb2
+import HomeSeekFurnitureInfo_pb2 as HomeSeekFurnitureInfo__pb2
+import IslandPartyDownHillInfo_pb2 as IslandPartyDownHillInfo__pb2
+import SummerTimeV2BoatInfo_pb2 as SummerTimeV2BoatInfo__pb2
+import IslandPartyRaftInfo_pb2 as IslandPartyRaftInfo__pb2
+import IslandPartySailInfo_pb2 as IslandPartySailInfo__pb2
+import InstableSprayInfo_pb2 as InstableSprayInfo__pb2
+import MuqadasPotionInfo_pb2 as MuqadasPotionInfo__pb2
+import TreasureSeelieInfo_pb2 as TreasureSeelieInfo__pb2
+import VintageHuntingInfo_pb2 as VintageHuntingInfo__pb2
+import WindFieldInfo_pb2 as WindFieldInfo__pb2
+import FungusFighterTrainingInfo_pb2 as FungusFighterTrainingInfo__pb2
+import EffigyChallengeInfo_pb2 as EffigyChallengeInfo__pb2
+import FungusFighterCaptureInfo_pb2 as FungusFighterCaptureInfo__pb2
+import CharAmusementInfo_pb2 as CharAmusementInfo__pb2
+import CoinCollectInfo_pb2 as CoinCollectInfo__pb2
+import TeamChainInfo_pb2 as TeamChainInfo__pb2
+import DuelHeartInfo_pb2 as DuelHeartInfo__pb2
+import BoatMultiInfo_pb2 as BoatMultiInfo__pb2
 import GalleryStageType_pb2 as GalleryStageType__pb2
-import SceneGalleryBalloonInfo_pb2 as SceneGalleryBalloonInfo__pb2
-import SceneGalleryBounceConjuringInfo_pb2 as SceneGalleryBounceConjuringInfo__pb2
-import SceneGalleryBrokenFloorInfo_pb2 as SceneGalleryBrokenFloorInfo__pb2
-import SceneGalleryBulletInfo_pb2 as SceneGalleryBulletInfo__pb2
-import SceneGalleryBuoyantCombatInfo_pb2 as SceneGalleryBuoyantCombatInfo__pb2
-import SceneGalleryCharAmusementInfo_pb2 as SceneGalleryCharAmusementInfo__pb2
-import SceneGalleryCoinCollectInfo_pb2 as SceneGalleryCoinCollectInfo__pb2
-import SceneGalleryCrystalLinkInfo_pb2 as SceneGalleryCrystalLinkInfo__pb2
-import SceneGalleryEffigyChallengeV2Info_pb2 as SceneGalleryEffigyChallengeV2Info__pb2
-import SceneGalleryFallInfo_pb2 as SceneGalleryFallInfo__pb2
-import SceneGalleryFlowerInfo_pb2 as SceneGalleryFlowerInfo__pb2
-import SceneGalleryFungusFighterCaptureInfo_pb2 as SceneGalleryFungusFighterCaptureInfo__pb2
-import SceneGalleryFungusFighterTrainingInfo_pb2 as SceneGalleryFungusFighterTrainingInfo__pb2
-import SceneGalleryHandballInfo_pb2 as SceneGalleryHandballInfo__pb2
-import SceneGalleryHideAndSeekInfo_pb2 as SceneGalleryHideAndSeekInfo__pb2
-import SceneGalleryHomeBalloonInfo_pb2 as SceneGalleryHomeBalloonInfo__pb2
-import SceneGalleryHomeSeekFurnitureInfo_pb2 as SceneGalleryHomeSeekFurnitureInfo__pb2
-import SceneGalleryInstableSprayInfo_pb2 as SceneGalleryInstableSprayInfo__pb2
-import SceneGalleryIrodoriMasterInfo_pb2 as SceneGalleryIrodoriMasterInfo__pb2
-import SceneGalleryIslandPartyDownHillInfo_pb2 as SceneGalleryIslandPartyDownHillInfo__pb2
-import SceneGalleryIslandPartyRaftInfo_pb2 as SceneGalleryIslandPartyRaftInfo__pb2
-import SceneGalleryIslandPartySailInfo_pb2 as SceneGalleryIslandPartySailInfo__pb2
-import SceneGalleryLuminanceStoneChallengeInfo_pb2 as SceneGalleryLuminanceStoneChallengeInfo__pb2
-import SceneGalleryMuqadasPotionInfo_pb2 as SceneGalleryMuqadasPotionInfo__pb2
 import SceneGalleryProgressInfo_pb2 as SceneGalleryProgressInfo__pb2
-import SceneGallerySalvageEscortInfo_pb2 as SceneGallerySalvageEscortInfo__pb2
-import SceneGallerySalvagePreventInfo_pb2 as SceneGallerySalvagePreventInfo__pb2
-import SceneGallerySummerTimeV2BoatInfo_pb2 as SceneGallerySummerTimeV2BoatInfo__pb2
-import SceneGallerySumoInfo_pb2 as SceneGallerySumoInfo__pb2
-import SceneGalleryTreasureSeelieInfo_pb2 as SceneGalleryTreasureSeelieInfo__pb2
-import SceneGalleryVintageHuntingInfo_pb2 as SceneGalleryVintageHuntingInfo__pb2
-import SceneGalleryWindFieldInfo_pb2 as SceneGalleryWindFieldInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SceneGalleryInfo.proto\x1a\x16GalleryStageType.proto\x1a\x1dSceneGalleryBalloonInfo.proto\x1a%SceneGalleryBounceConjuringInfo.proto\x1a!SceneGalleryBrokenFloorInfo.proto\x1a\x1cSceneGalleryBulletInfo.proto\x1a#SceneGalleryBuoyantCombatInfo.proto\x1a#SceneGalleryCharAmusementInfo.proto\x1a!SceneGalleryCoinCollectInfo.proto\x1a!SceneGalleryCrystalLinkInfo.proto\x1a\'SceneGalleryEffigyChallengeV2Info.proto\x1a\x1aSceneGalleryFallInfo.proto\x1a\x1cSceneGalleryFlowerInfo.proto\x1a*SceneGalleryFungusFighterCaptureInfo.proto\x1a+SceneGalleryFungusFighterTrainingInfo.proto\x1a\x1eSceneGalleryHandballInfo.proto\x1a!SceneGalleryHideAndSeekInfo.proto\x1a!SceneGalleryHomeBalloonInfo.proto\x1a\'SceneGalleryHomeSeekFurnitureInfo.proto\x1a#SceneGalleryInstableSprayInfo.proto\x1a#SceneGalleryIrodoriMasterInfo.proto\x1a)SceneGalleryIslandPartyDownHillInfo.proto\x1a%SceneGalleryIslandPartyRaftInfo.proto\x1a%SceneGalleryIslandPartySailInfo.proto\x1a-SceneGalleryLuminanceStoneChallengeInfo.proto\x1a#SceneGalleryMuqadasPotionInfo.proto\x1a\x1eSceneGalleryProgressInfo.proto\x1a#SceneGallerySalvageEscortInfo.proto\x1a$SceneGallerySalvagePreventInfo.proto\x1a&SceneGallerySummerTimeV2BoatInfo.proto\x1a\x1aSceneGallerySumoInfo.proto\x1a$SceneGalleryTreasureSeelieInfo.proto\x1a$SceneGalleryVintageHuntingInfo.proto\x1a\x1fSceneGalleryWindFieldInfo.proto\"\xa1\x11\n\x10SceneGalleryInfo\x12\x1a\n\x12pre_start_end_time\x18\x0e \x01(\r\x12\x11\n\towner_uid\x18\t \x01(\r\x12\x35\n\x12progress_info_list\x18\n \x03(\x0b\x32\x19.SceneGalleryProgressInfo\x12\x12\n\ngallery_id\x18\x04 \x01(\r\x12\x12\n\nstart_time\x18\x03 \x01(\r\x12\x14\n\x0cplayer_count\x18\x0f \x01(\r\x12\x10\n\x08\x65nd_time\x18\x01 \x01(\r\x12 \n\x05stage\x18\x08 \x01(\x0e\x32\x11.GalleryStageType\x12\x30\n\x0c\x62\x61lloon_info\x18\x05 \x01(\x0b\x32\x18.SceneGalleryBalloonInfoH\x00\x12*\n\tfall_info\x18\x07 \x01(\x0b\x32\x15.SceneGalleryFallInfoH\x00\x12.\n\x0b\x66lower_info\x18\x0b \x01(\x0b\x32\x17.SceneGalleryFlowerInfoH\x00\x12.\n\x0b\x62ullet_info\x18\x0c \x01(\x0b\x32\x17.SceneGalleryBulletInfoH\x00\x12\x39\n\x11\x62roken_floor_info\x18\x06 \x01(\x0b\x32\x1c.SceneGalleryBrokenFloorInfoH\x00\x12:\n\x12hide_and_seek_info\x18\r \x01(\x0b\x32\x1c.SceneGalleryHideAndSeekInfoH\x00\x12>\n\x13\x62uoyant_combat_info\x18\xc8\t \x01(\x0b\x32\x1e.SceneGalleryBuoyantCombatInfoH\x00\x12\x42\n\x15\x62ounce_conjuring_info\x18\xed\x04 \x01(\x0b\x32 .SceneGalleryBounceConjuringInfoH\x00\x12\x33\n\rhandball_info\x18\xab\x0e \x01(\x0b\x32\x19.SceneGalleryHandballInfoH\x00\x12+\n\tsumo_info\x18\xed\x06 \x01(\x0b\x32\x15.SceneGallerySumoInfoH\x00\x12@\n\x14salvage_prevent_info\x18\xc5\x0b \x01(\x0b\x32\x1f.SceneGallerySalvagePreventInfoH\x00\x12>\n\x13salvage_escort_info\x18\xdc\x05 \x01(\x0b\x32\x1e.SceneGallerySalvageEscortInfoH\x00\x12:\n\x11home_balloon_info\x18\xca\x0e \x01(\x0b\x32\x1c.SceneGalleryHomeBalloonInfoH\x00\x12:\n\x11\x63rystal_link_info\x18\x9a\x05 \x01(\x0b\x32\x1c.SceneGalleryCrystalLinkInfoH\x00\x12>\n\x13irodori_master_info\x18\x8f\r \x01(\x0b\x32\x1e.SceneGalleryIrodoriMasterInfoH\x00\x12S\n\x1eluminance_stone_challenge_info\x18\xb7\x0e \x01(\x0b\x32(.SceneGalleryLuminanceStoneChallengeInfoH\x00\x12G\n\x18home_seek_furniture_info\x18\x9c\x04 \x01(\x0b\x32\".SceneGalleryHomeSeekFurnitureInfoH\x00\x12L\n\x1bisland_party_down_hill_info\x18\xff\x0f \x01(\x0b\x32$.SceneGalleryIslandPartyDownHillInfoH\x00\x12\x46\n\x18summer_time_v2_boat_info\x18\xe2\x0e \x01(\x0b\x32!.SceneGallerySummerTimeV2BoatInfoH\x00\x12\x43\n\x16island_party_raft_info\x18\xf4\x01 \x01(\x0b\x32 .SceneGalleryIslandPartyRaftInfoH\x00\x12\x43\n\x16island_party_sail_info\x18\xf9\x04 \x01(\x0b\x32 .SceneGalleryIslandPartySailInfoH\x00\x12=\n\x13instable_spray_info\x18K \x01(\x0b\x32\x1e.SceneGalleryInstableSprayInfoH\x00\x12>\n\x13muqadas_potion_info\x18\xf0\x03 \x01(\x0b\x32\x1e.SceneGalleryMuqadasPotionInfoH\x00\x12?\n\x14treasure_seelie_info\x18\x10 \x01(\x0b\x32\x1f.SceneGalleryTreasureSeelieInfoH\x00\x12@\n\x14vintage_hunting_info\x18\xbe\x0b \x01(\x0b\x32\x1f.SceneGalleryVintageHuntingInfoH\x00\x12\x36\n\x0fwind_field_info\x18\xe9\x07 \x01(\x0b\x32\x1a.SceneGalleryWindFieldInfoH\x00\x12O\n\x1c\x66ungus_fighter_training_info\x18\xdd\x06 \x01(\x0b\x32&.SceneGalleryFungusFighterTrainingInfoH\x00\x12\x44\n\x15\x65\x66\x66igy_challenge_info\x18\xa9\x0c \x01(\x0b\x32\".SceneGalleryEffigyChallengeV2InfoH\x00\x12M\n\x1b\x66ungus_fighter_capture_info\x18\xc7\x05 \x01(\x0b\x32%.SceneGalleryFungusFighterCaptureInfoH\x00\x12>\n\x13\x63har_amusement_info\x18\x98\x01 \x01(\x0b\x32\x1e.SceneGalleryCharAmusementInfoH\x00\x12:\n\x11\x63oin_collect_info\x18\xdb\t \x01(\x0b\x32\x1c.SceneGalleryCoinCollectInfoH\x00\x42\x06\n\x04infob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SceneGalleryInfo.proto\x1a\x11\x42\x61lloonInfo.proto\x1a\x0e\x46\x61llInfo.proto\x1a\x10\x46lowerInfo.proto\x1a\x10\x42ulletInfo.proto\x1a\x15\x42rokenFloorInfo.proto\x1a\x15HideAndSeekInfo.proto\x1a\x17\x42uoyantCombatInfo.proto\x1a\x19\x42ounceConjuringInfo.proto\x1a\x12HandballInfo.proto\x1a\x0eSumoInfo.proto\x1a\x18SalvagePreventInfo.proto\x1a\x17SalvageEscortInfo.proto\x1a\x15HomeBalloonInfo.proto\x1a\x15\x43rystalLinkInfo.proto\x1a\x17IrodoriMasterInfo.proto\x1a!LuminanceStoneChallengeInfo.proto\x1a\x1bHomeSeekFurnitureInfo.proto\x1a\x1dIslandPartyDownHillInfo.proto\x1a\x1aSummerTimeV2BoatInfo.proto\x1a\x19IslandPartyRaftInfo.proto\x1a\x19IslandPartySailInfo.proto\x1a\x17InstableSprayInfo.proto\x1a\x17MuqadasPotionInfo.proto\x1a\x18TreasureSeelieInfo.proto\x1a\x18VintageHuntingInfo.proto\x1a\x13WindFieldInfo.proto\x1a\x1f\x46ungusFighterTrainingInfo.proto\x1a\x19\x45\x66\x66igyChallengeInfo.proto\x1a\x1e\x46ungusFighterCaptureInfo.proto\x1a\x17\x43harAmusementInfo.proto\x1a\x15\x43oinCollectInfo.proto\x1a\x13TeamChainInfo.proto\x1a\x13\x44uelHeartInfo.proto\x1a\x13\x42oatMultiInfo.proto\x1a\x16GalleryStageType.proto\x1a\x1eSceneGalleryProgressInfo.proto\"\xa4\x0f\n\x10SceneGalleryInfo\x12\x0f\n\x07\x65ndTime\x18\x0f \x01(\r\x12\x11\n\tstartTime\x18\x05 \x01(\r\x12$\n\x0c\x62\x61lloon_info\x18\x0e \x01(\x0b\x32\x0c.BalloonInfoH\x00\x12\x1e\n\tfall_info\x18\x01 \x01(\x0b\x32\t.FallInfoH\x00\x12\"\n\x0b\x66lower_info\x18\x06 \x01(\x0b\x32\x0b.FlowerInfoH\x00\x12\"\n\x0b\x62ullet_info\x18\n \x01(\x0b\x32\x0b.BulletInfoH\x00\x12-\n\x11\x62roken_floor_info\x18\t \x01(\x0b\x32\x10.BrokenFloorInfoH\x00\x12.\n\x12hide_and_seek_info\x18\r \x01(\x0b\x32\x10.HideAndSeekInfoH\x00\x12\x32\n\x13\x62uoyant_combat_info\x18\xcd\x03 \x01(\x0b\x32\x12.BuoyantCombatInfoH\x00\x12\x36\n\x15\x62ounce_conjuring_info\x18\x93\x03 \x01(\x0b\x32\x14.BounceConjuringInfoH\x00\x12\'\n\rhandball_info\x18\xe5\x0c \x01(\x0b\x32\r.HandballInfoH\x00\x12\x1f\n\tsumo_info\x18\xe8\x07 \x01(\x0b\x32\t.SumoInfoH\x00\x12\x34\n\x14salvage_prevent_info\x18\x89\x04 \x01(\x0b\x32\x13.SalvagePreventInfoH\x00\x12\x31\n\x13salvage_escort_info\x18! \x01(\x0b\x32\x12.SalvageEscortInfoH\x00\x12.\n\x11home_balloon_info\x18\xc2\x0e \x01(\x0b\x32\x10.HomeBalloonInfoH\x00\x12.\n\x11\x63rystal_link_info\x18\xb1\x01 \x01(\x0b\x32\x10.CrystalLinkInfoH\x00\x12\x32\n\x13irodori_master_info\x18\xa5\n \x01(\x0b\x32\x12.IrodoriMasterInfoH\x00\x12G\n\x1eluminance_stone_challenge_info\x18\x91\x03 \x01(\x0b\x32\x1c.LuminanceStoneChallengeInfoH\x00\x12;\n\x18home_seek_furniture_info\x18\x92\x04 \x01(\x0b\x32\x16.HomeSeekFurnitureInfoH\x00\x12@\n\x1bisland_party_down_hill_info\x18\x82\x08 \x01(\x0b\x32\x18.IslandPartyDownHillInfoH\x00\x12\x39\n\x17summer_time_v2boat_info\x18\xb4\x0b \x01(\x0b\x32\x15.SummerTimeV2BoatInfoH\x00\x12\x37\n\x16island_party_raft_info\x18\xa6\x02 \x01(\x0b\x32\x14.IslandPartyRaftInfoH\x00\x12\x37\n\x16island_party_sail_info\x18\xd0\x04 \x01(\x0b\x32\x14.IslandPartySailInfoH\x00\x12\x31\n\x13instable_spray_info\x18\x7f \x01(\x0b\x32\x12.InstableSprayInfoH\x00\x12\x32\n\x13muqadas_potion_info\x18\xe7\x04 \x01(\x0b\x32\x12.MuqadasPotionInfoH\x00\x12\x34\n\x14treasure_seelie_info\x18\x8c\x0b \x01(\x0b\x32\x13.TreasureSeelieInfoH\x00\x12\x34\n\x14vintage_hunting_info\x18\xd1\n \x01(\x0b\x32\x13.VintageHuntingInfoH\x00\x12*\n\x0fwind_field_info\x18\xa8\x0b \x01(\x0b\x32\x0e.WindFieldInfoH\x00\x12\x43\n\x1c\x66ungus_fighter_training_info\x18\xa3\x02 \x01(\x0b\x32\x1a.FungusFighterTrainingInfoH\x00\x12\x36\n\x15\x65\x66\x66igy_challenge_info\x18\xa2\x02 \x01(\x0b\x32\x14.EffigyChallengeInfoH\x00\x12\x41\n\x1b\x66ungus_fighter_capture_info\x18\xd2\n \x01(\x0b\x32\x19.FungusFighterCaptureInfoH\x00\x12\x32\n\x13\x63har_amusement_info\x18\xf1\x0c \x01(\x0b\x32\x12.CharAmusementInfoH\x00\x12.\n\x11\x63oin_collect_info\x18\xc3\x07 \x01(\x0b\x32\x10.CoinCollectInfoH\x00\x12*\n\x0fteam_chain_info\x18\xde\x07 \x01(\x0b\x32\x0e.TeamChainInfoH\x00\x12*\n\x0f\x64uel_heart_info\x18\x95\x06 \x01(\x0b\x32\x0e.DuelHeartInfoH\x00\x12*\n\x0f\x62oat_multi_info\x18\xc6\t \x01(\x0b\x32\x0e.BoatMultiInfoH\x00\x12 \n\x05stage\x18\x02 \x01(\x0e\x32\x11.GalleryStageType\x12\x10\n\x08ownerUid\x18\x07 \x01(\r\x12\x11\n\tgalleryId\x18\x03 \x01(\r\x12\x17\n\x0fpreStartEndTime\x18\x08 \x01(\r\x12\x13\n\x0bplayerCount\x18\x0b \x01(\r\x12\x33\n\x10progressInfoList\x18\x0c \x03(\x0b\x32\x19.SceneGalleryProgressInfoB\x06\n\x04infoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYINFO._serialized_start=1224
-  _SCENEGALLERYINFO._serialized_end=3433
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SCENEGALLERYINFO']._serialized_start=913
+  _globals['_SCENEGALLERYINFO']._serialized_end=2869
 # @@protoc_insertion_point(module_scope)

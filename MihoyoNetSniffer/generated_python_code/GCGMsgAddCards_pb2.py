@@ -15,13 +15,15 @@ import GCGReason_pb2 as GCGReason__pb2
 import GCGZoneType_pb2 as GCGZoneType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GCGMsgAddCards.proto\x1a\x0fGCGReason.proto\x1a\x11GCGZoneType.proto\"\x84\x01\n\x0eGCGMsgAddCards\x12\x1a\n\x04zone\x18\x05 \x01(\x0e\x32\x0c.GCGZoneType\x12\x1a\n\x06reason\x18\x07 \x01(\x0e\x32\n.GCGReason\x12\x16\n\x0e\x63\x61rd_guid_list\x18\x04 \x03(\r\x12\x15\n\rcontroller_id\x18\t \x01(\r\x12\x0b\n\x03pos\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GCGMsgAddCards.proto\x1a\x0fGCGReason.proto\x1a\x11GCGZoneType.proto\"\x81\x01\n\x0eGCGMsgAddCards\x12\x14\n\x0c\x63ontrollerId\x18\x0b \x01(\r\x12\x1a\n\x06reason\x18\x01 \x01(\x0e\x32\n.GCGReason\x12\x0b\n\x03pos\x18\x06 \x01(\r\x12\x1a\n\x04zone\x18\t \x01(\x0e\x32\x0c.GCGZoneType\x12\x14\n\x0c\x63\x61rdGuidList\x18\x05 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgAddCards_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgAddCards_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGADDCARDS._serialized_start=61
-  _GCGMSGADDCARDS._serialized_end=193
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMSGADDCARDS']._serialized_start=61
+  _globals['_GCGMSGADDCARDS']._serialized_end=190
 # @@protoc_insertion_point(module_scope)

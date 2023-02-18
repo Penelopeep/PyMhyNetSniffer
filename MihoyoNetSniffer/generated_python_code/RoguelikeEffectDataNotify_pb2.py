@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import RogueEffectRecord_pb2 as RogueEffectRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fRoguelikeEffectDataNotify.proto\x1a\x17RogueEffectRecord.proto\"j\n\x19RoguelikeEffectDataNotify\x12%\n\tcard_list\x18\x03 \x03(\x0b\x32\x12.RogueEffectRecord\x12&\n\ncurse_list\x18\x08 \x03(\x0b\x32\x12.RogueEffectRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fRoguelikeEffectDataNotify.proto\x1a\x17RogueEffectRecord.proto\"h\n\x19RoguelikeEffectDataNotify\x12%\n\tcurseList\x18\x0b \x03(\x0b\x32\x12.RogueEffectRecord\x12$\n\x08\x63\x61rdList\x18\x01 \x03(\x0b\x32\x12.RogueEffectRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeEffectDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeEffectDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROGUELIKEEFFECTDATANOTIFY._serialized_start=60
-  _ROGUELIKEEFFECTDATANOTIFY._serialized_end=166
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ROGUELIKEEFFECTDATANOTIFY']._serialized_start=60
+  _globals['_ROGUELIKEEFFECTDATANOTIFY']._serialized_end=164
 # @@protoc_insertion_point(module_scope)

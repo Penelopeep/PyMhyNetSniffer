@@ -76,14 +76,14 @@ class GameNetwork:
 			self.status_sign = False
 
 		queue = self._network_receive_queue
-		print('loopqdwg')
+		print('Starting loop')
 		try:
 			ConnectNamedPipe(self._pipe, None)
 		except BaseException as e:
 			traceback.print_exc()
 			self.status_sign = False
 			return
-		print('连接成功')
+		print('Connected to pipe')
 		while True:
 			try:
 				packet = RawPacket(
@@ -95,7 +95,6 @@ class GameNetwork:
 					header=self.get_dynamic_length_data(),
 					content=self.get_dynamic_length_data()
 				)
-				# print(packet.message_id)
 				if self.status_sign is False:
 					print('连接断开')
 					DisconnectNamedPipe(self._pipe)

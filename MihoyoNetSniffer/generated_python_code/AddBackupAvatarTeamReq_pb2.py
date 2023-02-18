@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x41\x64\x64\x42\x61\x63kupAvatarTeamReq.proto\"\x18\n\x16\x41\x64\x64\x42\x61\x63kupAvatarTeamReqb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x41\x64\x64\x42\x61\x63kupAvatarTeamReq.proto\"\x18\n\x16\x41\x64\x64\x42\x61\x63kupAvatarTeamReqB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddBackupAvatarTeamReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddBackupAvatarTeamReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ADDBACKUPAVATARTEAMREQ._serialized_start=32
-  _ADDBACKUPAVATARTEAMREQ._serialized_end=56
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ADDBACKUPAVATARTEAMREQ']._serialized_start=32
+  _globals['_ADDBACKUPAVATARTEAMREQ']._serialized_end=56
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import LanternRiteFireworksStageInfo_pb2 as LanternRiteFireworksStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eLanternRiteFireworksInfo.proto\x1a#LanternRiteFireworksStageInfo.proto\"S\n\x18LanternRiteFireworksInfo\x12\x37\n\x0fstage_info_list\x18\x02 \x03(\x0b\x32\x1e.LanternRiteFireworksStageInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eLanternRiteFireworksInfo.proto\x1a#LanternRiteFireworksStageInfo.proto\"Q\n\x18LanternRiteFireworksInfo\x12\x35\n\rstageInfoList\x18\x01 \x03(\x0b\x32\x1e.LanternRiteFireworksStageInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanternRiteFireworksInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanternRiteFireworksInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LANTERNRITEFIREWORKSINFO._serialized_start=71
-  _LANTERNRITEFIREWORKSINFO._serialized_end=154
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LANTERNRITEFIREWORKSINFO']._serialized_start=71
+  _globals['_LANTERNRITEFIREWORKSINFO']._serialized_end=152
 # @@protoc_insertion_point(module_scope)

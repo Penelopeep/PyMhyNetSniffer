@@ -11,22 +11,24 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ChessCardInfo_pb2 as ChessCardInfo__pb2
 import ChessMysteryInfo_pb2 as ChessMysteryInfo__pb2
 import ChessPlayerInfo_pb2 as ChessPlayerInfo__pb2
+import ChessCardInfo_pb2 as ChessCardInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17InBattleChessInfo.proto\x1a\x13\x43hessCardInfo.proto\x1a\x16\x43hessMysteryInfo.proto\x1a\x15\x43hessPlayerInfo.proto\"\x85\x03\n\x11InBattleChessInfo\x12\r\n\x05round\x18\x02 \x01(\r\x12\'\n\x0cmystery_info\x18\x06 \x01(\x0b\x32\x11.ChessMysteryInfo\x12>\n\x0fplayer_info_map\x18\x0f \x03(\x0b\x32%.InBattleChessInfo.PlayerInfoMapEntry\x12\x1e\n\x16max_escapable_monsters\x18\x07 \x01(\r\x12\x18\n\x10\x65scaped_monsters\x18\x0b \x01(\r\x12/\n\x17selected_card_info_list\x18\x04 \x03(\x0b\x32\x0e.ChessCardInfo\x12\x13\n\x0btotal_round\x18\r \x01(\r\x12\x15\n\rleft_monsters\x18\x05 \x01(\r\x12\x19\n\x11\x62\x61n_card_tag_list\x18\x01 \x03(\r\x1a\x46\n\x12PlayerInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.ChessPlayerInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17InBattleChessInfo.proto\x1a\x16\x43hessMysteryInfo.proto\x1a\x15\x43hessPlayerInfo.proto\x1a\x13\x43hessCardInfo.proto\"\xe7\x02\n\x11InBattleChessInfo\x12\x13\n\x0b\x64\x64hmhajjmfk\x18\x0c \x01(\r\x12\x13\n\x0bgkhmchgepli\x18\x0b \x03(\r\x12\x38\n\x0b\x61\x62hkjjjcfcd\x18\x0f \x03(\x0b\x32#.InBattleChessInfo.AbhkjjjcfcdEntry\x12\r\n\x05round\x18\x02 \x01(\r\x12&\n\x0b\x64\x63\x66\x63ppdjgod\x18\n \x01(\x0b\x32\x11.ChessMysteryInfo\x12\x14\n\x0cleftMonsters\x18\x03 \x01(\r\x12\x17\n\x0f\x65scapedMonsters\x18\t \x01(\r\x12,\n\x14selectedCardInfoList\x18\x01 \x03(\x0b\x32\x0e.ChessCardInfo\x12\x14\n\x0cmechanicusId\x18\x0e \x01(\r\x1a\x44\n\x10\x41\x62hkjjjcfcdEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.ChessPlayerInfo:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleChessInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleChessInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _INBATTLECHESSINFO_PLAYERINFOMAPENTRY._options = None
-  _INBATTLECHESSINFO_PLAYERINFOMAPENTRY._serialized_options = b'8\001'
-  _INBATTLECHESSINFO._serialized_start=96
-  _INBATTLECHESSINFO._serialized_end=485
-  _INBATTLECHESSINFO_PLAYERINFOMAPENTRY._serialized_start=415
-  _INBATTLECHESSINFO_PLAYERINFOMAPENTRY._serialized_end=485
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _INBATTLECHESSINFO_ABHKJJJCFCDENTRY._options = None
+  _INBATTLECHESSINFO_ABHKJJJCFCDENTRY._serialized_options = b'8\001'
+  _globals['_INBATTLECHESSINFO']._serialized_start=96
+  _globals['_INBATTLECHESSINFO']._serialized_end=455
+  _globals['_INBATTLECHESSINFO_ABHKJJJCFCDENTRY']._serialized_start=387
+  _globals['_INBATTLECHESSINFO_ABHKJJJCFCDENTRY']._serialized_end=455
 # @@protoc_insertion_point(module_scope)

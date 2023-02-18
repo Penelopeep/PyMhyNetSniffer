@@ -11,18 +11,21 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import AbilityInvokeArgument_pb2 as AbilityInvokeArgument__pb2
 import AbilityInvokeEntryHead_pb2 as AbilityInvokeEntryHead__pb2
 import ForwardType_pb2 as ForwardType__pb2
+import AbilityInvokeArgument_pb2 as AbilityInvokeArgument__pb2
+import bytes_pb2 as bytes__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41\x62ilityInvokeEntry.proto\x1a\x1b\x41\x62ilityInvokeArgument.proto\x1a\x1c\x41\x62ilityInvokeEntryHead.proto\x1a\x11\x46orwardType.proto\"\x90\x02\n\x12\x41\x62ilityInvokeEntry\x12\"\n\x0c\x66orward_type\x18\t \x01(\x0e\x32\x0c.ForwardType\x12\x10\n\x08\x65vent_id\x18\r \x01(\r\x12\x11\n\tentity_id\x18\x07 \x01(\r\x12\x14\n\x0c\x66orward_peer\x18\x0e \x01(\r\x12\x17\n\x0ftotal_tick_time\x18\n \x01(\x01\x12%\n\x04head\x18\x03 \x01(\x0b\x32\x17.AbilityInvokeEntryHead\x12\x14\n\x0c\x61\x62ility_data\x18\x02 \x01(\x0c\x12-\n\rargument_type\x18\x08 \x01(\x0e\x32\x16.AbilityInvokeArgument\x12\x16\n\x0eis_ignore_auth\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41\x62ilityInvokeEntry.proto\x1a\x1c\x41\x62ilityInvokeEntryHead.proto\x1a\x11\x46orwardType.proto\x1a\x1b\x41\x62ilityInvokeArgument.proto\x1a\x0b\x62ytes.proto\"\x86\x02\n\x12\x41\x62ilityInvokeEntry\x12%\n\x04head\x18\r \x01(\x0b\x32\x17.AbilityInvokeEntryHead\x12!\n\x0b\x66orwardType\x18\x0f \x01(\x0e\x32\x0c.ForwardType\x12,\n\x0c\x61rgumentType\x18\x0c \x01(\x0e\x32\x16.AbilityInvokeArgument\x12\x13\n\x0b\x66orwardPeer\x18\n \x01(\r\x12\x13\n\x0b\x61\x62ilityData\x18\x04 \x01(\x0c\x12\x0f\n\x07\x65ventId\x18\x08 \x01(\r\x12\x10\n\x08\x65ntityId\x18\x0b \x01(\r\x12\x15\n\rtotalTickTime\x18\x0e \x01(\x01\x12\x14\n\x0cisIgnoreAuth\x18\x06 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityInvokeEntry_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityInvokeEntry_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ABILITYINVOKEENTRY._serialized_start=107
-  _ABILITYINVOKEENTRY._serialized_end=379
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ABILITYINVOKEENTRY']._serialized_start=120
+  _globals['_ABILITYINVOKEENTRY']._serialized_end=382
 # @@protoc_insertion_point(module_scope)

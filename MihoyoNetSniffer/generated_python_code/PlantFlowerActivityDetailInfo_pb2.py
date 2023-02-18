@@ -13,21 +13,23 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#PlantFlowerActivityDetailInfo.proto\"\xa9\x03\n\x1dPlantFlowerActivityDetailInfo\x12\x11\n\tday_index\x18\x01 \x01(\r\x12\x1c\n\x14today_seed_reward_id\x18\x0f \x01(\r\x12\x19\n\x11is_content_closed\x18\x03 \x01(\x08\x12S\n\x13Unk3300_EPMKDFOBLFK\x18\t \x03(\x0b\x32\x36.PlantFlowerActivityDetailInfo.Unk3300EPMKDFOBLFKEntry\x12S\n\x13Unk3300_ELAIBMDIBFJ\x18\x05 \x03(\x0b\x32\x36.PlantFlowerActivityDetailInfo.Unk3300ELAIBMDIBFJEntry\x12\x1c\n\x14is_today_has_awarded\x18\x08 \x01(\x08\x1a\x39\n\x17Unk3300EPMKDFOBLFKEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x39\n\x17Unk3300ELAIBMDIBFJEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#PlantFlowerActivityDetailInfo.proto\"\x9d\x03\n\x1dPlantFlowerActivityDetailInfo\x12S\n\x13Unk3300_ELAIBMDIBFJ\x18\x0e \x03(\x0b\x32\x36.PlantFlowerActivityDetailInfo.Unk3300ELAIBMDIBFJEntry\x12\x10\n\x08\x64\x61yIndex\x18\x08 \x01(\r\x12\x19\n\x11isTodayHasAwarded\x18\x02 \x01(\x08\x12\x14\n\x0cleftMonsters\x18\x01 \x01(\x08\x12S\n\x13Unk3300_EPMKDFOBLFK\x18\x0b \x03(\x0b\x32\x36.PlantFlowerActivityDetailInfo.Unk3300EPMKDFOBLFKEntry\x12\x19\n\x11todaySeedRewardId\x18\x04 \x01(\r\x1a\x39\n\x17Unk3300ELAIBMDIBFJEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x39\n\x17Unk3300EPMKDFOBLFKEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._options = None
-  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY._options = None
   _PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY._serialized_options = b'8\001'
-  _PLANTFLOWERACTIVITYDETAILINFO._serialized_start=40
-  _PLANTFLOWERACTIVITYDETAILINFO._serialized_end=465
-  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._serialized_start=349
-  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._serialized_end=406
-  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY._serialized_start=408
-  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY._serialized_end=465
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._options = None
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._serialized_options = b'8\001'
+  _globals['_PLANTFLOWERACTIVITYDETAILINFO']._serialized_start=40
+  _globals['_PLANTFLOWERACTIVITYDETAILINFO']._serialized_end=453
+  _globals['_PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY']._serialized_start=337
+  _globals['_PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY']._serialized_end=394
+  _globals['_PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY']._serialized_start=396
+  _globals['_PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY']._serialized_end=453
 # @@protoc_insertion_point(module_scope)

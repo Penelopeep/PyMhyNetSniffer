@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import HomeMarkPointFurnitureData_pb2 as HomeMarkPointFurnitureData__pb2
 import Vector_pb2 as Vector__pb2
+import HomeMarkPointFurnitureData_pb2 as HomeMarkPointFurnitureData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeMarkPointSceneData.proto\x1a HomeMarkPointFurnitureData.proto\x1a\x0cVector.proto\"\xbe\x01\n\x16HomeMarkPointSceneData\x12$\n\x13Unk3300_ONJJJEPFKJI\x18\t \x01(\x0b\x32\x07.Vector\x12\x10\n\x08scene_id\x18\x06 \x01(\r\x12$\n\x13Unk3300_HFNOINGPMJP\x18\x0b \x01(\x0b\x32\x07.Vector\x12\x11\n\tmodule_id\x18\x08 \x01(\r\x12\x33\n\x0e\x66urniture_list\x18\r \x03(\x0b\x32\x1b.HomeMarkPointFurnitureDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeMarkPointSceneData.proto\x1a\x0cVector.proto\x1a HomeMarkPointFurnitureData.proto\"\xb0\x01\n\x16HomeMarkPointSceneData\x12\x32\n\rfurnitureList\x18\x0e \x03(\x0b\x32\x1b.HomeMarkPointFurnitureData\x12\x10\n\x08moduleId\x18\x05 \x01(\r\x12\x0f\n\x07sceneId\x18\x0f \x01(\r\x12\x1d\n\x0csafePointPos\x18\n \x01(\x0b\x32\x07.Vector\x12 \n\x0fteapotSpiritPos\x18\x08 \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeMarkPointSceneData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeMarkPointSceneData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEMARKPOINTSCENEDATA._serialized_start=81
-  _HOMEMARKPOINTSCENEDATA._serialized_end=271
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEMARKPOINTSCENEDATA']._serialized_start=81
+  _globals['_HOMEMARKPOINTSCENEDATA']._serialized_end=257
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$WinterCampAcceptItemResultInfo.proto\x1a\x0fItemParam.proto\"\x7f\n\x1eWinterCampAcceptItemResultInfo\x12\'\n\x13Unk3300_ILELLFNPDFJ\x18\x0f \x03(\x0b\x32\n.ItemParam\x12\'\n\x13Unk3300_JHKOMCFHAOG\x18\r \x03(\x0b\x32\n.ItemParam\x12\x0b\n\x03uid\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$WinterCampAcceptItemResultInfo.proto\x1a\x0fItemParam.proto\"\x7f\n\x1eWinterCampAcceptItemResultInfo\x12\x0b\n\x03uid\x18\x06 \x01(\r\x12\'\n\x13Unk3300_ILELLFNPDFJ\x18\t \x03(\x0b\x32\n.ItemParam\x12\'\n\x13Unk3300_JHKOMCFHAOG\x18\x0b \x03(\x0b\x32\n.ItemParamB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampAcceptItemResultInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampAcceptItemResultInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINTERCAMPACCEPTITEMRESULTINFO._serialized_start=57
-  _WINTERCAMPACCEPTITEMRESULTINFO._serialized_end=184
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WINTERCAMPACCEPTITEMRESULTINFO']._serialized_start=57
+  _globals['_WINTERCAMPACCEPTITEMRESULTINFO']._serialized_end=184
 # @@protoc_insertion_point(module_scope)

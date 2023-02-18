@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import EvtBeingHitInfo_pb2 as EvtBeingHitInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
+import EvtBeingHitInfo_pb2 as EvtBeingHitInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45vtBeingHitNotify.proto\x1a\x15\x45vtBeingHitInfo.proto\x1a\x11\x46orwardType.proto\"a\n\x11\x45vtBeingHitNotify\x12(\n\x0e\x62\x65ing_hit_info\x18\x0c \x01(\x0b\x32\x10.EvtBeingHitInfo\x12\"\n\x0c\x66orward_type\x18\x0b \x01(\x0e\x32\x0c.ForwardTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45vtBeingHitNotify.proto\x1a\x11\x46orwardType.proto\x1a\x15\x45vtBeingHitInfo.proto\"^\n\x11\x45vtBeingHitNotify\x12!\n\x0b\x66orwardType\x18\x04 \x01(\x0e\x32\x0c.ForwardType\x12&\n\x0c\x62\x65ingHitInfo\x18\x0f \x01(\x0b\x32\x10.EvtBeingHitInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtBeingHitNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtBeingHitNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EVTBEINGHITNOTIFY._serialized_start=69
-  _EVTBEINGHITNOTIFY._serialized_end=166
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_EVTBEINGHITNOTIFY']._serialized_start=69
+  _globals['_EVTBEINGHITNOTIFY']._serialized_end=163
 # @@protoc_insertion_point(module_scope)

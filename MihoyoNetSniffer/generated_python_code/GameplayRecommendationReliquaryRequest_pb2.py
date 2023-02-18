@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,GameplayRecommendationReliquaryRequest.proto\"<\n&GameplayRecommendationReliquaryRequest\x12\x12\n\nequip_type\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,GameplayRecommendationReliquaryRequest.proto\";\n&GameplayRecommendationReliquaryRequest\x12\x11\n\tequipType\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GameplayRecommendationReliquaryRequest_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GameplayRecommendationReliquaryRequest_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GAMEPLAYRECOMMENDATIONRELIQUARYREQUEST._serialized_start=48
-  _GAMEPLAYRECOMMENDATIONRELIQUARYREQUEST._serialized_end=108
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GAMEPLAYRECOMMENDATIONRELIQUARYREQUEST']._serialized_start=48
+  _globals['_GAMEPLAYRECOMMENDATIONRELIQUARYREQUEST']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

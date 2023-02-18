@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18QuestDestroyNpcReq.proto\"=\n\x12QuestDestroyNpcReq\x12\x0e\n\x06npc_id\x18\x0f \x01(\r\x12\x17\n\x0fparent_quest_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18QuestDestroyNpcReq.proto\":\n\x12QuestDestroyNpcReq\x12\x15\n\rparentQuestId\x18\x04 \x01(\r\x12\r\n\x05npcId\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestDestroyNpcReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestDestroyNpcReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _QUESTDESTROYNPCREQ._serialized_start=28
-  _QUESTDESTROYNPCREQ._serialized_end=89
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_QUESTDESTROYNPCREQ']._serialized_start=28
+  _globals['_QUESTDESTROYNPCREQ']._serialized_end=86
 # @@protoc_insertion_point(module_scope)

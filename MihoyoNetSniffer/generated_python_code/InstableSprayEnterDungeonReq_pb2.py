@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import InstableSprayAvatarInfo_pb2 as InstableSprayAvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"InstableSprayEnterDungeonReq.proto\x1a\x1dInstableSprayAvatarInfo.proto\"x\n\x1cInstableSprayEnterDungeonReq\x12\x10\n\x08stage_id\x18\x05 \x01(\r\x12\x32\n\x10\x61vatar_info_list\x18\x02 \x03(\x0b\x32\x18.InstableSprayAvatarInfo\x12\x12\n\ndifficulty\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"InstableSprayEnterDungeonReq.proto\x1a\x1dInstableSprayAvatarInfo.proto\"u\n\x1cInstableSprayEnterDungeonReq\x12\x0f\n\x07stageId\x18\x04 \x01(\r\x12\x30\n\x0e\x61vatarInfoList\x18\x08 \x03(\x0b\x32\x18.InstableSprayAvatarInfo\x12\x12\n\ndifficulty\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InstableSprayEnterDungeonReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InstableSprayEnterDungeonReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _INSTABLESPRAYENTERDUNGEONREQ._serialized_start=69
-  _INSTABLESPRAYENTERDUNGEONREQ._serialized_end=189
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_INSTABLESPRAYENTERDUNGEONREQ']._serialized_start=69
+  _globals['_INSTABLESPRAYENTERDUNGEONREQ']._serialized_end=186
 # @@protoc_insertion_point(module_scope)

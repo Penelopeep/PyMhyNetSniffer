@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GachaInfo_pb2 as GachaInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GetGachaInfoRsp.proto\x1a\x0fGachaInfo.proto\"\xb2\x01\n\x0fGetGachaInfoRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x19\n\x11\x64\x61ily_gacha_times\x18\x06 \x01(\r\x12#\n\x0fgacha_info_list\x18\n \x03(\x0b\x32\n.GachaInfo\x12\x1b\n\x13Unk3300_OHFMHIHJHPJ\x18\x04 \x01(\x08\x12\x14\n\x0cgacha_random\x18\t \x01(\r\x12\x1b\n\x13Unk3300_HBILIAEIHNK\x18\x03 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GetGachaInfoRsp.proto\x1a\x0fGachaInfo.proto\"\xad\x01\n\x0fGetGachaInfoRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x1b\n\x13Unk3300_OHFMHIHJHPJ\x18\x0b \x01(\x08\x12\x17\n\x0f\x64\x61ilyGachaTimes\x18\x01 \x01(\r\x12\x13\n\x0bgachaRandom\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_HBILIAEIHNK\x18\r \x01(\x08\x12!\n\rgachaInfoList\x18\x03 \x03(\x0b\x32\n.GachaInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetGachaInfoRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetGachaInfoRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETGACHAINFORSP._serialized_start=43
-  _GETGACHAINFORSP._serialized_end=221
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETGACHAINFORSP']._serialized_start=43
+  _globals['_GETGACHAINFORSP']._serialized_end=216
 # @@protoc_insertion_point(module_scope)

@@ -11,19 +11,21 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import PlayProduct_pb2 as PlayProduct__pb2
-import ShopCardProduct_pb2 as ShopCardProduct__pb2
-import ShopConcertProduct_pb2 as ShopConcertProduct__pb2
 import ShopMcoinProduct_pb2 as ShopMcoinProduct__pb2
+import ShopCardProduct_pb2 as ShopCardProduct__pb2
+import PlayProduct_pb2 as PlayProduct__pb2
+import ShopConcertProduct_pb2 as ShopConcertProduct__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11RechargeReq.proto\x1a\x11PlayProduct.proto\x1a\x15ShopCardProduct.proto\x1a\x18ShopConcertProduct.proto\x1a\x16ShopMcoinProduct.proto\"\xb1\x01\n\x0bRechargeReq\x12(\n\rmcoin_product\x18\n \x01(\x0b\x32\x11.ShopMcoinProduct\x12&\n\x0c\x63\x61rd_product\x18\x04 \x01(\x0b\x32\x10.ShopCardProduct\x12\"\n\x0cplay_product\x18\x03 \x01(\x0b\x32\x0c.PlayProduct\x12,\n\x0f\x63oncert_product\x18\x0b \x01(\x0b\x32\x13.ShopConcertProductb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11RechargeReq.proto\x1a\x16ShopMcoinProduct.proto\x1a\x15ShopCardProduct.proto\x1a\x11PlayProduct.proto\x1a\x18ShopConcertProduct.proto\"\xad\x01\n\x0bRechargeReq\x12\'\n\x0cmcoinProduct\x18\x0b \x01(\x0b\x32\x11.ShopMcoinProduct\x12%\n\x0b\x63\x61rdProduct\x18\x05 \x01(\x0b\x32\x10.ShopCardProduct\x12!\n\x0bplayProduct\x18\x06 \x01(\x0b\x32\x0c.PlayProduct\x12+\n\x0e\x63oncertProduct\x18\x03 \x01(\x0b\x32\x13.ShopConcertProductB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RechargeReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RechargeReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _RECHARGEREQ._serialized_start=114
-  _RECHARGEREQ._serialized_end=291
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_RECHARGEREQ']._serialized_start=114
+  _globals['_RECHARGEREQ']._serialized_end=287
 # @@protoc_insertion_point(module_scope)

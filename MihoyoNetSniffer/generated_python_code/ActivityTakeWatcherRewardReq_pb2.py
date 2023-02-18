@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ActivityTakeWatcherRewardReq.proto\"G\n\x1c\x41\x63tivityTakeWatcherRewardReq\x12\x12\n\nwatcher_id\x18\x0e \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ActivityTakeWatcherRewardReq.proto\"E\n\x1c\x41\x63tivityTakeWatcherRewardReq\x12\x12\n\nactivityId\x18\x0b \x01(\r\x12\x11\n\twatcherId\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityTakeWatcherRewardReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityTakeWatcherRewardReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ACTIVITYTAKEWATCHERREWARDREQ._serialized_start=38
-  _ACTIVITYTAKEWATCHERREWARDREQ._serialized_end=109
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ACTIVITYTAKEWATCHERREWARDREQ']._serialized_start=38
+  _globals['_ACTIVITYTAKEWATCHERREWARDREQ']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GCGLevelChallengeDeleteNotify.proto\"6\n\x1dGCGLevelChallengeDeleteNotify\x12\x15\n\rlevel_id_list\x18\x06 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GCGLevelChallengeDeleteNotify.proto\"4\n\x1dGCGLevelChallengeDeleteNotify\x12\x13\n\x0b\x66\x64pppbpejae\x18\x0e \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGLevelChallengeDeleteNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGLevelChallengeDeleteNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGLEVELCHALLENGEDELETENOTIFY._serialized_start=39
-  _GCGLEVELCHALLENGEDELETENOTIFY._serialized_end=93
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGLEVELCHALLENGEDELETENOTIFY']._serialized_start=39
+  _globals['_GCGLEVELCHALLENGEDELETENOTIFY']._serialized_end=91
 # @@protoc_insertion_point(module_scope)

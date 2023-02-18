@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FireworksLaunchSchemeData_pb2 as FireworksLaunchSchemeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18LaunchFireworksReq.proto\x1a\x1f\x46ireworksLaunchSchemeData.proto\"E\n\x12LaunchFireworksReq\x12/\n\x0bscheme_data\x18\x08 \x01(\x0b\x32\x1a.FireworksLaunchSchemeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18LaunchFireworksReq.proto\x1a\x1f\x46ireworksLaunchSchemeData.proto\"D\n\x12LaunchFireworksReq\x12.\n\nschemeData\x18\x01 \x01(\x0b\x32\x1a.FireworksLaunchSchemeDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LaunchFireworksReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LaunchFireworksReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LAUNCHFIREWORKSREQ._serialized_start=61
-  _LAUNCHFIREWORKSREQ._serialized_end=130
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LAUNCHFIREWORKSREQ']._serialized_start=61
+  _globals['_LAUNCHFIREWORKSREQ']._serialized_end=129
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import RoutePoint_pb2 as RoutePoint__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12MonsterRoute.proto\x1a\x10RoutePoint.proto\"p\n\x0cMonsterRoute\x12!\n\x0croute_points\x18\x01 \x03(\x0b\x32\x0b.RoutePoint\x12\x13\n\x0bspeed_level\x18\x02 \x01(\r\x12\x12\n\nroute_type\x18\x03 \x01(\r\x12\x14\n\x0c\x61rrive_range\x18\x04 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12MonsterRoute.proto\x1a\x10RoutePoint.proto\"l\n\x0cMonsterRoute\x12 \n\x0broutePoints\x18\x01 \x03(\x0b\x32\x0b.RoutePoint\x12\x12\n\nspeedLevel\x18\x02 \x01(\r\x12\x11\n\trouteType\x18\x03 \x01(\r\x12\x13\n\x0b\x61rriveRange\x18\x04 \x01(\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MonsterRoute_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MonsterRoute_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MONSTERROUTE._serialized_start=40
-  _MONSTERROUTE._serialized_end=152
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MONSTERROUTE']._serialized_start=40
+  _globals['_MONSTERROUTE']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

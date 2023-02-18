@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import TreasureMapBonusChallengeInfo_pb2 as TreasureMapBonusChallengeInfo__pb2
 import TreasureMapRegionInfo_pb2 as TreasureMapRegionInfo__pb2
+import TreasureMapBonusChallengeInfo_pb2 as TreasureMapBonusChallengeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapActivityDetailInfo.proto\x1a#TreasureMapBonusChallengeInfo.proto\x1a\x1bTreasureMapRegionInfo.proto\"\xd5\x02\n\x1dTreasureMapActivityDetailInfo\x12\x1f\n\x17is_mp_challenge_touched\x18\x0f \x01(\x08\x12\x19\n\x11total_mp_spot_num\x18\x0c \x01(\r\x12\x1b\n\x13\x61\x63tive_region_index\x18\x03 \x01(\r\x12<\n\x14\x62onus_challenge_list\x18\r \x03(\x0b\x32\x1e.TreasureMapBonusChallengeInfo\x12\x1d\n\x15min_open_player_level\x18\x08 \x01(\r\x12\x19\n\x11preview_reward_id\x18\x02 \x01(\r\x12\x1b\n\x13treasure_close_time\x18\x01 \x01(\r\x12\x14\n\x0c\x63urrency_num\x18\x04 \x01(\r\x12\x30\n\x10region_info_list\x18\x0b \x03(\x0b\x32\x16.TreasureMapRegionInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapActivityDetailInfo.proto\x1a\x1bTreasureMapRegionInfo.proto\x1a#TreasureMapBonusChallengeInfo.proto\"\xc1\x02\n\x1dTreasureMapActivityDetailInfo\x12\x1c\n\x14isMpChallengeTouched\x18\x06 \x01(\x08\x12\x16\n\x0etotalMpSpotNum\x18\x0e \x01(\r\x12.\n\x0eregionInfoList\x18\x07 \x03(\x0b\x32\x16.TreasureMapRegionInfo\x12\x13\n\x0b\x63urrencyNum\x18\x01 \x01(\r\x12\x1a\n\x12minOpenPlayerLevel\x18\x03 \x01(\r\x12\x19\n\x11\x61\x63tiveRegionIndex\x18\x02 \x01(\r\x12:\n\x12\x62onusChallengeList\x18\x0f \x03(\x0b\x32\x1e.TreasureMapBonusChallengeInfo\x12\x17\n\x0fpreviewRewardId\x18\x0c \x01(\r\x12\x19\n\x11treasureCloseTime\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TREASUREMAPACTIVITYDETAILINFO._serialized_start=106
-  _TREASUREMAPACTIVITYDETAILINFO._serialized_end=447
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TREASUREMAPACTIVITYDETAILINFO']._serialized_start=106
+  _globals['_TREASUREMAPACTIVITYDETAILINFO']._serialized_end=427
 # @@protoc_insertion_point(module_scope)

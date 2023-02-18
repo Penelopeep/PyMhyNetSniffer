@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import PropValue_pb2 as PropValue__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0ePropPair.proto\x1a\x0fPropValue.proto\"8\n\x08PropPair\x12\x0c\n\x04type\x18\x01 \x01(\r\x12\x1e\n\nprop_value\x18\x02 \x01(\x0b\x32\n.PropValueb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0ePropPair.proto\x1a\x0fPropValue.proto\"7\n\x08PropPair\x12\x0c\n\x04type\x18\x01 \x01(\r\x12\x1d\n\tpropValue\x18\x02 \x01(\x0b\x32\n.PropValueB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PropPair_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PropPair_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PROPPAIR._serialized_start=35
-  _PROPPAIR._serialized_end=91
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PROPPAIR']._serialized_start=35
+  _globals['_PROPPAIR']._serialized_end=90
 # @@protoc_insertion_point(module_scope)

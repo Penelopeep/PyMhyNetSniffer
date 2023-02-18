@@ -14,21 +14,23 @@ _sym_db = _symbol_database.Default()
 import ChessEntranceDetailInfo_pb2 as ChessEntranceDetailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43hessMysteryInfo.proto\x1a\x1d\x43hessEntranceDetailInfo.proto\"\xbb\x02\n\x10\x43hessMysteryInfo\x12\x1a\n\x12\x65xit_point_id_list\x18\x0f \x03(\r\x12\x43\n\x12\x65ntrance_point_map\x18\n \x03(\x0b\x32\'.ChessMysteryInfo.EntrancePointMapEntry\x12=\n\x0f\x64\x65tail_info_map\x18\x08 \x03(\x0b\x32$.ChessMysteryInfo.DetailInfoMapEntry\x1a\x37\n\x15\x45ntrancePointMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1aN\n\x12\x44\x65tailInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\'\n\x05value\x18\x02 \x01(\x0b\x32\x18.ChessEntranceDetailInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43hessMysteryInfo.proto\x1a\x1d\x43hessEntranceDetailInfo.proto\"\x9b\x02\n\x10\x43hessMysteryInfo\x12\x13\n\x0bmdilcblhnao\x18\x02 \x03(\r\x12\x37\n\x0blneiknbbcdd\x18\x0b \x03(\x0b\x32\".ChessMysteryInfo.LneiknbbcddEntry\x12\x37\n\x0b\x66hmdalcaomp\x18\x05 \x03(\x0b\x32\".ChessMysteryInfo.FhmdalcaompEntry\x1a\x32\n\x10LneiknbbcddEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1aL\n\x10\x46hmdalcaompEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\'\n\x05value\x18\x02 \x01(\x0b\x32\x18.ChessEntranceDetailInfo:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessMysteryInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessMysteryInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHESSMYSTERYINFO_ENTRANCEPOINTMAPENTRY._options = None
-  _CHESSMYSTERYINFO_ENTRANCEPOINTMAPENTRY._serialized_options = b'8\001'
-  _CHESSMYSTERYINFO_DETAILINFOMAPENTRY._options = None
-  _CHESSMYSTERYINFO_DETAILINFOMAPENTRY._serialized_options = b'8\001'
-  _CHESSMYSTERYINFO._serialized_start=58
-  _CHESSMYSTERYINFO._serialized_end=373
-  _CHESSMYSTERYINFO_ENTRANCEPOINTMAPENTRY._serialized_start=238
-  _CHESSMYSTERYINFO_ENTRANCEPOINTMAPENTRY._serialized_end=293
-  _CHESSMYSTERYINFO_DETAILINFOMAPENTRY._serialized_start=295
-  _CHESSMYSTERYINFO_DETAILINFOMAPENTRY._serialized_end=373
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _CHESSMYSTERYINFO_LNEIKNBBCDDENTRY._options = None
+  _CHESSMYSTERYINFO_LNEIKNBBCDDENTRY._serialized_options = b'8\001'
+  _CHESSMYSTERYINFO_FHMDALCAOMPENTRY._options = None
+  _CHESSMYSTERYINFO_FHMDALCAOMPENTRY._serialized_options = b'8\001'
+  _globals['_CHESSMYSTERYINFO']._serialized_start=58
+  _globals['_CHESSMYSTERYINFO']._serialized_end=341
+  _globals['_CHESSMYSTERYINFO_LNEIKNBBCDDENTRY']._serialized_start=213
+  _globals['_CHESSMYSTERYINFO_LNEIKNBBCDDENTRY']._serialized_end=263
+  _globals['_CHESSMYSTERYINFO_FHMDALCAOMPENTRY']._serialized_start=265
+  _globals['_CHESSMYSTERYINFO_FHMDALCAOMPENTRY']._serialized_end=341
 # @@protoc_insertion_point(module_scope)

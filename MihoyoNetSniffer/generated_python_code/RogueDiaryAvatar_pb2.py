@@ -15,13 +15,15 @@ import ActivityDungeonAvatar_pb2 as ActivityDungeonAvatar__pb2
 import RogueDiaryAvatarDisableStatus_pb2 as RogueDiaryAvatarDisableStatus__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16RogueDiaryAvatar.proto\x1a\x1b\x41\x63tivityDungeonAvatar.proto\x1a#RogueDiaryAvatarDisableStatus.proto\"\x9b\x01\n\x10RogueDiaryAvatar\x12\r\n\x05level\x18\n \x01(\r\x12;\n\x13\x64isable_status_list\x18\x07 \x03(\x0e\x32\x1e.RogueDiaryAvatarDisableStatus\x12\x13\n\x0btired_round\x18\x02 \x01(\r\x12&\n\x06\x61vatar\x18\x0e \x01(\x0b\x32\x16.ActivityDungeonAvatarb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16RogueDiaryAvatar.proto\x1a\x1b\x41\x63tivityDungeonAvatar.proto\x1a#RogueDiaryAvatarDisableStatus.proto\"\x98\x01\n\x10RogueDiaryAvatar\x12\x39\n\x11\x64isableStatusList\x18\x04 \x03(\x0e\x32\x1e.RogueDiaryAvatarDisableStatus\x12\r\n\x05level\x18\x02 \x01(\r\x12\x12\n\ntiredRound\x18\t \x01(\r\x12&\n\x06\x61vatar\x18\x06 \x01(\x0b\x32\x16.ActivityDungeonAvatarB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueDiaryAvatar_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueDiaryAvatar_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROGUEDIARYAVATAR._serialized_start=93
-  _ROGUEDIARYAVATAR._serialized_end=248
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ROGUEDIARYAVATAR']._serialized_start=93
+  _globals['_ROGUEDIARYAVATAR']._serialized_end=245
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HideAndSeekSelectAvatarRsp.proto\"@\n\x1aHideAndSeekSelectAvatarRsp\x12\x11\n\tavatar_id\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HideAndSeekSelectAvatarRsp.proto\"?\n\x1aHideAndSeekSelectAvatarRsp\x12\x10\n\x08\x61vatarId\x18\n \x01(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekSelectAvatarRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekSelectAvatarRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HIDEANDSEEKSELECTAVATARRSP._serialized_start=36
-  _HIDEANDSEEKSELECTAVATARRSP._serialized_end=100
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HIDEANDSEEKSELECTAVATARRSP']._serialized_start=36
+  _globals['_HIDEANDSEEKSELECTAVATARRSP']._serialized_end=99
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43\x61ncelCoopTaskReq.proto\"\'\n\x11\x43\x61ncelCoopTaskReq\x12\x12\n\nchapter_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43\x61ncelCoopTaskReq.proto\"&\n\x11\x43\x61ncelCoopTaskReq\x12\x11\n\tchapterId\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CancelCoopTaskReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CancelCoopTaskReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CANCELCOOPTASKREQ._serialized_start=27
-  _CANCELCOOPTASKREQ._serialized_end=66
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CANCELCOOPTASKREQ']._serialized_start=27
+  _globals['_CANCELCOOPTASKREQ']._serialized_end=65
 # @@protoc_insertion_point(module_scope)

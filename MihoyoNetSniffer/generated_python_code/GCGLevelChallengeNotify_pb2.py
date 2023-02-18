@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGBossChallengeData_pb2 as GCGBossChallengeData__pb2
-import GCGLevelData_pb2 as GCGLevelData__pb2
+import uint32_pb2 as uint32__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGCGLevelChallengeNotify.proto\x1a\x1aGCGBossChallengeData.proto\x1a\x12GCGLevelData.proto\"\x9c\x01\n\x17GCGLevelChallengeNotify\x12\x39\n\x1aunlock_boss_challenge_list\x18\x0b \x03(\x0b\x32\x15.GCGBossChallengeData\x12#\n\x1bunlock_world_challenge_list\x18\x03 \x03(\r\x12!\n\nlevel_list\x18\x04 \x03(\x0b\x32\r.GCGLevelDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGCGLevelChallengeNotify.proto\x1a\x0cuint32.proto\"^\n\x17GCGLevelChallengeNotify\x12\x0f\n\x07levelId\x18\x07 \x01(\r\x12 \n\x18unlockWorldChallengeList\x18\x0b \x01(\r\x12\x10\n\x08\x63onfigId\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGLevelChallengeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGLevelChallengeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGLEVELCHALLENGENOTIFY._serialized_start=82
-  _GCGLEVELCHALLENGENOTIFY._serialized_end=238
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGLEVELCHALLENGENOTIFY']._serialized_start=47
+  _globals['_GCGLEVELCHALLENGENOTIFY']._serialized_end=141
 # @@protoc_insertion_point(module_scope)

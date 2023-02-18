@@ -11,18 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import GCGSelectOnStageCostInfo_pb2 as GCGSelectOnStageCostInfo__pb2
 import GCGAttackCostInfo_pb2 as GCGAttackCostInfo__pb2
 import GCGPlayCardCostInfo_pb2 as GCGPlayCardCostInfo__pb2
-import GCGSelectOnStageCostInfo_pb2 as GCGSelectOnStageCostInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GCGCostReviseInfo.proto\x1a\x17GCGAttackCostInfo.proto\x1a\x19GCGPlayCardCostInfo.proto\x1a\x1eGCGSelectOnStageCostInfo.proto\"\xec\x01\n\x11GCGCostReviseInfo\x12!\n\x19\x63\x61n_use_hand_card_id_list\x18\x0f \x03(\r\x12<\n\x19select_on_stage_cost_list\x18\r \x03(\x0b\x32\x19.GCGSelectOnStageCostInfo\x12\x31\n\x13play_card_cost_list\x18\x05 \x03(\x0b\x32\x14.GCGPlayCardCostInfo\x12,\n\x10\x61ttack_cost_list\x18\x0c \x03(\x0b\x32\x12.GCGAttackCostInfo\x12\x15\n\ris_can_attack\x18\x0e \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GCGCostReviseInfo.proto\x1a\x1eGCGSelectOnStageCostInfo.proto\x1a\x17GCGAttackCostInfo.proto\x1a\x19GCGPlayCardCostInfo.proto\"\xdc\x01\n\x11GCGCostReviseInfo\x12\x13\n\x0bisCanAttack\x18\x02 \x01(\x08\x12\x38\n\x15selectOnStageCostList\x18\x05 \x03(\x0b\x32\x19.GCGSelectOnStageCostInfo\x12*\n\x0e\x61ttackCostList\x18\x08 \x03(\x0b\x32\x12.GCGAttackCostInfo\x12\x1c\n\x14\x63\x61nUseHandCardIdList\x18\x07 \x03(\r\x12.\n\x10playCardCostList\x18\x0f \x03(\x0b\x32\x14.GCGPlayCardCostInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGCostReviseInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGCostReviseInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGCOSTREVISEINFO._serialized_start=112
-  _GCGCOSTREVISEINFO._serialized_end=348
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGCOSTREVISEINFO']._serialized_start=112
+  _globals['_GCGCOSTREVISEINFO']._serialized_end=332
 # @@protoc_insertion_point(module_scope)

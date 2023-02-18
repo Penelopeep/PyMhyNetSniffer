@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GravenInnocenceCarveStageInfo_pb2 as GravenInnocenceCarveStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGravenInnocenceCarveInfo.proto\x1a#GravenInnocenceCarveStageInfo.proto\"\x8c\x01\n\x18GravenInnocenceCarveInfo\x12\x16\n\x0e\x63\x61n_edit_count\x18\x08 \x01(\r\x12\x1f\n\x17has_edit_config_id_list\x18\x0c \x03(\r\x12\x37\n\x0fstage_info_list\x18\x02 \x03(\x0b\x32\x1e.GravenInnocenceCarveStageInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGravenInnocenceCarveInfo.proto\x1a#GravenInnocenceCarveStageInfo.proto\"\x84\x01\n\x18GravenInnocenceCarveInfo\x12\x1b\n\x13hasEditConfigIdList\x18\x0c \x03(\r\x12\x14\n\x0c\x63\x61nEditCount\x18\x0f \x01(\r\x12\x35\n\rstageInfoList\x18\x04 \x03(\x0b\x32\x1e.GravenInnocenceCarveStageInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GravenInnocenceCarveInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GravenInnocenceCarveInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GRAVENINNOCENCECARVEINFO._serialized_start=72
-  _GRAVENINNOCENCECARVEINFO._serialized_end=212
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GRAVENINNOCENCECARVEINFO']._serialized_start=72
+  _globals['_GRAVENINNOCENCECARVEINFO']._serialized_end=204
 # @@protoc_insertion_point(module_scope)

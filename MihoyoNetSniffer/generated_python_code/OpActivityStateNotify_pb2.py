@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import OpActivityTagBriefInfo_pb2 as OpActivityTagBriefInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bOpActivityStateNotify.proto\x1a\x1cOpActivityTagBriefInfo.proto\"\x7f\n\x15OpActivityStateNotify\x12\'\n\x1f\x66inished_bonus_activity_id_list\x18\x06 \x03(\r\x12=\n\x1copened_op_activity_info_list\x18\x08 \x03(\x0b\x32\x17.OpActivityTagBriefInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bOpActivityStateNotify.proto\x1a\x1cOpActivityTagBriefInfo.proto\"w\n\x15OpActivityStateNotify\x12#\n\x1b\x66inishedBonusActivityIdList\x18\x0b \x03(\r\x12\x39\n\x18openedOpActivityInfoList\x18\x03 \x03(\x0b\x32\x17.OpActivityTagBriefInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OpActivityStateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OpActivityStateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _OPACTIVITYSTATENOTIFY._serialized_start=61
-  _OPACTIVITYSTATENOTIFY._serialized_end=188
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_OPACTIVITYSTATENOTIFY']._serialized_start=61
+  _globals['_OPACTIVITYSTATENOTIFY']._serialized_end=180
 # @@protoc_insertion_point(module_scope)

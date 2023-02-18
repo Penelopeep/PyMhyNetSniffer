@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneForceLockNotify.proto\"-\n\x14SceneForceLockNotify\x12\x15\n\rforce_id_list\x18\x01 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneForceLockNotify.proto\"+\n\x14SceneForceLockNotify\x12\x13\n\x0b\x66orceIdList\x18\x06 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneForceLockNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneForceLockNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEFORCELOCKNOTIFY._serialized_start=30
-  _SCENEFORCELOCKNOTIFY._serialized_end=75
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SCENEFORCELOCKNOTIFY']._serialized_start=30
+  _globals['_SCENEFORCELOCKNOTIFY']._serialized_end=73
 # @@protoc_insertion_point(module_scope)

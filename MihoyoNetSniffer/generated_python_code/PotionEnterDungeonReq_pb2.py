@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import PotionAvatarInfo_pb2 as PotionAvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPotionEnterDungeonReq.proto\x1a\x16PotionAvatarInfo.proto\"\x8f\x01\n\x15PotionEnterDungeonReq\x12\x10\n\x08level_id\x18\x06 \x01(\r\x12+\n\x10\x61vatar_info_list\x18\x0f \x03(\x0b\x32\x11.PotionAvatarInfo\x12\x0f\n\x07mode_id\x18\n \x01(\r\x12\x14\n\x0c\x62uff_id_list\x18\t \x03(\r\x12\x10\n\x08stage_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPotionEnterDungeonReq.proto\x1a\x16PotionAvatarInfo.proto\"\x88\x01\n\x15PotionEnterDungeonReq\x12\x0e\n\x06modeId\x18\x0e \x01(\r\x12)\n\x0e\x61vatarInfoList\x18\x08 \x03(\x0b\x32\x11.PotionAvatarInfo\x12\x0f\n\x07levelId\x18\x06 \x01(\r\x12\x12\n\nbuffIdList\x18\x0b \x03(\r\x12\x0f\n\x07stageId\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PotionEnterDungeonReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PotionEnterDungeonReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _POTIONENTERDUNGEONREQ._serialized_start=56
-  _POTIONENTERDUNGEONREQ._serialized_end=199
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_POTIONENTERDUNGEONREQ']._serialized_start=56
+  _globals['_POTIONENTERDUNGEONREQ']._serialized_end=192
 # @@protoc_insertion_point(module_scope)

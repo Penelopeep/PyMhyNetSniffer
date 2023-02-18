@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSelectWorktopOptionRsp.proto\"V\n\x16SelectWorktopOptionRsp\x12\x11\n\toption_id\x18\n \x01(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x18\n\x10gadget_entity_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSelectWorktopOptionRsp.proto\"S\n\x16SelectWorktopOptionRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x16\n\x0egadgetEntityId\x18\x03 \x01(\r\x12\x10\n\x08optionId\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SelectWorktopOptionRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SelectWorktopOptionRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SELECTWORKTOPOPTIONRSP._serialized_start=32
-  _SELECTWORKTOPOPTIONRSP._serialized_end=118
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SELECTWORKTOPOPTIONRSP']._serialized_start=32
+  _globals['_SELECTWORKTOPOPTIONRSP']._serialized_end=115
 # @@protoc_insertion_point(module_scope)

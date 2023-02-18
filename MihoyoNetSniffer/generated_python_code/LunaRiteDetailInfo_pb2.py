@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import LunaRiteAreaInfo_pb2 as LunaRiteAreaInfo__pb2
 import LunaRiteHintPoint_pb2 as LunaRiteHintPoint__pb2
+import LunaRiteAreaInfo_pb2 as LunaRiteAreaInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18LunaRiteDetailInfo.proto\x1a\x16LunaRiteAreaInfo.proto\x1a\x17LunaRiteHintPoint.proto\"g\n\x12LunaRiteDetailInfo\x12&\n\nhint_point\x18\x04 \x03(\x0b\x32\x12.LunaRiteHintPoint\x12)\n\x0e\x61rea_info_list\x18\x07 \x03(\x0b\x32\x11.LunaRiteAreaInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18LunaRiteDetailInfo.proto\x1a\x17LunaRiteHintPoint.proto\x1a\x16LunaRiteAreaInfo.proto\"d\n\x12LunaRiteDetailInfo\x12%\n\thintPoint\x18\x08 \x03(\x0b\x32\x12.LunaRiteHintPoint\x12\'\n\x0c\x61reaInfoList\x18\t \x03(\x0b\x32\x11.LunaRiteAreaInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LUNARITEDETAILINFO._serialized_start=77
-  _LUNARITEDETAILINFO._serialized_end=180
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LUNARITEDETAILINFO']._serialized_start=77
+  _globals['_LUNARITEDETAILINFO']._serialized_end=177
 # @@protoc_insertion_point(module_scope)

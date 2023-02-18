@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import MistTrialBestAvatar_pb2 as MistTrialBestAvatar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18MistTrialLevelData.proto\x1a\x19MistTrialBestAvatar.proto\"\xc2\x01\n\x12MistTrialLevelData\x12\x11\n\topen_time\x18\n \x01(\r\x12.\n\x10\x62\x65st_avatar_list\x18\x03 \x03(\x0b\x32\x14.MistTrialBestAvatar\x12\x10\n\x08level_id\x18\x0e \x01(\r\x12\x17\n\x0f\x66irst_pass_time\x18\x01 \x01(\r\x12-\n\x0f\x62\x65st_hit_avatar\x18\x0b \x01(\x0b\x32\x14.MistTrialBestAvatar\x12\x0f\n\x07is_open\x18\t \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18MistTrialLevelData.proto\x1a\x19MistTrialBestAvatar.proto\"\xb9\x01\n\x12MistTrialLevelData\x12\x10\n\x08openTime\x18\x02 \x01(\r\x12\x15\n\rfirstPassTime\x18\x04 \x01(\r\x12\x0f\n\x07levelId\x18\x0c \x01(\r\x12\x0e\n\x06isOpen\x18\x06 \x01(\x08\x12+\n\rbestHitAvatar\x18\x0e \x01(\x0b\x32\x14.MistTrialBestAvatar\x12,\n\x0e\x62\x65stAvatarList\x18\r \x03(\x0b\x32\x14.MistTrialBestAvatarB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialLevelData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialLevelData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MISTTRIALLEVELDATA._serialized_start=56
-  _MISTTRIALLEVELDATA._serialized_end=250
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MISTTRIALLEVELDATA']._serialized_start=56
+  _globals['_MISTTRIALLEVELDATA']._serialized_end=241
 # @@protoc_insertion_point(module_scope)

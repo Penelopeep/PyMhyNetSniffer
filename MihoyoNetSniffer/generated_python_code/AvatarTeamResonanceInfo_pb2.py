@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarTeamResonanceInfo.proto\"{\n\x17\x41vatarTeamResonanceInfo\x12\x13\n\x0b\x61vatar_guid\x18\t \x01(\x04\x12\x11\n\tentity_id\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_MBJEEEEEJCE\x18\x0f \x03(\r\x12\x1b\n\x13Unk3300_LPAKGGBBDNJ\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarTeamResonanceInfo.proto\"\x7f\n\x17\x41vatarTeamResonanceInfo\x12\x12\n\navatarGuid\x18\n \x01(\x04\x12\x1e\n\x16\x64\x65lTeamResonanceIdList\x18\x08 \x03(\r\x12\x10\n\x08\x65ntityId\x18\x0f \x01(\r\x12\x1e\n\x16\x61\x64\x64TeamResonanceIdList\x18\x02 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarTeamResonanceInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarTeamResonanceInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATARTEAMRESONANCEINFO._serialized_start=33
-  _AVATARTEAMRESONANCEINFO._serialized_end=156
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_AVATARTEAMRESONANCEINFO']._serialized_start=33
+  _globals['_AVATARTEAMRESONANCEINFO']._serialized_end=160
 # @@protoc_insertion_point(module_scope)

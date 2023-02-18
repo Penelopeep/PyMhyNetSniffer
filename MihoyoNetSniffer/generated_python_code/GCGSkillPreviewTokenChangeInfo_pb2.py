@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGSkillPreviewTokenInfo_pb2 as GCGSkillPreviewTokenInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$GCGSkillPreviewTokenChangeInfo.proto\x1a\x1eGCGSkillPreviewTokenInfo.proto\"V\n\x1eGCGSkillPreviewTokenChangeInfo\x12\x34\n\x11token_change_list\x18\n \x03(\x0b\x32\x19.GCGSkillPreviewTokenInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$GCGSkillPreviewTokenChangeInfo.proto\x1a\x1eGCGSkillPreviewTokenInfo.proto\"T\n\x1eGCGSkillPreviewTokenChangeInfo\x12\x32\n\x0ftokenChangeList\x18\x01 \x03(\x0b\x32\x19.GCGSkillPreviewTokenInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSkillPreviewTokenChangeInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSkillPreviewTokenChangeInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSKILLPREVIEWTOKENCHANGEINFO._serialized_start=72
-  _GCGSKILLPREVIEWTOKENCHANGEINFO._serialized_end=158
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGSKILLPREVIEWTOKENCHANGEINFO']._serialized_start=72
+  _globals['_GCGSKILLPREVIEWTOKENCHANGEINFO']._serialized_end=156
 # @@protoc_insertion_point(module_scope)

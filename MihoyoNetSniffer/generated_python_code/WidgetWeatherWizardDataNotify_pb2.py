@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WidgetWeatherWizardDataNotify.proto\"5\n\x1dWidgetWeatherWizardDataNotify\x12\x14\n\x0cshield_value\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WidgetWeatherWizardDataNotify.proto\"4\n\x1dWidgetWeatherWizardDataNotify\x12\x13\n\x0bshieldValue\x18\x0f \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetWeatherWizardDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetWeatherWizardDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WIDGETWEATHERWIZARDDATANOTIFY._serialized_start=39
-  _WIDGETWEATHERWIZARDDATANOTIFY._serialized_end=92
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WIDGETWEATHERWIZARDDATANOTIFY']._serialized_start=39
+  _globals['_WIDGETWEATHERWIZARDDATANOTIFY']._serialized_end=91
 # @@protoc_insertion_point(module_scope)

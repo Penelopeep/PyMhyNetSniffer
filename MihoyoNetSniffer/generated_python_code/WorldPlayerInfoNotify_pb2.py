@@ -15,13 +15,15 @@ import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 import PlayerWidgetInfo_pb2 as PlayerWidgetInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bWorldPlayerInfoNotify.proto\x1a\x16OnlinePlayerInfo.proto\x1a\x16PlayerWidgetInfo.proto\"\x91\x01\n\x15WorldPlayerInfoNotify\x12\x32\n\x17player_widget_info_list\x18\x07 \x03(\x0b\x32\x11.PlayerWidgetInfo\x12\x17\n\x0fplayer_uid_list\x18\x0c \x03(\r\x12+\n\x10player_info_list\x18\x0f \x03(\x0b\x32\x11.OnlinePlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bWorldPlayerInfoNotify.proto\x1a\x16OnlinePlayerInfo.proto\x1a\x16PlayerWidgetInfo.proto\"\x8a\x01\n\x15WorldPlayerInfoNotify\x12\x15\n\rplayerUidList\x18\n \x03(\r\x12)\n\x0eplayerInfoList\x18\x0c \x03(\x0b\x32\x11.OnlinePlayerInfo\x12/\n\x14playerWidgetInfoList\x18\x01 \x03(\x0b\x32\x11.PlayerWidgetInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldPlayerInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldPlayerInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WORLDPLAYERINFONOTIFY._serialized_start=80
-  _WORLDPLAYERINFONOTIFY._serialized_end=225
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WORLDPLAYERINFONOTIFY']._serialized_start=80
+  _globals['_WORLDPLAYERINFONOTIFY']._serialized_end=218
 # @@protoc_insertion_point(module_scope)

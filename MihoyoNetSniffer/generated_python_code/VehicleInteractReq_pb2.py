@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import VehicleInteractType_pb2 as VehicleInteractType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18VehicleInteractReq.proto\x1a\x19VehicleInteractType.proto\"a\n\x12VehicleInteractReq\x12+\n\rinteract_type\x18\x03 \x01(\x0e\x32\x14.VehicleInteractType\x12\x11\n\tentity_id\x18\x0b \x01(\r\x12\x0b\n\x03pos\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18VehicleInteractReq.proto\x1a\x19VehicleInteractType.proto\"_\n\x12VehicleInteractReq\x12\x0b\n\x03pos\x18\x0e \x01(\r\x12*\n\x0cinteractType\x18\x0b \x01(\x0e\x32\x14.VehicleInteractType\x12\x10\n\x08\x65ntityId\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VehicleInteractReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VehicleInteractReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _VEHICLEINTERACTREQ._serialized_start=55
-  _VEHICLEINTERACTREQ._serialized_end=152
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_VEHICLEINTERACTREQ']._serialized_start=55
+  _globals['_VEHICLEINTERACTREQ']._serialized_end=150
 # @@protoc_insertion_point(module_scope)

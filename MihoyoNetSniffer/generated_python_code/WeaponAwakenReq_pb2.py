@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15WeaponAwakenReq.proto\"\xb4\x01\n\x0fWeaponAwakenReq\x12<\n\x0f\x61\x66\x66ix_level_map\x18\r \x03(\x0b\x32#.WeaponAwakenReq.AffixLevelMapEntry\x12\x1a\n\x12target_weapon_guid\x18\x05 \x01(\x04\x12\x11\n\titem_guid\x18\x06 \x01(\x04\x1a\x34\n\x12\x41\x66\x66ixLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15WeaponAwakenReq.proto\"\xaf\x01\n\x0fWeaponAwakenReq\x12:\n\raffixLevelMap\x18\x0c \x03(\x0b\x32#.WeaponAwakenReq.AffixLevelMapEntry\x12\x10\n\x08itemGuid\x18\x02 \x01(\x04\x12\x18\n\x10targetWeaponGuid\x18\t \x01(\x04\x1a\x34\n\x12\x41\x66\x66ixLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WeaponAwakenReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WeaponAwakenReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _WEAPONAWAKENREQ_AFFIXLEVELMAPENTRY._options = None
   _WEAPONAWAKENREQ_AFFIXLEVELMAPENTRY._serialized_options = b'8\001'
-  _WEAPONAWAKENREQ._serialized_start=26
-  _WEAPONAWAKENREQ._serialized_end=206
-  _WEAPONAWAKENREQ_AFFIXLEVELMAPENTRY._serialized_start=154
-  _WEAPONAWAKENREQ_AFFIXLEVELMAPENTRY._serialized_end=206
+  _globals['_WEAPONAWAKENREQ']._serialized_start=26
+  _globals['_WEAPONAWAKENREQ']._serialized_end=201
+  _globals['_WEAPONAWAKENREQ_AFFIXLEVELMAPENTRY']._serialized_start=149
+  _globals['_WEAPONAWAKENREQ_AFFIXLEVELMAPENTRY']._serialized_end=201
 # @@protoc_insertion_point(module_scope)

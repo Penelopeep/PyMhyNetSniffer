@@ -12,18 +12,20 @@ _sym_db = _symbol_database.Default()
 
 
 import FungusDetail_pb2 as FungusDetail__pb2
+import FungusTrainingProgressDetail_pb2 as FungusTrainingProgressDetail__pb2
 import FungusPlotStageDetail_pb2 as FungusPlotStageDetail__pb2
 import FungusTrainingDungeonDetail_pb2 as FungusTrainingDungeonDetail__pb2
-import FungusTrainingProgressDetail_pb2 as FungusTrainingProgressDetail__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46ungusFighterDetailInfo.proto\x1a\x12\x46ungusDetail.proto\x1a\x1b\x46ungusPlotStageDetail.proto\x1a!FungusTrainingDungeonDetail.proto\x1a\"FungusTrainingProgressDetail.proto\"\xe5\x02\n\x17\x46ungusFighterDetailInfo\x12)\n\x12\x66ungus_detail_list\x18\x06 \x03(\x0b\x32\r.FungusDetail\x12\x1b\n\x13Unk3300_GIHAKKAJHDH\x18\x01 \x03(\r\x12\x1b\n\x13Unk3300_KGKFJJHFHAB\x18\x08 \x03(\r\x12L\n%training_dungeon_progress_detail_list\x18\x03 \x03(\x0b\x32\x1d.FungusTrainingProgressDetail\x12\x1b\n\x13Unk3300_HPDOJOBPFMJ\x18\t \x03(\r\x12\x36\n\x16plot_stage_detail_list\x18\x0b \x03(\x0b\x32\x16.FungusPlotStageDetail\x12\x42\n\x1ctraining_dungeon_detail_list\x18\x02 \x03(\x0b\x32\x1c.FungusTrainingDungeonDetailb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46ungusFighterDetailInfo.proto\x1a\x12\x46ungusDetail.proto\x1a\"FungusTrainingProgressDetail.proto\x1a\x1b\x46ungusPlotStageDetail.proto\x1a!FungusTrainingDungeonDetail.proto\"\xd9\x02\n\x17\x46ungusFighterDetailInfo\x12\'\n\x10\x66ungusDetailList\x18\x03 \x03(\x0b\x32\r.FungusDetail\x12\x1b\n\x13Unk3300_GIHAKKAJHDH\x18\t \x03(\r\x12H\n!trainingDungeonProgressDetailList\x18\x04 \x03(\x0b\x32\x1d.FungusTrainingProgressDetail\x12\x1b\n\x13Unk3300_HPDOJOBPFMJ\x18\x02 \x03(\r\x12\x1b\n\x13Unk3300_KGKFJJHFHAB\x18\r \x03(\r\x12\x33\n\x13plotStageDetailList\x18\x06 \x03(\x0b\x32\x16.FungusPlotStageDetail\x12?\n\x19trainingDungeonDetailList\x18\x0c \x03(\x0b\x32\x1c.FungusTrainingDungeonDetailB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusFighterDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusFighterDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FUNGUSFIGHTERDETAILINFO._serialized_start=154
-  _FUNGUSFIGHTERDETAILINFO._serialized_end=511
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FUNGUSFIGHTERDETAILINFO']._serialized_start=154
+  _globals['_FUNGUSFIGHTERDETAILINFO']._serialized_end=499
 # @@protoc_insertion_point(module_scope)

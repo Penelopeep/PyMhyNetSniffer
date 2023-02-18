@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGCGApplyInviteBattleReq.proto\"+\n\x17GCGApplyInviteBattleReq\x12\x10\n\x08is_agree\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGCGApplyInviteBattleReq.proto\"{\n\x17GCGApplyInviteBattleReq\x12\x13\n\x0bljemjfinpph\x18\r \x01(\r\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x16\n\x0e\x63onfirmEndTime\x18\x07 \x01(\r\x12\x0b\n\x03uid\x18\x04 \x01(\r\x12\x15\n\rpunishEndTime\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGApplyInviteBattleReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGApplyInviteBattleReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGAPPLYINVITEBATTLEREQ._serialized_start=33
-  _GCGAPPLYINVITEBATTLEREQ._serialized_end=76
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGAPPLYINVITEBATTLEREQ']._serialized_start=33
+  _globals['_GCGAPPLYINVITEBATTLEREQ']._serialized_end=156
 # @@protoc_insertion_point(module_scope)

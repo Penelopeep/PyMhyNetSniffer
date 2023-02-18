@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetReunionPrivilegeInfoReq.proto\"2\n\x1aGetReunionPrivilegeInfoReq\x12\x14\n\x0cprivilege_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetReunionPrivilegeInfoReq.proto\"1\n\x1aGetReunionPrivilegeInfoReq\x12\x13\n\x0bprivilegeId\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetReunionPrivilegeInfoReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetReunionPrivilegeInfoReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETREUNIONPRIVILEGEINFOREQ._serialized_start=36
-  _GETREUNIONPRIVILEGEINFOREQ._serialized_end=86
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETREUNIONPRIVILEGEINFOREQ']._serialized_start=36
+  _globals['_GETREUNIONPRIVILEGEINFOREQ']._serialized_end=85
 # @@protoc_insertion_point(module_scope)

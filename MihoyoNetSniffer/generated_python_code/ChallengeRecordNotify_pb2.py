@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ChallengeRecord_pb2 as ChallengeRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hallengeRecordNotify.proto\x1a\x15\x43hallengeRecord.proto\"Z\n\x15\x43hallengeRecordNotify\x12\x10\n\x08group_id\x18\x0f \x01(\r\x12/\n\x15\x63hallenge_record_list\x18\t \x03(\x0b\x32\x10.ChallengeRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hallengeRecordNotify.proto\x1a\x15\x43hallengeRecord.proto\"W\n\x15\x43hallengeRecordNotify\x12\x0f\n\x07groupId\x18\x03 \x01(\r\x12-\n\x13\x63hallengeRecordList\x18\x05 \x03(\x0b\x32\x10.ChallengeRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChallengeRecordNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChallengeRecordNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHALLENGERECORDNOTIFY._serialized_start=54
-  _CHALLENGERECORDNOTIFY._serialized_end=144
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHALLENGERECORDNOTIFY']._serialized_start=54
+  _globals['_CHALLENGERECORDNOTIFY']._serialized_end=141
 # @@protoc_insertion_point(module_scope)

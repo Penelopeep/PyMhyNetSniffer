@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import OpActivityInfo_pb2 as OpActivityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGetOpActivityInfoRsp.proto\x1a\x14OpActivityInfo.proto\"W\n\x14GetOpActivityInfoRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12.\n\x15op_activity_info_list\x18\x08 \x03(\x0b\x32\x0f.OpActivityInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGetOpActivityInfoRsp.proto\x1a\x14OpActivityInfo.proto\"T\n\x14GetOpActivityInfoRsp\x12+\n\x12opActivityInfoList\x18\x0b \x03(\x0b\x32\x0f.OpActivityInfo\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetOpActivityInfoRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetOpActivityInfoRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETOPACTIVITYINFORSP._serialized_start=52
-  _GETOPACTIVITYINFORSP._serialized_end=139
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETOPACTIVITYINFORSP']._serialized_start=52
+  _globals['_GETOPACTIVITYINFORSP']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

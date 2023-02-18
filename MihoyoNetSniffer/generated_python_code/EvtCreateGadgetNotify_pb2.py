@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ForwardType_pb2 as ForwardType__pb2
 import Vector_pb2 as Vector__pb2
+import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45vtCreateGadgetNotify.proto\x1a\x11\x46orwardType.proto\x1a\x0cVector.proto\"\x95\x04\n\x15\x45vtCreateGadgetNotify\x12\x1e\n\x15target_entity_id_list\x18\xf4\x0c \x03(\r\x12\x19\n\x08init_pos\x18\t \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_DLBIJFOONBA\x18\x0f \x01(\x08\x12\x17\n\x0fowner_entity_id\x18\x02 \x01(\r\x12\"\n\x0c\x66orward_type\x18\x03 \x01(\x0e\x32\x0c.ForwardType\x12%\n\x1ctarget_lock_point_index_list\x18\x9e\x03 \x03(\r\x12\x1c\n\x14prop_owner_entity_id\x18\x06 \x01(\r\x12\x1f\n\x17target_lock_point_index\x18\x04 \x01(\r\x12\x1c\n\x13Unk3300_OJHDJGAFDNN\x18\x99\x0b \x01(\x08\x12\x0f\n\x07\x63\x61mp_id\x18\n \x01(\r\x12\x1b\n\x13Unk3300_EJNBIGLGMII\x18\x08 \x01(\x08\x12\"\n\x11init_euler_angles\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x1f\n\x16is_peer_id_from_player\x18\xe1\x04 \x01(\x08\x12\x0f\n\x07room_id\x18\x05 \x01(\r\x12\x11\n\tconfig_id\x18\x0e \x01(\r\x12\x11\n\tcamp_type\x18\r \x01(\r\x12\x0c\n\x04guid\x18\x07 \x01(\x04\x12\x11\n\tentity_id\x18\x01 \x01(\r\x12\x18\n\x10target_entity_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45vtCreateGadgetNotify.proto\x1a\x0cVector.proto\x1a\x11\x46orwardType.proto\"\xf1\x03\n\x15\x45vtCreateGadgetNotify\x12\x1c\n\x14targetLockPointIndex\x18\x06 \x01(\r\x12\x16\n\ris_async_load\x18\x89\x01 \x01(\x08\x12\x15\n\rownerEntityId\x18\x03 \x01(\r\x12 \n\x0finitEulerAngles\x18\x0b \x01(\x0b\x32\x07.Vector\x12\x19\n\x11propOwnerEntityId\x18\x01 \x01(\r\x12\x0e\n\x06roomId\x18\x0f \x01(\r\x12!\n\x0b\x66orwardType\x18\x07 \x01(\x0e\x32\x0c.ForwardType\x12\x0e\n\x06\x63\x61mpId\x18\x0e \x01(\r\x12\x10\n\x08\x63onfigId\x18\r \x01(\r\x12\x16\n\x0etargetEntityId\x18\n \x01(\r\x12\x0c\n\x04guid\x18\x05 \x01(\x04\x12\x1b\n\x13Unk3300_DLBIJFOONBA\x18\x02 \x01(\x08\x12\x18\n\x07initPos\x18\t \x01(\x0b\x32\x07.Vector\x12\x10\n\x08\x65ntityId\x18\x04 \x01(\r\x12\x1b\n\x12isPeerIdFromPlayer\x18\x83\x06 \x01(\x08\x12!\n\x18targetLockPointIndexList\x18\xe4\t \x03(\r\x12\x1b\n\x13Unk3300_EJNBIGLGMII\x18\x08 \x01(\x08\x12\x10\n\x08\x63\x61mpType\x18\x0c \x01(\r\x12\x1b\n\x12targetEntityIdList\x18\xb7\x0c \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtCreateGadgetNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtCreateGadgetNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EVTCREATEGADGETNOTIFY._serialized_start=65
-  _EVTCREATEGADGETNOTIFY._serialized_end=598
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_EVTCREATEGADGETNOTIFY']._serialized_start=65
+  _globals['_EVTCREATEGADGETNOTIFY']._serialized_end=562
 # @@protoc_insertion_point(module_scope)

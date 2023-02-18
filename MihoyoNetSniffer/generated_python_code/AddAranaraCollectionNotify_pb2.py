@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import AranaraCollectionState_pb2 as AranaraCollectionState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AddAranaraCollectionNotify.proto\x1a\x1c\x41ranaraCollectionState.proto\"\xb8\x01\n\x1a\x41\x64\x64\x41ranaraCollectionNotify\x12\x34\n\x13Unk3300_NJLJBBMJLBK\x18\n \x01(\x0e\x32\x17.AranaraCollectionState\x12\x15\n\rcollection_id\x18\x07 \x01(\r\x12\x34\n\x13Unk3300_AFBIBLNKCOD\x18\x04 \x01(\x0e\x32\x17.AranaraCollectionState\x12\x17\n\x0f\x63ollection_type\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AddAranaraCollectionNotify.proto\x1a\x1c\x41ranaraCollectionState.proto\"\xb6\x01\n\x1a\x41\x64\x64\x41ranaraCollectionNotify\x12\x34\n\x13Unk3300_AFBIBLNKCOD\x18\n \x01(\x0e\x32\x17.AranaraCollectionState\x12\x34\n\x13Unk3300_NJLJBBMJLBK\x18\x0f \x01(\x0e\x32\x17.AranaraCollectionState\x12\x14\n\x0c\x63ollectionId\x18\x01 \x01(\r\x12\x16\n\x0e\x63ollectionType\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddAranaraCollectionNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddAranaraCollectionNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ADDARANARACOLLECTIONNOTIFY._serialized_start=67
-  _ADDARANARACOLLECTIONNOTIFY._serialized_end=251
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ADDARANARACOLLECTIONNOTIFY']._serialized_start=67
+  _globals['_ADDARANARACOLLECTIONNOTIFY']._serialized_end=249
 # @@protoc_insertion_point(module_scope)

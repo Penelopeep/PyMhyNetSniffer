@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeAvatarRewardEventInfo_pb2 as HomeAvatarRewardEventInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!HomeAvatarRewardEventNotify.proto\x1a\x1fHomeAvatarRewardEventInfo.proto\"\x9b\x01\n\x1bHomeAvatarRewardEventNotify\x12\x30\n\x0cpending_list\x18\x08 \x03(\x0b\x32\x1a.HomeAvatarRewardEventInfo\x12\x30\n\x0creward_event\x18\x0e \x01(\x0b\x32\x1a.HomeAvatarRewardEventInfo\x12\x18\n\x10is_event_trigger\x18\x03 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!HomeAvatarRewardEventNotify.proto\x1a\x1fHomeAvatarRewardEventInfo.proto\"\x97\x01\n\x1bHomeAvatarRewardEventNotify\x12\x16\n\x0eisEventTrigger\x18\x01 \x01(\x08\x12/\n\x0brewardEvent\x18\x0c \x01(\x0b\x32\x1a.HomeAvatarRewardEventInfo\x12/\n\x0bpendingList\x18\x0f \x03(\x0b\x32\x1a.HomeAvatarRewardEventInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarRewardEventNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarRewardEventNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEAVATARREWARDEVENTNOTIFY._serialized_start=71
-  _HOMEAVATARREWARDEVENTNOTIFY._serialized_end=226
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEAVATARREWARDEVENTNOTIFY']._serialized_start=71
+  _globals['_HOMEAVATARREWARDEVENTNOTIFY']._serialized_end=222
 # @@protoc_insertion_point(module_scope)

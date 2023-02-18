@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CustomGadgetTreeInfo_pb2 as CustomGadgetTreeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGadgetChangeLevelTagReq.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"z\n\x17GadgetChangeLevelTagReq\x12\x18\n\x10gadget_entity_id\x18\x0e \x01(\r\x12\x14\n\x0clevel_tag_id\x18\x06 \x01(\r\x12/\n\x10\x63ombination_info\x18\x07 \x01(\x0b\x32\x15.CustomGadgetTreeInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGadgetChangeLevelTagReq.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"u\n\x17GadgetChangeLevelTagReq\x12\x16\n\x0egadgetEntityId\x18\x05 \x01(\r\x12\x12\n\nlevelTagId\x18\r \x01(\r\x12.\n\x0f\x63ombinationInfo\x18\n \x01(\x0b\x32\x15.CustomGadgetTreeInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetChangeLevelTagReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetChangeLevelTagReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GADGETCHANGELEVELTAGREQ._serialized_start=61
-  _GADGETCHANGELEVELTAGREQ._serialized_end=183
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GADGETCHANGELEVELTAGREQ']._serialized_start=61
+  _globals['_GADGETCHANGELEVELTAGREQ']._serialized_end=178
 # @@protoc_insertion_point(module_scope)

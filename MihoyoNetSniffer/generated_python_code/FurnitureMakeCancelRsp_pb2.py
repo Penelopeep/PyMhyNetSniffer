@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FurnitureMakeSlot_pb2 as FurnitureMakeSlot__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x46urnitureMakeCancelRsp.proto\x1a\x17\x46urnitureMakeSlot.proto\"k\n\x16\x46urnitureMakeCancelRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x0f\n\x07make_id\x18\x06 \x01(\r\x12/\n\x13\x66urniture_make_slot\x18\x04 \x01(\x0b\x32\x12.FurnitureMakeSlotb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x46urnitureMakeCancelRsp.proto\x1a\x17\x46urnitureMakeSlot.proto\"h\n\x16\x46urnitureMakeCancelRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12-\n\x11\x66urnitureMakeSlot\x18\x0e \x01(\x0b\x32\x12.FurnitureMakeSlot\x12\x0e\n\x06makeId\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeCancelRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeCancelRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FURNITUREMAKECANCELRSP._serialized_start=57
-  _FURNITUREMAKECANCELRSP._serialized_end=164
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FURNITUREMAKECANCELRSP']._serialized_start=57
+  _globals['_FURNITUREMAKECANCELRSP']._serialized_end=161
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import BuyGoodsParam_pb2 as BuyGoodsParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42\x61tchBuyGoodsReq.proto\x1a\x13\x42uyGoodsParam.proto\"M\n\x10\x42\x61tchBuyGoodsReq\x12\x11\n\tshop_type\x18\x0f \x01(\r\x12&\n\x0e\x62uy_goods_list\x18\x0c \x03(\x0b\x32\x0e.BuyGoodsParamb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42\x61tchBuyGoodsReq.proto\x1a\x13\x42uyGoodsParam.proto\"J\n\x10\x42\x61tchBuyGoodsReq\x12$\n\x0c\x62uyGoodsList\x18\x05 \x03(\x0b\x32\x0e.BuyGoodsParam\x12\x10\n\x08shopType\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BatchBuyGoodsReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BatchBuyGoodsReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BATCHBUYGOODSREQ._serialized_start=47
-  _BATCHBUYGOODSREQ._serialized_end=124
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BATCHBUYGOODSREQ']._serialized_start=47
+  _globals['_BATCHBUYGOODSREQ']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import SalvagePreventGallerySettleInfo_pb2 as SalvagePreventGallerySettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSalvagePreventSettleInfo.proto\x1a%SalvagePreventGallerySettleInfo.proto\"h\n\x18SalvagePreventSettleInfo\x12\x35\n\x0bsettle_info\x18\x04 \x01(\x0b\x32 .SalvagePreventGallerySettleInfo\x12\x15\n\ris_new_record\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSalvagePreventSettleInfo.proto\x1a%SalvagePreventGallerySettleInfo.proto\"e\n\x18SalvagePreventSettleInfo\x12\x13\n\x0bisNewRecord\x18\x04 \x01(\x08\x12\x34\n\nsettleInfo\x18\x06 \x01(\x0b\x32 .SalvagePreventGallerySettleInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvagePreventSettleInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvagePreventSettleInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SALVAGEPREVENTSETTLEINFO._serialized_start=73
-  _SALVAGEPREVENTSETTLEINFO._serialized_end=177
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SALVAGEPREVENTSETTLEINFO']._serialized_start=73
+  _globals['_SALVAGEPREVENTSETTLEINFO']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

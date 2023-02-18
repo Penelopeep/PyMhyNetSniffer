@@ -11,16 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGSettleOption_pb2 as GCGSettleOption__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGSettleOptionReq.proto\x1a\x15GCGSettleOption.proto\"6\n\x12GCGSettleOptionReq\x12 \n\x06option\x18\t \x01(\x0e\x32\x10.GCGSettleOptionb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGSettleOptionReq.proto\"\x14\n\x12GCGSettleOptionReqB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSettleOptionReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSettleOptionReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSETTLEOPTIONREQ._serialized_start=51
-  _GCGSETTLEOPTIONREQ._serialized_end=105
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGSETTLEOPTIONREQ']._serialized_start=28
+  _globals['_GCGSETTLEOPTIONREQ']._serialized_end=48
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeLimitedShopGoods_pb2 as HomeLimitedShopGoods__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%HomeLimitedShopInfoChangeNotify.proto\x1a\x1aHomeLimitedShopGoods.proto\"L\n\x1fHomeLimitedShopInfoChangeNotify\x12)\n\ngoods_list\x18\x02 \x03(\x0b\x32\x15.HomeLimitedShopGoodsb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%HomeLimitedShopInfoChangeNotify.proto\x1a\x1aHomeLimitedShopGoods.proto\"K\n\x1fHomeLimitedShopInfoChangeNotify\x12(\n\tgoodsList\x18\x01 \x03(\x0b\x32\x15.HomeLimitedShopGoodsB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeLimitedShopInfoChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeLimitedShopInfoChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMELIMITEDSHOPINFOCHANGENOTIFY._serialized_start=69
-  _HOMELIMITEDSHOPINFOCHANGENOTIFY._serialized_end=145
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMELIMITEDSHOPINFOCHANGENOTIFY']._serialized_start=69
+  _globals['_HOMELIMITEDSHOPINFOCHANGENOTIFY']._serialized_end=144
 # @@protoc_insertion_point(module_scope)

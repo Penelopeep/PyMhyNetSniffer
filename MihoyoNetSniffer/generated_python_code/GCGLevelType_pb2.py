@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GCGLevelType.proto*\xff\x01\n\x0cGCGLevelType\x12\x17\n\x13GCG_LEVEL_TYPE_NONE\x10\x00\x12\x18\n\x14GCG_LEVEL_TYPE_CONST\x10\x01\x12\x17\n\x13GCG_LEVEL_TYPE_WEEK\x10\x02\x12\x18\n\x14GCG_LEVEL_TYPE_WORLD\x10\x03\x12\x17\n\x13GCG_LEVEL_TYPE_BOSS\x10\x04\x12\x1c\n\x18GCG_LEVEL_TYPE_CHARACTER\x10\x05\x12\x18\n\x14GCG_LEVEL_TYPE_BREAK\x10\x06\x12\x18\n\x14GCG_LEVEL_TYPE_QUEST\x10\x07\x12\x1e\n\x1aGCG_LEVEL_TYPE_GUIDE_GROUP\x10\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GCGLevelType.proto\"A\n\x0cGCGLevelType\x12\x0f\n\x07levelId\x18\x03 \x01(\r\x12\x14\n\x0cscenePointId\x18\x02 \x01(\r\x12\n\n\x02id\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGLevelType_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGLevelType_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGLEVELTYPE._serialized_start=23
-  _GCGLEVELTYPE._serialized_end=278
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGLEVELTYPE']._serialized_start=22
+  _globals['_GCGLEVELTYPE']._serialized_end=87
 # @@protoc_insertion_point(module_scope)

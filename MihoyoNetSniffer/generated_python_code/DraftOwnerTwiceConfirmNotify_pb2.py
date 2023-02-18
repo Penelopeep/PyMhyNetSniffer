@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DraftOwnerTwiceConfirmNotify.proto\"U\n\x1c\x44raftOwnerTwiceConfirmNotify\x12\x10\n\x08\x64raft_id\x18\x06 \x01(\r\x12#\n\x1btwice_confirm_deadline_time\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DraftOwnerTwiceConfirmNotify.proto\"Q\n\x1c\x44raftOwnerTwiceConfirmNotify\x12\x0f\n\x07\x64raftId\x18\x0f \x01(\r\x12 \n\x18twiceConfirmDeadlineTime\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftOwnerTwiceConfirmNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftOwnerTwiceConfirmNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DRAFTOWNERTWICECONFIRMNOTIFY._serialized_start=38
-  _DRAFTOWNERTWICECONFIRMNOTIFY._serialized_end=123
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DRAFTOWNERTWICECONFIRMNOTIFY']._serialized_start=38
+  _globals['_DRAFTOWNERTWICECONFIRMNOTIFY']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

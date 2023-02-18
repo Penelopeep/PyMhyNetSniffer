@@ -14,15 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17UseMiracleRingReq.proto\x1a\x0cVector.proto\"\xd3\x01\n\x11UseMiracleRingReq\x12\x14\n\x03rot\x18\x0e \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\r \x01(\x0b\x32\x07.Vector\x12\x1c\n\x14miracle_ring_op_type\x18\x05 \x01(\r\"t\n\x11MiracleRingOpType\x12\x1d\n\x19MIRACLE_RING_OP_TYPE_NONE\x10\x00\x12\x1e\n\x1aMIRACLE_RING_OP_TYPE_PLACE\x10\x01\x12 \n\x1cMIRACLE_RING_OP_TYPE_RETRACT\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17UseMiracleRingReq.proto\x1a\x0cVector.proto\"Z\n\x11UseMiracleRingReq\x12\x14\n\x03pos\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\x02 \x01(\x0b\x32\x07.Vector\x12\x19\n\x11miracleRingOpType\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UseMiracleRingReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UseMiracleRingReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _USEMIRACLERINGREQ._serialized_start=42
-  _USEMIRACLERINGREQ._serialized_end=253
-  _USEMIRACLERINGREQ_MIRACLERINGOPTYPE._serialized_start=137
-  _USEMIRACLERINGREQ_MIRACLERINGOPTYPE._serialized_end=253
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_USEMIRACLERINGREQ']._serialized_start=41
+  _globals['_USEMIRACLERINGREQ']._serialized_end=131
 # @@protoc_insertion_point(module_scope)

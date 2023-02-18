@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import UgcType_pb2 as UgcType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43heckUgcUpdateRsp.proto\x1a\rUgcType.proto\"^\n\x11\x43heckUgcUpdateRsp\x12\x1a\n\x08ugc_type\x18\x06 \x01(\x0e\x32\x08.UgcType\x12\x1c\n\x14update_ugc_guid_list\x18\x03 \x03(\x04\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43heckUgcUpdateRsp.proto\x1a\rUgcType.proto\"Z\n\x11\x43heckUgcUpdateRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x19\n\x07ugcType\x18\x06 \x01(\x0e\x32\x08.UgcType\x12\x19\n\x11updateUgcGuidList\x18\x02 \x03(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CheckUgcUpdateRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CheckUgcUpdateRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHECKUGCUPDATERSP._serialized_start=42
-  _CHECKUGCUPDATERSP._serialized_end=136
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHECKUGCUPDATERSP']._serialized_start=42
+  _globals['_CHECKUGCUPDATERSP']._serialized_end=132
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGReason_pb2 as GCGReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GCGMsgSelectOnStage.proto\x1a\x0fGCGReason.proto\"[\n\x13GCGMsgSelectOnStage\x12\x1a\n\x06reason\x18\x0b \x01(\x0e\x32\n.GCGReason\x12\x15\n\rcontroller_id\x18\x0c \x01(\r\x12\x11\n\tcard_guid\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GCGMsgSelectOnStage.proto\x1a\x0fGCGReason.proto\"Y\n\x13GCGMsgSelectOnStage\x12\x1a\n\x06reason\x18\r \x01(\x0e\x32\n.GCGReason\x12\x10\n\x08\x63\x61rdGuid\x18\x05 \x01(\r\x12\x14\n\x0c\x63ontrollerId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgSelectOnStage_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgSelectOnStage_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGSELECTONSTAGE._serialized_start=46
-  _GCGMSGSELECTONSTAGE._serialized_end=137
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMSGSELECTONSTAGE']._serialized_start=46
+  _globals['_GCGMSGSELECTONSTAGE']._serialized_end=135
 # @@protoc_insertion_point(module_scope)

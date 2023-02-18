@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CustomCommonNodeInfo_pb2 as CustomCommonNodeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ustomGadgetTreeInfo.proto\x1a\x1a\x43ustomCommonNodeInfo.proto\"@\n\x14\x43ustomGadgetTreeInfo\x12(\n\tnode_list\x18\x01 \x03(\x0b\x32\x15.CustomCommonNodeInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ustomGadgetTreeInfo.proto\x1a\x1a\x43ustomCommonNodeInfo.proto\"?\n\x14\x43ustomGadgetTreeInfo\x12\'\n\x08nodeList\x18\x01 \x03(\x0b\x32\x15.CustomCommonNodeInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomGadgetTreeInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomGadgetTreeInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CUSTOMGADGETTREEINFO._serialized_start=58
-  _CUSTOMGADGETTREEINFO._serialized_end=122
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CUSTOMGADGETTREEINFO']._serialized_start=58
+  _globals['_CUSTOMGADGETTREEINFO']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

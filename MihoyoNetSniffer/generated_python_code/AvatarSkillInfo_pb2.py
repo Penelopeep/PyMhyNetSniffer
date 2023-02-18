@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41vatarSkillInfo.proto\"\\\n\x0f\x41vatarSkillInfo\x12\x14\n\x0cpass_cd_time\x18\x01 \x01(\r\x12\x19\n\x11\x66ull_cd_time_list\x18\x02 \x03(\r\x12\x18\n\x10max_charge_count\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41vatarSkillInfo.proto\"U\n\x0f\x41vatarSkillInfo\x12\x12\n\npassCdTime\x18\x01 \x01(\r\x12\x16\n\x0e\x66ullCdTimeList\x18\x02 \x03(\r\x12\x16\n\x0emaxChargeCount\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSkillInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSkillInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATARSKILLINFO._serialized_start=25
-  _AVATARSKILLINFO._serialized_end=117
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_AVATARSKILLINFO']._serialized_start=25
+  _globals['_AVATARSKILLINFO']._serialized_end=110
 # @@protoc_insertion_point(module_scope)

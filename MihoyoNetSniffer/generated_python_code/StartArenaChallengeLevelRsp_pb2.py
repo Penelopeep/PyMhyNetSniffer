@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!StartArenaChallengeLevelRsp.proto\"\x82\x01\n\x1bStartArenaChallengeLevelRsp\x12\x1b\n\x13Unk3300_FDFNFLAKONG\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x1b\n\x13Unk3300_DBHAGHMMLAI\x18\r \x01(\r\x12\x18\n\x10gadget_entity_id\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!StartArenaChallengeLevelRsp.proto\"\x80\x01\n\x1bStartArenaChallengeLevelRsp\x12\x1b\n\x13Unk3300_DBHAGHMMLAI\x18\x01 \x01(\r\x12\x16\n\x0egadgetEntityId\x18\x02 \x01(\r\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x1b\n\x13Unk3300_FDFNFLAKONG\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StartArenaChallengeLevelRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StartArenaChallengeLevelRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _STARTARENACHALLENGELEVELRSP._serialized_start=38
-  _STARTARENACHALLENGELEVELRSP._serialized_end=168
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_STARTARENACHALLENGELEVELRSP']._serialized_start=38
+  _globals['_STARTARENACHALLENGELEVELRSP']._serialized_end=166
 # @@protoc_insertion_point(module_scope)

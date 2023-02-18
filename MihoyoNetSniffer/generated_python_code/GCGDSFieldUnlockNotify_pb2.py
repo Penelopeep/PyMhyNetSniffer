@@ -11,15 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import GCGDSCardData_pb2 as GCGDSCardData__pb2
+import GCGDSDeckData_pb2 as GCGDSDeckData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGCGDSFieldUnlockNotify.proto\"*\n\x16GCGDSFieldUnlockNotify\x12\x10\n\x08\x66ield_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGCGDSFieldUnlockNotify.proto\x1a\x13GCGDSCardData.proto\x1a\x13GCGDSDeckData.proto\"\xb3\x01\n\x16GCGDSFieldUnlockNotify\x12\x13\n\x0bmpojoaeafpn\x18\x05 \x03(\r\x12 \n\x08\x63\x61rdList\x18\x07 \x03(\x0b\x32\x0e.GCGDSCardData\x12\x13\n\x0b\x66kppeakjlmb\x18\x02 \x01(\r\x12\x13\n\x0bnoclfjjcgeo\x18\r \x03(\r\x12#\n\x0bocigcagdgml\x18\x0b \x03(\x0b\x32\x0e.GCGDSDeckData\x12\x13\n\x0b\x62\x63mbnjhmble\x18\x08 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGDSFieldUnlockNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGDSFieldUnlockNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGDSFIELDUNLOCKNOTIFY._serialized_start=32
-  _GCGDSFIELDUNLOCKNOTIFY._serialized_end=74
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGDSFIELDUNLOCKNOTIFY']._serialized_start=75
+  _globals['_GCGDSFIELDUNLOCKNOTIFY']._serialized_end=254
 # @@protoc_insertion_point(module_scope)

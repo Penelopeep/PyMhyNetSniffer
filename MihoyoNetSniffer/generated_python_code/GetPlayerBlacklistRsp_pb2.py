@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FriendBrief_pb2 as FriendBrief__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGetPlayerBlacklistRsp.proto\x1a\x11\x46riendBrief.proto\"I\n\x15GetPlayerBlacklistRsp\x12\x1f\n\tblacklist\x18\x05 \x03(\x0b\x32\x0c.FriendBrief\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGetPlayerBlacklistRsp.proto\x1a\x11\x46riendBrief.proto\"I\n\x15GetPlayerBlacklistRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x1f\n\tblacklist\x18\x01 \x03(\x0b\x32\x0c.FriendBriefB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetPlayerBlacklistRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetPlayerBlacklistRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETPLAYERBLACKLISTRSP._serialized_start=50
-  _GETPLAYERBLACKLISTRSP._serialized_end=123
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETPLAYERBLACKLISTRSP']._serialized_start=50
+  _globals['_GETPLAYERBLACKLISTRSP']._serialized_end=123
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ServerMassiveEntity_pb2 as ServerMassiveEntity__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43reateMassiveEntityNotify.proto\x1a\x19ServerMassiveEntity.proto\"N\n\x19\x43reateMassiveEntityNotify\x12\x31\n\x13massive_entity_list\x18\x03 \x03(\x0b\x32\x14.ServerMassiveEntityb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43reateMassiveEntityNotify.proto\x1a\x19ServerMassiveEntity.proto\"L\n\x19\x43reateMassiveEntityNotify\x12/\n\x11massiveEntityList\x18\x08 \x03(\x0b\x32\x14.ServerMassiveEntityB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CreateMassiveEntityNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CreateMassiveEntityNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CREATEMASSIVEENTITYNOTIFY._serialized_start=62
-  _CREATEMASSIVEENTITYNOTIFY._serialized_end=140
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CREATEMASSIVEENTITYNOTIFY']._serialized_start=62
+  _globals['_CREATEMASSIVEENTITYNOTIFY']._serialized_end=138
 # @@protoc_insertion_point(module_scope)

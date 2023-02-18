@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orceAddPlayerFriendReq.proto\"-\n\x17\x46orceAddPlayerFriendReq\x12\x12\n\ntarget_uid\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orceAddPlayerFriendReq.proto\",\n\x17\x46orceAddPlayerFriendReq\x12\x11\n\ttargetUid\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForceAddPlayerFriendReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForceAddPlayerFriendReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FORCEADDPLAYERFRIENDREQ._serialized_start=33
-  _FORCEADDPLAYERFRIENDREQ._serialized_end=78
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FORCEADDPLAYERFRIENDREQ']._serialized_start=33
+  _globals['_FORCEADDPLAYERFRIENDREQ']._serialized_end=77
 # @@protoc_insertion_point(module_scope)

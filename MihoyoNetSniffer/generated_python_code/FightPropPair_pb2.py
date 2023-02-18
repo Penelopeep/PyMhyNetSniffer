@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46ightPropPair.proto\"6\n\rFightPropPair\x12\x11\n\tprop_type\x18\x01 \x01(\r\x12\x12\n\nprop_value\x18\x02 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46ightPropPair.proto\"4\n\rFightPropPair\x12\x10\n\x08propType\x18\x01 \x01(\r\x12\x11\n\tpropValue\x18\x02 \x01(\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FightPropPair_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FightPropPair_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FIGHTPROPPAIR._serialized_start=23
-  _FIGHTPROPPAIR._serialized_end=77
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FIGHTPROPPAIR']._serialized_start=23
+  _globals['_FIGHTPROPPAIR']._serialized_end=75
 # @@protoc_insertion_point(module_scope)

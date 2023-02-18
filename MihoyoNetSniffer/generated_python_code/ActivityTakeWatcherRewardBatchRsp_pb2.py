@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'ActivityTakeWatcherRewardBatchRsp.proto\x1a\x0fItemParam.proto\"\x81\x01\n!ActivityTakeWatcherRewardBatchRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x13\n\x0b\x61\x63tivity_id\x18\n \x01(\r\x12\x1d\n\titem_list\x18\x08 \x03(\x0b\x32\n.ItemParam\x12\x17\n\x0fwatcher_id_list\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'ActivityTakeWatcherRewardBatchRsp.proto\x1a\x0fItemParam.proto\"}\n!ActivityTakeWatcherRewardBatchRsp\x12\x12\n\nactivityId\x18\x0c \x01(\r\x12\x15\n\rwatcherIdList\x18\t \x03(\r\x12\x1c\n\x08itemList\x18\x08 \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityTakeWatcherRewardBatchRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityTakeWatcherRewardBatchRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ACTIVITYTAKEWATCHERREWARDBATCHRSP._serialized_start=61
-  _ACTIVITYTAKEWATCHERREWARDBATCHRSP._serialized_end=190
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ACTIVITYTAKEWATCHERREWARDBATCHRSP']._serialized_start=60
+  _globals['_ACTIVITYTAKEWATCHERREWARDBATCHRSP']._serialized_end=185
 # @@protoc_insertion_point(module_scope)

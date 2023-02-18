@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeSeekFurniturePlayerScore_pb2 as HomeSeekFurniturePlayerScore__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeSeekFurnitureOneRecord.proto\x1a\"HomeSeekFurniturePlayerScore.proto\"q\n\x1aHomeSeekFurnitureOneRecord\x12\x11\n\ttimestamp\x18\x0c \x01(\r\x12@\n\x19\x65ngaged_player_score_list\x18\x05 \x03(\x0b\x32\x1d.HomeSeekFurniturePlayerScoreb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeSeekFurnitureOneRecord.proto\x1a\"HomeSeekFurniturePlayerScore.proto\"n\n\x1aHomeSeekFurnitureOneRecord\x12=\n\x16\x65ngagedPlayerScoreList\x18\x06 \x03(\x0b\x32\x1d.HomeSeekFurniturePlayerScore\x12\x11\n\ttimestamp\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeSeekFurnitureOneRecord_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeSeekFurnitureOneRecord_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMESEEKFURNITUREONERECORD._serialized_start=72
-  _HOMESEEKFURNITUREONERECORD._serialized_end=185
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMESEEKFURNITUREONERECORD']._serialized_start=72
+  _globals['_HOMESEEKFURNITUREONERECORD']._serialized_end=182
 # @@protoc_insertion_point(module_scope)

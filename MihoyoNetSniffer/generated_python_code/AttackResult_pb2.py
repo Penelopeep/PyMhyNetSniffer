@@ -11,19 +11,21 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import AbilityIdentifier_pb2 as AbilityIdentifier__pb2
 import AttackHitEffectResult_pb2 as AttackHitEffectResult__pb2
+import AbilityIdentifier_pb2 as AbilityIdentifier__pb2
 import HitCollision_pb2 as HitCollision__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x41ttackResult.proto\x1a\x17\x41\x62ilityIdentifier.proto\x1a\x1b\x41ttackHitEffectResult.proto\x1a\x12HitCollision.proto\x1a\x0cVector.proto\"\x98\x07\n\x0c\x41ttackResult\x12\x1b\n\x13Unk3300_CJFKCNCGJLB\x18\x02 \x01(\r\x12\x13\n\x0b\x61ttacker_id\x18\x01 \x01(\r\x12\x1c\n\x13Unk3300_GGABJNLLEAJ\x18\xce\x0e \x01(\r\x12\x1c\n\x13Unk3300_HGJOKFPHMJJ\x18\xa3\x06 \x01(\x02\x12\x1c\n\x13Unk3300_DOMAOPGPHMD\x18\xc6\x03 \x01(\x08\x12\x14\n\x0c\x65lement_type\x18\x0c \x01(\r\x12\x1c\n\x13Unk3300_BALCPHMFIBC\x18\x9e\x0b \x01(\r\x12\x0e\n\x06\x64\x61mage\x18\n \x01(\x02\x12\x1c\n\x13Unk3300_HEIMDHBPFNF\x18\xdb\x08 \x01(\r\x12\x1c\n\x13Unk3300_HNKLIODEJAB\x18\x85\x05 \x01(\r\x12\x1c\n\x13Unk3300_ABJJNNNKGBB\x18\xce\r \x01(\r\x12\x1c\n\x13Unk3300_KPKAECBFABP\x18\xdc\x0f \x01(\r\x12.\n\x0ehit_eff_result\x18\x08 \x01(\x0b\x32\x16.AttackHitEffectResult\x12\x1b\n\x13Unk3300_EIGMFDMKADE\x18\x0e \x01(\r\x12.\n\x12\x61\x62ility_identifier\x18\x07 \x01(\x0b\x32\x12.AbilityIdentifier\x12\x1b\n\x13Unk3300_IPPHJMMELIG\x18\x03 \x01(\r\x12\x1c\n\x13Unk3300_EBCNAAJAONF\x18\xf6\r \x01(\r\x12\x1c\n\x13Unk3300_MEFFADEPHBM\x18\x8c\x0f \x01(\x02\x12\x1c\n\x13Unk3300_PIGBELICMMD\x18\xcc\x0b \x01(\r\x12\x1c\n\x13Unk3300_PJPCBIACFJK\x18\xf9\x04 \x01(\x08\x12 \n\x18hit_retreat_angle_compat\x18\x05 \x01(\x05\x12$\n\rhit_collision\x18\x0f \x01(\x0b\x32\r.HitCollision\x12\x1c\n\x13Unk3300_MGIMJGMIPLD\x18\xdc\x05 \x01(\x08\x12\x1b\n\x13Unk3300_GBKCGDPAJIE\x18\x06 \x01(\x08\x12\x1d\n\x0cresolved_dir\x18\x0b \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_MPKAMIMDKOE\x18\x1c \x01(\x02\x12\x15\n\ranim_event_id\x18\x04 \x01(\t\x12\x1c\n\x13Unk3300_GBPJCELJKJA\x18\xb4\x0e \x01(\r\x12\x1c\n\x13Unk3300_JMJHGJCAOBH\x18\x92\x07 \x01(\r\x12\x1c\n\x13Unk3300_FJJLKJBOBAC\x18\x87\x06 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x41ttackResult.proto\x1a\x1b\x41ttackHitEffectResult.proto\x1a\x17\x41\x62ilityIdentifier.proto\x1a\x12HitCollision.proto\x1a\x0cVector.proto\"\xba\x06\n\x0c\x41ttackResult\x12\x13\n\x0b\x65ndureBreak\x18\x06 \x01(\r\x12\x1c\n\x13Unk3300_BALCPHMFIBC\x18\x94\x0f \x01(\r\x12\x0e\n\x06\x64\x61mage\x18\x0c \x01(\x02\x12\x0e\n\x06isCrit\x18\t \x01(\x08\x12,\n\x0chitEffResult\x18\x05 \x01(\x0b\x32\x16.AttackHitEffectResult\x12%\n\x1c\x65lementDurabilityAttenuation\x18\xb5\n \x01(\x02\x12\x15\n\x0c\x64\x61mageShield\x18\xc6\x01 \x01(\x02\x12\x1c\n\x13Unk3300_DOMAOPGPHMD\x18\xa2\r \x01(\x08\x12\x13\n\x0b\x65lementType\x18\x01 \x01(\r\x12\x13\n\ntargetType\x18\xda\x02 \x01(\r\x12\x1c\n\x13Unk3300_MGIMJGMIPLD\x18\x93\x04 \x01(\x08\x12\x15\n\x0c\x63riticalRand\x18\xa8\x0c \x01(\r\x12-\n\x11\x61\x62ilityIdentifier\x18\x02 \x01(\x0b\x32\x12.AbilityIdentifier\x12#\n\x0chitCollision\x18\x0e \x01(\x0b\x32\r.HitCollision\x12\x1a\n\x11\x61ttackTimestampMs\x18\xa5\x0e \x01(\r\x12\x12\n\nattackerId\x18\x04 \x01(\r\x12\x13\n\x0b\x61nimEventId\x18\x0b \x01(\t\x12\x1d\n\x15hitRetreatAngleCompat\x18\x0f \x01(\x05\x12\x1b\n\x13Unk3300_JMJHGJCAOBH\x18\x37 \x01(\r\x12\x11\n\tdefenseId\x18\r \x01(\r\x12\x15\n\x0cisResistText\x18\xab\x04 \x01(\x08\x12\x14\n\x0b\x61ttackCount\x18\xb9\x0c \x01(\r\x12\x1c\n\x0bresolvedDir\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x12\n\nhitPosType\x18\x07 \x01(\r\x12\x1a\n\x11hashedAnimEventId\x18\xd9\x0f \x01(\r\x12\x1c\n\x13Unk3300_KPKAECBFABP\x18\xa1\x0c \x01(\r\x12\x14\n\x0b\x65ndureDelta\x18\x91\t \x01(\x02\x12\x1c\n\x13Unk3300_GBPJCELJKJA\x18\xbd\x05 \x01(\r\x12\x1b\n\x12\x65lementAmplifyRate\x18\xc2\x0e \x01(\x02\x12\x1c\n\x13Unk3300_ABJJNNNKGBB\x18\xf8\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AttackResult_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AttackResult_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ATTACKRESULT._serialized_start=111
-  _ATTACKRESULT._serialized_end=1031
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ATTACKRESULT']._serialized_start=111
+  _globals['_ATTACKRESULT']._serialized_end=937
 # @@protoc_insertion_point(module_scope)

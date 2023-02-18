@@ -11,15 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import uint32_pb2 as uint32__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DailyTaskUnlockedCitiesNotify.proto\";\n\x1d\x44\x61ilyTaskUnlockedCitiesNotify\x12\x1a\n\x12unlocked_city_list\x18\x0f \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DailyTaskUnlockedCitiesNotify.proto\x1a\x0cuint32.proto\"9\n\x1d\x44\x61ilyTaskUnlockedCitiesNotify\x12\x18\n\x10unlockedCityList\x18\x06 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DailyTaskUnlockedCitiesNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DailyTaskUnlockedCitiesNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DAILYTASKUNLOCKEDCITIESNOTIFY._serialized_start=39
-  _DAILYTASKUNLOCKEDCITIESNOTIFY._serialized_end=98
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DAILYTASKUNLOCKEDCITIESNOTIFY']._serialized_start=53
+  _globals['_DAILYTASKUNLOCKEDCITIESNOTIFY']._serialized_end=110
 # @@protoc_insertion_point(module_scope)

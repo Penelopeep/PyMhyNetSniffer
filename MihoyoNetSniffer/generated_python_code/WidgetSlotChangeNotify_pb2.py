@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import WidgetSlotData_pb2 as WidgetSlotData__pb2
 import WidgetSlotOp_pb2 as WidgetSlotOp__pb2
+import WidgetSlotData_pb2 as WidgetSlotData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cWidgetSlotChangeNotify.proto\x1a\x14WidgetSlotData.proto\x1a\x12WidgetSlotOp.proto\"R\n\x16WidgetSlotChangeNotify\x12\x19\n\x02op\x18\x05 \x01(\x0e\x32\r.WidgetSlotOp\x12\x1d\n\x04slot\x18\x02 \x01(\x0b\x32\x0f.WidgetSlotDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cWidgetSlotChangeNotify.proto\x1a\x12WidgetSlotOp.proto\x1a\x14WidgetSlotData.proto\"R\n\x16WidgetSlotChangeNotify\x12\x19\n\x02op\x18\x0e \x01(\x0e\x32\r.WidgetSlotOp\x12\x1d\n\x04slot\x18\x02 \x01(\x0b\x32\x0f.WidgetSlotDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetSlotChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetSlotChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WIDGETSLOTCHANGENOTIFY._serialized_start=74
-  _WIDGETSLOTCHANGENOTIFY._serialized_end=156
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WIDGETSLOTCHANGENOTIFY']._serialized_start=74
+  _globals['_WIDGETSLOTCHANGENOTIFY']._serialized_end=156
 # @@protoc_insertion_point(module_scope)

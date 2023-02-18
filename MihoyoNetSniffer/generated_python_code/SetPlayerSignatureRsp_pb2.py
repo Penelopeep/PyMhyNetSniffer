@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSetPlayerSignatureRsp.proto\";\n\x15SetPlayerSignatureRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x11\n\tsignature\x18\x0c \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSetPlayerSignatureRsp.proto\";\n\x15SetPlayerSignatureRsp\x12\x11\n\tsignature\x18\r \x01(\t\x12\x0f\n\x07retcode\x18\n \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetPlayerSignatureRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetPlayerSignatureRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SETPLAYERSIGNATURERSP._serialized_start=31
-  _SETPLAYERSIGNATURERSP._serialized_end=90
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SETPLAYERSIGNATURERSP']._serialized_start=31
+  _globals['_SETPLAYERSIGNATURERSP']._serialized_end=90
 # @@protoc_insertion_point(module_scope)

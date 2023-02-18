@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n UpdateSalvageBundleMarkRsp.proto\"W\n\x1aUpdateSalvageBundleMarkRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x10\n\x08stage_id\x18\x04 \x01(\r\x12\x16\n\x0e\x63hallenge_type\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n UpdateSalvageBundleMarkRsp.proto\"U\n\x1aUpdateSalvageBundleMarkRsp\x12\x15\n\rchallengeType\x18\x06 \x01(\r\x12\x0f\n\x07stageId\x18\n \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdateSalvageBundleMarkRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdateSalvageBundleMarkRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _UPDATESALVAGEBUNDLEMARKRSP._serialized_start=36
-  _UPDATESALVAGEBUNDLEMARKRSP._serialized_end=123
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_UPDATESALVAGEBUNDLEMARKRSP']._serialized_start=36
+  _globals['_UPDATESALVAGEBUNDLEMARKRSP']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

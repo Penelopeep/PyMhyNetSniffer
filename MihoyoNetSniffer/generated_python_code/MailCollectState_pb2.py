@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MailCollectState.proto*\xc4\x01\n\x10MailCollectState\x12*\n&MAIL_COLLECT_STATE_COLLECTIBLE_UNKNOWN\x10\x00\x12&\n\"MAIL_COLLECT_STATE_NOT_COLLECTIBLE\x10\x01\x12.\n*MAIL_COLLECT_STATE_COLLECTIBLE_UNCOLLECTED\x10\x02\x12,\n(MAIL_COLLECT_STATE_COLLECTIBLE_COLLECTED\x10\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MailCollectState.proto*\xc4\x01\n\x10MailCollectState\x12*\n&MAIL_COLLECT_STATE_COLLECTIBLE_UNKNOWN\x10\x00\x12&\n\"MAIL_COLLECT_STATE_NOT_COLLECTIBLE\x10\x01\x12.\n*MAIL_COLLECT_STATE_COLLECTIBLE_UNCOLLECTED\x10\x02\x12,\n(MAIL_COLLECT_STATE_COLLECTIBLE_COLLECTED\x10\x03\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MailCollectState_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MailCollectState_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MAILCOLLECTSTATE._serialized_start=27
-  _MAILCOLLECTSTATE._serialized_end=223
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MAILCOLLECTSTATE']._serialized_start=27
+  _globals['_MAILCOLLECTSTATE']._serialized_end=223
 # @@protoc_insertion_point(module_scope)

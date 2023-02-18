@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGCGDSDeckUpdateNotify.proto\":\n\x15GCGDSDeckUpdateNotify\x12\x10\n\x08is_valid\x18\x02 \x01(\x08\x12\x0f\n\x07\x64\x65\x63k_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGCGDSDeckUpdateNotify.proto\",\n\x15GCGDSDeckUpdateNotify\x12\x13\n\x0brewardIndex\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGDSDeckUpdateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGDSDeckUpdateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGDSDECKUPDATENOTIFY._serialized_start=31
-  _GCGDSDECKUPDATENOTIFY._serialized_end=89
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGDSDECKUPDATENOTIFY']._serialized_start=31
+  _globals['_GCGDSDECKUPDATENOTIFY']._serialized_end=75
 # @@protoc_insertion_point(module_scope)

@@ -15,13 +15,15 @@ import GCGIntentionChangeType_pb2 as GCGIntentionChangeType__pb2
 import GCGMsgPVEIntention_pb2 as GCGMsgPVEIntention__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGCGMsgPVEIntentionChange.proto\x1a\x1cGCGIntentionChangeType.proto\x1a\x18GCGMsgPVEIntention.proto\"|\n\x18GCGMsgPVEIntentionChange\x12,\n\x0b\x63hange_type\x18\t \x01(\x0e\x32\x17.GCGIntentionChangeType\x12\x32\n\x15\x63hange_intention_list\x18\x06 \x03(\x0b\x32\x13.GCGMsgPVEIntentionb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGCGMsgPVEIntentionChange.proto\x1a\x1cGCGIntentionChangeType.proto\x1a\x18GCGMsgPVEIntention.proto\"y\n\x18GCGMsgPVEIntentionChange\x12+\n\nchangeType\x18\x06 \x01(\x0e\x32\x17.GCGIntentionChangeType\x12\x30\n\x13\x63hangeIntentionList\x18\x02 \x03(\x0b\x32\x13.GCGMsgPVEIntentionB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgPVEIntentionChange_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgPVEIntentionChange_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGPVEINTENTIONCHANGE._serialized_start=90
-  _GCGMSGPVEINTENTIONCHANGE._serialized_end=214
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMSGPVEINTENTIONCHANGE']._serialized_start=90
+  _globals['_GCGMSGPVEINTENTIONCHANGE']._serialized_end=211
 # @@protoc_insertion_point(module_scope)

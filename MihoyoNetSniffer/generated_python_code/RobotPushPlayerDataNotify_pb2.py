@@ -11,15 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import bytes_pb2 as bytes__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fRobotPushPlayerDataNotify.proto\"(\n\x19RobotPushPlayerDataNotify\x12\x0b\n\x03\x62in\x18\x07 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fRobotPushPlayerDataNotify.proto\x1a\x0b\x62ytes.proto\"(\n\x19RobotPushPlayerDataNotify\x12\x0b\n\x03\x62in\x18\x06 \x01(\x0c\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RobotPushPlayerDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RobotPushPlayerDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROBOTPUSHPLAYERDATANOTIFY._serialized_start=35
-  _ROBOTPUSHPLAYERDATANOTIFY._serialized_end=75
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ROBOTPUSHPLAYERDATANOTIFY']._serialized_start=48
+  _globals['_ROBOTPUSHPLAYERDATANOTIFY']._serialized_end=88
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import AnnounceData_pb2 as AnnounceData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aServerAnnounceNotify.proto\x1a\x12\x41nnounceData.proto\"A\n\x14ServerAnnounceNotify\x12)\n\x12\x61nnounce_data_list\x18\x0e \x03(\x0b\x32\r.AnnounceDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aServerAnnounceNotify.proto\x1a\x12\x41nnounceData.proto\"?\n\x14ServerAnnounceNotify\x12\'\n\x10\x61nnounceDataList\x18\x01 \x03(\x0b\x32\r.AnnounceDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerAnnounceNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerAnnounceNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SERVERANNOUNCENOTIFY._serialized_start=50
-  _SERVERANNOUNCENOTIFY._serialized_end=115
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SERVERANNOUNCENOTIFY']._serialized_start=50
+  _globals['_SERVERANNOUNCENOTIFY']._serialized_end=113
 # @@protoc_insertion_point(module_scope)

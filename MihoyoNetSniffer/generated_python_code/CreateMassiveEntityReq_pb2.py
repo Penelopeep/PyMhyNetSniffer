@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ClientMassiveEntity_pb2 as ClientMassiveEntity__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43reateMassiveEntityReq.proto\x1a\x19\x43lientMassiveEntity.proto\"K\n\x16\x43reateMassiveEntityReq\x12\x31\n\x13massive_entity_list\x18\x03 \x03(\x0b\x32\x14.ClientMassiveEntityb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43reateMassiveEntityReq.proto\x1a\x19\x43lientMassiveEntity.proto\"I\n\x16\x43reateMassiveEntityReq\x12/\n\x11massiveEntityList\x18\x05 \x03(\x0b\x32\x14.ClientMassiveEntityB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CreateMassiveEntityReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CreateMassiveEntityReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CREATEMASSIVEENTITYREQ._serialized_start=59
-  _CREATEMASSIVEENTITYREQ._serialized_end=134
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CREATEMASSIVEENTITYREQ']._serialized_start=59
+  _globals['_CREATEMASSIVEENTITYREQ']._serialized_end=132
 # @@protoc_insertion_point(module_scope)

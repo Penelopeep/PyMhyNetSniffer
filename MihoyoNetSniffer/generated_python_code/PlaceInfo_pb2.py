@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fPlaceInfo.proto\x1a\x0cVector.proto\"7\n\tPlaceInfo\x12\x14\n\x03pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\x02 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fPlaceInfo.proto\x1a\x0cVector.proto\"7\n\tPlaceInfo\x12\x14\n\x03pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\x02 \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlaceInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlaceInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLACEINFO._serialized_start=33
-  _PLACEINFO._serialized_end=88
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLACEINFO']._serialized_start=33
+  _globals['_PLACEINFO']._serialized_end=88
 # @@protoc_insertion_point(module_scope)

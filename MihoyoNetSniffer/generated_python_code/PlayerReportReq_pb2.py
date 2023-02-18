@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ReportReasonType_pb2 as ReportReasonType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15PlayerReportReq.proto\x1a\x16ReportReasonType.proto\"\x99\x01\n\x0fPlayerReportReq\x12\x1f\n\x17target_home_module_name\x18\x05 \x01(\t\x12\x12\n\ntarget_uid\x18\n \x01(\r\x12!\n\x06reason\x18\x07 \x01(\x0e\x32\x11.ReportReasonType\x12\x0f\n\x07\x63ontent\x18\x0b \x01(\t\x12\x1d\n\x15target_home_module_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15PlayerReportReq.proto\x1a\x16ReportReasonType.proto\"\x92\x01\n\x0fPlayerReportReq\x12\x0f\n\x07\x63ontent\x18\n \x01(\t\x12!\n\x06reason\x18\x08 \x01(\x0e\x32\x11.ReportReasonType\x12\x11\n\ttargetUid\x18\x06 \x01(\r\x12\x1a\n\x12targetHomeModuleId\x18\x0c \x01(\r\x12\x1c\n\x14targetHomeModuleName\x18\x02 \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerReportReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerReportReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERREPORTREQ._serialized_start=50
-  _PLAYERREPORTREQ._serialized_end=203
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERREPORTREQ']._serialized_start=50
+  _globals['_PLAYERREPORTREQ']._serialized_end=196
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ProfilePicture_pb2 as ProfilePicture__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWinterCampFriendWishData.proto\x1a\x14ProfilePicture.proto\"y\n\x18WinterCampFriendWishData\x12\x14\n\x0citem_id_list\x18\t \x03(\r\x12\x10\n\x08nickname\x18\x0f \x01(\t\x12\x0b\n\x03uid\x18\x06 \x01(\r\x12(\n\x0fprofile_picture\x18\n \x01(\x0b\x32\x0f.ProfilePictureb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWinterCampFriendWishData.proto\x1a\x14ProfilePicture.proto\"v\n\x18WinterCampFriendWishData\x12\x0b\n\x03uid\x18\x08 \x01(\r\x12\x12\n\nitemIdList\x18\x0e \x03(\r\x12\x10\n\x08nickname\x18\x07 \x01(\t\x12\'\n\x0eprofilePicture\x18\t \x01(\x0b\x32\x0f.ProfilePictureB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampFriendWishData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampFriendWishData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINTERCAMPFRIENDWISHDATA._serialized_start=56
-  _WINTERCAMPFRIENDWISHDATA._serialized_end=177
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WINTERCAMPFRIENDWISHDATA']._serialized_start=56
+  _globals['_WINTERCAMPFRIENDWISHDATA']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

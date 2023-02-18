@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import ItemExceedLimitMsgType_pb2 as ItemExceedLimitMsgType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#CheckAddItemExceedLimitNotify.proto\"\x82\x03\n\x1d\x43heckAddItemExceedLimitNotify\x12\x1b\n\x13Unk3300_PKJMEJKAPBI\x18\x04 \x03(\r\x12\x1b\n\x13Unk3300_GPDPCJLHBDE\x18\x0b \x03(\r\x12\x0e\n\x06reason\x18\t \x01(\r\x12\x0f\n\x07is_drop\x18\x0e \x01(\x08\x12G\n\x08msg_type\x18\x06 \x01(\x0e\x32\x35.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType\"\xbc\x01\n\x16ItemExceedLimitMsgType\x12&\n\"ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT\x10\x00\x12#\n\x1fITEM_EXCEED_LIMIT_MSG_TYPE_TEXT\x10\x01\x12%\n!ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG\x10\x02\x12.\n*ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_NONBLOCK\x10\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#CheckAddItemExceedLimitNotify.proto\x1a\x1cItemExceedLimitMsgType.proto\"\xa4\x01\n\x1d\x43heckAddItemExceedLimitNotify\x12\x1f\n\x17\x66inishedChallengeIdList\x18\x0f \x03(\r\x12\x18\n\x10\x65xceededItemList\x18\x05 \x03(\r\x12\x0e\n\x06reason\x18\x02 \x01(\r\x12(\n\x07msgType\x18\x07 \x01(\x0e\x32\x17.ItemExceedLimitMsgType\x12\x0e\n\x06isDrop\x18\x01 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CheckAddItemExceedLimitNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CheckAddItemExceedLimitNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHECKADDITEMEXCEEDLIMITNOTIFY._serialized_start=40
-  _CHECKADDITEMEXCEEDLIMITNOTIFY._serialized_end=426
-  _CHECKADDITEMEXCEEDLIMITNOTIFY_ITEMEXCEEDLIMITMSGTYPE._serialized_start=238
-  _CHECKADDITEMEXCEEDLIMITNOTIFY_ITEMEXCEEDLIMITMSGTYPE._serialized_end=426
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHECKADDITEMEXCEEDLIMITNOTIFY']._serialized_start=70
+  _globals['_CHECKADDITEMEXCEEDLIMITNOTIFY']._serialized_end=234
 # @@protoc_insertion_point(module_scope)

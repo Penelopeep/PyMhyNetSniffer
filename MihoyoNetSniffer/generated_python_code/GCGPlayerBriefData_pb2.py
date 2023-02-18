@@ -14,17 +14,19 @@ _sym_db = _symbol_database.Default()
 import ProfilePicture_pb2 as ProfilePicture__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGPlayerBriefData.proto\x1a\x14ProfilePicture.proto\"\x9f\x02\n\x12GCGPlayerBriefData\x12\x11\n\tonline_id\x18\x05 \x01(\t\x12\x0b\n\x03uid\x18\t \x01(\r\x12\x15\n\rcontroller_id\x18\n \x01(\r\x12(\n\x0fprofile_picture\x18\x0b \x01(\x0b\x32\x0f.ProfilePicture\x12\x11\n\tnick_name\x18\x01 \x01(\t\x12;\n\rcard_face_map\x18\x0e \x03(\x0b\x32$.GCGPlayerBriefData.CardFaceMapEntry\x12\x14\n\x0c\x63\x61rd_id_list\x18\r \x03(\r\x12\x0e\n\x06psn_id\x18\x02 \x01(\t\x1a\x32\n\x10\x43\x61rdFaceMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGPlayerBriefData.proto\x1a\x14ProfilePicture.proto\"\x96\x02\n\x12GCGPlayerBriefData\x12\r\n\x05psnId\x18\x07 \x01(\t\x12\x39\n\x0b\x63\x61rdFaceMap\x18\x04 \x03(\x0b\x32$.GCGPlayerBriefData.CardFaceMapEntry\x12\'\n\x0eprofilePicture\x18\x0e \x01(\x0b\x32\x0f.ProfilePicture\x12\x0b\n\x03uid\x18\x03 \x01(\r\x12\x10\n\x08nickName\x18\x02 \x01(\t\x12\x10\n\x08onlineId\x18\n \x01(\t\x12\x14\n\x0c\x63ontrollerId\x18\x0b \x01(\r\x12\x12\n\ncardIdList\x18\r \x03(\r\x1a\x32\n\x10\x43\x61rdFaceMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGPlayerBriefData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGPlayerBriefData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _GCGPLAYERBRIEFDATA_CARDFACEMAPENTRY._options = None
   _GCGPLAYERBRIEFDATA_CARDFACEMAPENTRY._serialized_options = b'8\001'
-  _GCGPLAYERBRIEFDATA._serialized_start=51
-  _GCGPLAYERBRIEFDATA._serialized_end=338
-  _GCGPLAYERBRIEFDATA_CARDFACEMAPENTRY._serialized_start=288
-  _GCGPLAYERBRIEFDATA_CARDFACEMAPENTRY._serialized_end=338
+  _globals['_GCGPLAYERBRIEFDATA']._serialized_start=51
+  _globals['_GCGPLAYERBRIEFDATA']._serialized_end=329
+  _globals['_GCGPLAYERBRIEFDATA_CARDFACEMAPENTRY']._serialized_start=279
+  _globals['_GCGPLAYERBRIEFDATA_CARDFACEMAPENTRY']._serialized_end=329
 # @@protoc_insertion_point(module_scope)

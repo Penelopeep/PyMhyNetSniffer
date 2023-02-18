@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14PrivateChatReq.proto\"O\n\x0ePrivateChatReq\x12\x12\n\ntarget_uid\x18\x05 \x01(\r\x12\x0e\n\x04text\x18\x01 \x01(\tH\x00\x12\x0e\n\x04icon\x18\r \x01(\rH\x00\x42\t\n\x07\x63ontentb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14PrivateChatReq.proto\"N\n\x0ePrivateChatReq\x12\x11\n\ttargetUid\x18\x0b \x01(\r\x12\x0e\n\x04text\x18\x0f \x01(\tH\x00\x12\x0e\n\x04icon\x18\t \x01(\rH\x00\x42\t\n\x07\x63ontentB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PrivateChatReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PrivateChatReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PRIVATECHATREQ._serialized_start=24
-  _PRIVATECHATREQ._serialized_end=103
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PRIVATECHATREQ']._serialized_start=24
+  _globals['_PRIVATECHATREQ']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

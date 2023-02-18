@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import IrodoriMasterGallerySettleInfo_pb2 as IrodoriMasterGallerySettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&IrodoriMasterGallerySettleNotify.proto\x1a$IrodoriMasterGallerySettleInfo.proto\"l\n IrodoriMasterGallerySettleNotify\x12\x34\n\x0bsettle_info\x18\t \x01(\x0b\x32\x1f.IrodoriMasterGallerySettleInfo\x12\x12\n\ngallery_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&IrodoriMasterGallerySettleNotify.proto\x1a$IrodoriMasterGallerySettleInfo.proto\"j\n IrodoriMasterGallerySettleNotify\x12\x11\n\tgalleryId\x18\x08 \x01(\r\x12\x33\n\nsettleInfo\x18\x04 \x01(\x0b\x32\x1f.IrodoriMasterGallerySettleInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriMasterGallerySettleNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriMasterGallerySettleNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _IRODORIMASTERGALLERYSETTLENOTIFY._serialized_start=80
-  _IRODORIMASTERGALLERYSETTLENOTIFY._serialized_end=188
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_IRODORIMASTERGALLERYSETTLENOTIFY']._serialized_start=80
+  _globals['_IRODORIMASTERGALLERYSETTLENOTIFY']._serialized_end=186
 # @@protoc_insertion_point(module_scope)

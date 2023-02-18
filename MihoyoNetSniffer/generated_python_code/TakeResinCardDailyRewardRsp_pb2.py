@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeResinCardDailyRewardRsp.proto\x1a\x0fItemParam.proto\"g\n\x1bTakeResinCardDailyRewardRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x1c\n\x08item_vec\x18\x0f \x03(\x0b\x32\n.ItemParam\x12\x19\n\x11product_config_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeResinCardDailyRewardRsp.proto\x1a\x0fItemParam.proto\"d\n\x1bTakeResinCardDailyRewardRsp\x12\x1b\n\x07itemVec\x18\x0f \x03(\x0b\x32\n.ItemParam\x12\x17\n\x0fproductConfigId\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\t \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeResinCardDailyRewardRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeResinCardDailyRewardRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TAKERESINCARDDAILYREWARDRSP._serialized_start=54
-  _TAKERESINCARDDAILYREWARDRSP._serialized_end=157
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TAKERESINCARDDAILYREWARDRSP']._serialized_start=54
+  _globals['_TAKERESINCARDDAILYREWARDRSP']._serialized_end=154
 # @@protoc_insertion_point(module_scope)

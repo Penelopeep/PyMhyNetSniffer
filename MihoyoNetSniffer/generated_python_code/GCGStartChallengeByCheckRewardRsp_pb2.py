@@ -11,16 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGLevelType_pb2 as GCGLevelType__pb2
+import uint32_pb2 as uint32__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'GCGStartChallengeByCheckRewardRsp.proto\x1a\x12GCGLevelType.proto\"\xb6\x01\n!GCGStartChallengeByCheckRewardRsp\x12\x1b\n\x13Unk3300_GPDPCJLHBDE\x18\x03 \x03(\r\x12\x10\n\x08level_id\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_PKJMEJKAPBI\x18\x08 \x03(\r\x12!\n\nlevel_type\x18\x02 \x01(\x0e\x32\r.GCGLevelType\x12\x11\n\tconfig_id\x18\t \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'GCGStartChallengeByCheckRewardRsp.proto\x1a\x0cuint32.proto\"o\n!GCGStartChallengeByCheckRewardRsp\x12\x13\n\x0b\x62phdgokdnnk\x18\x07 \x01(\x08\x12\x17\n\x0fnextRefreshTime\x18\t \x01(\r\x12\x1c\n\x14\x65xceededItemTypeList\x18\x08 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGStartChallengeByCheckRewardRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGStartChallengeByCheckRewardRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSTARTCHALLENGEBYCHECKREWARDRSP._serialized_start=64
-  _GCGSTARTCHALLENGEBYCHECKREWARDRSP._serialized_end=246
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGSTARTCHALLENGEBYCHECKREWARDRSP']._serialized_start=57
+  _globals['_GCGSTARTCHALLENGEBYCHECKREWARDRSP']._serialized_end=168
 # @@protoc_insertion_point(module_scope)

@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import Status_pb2 as Status__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x41\x63hievement.proto\"\xe9\x01\n\x0b\x41\x63hievement\x12\x18\n\x10\x66inish_timestamp\x18\x08 \x01(\r\x12\x14\n\x0c\x63ur_progress\x18\x0b \x01(\r\x12\x16\n\x0etotal_progress\x18\x06 \x01(\r\x12\n\n\x02id\x18\x0e \x01(\r\x12#\n\x06status\x18\x0f \x01(\x0e\x32\x13.Achievement.Status\"a\n\x06Status\x12\x12\n\x0eSTATUS_INVALID\x10\x00\x12\x15\n\x11STATUS_UNFINISHED\x10\x01\x12\x13\n\x0fSTATUS_FINISHED\x10\x02\x12\x17\n\x13STATUS_REWARD_TAKEN\x10\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x41\x63hievement.proto\x1a\x0cStatus.proto\"w\n\x0b\x41\x63hievement\x12\x13\n\x0b\x63urProgress\x18\n \x01(\r\x12\n\n\x02id\x18\r \x01(\r\x12\x15\n\rtotalProgress\x18\x0e \x01(\r\x12\x17\n\x06status\x18\x05 \x01(\x0e\x32\x07.Status\x12\x17\n\x0f\x66inishTimestamp\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Achievement_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Achievement_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ACHIEVEMENT._serialized_start=22
-  _ACHIEVEMENT._serialized_end=255
-  _ACHIEVEMENT_STATUS._serialized_start=158
-  _ACHIEVEMENT_STATUS._serialized_end=255
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ACHIEVEMENT']._serialized_start=35
+  _globals['_ACHIEVEMENT']._serialized_end=154
 # @@protoc_insertion_point(module_scope)

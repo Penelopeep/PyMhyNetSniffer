@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import BlossomScheduleInfo_pb2 as BlossomScheduleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)WorldOwnerBlossomScheduleInfoNotify.proto\x1a\x19\x42lossomScheduleInfo.proto\"R\n#WorldOwnerBlossomScheduleInfoNotify\x12+\n\rschedule_info\x18\n \x01(\x0b\x32\x14.BlossomScheduleInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)WorldOwnerBlossomScheduleInfoNotify.proto\x1a\x19\x42lossomScheduleInfo.proto\"Q\n#WorldOwnerBlossomScheduleInfoNotify\x12*\n\x0cscheduleInfo\x18\x04 \x01(\x0b\x32\x14.BlossomScheduleInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldOwnerBlossomScheduleInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldOwnerBlossomScheduleInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WORLDOWNERBLOSSOMSCHEDULEINFONOTIFY._serialized_start=72
-  _WORLDOWNERBLOSSOMSCHEDULEINFONOTIFY._serialized_end=154
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WORLDOWNERBLOSSOMSCHEDULEINFONOTIFY']._serialized_start=72
+  _globals['_WORLDOWNERBLOSSOMSCHEDULEINFONOTIFY']._serialized_end=153
 # @@protoc_insertion_point(module_scope)

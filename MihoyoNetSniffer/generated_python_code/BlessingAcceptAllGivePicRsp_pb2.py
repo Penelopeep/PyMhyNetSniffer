@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingAcceptAllGivePicRsp.proto\"\xd0\x01\n\x1b\x42lessingAcceptAllGivePicRsp\x12\x19\n\x11\x61\x63\x63\x65pt_index_list\x18\x0b \x03(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12M\n\x12\x61\x63\x63\x65pt_pic_num_map\x18\x0f \x03(\x0b\x32\x31.BlessingAcceptAllGivePicRsp.AcceptPicNumMapEntry\x1a\x36\n\x14\x41\x63\x63\x65ptPicNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingAcceptAllGivePicRsp.proto\"\xcb\x01\n\x1b\x42lessingAcceptAllGivePicRsp\x12J\n\x0f\x61\x63\x63\x65ptPicNumMap\x18\r \x03(\x0b\x32\x31.BlessingAcceptAllGivePicRsp.AcceptPicNumMapEntry\x12\x17\n\x0f\x61\x63\x63\x65ptIndexList\x18\x03 \x03(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x1a\x36\n\x14\x41\x63\x63\x65ptPicNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingAcceptAllGivePicRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingAcceptAllGivePicRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _BLESSINGACCEPTALLGIVEPICRSP_ACCEPTPICNUMMAPENTRY._options = None
   _BLESSINGACCEPTALLGIVEPICRSP_ACCEPTPICNUMMAPENTRY._serialized_options = b'8\001'
-  _BLESSINGACCEPTALLGIVEPICRSP._serialized_start=38
-  _BLESSINGACCEPTALLGIVEPICRSP._serialized_end=246
-  _BLESSINGACCEPTALLGIVEPICRSP_ACCEPTPICNUMMAPENTRY._serialized_start=192
-  _BLESSINGACCEPTALLGIVEPICRSP_ACCEPTPICNUMMAPENTRY._serialized_end=246
+  _globals['_BLESSINGACCEPTALLGIVEPICRSP']._serialized_start=38
+  _globals['_BLESSINGACCEPTALLGIVEPICRSP']._serialized_end=241
+  _globals['_BLESSINGACCEPTALLGIVEPICRSP_ACCEPTPICNUMMAPENTRY']._serialized_start=187
+  _globals['_BLESSINGACCEPTALLGIVEPICRSP_ACCEPTPICNUMMAPENTRY']._serialized_end=241
 # @@protoc_insertion_point(module_scope)

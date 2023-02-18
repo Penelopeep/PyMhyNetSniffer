@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FurnitureMakeData_pb2 as FurnitureMakeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46urnitureMakeSlot.proto\x1a\x17\x46urnitureMakeData.proto\"I\n\x11\x46urnitureMakeSlot\x12\x34\n\x18\x66urniture_make_data_list\x18\x01 \x03(\x0b\x32\x12.FurnitureMakeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46urnitureMakeSlot.proto\x1a\x17\x46urnitureMakeData.proto\"F\n\x11\x46urnitureMakeSlot\x12\x31\n\x15\x66urnitureMakeDataList\x18\x04 \x03(\x0b\x32\x12.FurnitureMakeDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeSlot_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeSlot_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FURNITUREMAKESLOT._serialized_start=52
-  _FURNITUREMAKESLOT._serialized_end=125
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FURNITUREMAKESLOT']._serialized_start=52
+  _globals['_FURNITUREMAKESLOT']._serialized_end=122
 # @@protoc_insertion_point(module_scope)

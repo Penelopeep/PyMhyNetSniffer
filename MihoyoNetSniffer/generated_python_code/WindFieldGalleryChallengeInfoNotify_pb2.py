@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)WindFieldGalleryChallengeInfoNotify.proto\"\xdc\x01\n#WindFieldGalleryChallengeInfoNotify\x12\x1b\n\x13Unk3300_FFODAKMKGEK\x18\r \x01(\r\x12\x10\n\x08is_start\x18\x02 \x01(\x08\x12\x1b\n\x13Unk3300_GLNHBJJJINK\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_NBIBKFKOCFK\x18\x03 \x01(\r\x12\x12\n\nis_success\x18\x07 \x01(\x08\x12\x1b\n\x13Unk3300_GNJKOCLJFNM\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_MMONPDMIEBN\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)WindFieldGalleryChallengeInfoNotify.proto\"\xda\x01\n#WindFieldGalleryChallengeInfoNotify\x12\x1b\n\x13Unk3300_GLNHBJJJINK\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_FFODAKMKGEK\x18\t \x01(\r\x12\x1b\n\x13Unk3300_NBIBKFKOCFK\x18\r \x01(\r\x12\x11\n\tisSuccess\x18\x0c \x01(\x08\x12\x0f\n\x07isStart\x18\n \x01(\x08\x12\x1b\n\x13Unk3300_MMONPDMIEBN\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_GNJKOCLJFNM\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WindFieldGalleryChallengeInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WindFieldGalleryChallengeInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINDFIELDGALLERYCHALLENGEINFONOTIFY._serialized_start=46
-  _WINDFIELDGALLERYCHALLENGEINFONOTIFY._serialized_end=266
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WINDFIELDGALLERYCHALLENGEINFONOTIFY']._serialized_start=46
+  _globals['_WINDFIELDGALLERYCHALLENGEINFONOTIFY']._serialized_end=264
 # @@protoc_insertion_point(module_scope)

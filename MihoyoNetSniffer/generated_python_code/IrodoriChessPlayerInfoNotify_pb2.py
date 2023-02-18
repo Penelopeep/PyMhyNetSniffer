@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import IrodoriChessPlayerInfo_pb2 as IrodoriChessPlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"IrodoriChessPlayerInfoNotify.proto\x1a\x1cIrodoriChessPlayerInfo.proto\"L\n\x1cIrodoriChessPlayerInfoNotify\x12,\n\x0bplayer_info\x18\n \x01(\x0b\x32\x17.IrodoriChessPlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"IrodoriChessPlayerInfoNotify.proto\x1a\x1cIrodoriChessPlayerInfo.proto\"K\n\x1cIrodoriChessPlayerInfoNotify\x12+\n\nplayerInfo\x18\r \x01(\x0b\x32\x17.IrodoriChessPlayerInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriChessPlayerInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriChessPlayerInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _IRODORICHESSPLAYERINFONOTIFY._serialized_start=68
-  _IRODORICHESSPLAYERINFONOTIFY._serialized_end=144
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_IRODORICHESSPLAYERINFONOTIFY']._serialized_start=68
+  _globals['_IRODORICHESSPLAYERINFONOTIFY']._serialized_end=143
 # @@protoc_insertion_point(module_scope)

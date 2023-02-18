@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"RogueEliteCellDifficultyType.proto*v\n\x1cRogueEliteCellDifficultyType\x12+\n\'ROGUE_ELITE_CELL_DIFFICULTY_TYPE_NORMAL\x10\x00\x12)\n%ROGUE_ELITE_CELL_DIFFICULTY_TYPE_HARD\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"RogueEliteCellDifficultyType.proto*v\n\x1cRogueEliteCellDifficultyType\x12+\n\'ROGUE_ELITE_CELL_DIFFICULTY_TYPE_NORMAL\x10\x00\x12)\n%ROGUE_ELITE_CELL_DIFFICULTY_TYPE_HARD\x10\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueEliteCellDifficultyType_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueEliteCellDifficultyType_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROGUEELITECELLDIFFICULTYTYPE._serialized_start=38
-  _ROGUEELITECELLDIFFICULTYTYPE._serialized_end=156
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ROGUEELITECELLDIFFICULTYTYPE']._serialized_start=38
+  _globals['_ROGUEELITECELLDIFFICULTYTYPE']._serialized_end=156
 # @@protoc_insertion_point(module_scope)

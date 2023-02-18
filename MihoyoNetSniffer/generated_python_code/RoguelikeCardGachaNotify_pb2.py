@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eRoguelikeCardGachaNotify.proto\"E\n\x18RoguelikeCardGachaNotify\x12\x16\n\x0eis_can_refresh\x18\x07 \x01(\x08\x12\x11\n\tcard_list\x18\x0f \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eRoguelikeCardGachaNotify.proto\"B\n\x18RoguelikeCardGachaNotify\x12\x14\n\x0cisCanRefresh\x18\t \x01(\x08\x12\x10\n\x08\x63\x61rdList\x18\x05 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeCardGachaNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeCardGachaNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROGUELIKECARDGACHANOTIFY._serialized_start=34
-  _ROGUELIKECARDGACHANOTIFY._serialized_end=103
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ROGUELIKECARDGACHANOTIFY']._serialized_start=34
+  _globals['_ROGUELIKECARDGACHANOTIFY']._serialized_end=100
 # @@protoc_insertion_point(module_scope)

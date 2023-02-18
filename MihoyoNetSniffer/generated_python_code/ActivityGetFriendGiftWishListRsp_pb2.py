@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ActivityFriendGiftWishData_pb2 as ActivityFriendGiftWishData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&ActivityGetFriendGiftWishListRsp.proto\x1a ActivityFriendGiftWishData.proto\"\x84\x01\n ActivityGetFriendGiftWishListRsp\x12:\n\x15\x66riend_gift_wish_list\x18\x0c \x03(\x0b\x32\x1b.ActivityFriendGiftWishData\x12\x13\n\x0bschedule_id\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&ActivityGetFriendGiftWishListRsp.proto\x1a ActivityFriendGiftWishData.proto\"\x80\x01\n ActivityGetFriendGiftWishListRsp\x12\x12\n\nscheduleId\x18\x08 \x01(\r\x12\x37\n\x12\x66riendGiftWishList\x18\r \x03(\x0b\x32\x1b.ActivityFriendGiftWishData\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityGetFriendGiftWishListRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityGetFriendGiftWishListRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ACTIVITYGETFRIENDGIFTWISHLISTRSP._serialized_start=77
-  _ACTIVITYGETFRIENDGIFTWISHLISTRSP._serialized_end=209
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ACTIVITYGETFRIENDGIFTWISHLISTRSP']._serialized_start=77
+  _globals['_ACTIVITYGETFRIENDGIFTWISHLISTRSP']._serialized_end=205
 # @@protoc_insertion_point(module_scope)

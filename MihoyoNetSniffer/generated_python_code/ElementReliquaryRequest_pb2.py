@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x45lementReliquaryRequest.proto\"C\n\x17\x45lementReliquaryRequest\x12\x12\n\nequip_type\x18\t \x01(\r\x12\x14\n\x0c\x65lement_type\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x45lementReliquaryRequest.proto\"A\n\x17\x45lementReliquaryRequest\x12\x13\n\x0b\x65lementType\x18\x0c \x01(\r\x12\x11\n\tequipType\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ElementReliquaryRequest_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ElementReliquaryRequest_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ELEMENTRELIQUARYREQUEST._serialized_start=33
-  _ELEMENTRELIQUARYREQUEST._serialized_end=100
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ELEMENTRELIQUARYREQUEST']._serialized_start=33
+  _globals['_ELEMENTRELIQUARYREQUEST']._serialized_end=98
 # @@protoc_insertion_point(module_scope)

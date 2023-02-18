@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import TaskVar_pb2 as TaskVar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13TaskVarNotify.proto\x1a\rTaskVar.proto\"0\n\rTaskVarNotify\x12\x1f\n\rtask_var_list\x18\r \x03(\x0b\x32\x08.TaskVarb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13TaskVarNotify.proto\x1a\rTaskVar.proto\".\n\rTaskVarNotify\x12\x1d\n\x0btaskVarList\x18\t \x03(\x0b\x32\x08.TaskVarB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TaskVarNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TaskVarNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TASKVARNOTIFY._serialized_start=38
-  _TASKVARNOTIFY._serialized_end=86
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TASKVARNOTIFY']._serialized_start=38
+  _globals['_TASKVARNOTIFY']._serialized_end=84
 # @@protoc_insertion_point(module_scope)

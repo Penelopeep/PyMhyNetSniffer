@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HuntingPair_pb2 as HuntingPair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetHuntingOfferRewardRsp.proto\x1a\x11HuntingPair.proto\"`\n\x18GetHuntingOfferRewardRsp\x12\x0f\n\x07\x63ity_id\x18\x03 \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\"\n\x0chunting_pair\x18\n \x01(\x0b\x32\x0c.HuntingPairb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetHuntingOfferRewardRsp.proto\x1a\x11HuntingPair.proto\"^\n\x18GetHuntingOfferRewardRsp\x12!\n\x0bhuntingPair\x18\x05 \x01(\x0b\x32\x0c.HuntingPair\x12\x0e\n\x06\x63ityId\x18\x06 \x01(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetHuntingOfferRewardRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetHuntingOfferRewardRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETHUNTINGOFFERREWARDRSP._serialized_start=53
-  _GETHUNTINGOFFERREWARDRSP._serialized_end=149
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETHUNTINGOFFERREWARDRSP']._serialized_start=53
+  _globals['_GETHUNTINGOFFERREWARDRSP']._serialized_end=147
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TakeAchievementGoalRewardRsp.proto\x1a\x0fItemParam.proto\"_\n\x1cTakeAchievementGoalRewardRsp\x12\x0f\n\x07id_list\x18\x02 \x03(\r\x12\x1d\n\titem_list\x18\x01 \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TakeAchievementGoalRewardRsp.proto\x1a\x0fItemParam.proto\"]\n\x1cTakeAchievementGoalRewardRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x1c\n\x08itemList\x18\x06 \x03(\x0b\x32\n.ItemParam\x12\x0e\n\x06idList\x18\x0f \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeAchievementGoalRewardRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeAchievementGoalRewardRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TAKEACHIEVEMENTGOALREWARDRSP._serialized_start=55
-  _TAKEACHIEVEMENTGOALREWARDRSP._serialized_end=150
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TAKEACHIEVEMENTGOALREWARDRSP']._serialized_start=55
+  _globals['_TAKEACHIEVEMENTGOALREWARDRSP']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

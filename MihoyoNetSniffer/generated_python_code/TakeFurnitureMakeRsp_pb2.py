@@ -15,13 +15,15 @@ import FurnitureMakeSlot_pb2 as FurnitureMakeSlot__pb2
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aTakeFurnitureMakeRsp.proto\x1a\x17\x46urnitureMakeSlot.proto\x1a\x0fItemParam.proto\"\xbb\x01\n\x14TakeFurnitureMakeRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\'\n\x13Unk3300_JDHFPCBOGFH\x18\x05 \x03(\x0b\x32\n.ItemParam\x12/\n\x13\x66urniture_make_slot\x18\x0e \x01(\x0b\x32\x12.FurnitureMakeSlot\x12\'\n\x13Unk3300_EOLDJAMHDHM\x18\n \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07make_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aTakeFurnitureMakeRsp.proto\x1a\x17\x46urnitureMakeSlot.proto\x1a\x0fItemParam.proto\"\xae\x01\n\x14TakeFurnitureMakeRsp\x12\"\n\x0ereturnItemList\x18\x07 \x03(\x0b\x32\n.ItemParam\x12-\n\x11\x66urnitureMakeSlot\x18\x06 \x01(\x0b\x32\x12.FurnitureMakeSlot\x12\x0e\n\x06makeId\x18\x04 \x01(\r\x12\"\n\x0eoutputItemList\x18\x01 \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\n \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeFurnitureMakeRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeFurnitureMakeRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TAKEFURNITUREMAKERSP._serialized_start=73
-  _TAKEFURNITUREMAKERSP._serialized_end=260
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TAKEFURNITUREMAKERSP']._serialized_start=73
+  _globals['_TAKEFURNITUREMAKERSP']._serialized_end=247
 # @@protoc_insertion_point(module_scope)

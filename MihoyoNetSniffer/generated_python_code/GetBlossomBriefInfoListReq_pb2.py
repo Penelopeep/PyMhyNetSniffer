@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetBlossomBriefInfoListReq.proto\"2\n\x1aGetBlossomBriefInfoListReq\x12\x14\n\x0c\x63ity_id_list\x18\x07 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetBlossomBriefInfoListReq.proto\"0\n\x1aGetBlossomBriefInfoListReq\x12\x12\n\ncityIdList\x18\x05 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetBlossomBriefInfoListReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetBlossomBriefInfoListReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETBLOSSOMBRIEFINFOLISTREQ._serialized_start=36
-  _GETBLOSSOMBRIEFINFOLISTREQ._serialized_end=86
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETBLOSSOMBRIEFINFOLISTREQ']._serialized_start=36
+  _globals['_GETBLOSSOMBRIEFINFOLISTREQ']._serialized_end=84
 # @@protoc_insertion_point(module_scope)

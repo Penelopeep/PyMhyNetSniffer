@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import OpType_pb2 as OpType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.UpdateAbilityCreatedMovingPlatformNotify.proto\"\xca\x01\n(UpdateAbilityCreatedMovingPlatformNotify\x12\x11\n\tentity_id\x18\x01 \x01(\r\x12\x41\n\x07op_type\x18\x0f \x01(\x0e\x32\x30.UpdateAbilityCreatedMovingPlatformNotify.OpType\"H\n\x06OpType\x12\x10\n\x0cOP_TYPE_NONE\x10\x00\x12\x14\n\x10OP_TYPE_ACTIVATE\x10\x01\x12\x16\n\x12OP_TYPE_DEACTIVATE\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.UpdateAbilityCreatedMovingPlatformNotify.proto\x1a\x0cOpType.proto\"U\n(UpdateAbilityCreatedMovingPlatformNotify\x12\x10\n\x08\x65ntityId\x18\x04 \x01(\r\x12\x17\n\x06opType\x18\x06 \x01(\x0e\x32\x07.OpTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdateAbilityCreatedMovingPlatformNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdateAbilityCreatedMovingPlatformNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _UPDATEABILITYCREATEDMOVINGPLATFORMNOTIFY._serialized_start=51
-  _UPDATEABILITYCREATEDMOVINGPLATFORMNOTIFY._serialized_end=253
-  _UPDATEABILITYCREATEDMOVINGPLATFORMNOTIFY_OPTYPE._serialized_start=181
-  _UPDATEABILITYCREATEDMOVINGPLATFORMNOTIFY_OPTYPE._serialized_end=253
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_UPDATEABILITYCREATEDMOVINGPLATFORMNOTIFY']._serialized_start=64
+  _globals['_UPDATEABILITYCREATEDMOVINGPLATFORMNOTIFY']._serialized_end=149
 # @@protoc_insertion_point(module_scope)

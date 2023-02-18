@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x42rickBreakerTwiceStartReq.proto\"\x1b\n\x19\x42rickBreakerTwiceStartReqb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x42rickBreakerTwiceStartReq.proto\"\x1b\n\x19\x42rickBreakerTwiceStartReqB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BrickBreakerTwiceStartReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BrickBreakerTwiceStartReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BRICKBREAKERTWICESTARTREQ._serialized_start=35
-  _BRICKBREAKERTWICESTARTREQ._serialized_end=62
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BRICKBREAKERTWICESTARTREQ']._serialized_start=35
+  _globals['_BRICKBREAKERTWICESTARTREQ']._serialized_end=62
 # @@protoc_insertion_point(module_scope)

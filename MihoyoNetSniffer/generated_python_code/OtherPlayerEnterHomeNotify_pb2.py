@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import Reason_pb2 as Reason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n OtherPlayerEnterHomeNotify.proto\"\xa4\x01\n\x1aOtherPlayerEnterHomeNotify\x12\x10\n\x08nickname\x18\x05 \x01(\t\x12\x32\n\x06reason\x18\n \x01(\x0e\x32\".OtherPlayerEnterHomeNotify.Reason\"@\n\x06Reason\x12\x12\n\x0eREASON_INVALID\x10\x00\x12\x10\n\x0cREASON_ENTER\x10\x01\x12\x10\n\x0cREASON_LEAVE\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n OtherPlayerEnterHomeNotify.proto\x1a\x0cReason.proto\"G\n\x1aOtherPlayerEnterHomeNotify\x12\x17\n\x06reason\x18\x0f \x01(\x0e\x32\x07.Reason\x12\x10\n\x08nickname\x18\x0b \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OtherPlayerEnterHomeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OtherPlayerEnterHomeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _OTHERPLAYERENTERHOMENOTIFY._serialized_start=37
-  _OTHERPLAYERENTERHOMENOTIFY._serialized_end=201
-  _OTHERPLAYERENTERHOMENOTIFY_REASON._serialized_start=137
-  _OTHERPLAYERENTERHOMENOTIFY_REASON._serialized_end=201
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_OTHERPLAYERENTERHOMENOTIFY']._serialized_start=50
+  _globals['_OTHERPLAYERENTERHOMENOTIFY']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

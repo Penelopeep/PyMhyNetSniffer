@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41\x64\x64RandTaskInfoNotify.proto\x1a\x0cVector.proto\"C\n\x15\x41\x64\x64RandTaskInfoNotify\x12\x14\n\x0crand_task_id\x18\x07 \x01(\r\x12\x14\n\x03pos\x18\x02 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41\x64\x64RandTaskInfoNotify.proto\x1a\x0cVector.proto\"A\n\x15\x41\x64\x64RandTaskInfoNotify\x12\x14\n\x03pos\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x12\n\nrandTaskId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddRandTaskInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddRandTaskInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ADDRANDTASKINFONOTIFY._serialized_start=45
-  _ADDRANDTASKINFONOTIFY._serialized_end=112
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ADDRANDTASKINFONOTIFY']._serialized_start=45
+  _globals['_ADDRANDTASKINFONOTIFY']._serialized_end=110
 # @@protoc_insertion_point(module_scope)

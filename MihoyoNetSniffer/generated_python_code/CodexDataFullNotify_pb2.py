@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CodexTypeData_pb2 as CodexTypeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43odexDataFullNotify.proto\x1a\x13\x43odexTypeData.proto\"\x9c\x01\n\x13\x43odexDataFullNotify\x12&\n\x0etype_data_list\x18\x0e \x03(\x0b\x32\x0e.CodexTypeData\x12\x1b\n\x13Unk3300_ODPDLGEKIEM\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_DCMJLCIFCEH\x18\r \x01(\r\x12#\n\x1brecent_viewed_pushtips_list\x18\x01 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43odexDataFullNotify.proto\x1a\x13\x43odexTypeData.proto\"\x9e\x01\n\x13\x43odexDataFullNotify\x12 \n\x18recentViewedPushtipsList\x18\x01 \x03(\r\x12\x1f\n\x17lastReadPushtipsCodexId\x18\x0b \x01(\r\x12\x1e\n\x16lastReadPushtipsTypeId\x18\n \x01(\r\x12$\n\x0ctypeDataList\x18\x08 \x03(\x0b\x32\x0e.CodexTypeDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CodexDataFullNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CodexDataFullNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CODEXDATAFULLNOTIFY._serialized_start=51
-  _CODEXDATAFULLNOTIFY._serialized_end=207
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CODEXDATAFULLNOTIFY']._serialized_start=51
+  _globals['_CODEXDATAFULLNOTIFY']._serialized_end=209
 # @@protoc_insertion_point(module_scope)

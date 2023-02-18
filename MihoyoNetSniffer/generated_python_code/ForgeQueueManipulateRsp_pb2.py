@@ -15,13 +15,15 @@ import ForgeQueueManipulateType_pb2 as ForgeQueueManipulateType__pb2
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orgeQueueManipulateRsp.proto\x1a\x1e\x46orgeQueueManipulateType.proto\x1a\x0fItemParam.proto\"\xdc\x01\n\x17\x46orgeQueueManipulateRsp\x12*\n\x16\x65xtra_output_item_list\x18\x03 \x03(\x0b\x32\n.ItemParam\x12\x32\n\x0fmanipulate_type\x18\x0c \x01(\x0e\x32\x19.ForgeQueueManipulateType\x12\'\n\x13Unk3300_JDHFPCBOGFH\x18\x04 \x03(\x0b\x32\n.ItemParam\x12\'\n\x13Unk3300_EOLDJAMHDHM\x18\x0e \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orgeQueueManipulateRsp.proto\x1a\x1e\x46orgeQueueManipulateType.proto\x1a\x0fItemParam.proto\"\xce\x01\n\x17\x46orgeQueueManipulateRsp\x12\"\n\x0ereturnItemList\x18\x03 \x03(\x0b\x32\n.ItemParam\x12\x31\n\x0emanipulateType\x18\x07 \x01(\x0e\x32\x19.ForgeQueueManipulateType\x12\'\n\x13\x65xtraOutputItemList\x18\r \x03(\x0b\x32\n.ItemParam\x12\"\n\x0eoutputItemList\x18\x0c \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeQueueManipulateRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeQueueManipulateRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FORGEQUEUEMANIPULATERSP._serialized_start=83
-  _FORGEQUEUEMANIPULATERSP._serialized_end=303
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FORGEQUEUEMANIPULATERSP']._serialized_start=83
+  _globals['_FORGEQUEUEMANIPULATERSP']._serialized_end=289
 # @@protoc_insertion_point(module_scope)

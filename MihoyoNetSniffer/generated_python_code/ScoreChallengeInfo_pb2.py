@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18ScoreChallengeInfo.proto\"D\n\x12ScoreChallengeInfo\x12\x1b\n\x13Unk2700_LJCOLDIKHNE\x18\r \x01(\r\x12\x11\n\tmax_score\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18ScoreChallengeInfo.proto\";\n\x12ScoreChallengeInfo\x12\x13\n\x0boichdaoampp\x18\r \x01(\r\x12\x10\n\x08maxScore\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScoreChallengeInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScoreChallengeInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCORECHALLENGEINFO._serialized_start=28
-  _SCORECHALLENGEINFO._serialized_end=96
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SCORECHALLENGEINFO']._serialized_start=28
+  _globals['_SCORECHALLENGEINFO']._serialized_end=87
 # @@protoc_insertion_point(module_scope)

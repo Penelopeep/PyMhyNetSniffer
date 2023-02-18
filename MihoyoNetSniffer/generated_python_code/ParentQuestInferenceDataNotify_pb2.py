@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import InferencePageInfo_pb2 as InferencePageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$ParentQuestInferenceDataNotify.proto\x1a\x17InferencePageInfo.proto\"j\n\x1eParentQuestInferenceDataNotify\x12\x17\n\x0fparent_quest_id\x18\x08 \x01(\r\x12/\n\x13inference_page_list\x18\x0e \x03(\x0b\x32\x12.InferencePageInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$ParentQuestInferenceDataNotify.proto\x1a\x17InferencePageInfo.proto\"f\n\x1eParentQuestInferenceDataNotify\x12\x15\n\rparentQuestId\x18\x08 \x01(\r\x12-\n\x11inferencePageList\x18\x0b \x03(\x0b\x32\x12.InferencePageInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ParentQuestInferenceDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ParentQuestInferenceDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PARENTQUESTINFERENCEDATANOTIFY._serialized_start=65
-  _PARENTQUESTINFERENCEDATANOTIFY._serialized_end=171
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PARENTQUESTINFERENCEDATANOTIFY']._serialized_start=65
+  _globals['_PARENTQUESTINFERENCEDATANOTIFY']._serialized_end=167
 # @@protoc_insertion_point(module_scope)

@@ -11,15 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import bytes_pb2 as bytes__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerInjectFixNotify.proto\"7\n\x15PlayerInjectFixNotify\x12\n\n\x02id\x18\x0b \x01(\r\x12\x12\n\ninject_fix\x18\x0c \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerInjectFixNotify.proto\x1a\x0b\x62ytes.proto\"6\n\x15PlayerInjectFixNotify\x12\n\n\x02id\x18\x0e \x01(\r\x12\x11\n\tinjectFix\x18\x06 \x01(\x0c\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerInjectFixNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerInjectFixNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERINJECTFIXNOTIFY._serialized_start=31
-  _PLAYERINJECTFIXNOTIFY._serialized_end=86
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERINJECTFIXNOTIFY']._serialized_start=44
+  _globals['_PLAYERINJECTFIXNOTIFY']._serialized_end=98
 # @@protoc_insertion_point(module_scope)

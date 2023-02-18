@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n WindFieldGalleryInfoNotify.proto\"\x84\x02\n\x1aWindFieldGalleryInfoNotify\x12\x1b\n\x13Unk3300_GNJKOCLJFNM\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_NBIBKFKOCFK\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_OJHJPBCAONA\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_EKMHMHJDHIL\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_MMONPDMIEBN\x18\r \x01(\r\x12\x1b\n\x13Unk3300_FFODAKMKGEK\x18\t \x01(\r\x12\x1b\n\x13Unk3300_GNKCFHMDOHJ\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_GLNHBJJJINK\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n WindFieldGalleryInfoNotify.proto\"\x84\x02\n\x1aWindFieldGalleryInfoNotify\x12\x1b\n\x13Unk3300_EKMHMHJDHIL\x18\t \x01(\r\x12\x1b\n\x13Unk3300_GLNHBJJJINK\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_FFODAKMKGEK\x18\r \x01(\r\x12\x1b\n\x13Unk3300_OJHJPBCAONA\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_NBIBKFKOCFK\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_MMONPDMIEBN\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_GNJKOCLJFNM\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_GNKCFHMDOHJ\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WindFieldGalleryInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WindFieldGalleryInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINDFIELDGALLERYINFONOTIFY._serialized_start=37
-  _WINDFIELDGALLERYINFONOTIFY._serialized_end=297
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WINDFIELDGALLERYINFONOTIFY']._serialized_start=37
+  _globals['_WINDFIELDGALLERYINFONOTIFY']._serialized_end=297
 # @@protoc_insertion_point(module_scope)

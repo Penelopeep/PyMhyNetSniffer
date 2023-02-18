@@ -13,21 +13,23 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarUpgradeRsp.proto\"\xe4\x02\n\x10\x41vatarUpgradeRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x13\n\x0b\x61vatar_guid\x18\x0e \x01(\x04\x12\x11\n\tcur_level\x18\t \x01(\r\x12\x46\n\x13Unk3300_OIMPFCDCDGA\x18\r \x03(\x0b\x32).AvatarUpgradeRsp.Unk3300OIMPFCDCDGAEntry\x12\x46\n\x13Unk3300_BFNHHNKOLBH\x18\x06 \x03(\x0b\x32).AvatarUpgradeRsp.Unk3300BFNHHNKOLBHEntry\x12\x11\n\told_level\x18\x0c \x01(\r\x1a\x39\n\x17Unk3300OIMPFCDCDGAEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x1a\x39\n\x17Unk3300BFNHHNKOLBHEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarUpgradeRsp.proto\"\xcd\x02\n\x10\x41vatarUpgradeRsp\x12?\n\x0f\x63urFightPropMap\x18\x0b \x03(\x0b\x32&.AvatarUpgradeRsp.CurFightPropMapEntry\x12\x12\n\navatarGuid\x18\x08 \x01(\x04\x12?\n\x0foldFightPropMap\x18\x0e \x03(\x0b\x32&.AvatarUpgradeRsp.OldFightPropMapEntry\x12\x10\n\x08oldLevel\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x10\n\x08\x63urLevel\x18\x06 \x01(\r\x1a\x36\n\x14\x43urFightPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x1a\x36\n\x14OldFightPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarUpgradeRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarUpgradeRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATARUPGRADERSP_UNK3300OIMPFCDCDGAENTRY._options = None
-  _AVATARUPGRADERSP_UNK3300OIMPFCDCDGAENTRY._serialized_options = b'8\001'
-  _AVATARUPGRADERSP_UNK3300BFNHHNKOLBHENTRY._options = None
-  _AVATARUPGRADERSP_UNK3300BFNHHNKOLBHENTRY._serialized_options = b'8\001'
-  _AVATARUPGRADERSP._serialized_start=27
-  _AVATARUPGRADERSP._serialized_end=383
-  _AVATARUPGRADERSP_UNK3300OIMPFCDCDGAENTRY._serialized_start=267
-  _AVATARUPGRADERSP_UNK3300OIMPFCDCDGAENTRY._serialized_end=324
-  _AVATARUPGRADERSP_UNK3300BFNHHNKOLBHENTRY._serialized_start=326
-  _AVATARUPGRADERSP_UNK3300BFNHHNKOLBHENTRY._serialized_end=383
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _AVATARUPGRADERSP_CURFIGHTPROPMAPENTRY._options = None
+  _AVATARUPGRADERSP_CURFIGHTPROPMAPENTRY._serialized_options = b'8\001'
+  _AVATARUPGRADERSP_OLDFIGHTPROPMAPENTRY._options = None
+  _AVATARUPGRADERSP_OLDFIGHTPROPMAPENTRY._serialized_options = b'8\001'
+  _globals['_AVATARUPGRADERSP']._serialized_start=27
+  _globals['_AVATARUPGRADERSP']._serialized_end=360
+  _globals['_AVATARUPGRADERSP_CURFIGHTPROPMAPENTRY']._serialized_start=250
+  _globals['_AVATARUPGRADERSP_CURFIGHTPROPMAPENTRY']._serialized_end=304
+  _globals['_AVATARUPGRADERSP_OLDFIGHTPROPMAPENTRY']._serialized_start=306
+  _globals['_AVATARUPGRADERSP_OLDFIGHTPROPMAPENTRY']._serialized_end=360
 # @@protoc_insertion_point(module_scope)

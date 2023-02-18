@@ -11,24 +11,26 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import HomeAnimalData_pb2 as HomeAnimalData__pb2
-import HomeBlockDotPattern_pb2 as HomeBlockDotPattern__pb2
-import HomeBlockFieldData_pb2 as HomeBlockFieldData__pb2
-import HomeFurnitureCustomSuiteData_pb2 as HomeFurnitureCustomSuiteData__pb2
-import HomeFurnitureData_pb2 as HomeFurnitureData__pb2
-import HomeFurnitureGroupData_pb2 as HomeFurnitureGroupData__pb2
 import HomeFurnitureSuiteData_pb2 as HomeFurnitureSuiteData__pb2
-import HomeNpcData_pb2 as HomeNpcData__pb2
+import HomeBlockFieldData_pb2 as HomeBlockFieldData__pb2
 import WeekendDjinnInfo_pb2 as WeekendDjinnInfo__pb2
+import HomeFurnitureData_pb2 as HomeFurnitureData__pb2
+import HomeBlockDotPattern_pb2 as HomeBlockDotPattern__pb2
+import HomeFurnitureGroupData_pb2 as HomeFurnitureGroupData__pb2
+import HomeNpcData_pb2 as HomeNpcData__pb2
+import HomeFurnitureCustomSuiteData_pb2 as HomeFurnitureCustomSuiteData__pb2
+import HomeAnimalData_pb2 as HomeAnimalData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHomeBlockArrangementInfo.proto\x1a\x14HomeAnimalData.proto\x1a\x19HomeBlockDotPattern.proto\x1a\x18HomeBlockFieldData.proto\x1a\"HomeFurnitureCustomSuiteData.proto\x1a\x17HomeFurnitureData.proto\x1a\x1cHomeFurnitureGroupData.proto\x1a\x1cHomeFurnitureSuiteData.proto\x1a\x11HomeNpcData.proto\x1a\x16WeekendDjinnInfo.proto\"\xcd\x04\n\x18HomeBlockArrangementInfo\x12/\n\x13Unk3300_GMMAIDIJOJM\x18\n \x03(\x0b\x32\x12.HomeFurnitureData\x12+\n\x12\x64\x65ploy_animal_list\x18\x07 \x03(\x0b\x32\x0f.HomeAnimalData\x12\x35\n\x14\x66urniture_suite_list\x18\x03 \x03(\x0b\x32\x17.HomeFurnitureSuiteData\x12\x32\n\x17weekend_djinn_info_list\x18\x05 \x03(\x0b\x32\x11.WeekendDjinnInfo\x12\x10\n\x08\x62lock_id\x18\x0e \x01(\r\x12.\n\x10\x64ot_pattern_list\x18\x06 \x03(\x0b\x32\x14.HomeBlockDotPattern\x12\x13\n\x0bis_unlocked\x18\x0f \x01(\x08\x12%\n\x0f\x64\x65ploy_npc_list\x18\x01 \x03(\x0b\x32\x0c.HomeNpcData\x12\x35\n\x14\x66urniture_group_list\x18\x08 \x03(\x0b\x32\x17.HomeFurnitureGroupData\x12\'\n\nfield_list\x18\r \x03(\x0b\x32\x13.HomeBlockFieldData\x12\x15\n\rcomfort_value\x18\t \x01(\r\x12/\n\x13Unk3300_DEIECJCAFLN\x18\x0c \x03(\x0b\x32\x12.HomeFurnitureData\x12\x42\n\x1b\x66urniture_custom_suite_list\x18\x04 \x03(\x0b\x32\x1d.HomeFurnitureCustomSuiteDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHomeBlockArrangementInfo.proto\x1a\x1cHomeFurnitureSuiteData.proto\x1a\x18HomeBlockFieldData.proto\x1a\x16WeekendDjinnInfo.proto\x1a\x17HomeFurnitureData.proto\x1a\x19HomeBlockDotPattern.proto\x1a\x1cHomeFurnitureGroupData.proto\x1a\x11HomeNpcData.proto\x1a\"HomeFurnitureCustomSuiteData.proto\x1a\x14HomeAnimalData.proto\"\xbc\x04\n\x18HomeBlockArrangementInfo\x12\x33\n\x12\x66urnitureSuiteList\x18\x0c \x03(\x0b\x32\x17.HomeFurnitureSuiteData\x12&\n\tfieldList\x18\r \x03(\x0b\x32\x13.HomeBlockFieldData\x12/\n\x14weekendDjinnInfoList\x18\x08 \x03(\x0b\x32\x11.WeekendDjinnInfo\x12\x33\n\x17persistentFurnitureList\x18\x06 \x03(\x0b\x32\x12.HomeFurnitureData\x12,\n\x0e\x64otPatternList\x18\x07 \x03(\x0b\x32\x14.HomeBlockDotPattern\x12\x14\n\x0c\x63omfortValue\x18\t \x01(\r\x12\x33\n\x12\x66urnitureGroupList\x18\x03 \x03(\x0b\x32\x17.HomeFurnitureGroupData\x12.\n\x12\x64\x65ployFurniureList\x18\x0f \x03(\x0b\x32\x12.HomeFurnitureData\x12#\n\rdeployNpcList\x18\x05 \x03(\x0b\x32\x0c.HomeNpcData\x12?\n\x18\x66urnitureCustomSuiteList\x18\x04 \x03(\x0b\x32\x1d.HomeFurnitureCustomSuiteData\x12\x12\n\nisUnlocked\x18\x01 \x01(\x08\x12\x0f\n\x07\x62lockId\x18\x02 \x01(\r\x12)\n\x10\x64\x65ployAnimalList\x18\x0e \x03(\x0b\x32\x0f.HomeAnimalDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeBlockArrangementInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeBlockArrangementInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEBLOCKARRANGEMENTINFO._serialized_start=274
-  _HOMEBLOCKARRANGEMENTINFO._serialized_end=863
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEBLOCKARRANGEMENTINFO']._serialized_start=274
+  _globals['_HOMEBLOCKARRANGEMENTINFO']._serialized_end=846
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GravenInnocenceCarveStageInfo.proto\"B\n\x1dGravenInnocenceCarveStageInfo\x12\x0f\n\x07is_open\x18\x08 \x01(\x08\x12\x10\n\x08stage_id\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GravenInnocenceCarveStageInfo.proto\"@\n\x1dGravenInnocenceCarveStageInfo\x12\x0e\n\x06isOpen\x18\x0c \x01(\x08\x12\x0f\n\x07stageId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GravenInnocenceCarveStageInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GravenInnocenceCarveStageInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GRAVENINNOCENCECARVESTAGEINFO._serialized_start=39
-  _GRAVENINNOCENCECARVESTAGEINFO._serialized_end=105
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GRAVENINNOCENCECARVESTAGEINFO']._serialized_start=39
+  _globals['_GRAVENINNOCENCECARVESTAGEINFO']._serialized_end=103
 # @@protoc_insertion_point(module_scope)

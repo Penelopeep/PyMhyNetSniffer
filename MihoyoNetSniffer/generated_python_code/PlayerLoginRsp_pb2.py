@@ -11,27 +11,30 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import BlockInfo_pb2 as BlockInfo__pb2
-import FeatureBlockInfo_pb2 as FeatureBlockInfo__pb2
+import bytes_pb2 as bytes__pb2
 import ResVersionConfig_pb2 as ResVersionConfig__pb2
+import FeatureBlockInfo_pb2 as FeatureBlockInfo__pb2
+import BlockInfo_pb2 as BlockInfo__pb2
 import ShortAbilityHashPair_pb2 as ShortAbilityHashPair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14PlayerLoginRsp.proto\x1a\x0f\x42lockInfo.proto\x1a\x16\x46\x65\x61tureBlockInfo.proto\x1a\x16ResVersionConfig.proto\x1a\x1aShortAbilityHashPair.proto\"\xed\t\n\x0ePlayerLoginRsp\x12\x12\n\nlogin_rand\x18\t \x01(\x04\x12\x1b\n\x13Unk3300_DHCMDHHDLFF\x18\x02 \x01(\x0c\x12\x1b\n\x13Unk3300_HMGCPAGLDHB\x18\x10 \x01(\t\x12\x18\n\x0ftotal_tick_time\x18\x92\x04 \x01(\x01\x12\x1b\n\x13Unk3300_LLIJKLDBHNN\x18\x05 \x01(\x08\x12\x11\n\x08is_audit\x18\xa2\x07 \x01(\x08\x12\x11\n\x08\x62irthday\x18\xeb\n \x01(\t\x12\x1b\n\x13Unk3300_HGFNECIJDLN\x18\r \x01(\x08\x12&\n\x1d\x63lient_silence_version_suffix\x18\x8c\x07 \x01(\t\x12\x1e\n\x15\x63lient_version_suffix\x18\xb5\x0e \x01(\t\x12\x1a\n\x11next_resource_url\x18\xac\n \x01(\t\x12\x1c\n\x13Unk3300_EJKCNNDFAAI\x18\xc4\x01 \x01(\x08\x12\x36\n\x16short_ability_hash_map\x18\xdd\n \x03(\x0b\x32\x15.ShortAbilityHashPair\x12\x1d\n\x14is_data_need_relogin\x18\xdf\x08 \x01(\x08\x12.\n\x12res_version_config\x18\xa8\x06 \x01(\x0b\x32\x11.ResVersionConfig\x12#\n\x1b\x63lient_silence_data_version\x18\x01 \x01(\r\x12\x12\n\ntarget_uid\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_NEICPFBPNPD\x18\x63 \x01(\t\x12\x1c\n\x13Unk3300_CANONIPHMDI\x18\xf2\x0b \x01(\x08\x12\x1b\n\x13Unk3300_IIHDKKNJPGD\x18\x08 \x01(\x08\x12\x1b\n\x13player_data_version\x18\x0e \x01(\r\x12\x1c\n\x13Unk3300_MOPDDGHMKBD\x18\xe0\x0e \x01(\x0c\x12\x15\n\x0c\x63ountry_code\x18\xe8\x02 \x01(\t\x12\x33\n\x17next_res_version_config\x18\x98\r \x01(\x0b\x32\x11.ResVersionConfig\x12\x1b\n\x13Unk3300_IADLIIMGDMC\x18\x11 \x01(\x08\x12:\n\x0e\x62lock_info_map\x18\xe2\x0f \x03(\x0b\x32!.PlayerLoginRsp.BlockInfoMapEntry\x12\x14\n\x0bis_transfer\x18\xa7\x02 \x01(\x08\x12\x1e\n\x15target_home_owner_uid\x18\xbe\x03 \x01(\r\x12\x10\n\x08game_biz\x18\x04 \x01(\t\x12=\n\x10\x61\x62ility_hash_map\x18\x03 \x03(\x0b\x32#.PlayerLoginRsp.AbilityHashMapEntry\x12\x19\n\x11\x61\x62ility_hash_code\x18\x0c \x01(\x05\x12\x1b\n\x13\x63lient_data_version\x18\n \x01(\r\x12\x1c\n\x13Unk3300_OPGDBOLKLJA\x18\x93\n \x01(\t\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x33\n\x17\x66\x65\x61ture_block_info_list\x18\x8a\x01 \x03(\x0b\x32\x11.FeatureBlockInfo\x1a?\n\x11\x42lockInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.BlockInfo:\x02\x38\x01\x1a\x35\n\x13\x41\x62ilityHashMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14PlayerLoginRsp.proto\x1a\x0b\x62ytes.proto\x1a\x16ResVersionConfig.proto\x1a\x16\x46\x65\x61tureBlockInfo.proto\x1a\x0f\x42lockInfo.proto\x1a\x1aShortAbilityHashPair.proto\"\x8a\t\n\x0ePlayerLoginRsp\x12\x10\n\x07isAudit\x18\xc9\x01 \x01(\x08\x12\x1b\n\x13Unk3300_IIHDKKNJPGD\x18\x06 \x01(\x08\x12\x12\n\tclientMd5\x18\xae\x08 \x01(\t\x12\x19\n\x11playerDataVersion\x18\t \x01(\r\x12\x1c\n\x13\x63lientVersionSuffix\x18\xf0\x04 \x01(\t\x12\x11\n\tloginRand\x18\x08 \x01(\x04\x12\x30\n\x14\x66\x65\x61tureBlockInfoList\x18\xf3\x0f \x03(\x0b\x32\x11.FeatureBlockInfo\x12\x18\n\x10isUseAbilityHash\x18\x0f \x01(\x08\x12\x11\n\x08isScOpen\x18\xbc\x0e \x01(\x08\x12\x12\n\nplayerData\x18\x0e \x01(\x0c\x12\x16\n\rtotalTickTime\x18\xe9\r \x01(\x01\x12\x38\n\x0c\x62lockInfoMap\x18\xd6\x07 \x03(\x0b\x32!.PlayerLoginRsp.BlockInfoMapEntry\x12\x14\n\x0b\x63ountryCode\x18\xee\x01 \x01(\t\x12,\n\x10resVersionConfig\x18\x89\x06 \x01(\x0b\x32\x11.ResVersionConfig\x12 \n\x18\x63lientSilenceDataVersion\x18\x02 \x01(\r\x12#\n\x1a\x63lientSilenceVersionSuffix\x18\xa7\x07 \x01(\t\x12\x1c\n\x13Unk3300_EJKCNNDFAAI\x18\xe6\t \x01(\x08\x12\x19\n\x10\x63lientSilenceMd5\x18\xd3\x07 \x01(\t\x12\x1a\n\x11isDataNeedRelogin\x18\xfd\x07 \x01(\x08\x12\x33\n\x13shortAbilityHashMap\x18\xaf\t \x03(\x0b\x32\x15.ShortAbilityHashPair\x12\x11\n\ttargetUid\x18\x03 \x01(\r\x12\x0f\n\x07gameBiz\x18\x04 \x01(\t\x12\x13\n\nisTransfer\x18\xbc\x07 \x01(\x08\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12;\n\x0e\x61\x62ilityHashMap\x18\x05 \x03(\x0b\x32#.PlayerLoginRsp.AbilityHashMapEntry\x12\x1c\n\x13Unk3300_IADLIIMGDMC\x18\x9b\x0b \x01(\x08\x12\x0f\n\x06scInfo\x18\x97\x01 \x01(\x0c\x12\x1b\n\x13Unk3300_HGFNECIJDLN\x18\n \x01(\x08\x12\x19\n\x11\x63lientDataVersion\x18\x07 \x01(\r\x12\x1b\n\x12targetHomeOwnerUid\x18\x93\x06 \x01(\r\x12\x14\n\x0bregisterCps\x18\xa8\x04 \x01(\t\x12\x11\n\x08\x62irthday\x18\xa3\x01 \x01(\t\x12\x30\n\x14nextResVersionConfig\x18\xb3\n \x01(\x0b\x32\x11.ResVersionConfig\x12\x17\n\x0f\x61\x62ilityHashCode\x18\r \x01(\x05\x12\x18\n\x0fnextResourceUrl\x18\xc7\x08 \x01(\t\x1a?\n\x11\x42lockInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.BlockInfo:\x02\x38\x01\x1a\x35\n\x13\x41\x62ilityHashMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerLoginRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerLoginRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _PLAYERLOGINRSP_BLOCKINFOMAPENTRY._options = None
   _PLAYERLOGINRSP_BLOCKINFOMAPENTRY._serialized_options = b'8\001'
   _PLAYERLOGINRSP_ABILITYHASHMAPENTRY._options = None
   _PLAYERLOGINRSP_ABILITYHASHMAPENTRY._serialized_options = b'8\001'
-  _PLAYERLOGINRSP._serialized_start=118
-  _PLAYERLOGINRSP._serialized_end=1379
-  _PLAYERLOGINRSP_BLOCKINFOMAPENTRY._serialized_start=1261
-  _PLAYERLOGINRSP_BLOCKINFOMAPENTRY._serialized_end=1324
-  _PLAYERLOGINRSP_ABILITYHASHMAPENTRY._serialized_start=1326
-  _PLAYERLOGINRSP_ABILITYHASHMAPENTRY._serialized_end=1379
+  _globals['_PLAYERLOGINRSP']._serialized_start=131
+  _globals['_PLAYERLOGINRSP']._serialized_end=1293
+  _globals['_PLAYERLOGINRSP_BLOCKINFOMAPENTRY']._serialized_start=1175
+  _globals['_PLAYERLOGINRSP_BLOCKINFOMAPENTRY']._serialized_end=1238
+  _globals['_PLAYERLOGINRSP_ABILITYHASHMAPENTRY']._serialized_start=1240
+  _globals['_PLAYERLOGINRSP_ABILITYHASHMAPENTRY']._serialized_end=1293
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46leurFairBuffEnergyNotify.proto\"+\n\x19\x46leurFairBuffEnergyNotify\x12\x0e\n\x06\x65nergy\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46leurFairBuffEnergyNotify.proto\"+\n\x19\x46leurFairBuffEnergyNotify\x12\x0e\n\x06\x65nergy\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairBuffEnergyNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairBuffEnergyNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FLEURFAIRBUFFENERGYNOTIFY._serialized_start=35
-  _FLEURFAIRBUFFENERGYNOTIFY._serialized_end=78
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FLEURFAIRBUFFENERGYNOTIFY']._serialized_start=35
+  _globals['_FLEURFAIRBUFFENERGYNOTIFY']._serialized_end=78
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!EvtAnimatorStateChangedInfo.proto\x1a\x0cVector.proto\"\x8e\x02\n\x1b\x45vtAnimatorStateChangedInfo\x12\x15\n\rfade_duration\x18\x04 \x01(\x02\x12\x1b\n\x13Unk3300_BKBPGIAOBEL\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_NMCCLIKMOEN\x18\x01 \x01(\r\x12\x14\n\x03pos\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_KLMEKMGFGPD\x18\x03 \x01(\x08\x12\x1f\n\x17normalized_time_compact\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_MEOPKEDJCIN\x18\x07 \x01(\x08\x12\x1a\n\x12\x66\x61\x63\x65_angle_compact\x18\x0f \x01(\x05\x12\x11\n\tentity_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!EvtAnimatorStateChangedInfo.proto\x1a\x0cVector.proto\"\xf2\x01\n\x1b\x45vtAnimatorStateChangedInfo\x12\x1d\n\x15normalizedTimeCompact\x18\t \x01(\r\x12\x14\n\x0c\x66\x61\x64\x65\x44uration\x18\x08 \x01(\x02\x12\x10\n\x08\x65ntityId\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_KLMEKMGFGPD\x18\r \x01(\x08\x12\x1b\n\x13Unk3300_MEOPKEDJCIN\x18\x0c \x01(\x08\x12\x18\n\x10\x66\x61\x63\x65\x41ngleCompact\x18\x03 \x01(\x05\x12\x13\n\x0btoStateHash\x18\x04 \x01(\r\x12\r\n\x05layer\x18\x05 \x01(\r\x12\x14\n\x03pos\x18\x07 \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAnimatorStateChangedInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAnimatorStateChangedInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EVTANIMATORSTATECHANGEDINFO._serialized_start=52
-  _EVTANIMATORSTATECHANGEDINFO._serialized_end=322
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_EVTANIMATORSTATECHANGEDINFO']._serialized_start=52
+  _globals['_EVTANIMATORSTATECHANGEDINFO']._serialized_end=294
 # @@protoc_insertion_point(module_scope)

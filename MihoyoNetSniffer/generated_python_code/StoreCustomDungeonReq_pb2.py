@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bStoreCustomDungeonReq.proto\"F\n\x15StoreCustomDungeonReq\x12\x14\n\x0c\x64ungeon_guid\x18\x0c \x01(\x04\x12\x17\n\x0fis_cancel_store\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bStoreCustomDungeonReq.proto\"C\n\x15StoreCustomDungeonReq\x12\x15\n\risCancelStore\x18\x05 \x01(\x08\x12\x13\n\x0b\x64ungeonGuid\x18\x02 \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StoreCustomDungeonReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StoreCustomDungeonReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _STORECUSTOMDUNGEONREQ._serialized_start=31
-  _STORECUSTOMDUNGEONREQ._serialized_end=101
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_STORECUSTOMDUNGEONREQ']._serialized_start=31
+  _globals['_STORECUSTOMDUNGEONREQ']._serialized_end=98
 # @@protoc_insertion_point(module_scope)

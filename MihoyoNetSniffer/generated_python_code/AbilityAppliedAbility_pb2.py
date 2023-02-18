@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import AbilityScalarValueEntry_pb2 as AbilityScalarValueEntry__pb2
 import AbilityString_pb2 as AbilityString__pb2
+import AbilityScalarValueEntry_pb2 as AbilityScalarValueEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41\x62ilityAppliedAbility.proto\x1a\x1d\x41\x62ilityScalarValueEntry.proto\x1a\x13\x41\x62ilityString.proto\"\xb5\x01\n\x15\x41\x62ilityAppliedAbility\x12$\n\x0c\x61\x62ility_name\x18\x01 \x01(\x0b\x32\x0e.AbilityString\x12(\n\x10\x61\x62ility_override\x18\x02 \x01(\x0b\x32\x0e.AbilityString\x12.\n\x0coverride_map\x18\x03 \x03(\x0b\x32\x18.AbilityScalarValueEntry\x12\x1c\n\x14instanced_ability_id\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41\x62ilityAppliedAbility.proto\x1a\x13\x41\x62ilityString.proto\x1a\x1d\x41\x62ilityScalarValueEntry.proto\"\xb0\x01\n\x15\x41\x62ilityAppliedAbility\x12#\n\x0b\x61\x62ilityName\x18\x01 \x01(\x0b\x32\x0e.AbilityString\x12\'\n\x0f\x61\x62ilityOverride\x18\x02 \x01(\x0b\x32\x0e.AbilityString\x12-\n\x0boverrideMap\x18\x03 \x03(\x0b\x32\x18.AbilityScalarValueEntry\x12\x1a\n\x12instancedAbilityId\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityAppliedAbility_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityAppliedAbility_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ABILITYAPPLIEDABILITY._serialized_start=84
-  _ABILITYAPPLIEDABILITY._serialized_end=265
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ABILITYAPPLIEDABILITY']._serialized_start=84
+  _globals['_ABILITYAPPLIEDABILITY']._serialized_end=260
 # @@protoc_insertion_point(module_scope)

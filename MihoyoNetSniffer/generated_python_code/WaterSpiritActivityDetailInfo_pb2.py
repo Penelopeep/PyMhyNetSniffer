@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WaterSpiritActivityDetailInfo.proto\"\xcf\x01\n\x1dWaterSpiritActivityDetailInfo\x12J\n\x0fsearch_time_map\x18\r \x03(\x0b\x32\x31.WaterSpiritActivityDetailInfo.SearchTimeMapEntry\x12\x18\n\x10region_search_id\x18\x04 \x01(\r\x12\x12\n\nmp_play_id\x18\t \x01(\r\x1a\x34\n\x12SearchTimeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WaterSpiritActivityDetailInfo.proto\"\xc9\x01\n\x1dWaterSpiritActivityDetailInfo\x12\x10\n\x08mpPlayId\x18\r \x01(\r\x12H\n\rsearchTimeMap\x18\x03 \x03(\x0b\x32\x31.WaterSpiritActivityDetailInfo.SearchTimeMapEntry\x12\x16\n\x0eregionSearchId\x18\x04 \x01(\r\x1a\x34\n\x12SearchTimeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WaterSpiritActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WaterSpiritActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _WATERSPIRITACTIVITYDETAILINFO_SEARCHTIMEMAPENTRY._options = None
   _WATERSPIRITACTIVITYDETAILINFO_SEARCHTIMEMAPENTRY._serialized_options = b'8\001'
-  _WATERSPIRITACTIVITYDETAILINFO._serialized_start=40
-  _WATERSPIRITACTIVITYDETAILINFO._serialized_end=247
-  _WATERSPIRITACTIVITYDETAILINFO_SEARCHTIMEMAPENTRY._serialized_start=195
-  _WATERSPIRITACTIVITYDETAILINFO_SEARCHTIMEMAPENTRY._serialized_end=247
+  _globals['_WATERSPIRITACTIVITYDETAILINFO']._serialized_start=40
+  _globals['_WATERSPIRITACTIVITYDETAILINFO']._serialized_end=241
+  _globals['_WATERSPIRITACTIVITYDETAILINFO_SEARCHTIMEMAPENTRY']._serialized_start=189
+  _globals['_WATERSPIRITACTIVITYDETAILINFO_SEARCHTIMEMAPENTRY']._serialized_end=241
 # @@protoc_insertion_point(module_scope)

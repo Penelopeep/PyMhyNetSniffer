@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import GCGGameCreateReason_pb2 as GCGGameCreateReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GCGGameCreateFailReasonNotify.proto\"\xfd\x02\n\x1dGCGGameCreateFailReasonNotify\x12\x42\n\x06reason\x18\x07 \x01(\x0e\x32\x32.GCGGameCreateFailReasonNotify.GCGGameCreateReason\"\x97\x02\n\x13GCGGameCreateReason\x12\x1f\n\x1bGCG_GAME_CREATE_REASON_NONE\x10\x00\x12#\n\x1fGCG_GAME_CREATE_REASON_GAME_MAX\x10\x01\x12\x34\n0GCG_GAME_CREATE_REASON_CLIENT_VERSION_NOT_LATEST\x10\x02\x12\x30\n,GCG_GAME_CREATE_REASON_RESOURCE_NOT_COMPLETE\x10\x03\x12\"\n\x1eGCG_GAME_CREATE_REASON_TIMEOUT\x10\x04\x12.\n*GCG_GAME_CREATE_REASON_Unk3300_EMCDFGGFFAH\x10\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GCGGameCreateFailReasonNotify.proto\x1a\x19GCGGameCreateReason.proto\"E\n\x1dGCGGameCreateFailReasonNotify\x12$\n\x06reason\x18\x02 \x01(\x0e\x32\x14.GCGGameCreateReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGGameCreateFailReasonNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGGameCreateFailReasonNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGGAMECREATEFAILREASONNOTIFY._serialized_start=40
-  _GCGGAMECREATEFAILREASONNOTIFY._serialized_end=421
-  _GCGGAMECREATEFAILREASONNOTIFY_GCGGAMECREATEREASON._serialized_start=142
-  _GCGGAMECREATEFAILREASONNOTIFY_GCGGAMECREATEREASON._serialized_end=421
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGGAMECREATEFAILREASONNOTIFY']._serialized_start=66
+  _globals['_GCGGAMECREATEFAILREASONNOTIFY']._serialized_end=135
 # @@protoc_insertion_point(module_scope)

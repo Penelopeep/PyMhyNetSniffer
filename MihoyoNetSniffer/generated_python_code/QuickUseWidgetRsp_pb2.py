@@ -11,18 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import DetectorData_pb2 as DetectorData__pb2
 import ClientCollectorData_pb2 as ClientCollectorData__pb2
-import OneoffGatherPointDetectorData_pb2 as OneoffGatherPointDetectorData__pb2
 import SkyCrystalDetectorQuickUseResult_pb2 as SkyCrystalDetectorQuickUseResult__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17QuickUseWidgetRsp.proto\x1a\x19\x43lientCollectorData.proto\x1a#OneoffGatherPointDetectorData.proto\x1a&SkyCrystalDetectorQuickUseResult.proto\"\x88\x02\n\x11QuickUseWidgetRsp\x12\x13\n\x0bmaterial_id\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x37\n\rdetector_data\x18\x0e \x01(\x0b\x32\x1e.OneoffGatherPointDetectorDataH\x00\x12\x35\n\x15\x63lient_collector_data\x18\n \x01(\x0b\x32\x14.ClientCollectorDataH\x00\x12T\n%sky_crystal_detector_quick_use_result\x18\xa2\xc2\n \x01(\x0b\x32!.SkyCrystalDetectorQuickUseResultH\x00\x42\x07\n\x05paramb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17QuickUseWidgetRsp.proto\x1a\x12\x44\x65tectorData.proto\x1a\x19\x43lientCollectorData.proto\x1a&SkyCrystalDetectorQuickUseResult.proto\"\xf6\x01\n\x11QuickUseWidgetRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x12\n\nmaterialId\x18\x06 \x01(\r\x12&\n\rdetector_data\x18\x01 \x01(\x0b\x32\r.DetectorDataH\x00\x12\x35\n\x15\x63lient_collector_data\x18\x07 \x01(\x0b\x32\x14.ClientCollectorDataH\x00\x12T\n%sky_crystal_detector_quick_use_result\x18\xb3\xc4\x08 \x01(\x0b\x32!.SkyCrystalDetectorQuickUseResultH\x00\x42\x07\n\x05paramB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuickUseWidgetRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuickUseWidgetRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _QUICKUSEWIDGETRSP._serialized_start=132
-  _QUICKUSEWIDGETRSP._serialized_end=396
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_QUICKUSEWIDGETRSP']._serialized_start=115
+  _globals['_QUICKUSEWIDGETRSP']._serialized_end=361
 # @@protoc_insertion_point(module_scope)

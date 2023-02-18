@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14ServerLogLevel.proto*\x9c\x01\n\x0eServerLogLevel\x12\x19\n\x15SERVER_LOG_LEVEL_NONE\x10\x00\x12\x1a\n\x16SERVER_LOG_LEVEL_DEBUG\x10\x01\x12\x19\n\x15SERVER_LOG_LEVEL_INFO\x10\x02\x12\x1c\n\x18SERVER_LOG_LEVEL_WARNING\x10\x03\x12\x1a\n\x16SERVER_LOG_LEVEL_ERROR\x10\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14ServerLogLevel.proto*\x9c\x01\n\x0eServerLogLevel\x12\x19\n\x15SERVER_LOG_LEVEL_NONE\x10\x00\x12\x1a\n\x16SERVER_LOG_LEVEL_DEBUG\x10\x01\x12\x19\n\x15SERVER_LOG_LEVEL_INFO\x10\x02\x12\x1c\n\x18SERVER_LOG_LEVEL_WARNING\x10\x03\x12\x1a\n\x16SERVER_LOG_LEVEL_ERROR\x10\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerLogLevel_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerLogLevel_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SERVERLOGLEVEL._serialized_start=25
-  _SERVERLOGLEVEL._serialized_end=181
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SERVERLOGLEVEL']._serialized_start=25
+  _globals['_SERVERLOGLEVEL']._serialized_end=181
 # @@protoc_insertion_point(module_scope)

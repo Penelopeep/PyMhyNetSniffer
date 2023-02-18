@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGDamageDetail_pb2 as GCGDamageDetail__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGCGMsgNoDamageSkillResult.proto\x1a\x15GCGDamageDetail.proto\"\xe2\x01\n\x19GCGMsgNoDamageSkillResult\x12\x1b\n\x13Unk3300_LPGLOCDDPCL\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_EPNDCIAJOJP\x18\x06 \x01(\r\x12\x18\n\x10target_card_guid\x18\x03 \x01(\r\x12%\n\x0b\x64\x65tail_list\x18\x0e \x03(\x0b\x32\x10.GCGDamageDetail\x12\x10\n\x08skill_id\x18\r \x01(\r\x12\x1b\n\x13Unk3300_NNJAOEHNPPD\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_NIGDCIGLAKE\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGCGMsgNoDamageSkillResult.proto\x1a\x15GCGDamageDetail.proto\"\xde\x01\n\x19GCGMsgNoDamageSkillResult\x12\x1b\n\x13Unk3300_NNJAOEHNPPD\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_NIGDCIGLAKE\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_LPGLOCDDPCL\x18\r \x01(\r\x12$\n\ndetailList\x18\t \x03(\x0b\x32\x10.GCGDamageDetail\x12\x1b\n\x13Unk3300_EPNDCIAJOJP\x18\x05 \x01(\r\x12\x0f\n\x07skillId\x18\x0f \x01(\r\x12\x16\n\x0etargetCardGuid\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgNoDamageSkillResult_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgNoDamageSkillResult_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGNODAMAGESKILLRESULT._serialized_start=59
-  _GCGMSGNODAMAGESKILLRESULT._serialized_end=285
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMSGNODAMAGESKILLRESULT']._serialized_start=59
+  _globals['_GCGMSGNODAMAGESKILLRESULT']._serialized_end=281
 # @@protoc_insertion_point(module_scope)

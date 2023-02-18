@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SpiceActivityProcessFoodReq.proto\x1a\x0fItemParam.proto\"C\n\x1bSpiceActivityProcessFoodReq\x12$\n\x10normal_food_list\x18\x0f \x03(\x0b\x32\n.ItemParamb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SpiceActivityProcessFoodReq.proto\x1a\x0fItemParam.proto\"A\n\x1bSpiceActivityProcessFoodReq\x12\"\n\x0enormalFoodList\x18\x07 \x03(\x0b\x32\n.ItemParamB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SpiceActivityProcessFoodReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SpiceActivityProcessFoodReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SPICEACTIVITYPROCESSFOODREQ._serialized_start=54
-  _SPICEACTIVITYPROCESSFOODREQ._serialized_end=121
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SPICEACTIVITYPROCESSFOODREQ']._serialized_start=54
+  _globals['_SPICEACTIVITYPROCESSFOODREQ']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeRacingGalleryRecord_pb2 as HomeRacingGalleryRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HomeRacingRecord.proto\x1a\x1dHomeRacingGalleryRecord.proto\"A\n\x10HomeRacingRecord\x12-\n\x0brecord_list\x18\t \x03(\x0b\x32\x18.HomeRacingGalleryRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HomeRacingRecord.proto\x1a\x1dHomeRacingGalleryRecord.proto\"@\n\x10HomeRacingRecord\x12,\n\nrecordList\x18\x02 \x03(\x0b\x32\x18.HomeRacingGalleryRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeRacingRecord_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeRacingRecord_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMERACINGRECORD._serialized_start=57
-  _HOMERACINGRECORD._serialized_end=122
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMERACINGRECORD']._serialized_start=57
+  _globals['_HOMERACINGRECORD']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

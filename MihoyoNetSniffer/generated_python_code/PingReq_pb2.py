@@ -11,15 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import bytes_pb2 as bytes__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rPingReq.proto\"f\n\x07PingReq\x12\x13\n\x0b\x63lient_time\x18\x06 \x01(\r\x12\x17\n\x0ftotal_tick_time\x18\t \x01(\x01\x12\x0f\n\x07ue_time\x18\x02 \x01(\x02\x12\x0b\n\x03seq\x18\x0c \x01(\r\x12\x0f\n\x07sc_data\x18\x03 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rPingReq.proto\x1a\x0b\x62ytes.proto\"a\n\x07PingReq\x12\x0b\n\x03seq\x18\x0b \x01(\r\x12\x0e\n\x06scData\x18\r \x01(\x0c\x12\x15\n\rtotalTickTime\x18\x04 \x01(\x01\x12\x0e\n\x06ueTime\x18\x0f \x01(\x02\x12\x12\n\nclientTime\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PingReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PingReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PINGREQ._serialized_start=17
-  _PINGREQ._serialized_end=119
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PINGREQ']._serialized_start=30
+  _globals['_PINGREQ']._serialized_end=127
 # @@protoc_insertion_point(module_scope)

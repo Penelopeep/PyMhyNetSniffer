@@ -15,13 +15,15 @@ import HuntingOfferState_pb2 as HuntingOfferState__pb2
 import HuntingPair_pb2 as HuntingPair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HuntingOfferData.proto\x1a\x17HuntingOfferState.proto\x1a\x11HuntingPair.proto\"j\n\x10HuntingOfferData\x12\"\n\x0chunting_pair\x18\x0f \x01(\x0b\x32\x0c.HuntingPair\x12!\n\x05state\x18\x01 \x01(\x0e\x32\x12.HuntingOfferState\x12\x0f\n\x07\x63ity_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HuntingOfferData.proto\x1a\x17HuntingOfferState.proto\x1a\x11HuntingPair.proto\"h\n\x10HuntingOfferData\x12!\n\x05state\x18\x0b \x01(\x0e\x32\x12.HuntingOfferState\x12\x0e\n\x06\x63ityId\x18\x08 \x01(\r\x12!\n\x0bhuntingPair\x18\r \x01(\x0b\x32\x0c.HuntingPairB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HuntingOfferData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HuntingOfferData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HUNTINGOFFERDATA._serialized_start=70
-  _HUNTINGOFFERDATA._serialized_end=176
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HUNTINGOFFERDATA']._serialized_start=70
+  _globals['_HUNTINGOFFERDATA']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

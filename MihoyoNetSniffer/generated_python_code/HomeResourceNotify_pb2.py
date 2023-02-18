@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeResource_pb2 as HomeResource__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18HomeResourceNotify.proto\x1a\x12HomeResource.proto\"Y\n\x12HomeResourceNotify\x12!\n\nfetter_exp\x18\x07 \x01(\x0b\x32\r.HomeResource\x12 \n\thome_coin\x18\x05 \x01(\x0b\x32\r.HomeResourceb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18HomeResourceNotify.proto\x1a\x12HomeResource.proto\"W\n\x12HomeResourceNotify\x12 \n\tfetterExp\x18\t \x01(\x0b\x32\r.HomeResource\x12\x1f\n\x08homeCoin\x18\x01 \x01(\x0b\x32\r.HomeResourceB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeResourceNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeResourceNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMERESOURCENOTIFY._serialized_start=48
-  _HOMERESOURCENOTIFY._serialized_end=137
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMERESOURCENOTIFY']._serialized_start=48
+  _globals['_HOMERESOURCENOTIFY']._serialized_end=135
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGOperation_pb2 as GCGOperation__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GCGOperationReq.proto\x1a\x12GCGOperation.proto\"R\n\x0fGCGOperationReq\x12\x14\n\x0credirect_uid\x18\x0c \x01(\r\x12\x0e\n\x06op_seq\x18\n \x01(\r\x12\x19\n\x02op\x18\x08 \x01(\x0b\x32\r.GCGOperationb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GCGOperationReq.proto\x1a\x12GCGOperation.proto\"P\n\x0fGCGOperationReq\x12\x13\n\x0bredirectUid\x18\x03 \x01(\r\x12\r\n\x05opSeq\x18\x06 \x01(\r\x12\x19\n\x02op\x18\x0b \x01(\x0b\x32\r.GCGOperationB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGOPERATIONREQ._serialized_start=45
-  _GCGOPERATIONREQ._serialized_end=127
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGOPERATIONREQ']._serialized_start=45
+  _globals['_GCGOPERATIONREQ']._serialized_end=125
 # @@protoc_insertion_point(module_scope)

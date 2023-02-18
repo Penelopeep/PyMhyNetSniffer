@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ChatInfo_pb2 as ChatInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PrivateChatNotify.proto\x1a\x0e\x43hatInfo.proto\"1\n\x11PrivateChatNotify\x12\x1c\n\tchat_info\x18\t \x01(\x0b\x32\t.ChatInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PrivateChatNotify.proto\x1a\x0e\x43hatInfo.proto\"0\n\x11PrivateChatNotify\x12\x1b\n\x08\x63hatInfo\x18\x0f \x01(\x0b\x32\t.ChatInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PrivateChatNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PrivateChatNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PRIVATECHATNOTIFY._serialized_start=43
-  _PRIVATECHATNOTIFY._serialized_end=92
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PRIVATECHATNOTIFY']._serialized_start=43
+  _globals['_PRIVATECHATNOTIFY']._serialized_end=91
 # @@protoc_insertion_point(module_scope)

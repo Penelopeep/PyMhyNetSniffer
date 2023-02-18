@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eGCGToken.proto\"&\n\x08GCGToken\x12\r\n\x05value\x18\x0e \x01(\r\x12\x0b\n\x03key\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eGCGToken.proto\"&\n\x08GCGToken\x12\x0b\n\x03key\x18\t \x01(\r\x12\r\n\x05value\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGToken_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGToken_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGTOKEN._serialized_start=18
-  _GCGTOKEN._serialized_end=56
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGTOKEN']._serialized_start=18
+  _globals['_GCGTOKEN']._serialized_end=56
 # @@protoc_insertion_point(module_scope)

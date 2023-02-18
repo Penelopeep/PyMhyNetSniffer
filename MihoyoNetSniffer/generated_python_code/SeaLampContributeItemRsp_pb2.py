@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSeaLampContributeItemRsp.proto\"{\n\x18SeaLampContributeItemRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x1b\n\x13Unk3300_AIINHBHNHOI\x18\x0b \x01(\r\x12\x14\n\x0c\x61\x64\x64_progress\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_LPHALOGLGAL\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSeaLampContributeItemRsp.proto\"z\n\x18SeaLampContributeItemRsp\x12\x13\n\x0b\x61\x64\x64Progress\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_AIINHBHNHOI\x18\t \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x1b\n\x13Unk3300_LPHALOGLGAL\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampContributeItemRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampContributeItemRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SEALAMPCONTRIBUTEITEMRSP._serialized_start=34
-  _SEALAMPCONTRIBUTEITEMRSP._serialized_end=157
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SEALAMPCONTRIBUTEITEMRSP']._serialized_start=34
+  _globals['_SEALAMPCONTRIBUTEITEMRSP']._serialized_end=156
 # @@protoc_insertion_point(module_scope)

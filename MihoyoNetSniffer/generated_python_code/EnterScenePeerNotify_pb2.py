@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45nterScenePeerNotify.proto\"o\n\x14\x45nterScenePeerNotify\x12\x19\n\x11\x65nter_scene_token\x18\x07 \x01(\r\x12\x14\n\x0chost_peer_id\x18\x0c \x01(\r\x12\x0f\n\x07peer_id\x18\x0e \x01(\r\x12\x15\n\rdest_scene_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45nterScenePeerNotify.proto\"h\n\x14\x45nterScenePeerNotify\x12\x12\n\nhostPeerId\x18\n \x01(\r\x12\x13\n\x0b\x64\x65stSceneId\x18\x08 \x01(\r\x12\x17\n\x0f\x65nterSceneToken\x18\t \x01(\r\x12\x0e\n\x06peerId\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterScenePeerNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterScenePeerNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ENTERSCENEPEERNOTIFY._serialized_start=30
-  _ENTERSCENEPEERNOTIFY._serialized_end=141
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ENTERSCENEPEERNOTIFY']._serialized_start=30
+  _globals['_ENTERSCENEPEERNOTIFY']._serialized_end=134
 # @@protoc_insertion_point(module_scope)

@@ -14,17 +14,19 @@ _sym_db = _symbol_database.Default()
 import AvatarTeam_pb2 as AvatarTeam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarTeamAllDataNotify.proto\x1a\x10\x41vatarTeam.proto\"\xe8\x01\n\x17\x41vatarTeamAllDataNotify\x12\x1d\n\x15temp_avatar_guid_list\x18\x02 \x03(\x04\x12%\n\x1d\x62\x61\x63kup_avatar_team_order_list\x18\n \x03(\r\x12\x44\n\x0f\x61vatar_team_map\x18\x05 \x03(\x0b\x32+.AvatarTeamAllDataNotify.AvatarTeamMapEntry\x1a\x41\n\x12\x41vatarTeamMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1a\n\x05value\x18\x02 \x01(\x0b\x32\x0b.AvatarTeam:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarTeamAllDataNotify.proto\x1a\x10\x41vatarTeam.proto\"\xdf\x01\n\x17\x41vatarTeamAllDataNotify\x12\x1a\n\x12tempAvatarGuidList\x18\x0f \x03(\x04\x12!\n\x19\x62\x61\x63kupAvatarTeamOrderList\x18\x0e \x03(\r\x12\x42\n\ravatarTeamMap\x18\x0c \x03(\x0b\x32+.AvatarTeamAllDataNotify.AvatarTeamMapEntry\x1a\x41\n\x12\x41vatarTeamMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1a\n\x05value\x18\x02 \x01(\x0b\x32\x0b.AvatarTeam:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarTeamAllDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarTeamAllDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _AVATARTEAMALLDATANOTIFY_AVATARTEAMMAPENTRY._options = None
   _AVATARTEAMALLDATANOTIFY_AVATARTEAMMAPENTRY._serialized_options = b'8\001'
-  _AVATARTEAMALLDATANOTIFY._serialized_start=52
-  _AVATARTEAMALLDATANOTIFY._serialized_end=284
-  _AVATARTEAMALLDATANOTIFY_AVATARTEAMMAPENTRY._serialized_start=219
-  _AVATARTEAMALLDATANOTIFY_AVATARTEAMMAPENTRY._serialized_end=284
+  _globals['_AVATARTEAMALLDATANOTIFY']._serialized_start=52
+  _globals['_AVATARTEAMALLDATANOTIFY']._serialized_end=275
+  _globals['_AVATARTEAMALLDATANOTIFY_AVATARTEAMMAPENTRY']._serialized_start=210
+  _globals['_AVATARTEAMALLDATANOTIFY_AVATARTEAMMAPENTRY']._serialized_end=275
 # @@protoc_insertion_point(module_scope)

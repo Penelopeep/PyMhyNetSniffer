@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import State_pb2 as State__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13Investigation.proto\"\xc9\x01\n\rInvestigation\x12\x16\n\x0etotal_progress\x18\x05 \x01(\r\x12\x10\n\x08progress\x18\x0e \x01(\r\x12\n\n\x02id\x18\n \x01(\r\x12#\n\x05state\x18\x06 \x01(\x0e\x32\x14.Investigation.State\"]\n\x05State\x12\x11\n\rSTATE_INVALID\x10\x00\x12\x15\n\x11STATE_IN_PROGRESS\x10\x01\x12\x12\n\x0eSTATE_COMPLETE\x10\x02\x12\x16\n\x12STATE_REWARD_TAKEN\x10\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13Investigation.proto\x1a\x0bState.proto\"[\n\rInvestigation\x12\x10\n\x08progress\x18\x0b \x01(\r\x12\n\n\x02id\x18\x05 \x01(\r\x12\x15\n\x05state\x18\x04 \x01(\x0e\x32\x06.State\x12\x15\n\rtotalProgress\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Investigation_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Investigation_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _INVESTIGATION._serialized_start=24
-  _INVESTIGATION._serialized_end=225
-  _INVESTIGATION_STATE._serialized_start=132
-  _INVESTIGATION_STATE._serialized_end=225
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_INVESTIGATION']._serialized_start=36
+  _globals['_INVESTIGATION']._serialized_end=127
 # @@protoc_insertion_point(module_scope)

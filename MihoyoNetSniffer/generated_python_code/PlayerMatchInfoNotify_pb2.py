@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import MatchType_pb2 as MatchType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerMatchInfoNotify.proto\x1a\x0fMatchType.proto\"\xfb\x01\n\x15PlayerMatchInfoNotify\x12\x12\n\ndungeon_id\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_BNEIANJBLBL\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_OCILKHJPJED\x18\n \x01(\r\x12\x10\n\x08host_uid\x18\x0c \x01(\r\x12\x1e\n\nmatch_type\x18\r \x01(\x0e\x32\n.MatchType\x12\"\n\x1amechanicus_difficult_level\x18\x0f \x01(\r\x12\x12\n\nmp_play_id\x18\x02 \x01(\r\x12\x10\n\x08match_id\x18\x07 \x01(\r\x12\x18\n\x10match_param_list\x18\x0b \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerMatchInfoNotify.proto\x1a\x0fMatchType.proto\"\xee\x01\n\x15PlayerMatchInfoNotify\x12\x0f\n\x07hostUid\x18\x01 \x01(\r\x12\x1d\n\x15\x65stimateMatchCostTime\x18\r \x01(\r\x12 \n\x18mechanicusDifficultLevel\x18\x02 \x01(\r\x12\x16\n\x0ematchParamList\x18\n \x03(\r\x12\x16\n\x0ematchBeginTime\x18\x0e \x01(\r\x12\x10\n\x08mpPlayId\x18\x06 \x01(\r\x12\x1d\n\tmatchType\x18\x05 \x01(\x0e\x32\n.MatchType\x12\x0f\n\x07matchId\x18\x08 \x01(\r\x12\x11\n\tdungeonId\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerMatchInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerMatchInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERMATCHINFONOTIFY._serialized_start=49
-  _PLAYERMATCHINFONOTIFY._serialized_end=300
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERMATCHINFONOTIFY']._serialized_start=49
+  _globals['_PLAYERMATCHINFONOTIFY']._serialized_end=287
 # @@protoc_insertion_point(module_scope)

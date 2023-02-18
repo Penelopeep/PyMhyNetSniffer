@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"VintageHuntingFirstStageInfo.proto\"\x84\x01\n\x1cVintageHuntingFirstStageInfo\x12\x1b\n\x13Unk3300_HIKADHBLPEB\x18\n \x01(\r\x12\r\n\x05score\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_IPAJLKOBDKC\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_NILGNHOPGLD\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"VintageHuntingFirstStageInfo.proto\"\x84\x01\n\x1cVintageHuntingFirstStageInfo\x12\x1b\n\x13Unk3300_NILGNHOPGLD\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_HIKADHBLPEB\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_IPAJLKOBDKC\x18\x0c \x01(\r\x12\r\n\x05score\x18\x0f \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageHuntingFirstStageInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageHuntingFirstStageInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _VINTAGEHUNTINGFIRSTSTAGEINFO._serialized_start=39
-  _VINTAGEHUNTINGFIRSTSTAGEINFO._serialized_end=171
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_VINTAGEHUNTINGFIRSTSTAGEINFO']._serialized_start=39
+  _globals['_VINTAGEHUNTINGFIRSTSTAGEINFO']._serialized_end=171
 # @@protoc_insertion_point(module_scope)

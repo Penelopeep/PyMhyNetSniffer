@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%FungusFighterTrainingInfoNotify.proto\"\xde\x01\n\x1f\x46ungusFighterTrainingInfoNotify\x12\x0f\n\x07\x62uff_id\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_IOEELCAMDCK\x18\n \x01(\r\x12\x1b\n\x13Unk3300_HGPGNCMNDJN\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_EDHANEGNMJM\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_GMLIPFDMDOG\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_EKAMCPNGCGH\x18\r \x01(\r\x12\x19\n\x11max_monster_count\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%FungusFighterTrainingInfoNotify.proto\"\xdb\x01\n\x1f\x46ungusFighterTrainingInfoNotify\x12\x1b\n\x13Unk3300_EDHANEGNMJM\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_IOEELCAMDCK\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_EKAMCPNGCGH\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_GMLIPFDMDOG\x18\x07 \x01(\r\x12\x17\n\x0fmaxMonsterCount\x18\x03 \x01(\r\x12\x0e\n\x06\x62uffId\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_HGPGNCMNDJN\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusFighterTrainingInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusFighterTrainingInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FUNGUSFIGHTERTRAININGINFONOTIFY._serialized_start=42
-  _FUNGUSFIGHTERTRAININGINFONOTIFY._serialized_end=264
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FUNGUSFIGHTERTRAININGINFONOTIFY']._serialized_start=42
+  _globals['_FUNGUSFIGHTERTRAININGINFONOTIFY']._serialized_end=261
 # @@protoc_insertion_point(module_scope)

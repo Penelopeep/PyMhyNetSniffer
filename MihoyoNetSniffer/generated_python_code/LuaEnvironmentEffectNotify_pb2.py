@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n LuaEnvironmentEffectNotify.proto\"r\n\x1aLuaEnvironmentEffectNotify\x12\x0c\n\x04type\x18\x08 \x01(\r\x12\x16\n\x0eint_param_list\x18\n \x03(\x05\x12\x14\n\x0c\x65\x66\x66\x65\x63t_alias\x18\x03 \x01(\t\x12\x18\n\x10\x66loat_param_list\x18\x0c \x03(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n LuaEnvironmentEffectNotify.proto\"m\n\x1aLuaEnvironmentEffectNotify\x12\x0c\n\x04type\x18\x0e \x01(\r\x12\x16\n\x0e\x66loatParamList\x18\x0c \x03(\x02\x12\x13\n\x0b\x65\x66\x66\x65\x63tAlias\x18\r \x01(\t\x12\x14\n\x0cintParamList\x18\x01 \x03(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LuaEnvironmentEffectNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LuaEnvironmentEffectNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LUAENVIRONMENTEFFECTNOTIFY._serialized_start=36
-  _LUAENVIRONMENTEFFECTNOTIFY._serialized_end=150
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LUAENVIRONMENTEFFECTNOTIFY']._serialized_start=36
+  _globals['_LUAENVIRONMENTEFFECTNOTIFY']._serialized_end=145
 # @@protoc_insertion_point(module_scope)

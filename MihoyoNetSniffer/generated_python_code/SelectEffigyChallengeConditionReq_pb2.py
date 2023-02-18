@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'SelectEffigyChallengeConditionReq.proto\"k\n!SelectEffigyChallengeConditionReq\x12\x14\n\x0c\x63hallenge_id\x18\x06 \x01(\r\x12\x19\n\x11\x63ondition_id_list\x18\x01 \x03(\r\x12\x15\n\rdifficulty_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'SelectEffigyChallengeConditionReq.proto\"g\n!SelectEffigyChallengeConditionReq\x12\x14\n\x0c\x64ifficultyId\x18\x0b \x01(\r\x12\x13\n\x0b\x63hallengeId\x18\x02 \x01(\r\x12\x17\n\x0f\x63onditionIdList\x18\x03 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SelectEffigyChallengeConditionReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SelectEffigyChallengeConditionReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SELECTEFFIGYCHALLENGECONDITIONREQ._serialized_start=43
-  _SELECTEFFIGYCHALLENGECONDITIONREQ._serialized_end=150
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SELECTEFFIGYCHALLENGECONDITIONREQ']._serialized_start=43
+  _globals['_SELECTEFFIGYCHALLENGECONDITIONREQ']._serialized_end=146
 # @@protoc_insertion_point(module_scope)

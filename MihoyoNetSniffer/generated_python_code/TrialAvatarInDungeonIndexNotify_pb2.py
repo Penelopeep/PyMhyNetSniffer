@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TrialAvatarInDungeonIndexNotify.proto\"@\n\x1fTrialAvatarInDungeonIndexNotify\x12\x1d\n\x15trial_avatar_index_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TrialAvatarInDungeonIndexNotify.proto\"=\n\x1fTrialAvatarInDungeonIndexNotify\x12\x1a\n\x12trialAvatarIndexId\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TrialAvatarInDungeonIndexNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TrialAvatarInDungeonIndexNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TRIALAVATARINDUNGEONINDEXNOTIFY._serialized_start=41
-  _TRIALAVATARINDUNGEONINDEXNOTIFY._serialized_end=105
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TRIALAVATARINDUNGEONINDEXNOTIFY']._serialized_start=41
+  _globals['_TRIALAVATARINDUNGEONINDEXNOTIFY']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

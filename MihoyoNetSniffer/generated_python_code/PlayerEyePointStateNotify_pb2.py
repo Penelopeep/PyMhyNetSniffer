@@ -11,18 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import CylinderRegionSize_pb2 as CylinderRegionSize__pb2
-import PolygonRegionSize_pb2 as PolygonRegionSize__pb2
 import Vector_pb2 as Vector__pb2
+import CylinderSize_pb2 as CylinderSize__pb2
+import PolygonSize_pb2 as PolygonSize__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerEyePointStateNotify.proto\x1a\x18\x43ylinderRegionSize.proto\x1a\x17PolygonRegionSize.proto\x1a\x0cVector.proto\"\xa5\x03\n\x19PlayerEyePointStateNotify\x12\x1e\n\reye_point_pos\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_KFOHOBLMMLB\x18\t \x01(\x08\x12\x1b\n\x13Unk3300_GNFJIOEGHOE\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_BIHEKNFDDDI\x18\x08 \x01(\r\x12\x15\n\rfix_lod_level\x18\x0b \x01(\x05\x12\x1b\n\x13Unk3300_NIPFCFCBFAE\x18\x0e \x01(\x08\x12\x1b\n\x13Unk3300_JGEMKKJAHKA\x18\r \x01(\r\x12\x1b\n\x13Unk3300_EOPFNBBBGPK\x18\x06 \x01(\r\x12\x18\n\rsphere_radius\x18\x85\x0b \x01(\x02H\x00\x12\x1e\n\ncubic_size\x18\xd2\n \x01(\x0b\x32\x07.VectorH\x00\x12-\n\rcylinder_size\x18\xe2\t \x01(\x0b\x32\x13.CylinderRegionSizeH\x00\x12+\n\x0cpolygon_size\x18\xe0\x04 \x01(\x0b\x32\x12.PolygonRegionSizeH\x00\x42\r\n\x0bregion_sizeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerEyePointStateNotify.proto\x1a\x0cVector.proto\x1a\x12\x43ylinderSize.proto\x1a\x11PolygonSize.proto\"\x95\x03\n\x19PlayerEyePointStateNotify\x12\x1b\n\x13Unk3300_KFOHOBLMMLB\x18\x01 \x01(\x08\x12\x1c\n\x0b\x65yePointPos\x18\x0e \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_EOPFNBBBGPK\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_GNFJIOEGHOE\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_BIHEKNFDDDI\x18\x04 \x01(\r\x12\x13\n\x0b\x66ixLodLevel\x18\x06 \x01(\x05\x12\x1b\n\x13Unk3300_JGEMKKJAHKA\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_NIPFCFCBFAE\x18\n \x01(\x08\x12\x18\n\rsphere_radius\x18\x98\x01 \x01(\x02H\x00\x12\x1e\n\ncubic_size\x18\xef\x06 \x01(\x0b\x32\x07.VectorH\x00\x12\'\n\rcylinder_size\x18\xa8\n \x01(\x0b\x32\r.CylinderSizeH\x00\x12%\n\x0cpolygon_size\x18\xcc\x0f \x01(\x0b\x32\x0c.PolygonSizeH\x00\x42\r\n\x0bregion_sizeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerEyePointStateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerEyePointStateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYEREYEPOINTSTATENOTIFY._serialized_start=101
-  _PLAYEREYEPOINTSTATENOTIFY._serialized_end=522
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYEREYEPOINTSTATENOTIFY']._serialized_start=89
+  _globals['_PLAYEREYEPOINTSTATENOTIFY']._serialized_end=494
 # @@protoc_insertion_point(module_scope)

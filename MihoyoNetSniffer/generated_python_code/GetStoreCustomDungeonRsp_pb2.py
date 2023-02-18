@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import OtherCustomDungeonBrief_pb2 as OtherCustomDungeonBrief__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetStoreCustomDungeonRsp.proto\x1a\x1dOtherCustomDungeonBrief.proto\"b\n\x18GetStoreCustomDungeonRsp\x12\x35\n\x13\x63ustom_dungeon_list\x18\x02 \x03(\x0b\x32\x18.OtherCustomDungeonBrief\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetStoreCustomDungeonRsp.proto\x1a\x1dOtherCustomDungeonBrief.proto\"`\n\x18GetStoreCustomDungeonRsp\x12\x33\n\x11\x63ustomDungeonList\x18\x01 \x03(\x0b\x32\x18.OtherCustomDungeonBrief\x12\x0f\n\x07retcode\x18\n \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetStoreCustomDungeonRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetStoreCustomDungeonRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETSTORECUSTOMDUNGEONRSP._serialized_start=65
-  _GETSTORECUSTOMDUNGEONRSP._serialized_end=163
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETSTORECUSTOMDUNGEONRSP']._serialized_start=65
+  _globals['_GETSTORECUSTOMDUNGEONRSP']._serialized_end=161
 # @@protoc_insertion_point(module_scope)

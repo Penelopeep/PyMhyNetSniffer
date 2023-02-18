@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import MaterialDeleteInfo_pb2 as MaterialDeleteInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMaterial.proto\x1a\x18MaterialDeleteInfo.proto\"C\n\x08Material\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12(\n\x0b\x64\x65lete_info\x18\x02 \x01(\x0b\x32\x13.MaterialDeleteInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMaterial.proto\x1a\x18MaterialDeleteInfo.proto\"B\n\x08Material\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\'\n\ndeleteInfo\x18\x02 \x01(\x0b\x32\x13.MaterialDeleteInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Material_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Material_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MATERIAL._serialized_start=44
-  _MATERIAL._serialized_end=111
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MATERIAL']._serialized_start=44
+  _globals['_MATERIAL']._serialized_end=110
 # @@protoc_insertion_point(module_scope)

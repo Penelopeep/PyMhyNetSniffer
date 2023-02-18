@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x43hallengeBrief.proto\"i\n\x0e\x43hallengeBrief\x12\x17\n\x0f\x63hallenge_index\x18\x05 \x01(\r\x12\x14\n\x0c\x63ur_progress\x18\x0f \x01(\r\x12\x12\n\nis_success\x18\x0c \x01(\x08\x12\x14\n\x0c\x63hallenge_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x43hallengeBrief.proto\"e\n\x0e\x43hallengeBrief\x12\x13\n\x0b\x63urProgress\x18\t \x01(\r\x12\x11\n\tisSuccess\x18\x05 \x01(\x08\x12\x16\n\x0e\x63hallengeIndex\x18\x0f \x01(\r\x12\x13\n\x0b\x63hallengeId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChallengeBrief_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChallengeBrief_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHALLENGEBRIEF._serialized_start=24
-  _CHALLENGEBRIEF._serialized_end=129
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHALLENGEBRIEF']._serialized_start=24
+  _globals['_CHALLENGEBRIEF']._serialized_end=125
 # @@protoc_insertion_point(module_scope)

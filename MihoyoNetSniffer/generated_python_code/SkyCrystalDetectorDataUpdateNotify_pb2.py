@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import SkyCrystalDetectorData_pb2 as SkyCrystalDetectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(SkyCrystalDetectorDataUpdateNotify.proto\x1a\x1cSkyCrystalDetectorData.proto\"`\n\"SkyCrystalDetectorDataUpdateNotify\x12:\n\x19sky_crystal_detector_data\x18\x0f \x01(\x0b\x32\x17.SkyCrystalDetectorDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(SkyCrystalDetectorDataUpdateNotify.proto\x1a\x1cSkyCrystalDetectorData.proto\"]\n\"SkyCrystalDetectorDataUpdateNotify\x12\x37\n\x16skyCrystalDetectorData\x18\x0c \x01(\x0b\x32\x17.SkyCrystalDetectorDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SkyCrystalDetectorDataUpdateNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SkyCrystalDetectorDataUpdateNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SKYCRYSTALDETECTORDATAUPDATENOTIFY._serialized_start=74
-  _SKYCRYSTALDETECTORDATAUPDATENOTIFY._serialized_end=170
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SKYCRYSTALDETECTORDATAUPDATENOTIFY']._serialized_start=74
+  _globals['_SKYCRYSTALDETECTORDATAUPDATENOTIFY']._serialized_end=167
 # @@protoc_insertion_point(module_scope)

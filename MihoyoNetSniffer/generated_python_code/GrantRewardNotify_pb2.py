@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Reward_pb2 as Reward__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GrantRewardNotify.proto\x1a\x0cReward.proto\",\n\x11GrantRewardNotify\x12\x17\n\x06reward\x18\x01 \x01(\x0b\x32\x07.Rewardb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GrantRewardNotify.proto\x1a\x0cReward.proto\",\n\x11GrantRewardNotify\x12\x17\n\x06reward\x18\n \x01(\x0b\x32\x07.RewardB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GrantRewardNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GrantRewardNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GRANTREWARDNOTIFY._serialized_start=41
-  _GRANTREWARDNOTIFY._serialized_end=85
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GRANTREWARDNOTIFY']._serialized_start=41
+  _globals['_GRANTREWARDNOTIFY']._serialized_end=85
 # @@protoc_insertion_point(module_scope)

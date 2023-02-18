@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ExhibitionDisplayInfo_pb2 as ExhibitionDisplayInfo__pb2
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
+import ExhibitionDisplayInfo_pb2 as ExhibitionDisplayInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DungeonSettleExhibitionInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\x1a\x16OnlinePlayerInfo.proto\"p\n\x1b\x44ungeonSettleExhibitionInfo\x12&\n\x0bplayer_info\x18\x0e \x01(\x0b\x32\x11.OnlinePlayerInfo\x12)\n\tcard_list\x18\r \x03(\x0b\x32\x16.ExhibitionDisplayInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DungeonSettleExhibitionInfo.proto\x1a\x16OnlinePlayerInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\"n\n\x1b\x44ungeonSettleExhibitionInfo\x12(\n\x08\x63\x61rdList\x18\x02 \x03(\x0b\x32\x16.ExhibitionDisplayInfo\x12%\n\nplayerInfo\x18\r \x01(\x0b\x32\x11.OnlinePlayerInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonSettleExhibitionInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonSettleExhibitionInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DUNGEONSETTLEEXHIBITIONINFO._serialized_start=90
-  _DUNGEONSETTLEEXHIBITIONINFO._serialized_end=202
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DUNGEONSETTLEEXHIBITIONINFO']._serialized_start=90
+  _globals['_DUNGEONSETTLEEXHIBITIONINFO']._serialized_end=200
 # @@protoc_insertion_point(module_scope)

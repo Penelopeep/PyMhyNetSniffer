@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MpPlayRewardInfo.proto\"T\n\x10MpPlayRewardInfo\x12\r\n\x05resin\x18\x01 \x01(\r\x12\x17\n\x0fremain_uid_list\x18\x02 \x03(\r\x12\x18\n\x10qualify_uid_list\x18\x03 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MpPlayRewardInfo.proto\"P\n\x10MpPlayRewardInfo\x12\r\n\x05resin\x18\x01 \x01(\r\x12\x15\n\rremainUidList\x18\x02 \x03(\r\x12\x16\n\x0equalifyUidList\x18\x03 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MpPlayRewardInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MpPlayRewardInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MPPLAYREWARDINFO._serialized_start=26
-  _MPPLAYREWARDINFO._serialized_end=110
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MPPLAYREWARDINFO']._serialized_start=26
+  _globals['_MPPLAYREWARDINFO']._serialized_end=106
 # @@protoc_insertion_point(module_scope)

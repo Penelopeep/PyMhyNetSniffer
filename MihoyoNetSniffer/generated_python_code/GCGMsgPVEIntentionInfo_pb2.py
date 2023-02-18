@@ -14,17 +14,19 @@ _sym_db = _symbol_database.Default()
 import GCGMsgPVEIntention_pb2 as GCGMsgPVEIntention__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGCGMsgPVEIntentionInfo.proto\x1a\x18GCGMsgPVEIntention.proto\"\xa4\x01\n\x16GCGMsgPVEIntentionInfo\x12@\n\rintention_map\x18\x0e \x03(\x0b\x32).GCGMsgPVEIntentionInfo.IntentionMapEntry\x1aH\n\x11IntentionMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\"\n\x05value\x18\x02 \x01(\x0b\x32\x13.GCGMsgPVEIntention:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGCGMsgPVEIntentionInfo.proto\x1a\x18GCGMsgPVEIntention.proto\"\xa3\x01\n\x16GCGMsgPVEIntentionInfo\x12?\n\x0cintentionMap\x18\x0f \x03(\x0b\x32).GCGMsgPVEIntentionInfo.IntentionMapEntry\x1aH\n\x11IntentionMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\"\n\x05value\x18\x02 \x01(\x0b\x32\x13.GCGMsgPVEIntention:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgPVEIntentionInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgPVEIntentionInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _GCGMSGPVEINTENTIONINFO_INTENTIONMAPENTRY._options = None
   _GCGMSGPVEINTENTIONINFO_INTENTIONMAPENTRY._serialized_options = b'8\001'
-  _GCGMSGPVEINTENTIONINFO._serialized_start=59
-  _GCGMSGPVEINTENTIONINFO._serialized_end=223
-  _GCGMSGPVEINTENTIONINFO_INTENTIONMAPENTRY._serialized_start=151
-  _GCGMSGPVEINTENTIONINFO_INTENTIONMAPENTRY._serialized_end=223
+  _globals['_GCGMSGPVEINTENTIONINFO']._serialized_start=59
+  _globals['_GCGMSGPVEINTENTIONINFO']._serialized_end=222
+  _globals['_GCGMSGPVEINTENTIONINFO_INTENTIONMAPENTRY']._serialized_start=150
+  _globals['_GCGMSGPVEINTENTIONINFO_INTENTIONMAPENTRY']._serialized_end=222
 # @@protoc_insertion_point(module_scope)

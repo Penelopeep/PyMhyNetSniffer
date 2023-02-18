@@ -13,21 +13,23 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x41iSkillCdInfo.proto\"\xf1\x01\n\rAiSkillCdInfo\x12?\n\x12skill_group_cd_map\x18\x01 \x03(\x0b\x32#.AiSkillCdInfo.SkillGroupCdMapEntry\x12\x34\n\x0cskill_cd_map\x18\x0f \x03(\x0b\x32\x1e.AiSkillCdInfo.SkillCdMapEntry\x1a\x36\n\x14SkillGroupCdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x31\n\x0fSkillCdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x41iSkillCdInfo.proto\"\xec\x01\n\rAiSkillCdInfo\x12\x32\n\nskillCdMap\x18\x0e \x03(\x0b\x32\x1e.AiSkillCdInfo.SkillCdMapEntry\x12<\n\x0fskillGroupCdMap\x18\x03 \x03(\x0b\x32#.AiSkillCdInfo.SkillGroupCdMapEntry\x1a\x31\n\x0fSkillCdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x36\n\x14SkillGroupCdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AiSkillCdInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AiSkillCdInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AISKILLCDINFO_SKILLGROUPCDMAPENTRY._options = None
-  _AISKILLCDINFO_SKILLGROUPCDMAPENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _AISKILLCDINFO_SKILLCDMAPENTRY._options = None
   _AISKILLCDINFO_SKILLCDMAPENTRY._serialized_options = b'8\001'
-  _AISKILLCDINFO._serialized_start=24
-  _AISKILLCDINFO._serialized_end=265
-  _AISKILLCDINFO_SKILLGROUPCDMAPENTRY._serialized_start=160
-  _AISKILLCDINFO_SKILLGROUPCDMAPENTRY._serialized_end=214
-  _AISKILLCDINFO_SKILLCDMAPENTRY._serialized_start=216
-  _AISKILLCDINFO_SKILLCDMAPENTRY._serialized_end=265
+  _AISKILLCDINFO_SKILLGROUPCDMAPENTRY._options = None
+  _AISKILLCDINFO_SKILLGROUPCDMAPENTRY._serialized_options = b'8\001'
+  _globals['_AISKILLCDINFO']._serialized_start=24
+  _globals['_AISKILLCDINFO']._serialized_end=260
+  _globals['_AISKILLCDINFO_SKILLCDMAPENTRY']._serialized_start=155
+  _globals['_AISKILLCDINFO_SKILLCDMAPENTRY']._serialized_end=204
+  _globals['_AISKILLCDINFO_SKILLGROUPCDMAPENTRY']._serialized_start=206
+  _globals['_AISKILLCDINFO_SKILLGROUPCDMAPENTRY']._serialized_end=260
 # @@protoc_insertion_point(module_scope)

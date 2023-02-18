@@ -13,15 +13,17 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetHomeExchangeWoodInfoRsp.proto\"\xec\x01\n\x1aGetHomeExchangeWoodInfoRsp\x12H\n\x0ewood_info_list\x18\x07 \x03(\x0b\x32\x30.GetHomeExchangeWoodInfoRsp.HomeExchangeWoodInfo\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x1as\n\x14HomeExchangeWoodInfo\x12\x0f\n\x07wood_id\x18\x01 \x01(\r\x12\x17\n\x0f\x65xchanged_count\x18\x07 \x01(\r\x12\x19\n\x11next_refresh_time\x18\x0e \x01(\r\x12\x16\n\x0e\x65xchange_limit\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetHomeExchangeWoodInfoRsp.proto\"\xe5\x01\n\x1aGetHomeExchangeWoodInfoRsp\x12\x46\n\x0cwoodInfoList\x18\x0b \x03(\x0b\x32\x30.GetHomeExchangeWoodInfoRsp.HomeExchangeWoodInfo\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x1an\n\x14HomeExchangeWoodInfo\x12\x15\n\rexchangeLimit\x18\x08 \x01(\r\x12\x0e\n\x06woodId\x18\x02 \x01(\r\x12\x17\n\x0fnextRefreshTime\x18\x03 \x01(\r\x12\x16\n\x0e\x65xchangedCount\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetHomeExchangeWoodInfoRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetHomeExchangeWoodInfoRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETHOMEEXCHANGEWOODINFORSP._serialized_start=37
-  _GETHOMEEXCHANGEWOODINFORSP._serialized_end=273
-  _GETHOMEEXCHANGEWOODINFORSP_HOMEEXCHANGEWOODINFO._serialized_start=158
-  _GETHOMEEXCHANGEWOODINFORSP_HOMEEXCHANGEWOODINFO._serialized_end=273
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETHOMEEXCHANGEWOODINFORSP']._serialized_start=37
+  _globals['_GETHOMEEXCHANGEWOODINFORSP']._serialized_end=266
+  _globals['_GETHOMEEXCHANGEWOODINFORSP_HOMEEXCHANGEWOODINFO']._serialized_start=156
+  _globals['_GETHOMEEXCHANGEWOODINFORSP_HOMEEXCHANGEWOODINFO']._serialized_end=266
 # @@protoc_insertion_point(module_scope)

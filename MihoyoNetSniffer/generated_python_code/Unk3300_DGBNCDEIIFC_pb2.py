@@ -11,15 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import PlatformType_pb2 as PlatformType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19Unk3300_DGBNCDEIIFC.proto\".\n\x13Unk3300_DGBNCDEIIFC\x12\x17\n\x0fmonster_id_list\x18\t \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19Unk3300_DGBNCDEIIFC.proto\x1a\x12PlatformType.proto\"P\n\x13Unk3300_DGBNCDEIIFC\x12\x15\n\rmonsterIdList\x18\x08 \x03(\r\x12\"\n\x0bpgnajgkggih\x18\x03 \x03(\x0e\x32\r.PlatformTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Unk3300_DGBNCDEIIFC_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Unk3300_DGBNCDEIIFC_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _UNK3300_DGBNCDEIIFC._serialized_start=29
-  _UNK3300_DGBNCDEIIFC._serialized_end=75
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_UNK3300_DGBNCDEIIFC']._serialized_start=49
+  _globals['_UNK3300_DGBNCDEIIFC']._serialized_end=129
 # @@protoc_insertion_point(module_scope)

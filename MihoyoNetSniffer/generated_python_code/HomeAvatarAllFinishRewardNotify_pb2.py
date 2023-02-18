@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%HomeAvatarAllFinishRewardNotify.proto\"8\n\x1fHomeAvatarAllFinishRewardNotify\x12\x15\n\revent_id_list\x18\n \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%HomeAvatarAllFinishRewardNotify.proto\"6\n\x1fHomeAvatarAllFinishRewardNotify\x12\x13\n\x0b\x65ventIdList\x18\x01 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarAllFinishRewardNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarAllFinishRewardNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEAVATARALLFINISHREWARDNOTIFY._serialized_start=41
-  _HOMEAVATARALLFINISHREWARDNOTIFY._serialized_end=97
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEAVATARALLFINISHREWARDNOTIFY']._serialized_start=41
+  _globals['_HOMEAVATARALLFINISHREWARDNOTIFY']._serialized_end=95
 # @@protoc_insertion_point(module_scope)

@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GroupSuiteNotify.proto\"w\n\x10GroupSuiteNotify\x12\x32\n\tgroup_map\x18\x04 \x03(\x0b\x32\x1f.GroupSuiteNotify.GroupMapEntry\x1a/\n\rGroupMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GroupSuiteNotify.proto\"v\n\x10GroupSuiteNotify\x12\x31\n\x08groupMap\x18\x0c \x03(\x0b\x32\x1f.GroupSuiteNotify.GroupMapEntry\x1a/\n\rGroupMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GroupSuiteNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GroupSuiteNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _GROUPSUITENOTIFY_GROUPMAPENTRY._options = None
   _GROUPSUITENOTIFY_GROUPMAPENTRY._serialized_options = b'8\001'
-  _GROUPSUITENOTIFY._serialized_start=26
-  _GROUPSUITENOTIFY._serialized_end=145
-  _GROUPSUITENOTIFY_GROUPMAPENTRY._serialized_start=98
-  _GROUPSUITENOTIFY_GROUPMAPENTRY._serialized_end=145
+  _globals['_GROUPSUITENOTIFY']._serialized_start=26
+  _globals['_GROUPSUITENOTIFY']._serialized_end=144
+  _globals['_GROUPSUITENOTIFY_GROUPMAPENTRY']._serialized_start=97
+  _globals['_GROUPSUITENOTIFY_GROUPMAPENTRY']._serialized_end=144
 # @@protoc_insertion_point(module_scope)

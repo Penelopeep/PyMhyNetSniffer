@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ChatEmojiCollectionData_pb2 as ChatEmojiCollectionData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGetChatEmojiCollectionRsp.proto\x1a\x1d\x43hatEmojiCollectionData.proto\"j\n\x19GetChatEmojiCollectionRsp\x12<\n\x1a\x63hat_emoji_collection_data\x18\x0f \x01(\x0b\x32\x18.ChatEmojiCollectionData\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGetChatEmojiCollectionRsp.proto\x1a\x1d\x43hatEmojiCollectionData.proto\"g\n\x19GetChatEmojiCollectionRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x39\n\x17\x63hatEmojiCollectionData\x18\x0c \x01(\x0b\x32\x18.ChatEmojiCollectionDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetChatEmojiCollectionRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetChatEmojiCollectionRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETCHATEMOJICOLLECTIONRSP._serialized_start=66
-  _GETCHATEMOJICOLLECTIONRSP._serialized_end=172
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETCHATEMOJICOLLECTIONRSP']._serialized_start=66
+  _globals['_GETCHATEMOJICOLLECTIONRSP']._serialized_end=169
 # @@protoc_insertion_point(module_scope)

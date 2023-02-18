@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15MatchPlayerInfo.proto\x1a\x16OnlinePlayerInfo.proto\"L\n\x0fMatchPlayerInfo\x12\x11\n\tis_agreed\x18\x04 \x01(\x08\x12&\n\x0bplayer_info\x18\x0f \x01(\x0b\x32\x11.OnlinePlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15MatchPlayerInfo.proto\x1a\x16OnlinePlayerInfo.proto\"J\n\x0fMatchPlayerInfo\x12\x10\n\x08isAgreed\x18\x0b \x01(\x08\x12%\n\nplayerInfo\x18\x04 \x01(\x0b\x32\x11.OnlinePlayerInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MatchPlayerInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MatchPlayerInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MATCHPLAYERINFO._serialized_start=49
-  _MATCHPLAYERINFO._serialized_end=125
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MATCHPLAYERINFO']._serialized_start=49
+  _globals['_MATCHPLAYERINFO']._serialized_end=123
 # @@protoc_insertion_point(module_scope)

@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$ReliquaryFilterStateSaveNotify.proto\"\xc2\x01\n\x1eReliquaryFilterStateSaveNotify\x12`\n\x1areliquary_filter_state_map\x18\x04 \x03(\x0b\x32<.ReliquaryFilterStateSaveNotify.ReliquaryFilterStateMapEntry\x1a>\n\x1cReliquaryFilterStateMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$ReliquaryFilterStateSaveNotify.proto\"\xbf\x01\n\x1eReliquaryFilterStateSaveNotify\x12]\n\x17reliquaryFilterStateMap\x18\x03 \x03(\x0b\x32<.ReliquaryFilterStateSaveNotify.ReliquaryFilterStateMapEntry\x1a>\n\x1cReliquaryFilterStateMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReliquaryFilterStateSaveNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReliquaryFilterStateSaveNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _RELIQUARYFILTERSTATESAVENOTIFY_RELIQUARYFILTERSTATEMAPENTRY._options = None
   _RELIQUARYFILTERSTATESAVENOTIFY_RELIQUARYFILTERSTATEMAPENTRY._serialized_options = b'8\001'
-  _RELIQUARYFILTERSTATESAVENOTIFY._serialized_start=41
-  _RELIQUARYFILTERSTATESAVENOTIFY._serialized_end=235
-  _RELIQUARYFILTERSTATESAVENOTIFY_RELIQUARYFILTERSTATEMAPENTRY._serialized_start=173
-  _RELIQUARYFILTERSTATESAVENOTIFY_RELIQUARYFILTERSTATEMAPENTRY._serialized_end=235
+  _globals['_RELIQUARYFILTERSTATESAVENOTIFY']._serialized_start=41
+  _globals['_RELIQUARYFILTERSTATESAVENOTIFY']._serialized_end=232
+  _globals['_RELIQUARYFILTERSTATESAVENOTIFY_RELIQUARYFILTERSTATEMAPENTRY']._serialized_start=170
+  _globals['_RELIQUARYFILTERSTATESAVENOTIFY_RELIQUARYFILTERSTATEMAPENTRY']._serialized_end=232
 # @@protoc_insertion_point(module_scope)

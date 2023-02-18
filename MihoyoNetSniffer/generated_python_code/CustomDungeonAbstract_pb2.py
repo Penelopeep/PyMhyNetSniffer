@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43ustomDungeonAbstract.proto\"\x91\x02\n\x15\x43ustomDungeonAbstract\x12\x1b\n\x13Unk3300_EJGBHGHLFPI\x18\x07 \x01(\r\x12\x19\n\x11last_publish_time\x18\x0c \x01(\r\x12L\n\x14\x62rick_statistics_map\x18\x02 \x03(\x0b\x32..CustomDungeonAbstract.BrickStatisticsMapEntry\x12\x1a\n\x12\x66irst_publish_time\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_JPFIHKECLMF\x18\x04 \x01(\r\x1a\x39\n\x17\x42rickStatisticsMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43ustomDungeonAbstract.proto\"\x8b\x02\n\x15\x43ustomDungeonAbstract\x12\x1b\n\x13Unk3300_EJGBHGHLFPI\x18\n \x01(\r\x12\x1b\n\x13Unk3300_JPFIHKECLMF\x18\x02 \x01(\r\x12\x18\n\x10\x66irstPublishTime\x18\x01 \x01(\r\x12\x17\n\x0flastPublishTime\x18\x04 \x01(\r\x12J\n\x12\x62rickStatisticsMap\x18\x0c \x03(\x0b\x32..CustomDungeonAbstract.BrickStatisticsMapEntry\x1a\x39\n\x17\x42rickStatisticsMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonAbstract_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonAbstract_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _CUSTOMDUNGEONABSTRACT_BRICKSTATISTICSMAPENTRY._options = None
   _CUSTOMDUNGEONABSTRACT_BRICKSTATISTICSMAPENTRY._serialized_options = b'8\001'
-  _CUSTOMDUNGEONABSTRACT._serialized_start=32
-  _CUSTOMDUNGEONABSTRACT._serialized_end=305
-  _CUSTOMDUNGEONABSTRACT_BRICKSTATISTICSMAPENTRY._serialized_start=248
-  _CUSTOMDUNGEONABSTRACT_BRICKSTATISTICSMAPENTRY._serialized_end=305
+  _globals['_CUSTOMDUNGEONABSTRACT']._serialized_start=32
+  _globals['_CUSTOMDUNGEONABSTRACT']._serialized_end=299
+  _globals['_CUSTOMDUNGEONABSTRACT_BRICKSTATISTICSMAPENTRY']._serialized_start=242
+  _globals['_CUSTOMDUNGEONABSTRACT_BRICKSTATISTICSMAPENTRY']._serialized_end=299
 # @@protoc_insertion_point(module_scope)

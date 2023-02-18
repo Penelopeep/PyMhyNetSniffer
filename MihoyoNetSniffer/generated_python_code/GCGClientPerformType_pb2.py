@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGClientPerformType.proto*\xb2\x01\n\x14GCGClientPerformType\x12#\n\x1fGCG_CLIENT_PERFORM_TYPE_INVALID\x10\x00\x12)\n%GCG_CLIENT_PERFORM_TYPE_CARD_EXCHANGE\x10\x01\x12&\n\"GCG_CLIENT_PERFORM_TYPE_FIRST_HAND\x10\x02\x12\"\n\x1eGCG_CLIENT_PERFORM_TYPE_REROLL\x10\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGClientPerformType.proto*\xb2\x01\n\x14GCGClientPerformType\x12#\n\x1fGCG_CLIENT_PERFORM_TYPE_INVALID\x10\x00\x12)\n%GCG_CLIENT_PERFORM_TYPE_CARD_EXCHANGE\x10\x01\x12&\n\"GCG_CLIENT_PERFORM_TYPE_FIRST_HAND\x10\x02\x12\"\n\x1eGCG_CLIENT_PERFORM_TYPE_REROLL\x10\x03\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGClientPerformType_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGClientPerformType_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGCLIENTPERFORMTYPE._serialized_start=31
-  _GCGCLIENTPERFORMTYPE._serialized_end=209
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGCLIENTPERFORMTYPE']._serialized_start=31
+  _globals['_GCGCLIENTPERFORMTYPE']._serialized_end=209
 # @@protoc_insertion_point(module_scope)

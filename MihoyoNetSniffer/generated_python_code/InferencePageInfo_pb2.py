@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import InferenceWordInfo_pb2 as InferenceWordInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17InferencePageInfo.proto\x1a\x17InferenceWordInfo.proto\"R\n\x11InferencePageInfo\x12,\n\x10unlock_word_list\x18\x03 \x03(\x0b\x32\x12.InferenceWordInfo\x12\x0f\n\x07page_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17InferencePageInfo.proto\x1a\x17InferenceWordInfo.proto\"O\n\x11InferencePageInfo\x12\x0e\n\x06pageId\x18\x06 \x01(\r\x12*\n\x0eunlockWordList\x18\x08 \x03(\x0b\x32\x12.InferenceWordInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InferencePageInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InferencePageInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _INFERENCEPAGEINFO._serialized_start=52
-  _INFERENCEPAGEINFO._serialized_end=134
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_INFERENCEPAGEINFO']._serialized_start=52
+  _globals['_INFERENCEPAGEINFO']._serialized_end=131
 # @@protoc_insertion_point(module_scope)

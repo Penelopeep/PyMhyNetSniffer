@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import LanternRiteFireworksChallengeInfo_pb2 as LanternRiteFireworksChallengeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#LanternRiteFireworksStageInfo.proto\x1a\'LanternRiteFireworksChallengeInfo.proto\"\x83\x01\n\x1dLanternRiteFireworksStageInfo\x12\x10\n\x08stage_id\x18\x0e \x01(\r\x12\x0f\n\x07is_open\x18\t \x01(\x08\x12?\n\x13\x63hallenge_info_list\x18\x0b \x03(\x0b\x32\".LanternRiteFireworksChallengeInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#LanternRiteFireworksStageInfo.proto\x1a\'LanternRiteFireworksChallengeInfo.proto\"\x82\x01\n\x1dLanternRiteFireworksStageInfo\x12\x0e\n\x06isOpen\x18\x07 \x01(\x08\x12@\n\x14\x65xceededItemTypeList\x18\t \x03(\x0b\x32\".LanternRiteFireworksChallengeInfo\x12\x0f\n\x07stageId\x18\x0f \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanternRiteFireworksStageInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanternRiteFireworksStageInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LANTERNRITEFIREWORKSSTAGEINFO._serialized_start=81
-  _LANTERNRITEFIREWORKSSTAGEINFO._serialized_end=212
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LANTERNRITEFIREWORKSSTAGEINFO']._serialized_start=81
+  _globals['_LANTERNRITEFIREWORKSSTAGEINFO']._serialized_end=211
 # @@protoc_insertion_point(module_scope)

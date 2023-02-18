@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeModuleComfortInfo_pb2 as HomeModuleComfortInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeComfortInfoNotify.proto\x1a\x1bHomeModuleComfortInfo.proto\"I\n\x15HomeComfortInfoNotify\x12\x30\n\x10module_info_list\x18\x03 \x03(\x0b\x32\x16.HomeModuleComfortInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeComfortInfoNotify.proto\x1a\x1bHomeModuleComfortInfo.proto\"G\n\x15HomeComfortInfoNotify\x12.\n\x0emoduleInfoList\x18\x0b \x03(\x0b\x32\x16.HomeModuleComfortInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeComfortInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeComfortInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMECOMFORTINFONOTIFY._serialized_start=60
-  _HOMECOMFORTINFONOTIFY._serialized_end=133
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMECOMFORTINFONOTIFY']._serialized_start=60
+  _globals['_HOMECOMFORTINFONOTIFY']._serialized_end=131
 # @@protoc_insertion_point(module_scope)

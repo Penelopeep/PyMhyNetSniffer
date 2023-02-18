@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ToTheMoonObstacleInfo_pb2 as ToTheMoonObstacleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dToTheMoonAddObstacleReq.proto\x1a\x1bToTheMoonObstacleInfo.proto\"y\n\x17ToTheMoonAddObstacleReq\x12\x10\n\x08use_edge\x18\x07 \x01(\x08\x12(\n\x08obstacle\x18\x08 \x01(\x0b\x32\x16.ToTheMoonObstacleInfo\x12\x10\n\x08scene_id\x18\r \x01(\r\x12\x10\n\x08query_id\x18\x05 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dToTheMoonAddObstacleReq.proto\x1a\x1bToTheMoonObstacleInfo.proto\"v\n\x17ToTheMoonAddObstacleReq\x12(\n\x08obstacle\x18\x06 \x01(\x0b\x32\x16.ToTheMoonObstacleInfo\x12\x0f\n\x07sceneId\x18\x07 \x01(\r\x12\x0f\n\x07queryId\x18\x05 \x01(\x05\x12\x0f\n\x07useEdge\x18\x0f \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ToTheMoonAddObstacleReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ToTheMoonAddObstacleReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TOTHEMOONADDOBSTACLEREQ._serialized_start=62
-  _TOTHEMOONADDOBSTACLEREQ._serialized_end=183
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_TOTHEMOONADDOBSTACLEREQ']._serialized_start=62
+  _globals['_TOTHEMOONADDOBSTACLEREQ']._serialized_end=180
 # @@protoc_insertion_point(module_scope)

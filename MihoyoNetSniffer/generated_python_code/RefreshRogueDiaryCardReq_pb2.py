@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eRefreshRogueDiaryCardReq.proto\"5\n\x18RefreshRogueDiaryCardReq\x12\x19\n\x11refresh_card_list\x18\t \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eRefreshRogueDiaryCardReq.proto\"3\n\x18RefreshRogueDiaryCardReq\x12\x17\n\x0frefreshCardList\x18\x04 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RefreshRogueDiaryCardReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RefreshRogueDiaryCardReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _REFRESHROGUEDIARYCARDREQ._serialized_start=34
-  _REFRESHROGUEDIARYCARDREQ._serialized_end=87
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_REFRESHROGUEDIARYCARDREQ']._serialized_start=34
+  _globals['_REFRESHROGUEDIARYCARDREQ']._serialized_end=85
 # @@protoc_insertion_point(module_scope)

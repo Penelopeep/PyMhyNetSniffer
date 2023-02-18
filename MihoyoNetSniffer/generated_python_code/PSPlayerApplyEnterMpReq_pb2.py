@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPSPlayerApplyEnterMpReq.proto\"0\n\x17PSPlayerApplyEnterMpReq\x12\x15\n\rtarget_psn_id\x18\t \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPSPlayerApplyEnterMpReq.proto\".\n\x17PSPlayerApplyEnterMpReq\x12\x13\n\x0btargetPsnId\x18\x06 \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PSPlayerApplyEnterMpReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PSPlayerApplyEnterMpReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PSPLAYERAPPLYENTERMPREQ._serialized_start=33
-  _PSPLAYERAPPLYENTERMPREQ._serialized_end=81
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PSPLAYERAPPLYENTERMPREQ']._serialized_start=33
+  _globals['_PSPLAYERAPPLYENTERMPREQ']._serialized_end=79
 # @@protoc_insertion_point(module_scope)

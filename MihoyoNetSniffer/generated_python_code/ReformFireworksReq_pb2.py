@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FireworksReformData_pb2 as FireworksReformData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18ReformFireworksReq.proto\x1a\x19\x46ireworksReformData.proto\"I\n\x12ReformFireworksReq\x12\x33\n\x15\x66ireworks_reform_data\x18\x01 \x01(\x0b\x32\x14.FireworksReformDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18ReformFireworksReq.proto\x1a\x19\x46ireworksReformData.proto\"G\n\x12ReformFireworksReq\x12\x31\n\x13\x66ireworksReformData\x18\x08 \x01(\x0b\x32\x14.FireworksReformDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReformFireworksReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReformFireworksReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _REFORMFIREWORKSREQ._serialized_start=55
-  _REFORMFIREWORKSREQ._serialized_end=128
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_REFORMFIREWORKSREQ']._serialized_start=55
+  _globals['_REFORMFIREWORKSREQ']._serialized_end=126
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import StoreType_pb2 as StoreType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cStoreWeightLimitNotify.proto\x1a\x0fStoreType.proto\"\xc2\x01\n\x16StoreWeightLimitNotify\x12\x1b\n\x13Unk3300_ICDKCEOJKKG\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_NIKMCBLHFNJ\x18\n \x01(\r\x12\x1b\n\x13Unk3300_OONMFCGDMMF\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_JGPODDEKAPB\x18\x01 \x01(\r\x12\x14\n\x0cweight_limit\x18\x08 \x01(\r\x12\x1e\n\nstore_type\x18\t \x01(\x0e\x32\n.StoreTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cStoreWeightLimitNotify.proto\x1a\x0fStoreType.proto\"\xbc\x01\n\x16StoreWeightLimitNotify\x12\x1b\n\x13\x66urnitureCountLimit\x18\x02 \x01(\r\x12\x1a\n\x12materialCountLimit\x18\x03 \x01(\r\x12\x1b\n\x13reliquaryCountLimit\x18\x05 \x01(\r\x12\x13\n\x0bweightLimit\x18\x0e \x01(\r\x12\x1d\n\tstoreType\x18\x0b \x01(\x0e\x32\n.StoreType\x12\x18\n\x10weaponCountLimit\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StoreWeightLimitNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StoreWeightLimitNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _STOREWEIGHTLIMITNOTIFY._serialized_start=50
-  _STOREWEIGHTLIMITNOTIFY._serialized_end=244
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_STOREWEIGHTLIMITNOTIFY']._serialized_start=50
+  _globals['_STOREWEIGHTLIMITNOTIFY']._serialized_end=238
 # @@protoc_insertion_point(module_scope)

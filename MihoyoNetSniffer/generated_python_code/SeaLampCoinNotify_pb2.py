@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SeaLampCoinNotify.proto\"*\n\x11SeaLampCoinNotify\x12\x15\n\rsea_lamp_coin\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SeaLampCoinNotify.proto\"(\n\x11SeaLampCoinNotify\x12\x13\n\x0bseaLampCoin\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampCoinNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampCoinNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SEALAMPCOINNOTIFY._serialized_start=27
-  _SEALAMPCOINNOTIFY._serialized_end=69
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SEALAMPCOINNOTIFY']._serialized_start=27
+  _globals['_SEALAMPCOINNOTIFY']._serialized_end=67
 # @@protoc_insertion_point(module_scope)

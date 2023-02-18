@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHideAndSeekSelectSkillReq.proto\"/\n\x19HideAndSeekSelectSkillReq\x12\x12\n\nskill_list\x18\x0b \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHideAndSeekSelectSkillReq.proto\".\n\x19HideAndSeekSelectSkillReq\x12\x11\n\tskillList\x18\x06 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekSelectSkillReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekSelectSkillReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HIDEANDSEEKSELECTSKILLREQ._serialized_start=35
-  _HIDEANDSEEKSELECTSKILLREQ._serialized_end=82
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HIDEANDSEEKSELECTSKILLREQ']._serialized_start=35
+  _globals['_HIDEANDSEEKSELECTSKILLREQ']._serialized_end=81
 # @@protoc_insertion_point(module_scope)

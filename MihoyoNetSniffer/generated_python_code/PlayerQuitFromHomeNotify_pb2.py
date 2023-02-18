@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import QuitReason_pb2 as QuitReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerQuitFromHomeNotify.proto\"\xb5\x02\n\x18PlayerQuitFromHomeNotify\x12\x34\n\x06reason\x18\x0b \x01(\x0e\x32$.PlayerQuitFromHomeNotify.QuitReason\"\xe2\x01\n\nQuitReason\x12\x17\n\x13QUIT_REASON_INVALID\x10\x00\x12\x1c\n\x18QUIT_REASON_KICK_BY_HOST\x10\x01\x12 \n\x1cQUIT_REASON_BACK_TO_MY_WORLD\x10\x02\x12\x1c\n\x18QUIT_REASON_HOME_BLOCKED\x10\x03\x12!\n\x1dQUIT_REASON_HOME_IN_EDIT_MODE\x10\x04\x12\x17\n\x13QUIT_REASON_BY_MUIP\x10\x05\x12!\n\x1dQUIT_REASON_CUR_MODULE_CLOSED\x10\x06\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerQuitFromHomeNotify.proto\x1a\x10QuitReason.proto\"7\n\x18PlayerQuitFromHomeNotify\x12\x1b\n\x06reason\x18\n \x01(\x0e\x32\x0b.QuitReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerQuitFromHomeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerQuitFromHomeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERQUITFROMHOMENOTIFY._serialized_start=35
-  _PLAYERQUITFROMHOMENOTIFY._serialized_end=344
-  _PLAYERQUITFROMHOMENOTIFY_QUITREASON._serialized_start=118
-  _PLAYERQUITFROMHOMENOTIFY_QUITREASON._serialized_end=344
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERQUITFROMHOMENOTIFY']._serialized_start=52
+  _globals['_PLAYERQUITFROMHOMENOTIFY']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

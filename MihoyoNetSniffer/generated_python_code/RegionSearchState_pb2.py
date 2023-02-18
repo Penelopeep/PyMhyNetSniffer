@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17RegionSearchState.proto*\xbc\x01\n\x11RegionSearchState\x12\x1c\n\x18REGION_SEARCH_STATE_NONE\x10\x00\x12!\n\x1dREGION_SEARCH_STATE_UNSTARTED\x10\x01\x12\x1f\n\x1bREGION_SEARCH_STATE_STARTED\x10\x02\x12#\n\x1fREGION_SEARCH_STATE_WAIT_REWARD\x10\x03\x12 \n\x1cREGION_SEARCH_STATE_FINISHED\x10\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17RegionSearchState.proto*\xbc\x01\n\x11RegionSearchState\x12\x1c\n\x18REGION_SEARCH_STATE_NONE\x10\x00\x12!\n\x1dREGION_SEARCH_STATE_UNSTARTED\x10\x01\x12\x1f\n\x1bREGION_SEARCH_STATE_STARTED\x10\x02\x12#\n\x1fREGION_SEARCH_STATE_WAIT_REWARD\x10\x03\x12 \n\x1cREGION_SEARCH_STATE_FINISHED\x10\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RegionSearchState_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RegionSearchState_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _REGIONSEARCHSTATE._serialized_start=28
-  _REGIONSEARCHSTATE._serialized_end=216
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_REGIONSEARCHSTATE']._serialized_start=28
+  _globals['_REGIONSEARCHSTATE']._serialized_end=216
 # @@protoc_insertion_point(module_scope)

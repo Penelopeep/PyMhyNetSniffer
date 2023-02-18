@@ -12,17 +12,18 @@ _sym_db = _symbol_database.Default()
 
 
 import Vector_pb2 as Vector__pb2
+import OperateType_pb2 as OperateType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPerformOperationNotify.proto\x1a\x0cVector.proto\"\xe0\x01\n\x16PerformOperationNotify\x12\x39\n\x0coperate_type\x18\r \x01(\x0e\x32#.PerformOperationNotify.OperateType\x12\r\n\x05index\x18\x07 \x01(\r\x12\x14\n\x03pos\x18\t \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\x05 \x01(\r\x12\x14\n\x03rot\x18\x04 \x01(\x0b\x32\x07.Vector\"=\n\x0bOperateType\x12\x15\n\x11OPERATE_TYPE_NONE\x10\x00\x12\x17\n\x13OPERATE_TYPE_EFFECT\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPerformOperationNotify.proto\x1a\x0cVector.proto\x1a\x11OperateType.proto\"\x88\x01\n\x16PerformOperationNotify\x12\x14\n\x03rot\x18\x01 \x01(\x0b\x32\x07.Vector\x12!\n\x0boperateType\x18\x05 \x01(\x0e\x32\x0c.OperateType\x12\x14\n\x03pos\x18\x0e \x01(\x0b\x32\x07.Vector\x12\r\n\x05index\x18\n \x01(\r\x12\x10\n\x08\x65ntityId\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PerformOperationNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PerformOperationNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PERFORMOPERATIONNOTIFY._serialized_start=47
-  _PERFORMOPERATIONNOTIFY._serialized_end=271
-  _PERFORMOPERATIONNOTIFY_OPERATETYPE._serialized_start=210
-  _PERFORMOPERATIONNOTIFY_OPERATETYPE._serialized_end=271
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PERFORMOPERATIONNOTIFY']._serialized_start=66
+  _globals['_PERFORMOPERATIONNOTIFY']._serialized_end=202
 # @@protoc_insertion_point(module_scope)

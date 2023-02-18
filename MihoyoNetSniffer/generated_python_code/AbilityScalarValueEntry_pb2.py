@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import AbilityScalarType_pb2 as AbilityScalarType__pb2
 import AbilityString_pb2 as AbilityString__pb2
+import AbilityScalarType_pb2 as AbilityScalarType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityScalarValueEntry.proto\x1a\x17\x41\x62ilityScalarType.proto\x1a\x13\x41\x62ilityString.proto\"\xc1\x01\n\x17\x41\x62ilityScalarValueEntry\x12\x1b\n\x03key\x18\x01 \x01(\x0b\x32\x0e.AbilityString\x12&\n\nvalue_type\x18\x02 \x01(\x0e\x32\x12.AbilityScalarType\x12\x15\n\x0b\x66loat_value\x18\x03 \x01(\x02H\x00\x12\x16\n\x0cstring_value\x18\x04 \x01(\tH\x00\x12\x13\n\tint_value\x18\x05 \x01(\x05H\x00\x12\x14\n\nuint_value\x18\x06 \x01(\rH\x00\x42\x07\n\x05valueb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityScalarValueEntry.proto\x1a\x13\x41\x62ilityString.proto\x1a\x17\x41\x62ilityScalarType.proto\"\xc0\x01\n\x17\x41\x62ilityScalarValueEntry\x12\x1b\n\x03key\x18\x01 \x01(\x0b\x32\x0e.AbilityString\x12%\n\tvalueType\x18\x02 \x01(\x0e\x32\x12.AbilityScalarType\x12\x15\n\x0b\x66loat_value\x18\x03 \x01(\x02H\x00\x12\x16\n\x0cstring_value\x18\x04 \x01(\tH\x00\x12\x13\n\tint_value\x18\x05 \x01(\x05H\x00\x12\x14\n\nuint_value\x18\x06 \x01(\rH\x00\x42\x07\n\x05valueB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityScalarValueEntry_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityScalarValueEntry_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ABILITYSCALARVALUEENTRY._serialized_start=80
-  _ABILITYSCALARVALUEENTRY._serialized_end=273
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ABILITYSCALARVALUEENTRY']._serialized_start=80
+  _globals['_ABILITYSCALARVALUEENTRY']._serialized_end=272
 # @@protoc_insertion_point(module_scope)

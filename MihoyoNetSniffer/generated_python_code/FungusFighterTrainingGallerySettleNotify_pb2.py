@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GalleryStopReason_pb2 as GalleryStopReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.FungusFighterTrainingGallerySettleNotify.proto\x1a\x17GalleryStopReason.proto\"\x83\x02\n(FungusFighterTrainingGallerySettleNotify\x12\"\n\x06reason\x18\x03 \x01(\x0e\x32\x12.GalleryStopReason\x12\x17\n\x0fis_final_settle\x18\x02 \x01(\x08\x12\x17\n\x0ftotal_used_time\x18\x0e \x01(\r\x12\x15\n\ris_new_record\x18\x0b \x01(\x08\x12\x1b\n\x13Unk3300_KKFBMHLOLFC\x18\n \x01(\r\x12\x1b\n\x13Unk3300_BHOMHPHLOHL\x18\r \x01(\r\x12\x1b\n\x13Unk3300_POCDEGBHJEA\x18\x0f \x01(\r\x12\x13\n\x0b\x66inal_score\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.FungusFighterTrainingGallerySettleNotify.proto\x1a\x17GalleryStopReason.proto\"\xfc\x01\n(FungusFighterTrainingGallerySettleNotify\x12\x12\n\nfinalScore\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_KKFBMHLOLFC\x18\x0e \x01(\r\x12\"\n\x06reason\x18\x03 \x01(\x0e\x32\x12.GalleryStopReason\x12\x1b\n\x13Unk3300_BHOMHPHLOHL\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_POCDEGBHJEA\x18\x0c \x01(\r\x12\x15\n\rtotalUsedTime\x18\t \x01(\r\x12\x15\n\risFinalSettle\x18\x07 \x01(\x08\x12\x13\n\x0bisNewRecord\x18\x05 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusFighterTrainingGallerySettleNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusFighterTrainingGallerySettleNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FUNGUSFIGHTERTRAININGGALLERYSETTLENOTIFY._serialized_start=76
-  _FUNGUSFIGHTERTRAININGGALLERYSETTLENOTIFY._serialized_end=335
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FUNGUSFIGHTERTRAININGGALLERYSETTLENOTIFY']._serialized_start=76
+  _globals['_FUNGUSFIGHTERTRAININGGALLERYSETTLENOTIFY']._serialized_end=328
 # @@protoc_insertion_point(module_scope)

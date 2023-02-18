@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GadgetBornType.proto*\xe3\x01\n\x0eGadgetBornType\x12\x19\n\x15GADGET_BORN_TYPE_NONE\x10\x00\x12\x1b\n\x17GADGET_BORN_TYPE_IN_AIR\x10\x01\x12\x1b\n\x17GADGET_BORN_TYPE_PLAYER\x10\x02\x12 \n\x1cGADGET_BORN_TYPE_MONSTER_HIT\x10\x03\x12 \n\x1cGADGET_BORN_TYPE_MONSTER_DIE\x10\x04\x12\x1b\n\x17GADGET_BORN_TYPE_GADGET\x10\x05\x12\x1b\n\x17GADGET_BORN_TYPE_GROUND\x10\x06\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GadgetBornType.proto*\xe3\x01\n\x0eGadgetBornType\x12\x19\n\x15GADGET_BORN_TYPE_NONE\x10\x00\x12\x1b\n\x17GADGET_BORN_TYPE_IN_AIR\x10\x01\x12\x1b\n\x17GADGET_BORN_TYPE_PLAYER\x10\x02\x12 \n\x1cGADGET_BORN_TYPE_MONSTER_HIT\x10\x03\x12 \n\x1cGADGET_BORN_TYPE_MONSTER_DIE\x10\x04\x12\x1b\n\x17GADGET_BORN_TYPE_GADGET\x10\x05\x12\x1b\n\x17GADGET_BORN_TYPE_GROUND\x10\x06\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetBornType_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetBornType_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GADGETBORNTYPE._serialized_start=25
-  _GADGETBORNTYPE._serialized_end=252
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GADGETBORNTYPE']._serialized_start=25
+  _globals['_GADGETBORNTYPE']._serialized_end=252
 # @@protoc_insertion_point(module_scope)

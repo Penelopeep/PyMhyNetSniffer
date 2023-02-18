@@ -14,15 +14,17 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ShopCardProduct.proto\x1a\x0fItemParam.proto\"\xc6\x02\n\x0fShopCardProduct\x12\x12\n\nproduct_id\x18\x01 \x01(\t\x12\x12\n\nprice_tier\x18\x02 \x01(\t\x12\x12\n\nmcoin_base\x18\x03 \x01(\r\x12\x15\n\rhcoin_per_day\x18\x04 \x01(\r\x12\x0c\n\x04\x64\x61ys\x18\x05 \x01(\r\x12\x1a\n\x12remain_reward_days\x18\x06 \x01(\r\x12\x19\n\x11\x63\x61rd_product_type\x18\x07 \x01(\r\x12\x30\n\nresin_card\x18\x65 \x01(\x0b\x32\x1a.ShopCardProduct.ResinCardH\x00\x1aV\n\tResinCard\x12\"\n\x0e\x62\x61se_item_list\x18\x01 \x03(\x0b\x32\n.ItemParam\x12%\n\x11per_day_item_list\x18\x02 \x03(\x0b\x32\n.ItemParamB\x11\n\x0f\x65xtra_card_datab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ShopCardProduct.proto\x1a\x0fItemParam.proto\"\xb8\x02\n\x0fShopCardProduct\x12\x11\n\tproductId\x18\x01 \x01(\t\x12\x11\n\tpriceTier\x18\x02 \x01(\t\x12\x11\n\tmcoinBase\x18\x03 \x01(\r\x12\x13\n\x0bhcoinPerDay\x18\x04 \x01(\r\x12\x0c\n\x04\x64\x61ys\x18\x05 \x01(\r\x12\x18\n\x10remainRewardDays\x18\x06 \x01(\r\x12\x17\n\x0f\x63\x61rdProductType\x18\x07 \x01(\r\x12\x30\n\nresin_card\x18\x65 \x01(\x0b\x32\x1a.ShopCardProduct.ResinCardH\x00\x1aQ\n\tResinCard\x12 \n\x0c\x62\x61seItemList\x18\x01 \x03(\x0b\x32\n.ItemParam\x12\"\n\x0eperDayItemList\x18\x02 \x03(\x0b\x32\n.ItemParamB\x11\n\x0f\x65xtra_card_dataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ShopCardProduct_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ShopCardProduct_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SHOPCARDPRODUCT._serialized_start=43
-  _SHOPCARDPRODUCT._serialized_end=369
-  _SHOPCARDPRODUCT_RESINCARD._serialized_start=264
-  _SHOPCARDPRODUCT_RESINCARD._serialized_end=350
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SHOPCARDPRODUCT']._serialized_start=43
+  _globals['_SHOPCARDPRODUCT']._serialized_end=355
+  _globals['_SHOPCARDPRODUCT_RESINCARD']._serialized_start=255
+  _globals['_SHOPCARDPRODUCT_RESINCARD']._serialized_end=336
 # @@protoc_insertion_point(module_scope)

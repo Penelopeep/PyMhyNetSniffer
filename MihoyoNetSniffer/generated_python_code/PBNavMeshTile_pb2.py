@@ -15,13 +15,15 @@ import PBNavMeshPoly_pb2 as PBNavMeshPoly__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PBNavMeshTile.proto\x1a\x13PBNavMeshPoly.proto\x1a\x0cVector.proto\"E\n\rPBNavMeshTile\x12\x15\n\x04vecs\x18\x0c \x03(\x0b\x32\x07.Vector\x12\x1d\n\x05polys\x18\r \x03(\x0b\x32\x0e.PBNavMeshPolyb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PBNavMeshTile.proto\x1a\x13PBNavMeshPoly.proto\x1a\x0cVector.proto\"E\n\rPBNavMeshTile\x12\x1d\n\x05polys\x18\x0b \x03(\x0b\x32\x0e.PBNavMeshPoly\x12\x15\n\x04vecs\x18\x01 \x03(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PBNavMeshTile_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PBNavMeshTile_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PBNAVMESHTILE._serialized_start=58
-  _PBNAVMESHTILE._serialized_end=127
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PBNAVMESHTILE']._serialized_start=58
+  _globals['_PBNAVMESHTILE']._serialized_end=127
 # @@protoc_insertion_point(module_scope)

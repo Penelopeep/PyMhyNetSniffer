@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Route_pb2 as Route__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarFollowRouteNotify.proto\x1a\x0bRoute.proto\"\x8c\x01\n\x17\x41vatarFollowRouteNotify\x12\x15\n\rclient_params\x18\x05 \x01(\t\x12\x15\n\x05route\x18\x01 \x01(\x0b\x32\x06.Route\x12\x11\n\tentity_id\x18\n \x01(\r\x12\x13\n\x0btemplate_id\x18\x04 \x01(\r\x12\x1b\n\x13start_scene_time_ms\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarFollowRouteNotify.proto\x1a\x0bRoute.proto\"\x86\x01\n\x17\x41vatarFollowRouteNotify\x12\x18\n\x10startSceneTimeMs\x18\x06 \x01(\r\x12\x12\n\ntemplateId\x18\x02 \x01(\r\x12\x14\n\x0c\x63lientParams\x18\n \x01(\t\x12\x15\n\x05route\x18\x04 \x01(\x0b\x32\x06.Route\x12\x10\n\x08\x65ntityId\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarFollowRouteNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarFollowRouteNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATARFOLLOWROUTENOTIFY._serialized_start=47
-  _AVATARFOLLOWROUTENOTIFY._serialized_end=187
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_AVATARFOLLOWROUTENOTIFY']._serialized_start=47
+  _globals['_AVATARFOLLOWROUTENOTIFY']._serialized_end=181
 # @@protoc_insertion_point(module_scope)

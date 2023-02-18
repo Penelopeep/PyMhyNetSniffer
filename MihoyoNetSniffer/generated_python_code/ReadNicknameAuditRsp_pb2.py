@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aReadNicknameAuditRsp.proto\"\'\n\x14ReadNicknameAuditRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aReadNicknameAuditRsp.proto\"j\n\x14ReadNicknameAuditRsp\x12\x13\n\x0bmbbjhalknla\x18\r \x01(\r\x12\x13\n\x0b\x66\x64\x61\x62\x65plffil\x18\x08 \x01(\x08\x12\x13\n\x0bnnnnclfpean\x18\t \x01(\r\x12\x13\n\x0b\x65jkmamgnbgj\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReadNicknameAuditRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReadNicknameAuditRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _READNICKNAMEAUDITRSP._serialized_start=30
-  _READNICKNAMEAUDITRSP._serialized_end=69
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_READNICKNAMEAUDITRSP']._serialized_start=30
+  _globals['_READNICKNAMEAUDITRSP']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

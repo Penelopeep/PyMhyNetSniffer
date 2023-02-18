@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FallSettleInfo_pb2 as FallSettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46leurFairFallSettleInfo.proto\x1a\x14\x46\x61llSettleInfo.proto\"V\n\x17\x46leurFairFallSettleInfo\x12$\n\x0bsettle_info\x18\x03 \x01(\x0b\x32\x0f.FallSettleInfo\x12\x15\n\ris_new_record\x18\t \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46leurFairFallSettleInfo.proto\x1a\x14\x46\x61llSettleInfo.proto\"S\n\x17\x46leurFairFallSettleInfo\x12#\n\nsettleInfo\x18\x0b \x01(\x0b\x32\x0f.FallSettleInfo\x12\x13\n\x0bisNewRecord\x18\x0e \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairFallSettleInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairFallSettleInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FLEURFAIRFALLSETTLEINFO._serialized_start=55
-  _FLEURFAIRFALLSETTLEINFO._serialized_end=141
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FLEURFAIRFALLSETTLEINFO']._serialized_start=55
+  _globals['_FLEURFAIRFALLSETTLEINFO']._serialized_end=138
 # @@protoc_insertion_point(module_scope)

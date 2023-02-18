@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import AbilityInvokeEntry_pb2 as AbilityInvokeEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45ntityAbilityInvokeEntry.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"S\n\x18\x45ntityAbilityInvokeEntry\x12$\n\x07invokes\x18\x0e \x03(\x0b\x32\x13.AbilityInvokeEntry\x12\x11\n\tentity_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45ntityAbilityInvokeEntry.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"R\n\x18\x45ntityAbilityInvokeEntry\x12$\n\x07invokes\x18\x04 \x03(\x0b\x32\x13.AbilityInvokeEntry\x12\x10\n\x08\x65ntityId\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityAbilityInvokeEntry_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityAbilityInvokeEntry_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ENTITYABILITYINVOKEENTRY._serialized_start=60
-  _ENTITYABILITYINVOKEENTRY._serialized_end=143
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ENTITYABILITYINVOKEENTRY']._serialized_start=60
+  _globals['_ENTITYABILITYINVOKEENTRY']._serialized_end=142
 # @@protoc_insertion_point(module_scope)

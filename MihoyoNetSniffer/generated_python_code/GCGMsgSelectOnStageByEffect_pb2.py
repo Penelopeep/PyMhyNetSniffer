@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GCGMsgSelectOnStageByEffect.proto\"Y\n\x1bGCGMsgSelectOnStageByEffect\x12\x11\n\tcard_guid\x18\x0f \x01(\r\x12\x15\n\rcontroller_id\x18\x02 \x01(\r\x12\x10\n\x08skill_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GCGMsgSelectOnStageByEffect.proto\"V\n\x1bGCGMsgSelectOnStageByEffect\x12\x0f\n\x07skillId\x18\x04 \x01(\r\x12\x10\n\x08\x63\x61rdGuid\x18\x02 \x01(\r\x12\x14\n\x0c\x63ontrollerId\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgSelectOnStageByEffect_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgSelectOnStageByEffect_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGSELECTONSTAGEBYEFFECT._serialized_start=37
-  _GCGMSGSELECTONSTAGEBYEFFECT._serialized_end=126
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGMSGSELECTONSTAGEBYEFFECT']._serialized_start=37
+  _globals['_GCGMSGSELECTONSTAGEBYEFFECT']._serialized_end=123
 # @@protoc_insertion_point(module_scope)

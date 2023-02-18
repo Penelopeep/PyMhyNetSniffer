@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45\x66\x66igyDailyInfo.proto\"\xc9\x01\n\x0f\x45\x66\x66igyDailyInfo\x12\"\n\x1ais_first_pass_reward_taken\x18\x07 \x01(\x08\x12\x1b\n\x13Unk3300_NNHICCGELHP\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_NEBCDALEFEC\x18\x0b \x01(\r\x12\x1b\n\x13\x63hallenge_max_score\x18\x0c \x01(\r\x12\x12\n\nbegin_time\x18\x08 \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\x06 \x01(\r\x12\x11\n\tday_index\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45\x66\x66igyDailyInfo.proto\"\xc0\x01\n\x0f\x45\x66\x66igyDailyInfo\x12\x13\n\x0b\x63hallengeId\x18\x0f \x01(\r\x12\x1e\n\x16isFirstPassRewardTaken\x18\x02 \x01(\x08\x12\x1b\n\x13Unk3300_NEBCDALEFEC\x18\n \x01(\r\x12\x10\n\x08\x64\x61yIndex\x18\x0e \x01(\r\x12\x19\n\x11\x63hallengeMaxScore\x18\x06 \x01(\r\x12\x11\n\tbeginTime\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_NNHICCGELHP\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EffigyDailyInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EffigyDailyInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EFFIGYDAILYINFO._serialized_start=26
-  _EFFIGYDAILYINFO._serialized_end=227
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_EFFIGYDAILYINFO']._serialized_start=26
+  _globals['_EFFIGYDAILYINFO']._serialized_end=218
 # @@protoc_insertion_point(module_scope)

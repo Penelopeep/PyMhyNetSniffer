@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$InBattleMechanicusBuildingInfo.proto\"p\n\x1eInBattleMechanicusBuildingInfo\x12\x15\n\rrefund_points\x18\x08 \x01(\r\x12\x13\n\x0b\x63ost_points\x18\x0f \x01(\r\x12\r\n\x05level\x18\r \x01(\r\x12\x13\n\x0b\x62uilding_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$InBattleMechanicusBuildingInfo.proto\"l\n\x1eInBattleMechanicusBuildingInfo\x12\x12\n\nbuildingId\x18\x06 \x01(\r\x12\r\n\x05level\x18\x03 \x01(\r\x12\x13\n\x0bknajgcafgjo\x18\x0e \x01(\r\x12\x12\n\ncostPoints\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusBuildingInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusBuildingInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _INBATTLEMECHANICUSBUILDINGINFO._serialized_start=40
-  _INBATTLEMECHANICUSBUILDINGINFO._serialized_end=152
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_INBATTLEMECHANICUSBUILDINGINFO']._serialized_start=40
+  _globals['_INBATTLEMECHANICUSBUILDINGINFO']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

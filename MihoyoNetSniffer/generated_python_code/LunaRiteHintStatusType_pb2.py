@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cLunaRiteHintStatusType.proto*\x90\x01\n\x16LunaRiteHintStatusType\x12&\n\"LUNA_RITE_HINT_STATUS_TYPE_DEFAULT\x10\x00\x12\'\n#LUNA_RITE_HINT_STATUS_TYPE_NO_COUNT\x10\x01\x12%\n!LUNA_RITE_HINT_STATUS_TYPE_FINISH\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cLunaRiteHintStatusType.proto*\x90\x01\n\x16LunaRiteHintStatusType\x12&\n\"LUNA_RITE_HINT_STATUS_TYPE_DEFAULT\x10\x00\x12\'\n#LUNA_RITE_HINT_STATUS_TYPE_NO_COUNT\x10\x01\x12%\n!LUNA_RITE_HINT_STATUS_TYPE_FINISH\x10\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteHintStatusType_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteHintStatusType_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LUNARITEHINTSTATUSTYPE._serialized_start=33
-  _LUNARITEHINTSTATUSTYPE._serialized_end=177
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LUNARITEHINTSTATUSTYPE']._serialized_start=33
+  _globals['_LUNARITEHINTSTATUSTYPE']._serialized_end=177
 # @@protoc_insertion_point(module_scope)

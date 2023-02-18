@@ -11,17 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import QuitReason_pb2 as QuitReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPlayerQuitFromMpNotify.proto\"\xe5\x03\n\x16PlayerQuitFromMpNotify\x12\x32\n\x06reason\x18\x02 \x01(\x0e\x32\".PlayerQuitFromMpNotify.QuitReason\"\x96\x03\n\nQuitReason\x12\x17\n\x13QUIT_REASON_INVALID\x10\x00\x12$\n QUIT_REASON_HOST_NO_OTHER_PLAYER\x10\x01\x12\x1c\n\x18QUIT_REASON_KICK_BY_HOST\x10\x02\x12 \n\x1cQUIT_REASON_BACK_TO_MY_WORLD\x10\x03\x12#\n\x1fQUIT_REASON_KICK_BY_HOST_LOGOUT\x10\x04\x12\"\n\x1eQUIT_REASON_KICK_BY_HOST_BLOCK\x10\x05\x12\x1a\n\x16QUIT_REASON_BE_BLOCKED\x10\x06\x12\'\n#QUIT_REASON_KICK_BY_HOST_ENTER_HOME\x10\x07\x12\"\n\x1eQUIT_REASON_HOST_SCENE_INVALID\x10\x08\x12\x1c\n\x18QUIT_REASON_KICK_BY_PLAY\x10\t\x12\x39\n5QUIT_REASON_KICK_BY_ISLAND_PARTY_GALLERY_START_FAILED\x10\nb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPlayerQuitFromMpNotify.proto\x1a\x10QuitReason.proto\"5\n\x16PlayerQuitFromMpNotify\x12\x1b\n\x06reason\x18\x01 \x01(\x0e\x32\x0b.QuitReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerQuitFromMpNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerQuitFromMpNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERQUITFROMMPNOTIFY._serialized_start=33
-  _PLAYERQUITFROMMPNOTIFY._serialized_end=518
-  _PLAYERQUITFROMMPNOTIFY_QUITREASON._serialized_start=112
-  _PLAYERQUITFROMMPNOTIFY_QUITREASON._serialized_end=518
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERQUITFROMMPNOTIFY']._serialized_start=50
+  _globals['_PLAYERQUITFROMMPNOTIFY']._serialized_end=103
 # @@protoc_insertion_point(module_scope)

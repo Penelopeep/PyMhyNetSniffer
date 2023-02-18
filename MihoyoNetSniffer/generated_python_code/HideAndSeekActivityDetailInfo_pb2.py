@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HideAndSeekMapInfo_pb2 as HideAndSeekMapInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#HideAndSeekActivityDetailInfo.proto\x1a\x18HideAndSeekMapInfo.proto\"\xc4\x01\n\x1dHideAndSeekActivityDetailInfo\x12\x1b\n\x13Unk3300_JBKIAGNADEN\x18\x06 \x03(\r\x12/\n\x12open_map_info_list\x18\r \x03(\x0b\x32\x13.HideAndSeekMapInfo\x12\x1b\n\x13Unk3300_FPCDPLNJKKN\x18\x02 \x03(\r\x12\x1b\n\x13Unk3300_CMLGPPDANNN\x18\x0f \x03(\r\x12\x1b\n\x13Unk3300_HHJPAALNMNK\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#HideAndSeekActivityDetailInfo.proto\x1a\x18HideAndSeekMapInfo.proto\"\x9d\x01\n\x1dHideAndSeekActivityDetailInfo\x12\x13\n\x0bkpfclbhekho\x18\x05 \x03(\r\x12\x13\n\x0bpfklphkcnll\x18\x03 \x03(\r\x12\x13\n\x0b\x64\x64\x63\x64ocelpof\x18\r \x03(\r\x12(\n\x0b\x65\x62ljifhneof\x18\x04 \x03(\x0b\x32\x13.HideAndSeekMapInfo\x12\x13\n\x0bnoljhjhlkom\x18\x08 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HIDEANDSEEKACTIVITYDETAILINFO._serialized_start=66
-  _HIDEANDSEEKACTIVITYDETAILINFO._serialized_end=262
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HIDEANDSEEKACTIVITYDETAILINFO']._serialized_start=66
+  _globals['_HIDEANDSEEKACTIVITYDETAILINFO']._serialized_end=223
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeChangeEditModeRsp.proto\"D\n\x15HomeChangeEditModeRsp\x12\x1a\n\x12is_enter_edit_mode\x18\x02 \x01(\x08\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeChangeEditModeRsp.proto\"A\n\x15HomeChangeEditModeRsp\x12\x17\n\x0fisEnterEditMode\x18\t \x01(\x08\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeChangeEditModeRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeChangeEditModeRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMECHANGEEDITMODERSP._serialized_start=31
-  _HOMECHANGEEDITMODERSP._serialized_end=99
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMECHANGEEDITMODERSP']._serialized_start=31
+  _globals['_HOMECHANGEEDITMODERSP']._serialized_end=96
 # @@protoc_insertion_point(module_scope)

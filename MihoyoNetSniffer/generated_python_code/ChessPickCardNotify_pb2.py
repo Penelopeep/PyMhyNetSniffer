@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ChessNormalCardInfo_pb2 as ChessNormalCardInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43hessPickCardNotify.proto\x1a\x19\x43hessNormalCardInfo.proto\"\\\n\x13\x43hessPickCardNotify\x12.\n\x10normal_card_info\x18\x08 \x01(\x0b\x32\x14.ChessNormalCardInfo\x12\x15\n\rcurse_card_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43hessPickCardNotify.proto\x1a\x19\x43hessNormalCardInfo.proto\"X\n\x13\x43hessPickCardNotify\x12,\n\x0enormalCardInfo\x18\x07 \x01(\x0b\x32\x14.ChessNormalCardInfo\x12\x13\n\x0b\x63urseCardId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessPickCardNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessPickCardNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHESSPICKCARDNOTIFY._serialized_start=56
-  _CHESSPICKCARDNOTIFY._serialized_end=148
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHESSPICKCARDNOTIFY']._serialized_start=56
+  _globals['_CHESSPICKCARDNOTIFY']._serialized_end=144
 # @@protoc_insertion_point(module_scope)

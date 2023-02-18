@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x41vatarTeam.proto\"9\n\nAvatarTeam\x12\x18\n\x10\x61vatar_guid_list\x18\r \x03(\x04\x12\x11\n\tteam_name\x18\x04 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x41vatarTeam.proto\"6\n\nAvatarTeam\x12\x10\n\x08teamName\x18\x0b \x01(\t\x12\x16\n\x0e\x61vatarGuidList\x18\x05 \x03(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarTeam_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarTeam_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATARTEAM._serialized_start=20
-  _AVATARTEAM._serialized_end=77
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_AVATARTEAM']._serialized_start=20
+  _globals['_AVATARTEAM']._serialized_end=74
 # @@protoc_insertion_point(module_scope)

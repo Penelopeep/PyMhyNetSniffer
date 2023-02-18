@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import PropChangeReason_pb2 as PropChangeReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AvatarPropChangeReasonNotify.proto\x1a\x16PropChangeReason.proto\"\x8f\x01\n\x1c\x41vatarPropChangeReasonNotify\x12\x11\n\tprop_type\x18\x07 \x01(\r\x12!\n\x06reason\x18\x0f \x01(\x0e\x32\x11.PropChangeReason\x12\x11\n\tcur_value\x18\x0e \x01(\x02\x12\x13\n\x0b\x61vatar_guid\x18\x03 \x01(\x04\x12\x11\n\told_value\x18\r \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AvatarPropChangeReasonNotify.proto\x1a\x16PropChangeReason.proto\"\x8b\x01\n\x1c\x41vatarPropChangeReasonNotify\x12\x10\n\x08\x63urValue\x18\x02 \x01(\x02\x12\x10\n\x08propType\x18\n \x01(\r\x12\x10\n\x08oldValue\x18\x04 \x01(\x02\x12!\n\x06reason\x18\x05 \x01(\x0e\x32\x11.PropChangeReason\x12\x12\n\navatarGuid\x18\x0c \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarPropChangeReasonNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarPropChangeReasonNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _AVATARPROPCHANGEREASONNOTIFY._serialized_start=63
-  _AVATARPROPCHANGEREASONNOTIFY._serialized_end=206
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_AVATARPROPCHANGEREASONNOTIFY']._serialized_start=63
+  _globals['_AVATARPROPCHANGEREASONNOTIFY']._serialized_end=202
 # @@protoc_insertion_point(module_scope)

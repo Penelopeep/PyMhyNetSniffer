@@ -11,15 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import GCGEndReason_pb2 as GCGEndReason__pb2
+import GCGGameBusinessType_pb2 as GCGGameBusinessType__pb2
+import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGClientSettleReq.proto\"\x14\n\x12GCGClientSettleReqb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGClientSettleReq.proto\x1a\x12GCGEndReason.proto\x1a\x19GCGGameBusinessType.proto\x1a\x0fItemParam.proto\"\xf3\x01\n\x12GCGClientSettleReq\x12!\n\x19\x66orbidFinishChallengeList\x18\x0e \x03(\r\x12\x1d\n\x06reason\x18\x0c \x01(\x0e\x32\r.GCGEndReason\x12\r\n\x05isWin\x18\x04 \x01(\x08\x12\"\n\x0erewardItemList\x18\t \x03(\x0b\x32\n.ItemParam\x12\x13\n\x0b\x61\x64obcdcfbpn\x18\x0b \x03(\r\x12\x17\n\x0fwinControllerId\x18\x02 \x01(\r\x12\x0e\n\x06gameId\x18\x07 \x01(\r\x12*\n\x0c\x62usinessType\x18\x03 \x01(\x0e\x32\x14.GCGGameBusinessTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGClientSettleReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGClientSettleReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGCLIENTSETTLEREQ._serialized_start=28
-  _GCGCLIENTSETTLEREQ._serialized_end=48
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGCLIENTSETTLEREQ']._serialized_start=93
+  _globals['_GCGCLIENTSETTLEREQ']._serialized_end=336
 # @@protoc_insertion_point(module_scope)

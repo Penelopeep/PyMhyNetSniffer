@@ -11,16 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGLevelType_pb2 as GCGLevelType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGStartChallengeReq.proto\x1a\x12GCGLevelType.proto\"^\n\x14GCGStartChallengeReq\x12!\n\nlevel_type\x18\x0c \x01(\x0e\x32\r.GCGLevelType\x12\x11\n\tconfig_id\x18\x07 \x01(\r\x12\x10\n\x08level_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGStartChallengeReq.proto\"G\n\x14GCGStartChallengeReq\x12\x13\n\x0b\x63\x66\x61jcibjpln\x18\x08 \x03(\r\x12\x0b\n\x03\x65xp\x18\x0b \x01(\r\x12\r\n\x05level\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGStartChallengeReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGStartChallengeReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSTARTCHALLENGEREQ._serialized_start=50
-  _GCGSTARTCHALLENGEREQ._serialized_end=144
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGSTARTCHALLENGEREQ']._serialized_start=30
+  _globals['_GCGSTARTCHALLENGEREQ']._serialized_end=101
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43ustomDungeonState.proto*{\n\x12\x43ustomDungeonState\x12\x1d\n\x19\x43USTOM_DUNGEON_STATE_EDIT\x10\x00\x12\"\n\x1e\x43USTOM_DUNGEON_STATE_SELF_PASS\x10\x01\x12\"\n\x1e\x43USTOM_DUNGEON_STATE_PUBLISHED\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43ustomDungeonState.proto*{\n\x12\x43ustomDungeonState\x12\x1d\n\x19\x43USTOM_DUNGEON_STATE_EDIT\x10\x00\x12\"\n\x1e\x43USTOM_DUNGEON_STATE_SELF_PASS\x10\x01\x12\"\n\x1e\x43USTOM_DUNGEON_STATE_PUBLISHED\x10\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonState_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonState_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CUSTOMDUNGEONSTATE._serialized_start=28
-  _CUSTOMDUNGEONSTATE._serialized_end=151
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CUSTOMDUNGEONSTATE']._serialized_start=28
+  _globals['_CUSTOMDUNGEONSTATE']._serialized_end=151
 # @@protoc_insertion_point(module_scope)

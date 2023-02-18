@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!WeeklyBossResinDiscountInfo.proto\"\x80\x01\n\x1bWeeklyBossResinDiscountInfo\x12\x14\n\x0c\x64iscount_num\x18\x01 \x01(\r\x12\x1a\n\x12\x64iscount_num_limit\x18\x02 \x01(\r\x12\x12\n\nresin_cost\x18\x03 \x01(\r\x12\x1b\n\x13original_resin_cost\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!WeeklyBossResinDiscountInfo.proto\"z\n\x1bWeeklyBossResinDiscountInfo\x12\x13\n\x0b\x64iscountNum\x18\x01 \x01(\r\x12\x18\n\x10\x64iscountNumLimit\x18\x02 \x01(\r\x12\x11\n\tresinCost\x18\x03 \x01(\r\x12\x19\n\x11originalResinCost\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WeeklyBossResinDiscountInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WeeklyBossResinDiscountInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WEEKLYBOSSRESINDISCOUNTINFO._serialized_start=38
-  _WEEKLYBOSSRESINDISCOUNTINFO._serialized_end=166
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WEEKLYBOSSRESINDISCOUNTINFO']._serialized_start=37
+  _globals['_WEEKLYBOSSRESINDISCOUNTINFO']._serialized_end=159
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CookRecipeData_pb2 as CookRecipeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ookRecipeDataNotify.proto\x1a\x14\x43ookRecipeData.proto\"<\n\x14\x43ookRecipeDataNotify\x12$\n\x0brecipe_data\x18\x01 \x01(\x0b\x32\x0f.CookRecipeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ookRecipeDataNotify.proto\x1a\x14\x43ookRecipeData.proto\";\n\x14\x43ookRecipeDataNotify\x12#\n\nrecipeData\x18\x06 \x01(\x0b\x32\x0f.CookRecipeDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CookRecipeDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CookRecipeDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _COOKRECIPEDATANOTIFY._serialized_start=52
-  _COOKRECIPEDATANOTIFY._serialized_end=112
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_COOKRECIPEDATANOTIFY']._serialized_start=52
+  _globals['_COOKRECIPEDATANOTIFY']._serialized_end=111
 # @@protoc_insertion_point(module_scope)

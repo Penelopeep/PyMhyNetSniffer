@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ActivityScheduleInfo_pb2 as ActivityScheduleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetActivityScheduleRsp.proto\x1a\x1a\x41\x63tivityScheduleInfo.proto\"\x81\x01\n\x16GetActivityScheduleRsp\x12\x35\n\x16\x61\x63tivity_schedule_list\x18\x0f \x03(\x0b\x32\x15.ActivityScheduleInfo\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x1f\n\x17remain_fly_sea_lamp_num\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetActivityScheduleRsp.proto\x1a\x1a\x41\x63tivityScheduleInfo.proto\"{\n\x16GetActivityScheduleRsp\x12\x1b\n\x13remainFlySeaLampNum\x18\n \x01(\r\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x33\n\x14\x61\x63tivityScheduleList\x18\x0c \x03(\x0b\x32\x15.ActivityScheduleInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetActivityScheduleRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetActivityScheduleRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETACTIVITYSCHEDULERSP._serialized_start=61
-  _GETACTIVITYSCHEDULERSP._serialized_end=190
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETACTIVITYSCHEDULERSP']._serialized_start=60
+  _globals['_GETACTIVITYSCHEDULERSP']._serialized_end=183
 # @@protoc_insertion_point(module_scope)

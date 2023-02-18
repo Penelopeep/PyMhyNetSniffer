@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FungusTrainingMonsterPreviewDetail_pb2 as FungusTrainingMonsterPreviewDetail__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%FungusTrainingPoolPreviewDetail.proto\x1a(FungusTrainingMonsterPreviewDetail.proto\"|\n\x1f\x46ungusTrainingPoolPreviewDetail\x12H\n\x1bmonster_preview_detail_list\x18\n \x03(\x0b\x32#.FungusTrainingMonsterPreviewDetail\x12\x0f\n\x07pool_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%FungusTrainingPoolPreviewDetail.proto\x1a(FungusTrainingMonsterPreviewDetail.proto\"x\n\x1f\x46ungusTrainingPoolPreviewDetail\x12\x0e\n\x06poolId\x18\n \x01(\r\x12\x45\n\x18monsterPreviewDetailList\x18\x05 \x03(\x0b\x32#.FungusTrainingMonsterPreviewDetailB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusTrainingPoolPreviewDetail_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusTrainingPoolPreviewDetail_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FUNGUSTRAININGPOOLPREVIEWDETAIL._serialized_start=83
-  _FUNGUSTRAININGPOOLPREVIEWDETAIL._serialized_end=207
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FUNGUSTRAININGPOOLPREVIEWDETAIL']._serialized_start=83
+  _globals['_FUNGUSTRAININGPOOLPREVIEWDETAIL']._serialized_end=203
 # @@protoc_insertion_point(module_scope)

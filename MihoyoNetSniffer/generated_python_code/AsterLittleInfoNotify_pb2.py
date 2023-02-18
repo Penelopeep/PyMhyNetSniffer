@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import AsterLittleDetailInfo_pb2 as AsterLittleDetailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41sterLittleInfoNotify.proto\x1a\x1b\x41sterLittleDetailInfo.proto\"=\n\x15\x41sterLittleInfoNotify\x12$\n\x04info\x18\n \x01(\x0b\x32\x16.AsterLittleDetailInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41sterLittleInfoNotify.proto\x1a\x1b\x41sterLittleDetailInfo.proto\"=\n\x15\x41sterLittleInfoNotify\x12$\n\x04info\x18\x07 \x01(\x0b\x32\x16.AsterLittleDetailInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AsterLittleInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AsterLittleInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ASTERLITTLEINFONOTIFY._serialized_start=60
-  _ASTERLITTLEINFONOTIFY._serialized_end=121
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ASTERLITTLEINFONOTIFY']._serialized_start=60
+  _globals['_ASTERLITTLEINFONOTIFY']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

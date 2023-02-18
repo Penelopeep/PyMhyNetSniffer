@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import InstableSprayStageInfo_pb2 as InstableSprayStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dInstableSprayDetailInfo.proto\x1a\x1cInstableSprayStageInfo.proto\"K\n\x17InstableSprayDetailInfo\x12\x30\n\x0fstage_info_list\x18\x02 \x03(\x0b\x32\x17.InstableSprayStageInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dInstableSprayDetailInfo.proto\x1a\x1cInstableSprayStageInfo.proto\"I\n\x17InstableSprayDetailInfo\x12.\n\rstageInfoList\x18\t \x03(\x0b\x32\x17.InstableSprayStageInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InstableSprayDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InstableSprayDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _INSTABLESPRAYDETAILINFO._serialized_start=63
-  _INSTABLESPRAYDETAILINFO._serialized_end=138
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_INSTABLESPRAYDETAILINFO']._serialized_start=63
+  _globals['_INSTABLESPRAYDETAILINFO']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

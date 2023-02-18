@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import WinterCampRecvItemData_pb2 as WinterCampRecvItemData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWinterCampRecvItemNotify.proto\x1a\x1cWinterCampRecvItemData.proto\"K\n\x18WinterCampRecvItemNotify\x12/\n\x0erecv_item_data\x18\x0b \x01(\x0b\x32\x17.WinterCampRecvItemDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWinterCampRecvItemNotify.proto\x1a\x1cWinterCampRecvItemData.proto\"I\n\x18WinterCampRecvItemNotify\x12-\n\x0crecvItemData\x18\x05 \x01(\x0b\x32\x17.WinterCampRecvItemDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampRecvItemNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampRecvItemNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINTERCAMPRECVITEMNOTIFY._serialized_start=64
-  _WINTERCAMPRECVITEMNOTIFY._serialized_end=139
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WINTERCAMPRECVITEMNOTIFY']._serialized_start=64
+  _globals['_WINTERCAMPRECVITEMNOTIFY']._serialized_end=137
 # @@protoc_insertion_point(module_scope)

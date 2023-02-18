@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AddQuestContentProgressRsp.proto\"C\n\x1a\x41\x64\x64QuestContentProgressRsp\x12\x14\n\x0c\x63ontent_type\x18\x07 \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AddQuestContentProgressRsp.proto\"B\n\x1a\x41\x64\x64QuestContentProgressRsp\x12\x13\n\x0b\x63ontentType\x18\r \x01(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddQuestContentProgressRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddQuestContentProgressRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ADDQUESTCONTENTPROGRESSRSP._serialized_start=36
-  _ADDQUESTCONTENTPROGRESSRSP._serialized_end=103
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_ADDQUESTCONTENTPROGRESSRSP']._serialized_start=36
+  _globals['_ADDQUESTCONTENTPROGRESSRSP']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CataLogGlobalWatcherFinishedData_pb2 as CataLogGlobalWatcherFinishedData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n/CataLogFinishedGlobalWatcherAllDataNotify.proto\x1a&CataLogGlobalWatcherFinishedData.proto\"y\n)CataLogFinishedGlobalWatcherAllDataNotify\x12L\n!finished_global_watcher_data_list\x18\x07 \x03(\x0b\x32!.CataLogGlobalWatcherFinishedDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n/CataLogFinishedGlobalWatcherAllDataNotify.proto\x1a&CataLogGlobalWatcherFinishedData.proto\"u\n)CataLogFinishedGlobalWatcherAllDataNotify\x12H\n\x1d\x66inishedGlobalWatcherDataList\x18\r \x03(\x0b\x32!.CataLogGlobalWatcherFinishedDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CataLogFinishedGlobalWatcherAllDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CataLogFinishedGlobalWatcherAllDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CATALOGFINISHEDGLOBALWATCHERALLDATANOTIFY._serialized_start=91
-  _CATALOGFINISHEDGLOBALWATCHERALLDATANOTIFY._serialized_end=212
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CATALOGFINISHEDGLOBALWATCHERALLDATANOTIFY']._serialized_start=91
+  _globals['_CATALOGFINISHEDGLOBALWATCHERALLDATANOTIFY']._serialized_end=208
 # @@protoc_insertion_point(module_scope)

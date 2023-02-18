@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGZoneType_pb2 as GCGZoneType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGCGSkillPreviewCardInfo.proto\x1a\x11GCGZoneType.proto\"\xa1\x01\n\x17GCGSkillPreviewCardInfo\x12\x11\n\tcard_guid\x18\n \x01(\r\x12\x11\n\tface_type\x18\x02 \x01(\r\x12\x15\n\rcontroller_id\x18\x0b \x01(\r\x12\x0f\n\x07\x63\x61rd_id\x18\x08 \x01(\r\x12\x1f\n\tzone_type\x18\x0e \x01(\x0e\x32\x0c.GCGZoneType\x12\x17\n\x0fowner_card_guid\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGCGSkillPreviewCardInfo.proto\x1a\x11GCGZoneType.proto\"\x99\x01\n\x17GCGSkillPreviewCardInfo\x12\x1e\n\x08zoneType\x18\r \x01(\x0e\x32\x0c.GCGZoneType\x12\x14\n\x0c\x63ontrollerId\x18\x01 \x01(\r\x12\x15\n\rownerCardGuid\x18\x07 \x01(\r\x12\x10\n\x08\x63\x61rdGuid\x18\x0c \x01(\r\x12\x0f\n\x07retcode\x18\n \x01(\r\x12\x0e\n\x06\x63\x61rdId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSkillPreviewCardInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSkillPreviewCardInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSKILLPREVIEWCARDINFO._serialized_start=53
-  _GCGSKILLPREVIEWCARDINFO._serialized_end=214
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGSKILLPREVIEWCARDINFO']._serialized_start=53
+  _globals['_GCGSKILLPREVIEWCARDINFO']._serialized_end=206
 # @@protoc_insertion_point(module_scope)

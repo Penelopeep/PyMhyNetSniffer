@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ReunionBriefInfo_pb2 as ReunionBriefInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fReunionDailyRefreshNotify.proto\x1a\x16ReunionBriefInfo.proto\"J\n\x19ReunionDailyRefreshNotify\x12-\n\x12reunion_brief_info\x18\x06 \x01(\x0b\x32\x11.ReunionBriefInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fReunionDailyRefreshNotify.proto\x1a\x16ReunionBriefInfo.proto\"H\n\x19ReunionDailyRefreshNotify\x12+\n\x10reunionBriefInfo\x18\r \x01(\x0b\x32\x11.ReunionBriefInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReunionDailyRefreshNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReunionDailyRefreshNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _REUNIONDAILYREFRESHNOTIFY._serialized_start=59
-  _REUNIONDAILYREFRESHNOTIFY._serialized_end=133
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_REUNIONDAILYREFRESHNOTIFY']._serialized_start=59
+  _globals['_REUNIONDAILYREFRESHNOTIFY']._serialized_end=131
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ScenePlayerInfo_pb2 as ScenePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bScenePlayerInfoNotify.proto\x1a\x15ScenePlayerInfo.proto\"C\n\x15ScenePlayerInfoNotify\x12*\n\x10player_info_list\x18\x0b \x03(\x0b\x32\x10.ScenePlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bScenePlayerInfoNotify.proto\x1a\x15ScenePlayerInfo.proto\"A\n\x15ScenePlayerInfoNotify\x12(\n\x0eplayerInfoList\x18\x0b \x03(\x0b\x32\x10.ScenePlayerInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayerInfoNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayerInfoNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEPLAYERINFONOTIFY._serialized_start=54
-  _SCENEPLAYERINFONOTIFY._serialized_end=121
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SCENEPLAYERINFONOTIFY']._serialized_start=54
+  _globals['_SCENEPLAYERINFONOTIFY']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

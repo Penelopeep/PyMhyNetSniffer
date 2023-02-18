@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43harAmusementSettleNotify.proto\"X\n\x19\x43harAmusementSettleNotify\x12\x15\n\ris_new_record\x18\n \x01(\x08\x12\x13\n\x0b\x66inish_time\x18\x02 \x01(\r\x12\x0f\n\x07is_succ\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43harAmusementSettleNotify.proto\"T\n\x19\x43harAmusementSettleNotify\x12\x12\n\nfinishTime\x18\t \x01(\r\x12\x13\n\x0bisNewRecord\x18\x0b \x01(\x08\x12\x0e\n\x06isSucc\x18\r \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CharAmusementSettleNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CharAmusementSettleNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHARAMUSEMENTSETTLENOTIFY._serialized_start=35
-  _CHARAMUSEMENTSETTLENOTIFY._serialized_end=123
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHARAMUSEMENTSETTLENOTIFY']._serialized_start=35
+  _globals['_CHARAMUSEMENTSETTLENOTIFY']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

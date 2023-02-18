@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import InvestigationMonster_pb2 as InvestigationMonster__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetInvestigationMonsterRsp.proto\x1a\x1aInvestigationMonster.proto\"o\n\x1aGetInvestigationMonsterRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x13\n\x0bis_for_mark\x18\x0b \x01(\x08\x12+\n\x0cmonster_list\x18\x0e \x03(\x0b\x32\x15.InvestigationMonsterb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetInvestigationMonsterRsp.proto\x1a\x1aInvestigationMonster.proto\"m\n\x1aGetInvestigationMonsterRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12+\n\x0cmonster_list\x18\x02 \x03(\x0b\x32\x15.InvestigationMonster\x12\x11\n\tisForMark\x18\x0b \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetInvestigationMonsterRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetInvestigationMonsterRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETINVESTIGATIONMONSTERRSP._serialized_start=64
-  _GETINVESTIGATIONMONSTERRSP._serialized_end=175
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETINVESTIGATIONMONSTERRSP']._serialized_start=64
+  _globals['_GETINVESTIGATIONMONSTERRSP']._serialized_end=173
 # @@protoc_insertion_point(module_scope)

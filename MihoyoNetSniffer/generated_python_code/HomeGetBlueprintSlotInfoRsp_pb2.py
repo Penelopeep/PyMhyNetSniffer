@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeBlueprintSlotInfo_pb2 as HomeBlueprintSlotInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!HomeGetBlueprintSlotInfoRsp.proto\x1a\x1bHomeBlueprintSlotInfo.proto\"{\n\x1bHomeGetBlueprintSlotInfoRsp\x12\x1b\n\x13\x64\x65lete_slot_id_list\x18\x01 \x03(\r\x12.\n\x0eslot_info_list\x18\x0f \x03(\x0b\x32\x16.HomeBlueprintSlotInfo\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!HomeGetBlueprintSlotInfoRsp.proto\x1a\x1bHomeBlueprintSlotInfo.proto\"v\n\x1bHomeGetBlueprintSlotInfoRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x18\n\x10\x64\x65leteSlotIdList\x18\x06 \x03(\r\x12,\n\x0cslotInfoList\x18\x0b \x03(\x0b\x32\x16.HomeBlueprintSlotInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetBlueprintSlotInfoRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetBlueprintSlotInfoRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEGETBLUEPRINTSLOTINFORSP._serialized_start=66
-  _HOMEGETBLUEPRINTSLOTINFORSP._serialized_end=189
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMEGETBLUEPRINTSLOTINFORSP']._serialized_start=66
+  _globals['_HOMEGETBLUEPRINTSLOTINFORSP']._serialized_end=184
 # @@protoc_insertion_point(module_scope)

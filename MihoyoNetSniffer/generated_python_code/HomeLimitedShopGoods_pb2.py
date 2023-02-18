@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHomeLimitedShopGoods.proto\x1a\x0fItemParam.proto\"\xc5\x01\n\x14HomeLimitedShopGoods\x12\x1b\n\x13Unk3300_EHKFICBACKC\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_OODCCOAIGHI\x18\n \x01(\r\x12\x1b\n\x13Unk3300_DBJCMMBHBNI\x18\x0c \x01(\r\x12\x12\n\nbought_num\x18\x05 \x01(\r\x12\x1e\n\ngoods_item\x18\x02 \x01(\x0b\x32\n.ItemParam\x12\"\n\x0e\x63ost_item_list\x18\x04 \x03(\x0b\x32\n.ItemParamb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHomeLimitedShopGoods.proto\x1a\x0fItemParam.proto\"\xa2\x01\n\x14HomeLimitedShopGoods\x12\x13\n\x0b\x64isableType\x18\x05 \x01(\r\x12\x1d\n\tgoodsItem\x18\x0c \x01(\x0b\x32\n.ItemParam\x12\x0f\n\x07goodsId\x18\x06 \x01(\r\x12 \n\x0c\x63ostItemList\x18\x0f \x03(\x0b\x32\n.ItemParam\x12\x11\n\tboughtNum\x18\x07 \x01(\r\x12\x10\n\x08\x62uyLimit\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeLimitedShopGoods_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeLimitedShopGoods_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMELIMITEDSHOPGOODS._serialized_start=48
-  _HOMELIMITEDSHOPGOODS._serialized_end=245
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMELIMITEDSHOPGOODS']._serialized_start=48
+  _globals['_HOMELIMITEDSHOPGOODS']._serialized_end=210
 # @@protoc_insertion_point(module_scope)

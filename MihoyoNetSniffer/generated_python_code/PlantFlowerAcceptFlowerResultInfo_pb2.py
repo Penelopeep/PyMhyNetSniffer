@@ -13,21 +13,23 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'PlantFlowerAcceptFlowerResultInfo.proto\"\xd8\x02\n!PlantFlowerAcceptFlowerResultInfo\x12\x0b\n\x03uid\x18\t \x01(\r\x12W\n\x13Unk3300_PALEJEDIAJP\x18\x06 \x03(\x0b\x32:.PlantFlowerAcceptFlowerResultInfo.Unk3300PALEJEDIAJPEntry\x12W\n\x13Unk3300_ILAADDCOPKE\x18\x07 \x03(\x0b\x32:.PlantFlowerAcceptFlowerResultInfo.Unk3300ILAADDCOPKEEntry\x1a\x39\n\x17Unk3300PALEJEDIAJPEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x39\n\x17Unk3300ILAADDCOPKEEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'PlantFlowerAcceptFlowerResultInfo.proto\"\xd8\x02\n!PlantFlowerAcceptFlowerResultInfo\x12W\n\x13Unk3300_PALEJEDIAJP\x18\t \x03(\x0b\x32:.PlantFlowerAcceptFlowerResultInfo.Unk3300PALEJEDIAJPEntry\x12\x0b\n\x03uid\x18\n \x01(\r\x12W\n\x13Unk3300_ILAADDCOPKE\x18\x04 \x03(\x0b\x32:.PlantFlowerAcceptFlowerResultInfo.Unk3300ILAADDCOPKEEntry\x1a\x39\n\x17Unk3300PALEJEDIAJPEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x39\n\x17Unk3300ILAADDCOPKEEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerAcceptFlowerResultInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerAcceptFlowerResultInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
   _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY._options = None
   _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY._serialized_options = b'8\001'
   _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY._options = None
   _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY._serialized_options = b'8\001'
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO._serialized_start=44
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO._serialized_end=388
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY._serialized_start=272
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY._serialized_end=329
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY._serialized_start=331
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY._serialized_end=388
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO']._serialized_start=44
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO']._serialized_end=388
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY']._serialized_start=272
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY']._serialized_end=329
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY']._serialized_start=331
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY']._serialized_end=388
 # @@protoc_insertion_point(module_scope)

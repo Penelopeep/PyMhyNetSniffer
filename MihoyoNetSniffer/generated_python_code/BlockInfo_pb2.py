@@ -11,15 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import bytes_pb2 as bytes__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0f\x42lockInfo.proto\"W\n\tBlockInfo\x12\x10\n\x08\x62lock_id\x18\x01 \x01(\r\x12\x14\n\x0c\x64\x61ta_version\x18\x02 \x01(\r\x12\x10\n\x08\x62in_data\x18\x03 \x01(\x0c\x12\x10\n\x08is_dirty\x18\x04 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0f\x42lockInfo.proto\x1a\x0b\x62ytes.proto\"S\n\tBlockInfo\x12\x0f\n\x07\x62lockId\x18\x01 \x01(\r\x12\x13\n\x0b\x64\x61taVersion\x18\x02 \x01(\r\x12\x0f\n\x07\x62inData\x18\x03 \x01(\x0c\x12\x0f\n\x07isDirty\x18\x04 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlockInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlockInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BLOCKINFO._serialized_start=19
-  _BLOCKINFO._serialized_end=106
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_BLOCKINFO']._serialized_start=32
+  _globals['_BLOCKINFO']._serialized_end=115
 # @@protoc_insertion_point(module_scope)

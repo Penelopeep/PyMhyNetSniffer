@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43ombineDataNotify.proto\",\n\x11\x43ombineDataNotify\x12\x17\n\x0f\x63ombine_id_list\x18\x07 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43ombineDataNotify.proto\"*\n\x11\x43ombineDataNotify\x12\x15\n\rcombineIdList\x18\x04 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CombineDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CombineDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _COMBINEDATANOTIFY._serialized_start=27
-  _COMBINEDATANOTIFY._serialized_end=71
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_COMBINEDATANOTIFY']._serialized_start=27
+  _globals['_COMBINEDATANOTIFY']._serialized_end=69
 # @@protoc_insertion_point(module_scope)

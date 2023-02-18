@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GCGDSChangeFieldReq.proto\"8\n\x13GCGDSChangeFieldReq\x12\x10\n\x08\x66ield_id\x18\x03 \x01(\r\x12\x0f\n\x07\x64\x65\x63k_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GCGDSChangeFieldReq.proto\"<\n\x13GCGDSChangeFieldReq\x12\x13\n\x0brewardIndex\x18\x01 \x01(\r\x12\x10\n\x08\x66\x61\x63\x65Type\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGDSChangeFieldReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGDSChangeFieldReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGDSCHANGEFIELDREQ._serialized_start=29
-  _GCGDSCHANGEFIELDREQ._serialized_end=85
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGDSCHANGEFIELDREQ']._serialized_start=29
+  _globals['_GCGDSCHANGEFIELDREQ']._serialized_end=89
 # @@protoc_insertion_point(module_scope)

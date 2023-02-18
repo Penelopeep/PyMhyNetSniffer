@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GachaTransferItem.proto\x1a\x0fItemParam.proto\"K\n\x11GachaTransferItem\x12\x18\n\x04item\x18\x01 \x01(\x0b\x32\n.ItemParam\x12\x1c\n\x14is_transfer_item_new\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GachaTransferItem.proto\x1a\x0fItemParam.proto\"H\n\x11GachaTransferItem\x12\x18\n\x04item\x18\x05 \x01(\x0b\x32\n.ItemParam\x12\x19\n\x11isTransferItemNew\x18\x03 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaTransferItem_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaTransferItem_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GACHATRANSFERITEM._serialized_start=44
-  _GACHATRANSFERITEM._serialized_end=119
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GACHATRANSFERITEM']._serialized_start=44
+  _globals['_GACHATRANSFERITEM']._serialized_end=116
 # @@protoc_insertion_point(module_scope)

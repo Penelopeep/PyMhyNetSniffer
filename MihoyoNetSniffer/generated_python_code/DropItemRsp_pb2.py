@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import StoreType_pb2 as StoreType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x44ropItemRsp.proto\x1a\x0fStoreType.proto\"L\n\x0b\x44ropItemRsp\x12\x0c\n\x04guid\x18\x06 \x01(\x04\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x1e\n\nstore_type\x18\x02 \x01(\x0e\x32\n.StoreTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x44ropItemRsp.proto\x1a\x0fStoreType.proto\"K\n\x0b\x44ropItemRsp\x12\x1d\n\tstoreType\x18\x0e \x01(\x0e\x32\n.StoreType\x12\x0c\n\x04guid\x18\t \x01(\x04\x12\x0f\n\x07retcode\x18\n \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DropItemRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DropItemRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DROPITEMRSP._serialized_start=38
-  _DROPITEMRSP._serialized_end=114
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DROPITEMRSP']._serialized_start=38
+  _globals['_DROPITEMRSP']._serialized_end=113
 # @@protoc_insertion_point(module_scope)

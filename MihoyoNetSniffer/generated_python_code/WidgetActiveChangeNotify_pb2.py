@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import WidgetSlotData_pb2 as WidgetSlotData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWidgetActiveChangeNotify.proto\x1a\x14WidgetSlotData.proto\"E\n\x18WidgetActiveChangeNotify\x12)\n\x10widget_data_list\x18\x0f \x03(\x0b\x32\x0f.WidgetSlotDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWidgetActiveChangeNotify.proto\x1a\x14WidgetSlotData.proto\"C\n\x18WidgetActiveChangeNotify\x12\'\n\x0ewidgetDataList\x18\r \x03(\x0b\x32\x0f.WidgetSlotDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetActiveChangeNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetActiveChangeNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WIDGETACTIVECHANGENOTIFY._serialized_start=56
-  _WIDGETACTIVECHANGENOTIFY._serialized_end=125
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WIDGETACTIVECHANGENOTIFY']._serialized_start=56
+  _globals['_WIDGETACTIVECHANGENOTIFY']._serialized_end=123
 # @@protoc_insertion_point(module_scope)

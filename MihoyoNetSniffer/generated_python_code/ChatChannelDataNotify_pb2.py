@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ChatChannelInfo_pb2 as ChatChannelInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hatChannelDataNotify.proto\x1a\x15\x43hatChannelInfo.proto\"Z\n\x15\x43hatChannelDataNotify\x12+\n\x11\x63hannel_info_list\x18\x05 \x03(\x0b\x32\x10.ChatChannelInfo\x12\x14\n\x0c\x63hannel_list\x18\x03 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hatChannelDataNotify.proto\x1a\x15\x43hatChannelInfo.proto\"W\n\x15\x43hatChannelDataNotify\x12\x13\n\x0b\x63hannelList\x18\x0c \x03(\r\x12)\n\x0f\x63hannelInfoList\x18\x07 \x03(\x0b\x32\x10.ChatChannelInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChatChannelDataNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChatChannelDataNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHATCHANNELDATANOTIFY._serialized_start=54
-  _CHATCHANNELDATANOTIFY._serialized_end=144
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_CHATCHANNELDATANOTIFY']._serialized_start=54
+  _globals['_CHATCHANNELDATANOTIFY']._serialized_end=141
 # @@protoc_insertion_point(module_scope)

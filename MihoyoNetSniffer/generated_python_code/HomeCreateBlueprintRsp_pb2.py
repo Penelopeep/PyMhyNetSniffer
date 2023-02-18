@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import HomeBlueprintSlotInfo_pb2 as HomeBlueprintSlotInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeCreateBlueprintRsp.proto\x1a\x1bHomeBlueprintSlotInfo.proto\"T\n\x16HomeCreateBlueprintRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12)\n\tslot_info\x18\x06 \x01(\x0b\x32\x16.HomeBlueprintSlotInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeCreateBlueprintRsp.proto\x1a\x1bHomeBlueprintSlotInfo.proto\"S\n\x16HomeCreateBlueprintRsp\x12(\n\x08slotInfo\x18\x04 \x01(\x0b\x32\x16.HomeBlueprintSlotInfo\x12\x0f\n\x07retcode\x18\r \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeCreateBlueprintRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeCreateBlueprintRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMECREATEBLUEPRINTRSP._serialized_start=61
-  _HOMECREATEBLUEPRINTRSP._serialized_end=145
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_HOMECREATEBLUEPRINTRSP']._serialized_start=61
+  _globals['_HOMECREATEBLUEPRINTRSP']._serialized_end=144
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CityInfo_pb2 as CityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14LevelupCityRsp.proto\x1a\x0e\x43ityInfo.proto\"b\n\x0eLevelupCityRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x1c\n\tcity_info\x18\x0e \x01(\x0b\x32\t.CityInfo\x12\x10\n\x08scene_id\x18\x0b \x01(\r\x12\x0f\n\x07\x61rea_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14LevelupCityRsp.proto\x1a\x0e\x43ityInfo.proto\"_\n\x0eLevelupCityRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x1b\n\x08\x63ityInfo\x18\x0f \x01(\x0b\x32\t.CityInfo\x12\x0e\n\x06\x61reaId\x18\x0c \x01(\r\x12\x0f\n\x07sceneId\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LevelupCityRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LevelupCityRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LEVELUPCITYRSP._serialized_start=40
-  _LEVELUPCITYRSP._serialized_end=138
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LEVELUPCITYRSP']._serialized_start=40
+  _globals['_LEVELUPCITYRSP']._serialized_end=135
 # @@protoc_insertion_point(module_scope)

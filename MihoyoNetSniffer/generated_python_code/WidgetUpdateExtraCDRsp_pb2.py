@@ -15,13 +15,15 @@ import WidgetCoolDownData_pb2 as WidgetCoolDownData__pb2
 import WidgetExtraCdType_pb2 as WidgetExtraCdType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cWidgetUpdateExtraCDRsp.proto\x1a\x18WidgetCoolDownData.proto\x1a\x17WidgetExtraCdType.proto\"\xa3\x01\n\x16WidgetUpdateExtraCDRsp\x12&\n\tcool_data\x18\n \x01(\x0b\x32\x13.WidgetCoolDownData\x12)\n\rextra_cd_type\x18\x05 \x01(\x0e\x32\x12.WidgetExtraCdType\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x10\n\x08\x63\x64_group\x18\x0b \x01(\r\x12\x13\n\x0bmaterial_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cWidgetUpdateExtraCDRsp.proto\x1a\x18WidgetCoolDownData.proto\x1a\x17WidgetExtraCdType.proto\"\x9e\x01\n\x16WidgetUpdateExtraCDRsp\x12\x12\n\nmaterialId\x18\x0c \x01(\r\x12\x0f\n\x07\x63\x64Group\x18\x03 \x01(\r\x12%\n\x08\x63oolData\x18\x06 \x01(\x0b\x32\x13.WidgetCoolDownData\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\'\n\x0b\x65xtraCdType\x18\x04 \x01(\x0e\x32\x12.WidgetExtraCdTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetUpdateExtraCDRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetUpdateExtraCDRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WIDGETUPDATEEXTRACDRSP._serialized_start=84
-  _WIDGETUPDATEEXTRACDRSP._serialized_end=247
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_WIDGETUPDATEEXTRACDRSP']._serialized_start=84
+  _globals['_WIDGETUPDATEEXTRACDRSP']._serialized_end=242
 # @@protoc_insertion_point(module_scope)

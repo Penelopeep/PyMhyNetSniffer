@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import ProfilePicture_pb2 as ProfilePicture__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46urnitureMakeBeHelpedData.proto\x1a\x14ProfilePicture.proto\"\x83\x01\n\x19\x46urnitureMakeBeHelpedData\x12\x13\n\x0bplayer_name\x18\x0b \x01(\t\x12\x0c\n\x04icon\x18\x07 \x01(\r\x12(\n\x0fprofile_picture\x18\x02 \x01(\x0b\x32\x0f.ProfilePicture\x12\x0c\n\x04time\x18\x0c \x01(\x07\x12\x0b\n\x03uid\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46urnitureMakeBeHelpedData.proto\x1a\x14ProfilePicture.proto\"\x81\x01\n\x19\x46urnitureMakeBeHelpedData\x12\x0b\n\x03uid\x18\x07 \x01(\r\x12\'\n\x0eprofilePicture\x18\n \x01(\x0b\x32\x0f.ProfilePicture\x12\x0c\n\x04icon\x18\r \x01(\r\x12\x0c\n\x04time\x18\x04 \x01(\r\x12\x12\n\nplayerName\x18\x06 \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeBeHelpedData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeBeHelpedData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FURNITUREMAKEBEHELPEDDATA._serialized_start=58
-  _FURNITUREMAKEBEHELPEDDATA._serialized_end=189
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_FURNITUREMAKEBEHELPEDDATA']._serialized_start=58
+  _globals['_FURNITUREMAKEBEHELPEDDATA']._serialized_end=187
 # @@protoc_insertion_point(module_scope)

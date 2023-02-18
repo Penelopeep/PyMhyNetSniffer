@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetAllUnlockNameCardRsp.proto\"B\n\x17GetAllUnlockNameCardRsp\x12\x16\n\x0ename_card_list\x18\x0b \x03(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetAllUnlockNameCardRsp.proto\"@\n\x17GetAllUnlockNameCardRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x14\n\x0cnameCardList\x18\x0c \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetAllUnlockNameCardRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetAllUnlockNameCardRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETALLUNLOCKNAMECARDRSP._serialized_start=33
-  _GETALLUNLOCKNAMECARDRSP._serialized_end=99
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETALLUNLOCKNAMECARDRSP']._serialized_start=33
+  _globals['_GETALLUNLOCKNAMECARDRSP']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

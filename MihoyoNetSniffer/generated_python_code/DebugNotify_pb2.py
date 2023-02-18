@@ -11,17 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import CmdId_pb2 as CmdId__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x44\x65\x62ugNotify.proto\"}\n\x0b\x44\x65\x62ugNotify\x12\n\n\x02id\x18\x01 \x01(\r\x12\x0c\n\x04name\x18\x02 \x01(\t\x12%\n\x07retcode\x18\x03 \x01(\x0e\x32\x14.DebugNotify.Retcode\"-\n\x07Retcode\x12\x10\n\x0cRETCODE_SUCC\x10\x00\x12\x10\n\x0cRETCODE_FAIL\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x44\x65\x62ugNotify.proto\x1a\x0b\x43mdId.proto\"_\n\x0b\x44\x65\x62ugNotify\x12\n\n\x02id\x18\x01 \x01(\r\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x17\n\x07retcode\x18\x03 \x01(\x0e\x32\x06.CmdId\"\x1d\n\x07Retcode\x12\x08\n\x04SUCC\x10\x00\x12\x08\n\x04\x46\x41IL\x10\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DebugNotify_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DebugNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DEBUGNOTIFY._serialized_start=21
-  _DEBUGNOTIFY._serialized_end=146
-  _DEBUGNOTIFY_RETCODE._serialized_start=101
-  _DEBUGNOTIFY_RETCODE._serialized_end=146
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_DEBUGNOTIFY']._serialized_start=34
+  _globals['_DEBUGNOTIFY']._serialized_end=129
+  _globals['_DEBUGNOTIFY_RETCODE']._serialized_start=100
+  _globals['_DEBUGNOTIFY_RETCODE']._serialized_end=129
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerApplyEnterMpReq.proto\"+\n\x15PlayerApplyEnterMpReq\x12\x12\n\ntarget_uid\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerApplyEnterMpReq.proto\"*\n\x15PlayerApplyEnterMpReq\x12\x11\n\ttargetUid\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerApplyEnterMpReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerApplyEnterMpReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLAYERAPPLYENTERMPREQ._serialized_start=31
-  _PLAYERAPPLYENTERMPREQ._serialized_end=74
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_PLAYERAPPLYENTERMPREQ']._serialized_start=31
+  _globals['_PLAYERAPPLYENTERMPREQ']._serialized_end=73
 # @@protoc_insertion_point(module_scope)

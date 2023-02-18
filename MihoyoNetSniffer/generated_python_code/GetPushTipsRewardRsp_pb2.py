@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGetPushTipsRewardRsp.proto\"B\n\x14GetPushTipsRewardRsp\x12\x19\n\x11push_tips_id_list\x18\x05 \x03(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGetPushTipsRewardRsp.proto\"?\n\x14GetPushTipsRewardRsp\x12\x16\n\x0epushTipsIdList\x18\x08 \x03(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetPushTipsRewardRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetPushTipsRewardRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETPUSHTIPSREWARDRSP._serialized_start=30
-  _GETPUSHTIPSREWARDRSP._serialized_end=96
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETPUSHTIPSREWARDRSP']._serialized_start=30
+  _globals['_GETPUSHTIPSREWARDRSP']._serialized_end=93
 # @@protoc_insertion_point(module_scope)

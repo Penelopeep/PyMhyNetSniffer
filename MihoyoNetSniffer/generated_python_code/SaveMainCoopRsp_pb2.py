@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SaveMainCoopRsp.proto\"J\n\x0fSaveMainCoopRsp\x12\n\n\x02id\x18\x0b \x01(\r\x12\x1a\n\x12save_point_id_list\x18\x03 \x03(\r\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SaveMainCoopRsp.proto\"G\n\x0fSaveMainCoopRsp\x12\x17\n\x0fsavePointIdList\x18\x04 \x03(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\n\n\x02id\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SaveMainCoopRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SaveMainCoopRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SAVEMAINCOOPRSP._serialized_start=25
-  _SAVEMAINCOOPRSP._serialized_end=99
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_SAVEMAINCOOPRSP']._serialized_start=25
+  _globals['_SAVEMAINCOOPRSP']._serialized_end=96
 # @@protoc_insertion_point(module_scope)

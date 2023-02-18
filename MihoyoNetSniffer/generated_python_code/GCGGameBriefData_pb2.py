@@ -15,13 +15,15 @@ import GCGGameBusinessType_pb2 as GCGGameBusinessType__pb2
 import GCGPlayerBriefData_pb2 as GCGPlayerBriefData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GCGGameBriefData.proto\x1a\x19GCGGameBusinessType.proto\x1a\x18GCGPlayerBriefData.proto\"\xd1\x01\n\x10GCGGameBriefData\x12\x1b\n\x13Unk3300_NCLDOGNCHGF\x18\r \x01(\r\x12+\n\rbusiness_type\x18\x08 \x01(\x0e\x32\x14.GCGGameBusinessType\x12\x1b\n\x13Unk3300_FJJDMIBIBJN\x18\x0e \x01(\r\x12\x15\n\rplatform_type\x18\x06 \x01(\r\x12\x0f\n\x07game_id\x18\x0c \x01(\r\x12.\n\x11player_brief_list\x18\x05 \x03(\x0b\x32\x13.GCGPlayerBriefDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GCGGameBriefData.proto\x1a\x19GCGGameBusinessType.proto\x1a\x18GCGPlayerBriefData.proto\"\xcc\x01\n\x10GCGGameBriefData\x12\x1b\n\x13Unk3300_FJJDMIBIBJN\x18\x0b \x01(\r\x12,\n\x0fplayerBriefList\x18\x05 \x03(\x0b\x32\x13.GCGPlayerBriefData\x12*\n\x0c\x62usinessType\x18\n \x01(\x0e\x32\x14.GCGGameBusinessType\x12\x0e\n\x06gameId\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_NCLDOGNCHGF\x18\x06 \x01(\r\x12\x14\n\x0cplatformType\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGGameBriefData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGGameBriefData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGGAMEBRIEFDATA._serialized_start=80
-  _GCGGAMEBRIEFDATA._serialized_end=289
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GCGGAMEBRIEFDATA']._serialized_start=80
+  _globals['_GCGGAMEBRIEFDATA']._serialized_end=284
 # @@protoc_insertion_point(module_scope)

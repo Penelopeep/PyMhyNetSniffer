@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import SignInInfo_pb2 as SignInInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetSignInRewardRsp.proto\x1a\x10SignInInfo.proto\"H\n\x12GetSignInRewardRsp\x12!\n\x0csign_in_info\x18\x03 \x01(\x0b\x32\x0b.SignInInfo\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetSignInRewardRsp.proto\x1a\x10SignInInfo.proto\"F\n\x12GetSignInRewardRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x1f\n\nsignInInfo\x18\r \x01(\x0b\x32\x0b.SignInInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetSignInRewardRsp_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetSignInRewardRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GETSIGNINREWARDRSP._serialized_start=46
-  _GETSIGNINREWARDRSP._serialized_end=118
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_GETSIGNINREWARDRSP']._serialized_start=46
+  _globals['_GETSIGNINREWARDRSP']._serialized_end=116
 # @@protoc_insertion_point(module_scope)

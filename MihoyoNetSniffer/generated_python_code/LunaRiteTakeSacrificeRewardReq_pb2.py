@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$LunaRiteTakeSacrificeRewardReq.proto\"@\n\x1eLunaRiteTakeSacrificeRewardReq\x12\r\n\x05index\x18\x04 \x01(\r\x12\x0f\n\x07\x61rea_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$LunaRiteTakeSacrificeRewardReq.proto\"?\n\x1eLunaRiteTakeSacrificeRewardReq\x12\r\n\x05index\x18\n \x01(\r\x12\x0e\n\x06\x61reaId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteTakeSacrificeRewardReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteTakeSacrificeRewardReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LUNARITETAKESACRIFICEREWARDREQ._serialized_start=40
-  _LUNARITETAKESACRIFICEREWARDREQ._serialized_end=104
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_LUNARITETAKESACRIFICEREWARDREQ']._serialized_start=40
+  _globals['_LUNARITETAKESACRIFICEREWARDREQ']._serialized_end=103
 # @@protoc_insertion_point(module_scope)

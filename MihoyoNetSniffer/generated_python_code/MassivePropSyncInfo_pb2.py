@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import MassivePropParam_pb2 as MassivePropParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19MassivePropSyncInfo.proto\x1a\x16MassivePropParam.proto\"G\n\x13MassivePropSyncInfo\x12\n\n\x02id\x18\x01 \x01(\x03\x12$\n\tprop_list\x18\x02 \x03(\x0b\x32\x11.MassivePropParamb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19MassivePropSyncInfo.proto\x1a\x16MassivePropParam.proto\"F\n\x13MassivePropSyncInfo\x12\n\n\x02id\x18\x01 \x01(\x03\x12#\n\x08propList\x18\x02 \x03(\x0b\x32\x11.MassivePropParamB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MassivePropSyncInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MassivePropSyncInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MASSIVEPROPSYNCINFO._serialized_start=53
-  _MASSIVEPROPSYNCINFO._serialized_end=124
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_MASSIVEPROPSYNCINFO']._serialized_start=53
+  _globals['_MASSIVEPROPSYNCINFO']._serialized_end=123
 # @@protoc_insertion_point(module_scope)

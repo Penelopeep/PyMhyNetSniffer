@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(CoinCollectCheckDoubleStartPlayReq.proto\"6\n\"CoinCollectCheckDoubleStartPlayReq\x12\x10\n\x08level_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(CoinCollectCheckDoubleStartPlayReq.proto\"5\n\"CoinCollectCheckDoubleStartPlayReq\x12\x0f\n\x07levelId\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoinCollectCheckDoubleStartPlayReq_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoinCollectCheckDoubleStartPlayReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _COINCOLLECTCHECKDOUBLESTARTPLAYREQ._serialized_start=44
-  _COINCOLLECTCHECKDOUBLESTARTPLAYREQ._serialized_end=98
+  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  _globals['_COINCOLLECTCHECKDOUBLESTARTPLAYREQ']._serialized_start=44
+  _globals['_COINCOLLECTCHECKDOUBLESTARTPLAYREQ']._serialized_end=97
 # @@protoc_insertion_point(module_scope)
