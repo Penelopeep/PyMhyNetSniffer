@@ -12,3 +12,10 @@ How to use:
 - open terminal and use `pip install -r requirements.txt` to install the required modules
 - edit `test.py` to add/remove blacklisted/whitelisted packets
 - run the script with `python test.py` or `python3 test.py` if you have multiple python versions installed
+
+Credits:
+- [Akebi-GC](https://discord.gg/akebi) - for the base
+- [Acrepi](https://discord.gg/acrepi) - #ripfreeakebi3.4
+- [Bkebi](https://discord.gg/bkebi) - cos it apparently exists
+- BUnipendix for [original sniffer](https://github.com/BUnipendix/PyMhyNetSniffer)
+- Hiro for [protos](https://github.com/NickTheHuy/3.4_proto)
