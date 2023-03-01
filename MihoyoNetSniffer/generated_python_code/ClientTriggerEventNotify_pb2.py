@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EventTriggerType_pb2 as EventTriggerType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43lientTriggerEventNotify.proto\x1a\x16\x45ventTriggerType.proto\"Q\n\x18\x43lientTriggerEventNotify\x12\x0f\n\x07\x66orceId\x18\x05 \x01(\r\x12$\n\teventType\x18\x01 \x01(\x0e\x32\x11.EventTriggerTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43lientTriggerEventNotify.proto\x1a\x16\x45ventTriggerType.proto\"S\n\x18\x43lientTriggerEventNotify\x12\x10\n\x08\x66orce_id\x18\x0e \x01(\r\x12%\n\nevent_type\x18\n \x01(\x0e\x32\x11.EventTriggerTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientTriggerEventNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CLIENTTRIGGEREVENTNOTIFY']._serialized_start=58
-  _globals['_CLIENTTRIGGEREVENTNOTIFY']._serialized_end=139
+  _globals['_CLIENTTRIGGEREVENTNOTIFY']._serialized_end=141
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CodexType_pb2 as CodexType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43odexDataUpdateNotify.proto\x1a\x0f\x43odexType.proto\"\\\n\x15\x43odexDataUpdateNotify\x12\x18\n\x04type\x18\x0f \x01(\x0e\x32\n.CodexType\x12\n\n\x02id\x18\x06 \x01(\r\x12\x1d\n\x15weaponMaxPromoteLevel\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43odexDataUpdateNotify.proto\x1a\x0f\x43odexType.proto\"_\n\x15\x43odexDataUpdateNotify\x12\x18\n\x04type\x18\n \x01(\x0e\x32\n.CodexType\x12 \n\x18weapon_max_promote_level\x18\x0f \x01(\r\x12\n\n\x02id\x18\x05 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CodexDataUpdateNotify_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CODEXDATAUPDATENOTIFY']._serialized_start=48
-  _globals['_CODEXDATAUPDATENOTIFY']._serialized_end=140
+  _globals['_CODEXDATAUPDATENOTIFY']._serialized_end=143
 # @@protoc_insertion_point(module_scope)

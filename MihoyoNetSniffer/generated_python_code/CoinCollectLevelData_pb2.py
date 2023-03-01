@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import CoinCollectTeamInfoData_pb2 as CoinCollectTeamInfoData__pb2
+import OMGFECMPJFA_pb2 as OMGFECMPJFA__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43oinCollectLevelData.proto\x1a\x1d\x43oinCollectTeamInfoData.proto\"\xc2\x02\n\x14\x43oinCollectLevelData\x12\x13\n\x0bmffbbcobifb\x18\x0f \x01(\x08\x12-\n\x0bmdjfnblbncn\x18\x06 \x03(\x0b\x32\x18.CoinCollectTeamInfoData\x12-\n\x0bjkglemblhjj\x18\x05 \x01(\x0b\x32\x18.CoinCollectTeamInfoData\x12\x13\n\x0b\x64mgfjomildi\x18\r \x01(\r\x12\x13\n\x0boahobildeen\x18\t \x01(\x08\x12\x13\n\x0bocbgniehaae\x18\x02 \x01(\x08\x12\x13\n\x0bmipkplghgdb\x18\n \x01(\r\x12\x13\n\x0bgcgfggieage\x18\x08 \x01(\r\x12\x13\n\x0boepemecbhfp\x18\x0e \x01(\r\x12\x13\n\x0b\x66\x63\x65\x64mbblknb\x18\x03 \x01(\r\x12\x0f\n\x07levelId\x18\x07 \x01(\r\x12\x13\n\x0b\x63\x61\x65pnfpolia\x18\x0c \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43oinCollectLevelData.proto\x1a\x11OMGFECMPJFA.proto\"\xad\x02\n\x14\x43oinCollectLevelData\x12!\n\x0bPACMOPNPBKN\x18\x06 \x03(\x0b\x32\x0c.OMGFECMPJFA\x12\x10\n\x08level_id\x18\t \x01(\r\x12!\n\x0b\x42\x43\x44IOAANAAI\x18\x0f \x01(\x0b\x32\x0c.OMGFECMPJFA\x12\x13\n\x0bJNMKLBKBICN\x18\n \x01(\r\x12\x13\n\x0bIEDBHNMGJOH\x18\x0e \x01(\x08\x12\x13\n\x0bKNECNACPDNM\x18\r \x01(\x08\x12\x13\n\x0bHKJLDMFKAOK\x18\x04 \x01(\r\x12\x13\n\x0bIJPCGGFPHOP\x18\x07 \x01(\r\x12\x13\n\x0b\x45\x45\x42KEBLJBHP\x18\x05 \x01(\x08\x12\x13\n\x0bOJJLJBLJLFH\x18\x03 \x01(\r\x12\x15\n\ris_level_open\x18\x02 \x01(\x08\x12\x13\n\x0b\x44\x44MCOCPKFAF\x18\x08 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoinCollectLevelData_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_COINCOLLECTLEVELDATA']._serialized_start=62
-  _globals['_COINCOLLECTLEVELDATA']._serialized_end=384
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_COINCOLLECTLEVELDATA']._serialized_start=50
+  _globals['_COINCOLLECTLEVELDATA']._serialized_end=351
 # @@protoc_insertion_point(module_scope)

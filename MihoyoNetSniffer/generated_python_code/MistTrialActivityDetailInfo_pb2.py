@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import MistTrialLevelData_pb2 as MistTrialLevelData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MistTrialActivityDetailInfo.proto\x1a\x18MistTrialLevelData.proto\"Q\n\x1bMistTrialActivityDetailInfo\x12\x32\n\x15trial_level_data_list\x18\x01 \x03(\x0b\x32\x13.MistTrialLevelDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MistTrialActivityDetailInfo.proto\x1a\x18MistTrialLevelData.proto\"Q\n\x1bMistTrialActivityDetailInfo\x12\x32\n\x15trial_level_data_list\x18\x08 \x03(\x0b\x32\x13.MistTrialLevelDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MISTTRIALACTIVITYDETAILINFO._serialized_start=63
-  _MISTTRIALACTIVITYDETAILINFO._serialized_end=144
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_MISTTRIALACTIVITYDETAILINFO']._serialized_start=63
+  _globals['_MISTTRIALACTIVITYDETAILINFO']._serialized_end=144
 # @@protoc_insertion_point(module_scope)

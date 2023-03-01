@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SceneGalleryInfo_pb2 as SceneGalleryInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGetAllSceneGalleryInfoRsp.proto\x1a\x16SceneGalleryInfo.proto\"X\n\x19GetAllSceneGalleryInfoRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12*\n\x0fgalleryInfoList\x18\x08 \x03(\x0b\x32\x11.SceneGalleryInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGetAllSceneGalleryInfoRsp.proto\x1a\x16SceneGalleryInfo.proto\"Z\n\x19GetAllSceneGalleryInfoRsp\x12,\n\x11gallery_info_list\x18\x06 \x03(\x0b\x32\x11.SceneGalleryInfo\x12\x0f\n\x07retcode\x18\t \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetAllSceneGalleryInfoRsp_p
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETALLSCENEGALLERYINFORSP']._serialized_start=59
-  _globals['_GETALLSCENEGALLERYINFORSP']._serialized_end=147
+  _globals['_GETALLSCENEGALLERYINFORSP']._serialized_end=149
 # @@protoc_insertion_point(module_scope)

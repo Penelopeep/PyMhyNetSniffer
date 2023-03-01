@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ChapterState_pb2 as ChapterState__pb2
+import HLDDAIOAHPB_pb2 as HLDDAIOAHPB__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43hapterStateNotify.proto\x1a\x12\x43hapterState.proto\"\xc6\x02\n\x12\x43hapterStateNotify\x12<\n\x0fneedPlayerLevel\x18\x02 \x01(\x0b\x32#.ChapterStateNotify.NeedPlayerLevel\x12\x38\n\rneedBeginTime\x18\t \x01(\x0b\x32!.ChapterStateNotify.NeedBeginTime\x12#\n\x0c\x63hapterState\x18\r \x01(\x0e\x32\r.ChapterState\x12\x11\n\tchapterId\x18\x0f \x01(\r\x1a\x41\n\x0fNeedPlayerLevel\x12\x1d\n\x15\x63onfigNeedPlayerLevel\x18\x04 \x01(\r\x12\x0f\n\x07isLimit\x18\x0e \x01(\x08\x1a=\n\rNeedBeginTime\x12\x1b\n\x13\x63onfigNeedBeginTime\x18\x05 \x01(\r\x12\x0f\n\x07isLimit\x18\x04 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43hapterStateNotify.proto\x1a\x11HLDDAIOAHPB.proto\"\xa9\x02\n\x12\x43hapterStateNotify\x12\x34\n\x0bJFOHACAIDHE\x18\x0e \x01(\x0b\x32\x1f.ChapterStateNotify.OKNHDJOIJFI\x12\x12\n\nchapter_id\x18\x07 \x01(\r\x12!\n\x0b\x46IMLGAGLJPO\x18\n \x01(\x0e\x32\x0c.HLDDAIOAHPB\x12\x34\n\x0bHIJBMEKPPKJ\x18\x08 \x01(\x0b\x32\x1f.ChapterStateNotify.POAIPEHKEHE\x1a\x37\n\x0bPOAIPEHKEHE\x12\x13\n\x0bOOLKODOMBMM\x18\x0c \x01(\x08\x12\x13\n\x0bPJDJCBIINIC\x18\x0b \x01(\r\x1a\x37\n\x0bOKNHDJOIJFI\x12\x13\n\x0bOOLKODOMBMM\x18\n \x01(\x08\x12\x13\n\x0bLENAHOJKKFP\x18\x03 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,11 +22,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChapterStateNotify_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_CHAPTERSTATENOTIFY']._serialized_start=49
-  _globals['_CHAPTERSTATENOTIFY']._serialized_end=375
-  _globals['_CHAPTERSTATENOTIFY_NEEDPLAYERLEVEL']._serialized_start=247
-  _globals['_CHAPTERSTATENOTIFY_NEEDPLAYERLEVEL']._serialized_end=312
-  _globals['_CHAPTERSTATENOTIFY_NEEDBEGINTIME']._serialized_start=314
-  _globals['_CHAPTERSTATENOTIFY_NEEDBEGINTIME']._serialized_end=375
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_CHAPTERSTATENOTIFY']._serialized_start=48
+  _globals['_CHAPTERSTATENOTIFY']._serialized_end=345
+  _globals['_CHAPTERSTATENOTIFY_POAIPEHKEHE']._serialized_start=233
+  _globals['_CHAPTERSTATENOTIFY_POAIPEHKEHE']._serialized_end=288
+  _globals['_CHAPTERSTATENOTIFY_OKNHDJOIJFI']._serialized_start=290
+  _globals['_CHAPTERSTATENOTIFY_OKNHDJOIJFI']._serialized_end=345
 # @@protoc_insertion_point(module_scope)

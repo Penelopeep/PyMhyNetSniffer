@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42\x61rtenderGetFormulaRsp.proto\"^\n\x16\x42\x61rtenderGetFormulaRsp\x12\r\n\x05isNew\x18\x0c \x01(\x08\x12\x11\n\tformulaId\x18\x0f \x01(\r\x12\x11\n\taffixList\x18\t \x03(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42\x61rtenderGetFormulaRsp.proto\"a\n\x16\x42\x61rtenderGetFormulaRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x12\n\nformula_id\x18\x01 \x01(\r\x12\x12\n\naffix_list\x18\t \x03(\r\x12\x0e\n\x06is_new\x18\x0f \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BartenderGetFormulaRsp_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BARTENDERGETFORMULARSP']._serialized_start=32
-  _globals['_BARTENDERGETFORMULARSP']._serialized_end=126
+  _globals['_BARTENDERGETFORMULARSP']._serialized_end=129
 # @@protoc_insertion_point(module_scope)

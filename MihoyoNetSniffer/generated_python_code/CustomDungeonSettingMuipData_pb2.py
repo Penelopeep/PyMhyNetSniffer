@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"CustomDungeonSettingMuipData.proto\"\x8b\x01\n\x1c\x43ustomDungeonSettingMuipData\x12\x18\n\x10is_arrive_finish\x18\x01 \x01(\x08\x12\x12\n\ncoin_limit\x18\x02 \x01(\r\x12\x12\n\ntime_limit\x18\x03 \x01(\r\x12\x17\n\x0fis_forbid_skill\x18\x04 \x01(\x08\x12\x10\n\x08life_num\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"CustomDungeonSettingMuipData.proto\"\x8b\x01\n\x1c\x43ustomDungeonSettingMuipData\x12\x18\n\x10is_arrive_finish\x18\x01 \x01(\x08\x12\x12\n\ncoin_limit\x18\x02 \x01(\r\x12\x12\n\ntime_limit\x18\x03 \x01(\r\x12\x17\n\x0fis_forbid_skill\x18\x04 \x01(\x08\x12\x10\n\x08life_num\x18\x05 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonSettingMuipData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonSettingMuipData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CUSTOMDUNGEONSETTINGMUIPDATA._serialized_start=39
-  _CUSTOMDUNGEONSETTINGMUIPDATA._serialized_end=178
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_CUSTOMDUNGEONSETTINGMUIPDATA']._serialized_start=39
+  _globals['_CUSTOMDUNGEONSETTINGMUIPDATA']._serialized_end=178
 # @@protoc_insertion_point(module_scope)

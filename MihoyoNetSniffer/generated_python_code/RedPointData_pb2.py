@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12RedPointData.proto\"G\n\x0cRedPointData\x12\x14\n\x0credPointType\x18\x01 \x01(\r\x12\x0e\n\x06isShow\x18\x02 \x01(\x08\x12\x11\n\tcontentId\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12RedPointData.proto\"K\n\x0cRedPointData\x12\x16\n\x0ered_point_type\x18\x01 \x01(\r\x12\x0f\n\x07is_show\x18\x02 \x01(\x08\x12\x12\n\ncontent_id\x18\x03 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RedPointData_pb2', _globals
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_REDPOINTDATA']._serialized_start=22
-  _globals['_REDPOINTDATA']._serialized_end=93
+  _globals['_REDPOINTDATA']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

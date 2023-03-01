@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13HitTreeNotify.proto\x1a\x0cVector.proto\"U\n\rHitTreeNotify\x12\x18\n\x07\x64ropPos\x18\x0b \x01(\x0b\x32\x07.Vector\x12\x18\n\x07treePos\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08treeType\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13HitTreeNotify.proto\x1a\x0cVector.proto\"X\n\rHitTreeNotify\x12\x19\n\x08\x64rop_pos\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x19\n\x08tree_pos\x18\x02 \x01(\x0b\x32\x07.Vector\x12\x11\n\ttree_type\x18\x0b \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HitTreeNotify_pb2', _global
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HITTREENOTIFY']._serialized_start=37
-  _globals['_HITTREENOTIFY']._serialized_end=122
+  _globals['_HITTREENOTIFY']._serialized_end=125
 # @@protoc_insertion_point(module_scope)

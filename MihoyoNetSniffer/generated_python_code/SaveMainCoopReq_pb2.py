@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SaveMainCoopReq.proto\"\xa2\x02\n\x0fSaveMainCoopReq\x12\n\n\x02id\x18\x04 \x01(\r\x12\x38\n\x0cnormalVarMap\x18\x0f \x03(\x0b\x32\".SaveMainCoopReq.NormalVarMapEntry\x12\x13\n\x0bsavePointId\x18\r \x01(\r\x12\x34\n\ntempVarMap\x18\n \x03(\x0b\x32 .SaveMainCoopReq.TempVarMapEntry\x12\x16\n\x0eselfConfidence\x18\x01 \x01(\r\x1a\x33\n\x11NormalVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0fTempVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SaveMainCoopReq.proto\"\xa5\x02\n\x0fSaveMainCoopReq\x12\n\n\x02id\x18\x07 \x01(\r\x12\x17\n\x0fself_confidence\x18\x05 \x01(\r\x12\x36\n\x0bPENJAEJFOCP\x18\x0e \x03(\x0b\x32!.SaveMainCoopReq.PENJAEJFOCPEntry\x12\x36\n\x0bGIINOODGCOO\x18\n \x03(\x0b\x32!.SaveMainCoopReq.GIINOODGCOOEntry\x12\x15\n\rsave_point_id\x18\x04 \x01(\r\x1a\x32\n\x10PENJAEJFOCPEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x32\n\x10GIINOODGCOOEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,15 +21,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SaveMainCoopReq_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _SAVEMAINCOOPREQ_NORMALVARMAPENTRY._options = None
-  _SAVEMAINCOOPREQ_NORMALVARMAPENTRY._serialized_options = b'8\001'
-  _SAVEMAINCOOPREQ_TEMPVARMAPENTRY._options = None
-  _SAVEMAINCOOPREQ_TEMPVARMAPENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _SAVEMAINCOOPREQ_PENJAEJFOCPENTRY._options = None
+  _SAVEMAINCOOPREQ_PENJAEJFOCPENTRY._serialized_options = b'8\001'
+  _SAVEMAINCOOPREQ_GIINOODGCOOENTRY._options = None
+  _SAVEMAINCOOPREQ_GIINOODGCOOENTRY._serialized_options = b'8\001'
   _globals['_SAVEMAINCOOPREQ']._serialized_start=26
-  _globals['_SAVEMAINCOOPREQ']._serialized_end=316
-  _globals['_SAVEMAINCOOPREQ_NORMALVARMAPENTRY']._serialized_start=214
-  _globals['_SAVEMAINCOOPREQ_NORMALVARMAPENTRY']._serialized_end=265
-  _globals['_SAVEMAINCOOPREQ_TEMPVARMAPENTRY']._serialized_start=267
-  _globals['_SAVEMAINCOOPREQ_TEMPVARMAPENTRY']._serialized_end=316
+  _globals['_SAVEMAINCOOPREQ']._serialized_end=319
+  _globals['_SAVEMAINCOOPREQ_PENJAEJFOCPENTRY']._serialized_start=217
+  _globals['_SAVEMAINCOOPREQ_PENJAEJFOCPENTRY']._serialized_end=267
+  _globals['_SAVEMAINCOOPREQ_GIINOODGCOOENTRY']._serialized_start=269
+  _globals['_SAVEMAINCOOPREQ_GIINOODGCOOENTRY']._serialized_end=319
 # @@protoc_insertion_point(module_scope)

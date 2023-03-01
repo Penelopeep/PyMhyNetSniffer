@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TowerCurLevelRecord_pb2 as TowerCurLevelRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TowerCurLevelRecordChangeNotify.proto\x1a\x19TowerCurLevelRecord.proto\"O\n\x1fTowerCurLevelRecordChangeNotify\x12,\n\x0e\x63urLevelRecord\x18\x05 \x01(\x0b\x32\x14.TowerCurLevelRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TowerCurLevelRecordChangeNotify.proto\x1a\x19TowerCurLevelRecord.proto\"Q\n\x1fTowerCurLevelRecordChangeNotify\x12.\n\x10\x63ur_level_record\x18\t \x01(\x0b\x32\x14.TowerCurLevelRecordB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerCurLevelRecordChangeNo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TOWERCURLEVELRECORDCHANGENOTIFY']._serialized_start=68
-  _globals['_TOWERCURLEVELRECORDCHANGENOTIFY']._serialized_end=147
+  _globals['_TOWERCURLEVELRECORDCHANGENOTIFY']._serialized_end=149
 # @@protoc_insertion_point(module_scope)

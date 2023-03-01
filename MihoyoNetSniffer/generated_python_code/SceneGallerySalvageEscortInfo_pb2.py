@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SceneGallerySalvageEscortInfo.proto\"\x8b\x01\n\x1dSceneGallerySalvageEscortInfo\x12\x19\n\x11max_monster_count\x18\x04 \x01(\r\x12\x15\n\rmonster_count\x18\n \x01(\r\x12\x1b\n\x13Unk3300_FGDPFNPENNC\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_HDMPOAJLPED\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SceneGallerySalvageEscortInfo.proto\"u\n\x1dSceneGallerySalvageEscortInfo\x12\x13\n\x0bMKKAIDDJNIJ\x18\r \x01(\r\x12\x13\n\x0bNDNKENCFHPK\x18\x06 \x01(\r\x12\x13\n\x0b\x44PIPHICOICA\x18\x07 \x01(\r\x12\x15\n\rmonster_count\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGallerySalvageEscortInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGallerySalvageEscortInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYSALVAGEESCORTINFO._serialized_start=40
-  _SCENEGALLERYSALVAGEESCORTINFO._serialized_end=179
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYSALVAGEESCORTINFO']._serialized_start=39
+  _globals['_SCENEGALLERYSALVAGEESCORTINFO']._serialized_end=156
 # @@protoc_insertion_point(module_scope)

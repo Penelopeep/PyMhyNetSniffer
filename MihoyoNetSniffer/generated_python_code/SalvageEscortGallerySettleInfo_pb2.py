@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SalvageEscortStopReason_pb2 as SalvageEscortStopReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SalvageEscortGallerySettleInfo.proto\x1a\x1dSalvageEscortStopReason.proto\"^\n\x1eSalvageEscortGallerySettleInfo\x12(\n\x06reason\x18\x06 \x01(\x0e\x32\x18.SalvageEscortStopReason\x12\x12\n\ntimeRemain\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SalvageEscortGallerySettleInfo.proto\x1a\x1dSalvageEscortStopReason.proto\"_\n\x1eSalvageEscortGallerySettleInfo\x12\x13\n\x0btime_remain\x18\x07 \x01(\r\x12(\n\x06reason\x18\x0f \x01(\x0e\x32\x18.SalvageEscortStopReasonB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvageEscortGallerySettleI
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SALVAGEESCORTGALLERYSETTLEINFO']._serialized_start=71
-  _globals['_SALVAGEESCORTGALLERYSETTLEINFO']._serialized_end=165
+  _globals['_SALVAGEESCORTGALLERYSETTLEINFO']._serialized_end=166
 # @@protoc_insertion_point(module_scope)

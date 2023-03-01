@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(ChannellerSlabOneOffDungeonInfoRsp.proto\"J\n\"ChannellerSlabOneOffDungeonInfoRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x13\n\x0bgihlcdadndf\x18\x0b \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(ChannellerSlabOneOffDungeonInfoRsp.proto\"R\n\"ChannellerSlabOneOffDungeonInfoRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x1b\n\x13scheme_buff_id_list\x18\x07 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannellerSlabOneOffDungeon
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CHANNELLERSLABONEOFFDUNGEONINFORSP']._serialized_start=44
-  _globals['_CHANNELLERSLABONEOFFDUNGEONINFORSP']._serialized_end=118
+  _globals['_CHANNELLERSLABONEOFFDUNGEONINFORSP']._serialized_end=126
 # @@protoc_insertion_point(module_scope)

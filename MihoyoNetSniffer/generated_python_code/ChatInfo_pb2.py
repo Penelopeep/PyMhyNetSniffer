@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0e\x43hatInfo.proto\"\xcd\x01\n\x08\x43hatInfo\x12\x0e\n\x06isRead\x18\x06 \x01(\x08\x12\x0b\n\x03uid\x18\x0f \x01(\r\x12\r\n\x05toUid\x18\x03 \x01(\r\x12\x0f\n\x04text\x18\x91\x0e \x01(\tH\x00\x12\x0f\n\x04icon\x18\x90\t \x01(\rH\x00\x12,\n\x0bsystem_hint\x18\x8b\x04 \x01(\x0b\x32\x14.ChatInfo.SystemHintH\x00\x12\x10\n\x08sequence\x18\x02 \x01(\r\x12\x0c\n\x04time\x18\x0b \x01(\r\x1a\x1a\n\nSystemHint\x12\x0c\n\x04type\x18\x0e \x01(\rB\t\n\x07\x63ontentB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0e\x43hatInfo.proto\"\xb5\x02\n\x08\x43hatInfo\x12\x0e\n\x06to_uid\x18\x04 \x01(\r\x12\x0b\n\x03uid\x18\x06 \x01(\r\x12\x0c\n\x04time\x18\r \x01(\r\x12\x10\n\x08sequence\x18\x02 \x01(\r\x12\x0f\n\x07is_read\x18\x07 \x01(\x08\x12\x0f\n\x04text\x18\x87\x02 \x01(\tH\x00\x12\x0f\n\x04icon\x18\xaf\x0e \x01(\rH\x00\x12,\n\x0bsystem_hint\x18\x83\x07 \x01(\x0b\x32\x14.ChatInfo.SystemHintH\x00\x1a\x1a\n\nSystemHint\x12\x0c\n\x04type\x18\x04 \x01(\r\"d\n\x0b\x46\x42KLFDADNDL\x12\x1b\n\x17\x46\x42KLFDADNDL_FDFFOPFENHC\x10\x00\x12\x1b\n\x17\x46\x42KLFDADNDL_EHLOOAOPJGL\x10\x01\x12\x1b\n\x17\x46\x42KLFDADNDL_FEFEACKMLPP\x10\x02\x42\t\n\x07\x63ontentB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,9 +21,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChatInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CHATINFO']._serialized_start=19
-  _globals['_CHATINFO']._serialized_end=224
-  _globals['_CHATINFO_SYSTEMHINT']._serialized_start=187
-  _globals['_CHATINFO_SYSTEMHINT']._serialized_end=213
+  _globals['_CHATINFO']._serialized_end=328
+  _globals['_CHATINFO_SYSTEMHINT']._serialized_start=189
+  _globals['_CHATINFO_SYSTEMHINT']._serialized_end=215
+  _globals['_CHATINFO_FBKLFDADNDL']._serialized_start=217
+  _globals['_CHATINFO_FBKLFDADNDL']._serialized_end=317
 # @@protoc_insertion_point(module_scope)

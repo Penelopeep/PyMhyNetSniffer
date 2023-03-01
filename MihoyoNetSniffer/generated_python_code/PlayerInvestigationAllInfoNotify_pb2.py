@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import InvestigationTarget_pb2 as InvestigationTarget__pb2
 import Investigation_pb2 as Investigation__pb2
+import InvestigationTarget_pb2 as InvestigationTarget__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&PlayerInvestigationAllInfoNotify.proto\x1a\x19InvestigationTarget.proto\x1a\x13Investigation.proto\"\x84\x01\n PlayerInvestigationAllInfoNotify\x12\x35\n\x17investigationTargetList\x18\x06 \x03(\x0b\x32\x14.InvestigationTarget\x12)\n\x11investigationList\x18\x02 \x03(\x0b\x32\x0e.InvestigationB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&PlayerInvestigationAllInfoNotify.proto\x1a\x13Investigation.proto\x1a\x19InvestigationTarget.proto\"\x87\x01\n PlayerInvestigationAllInfoNotify\x12*\n\x12investigation_list\x18\n \x03(\x0b\x32\x0e.Investigation\x12\x37\n\x19investigation_target_list\x18\x0c \x03(\x0b\x32\x14.InvestigationTargetB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerInvestigationAllInfoN
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLAYERINVESTIGATIONALLINFONOTIFY']._serialized_start=91
-  _globals['_PLAYERINVESTIGATIONALLINFONOTIFY']._serialized_end=223
+  _globals['_PLAYERINVESTIGATIONALLINFONOTIFY']._serialized_end=226
 # @@protoc_insertion_point(module_scope)

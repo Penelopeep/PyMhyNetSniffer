@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTreasureSeelieRegionData.proto\x1a\x0cVector.proto\"\xe6\x01\n\x18TreasureSeelieRegionData\x12\x0e\n\x06isDone\x18\x08 \x01(\x08\x12\x13\n\x0bjabbjfmhomi\x18\t \x01(\r\x12\x14\n\x0cregionRadius\x18\x0c \x01(\x02\x12\x10\n\x08openTime\x18\x05 \x01(\r\x12\x0e\n\x06isOpen\x18\x01 \x01(\x08\x12 \n\x0fregionCenterPos\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x13\n\x0bhljigeeodbh\x18\n \x01(\r\x12\x0f\n\x07sceneId\x18\x04 \x01(\r\x12\x13\n\x0b\x65ipilegbijp\x18\x03 \x01(\r\x12\x10\n\x08regionId\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTreasureSeelieRegionData.proto\x1a\x0cVector.proto\"\xee\x01\n\x18TreasureSeelieRegionData\x12\x10\n\x08scene_id\x18\x03 \x01(\r\x12\x13\n\x0bJEMLKKOCEJO\x18\x0c \x01(\r\x12\x11\n\tregion_id\x18\t \x01(\r\x12\x0f\n\x07is_open\x18\x08 \x01(\x08\x12\"\n\x11region_center_pos\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x15\n\rregion_radius\x18\x04 \x01(\x02\x12\x13\n\x0bLDLHMJKLCCC\x18\x07 \x01(\r\x12\x11\n\topen_time\x18\n \x01(\r\x12\x13\n\x0bGHDEBMECPPJ\x18\x01 \x01(\r\x12\x0f\n\x07is_done\x18\x06 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureSeelieRegionData_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TREASURESEELIEREGIONDATA']._serialized_start=49
-  _globals['_TREASURESEELIEREGIONDATA']._serialized_end=279
+  _globals['_TREASURESEELIEREGIONDATA']._serialized_end=287
 # @@protoc_insertion_point(module_scope)

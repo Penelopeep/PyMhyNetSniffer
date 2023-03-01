@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GalleryStartSource_pb2 as GalleryStartSource__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SceneGalleryIslandPartyRaftInfo.proto\x1a\x18GalleryStartSource.proto\"\xc3\x01\n\x1fSceneGalleryIslandPartyRaftInfo\x12\x0c\n\x04\x63oin\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_FBACMOFGPGJ\x18\x06 \x01(\r\x12\x10\n\x08point_id\x18\n \x01(\r\x12\x1b\n\x13Unk3300_HHEKIPECDAK\x18\x0e \x01(\r\x12)\n\x0cstart_source\x18\x07 \x01(\x0e\x32\x13.GalleryStartSource\x12\x1b\n\x13Unk3300_HNECEGNMKNK\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SceneGalleryIslandPartyRaftInfo.proto\x1a\x18GalleryStartSource.proto\"\xab\x01\n\x1fSceneGalleryIslandPartyRaftInfo\x12\x10\n\x08point_id\x18\x04 \x01(\r\x12\x13\n\x0bONIGIPPLAMK\x18\x06 \x01(\r\x12\x0c\n\x04\x63oin\x18\x02 \x01(\r\x12\x13\n\x0bIPONIBNKJIL\x18\x07 \x01(\r\x12\x13\n\x0bKCHKIPPLFBF\x18\x01 \x01(\r\x12)\n\x0cstart_source\x18\r \x01(\x0e\x32\x13.GalleryStartSourceB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryIslandPartyRaftInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryIslandPartyRaftInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYISLANDPARTYRAFTINFO._serialized_start=68
-  _SCENEGALLERYISLANDPARTYRAFTINFO._serialized_end=263
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYISLANDPARTYRAFTINFO']._serialized_start=68
+  _globals['_SCENEGALLERYISLANDPARTYRAFTINFO']._serialized_end=239
 # @@protoc_insertion_point(module_scope)

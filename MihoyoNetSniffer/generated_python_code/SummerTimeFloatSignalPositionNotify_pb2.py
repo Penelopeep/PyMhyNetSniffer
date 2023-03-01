@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)SummerTimeFloatSignalPositionNotify.proto\x1a\x0cVector.proto\"q\n#SummerTimeFloatSignalPositionNotify\x12\x18\n\x10isTransferAnchor\x18\x0b \x01(\x08\x12\x15\n\rfloatSignalId\x18\x03 \x01(\r\x12\x19\n\x08position\x18\n \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)SummerTimeFloatSignalPositionNotify.proto\x1a\x0cVector.proto\"u\n#SummerTimeFloatSignalPositionNotify\x12\x17\n\x0f\x66loat_signal_id\x18\x07 \x01(\r\x12\x19\n\x08position\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x1a\n\x12is_transfer_anchor\x18\x01 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SummerTimeFloatSignalPositi
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SUMMERTIMEFLOATSIGNALPOSITIONNOTIFY']._serialized_start=59
-  _globals['_SUMMERTIMEFLOATSIGNALPOSITIONNOTIFY']._serialized_end=172
+  _globals['_SUMMERTIMEFLOATSIGNALPOSITIONNOTIFY']._serialized_end=176
 # @@protoc_insertion_point(module_scope)

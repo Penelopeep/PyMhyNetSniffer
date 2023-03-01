@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityAttachedModifier.proto\"\x96\x01\n\x17\x41\x62ilityAttachedModifier\x12\x11\n\tisInvalid\x18\x01 \x01(\x08\x12\x15\n\rownerEntityId\x18\x02 \x01(\r\x12\x1b\n\x13instancedModifierId\x18\x03 \x01(\r\x12\x1c\n\x14isServerbuffModifier\x18\x04 \x01(\x08\x12\x16\n\x0e\x61ttachNameHash\x18\x05 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityAttachedModifier.proto\"\x9f\x01\n\x17\x41\x62ilityAttachedModifier\x12\x12\n\nis_invalid\x18\x01 \x01(\x08\x12\x17\n\x0fowner_entity_id\x18\x02 \x01(\r\x12\x1d\n\x15instanced_modifier_id\x18\x03 \x01(\r\x12\x1e\n\x16is_serverbuff_modifier\x18\x04 \x01(\x08\x12\x18\n\x10\x61ttach_name_hash\x18\x05 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityAttachedModifier_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ABILITYATTACHEDMODIFIER']._serialized_start=34
-  _globals['_ABILITYATTACHEDMODIFIER']._serialized_end=184
+  _globals['_ABILITYATTACHEDMODIFIER']._serialized_end=193
 # @@protoc_insertion_point(module_scope)

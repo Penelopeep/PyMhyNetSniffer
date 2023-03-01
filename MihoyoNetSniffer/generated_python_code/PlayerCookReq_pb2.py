@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PlayerCookReq.proto\"^\n\rPlayerCookReq\x12\x10\n\x08recipeId\x18\x0f \x01(\r\x12\x14\n\x0c\x61ssistAvatar\x18\x06 \x01(\r\x12\x12\n\nqteQuality\x18\r \x01(\r\x12\x11\n\tcookCount\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PlayerCookReq.proto\"c\n\rPlayerCookReq\x12\x13\n\x0bHHKAPMHMHFI\x18\t \x01(\r\x12\x13\n\x0b\x44IIJPMJFNOL\x18\x05 \x01(\r\x12\x13\n\x0bIFLJGHHBGMP\x18\x0f \x01(\r\x12\x13\n\x0bOMPOMKPPLEH\x18\x03 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCookReq_pb2', _global
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLAYERCOOKREQ']._serialized_start=23
-  _globals['_PLAYERCOOKREQ']._serialized_end=117
+  _globals['_PLAYERCOOKREQ']._serialized_end=122
 # @@protoc_insertion_point(module_scope)

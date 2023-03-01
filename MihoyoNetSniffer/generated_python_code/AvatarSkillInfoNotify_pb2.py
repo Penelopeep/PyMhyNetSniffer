@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AvatarSkillInfo_pb2 as AvatarSkillInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41vatarSkillInfoNotify.proto\x1a\x15\x41vatarSkillInfo.proto\"\xa0\x01\n\x15\x41vatarSkillInfoNotify\x12\x36\n\x08skillMap\x18\x02 \x03(\x0b\x32$.AvatarSkillInfoNotify.SkillMapEntry\x12\x0c\n\x04guid\x18\x04 \x01(\x04\x1a\x41\n\rSkillMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.AvatarSkillInfo:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41vatarSkillInfoNotify.proto\x1a\x15\x41vatarSkillInfo.proto\"\xa1\x01\n\x15\x41vatarSkillInfoNotify\x12\x0c\n\x04guid\x18\t \x01(\x04\x12\x37\n\tskill_map\x18\x0e \x03(\x0b\x32$.AvatarSkillInfoNotify.SkillMapEntry\x1a\x41\n\rSkillMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.AvatarSkillInfo:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,11 +22,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSkillInfoNotify_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _AVATARSKILLINFONOTIFY_SKILLMAPENTRY._options = None
   _AVATARSKILLINFONOTIFY_SKILLMAPENTRY._serialized_options = b'8\001'
   _globals['_AVATARSKILLINFONOTIFY']._serialized_start=55
-  _globals['_AVATARSKILLINFONOTIFY']._serialized_end=215
-  _globals['_AVATARSKILLINFONOTIFY_SKILLMAPENTRY']._serialized_start=150
-  _globals['_AVATARSKILLINFONOTIFY_SKILLMAPENTRY']._serialized_end=215
+  _globals['_AVATARSKILLINFONOTIFY']._serialized_end=216
+  _globals['_AVATARSKILLINFONOTIFY_SKILLMAPENTRY']._serialized_start=151
+  _globals['_AVATARSKILLINFONOTIFY_SKILLMAPENTRY']._serialized_end=216
 # @@protoc_insertion_point(module_scope)

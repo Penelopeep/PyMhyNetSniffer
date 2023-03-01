@@ -15,7 +15,7 @@ import CookRecipeData_pb2 as CookRecipeData__pb2
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PlayerCookRsp.proto\x1a\x14\x43ookRecipeData.proto\x1a\x0fItemParam.proto\"\xad\x01\n\rPlayerCookRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12!\n\rextraItemList\x18\r \x03(\x0b\x32\n.ItemParam\x12\x1c\n\x08itemList\x18\t \x03(\x0b\x32\n.ItemParam\x12#\n\nrecipeData\x18\x05 \x01(\x0b\x32\x0f.CookRecipeData\x12\x11\n\tcookCount\x18\x0c \x01(\r\x12\x12\n\nqteQuality\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PlayerCookRsp.proto\x1a\x14\x43ookRecipeData.proto\x1a\x0fItemParam.proto\"\xb5\x01\n\rPlayerCookRsp\x12$\n\x10\x65xtral_item_list\x18\x0c \x03(\x0b\x32\n.ItemParam\x12\x1d\n\titem_list\x18\t \x03(\x0b\x32\n.ItemParam\x12\x13\n\x0bHHKAPMHMHFI\x18\n \x01(\r\x12$\n\x0brecipe_data\x18\x0b \x01(\x0b\x32\x0f.CookRecipeData\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x13\n\x0bIFLJGHHBGMP\x18\x06 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCookRsp_pb2', _global
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLAYERCOOKRSP']._serialized_start=63
-  _globals['_PLAYERCOOKRSP']._serialized_end=236
+  _globals['_PLAYERCOOKRSP']._serialized_end=244
 # @@protoc_insertion_point(module_scope)

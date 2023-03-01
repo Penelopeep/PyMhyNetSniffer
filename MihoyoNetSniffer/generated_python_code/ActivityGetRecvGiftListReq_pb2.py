@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ActivityGetRecvGiftListReq.proto\"0\n\x1a\x41\x63tivityGetRecvGiftListReq\x12\x12\n\nscheduleId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ActivityGetRecvGiftListReq.proto\"1\n\x1a\x41\x63tivityGetRecvGiftListReq\x12\x13\n\x0bschedule_id\x18\x0c \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityGetRecvGiftListReq_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ACTIVITYGETRECVGIFTLISTREQ']._serialized_start=36
-  _globals['_ACTIVITYGETRECVGIFTLISTREQ']._serialized_end=84
+  _globals['_ACTIVITYGETRECVGIFTLISTREQ']._serialized_end=85
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CoopChapter_pb2 as CoopChapter__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43oopChapterUpdateNotify.proto\x1a\x11\x43oopChapter.proto\"<\n\x17\x43oopChapterUpdateNotify\x12!\n\x0b\x63hapterList\x18\x05 \x03(\x0b\x32\x0c.CoopChapterB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43oopChapterUpdateNotify.proto\x1a\x11\x43oopChapter.proto\"=\n\x17\x43oopChapterUpdateNotify\x12\"\n\x0c\x63hapter_list\x18\n \x03(\x0b\x32\x0c.CoopChapterB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopChapterUpdateNotify_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_COOPCHAPTERUPDATENOTIFY']._serialized_start=52
-  _globals['_COOPCHAPTERUPDATENOTIFY']._serialized_end=112
+  _globals['_COOPCHAPTERUPDATENOTIFY']._serialized_end=113
 # @@protoc_insertion_point(module_scope)

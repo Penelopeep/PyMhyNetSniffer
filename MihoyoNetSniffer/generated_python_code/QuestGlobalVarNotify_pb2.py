@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import QuestGlobalVar_pb2 as QuestGlobalVar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aQuestGlobalVarNotify.proto\x1a\x14QuestGlobalVar.proto\"8\n\x14QuestGlobalVarNotify\x12 \n\x07varList\x18\x0c \x03(\x0b\x32\x0f.QuestGlobalVarB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aQuestGlobalVarNotify.proto\x1a\x14QuestGlobalVar.proto\"9\n\x14QuestGlobalVarNotify\x12!\n\x08var_list\x18\x04 \x03(\x0b\x32\x0f.QuestGlobalVarB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestGlobalVarNotify_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_QUESTGLOBALVARNOTIFY']._serialized_start=52
-  _globals['_QUESTGLOBALVARNOTIFY']._serialized_end=108
+  _globals['_QUESTGLOBALVARNOTIFY']._serialized_end=109
 # @@protoc_insertion_point(module_scope)

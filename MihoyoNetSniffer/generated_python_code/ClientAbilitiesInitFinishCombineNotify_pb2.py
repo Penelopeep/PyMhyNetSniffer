@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EntityAbilityInvokeEntry_pb2 as EntityAbilityInvokeEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,ClientAbilitiesInitFinishCombineNotify.proto\x1a\x1e\x45ntityAbilityInvokeEntry.proto\"]\n&ClientAbilitiesInitFinishCombineNotify\x12\x33\n\x10\x65ntityInvokeList\x18\x04 \x03(\x0b\x32\x19.EntityAbilityInvokeEntryB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,ClientAbilitiesInitFinishCombineNotify.proto\x1a\x1e\x45ntityAbilityInvokeEntry.proto\"_\n&ClientAbilitiesInitFinishCombineNotify\x12\x35\n\x12\x65ntity_invoke_list\x18\x0c \x03(\x0b\x32\x19.EntityAbilityInvokeEntryB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientAbilitiesInitFinishCo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CLIENTABILITIESINITFINISHCOMBINENOTIFY']._serialized_start=80
-  _globals['_CLIENTABILITIESINITFINISHCOMBINENOTIFY']._serialized_end=173
+  _globals['_CLIENTABILITIESINITFINISHCOMBINENOTIFY']._serialized_end=175
 # @@protoc_insertion_point(module_scope)

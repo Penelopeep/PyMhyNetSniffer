@@ -11,17 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import TrialAvatarInfo_pb2 as TrialAvatarInfo__pb2
-import AvatarFetterInfo_pb2 as AvatarFetterInfo__pb2
-import AvatarExpeditionState_pb2 as AvatarExpeditionState__pb2
-import AvatarExcelInfo_pb2 as AvatarExcelInfo__pb2
-import PIDFKDHMHKA_pb2 as PIDFKDHMHKA__pb2
-import PropValue_pb2 as PropValue__pb2
-import AvatarSkillInfo_pb2 as AvatarSkillInfo__pb2
 import AvatarEquipAffixInfo_pb2 as AvatarEquipAffixInfo__pb2
+import AvatarExcelInfo_pb2 as AvatarExcelInfo__pb2
+import AvatarExpeditionState_pb2 as AvatarExpeditionState__pb2
+import AvatarFetterInfo_pb2 as AvatarFetterInfo__pb2
+import AvatarSkillInfo_pb2 as AvatarSkillInfo__pb2
+import GKIJDMOCNDH_pb2 as GKIJDMOCNDH__pb2
+import PropValue_pb2 as PropValue__pb2
+import TrialAvatarInfo_pb2 as TrialAvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x41vatarInfo.proto\x1a\x15TrialAvatarInfo.proto\x1a\x16\x41vatarFetterInfo.proto\x1a\x1b\x41vatarExpeditionState.proto\x1a\x15\x41vatarExcelInfo.proto\x1a\x11PIDFKDHMHKA.proto\x1a\x0fPropValue.proto\x1a\x15\x41vatarSkillInfo.proto\x1a\x1a\x41vatarEquipAffixInfo.proto\"\xa6\t\n\nAvatarInfo\x12\x10\n\x08\x61vatarId\x18\x01 \x01(\r\x12\x0c\n\x04guid\x18\x02 \x01(\x04\x12)\n\x07propMap\x18\x03 \x03(\x0b\x32\x18.AvatarInfo.PropMapEntry\x12\x11\n\tlifeState\x18\x04 \x01(\r\x12\x15\n\requipGuidList\x18\x05 \x03(\x04\x12\x14\n\x0ctalentIdList\x18\x06 \x03(\r\x12\x33\n\x0c\x66ightPropMap\x18\x07 \x03(\x0b\x32\x1d.AvatarInfo.FightPropMapEntry\x12)\n\x0ftrialAvatarInfo\x18\t \x01(\x0b\x32\x10.TrialAvatarInfo\x12+\n\x08skillMap\x18\n \x03(\x0b\x32\x19.AvatarInfo.SkillMapEntry\x12\x14\n\x0cskillDepotId\x18\x0b \x01(\r\x12%\n\nfetterInfo\x18\x0c \x01(\x0b\x32\x11.AvatarFetterInfo\x12\x1b\n\x13\x63oreProudSkillLevel\x18\r \x01(\r\x12\x1e\n\x16inherentProudSkillList\x18\x0e \x03(\r\x12\x35\n\rskillLevelMap\x18\x0f \x03(\x0b\x32\x1e.AvatarInfo.SkillLevelMapEntry\x12/\n\x0f\x65xpeditionState\x18\x10 \x01(\x0e\x32\x16.AvatarExpeditionState\x12I\n\x17proudSkillExtraLevelMap\x18\x11 \x03(\x0b\x32(.AvatarInfo.ProudSkillExtraLevelMapEntry\x12\x0f\n\x07isFocus\x18\x12 \x01(\x08\x12\x12\n\navatarType\x18\x13 \x01(\r\x12\x19\n\x11teamResonanceList\x18\x14 \x03(\r\x12\x19\n\x11wearingFlycloakId\x18\x15 \x01(\r\x12-\n\x0e\x65quipAffixList\x18\x16 \x03(\x0b\x32\x15.AvatarEquipAffixInfo\x12\x10\n\x08\x62ornTime\x18\x17 \x01(\r\x12 \n\x18pendingPromoteRewardList\x18\x18 \x03(\r\x12\x11\n\tcostumeId\x18\x19 \x01(\r\x12#\n\texcelInfo\x18\x1a \x01(\x0b\x32\x10.AvatarExcelInfo\x12\x10\n\x08\x61nimHash\x18\x1b \x01(\r\x12!\n\x0blejhmjbbjcp\x18\x1c \x01(\x0b\x32\x0c.PIDFKDHMHKA\x1a:\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\x1a\x33\n\x11\x46ightPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x1a\x41\n\rSkillMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.AvatarSkillInfo:\x02\x38\x01\x1a\x34\n\x12SkillLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a>\n\x1cProudSkillExtraLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x41vatarInfo.proto\x1a\x1a\x41vatarEquipAffixInfo.proto\x1a\x15\x41vatarExcelInfo.proto\x1a\x1b\x41vatarExpeditionState.proto\x1a\x16\x41vatarFetterInfo.proto\x1a\x15\x41vatarSkillInfo.proto\x1a\x11GKIJDMOCNDH.proto\x1a\x0fPropValue.proto\x1a\x15TrialAvatarInfo.proto\"\xd1\t\n\nAvatarInfo\x12\x11\n\tavatar_id\x18\x01 \x01(\r\x12\x0c\n\x04guid\x18\x02 \x01(\x04\x12*\n\x08prop_map\x18\x03 \x03(\x0b\x32\x18.AvatarInfo.PropMapEntry\x12\x12\n\nlife_state\x18\x04 \x01(\r\x12\x17\n\x0f\x65quip_guid_list\x18\x05 \x03(\x04\x12\x16\n\x0etalent_id_list\x18\x06 \x03(\r\x12\x35\n\x0e\x66ight_prop_map\x18\x07 \x03(\x0b\x32\x1d.AvatarInfo.FightPropMapEntry\x12+\n\x11trial_avatar_info\x18\t \x01(\x0b\x32\x10.TrialAvatarInfo\x12,\n\tskill_map\x18\n \x03(\x0b\x32\x19.AvatarInfo.SkillMapEntry\x12\x16\n\x0eskill_depot_id\x18\x0b \x01(\r\x12&\n\x0b\x66\x65tter_info\x18\x0c \x01(\x0b\x32\x11.AvatarFetterInfo\x12\x1e\n\x16\x63ore_proud_skill_level\x18\r \x01(\r\x12!\n\x19inherent_proud_skill_list\x18\x0e \x03(\r\x12\x37\n\x0fskill_level_map\x18\x0f \x03(\x0b\x32\x1e.AvatarInfo.SkillLevelMapEntry\x12\x30\n\x10\x65xpedition_state\x18\x10 \x01(\x0e\x32\x16.AvatarExpeditionState\x12M\n\x1bproud_skill_extra_level_map\x18\x11 \x03(\x0b\x32(.AvatarInfo.ProudSkillExtraLevelMapEntry\x12\x10\n\x08is_focus\x18\x12 \x01(\x08\x12\x13\n\x0b\x61vatar_type\x18\x13 \x01(\r\x12\x1b\n\x13team_resonance_list\x18\x14 \x03(\r\x12\x1b\n\x13wearing_flycloak_id\x18\x15 \x01(\r\x12/\n\x10\x65quip_affix_list\x18\x16 \x03(\x0b\x32\x15.AvatarEquipAffixInfo\x12\x11\n\tborn_time\x18\x17 \x01(\r\x12#\n\x1bpending_promote_reward_list\x18\x18 \x03(\r\x12\x12\n\ncostume_id\x18\x19 \x01(\r\x12$\n\nexcel_info\x18\x1a \x01(\x0b\x32\x10.AvatarExcelInfo\x12\x11\n\tanim_hash\x18\x1b \x01(\r\x12!\n\x0b\x46PDEJLIHLGJ\x18\x1c \x01(\x0b\x32\x0c.GKIJDMOCNDH\x1a:\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\x1a\x33\n\x11\x46ightPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x1a\x41\n\rSkillMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.AvatarSkillInfo:\x02\x38\x01\x1a\x34\n\x12SkillLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a>\n\x1cProudSkillExtraLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -29,7 +29,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _AVATARINFO_PROPMAPENTRY._options = None
   _AVATARINFO_PROPMAPENTRY._serialized_options = b'8\001'
   _AVATARINFO_FIGHTPROPMAPENTRY._options = None
@@ -41,15 +41,15 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _AVATARINFO_PROUDSKILLEXTRALEVELMAPENTRY._options = None
   _AVATARINFO_PROUDSKILLEXTRALEVELMAPENTRY._serialized_options = b'8\001'
   _globals['_AVATARINFO']._serialized_start=207
-  _globals['_AVATARINFO']._serialized_end=1397
-  _globals['_AVATARINFO_PROPMAPENTRY']._serialized_start=1101
-  _globals['_AVATARINFO_PROPMAPENTRY']._serialized_end=1159
-  _globals['_AVATARINFO_FIGHTPROPMAPENTRY']._serialized_start=1161
-  _globals['_AVATARINFO_FIGHTPROPMAPENTRY']._serialized_end=1212
-  _globals['_AVATARINFO_SKILLMAPENTRY']._serialized_start=1214
-  _globals['_AVATARINFO_SKILLMAPENTRY']._serialized_end=1279
-  _globals['_AVATARINFO_SKILLLEVELMAPENTRY']._serialized_start=1281
-  _globals['_AVATARINFO_SKILLLEVELMAPENTRY']._serialized_end=1333
-  _globals['_AVATARINFO_PROUDSKILLEXTRALEVELMAPENTRY']._serialized_start=1335
-  _globals['_AVATARINFO_PROUDSKILLEXTRALEVELMAPENTRY']._serialized_end=1397
+  _globals['_AVATARINFO']._serialized_end=1440
+  _globals['_AVATARINFO_PROPMAPENTRY']._serialized_start=1144
+  _globals['_AVATARINFO_PROPMAPENTRY']._serialized_end=1202
+  _globals['_AVATARINFO_FIGHTPROPMAPENTRY']._serialized_start=1204
+  _globals['_AVATARINFO_FIGHTPROPMAPENTRY']._serialized_end=1255
+  _globals['_AVATARINFO_SKILLMAPENTRY']._serialized_start=1257
+  _globals['_AVATARINFO_SKILLMAPENTRY']._serialized_end=1322
+  _globals['_AVATARINFO_SKILLLEVELMAPENTRY']._serialized_start=1324
+  _globals['_AVATARINFO_SKILLLEVELMAPENTRY']._serialized_end=1376
+  _globals['_AVATARINFO_PROUDSKILLEXTRALEVELMAPENTRY']._serialized_start=1378
+  _globals['_AVATARINFO_PROUDSKILLEXTRALEVELMAPENTRY']._serialized_end=1440
 # @@protoc_insertion_point(module_scope)

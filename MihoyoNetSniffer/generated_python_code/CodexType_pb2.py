@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0f\x43odexType.proto*\xdb\x01\n\tCodexType\x12\x13\n\x0f\x43ODEX_TYPE_NONE\x10\x00\x12\x14\n\x10\x43ODEX_TYPE_QUEST\x10\x01\x12\x15\n\x11\x43ODEX_TYPE_WEAPON\x10\x02\x12\x15\n\x11\x43ODEX_TYPE_ANIMAL\x10\x03\x12\x17\n\x13\x43ODEX_TYPE_MATERIAL\x10\x04\x12\x14\n\x10\x43ODEX_TYPE_BOOKS\x10\x05\x12\x17\n\x13\x43ODEX_TYPE_PUSHTIPS\x10\x06\x12\x13\n\x0f\x43ODEX_TYPE_VIEW\x10\x07\x12\x18\n\x14\x43ODEX_TYPE_RELIQUARY\x10\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0f\x43odexType.proto*\xae\x01\n\tCodexType\x12\x0e\n\nCODEX_NONE\x10\x00\x12\x0f\n\x0b\x43ODEX_QUEST\x10\x01\x12\x10\n\x0c\x43ODEX_WEAPON\x10\x02\x12\x10\n\x0c\x43ODEX_ANIMAL\x10\x03\x12\x12\n\x0e\x43ODEX_MATERIAL\x10\x04\x12\x0f\n\x0b\x43ODEX_BOOKS\x10\x05\x12\x12\n\x0e\x43ODEX_PUSHTIPS\x10\x06\x12\x0e\n\nCODEX_VIEW\x10\x07\x12\x13\n\x0f\x43ODEX_RELIQUARY\x10\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CodexType_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CODEXTYPE']._serialized_start=20
-  _globals['_CODEXTYPE']._serialized_end=239
+  _globals['_CODEXTYPE']._serialized_end=194
 # @@protoc_insertion_point(module_scope)

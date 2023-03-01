@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GameplayRecommendationReliquaryMainPropData_pb2 as GameplayRecommendationReliquaryMainPropData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n4GameplayRecommendationElementReliquaryResponse.proto\x1a\x31GameplayRecommendationReliquaryMainPropData.proto\"\xa5\x01\n.GameplayRecommendationElementReliquaryResponse\x12\x14\n\x0c\x65lement_type\x18\x01 \x01(\r\x12\x12\n\nequip_type\x18\t \x01(\r\x12I\n\x13main_prop_data_list\x18\x05 \x03(\x0b\x32,.GameplayRecommendationReliquaryMainPropDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n4GameplayRecommendationElementReliquaryResponse.proto\x1a\x31GameplayRecommendationReliquaryMainPropData.proto\"\xa5\x01\n.GameplayRecommendationElementReliquaryResponse\x12\x14\n\x0c\x65lement_type\x18\x0c \x01(\r\x12I\n\x13main_prop_data_list\x18\t \x03(\x0b\x32,.GameplayRecommendationReliquaryMainPropData\x12\x12\n\nequip_type\x18\x0b \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GameplayRecommendationElementReliquaryResponse_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GameplayRecommendationElementReliquaryResponse_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GAMEPLAYRECOMMENDATIONELEMENTRELIQUARYRESPONSE._serialized_start=108
-  _GAMEPLAYRECOMMENDATIONELEMENTRELIQUARYRESPONSE._serialized_end=273
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GAMEPLAYRECOMMENDATIONELEMENTRELIQUARYRESPONSE']._serialized_start=108
+  _globals['_GAMEPLAYRECOMMENDATIONELEMENTRELIQUARYRESPONSE']._serialized_end=273
 # @@protoc_insertion_point(module_scope)

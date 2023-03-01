@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12InteractType.proto*\x8c\x04\n\x0cInteractType\x12\x16\n\x12INTERACT_TYPE_NONE\x10\x00\x12\x1b\n\x17INTERACT_TYPE_PICK_ITEM\x10\x01\x12\x18\n\x14INTERACT_TYPE_GATHER\x10\x02\x12\x1c\n\x18INTERACT_TYPE_OPEN_CHEST\x10\x03\x12\x1d\n\x19INTERACT_TYPE_OPEN_STATUE\x10\x04\x12\x19\n\x15INTERACT_TYPE_CONSUME\x10\x05\x12 \n\x1cINTERACT_TYPE_MP_PLAY_REWARD\x10\x06\x12\x16\n\x12INTERACT_TYPE_VIEW\x10\x07\x12 \n\x1cINTERACT_TYPE_GENERAL_REWARD\x10\x08\x12\x1e\n\x1aINTERACT_TYPE_MIRACLE_RING\x10\t\x12\x1c\n\x18INTERACT_TYPE_FOUNDATION\x10\n\x12\x1c\n\x18INTERACT_TYPE_ECHO_SHELL\x10\x0b\x12\x1d\n\x19INTERACT_TYPE_HOME_GATHER\x10\x0c\x12\x1c\n\x18INTERACT_TYPE_ENV_ANIMAL\x10\r\x12\x1e\n\x1aINTERACT_TYPE_QUEST_GADGET\x10\x0e\x12\x1d\n\x19INTERACT_TYPE_UI_INTERACT\x10\x0f\x12!\n\x1dINTERACT_TYPE_DESHRET_OBELISK\x10\x10\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12InteractType.proto*\xb6\x03\n\x0cInteractType\x12\x11\n\rINTERACT_NONE\x10\x00\x12\x16\n\x12INTERACT_PICK_ITEM\x10\x01\x12\x13\n\x0fINTERACT_GATHER\x10\x02\x12\x17\n\x13INTERACT_OPEN_CHEST\x10\x03\x12\x18\n\x14INTERACT_OPEN_STATUE\x10\x04\x12\x13\n\x0fINTERACT_CONSUM\x10\x05\x12\x1b\n\x17INTERACT_MP_PLAY_REWARD\x10\x06\x12\x11\n\rINTERACT_VIEW\x10\x07\x12\x1b\n\x17INTERACT_GENERAL_REWARD\x10\x08\x12\x19\n\x15INTERACT_MIRACLE_RING\x10\t\x12\x17\n\x13INTERACT_FOUNDATION\x10\n\x12\x17\n\x13INTERACT_ECHO_SHELL\x10\x0b\x12\x18\n\x14INTERACT_HOME_GATHER\x10\x0c\x12\x17\n\x13INTERACT_ENV_ANIMAL\x10\r\x12\x19\n\x15INTERACT_QUEST_GADGET\x10\x0e\x12\x18\n\x14INTERACT_UI_INTERACT\x10\x0f\x12\x1c\n\x18INTERACT_DESHRET_OBELISK\x10\x10\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InteractType_pb2', _globals
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_INTERACTTYPE']._serialized_start=23
-  _globals['_INTERACTTYPE']._serialized_end=547
+  _globals['_INTERACTTYPE']._serialized_end=461
 # @@protoc_insertion_point(module_scope)

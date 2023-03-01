@@ -12,11 +12,10 @@ _sym_db = _symbol_database.Default()
 
 
 import FishBattleResult_pb2 as FishBattleResult__pb2
-import FishNoRewardReason_pb2 as FishNoRewardReason__pb2
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46ishBattleEndRsp.proto\x1a\x16\x46ishBattleResult.proto\x1a\x18\x46ishNoRewardReason.proto\x1a\x0fItemParam.proto\"\x84\x02\n\x10\x46ishBattleEndRsp\x12\"\n\x0erewardItemList\x18\x03 \x03(\x0b\x32\n.ItemParam\x12\'\n\x13Unk3300_MDCKKPGNKGL\x18\x0c \x03(\x0b\x32\n.ItemParam\x12\'\n\x0c\x62\x61ttleResult\x18\n \x01(\x0e\x32\x11.FishBattleResult\x12+\n\x0enoRewardReason\x18\x05 \x01(\x0e\x32\x13.FishNoRewardReason\x12\x13\n\x0bisGotReward\x18\x08 \x01(\x08\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\'\n\x13Unk3300_ABBBGOBDJEC\x18\x0f \x03(\x0b\x32\n.ItemParamB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46ishBattleEndRsp.proto\x1a\x16\x46ishBattleResult.proto\x1a\x0fItemParam.proto\"\x9c\x03\n\x10\x46ishBattleEndRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x1f\n\x0b\x46JMDGODGDFP\x18\x03 \x03(\x0b\x32\n.ItemParam\x12\x15\n\ris_got_reward\x18\x02 \x01(\x08\x12(\n\rbattle_result\x18\x05 \x01(\x0e\x32\x11.FishBattleResult\x12>\n\x10no_reward_reason\x18\x0e \x01(\x0e\x32$.FishBattleEndRsp.FishNoRewardReason\x12$\n\x10reward_item_list\x18\t \x03(\x0b\x32\n.ItemParam\x12\x1f\n\x0bMGJPLKOPPOI\x18\x04 \x03(\x0b\x32\n.ItemParam\"\x8d\x01\n\x12\x46ishNoRewardReason\x12\x17\n\x13\x46ISH_NO_REWARD_NONE\x10\x00\x12!\n\x1d\x46ISH_NO_REWARD_ACTIVITY_LIMIT\x10\x01\x12\x1c\n\x18\x46ISH_NO_REWARD_BAG_LIMIT\x10\x02\x12\x1d\n\x19\x46ISH_NO_REWARD_POOL_LIMIT\x10\x03\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +23,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishBattleEndRsp_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_FISHBATTLEENDRSP']._serialized_start=94
-  _globals['_FISHBATTLEENDRSP']._serialized_end=354
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_FISHBATTLEENDRSP']._serialized_start=68
+  _globals['_FISHBATTLEENDRSP']._serialized_end=480
+  _globals['_FISHBATTLEENDRSP_FISHNOREWARDREASON']._serialized_start=339
+  _globals['_FISHBATTLEENDRSP_FISHNOREWARDREASON']._serialized_end=480
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import LunaRiteHintStatusType_pb2 as LunaRiteHintStatusType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16LunaRiteAreaInfo.proto\x1a\x1cLunaRiteHintStatusType.proto\"\x9b\x01\n\x10LunaRiteAreaInfo\x12\x16\n\x0e\x63hallengeIndex\x18\t \x01(\r\x12\x1b\n\x13sacrificeRewardList\x18\r \x03(\r\x12\x15\n\rsacrificeList\x18\x02 \x03(\r\x12+\n\nhintStatus\x18\x03 \x01(\x0e\x32\x17.LunaRiteHintStatusType\x12\x0e\n\x06\x61reaId\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16LunaRiteAreaInfo.proto\x1a\x1cLunaRiteHintStatusType.proto\"\xa1\x01\n\x10LunaRiteAreaInfo\x12\x0f\n\x07\x61rea_id\x18\t \x01(\r\x12\x1d\n\x15sacrifice_reward_list\x18\x05 \x03(\r\x12,\n\x0bhint_status\x18\x07 \x01(\x0e\x32\x17.LunaRiteHintStatusType\x12\x17\n\x0f\x63hallenge_index\x18\r \x01(\r\x12\x16\n\x0esacrifice_list\x18\x03 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteAreaInfo_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_LUNARITEAREAINFO']._serialized_start=57
-  _globals['_LUNARITEAREAINFO']._serialized_end=212
+  _globals['_LUNARITEAREAINFO']._serialized_end=218
 # @@protoc_insertion_point(module_scope)

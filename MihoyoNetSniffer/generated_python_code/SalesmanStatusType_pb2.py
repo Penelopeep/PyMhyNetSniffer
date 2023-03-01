@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SalesmanStatusType.proto*\x9d\x01\n\x12SalesmanStatusType\x12\x1d\n\x19SALESMAN_STATUS_TYPE_NONE\x10\x00\x12\"\n\x1eSALESMAN_STATUS_TYPE_UNSTARTED\x10\x01\x12 \n\x1cSALESMAN_STATUS_TYPE_STARTED\x10\x02\x12\"\n\x1eSALESMAN_STATUS_TYPE_DELIVERED\x10\x03\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SalesmanStatusType.proto*\x89\x01\n\x12SalesmanStatusType\x12\x18\n\x14SALESMAN_STATUS_NONE\x10\x00\x12\x1d\n\x19SALESMAN_STATUS_UNSTARTED\x10\x01\x12\x1b\n\x17SALESMAN_STATUS_STARTED\x10\x02\x12\x1d\n\x19SALESMAN_STATUS_DELIVERED\x10\x03\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalesmanStatusType_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SALESMANSTATUSTYPE']._serialized_start=29
-  _globals['_SALESMANSTATUSTYPE']._serialized_end=186
+  _globals['_SALESMANSTATUSTYPE']._serialized_end=166
 # @@protoc_insertion_point(module_scope)

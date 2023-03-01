@@ -14,17 +14,19 @@ _sym_db = _symbol_database.Default()
 import SumoStageData_pb2 as SumoStageData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSumoActivityDetailInfo.proto\x1a\x13SumoStageData.proto\"\xce\x01\n\x16SumoActivityDetailInfo\x12\x15\n\rdifficulty_id\x18\x0b \x01(\r\x12\x15\n\rlast_stage_id\x18\x0c \x01(\r\x12\x41\n\x0esumo_stage_map\x18\x01 \x03(\x0b\x32).SumoActivityDetailInfo.SumoStageMapEntry\x1a\x43\n\x11SumoStageMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1d\n\x05value\x18\x02 \x01(\x0b\x32\x0e.SumoStageData:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSumoActivityDetailInfo.proto\x1a\x13SumoStageData.proto\"\xce\x01\n\x16SumoActivityDetailInfo\x12\x15\n\rlast_stage_id\x18\x0f \x01(\r\x12\x41\n\x0esumo_stage_map\x18\x06 \x03(\x0b\x32).SumoActivityDetailInfo.SumoStageMapEntry\x12\x15\n\rdifficulty_id\x18\x0b \x01(\r\x1a\x43\n\x11SumoStageMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1d\n\x05value\x18\x02 \x01(\x0b\x32\x0e.SumoStageData:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _SUMOACTIVITYDETAILINFO_SUMOSTAGEMAPENTRY._options = None
   _SUMOACTIVITYDETAILINFO_SUMOSTAGEMAPENTRY._serialized_options = b'8\001'
-  _SUMOACTIVITYDETAILINFO._serialized_start=54
-  _SUMOACTIVITYDETAILINFO._serialized_end=260
-  _SUMOACTIVITYDETAILINFO_SUMOSTAGEMAPENTRY._serialized_start=193
-  _SUMOACTIVITYDETAILINFO_SUMOSTAGEMAPENTRY._serialized_end=260
+  _globals['_SUMOACTIVITYDETAILINFO']._serialized_start=54
+  _globals['_SUMOACTIVITYDETAILINFO']._serialized_end=260
+  _globals['_SUMOACTIVITYDETAILINFO_SUMOSTAGEMAPENTRY']._serialized_start=193
+  _globals['_SUMOACTIVITYDETAILINFO_SUMOSTAGEMAPENTRY']._serialized_end=260
 # @@protoc_insertion_point(module_scope)

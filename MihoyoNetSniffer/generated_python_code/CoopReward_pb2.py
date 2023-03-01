@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import State_pb2 as State__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43oopReward.proto\x1a\x0bState.proto\"/\n\nCoopReward\x12\x15\n\x05state\x18\x08 \x01(\x0e\x32\x06.State\x12\n\n\x02id\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43oopReward.proto\"v\n\nCoopReward\x12\n\n\x02id\x18\x01 \x01(\r\x12 \n\x05state\x18\x07 \x01(\x0e\x32\x11.CoopReward.State\":\n\x05State\x12\x10\n\x0cSTATE_UNLOCK\x10\x00\x12\x0e\n\nSTATE_LOCK\x10\x01\x12\x0f\n\x0bSTATE_TAKEN\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopReward_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_COOPREWARD']._serialized_start=33
-  _globals['_COOPREWARD']._serialized_end=80
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_COOPREWARD']._serialized_start=20
+  _globals['_COOPREWARD']._serialized_end=138
+  _globals['_COOPREWARD_STATE']._serialized_start=80
+  _globals['_COOPREWARD_STATE']._serialized_end=138
 # @@protoc_insertion_point(module_scope)

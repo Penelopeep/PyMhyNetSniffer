@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ReportReasonType.proto*\xf0\x01\n\x10ReportReasonType\x12\x1b\n\x17REPORT_REASON_TYPE_NONE\x10\x00\x12$\n REPORT_REASON_TYPE_DECEPTIVE_ADS\x10\x01\x12\x1e\n\x1aREPORT_REASON_TYPE_ABUSING\x10\x02\x12\x1c\n\x18REPORT_REASON_TYPE_CHEAT\x10\x03\x12 \n\x1cREPORT_REASON_TYPE_POLITICAL\x10\x04\x12\x1c\n\x18REPORT_REASON_TYPE_OTHER\x10\x05\x12\x1b\n\x17REPORT_REASON_TYPE_HOME\x10\x06\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ReportReasonType.proto*\xcd\x01\n\x10ReportReasonType\x12\x16\n\x12REPORT_REASON_NONE\x10\x00\x12\x1f\n\x1bREPORT_REASON_DECEPTIVE_ADS\x10\x01\x12\x19\n\x15REPORT_REASON_ABUSING\x10\x02\x12\x17\n\x13REPORT_REASON_CHEAT\x10\x03\x12\x1b\n\x17REPORT_REASON_POLITICAL\x10\x04\x12\x17\n\x13REPORT_REASON_OTHER\x10\x05\x12\x16\n\x12REPORT_REASON_HOME\x10\x06\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReportReasonType_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_REPORTREASONTYPE']._serialized_start=27
-  _globals['_REPORTREASONTYPE']._serialized_end=267
+  _globals['_REPORTREASONTYPE']._serialized_end=232
 # @@protoc_insertion_point(module_scope)

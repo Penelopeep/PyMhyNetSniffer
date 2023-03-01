@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChessNormalCardInfo_pb2 as ChessNormalCardInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hessPlayerInfo.proto\x1a\x19\x43hessNormalCardInfo.proto\"\xdf\x01\n\x0f\x43hessPlayerInfo\x12\x16\n\x0e\x62uildingPoints\x18\r \x01(\r\x12\x1b\n\x13Unk3300_PPFPEAGBHLP\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_AOCJHOKCDDM\x18\x02 \x01(\r\x12\x33\n\x15\x63\x61ndidateCardInfoList\x18\x06 \x03(\x0b\x32\x14.ChessNormalCardInfo\x12\x0b\n\x03uid\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_PPFBGIDKCDJ\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_GPNDNCCLHKE\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hessPlayerInfo.proto\x1a\x19\x43hessNormalCardInfo.proto\"\xbf\x01\n\x0f\x43hessPlayerInfo\x12\x13\n\x0bGKBILFJMMAO\x18\x0b \x01(\r\x12\x13\n\x0b\x44\x42\x43NEFPDHHM\x18\x0e \x01(\r\x12\x0b\n\x03uid\x18\r \x01(\r\x12\x36\n\x18\x63\x61ndidate_card_info_list\x18\x0f \x03(\x0b\x32\x14.ChessNormalCardInfo\x12\x13\n\x0b\x43NLJGGLHKAE\x18\x03 \x01(\r\x12\x13\n\x0bJEGENLBHOCJ\x18\x04 \x01(\r\x12\x13\n\x0b\x46\x41\x42\x42POHPPEC\x18\x07 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessPlayerInfo_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CHESSPLAYERINFO']._serialized_start=53
-  _globals['_CHESSPLAYERINFO']._serialized_end=276
+  _globals['_CHESSPLAYERINFO']._serialized_end=244
 # @@protoc_insertion_point(module_scope)

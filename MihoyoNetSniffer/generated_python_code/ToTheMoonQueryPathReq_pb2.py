@@ -11,13 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import OptionType_pb2 as OptionType__pb2
 import Vector_pb2 as Vector__pb2
-import AStarMethod_pb2 as AStarMethod__pb2
-import FilterType_pb2 as FilterType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bToTheMoonQueryPathReq.proto\x1a\x10OptionType.proto\x1a\x0cVector.proto\x1a\x11\x41StarMethod.proto\x1a\x10\x46ilterType.proto\"\xa8\x02\n\x15ToTheMoonQueryPathReq\x12\x1e\n\tqueryType\x18\x0f \x01(\x0e\x32\x0b.OptionType\x12\x0f\n\x07queryId\x18\x03 \x01(\x05\x12\x1a\n\tsourcePos\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x0f\n\x07sceneId\x18\x06 \x01(\r\x12!\n\x0b\x61starMethod\x18\x01 \x01(\x0e\x32\x0c.AStarMethod\x12\x1f\n\nfilterType\x18\x08 \x01(\x0e\x32\x0b.FilterType\x12\x12\n\nfuzzyRange\x18\x07 \x01(\x05\x12\x1b\n\x13Unk3300_OFGONAMNIJG\x18\n \x01(\x08\x12\x1b\n\x13Unk3300_BBLMBILIOGP\x18\x02 \x01(\x08\x12\x1f\n\x0e\x64\x65stinationPos\x18\x05 \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bToTheMoonQueryPathReq.proto\x1a\x0cVector.proto\"\x97\x05\n\x15ToTheMoonQueryPathReq\x12\x37\n\x0b\x42\x46LACBIGMCJ\x18\x06 \x01(\x0e\x32\".ToTheMoonQueryPathReq.DEGELJBNIMO\x12\x13\n\x0bGAGPNFCPOJB\x18\r \x01(\x08\x12\x37\n\x0bOPIEJHMNDOO\x18\t \x01(\x0e\x32\".ToTheMoonQueryPathReq.LEGHIEACHAF\x12 \n\x0f\x64\x65stination_pos\x18\x0e \x01(\x0b\x32\x07.Vector\x12\x13\n\x0b\x46HJJJJNHOPC\x18\x0c \x01(\x08\x12\x13\n\x0b\x66uzzy_range\x18\x04 \x01(\x05\x12\x10\n\x08scene_id\x18\x03 \x01(\r\x12\x1b\n\nsource_pos\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08query_id\x18\x0f \x01(\x05\x12\x37\n\x0bPJGBNOGMCNI\x18\x08 \x01(\x0e\x32\".ToTheMoonQueryPathReq.FAJOMCCAPLH\"G\n\x0b\x44\x45GELJBNIMO\x12\x1b\n\x17\x44\x45GELJBNIMO_NFEKPNDGKLO\x10\x00\x12\x1b\n\x17\x44\x45GELJBNIMO_FDONIBMDFGP\x10\x01\"\x81\x01\n\x0bLEGHIEACHAF\x12\x1b\n\x17LEGHIEACHAF_JLHHMIFJOBO\x10\x00\x12\x1b\n\x17LEGHIEACHAF_DMCBLOJGNOP\x10\x01\x12\x1b\n\x17LEGHIEACHAF_FHIAHIPIFIL\x10\x02\x12\x1b\n\x17LEGHIEACHAF_PFDMCOBGNMP\x10\x03\"d\n\x0b\x46\x41JOMCCAPLH\x12\x1b\n\x17\x46\x41JOMCCAPLH_JIJOOEDDLJD\x10\x00\x12\x1b\n\x17\x46\x41JOMCCAPLH_GAEBGLFLFDA\x10\x01\x12\x1b\n\x17\x46\x41JOMCCAPLH_FBNDENEGJMN\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -25,7 +22,13 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ToTheMoonQueryPathReq_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_TOTHEMOONQUERYPATHREQ']._serialized_start=101
-  _globals['_TOTHEMOONQUERYPATHREQ']._serialized_end=397
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_TOTHEMOONQUERYPATHREQ']._serialized_start=46
+  _globals['_TOTHEMOONQUERYPATHREQ']._serialized_end=709
+  _globals['_TOTHEMOONQUERYPATHREQ_DEGELJBNIMO']._serialized_start=404
+  _globals['_TOTHEMOONQUERYPATHREQ_DEGELJBNIMO']._serialized_end=475
+  _globals['_TOTHEMOONQUERYPATHREQ_LEGHIEACHAF']._serialized_start=478
+  _globals['_TOTHEMOONQUERYPATHREQ_LEGHIEACHAF']._serialized_end=607
+  _globals['_TOTHEMOONQUERYPATHREQ_FAJOMCCAPLH']._serialized_start=609
+  _globals['_TOTHEMOONQUERYPATHREQ_FAJOMCCAPLH']._serialized_end=709
 # @@protoc_insertion_point(module_scope)

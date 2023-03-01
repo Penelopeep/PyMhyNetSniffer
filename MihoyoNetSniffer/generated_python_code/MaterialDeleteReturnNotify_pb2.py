@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MaterialDeleteReturnType_pb2 as MaterialDeleteReturnType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n MaterialDeleteReturnNotify.proto\x1a\x1eMaterialDeleteReturnType.proto\"\xdf\x02\n\x1aMaterialDeleteReturnNotify\x12P\n\x13Unk3300_OFOKFKBALJD\x18\x07 \x03(\x0b\x32\x33.MaterialDeleteReturnNotify.Unk3300OFOKFKBALJDEntry\x12P\n\x13Unk3300_LAIHDKJAHAF\x18\n \x03(\x0b\x32\x33.MaterialDeleteReturnNotify.Unk3300LAIHDKJAHAFEntry\x12\'\n\x04type\x18\x0b \x01(\x0e\x32\x19.MaterialDeleteReturnType\x1a\x39\n\x17Unk3300OFOKFKBALJDEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x39\n\x17Unk3300LAIHDKJAHAFEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n MaterialDeleteReturnNotify.proto\x1a\x1eMaterialDeleteReturnType.proto\"\xb3\x02\n\x1aMaterialDeleteReturnNotify\x12\'\n\x04type\x18\x01 \x01(\x0e\x32\x19.MaterialDeleteReturnType\x12\x41\n\x0b\x41\x43NILIGFBNM\x18\x02 \x03(\x0b\x32,.MaterialDeleteReturnNotify.ACNILIGFBNMEntry\x12\x41\n\x0b\x46LHCFEJHFIL\x18\n \x03(\x0b\x32,.MaterialDeleteReturnNotify.FLHCFEJHFILEntry\x1a\x32\n\x10\x41\x43NILIGFBNMEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x32\n\x10\x46LHCFEJHFILEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,15 +22,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MaterialDeleteReturnNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _MATERIALDELETERETURNNOTIFY_UNK3300OFOKFKBALJDENTRY._options = None
-  _MATERIALDELETERETURNNOTIFY_UNK3300OFOKFKBALJDENTRY._serialized_options = b'8\001'
-  _MATERIALDELETERETURNNOTIFY_UNK3300LAIHDKJAHAFENTRY._options = None
-  _MATERIALDELETERETURNNOTIFY_UNK3300LAIHDKJAHAFENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _MATERIALDELETERETURNNOTIFY_ACNILIGFBNMENTRY._options = None
+  _MATERIALDELETERETURNNOTIFY_ACNILIGFBNMENTRY._serialized_options = b'8\001'
+  _MATERIALDELETERETURNNOTIFY_FLHCFEJHFILENTRY._options = None
+  _MATERIALDELETERETURNNOTIFY_FLHCFEJHFILENTRY._serialized_options = b'8\001'
   _globals['_MATERIALDELETERETURNNOTIFY']._serialized_start=69
-  _globals['_MATERIALDELETERETURNNOTIFY']._serialized_end=420
-  _globals['_MATERIALDELETERETURNNOTIFY_UNK3300OFOKFKBALJDENTRY']._serialized_start=304
-  _globals['_MATERIALDELETERETURNNOTIFY_UNK3300OFOKFKBALJDENTRY']._serialized_end=361
-  _globals['_MATERIALDELETERETURNNOTIFY_UNK3300LAIHDKJAHAFENTRY']._serialized_start=363
-  _globals['_MATERIALDELETERETURNNOTIFY_UNK3300LAIHDKJAHAFENTRY']._serialized_end=420
+  _globals['_MATERIALDELETERETURNNOTIFY']._serialized_end=376
+  _globals['_MATERIALDELETERETURNNOTIFY_ACNILIGFBNMENTRY']._serialized_start=274
+  _globals['_MATERIALDELETERETURNNOTIFY_ACNILIGFBNMENTRY']._serialized_end=324
+  _globals['_MATERIALDELETERETURNNOTIFY_FLHCFEJHFILENTRY']._serialized_start=326
+  _globals['_MATERIALDELETERETURNNOTIFY_FLHCFEJHFILENTRY']._serialized_end=376
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import GalleryStopReason_pb2 as GalleryStopReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.LuminanceStoneChallengeGallerySettleInfo.proto\x1a\x17GalleryStopReason.proto\"\xc7\x01\n(LuminanceStoneChallengeGallerySettleInfo\x12\x15\n\rcleanMudCount\x18\x0f \x01(\r\x12\x11\n\tgalleryId\x18\x0b \x01(\r\x12\"\n\x06reason\x18\t \x01(\x0e\x32\x12.GalleryStopReason\x12\x18\n\x10killMonsterCount\x18\x06 \x01(\r\x12\x1f\n\x17killSpecialMonsterCount\x18\x04 \x01(\r\x12\x12\n\nfinalScore\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.LuminanceStoneChallengeGallerySettleInfo.proto\x1a\x17GalleryStopReason.proto\"\xd0\x01\n(LuminanceStoneChallengeGallerySettleInfo\x12\"\n\x1akill_special_monster_count\x18\x01 \x01(\r\x12\"\n\x06reason\x18\x03 \x01(\x0e\x32\x12.GalleryStopReason\x12\x1a\n\x12kill_monster_count\x18\x0b \x01(\r\x12\x13\n\x0b\x66inal_score\x18\t \x01(\r\x12\x17\n\x0f\x63lean_mud_count\x18\x08 \x01(\r\x12\x12\n\ngallery_id\x18\x04 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LuminanceStoneChallengeGall
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_LUMINANCESTONECHALLENGEGALLERYSETTLEINFO']._serialized_start=76
-  _globals['_LUMINANCESTONECHALLENGEGALLERYSETTLEINFO']._serialized_end=275
+  _globals['_LUMINANCESTONECHALLENGEGALLERYSETTLEINFO']._serialized_end=284
 # @@protoc_insertion_point(module_scope)

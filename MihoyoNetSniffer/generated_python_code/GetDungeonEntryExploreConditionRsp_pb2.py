@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DungeonEntryCond_pb2 as DungeonEntryCond__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(GetDungeonEntryExploreConditionRsp.proto\x1a\x16\x44ungeonEntryCond.proto\"b\n\"GetDungeonEntryExploreConditionRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12+\n\x10\x64ungeonEntryCond\x18\x07 \x01(\x0b\x32\x11.DungeonEntryCondB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(GetDungeonEntryExploreConditionRsp.proto\x1a\x16\x44ungeonEntryCond.proto\"d\n\"GetDungeonEntryExploreConditionRsp\x12-\n\x12\x64ungeon_entry_cond\x18\x03 \x01(\x0b\x32\x11.DungeonEntryCond\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetDungeonEntryExploreCondi
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETDUNGEONENTRYEXPLORECONDITIONRSP']._serialized_start=68
-  _globals['_GETDUNGEONENTRYEXPLORECONDITIONRSP']._serialized_end=166
+  _globals['_GETDUNGEONENTRYEXPLORECONDITIONRSP']._serialized_end=168
 # @@protoc_insertion_point(module_scope)

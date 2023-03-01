@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15RegionalPlayVar.proto\"S\n\x0fRegionalPlayVar\x12\x11\n\tbaseValue\x18\x04 \x01(\x02\x12\x10\n\x08maxValue\x18\x0f \x01(\x02\x12\x0c\n\x04type\x18\x08 \x01(\r\x12\r\n\x05value\x18\x0c \x01(\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15RegionalPlayVar.proto\"X\n\x0fRegionalPlayVar\x12\x13\n\x0b\x41\x41\x45IFDGIILN\x18\x05 \x01(\x02\x12\x13\n\x0b\x46KNGODBDLME\x18\n \x01(\x02\x12\x0c\n\x04type\x18\x0b \x01(\r\x12\r\n\x05value\x18\x04 \x01(\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RegionalPlayVar_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_REGIONALPLAYVAR']._serialized_start=25
-  _globals['_REGIONALPLAYVAR']._serialized_end=108
+  _globals['_REGIONALPLAYVAR']._serialized_end=113
 # @@protoc_insertion_point(module_scope)

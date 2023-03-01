@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGOperationRedraw.proto\"&\n\x12GCGOperationRedraw\x12\x10\n\x08\x63\x61rdList\x18\x0c \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGOperationRedraw.proto\"\'\n\x12GCGOperationRedraw\x12\x11\n\tcard_list\x18\x07 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationRedraw_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GCGOPERATIONREDRAW']._serialized_start=28
-  _globals['_GCGOPERATIONREDRAW']._serialized_end=66
+  _globals['_GCGOPERATIONREDRAW']._serialized_end=67
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGOperationReboot.proto\"J\n\x12GCGOperationReboot\x12\x17\n\x0f\x64ice_index_list\x18\x02 \x03(\r\x12\x1b\n\x13\x63ost_card_guid_list\x18\x0e \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGOperationReboot.proto\"J\n\x12GCGOperationReboot\x12\x1b\n\x13\x63ost_card_guid_list\x18\x0e \x03(\r\x12\x17\n\x0f\x64ice_index_list\x18\x01 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationReboot_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationReboot_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGOPERATIONREBOOT._serialized_start=28
-  _GCGOPERATIONREBOOT._serialized_end=102
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGOPERATIONREBOOT']._serialized_start=28
+  _globals['_GCGOPERATIONREBOOT']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

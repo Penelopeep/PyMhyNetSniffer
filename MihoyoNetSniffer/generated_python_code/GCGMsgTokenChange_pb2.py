@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGReason_pb2 as GCGReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GCGMsgTokenChange.proto\x1a\x0fGCGReason.proto\"\x90\x01\n\x11GCGMsgTokenChange\x12\x12\n\ntoken_type\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_LLGHGEALDDI\x18\n \x01(\r\x12\x1a\n\x06reason\x18\x03 \x01(\x0e\x32\n.GCGReason\x12\x1b\n\x13Unk3300_LCNKBFBJDFM\x18\x0c \x01(\r\x12\x11\n\tcard_guid\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GCGMsgTokenChange.proto\x1a\x0fGCGReason.proto\"\x81\x01\n\x11GCGMsgTokenChange\x12\x13\n\x0b\x44\x42KMBFLENFI\x18\x0b \x01(\r\x12\x1a\n\x06reason\x18\x01 \x01(\x0e\x32\n.GCGReason\x12\x13\n\x0b\x46LOBIIACNND\x18\x0f \x01(\r\x12\x13\n\x0b\x46\x43LCILADFHG\x18\x04 \x01(\r\x12\x11\n\tcard_guid\x18\x02 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgTokenChange_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgTokenChange_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGTOKENCHANGE._serialized_start=45
-  _GCGMSGTOKENCHANGE._serialized_end=189
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGMSGTOKENCHANGE']._serialized_start=45
+  _globals['_GCGMSGTOKENCHANGE']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

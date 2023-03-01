@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import NABBLDGHGBP_pb2 as NABBLDGHGBP__pb2
+import NICMKPJLHMI_pb2 as NICMKPJLHMI__pb2
 import Vector_pb2 as Vector__pb2
-import HomeFurnitureData_pb2 as HomeFurnitureData__pb2
-import HomeBlockArrangementInfo_pb2 as HomeBlockArrangementInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHomeSceneArrangementInfo.proto\x1a\x0cVector.proto\x1a\x17HomeFurnitureData.proto\x1a\x1eHomeBlockArrangementInfo.proto\"\x8f\x03\n\x18HomeSceneArrangementInfo\x12\x19\n\x08\x64jinnPos\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x0f\n\x07sceneId\x18\x01 \x01(\r\x12\x14\n\x0cisSetBornPos\x18\x05 \x01(\x08\x12\x18\n\x07\x62ornPos\x18\n \x01(\x0b\x32\x07.Vector\x12\x14\n\x0c\x63omfortValue\x18\t \x01(\r\x12/\n\x13Unk3300_GCHNAMHBPHG\x18\x0b \x03(\x0b\x32\x12.HomeFurnitureData\x12%\n\tmainHouse\x18\x06 \x01(\x0b\x32\x12.HomeFurnitureData\x12\x18\n\x07\x62ornRot\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x12\n\ntmpVersion\x18\x04 \x01(\r\x12/\n\x13Unk3300_HPCHPODNBPH\x18\x07 \x03(\x0b\x32\x12.HomeFurnitureData\x12;\n\x18\x62lockArrangementInfoList\x18\x03 \x03(\x0b\x32\x19.HomeBlockArrangementInfo\x12\r\n\x05\x62gmId\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHomeSceneArrangementInfo.proto\x1a\x11NABBLDGHGBP.proto\x1a\x11NICMKPJLHMI.proto\x1a\x0cVector.proto\"\xe2\x02\n\x18HomeSceneArrangementInfo\x12\x13\n\x0b\x46LOONDGBJDK\x18\x04 \x01(\r\x12\x1c\n\x0b\x43KJKPEEKOGG\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x17\n\x0fis_set_born_pos\x18\n \x01(\x08\x12!\n\x0b\x43MBCIBBCMOK\x18\x0e \x03(\x0b\x32\x0c.NICMKPJLHMI\x12!\n\x0b\x45OHAHHFDAPI\x18\x08 \x03(\x0b\x32\x0c.NICMKPJLHMI\x12\x0e\n\x06\x62gm_id\x18\x0b \x01(\r\x12\x19\n\x08\x62orn_pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12!\n\x0bPIPJCHOKHDC\x18\t \x03(\x0b\x32\x0c.NABBLDGHGBP\x12\x13\n\x0bOFMABBFOHMO\x18\x03 \x01(\r\x12!\n\x0bJGGLLKMCBKK\x18\x0f \x01(\x0b\x32\x0c.NICMKPJLHMI\x12\x10\n\x08scene_id\x18\x02 \x01(\r\x12\x1c\n\x0bPNKJNGBLFAP\x18\x07 \x01(\x0b\x32\x07.VectorB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeSceneArrangementInfo_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_HOMESCENEARRANGEMENTINFO']._serialized_start=106
-  _globals['_HOMESCENEARRANGEMENTINFO']._serialized_end=505
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_HOMESCENEARRANGEMENTINFO']._serialized_start=87
+  _globals['_HOMESCENEARRANGEMENTINFO']._serialized_end=441
 # @@protoc_insertion_point(module_scope)

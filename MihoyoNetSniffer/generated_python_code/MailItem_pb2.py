@@ -15,7 +15,7 @@ import EquipParam_pb2 as EquipParam__pb2
 import MaterialDeleteInfo_pb2 as MaterialDeleteInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMailItem.proto\x1a\x10\x45quipParam.proto\x1a\x18MaterialDeleteInfo.proto\"T\n\x08MailItem\x12\x1f\n\nequipParam\x18\x01 \x01(\x0b\x32\x0b.EquipParam\x12\'\n\ndeleteInfo\x18\x02 \x01(\x0b\x32\x13.MaterialDeleteInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMailItem.proto\x1a\x10\x45quipParam.proto\x1a\x18MaterialDeleteInfo.proto\"V\n\x08MailItem\x12 \n\x0b\x65quip_param\x18\x01 \x01(\x0b\x32\x0b.EquipParam\x12(\n\x0b\x64\x65lete_info\x18\x02 \x01(\x0b\x32\x13.MaterialDeleteInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MailItem_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_MAILITEM']._serialized_start=62
-  _globals['_MAILITEM']._serialized_end=146
+  _globals['_MAILITEM']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

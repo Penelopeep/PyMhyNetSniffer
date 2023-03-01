@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AvatarExpeditionState_pb2 as AvatarExpeditionState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41vatarExpeditionInfo.proto\x1a\x1b\x41vatarExpeditionState.proto\"\x87\x01\n\x14\x41vatarExpeditionInfo\x12%\n\x05state\x18\x01 \x01(\x0e\x32\x16.AvatarExpeditionState\x12\r\n\x05\x65xpId\x18\x02 \x01(\r\x12\x10\n\x08hourTime\x18\x03 \x01(\r\x12\x11\n\tstartTime\x18\x04 \x01(\r\x12\x14\n\x0cshortenRatio\x18\x05 \x01(\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41vatarExpeditionInfo.proto\x1a\x1b\x41vatarExpeditionState.proto\"\x8b\x01\n\x14\x41vatarExpeditionInfo\x12%\n\x05state\x18\x01 \x01(\x0e\x32\x16.AvatarExpeditionState\x12\x0e\n\x06\x65xp_id\x18\x02 \x01(\r\x12\x11\n\thour_time\x18\x03 \x01(\r\x12\x12\n\nstart_time\x18\x04 \x01(\r\x12\x15\n\rshorten_ratio\x18\x05 \x01(\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarExpeditionInfo_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_AVATAREXPEDITIONINFO']._serialized_start=60
-  _globals['_AVATAREXPEDITIONINFO']._serialized_end=195
+  _globals['_AVATAREXPEDITIONINFO']._serialized_end=199
 # @@protoc_insertion_point(module_scope)

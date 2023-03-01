@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSceneGalleryWindFieldInfo.proto\"\x83\x02\n\x19SceneGalleryWindFieldInfo\x12\x1b\n\x13Unk3300_MMONPDMIEBN\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_OJHJPBCAONA\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_NBIBKFKOCFK\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_EKMHMHJDHIL\x18\r \x01(\r\x12\x1b\n\x13Unk3300_GNJKOCLJFNM\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_GNKCFHMDOHJ\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_FFODAKMKGEK\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_GLNHBJJJINK\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSceneGalleryWindFieldInfo.proto\"\xc3\x01\n\x19SceneGalleryWindFieldInfo\x12\x13\n\x0b\x42PFKPEOHJHO\x18\x04 \x01(\r\x12\x13\n\x0bLMICEFBKOID\x18\x02 \x01(\r\x12\x13\n\x0bPBABFGGNMDF\x18\x06 \x01(\r\x12\x13\n\x0b\x44PLICOODJLA\x18\x08 \x01(\r\x12\x13\n\x0bLFGKBLLGBBO\x18\x0b \x01(\r\x12\x13\n\x0bIFCFDJKPPEJ\x18\t \x01(\r\x12\x13\n\x0bNACBICBMNFJ\x18\x03 \x01(\r\x12\x13\n\x0bJPIIACAHIFE\x18\x0f \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryWindFieldInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryWindFieldInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYWINDFIELDINFO._serialized_start=36
-  _SCENEGALLERYWINDFIELDINFO._serialized_end=295
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYWINDFIELDINFO']._serialized_start=36
+  _globals['_SCENEGALLERYWINDFIELDINFO']._serialized_end=231
 # @@protoc_insertion_point(module_scope)

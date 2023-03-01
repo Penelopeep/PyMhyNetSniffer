@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GachaActivityPercentNotify.proto\"\xed\x01\n\x1aGachaActivityPercentNotify\x12\x43\n\x0ctargetNumMap\x18\x05 \x03(\x0b\x32-.GachaActivityPercentNotify.TargetNumMapEntry\x12\x1b\n\x13Unk3300_GHHIGKFDONE\x18\r \x01(\r\x12\x1b\n\x13Unk3300_IOLPAJKDEEA\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_EOPJBPHFDEE\x18\x0f \x01(\r\x1a\x33\n\x11TargetNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GachaActivityPercentNotify.proto\"\xd7\x01\n\x1aGachaActivityPercentNotify\x12\x13\n\x0bJBOFEKDGMIO\x18\x06 \x01(\r\x12\x45\n\x0etarget_num_map\x18\t \x03(\x0b\x32-.GachaActivityPercentNotify.TargetNumMapEntry\x12\x13\n\x0bIMBCNJFONIC\x18\x05 \x01(\r\x12\x13\n\x0b\x42OPLNMEHANO\x18\x0e \x01(\r\x1a\x33\n\x11TargetNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,11 +21,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaActivityPercentNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _GACHAACTIVITYPERCENTNOTIFY_TARGETNUMMAPENTRY._options = None
   _GACHAACTIVITYPERCENTNOTIFY_TARGETNUMMAPENTRY._serialized_options = b'8\001'
   _globals['_GACHAACTIVITYPERCENTNOTIFY']._serialized_start=37
-  _globals['_GACHAACTIVITYPERCENTNOTIFY']._serialized_end=274
-  _globals['_GACHAACTIVITYPERCENTNOTIFY_TARGETNUMMAPENTRY']._serialized_start=223
-  _globals['_GACHAACTIVITYPERCENTNOTIFY_TARGETNUMMAPENTRY']._serialized_end=274
+  _globals['_GACHAACTIVITYPERCENTNOTIFY']._serialized_end=252
+  _globals['_GACHAACTIVITYPERCENTNOTIFY_TARGETNUMMAPENTRY']._serialized_start=201
+  _globals['_GACHAACTIVITYPERCENTNOTIFY_TARGETNUMMAPENTRY']._serialized_end=252
 # @@protoc_insertion_point(module_scope)

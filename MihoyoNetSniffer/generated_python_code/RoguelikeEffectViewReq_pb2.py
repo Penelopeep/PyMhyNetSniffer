@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cRoguelikeEffectViewReq.proto\"R\n\x16RoguelikeEffectViewReq\x12\x1b\n\x13Unk3300_LMIIAEPBKNB\x18\x0c \x03(\r\x12\x1b\n\x13Unk3300_FKGJGIJHKJI\x18\n \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cRoguelikeEffectViewReq.proto\"B\n\x16RoguelikeEffectViewReq\x12\x13\n\x0bILGIBMIOLPL\x18\n \x03(\r\x12\x13\n\x0bPINDJOBJNJC\x18\x0b \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeEffectViewReq_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ROGUELIKEEFFECTVIEWREQ']._serialized_start=32
-  _globals['_ROGUELIKEEFFECTVIEWREQ']._serialized_end=114
+  _globals['_ROGUELIKEEFFECTVIEWREQ']._serialized_end=98
 # @@protoc_insertion_point(module_scope)

@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Vector_pb2 as Vector__pb2
 import ForwardType_pb2 as ForwardType__pb2
+import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtAvatarExitFocusNotify.proto\x1a\x0cVector.proto\x1a\x11\x46orwardType.proto\"o\n\x18\x45vtAvatarExitFocusNotify\x12\x1e\n\rfinishForward\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08\x65ntityId\x18\r \x01(\r\x12!\n\x0b\x66orwardType\x18\x0e \x01(\x0e\x32\x0c.ForwardTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtAvatarExitFocusNotify.proto\x1a\x11\x46orwardType.proto\x1a\x0cVector.proto\"r\n\x18\x45vtAvatarExitFocusNotify\x12\x11\n\tentity_id\x18\x06 \x01(\r\x12\"\n\x0c\x66orward_type\x18\n \x01(\x0e\x32\x0c.ForwardType\x12\x1f\n\x0e\x66inish_forward\x18\x0b \x01(\x0b\x32\x07.VectorB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAvatarExitFocusNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_EVTAVATAREXITFOCUSNOTIFY']._serialized_start=67
-  _globals['_EVTAVATAREXITFOCUSNOTIFY']._serialized_end=178
+  _globals['_EVTAVATAREXITFOCUSNOTIFY']._serialized_end=181
 # @@protoc_insertion_point(module_scope)

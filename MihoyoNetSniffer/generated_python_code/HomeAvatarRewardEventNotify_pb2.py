@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import HomeAvatarRewardEventInfo_pb2 as HomeAvatarRewardEventInfo__pb2
+import DLIGBJOALKN_pb2 as DLIGBJOALKN__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!HomeAvatarRewardEventNotify.proto\x1a\x1fHomeAvatarRewardEventInfo.proto\"\x97\x01\n\x1bHomeAvatarRewardEventNotify\x12\x16\n\x0eisEventTrigger\x18\x01 \x01(\x08\x12/\n\x0brewardEvent\x18\x0c \x01(\x0b\x32\x1a.HomeAvatarRewardEventInfo\x12/\n\x0bpendingList\x18\x0f \x03(\x0b\x32\x1a.HomeAvatarRewardEventInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!HomeAvatarRewardEventNotify.proto\x1a\x11\x44LIGBJOALKN.proto\"}\n\x1bHomeAvatarRewardEventNotify\x12!\n\x0b\x42JNGIKEIDDH\x18\x05 \x01(\x0b\x32\x0c.DLIGBJOALKN\x12!\n\x0bGLKMELEOCHP\x18\x0b \x03(\x0b\x32\x0c.DLIGBJOALKN\x12\x18\n\x10is_event_trigger\x18\n \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarRewardEventNotify
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_HOMEAVATARREWARDEVENTNOTIFY']._serialized_start=71
-  _globals['_HOMEAVATARREWARDEVENTNOTIFY']._serialized_end=222
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_HOMEAVATARREWARDEVENTNOTIFY']._serialized_start=56
+  _globals['_HOMEAVATARREWARDEVENTNOTIFY']._serialized_end=181
 # @@protoc_insertion_point(module_scope)

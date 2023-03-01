@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ResinChangeNotify.proto\"T\n\x11ResinChangeNotify\x12\x10\n\x08\x63urValue\x18\x0c \x01(\r\x12\x18\n\x10nextAddTimestamp\x18\x04 \x01(\r\x12\x13\n\x0b\x63urBuyCount\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ResinChangeNotify.proto\"P\n\x11ResinChangeNotify\x12\x11\n\tcur_value\x18\x0e \x01(\r\x12\x13\n\x0bKDJDKFKHOEN\x18\r \x01(\r\x12\x13\n\x0bNJLHPIKCNOP\x18\x0c \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ResinChangeNotify_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_RESINCHANGENOTIFY']._serialized_start=27
-  _globals['_RESINCHANGENOTIFY']._serialized_end=111
+  _globals['_RESINCHANGENOTIFY']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

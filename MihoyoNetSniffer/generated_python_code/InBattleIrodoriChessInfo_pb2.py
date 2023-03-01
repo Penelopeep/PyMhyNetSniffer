@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import IrodoriChessMysteryInfo_pb2 as IrodoriChessMysteryInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eInBattleIrodoriChessInfo.proto\x1a\x1dIrodoriChessMysteryInfo.proto\"\xa1\x01\n\x18InBattleIrodoriChessInfo\x12\x13\n\x0b\x66pdiemhhpko\x18\x03 \x03(\r\x12\x14\n\x0cleftMonsters\x18\x0b \x01(\r\x12-\n\x0b\x64\x63\x66\x63ppdjgod\x18\n \x01(\x0b\x32\x18.IrodoriChessMysteryInfo\x12\x13\n\x0bsettleScore\x18\x08 \x01(\r\x12\x16\n\x0e\x62uildingPoints\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eInBattleIrodoriChessInfo.proto\x1a\x1dIrodoriChessMysteryInfo.proto\"\xaa\x01\n\x18InBattleIrodoriChessInfo\x12\x1d\n\x15selected_card_id_list\x18\x08 \x03(\r\x12\x13\n\x0bGKBILFJMMAO\x18\r \x01(\r\x12\x15\n\rleft_monsters\x18\x01 \x01(\r\x12.\n\x0cmystery_info\x18\x06 \x01(\x0b\x32\x18.IrodoriChessMysteryInfo\x12\x13\n\x0b\x43GCEKHJDBBP\x18\x0b \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleIrodoriChessInfo_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_INBATTLEIRODORICHESSINFO']._serialized_start=66
-  _globals['_INBATTLEIRODORICHESSINFO']._serialized_end=227
+  _globals['_INBATTLEIRODORICHESSINFO']._serialized_end=236
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10ServerBuff.proto\"\x87\x01\n\nServerBuff\x12\x15\n\rserverBuffUid\x18\x01 \x01(\r\x12\x14\n\x0cserverBuffId\x18\x02 \x01(\r\x12\x16\n\x0eserverBuffType\x18\x03 \x01(\r\x12\x1b\n\x13instancedModifierId\x18\x04 \x01(\r\x12\x17\n\x0fisModifierAdded\x18\x05 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10ServerBuff.proto\"\x91\x01\n\nServerBuff\x12\x17\n\x0fserver_buff_uid\x18\x01 \x01(\r\x12\x16\n\x0eserver_buff_id\x18\x02 \x01(\r\x12\x18\n\x10server_buff_type\x18\x03 \x01(\r\x12\x1d\n\x15instanced_modifier_id\x18\x04 \x01(\r\x12\x19\n\x11is_modifier_added\x18\x05 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerBuff_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SERVERBUFF']._serialized_start=21
-  _globals['_SERVERBUFF']._serialized_end=156
+  _globals['_SERVERBUFF']._serialized_end=166
 # @@protoc_insertion_point(module_scope)

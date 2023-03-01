@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42lossomChestCreateNotify.proto\"C\n\x18\x42lossomChestCreateNotify\x12\x14\n\x0c\x63ircleCampId\x18\t \x01(\r\x12\x11\n\trefreshId\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42lossomChestCreateNotify.proto\"F\n\x18\x42lossomChestCreateNotify\x12\x12\n\nrefresh_id\x18\x01 \x01(\r\x12\x16\n\x0e\x63ircle_camp_id\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlossomChestCreateNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BLOSSOMCHESTCREATENOTIFY']._serialized_start=34
-  _globals['_BLOSSOMCHESTCREATENOTIFY']._serialized_end=101
+  _globals['_BLOSSOMCHESTCREATENOTIFY']._serialized_end=104
 # @@protoc_insertion_point(module_scope)

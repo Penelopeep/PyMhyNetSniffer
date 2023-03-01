@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DungeonInterruptChallengeRsp.proto\"m\n\x1c\x44ungeonInterruptChallengeRsp\x12\x0f\n\x07groupId\x18\x07 \x01(\r\x12\x13\n\x0b\x63hallengeId\x18\n \x01(\r\x12\x16\n\x0e\x63hallengeIndex\x18\x03 \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DungeonInterruptChallengeRsp.proto\"p\n\x1c\x44ungeonInterruptChallengeRsp\x12\x10\n\x08group_id\x18\x06 \x01(\r\x12\x17\n\x0f\x63hallenge_index\x18\x07 \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonInterruptChallengeRs
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DUNGEONINTERRUPTCHALLENGERSP']._serialized_start=38
-  _globals['_DUNGEONINTERRUPTCHALLENGERSP']._serialized_end=147
+  _globals['_DUNGEONINTERRUPTCHALLENGERSP']._serialized_end=150
 # @@protoc_insertion_point(module_scope)

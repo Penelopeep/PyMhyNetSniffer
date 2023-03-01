@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18MusicGameSettleReq.proto\"\xcb\x03\n\x12MusicGameSettleReq\x12\x0f\n\x07ugcGuid\x18\x04 \x01(\x04\x12\x1c\n\x13Unk3300_HHBCEPNLCLL\x18\xda\x0c \x03(\r\x12\x13\n\x0bisSaveScore\x18\x0b \x01(\x08\x12\x14\n\x0cmusicBasicId\x18\x07 \x01(\r\x12\r\n\x05score\x18\x02 \x01(\r\x12\x1c\n\x13Unk3300_EBOJMGOCPLE\x18\xed\x03 \x01(\r\x12\x1b\n\x13Unk3300_MLLDAPCIDDO\x18\x05 \x03(\r\x12\x0e\n\x05speed\x18\xe4\x03 \x01(\x02\x12\r\n\x05\x63ombo\x18\x0f \x01(\r\x12\x1c\n\x13Unk3300_BHIGAMNDFML\x18\x8f\x04 \x01(\x08\x12\x10\n\x08maxCombo\x18\x0c \x01(\r\x12\x1c\n\x13Unk3300_IPODKENCAOK\x18\xfc\x01 \x01(\r\x12\x12\n\ncorrectHit\x18\r \x01(\r\x12\x1b\n\x13Unk3300_GJMIIDIOOMM\x18l \x01(\r\x12\x1b\n\x13Unk3300_MDHEJNFHBBI\x18\t \x01(\r\x12\x1c\n\x13Unk3300_DMLNKOLOAAH\x18\xf1\x03 \x01(\x08\x12\x1b\n\x13Unk3300_AHAGHAHGPLD\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_HEPJNCAOEMP\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18MusicGameSettleReq.proto\"\x83\x03\n\x12MusicGameSettleReq\x12\x13\n\x0b\x41PJPLBOJEGN\x18\x01 \x01(\r\x12\r\n\x05\x63ombo\x18\x0e \x01(\r\x12\x10\n\x08ugc_guid\x18\x06 \x01(\x04\x12\x14\n\x0bOJIACEJOFJF\x18\xa2\x0f \x01(\r\x12\x11\n\tmax_combo\x18\x0f \x01(\r\x12\x15\n\ris_save_score\x18\x03 \x01(\x08\x12\x14\n\x0b\x42\x46\x41IDHEKEOD\x18\xb5\x01 \x01(\r\x12\x14\n\x0b\x44GMDAOAENMJ\x18\xf6\x04 \x03(\r\x12\r\n\x05score\x18\x02 \x01(\r\x12\x14\n\x0bJIIDBCILMEP\x18\xab\r \x01(\x08\x12\x14\n\x0bJNBMKEFPJIC\x18\xbd\x08 \x01(\r\x12\x14\n\x0b\x41\x45\x43NMHLOMBH\x18\xfa\x04 \x01(\x08\x12\x0e\n\x05speed\x18\xd4\x08 \x01(\x02\x12\x13\n\x0bNNIJFEMDAIM\x18\r \x03(\r\x12\x13\n\x0bHPAMHHMILKM\x18\x08 \x01(\r\x12\x13\n\x0bNDOFNFADKJH\x18\n \x01(\r\x12\x13\n\x0b\x63orrect_hit\x18\x04 \x01(\r\x12\x16\n\x0emusic_basic_id\x18\x0c \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MusicGameSettleReq_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_MUSICGAMESETTLEREQ']._serialized_start=29
-  _globals['_MUSICGAMESETTLEREQ']._serialized_end=488
+  _globals['_MUSICGAMESETTLEREQ']._serialized_end=416
 # @@protoc_insertion_point(module_scope)

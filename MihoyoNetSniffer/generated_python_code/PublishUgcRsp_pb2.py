@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import UgcType_pb2 as UgcType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PublishUgcRsp.proto\x1a\rUgcType.proto\"L\n\rPublishUgcRsp\x12\x19\n\x07ugcType\x18\x08 \x01(\x0e\x32\x08.UgcType\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x0f\n\x07ugcGuid\x18\x04 \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PublishUgcRsp.proto\x1a\rUgcType.proto\"N\n\rPublishUgcRsp\x12\x10\n\x08ugc_guid\x18\x04 \x01(\x04\x12\x1a\n\x08ugc_type\x18\t \x01(\x0e\x32\x08.UgcType\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PublishUgcRsp_pb2', _global
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PUBLISHUGCRSP']._serialized_start=38
-  _globals['_PUBLISHUGCRSP']._serialized_end=114
+  _globals['_PUBLISHUGCRSP']._serialized_end=116
 # @@protoc_insertion_point(module_scope)

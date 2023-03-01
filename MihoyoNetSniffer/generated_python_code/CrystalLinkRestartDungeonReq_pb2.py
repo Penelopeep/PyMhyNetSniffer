@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"CrystalLinkRestartDungeonReq.proto\"\x1e\n\x1c\x43rystalLinkRestartDungeonReqB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"CrystalLinkRestartDungeonReq.proto\"\x1e\n\x1c\x43rystalLinkRestartDungeonReqB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CrystalLinkRestartDungeonRe
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CRYSTALLINKRESTARTDUNGEONREQ']._serialized_start=38
   _globals['_CRYSTALLINKRESTARTDUNGEONREQ']._serialized_end=68
 # @@protoc_insertion_point(module_scope)

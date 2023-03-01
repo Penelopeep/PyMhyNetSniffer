@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SignInInfo_pb2 as SignInInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13SignInInfoRsp.proto\x1a\x10SignInInfo.proto\"E\n\rSignInInfoRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12#\n\x0esignInInfoList\x18\x01 \x03(\x0b\x32\x0b.SignInInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13SignInInfoRsp.proto\x1a\x10SignInInfo.proto\"H\n\rSignInInfoRsp\x12&\n\x11sign_in_info_list\x18\n \x03(\x0b\x32\x0b.SignInInfo\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SignInInfoRsp_pb2', _global
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SIGNININFORSP']._serialized_start=41
-  _globals['_SIGNININFORSP']._serialized_end=110
+  _globals['_SIGNININFORSP']._serialized_end=113
 # @@protoc_insertion_point(module_scope)

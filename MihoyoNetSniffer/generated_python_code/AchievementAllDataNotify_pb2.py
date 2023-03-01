@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Achievement_pb2 as Achievement__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41\x63hievementAllDataNotify.proto\x1a\x11\x41\x63hievement.proto\"`\n\x18\x41\x63hievementAllDataNotify\x12\x1d\n\x15rewardTakenGoalIdList\x18\x08 \x03(\r\x12%\n\x0f\x61\x63hievementList\x18\x04 \x03(\x0b\x32\x0c.AchievementB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41\x63hievementAllDataNotify.proto\x1a\x11\x41\x63hievement.proto\"e\n\x18\x41\x63hievementAllDataNotify\x12&\n\x10\x61\x63hievement_list\x18\x0f \x03(\x0b\x32\x0c.Achievement\x12!\n\x19reward_taken_goal_id_list\x18\x04 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AchievementAllDataNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ACHIEVEMENTALLDATANOTIFY']._serialized_start=53
-  _globals['_ACHIEVEMENTALLDATANOTIFY']._serialized_end=149
+  _globals['_ACHIEVEMENTALLDATANOTIFY']._serialized_end=154
 # @@protoc_insertion_point(module_scope)

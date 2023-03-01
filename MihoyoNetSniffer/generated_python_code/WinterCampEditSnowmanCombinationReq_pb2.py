@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CustomGadgetTreeInfo_pb2 as CustomGadgetTreeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)WinterCampEditSnowmanCombinationReq.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"g\n#WinterCampEditSnowmanCombinationReq\x12\x10\n\x08\x65ntityId\x18\x02 \x01(\r\x12.\n\x0f\x63ombinationInfo\x18\x04 \x01(\x0b\x32\x15.CustomGadgetTreeInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)WinterCampEditSnowmanCombinationReq.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"i\n#WinterCampEditSnowmanCombinationReq\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12/\n\x10\x63ombination_info\x18\t \x01(\x0b\x32\x15.CustomGadgetTreeInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WinterCampEditSnowmanCombin
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_WINTERCAMPEDITSNOWMANCOMBINATIONREQ']._serialized_start=73
-  _globals['_WINTERCAMPEDITSNOWMANCOMBINATIONREQ']._serialized_end=176
+  _globals['_WINTERCAMPEDITSNOWMANCOMBINATIONREQ']._serialized_end=178
 # @@protoc_insertion_point(module_scope)

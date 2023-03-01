@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import GalleryStartSource_pb2 as GalleryStartSource__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%GalleryWillStartCountdownNotify.proto\x1a\x18GalleryStartSource.proto\"~\n\x1fGalleryWillStartCountdownNotify\x12\x11\n\tgalleryId\x18\x08 \x01(\r\x12\r\n\x05isEnd\x18\x01 \x01(\x08\x12(\n\x0bstartSource\x18\r \x01(\x0e\x32\x13.GalleryStartSource\x12\x0f\n\x07\x65ndTime\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%GalleryWillStartCountdownNotify.proto\x1a\x18GalleryStartSource.proto\"\x82\x01\n\x1fGalleryWillStartCountdownNotify\x12\x10\n\x08\x65nd_time\x18\x0b \x01(\r\x12\x0e\n\x06is_end\x18\x07 \x01(\x08\x12\x12\n\ngallery_id\x18\x01 \x01(\r\x12)\n\x0cstart_source\x18\n \x01(\x0e\x32\x13.GalleryStartSourceB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryWillStartCountdownNo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_GALLERYWILLSTARTCOUNTDOWNNOTIFY']._serialized_start=67
-  _globals['_GALLERYWILLSTARTCOUNTDOWNNOTIFY']._serialized_end=193
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GALLERYWILLSTARTCOUNTDOWNNOTIFY']._serialized_start=68
+  _globals['_GALLERYWILLSTARTCOUNTDOWNNOTIFY']._serialized_end=198
 # @@protoc_insertion_point(module_scope)

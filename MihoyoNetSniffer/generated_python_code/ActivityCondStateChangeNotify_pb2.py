@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Uint32Pair_pb2 as Uint32Pair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#ActivityCondStateChangeNotify.proto\x1a\x10Uint32Pair.proto\"\xcc\x01\n\x1d\x41\x63tivityCondStateChangeNotify\x12\x16\n\x0e\x65xpireCondList\x18\x02 \x03(\r\x12\x1b\n\x13\x61\x63tivatedSaleIdList\x18\x01 \x03(\r\x12\x12\n\nscheduleId\x18\x0f \x01(\r\x12\x12\n\nactivityId\x18\x03 \x01(\r\x12\x38\n#disableTransferPointInteractionList\x18\x08 \x03(\x0b\x32\x0b.Uint32Pair\x12\x14\n\x0cmeetCondList\x18\r \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#ActivityCondStateChangeNotify.proto\x1a\x10Uint32Pair.proto\"\xd1\x01\n\x1d\x41\x63tivityCondStateChangeNotify\x12\x13\n\x0b\x61\x63tivity_id\x18\n \x01(\r\x12<\n\'disable_transfer_point_interaction_list\x18\x07 \x03(\x0b\x32\x0b.Uint32Pair\x12\x13\n\x0bPAGIONJOCJN\x18\r \x03(\r\x12\x1e\n\x16\x61\x63tivated_sale_id_list\x18\x06 \x03(\r\x12\x13\n\x0bLGCJBENHFOB\x18\t \x03(\r\x12\x13\n\x0bschedule_id\x18\x0c \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityCondStateChangeNoti
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ACTIVITYCONDSTATECHANGENOTIFY']._serialized_start=58
-  _globals['_ACTIVITYCONDSTATECHANGENOTIFY']._serialized_end=262
+  _globals['_ACTIVITYCONDSTATECHANGENOTIFY']._serialized_end=267
 # @@protoc_insertion_point(module_scope)

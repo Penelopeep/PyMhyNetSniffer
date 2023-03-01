@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGCGOperationOnStageSelect.proto\"L\n\x19GCGOperationOnStageSelect\x12\x1c\n\x14\x63ost_dice_index_list\x18\n \x03(\r\x12\x11\n\tcard_guid\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGCGOperationOnStageSelect.proto\"L\n\x19GCGOperationOnStageSelect\x12\x11\n\tcard_guid\x18\r \x01(\r\x12\x1c\n\x14\x63ost_dice_index_list\x18\x0b \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationOnStageSelect_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationOnStageSelect_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGOPERATIONONSTAGESELECT._serialized_start=35
-  _GCGOPERATIONONSTAGESELECT._serialized_end=111
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGOPERATIONONSTAGESELECT']._serialized_start=35
+  _globals['_GCGOPERATIONONSTAGESELECT']._serialized_end=111
 # @@protoc_insertion_point(module_scope)

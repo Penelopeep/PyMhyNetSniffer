@@ -14,17 +14,19 @@ _sym_db = _symbol_database.Default()
 import SalesmanStatusType_pb2 as SalesmanStatusType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SalesmanActivityDetailInfo.proto\x1a\x18SalesmanStatusType.proto\"\xab\x03\n\x1aSalesmanActivityDetailInfo\x12#\n\x06status\x18\x05 \x01(\x0e\x32\x13.SalesmanStatusType\x12T\n\x16selected_reward_id_map\x18\x0c \x03(\x0b\x32\x34.SalesmanActivityDetailInfo.SelectedRewardIdMapEntry\x12\x1b\n\x13Unk3300_DIJFOCBGIAM\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_DJFCEFKGKPI\x18\x02 \x01(\x08\x12\x11\n\tday_index\x18\t \x01(\r\x12\x1b\n\x13Unk3300_LPABHMOPFCE\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_KNJCBGFKLFD\x18\n \x01(\r\x12\x1b\n\x13Unk3300_FOFFAEEBBNP\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_JNALBACFNFN\x18\x0e \x01(\x08\x12\x15\n\rday_reward_id\x18\x0b \x01(\r\x1a:\n\x18SelectedRewardIdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SalesmanActivityDetailInfo.proto\x1a\x18SalesmanStatusType.proto\"\xfb\x02\n\x1aSalesmanActivityDetailInfo\x12\x15\n\rday_reward_id\x18\x04 \x01(\r\x12\x13\n\x0b\x41\x41JPJDCHEMM\x18\x02 \x01(\r\x12#\n\x06status\x18\t \x01(\x0e\x32\x13.SalesmanStatusType\x12\x11\n\tday_index\x18\x05 \x01(\r\x12\x13\n\x0b\x45\x45GDAGGILEP\x18\x01 \x01(\r\x12\x13\n\x0bPHHBLKPLJCE\x18\x07 \x01(\x08\x12\x13\n\x0b\x45JIPGFIDOKK\x18\x03 \x01(\x08\x12\x13\n\x0b\x43NHCACHFFPM\x18\x0f \x01(\r\x12\x13\n\x0bOEANKGFDJPB\x18\x08 \x01(\r\x12T\n\x16selected_reward_id_map\x18\x0b \x03(\x0b\x32\x34.SalesmanActivityDetailInfo.SelectedRewardIdMapEntry\x1a:\n\x18SelectedRewardIdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalesmanActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalesmanActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._options = None
   _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._serialized_options = b'8\001'
-  _SALESMANACTIVITYDETAILINFO._serialized_start=63
-  _SALESMANACTIVITYDETAILINFO._serialized_end=490
-  _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._serialized_start=432
-  _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._serialized_end=490
+  _globals['_SALESMANACTIVITYDETAILINFO']._serialized_start=63
+  _globals['_SALESMANACTIVITYDETAILINFO']._serialized_end=442
+  _globals['_SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY']._serialized_start=384
+  _globals['_SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY']._serialized_end=442
 # @@protoc_insertion_point(module_scope)

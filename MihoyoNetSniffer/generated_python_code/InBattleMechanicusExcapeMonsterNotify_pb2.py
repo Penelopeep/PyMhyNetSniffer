@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+InBattleMechanicusExcapeMonsterNotify.proto\"5\n%InBattleMechanicusExcapeMonsterNotify\x12\x0c\n\x04\x63oin\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+InBattleMechanicusExcapeMonsterNotify.proto\"D\n%InBattleMechanicusExcapeMonsterNotify\x12\x1b\n\x13\x65xcaped_monster_num\x18\x07 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusExcapeMon
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_INBATTLEMECHANICUSEXCAPEMONSTERNOTIFY']._serialized_start=47
-  _globals['_INBATTLEMECHANICUSEXCAPEMONSTERNOTIFY']._serialized_end=100
+  _globals['_INBATTLEMECHANICUSEXCAPEMONSTERNOTIFY']._serialized_end=115
 # @@protoc_insertion_point(module_scope)

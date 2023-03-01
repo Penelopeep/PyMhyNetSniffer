@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import WeeklyBossResinDiscountInfo_pb2 as WeeklyBossResinDiscountInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x42ossChestInfo.proto\x1a!WeeklyBossResinDiscountInfo.proto\"\xf7\x01\n\rBossChestInfo\x12\x17\n\x0fmonsterConfigId\x18\x01 \x01(\r\x12\r\n\x05resin\x18\x02 \x01(\r\x12\x15\n\rremainUidList\x18\x03 \x03(\r\x12\x16\n\x0equalifyUidList\x18\x04 \x03(\r\x12:\n\x0euidDiscountMap\x18\x05 \x03(\x0b\x32\".BossChestInfo.UidDiscountMapEntry\x1aS\n\x13UidDiscountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12+\n\x05value\x18\x02 \x01(\x0b\x32\x1c.WeeklyBossResinDiscountInfo:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x42ossChestInfo.proto\x1a!WeeklyBossResinDiscountInfo.proto\"\xff\x01\n\rBossChestInfo\x12\x19\n\x11monster_config_id\x18\x01 \x01(\r\x12\r\n\x05resin\x18\x02 \x01(\r\x12\x17\n\x0fremain_uid_list\x18\x03 \x03(\r\x12\x18\n\x10qualify_uid_list\x18\x04 \x03(\r\x12<\n\x10uid_discount_map\x18\x05 \x03(\x0b\x32\".BossChestInfo.UidDiscountMapEntry\x1aS\n\x13UidDiscountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12+\n\x05value\x18\x02 \x01(\x0b\x32\x1c.WeeklyBossResinDiscountInfo:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,11 +22,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BossChestInfo_pb2', _global
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _BOSSCHESTINFO_UIDDISCOUNTMAPENTRY._options = None
   _BOSSCHESTINFO_UIDDISCOUNTMAPENTRY._serialized_options = b'8\001'
   _globals['_BOSSCHESTINFO']._serialized_start=59
-  _globals['_BOSSCHESTINFO']._serialized_end=306
-  _globals['_BOSSCHESTINFO_UIDDISCOUNTMAPENTRY']._serialized_start=223
-  _globals['_BOSSCHESTINFO_UIDDISCOUNTMAPENTRY']._serialized_end=306
+  _globals['_BOSSCHESTINFO']._serialized_end=314
+  _globals['_BOSSCHESTINFO_UIDDISCOUNTMAPENTRY']._serialized_start=231
+  _globals['_BOSSCHESTINFO_UIDDISCOUNTMAPENTRY']._serialized_end=314
 # @@protoc_insertion_point(module_scope)

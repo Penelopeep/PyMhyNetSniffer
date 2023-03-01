@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGCard_pb2 as GCGCard__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GCGMsgCardUpdate.proto\x1a\rGCGCard.proto\"*\n\x10GCGMsgCardUpdate\x12\x16\n\x04\x63\x61rd\x18\x0e \x01(\x0b\x32\x08.GCGCardb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GCGMsgCardUpdate.proto\x1a\rGCGCard.proto\"*\n\x10GCGMsgCardUpdate\x12\x16\n\x04\x63\x61rd\x18\x0f \x01(\x0b\x32\x08.GCGCardB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgCardUpdate_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgCardUpdate_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGCARDUPDATE._serialized_start=41
-  _GCGMSGCARDUPDATE._serialized_end=83
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGMSGCARDUPDATE']._serialized_start=41
+  _globals['_GCGMSGCARDUPDATE']._serialized_end=83
 # @@protoc_insertion_point(module_scope)

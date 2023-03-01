@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GachaStageData.proto\"\x9f\x01\n\x0eGachaStageData\x12\x37\n\x0ctargetNumMap\x18\x0b \x03(\x0b\x32!.GachaStageData.TargetNumMapEntry\x12\x0f\n\x07stageId\x18\x0f \x01(\r\x12\x0e\n\x06isOpen\x18\x04 \x01(\x08\x1a\x33\n\x11TargetNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GachaStageData.proto\"\xa3\x01\n\x0eGachaStageData\x12\x0f\n\x07is_open\x18\x04 \x01(\x08\x12\x39\n\x0etarget_num_map\x18\n \x03(\x0b\x32!.GachaStageData.TargetNumMapEntry\x12\x10\n\x08stage_id\x18\x01 \x01(\r\x1a\x33\n\x11TargetNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,11 +21,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaStageData_pb2', _globa
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _GACHASTAGEDATA_TARGETNUMMAPENTRY._options = None
   _GACHASTAGEDATA_TARGETNUMMAPENTRY._serialized_options = b'8\001'
   _globals['_GACHASTAGEDATA']._serialized_start=25
-  _globals['_GACHASTAGEDATA']._serialized_end=184
-  _globals['_GACHASTAGEDATA_TARGETNUMMAPENTRY']._serialized_start=133
-  _globals['_GACHASTAGEDATA_TARGETNUMMAPENTRY']._serialized_end=184
+  _globals['_GACHASTAGEDATA']._serialized_end=188
+  _globals['_GACHASTAGEDATA_TARGETNUMMAPENTRY']._serialized_start=137
+  _globals['_GACHASTAGEDATA_TARGETNUMMAPENTRY']._serialized_end=188
 # @@protoc_insertion_point(module_scope)

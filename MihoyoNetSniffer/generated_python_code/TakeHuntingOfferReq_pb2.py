@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HuntingPair_pb2 as HuntingPair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19TakeHuntingOfferReq.proto\x1a\x11HuntingPair.proto\"H\n\x13TakeHuntingOfferReq\x12!\n\x0bhuntingPair\x18\x01 \x01(\x0b\x32\x0c.HuntingPair\x12\x0e\n\x06\x63ityId\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19TakeHuntingOfferReq.proto\x1a\x11HuntingPair.proto\"J\n\x13TakeHuntingOfferReq\x12\x0f\n\x07\x63ity_id\x18\x07 \x01(\r\x12\"\n\x0chunting_pair\x18\x04 \x01(\x0b\x32\x0c.HuntingPairB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeHuntingOfferReq_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TAKEHUNTINGOFFERREQ']._serialized_start=48
-  _globals['_TAKEHUNTINGOFFERREQ']._serialized_end=120
+  _globals['_TAKEHUNTINGOFFERREQ']._serialized_end=122
 # @@protoc_insertion_point(module_scope)

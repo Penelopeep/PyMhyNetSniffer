@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerApplyEnterMpNotify.proto\x1a\x16OnlinePlayerInfo.proto\"n\n\x18PlayerApplyEnterMpNotify\x12\x16\n\x0esrcThreadIndex\x18\x0e \x01(\r\x12(\n\rsrcPlayerInfo\x18\x0b \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x10\n\x08srcAppId\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerApplyEnterMpNotify.proto\x1a\x16OnlinePlayerInfo.proto\"t\n\x18PlayerApplyEnterMpNotify\x12*\n\x0fsrc_player_info\x18\x05 \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x18\n\x10src_thread_index\x18\x07 \x01(\r\x12\x12\n\nsrc_app_id\x18\x08 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerApplyEnterMpNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLAYERAPPLYENTERMPNOTIFY']._serialized_start=58
-  _globals['_PLAYERAPPLYENTERMPNOTIFY']._serialized_end=168
+  _globals['_PLAYERAPPLYENTERMPNOTIFY']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

@@ -11,13 +11,13 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ShopMcoinProduct_pb2 as ShopMcoinProduct__pb2
-import ShopCardProduct_pb2 as ShopCardProduct__pb2
+import FIMJMLPLPAC_pb2 as FIMJMLPLPAC__pb2
+import FINEJDCEECI_pb2 as FINEJDCEECI__pb2
+import LIJKGGFCHOB_pb2 as LIJKGGFCHOB__pb2
 import PlayProduct_pb2 as PlayProduct__pb2
-import ShopConcertProduct_pb2 as ShopConcertProduct__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11RechargeReq.proto\x1a\x16ShopMcoinProduct.proto\x1a\x15ShopCardProduct.proto\x1a\x11PlayProduct.proto\x1a\x18ShopConcertProduct.proto\"\xad\x01\n\x0bRechargeReq\x12\'\n\x0cmcoinProduct\x18\x0b \x01(\x0b\x32\x11.ShopMcoinProduct\x12%\n\x0b\x63\x61rdProduct\x18\x05 \x01(\x0b\x32\x10.ShopCardProduct\x12!\n\x0bplayProduct\x18\x06 \x01(\x0b\x32\x0c.PlayProduct\x12+\n\x0e\x63oncertProduct\x18\x03 \x01(\x0b\x32\x13.ShopConcertProductB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11RechargeReq.proto\x1a\x11\x46IMJMLPLPAC.proto\x1a\x11\x46INEJDCEECI.proto\x1a\x11LIJKGGFCHOB.proto\x1a\x11PlayProduct.proto\"\x9a\x01\n\x0bRechargeReq\x12!\n\x0b\x43JGLNOGNEJM\x18\x05 \x01(\x0b\x32\x0c.FINEJDCEECI\x12\"\n\x0cplay_product\x18\n \x01(\x0b\x32\x0c.PlayProduct\x12!\n\x0b\x44\x45JCOPDFAJK\x18\x0e \x01(\x0b\x32\x0c.LIJKGGFCHOB\x12!\n\x0b\x43\x45\x41NLHMPPAB\x18\x06 \x01(\x0b\x32\x0c.FIMJMLPLPACB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -25,7 +25,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RechargeReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_RECHARGEREQ']._serialized_start=114
-  _globals['_RECHARGEREQ']._serialized_end=287
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_RECHARGEREQ']._serialized_start=98
+  _globals['_RECHARGEREQ']._serialized_end=252
 # @@protoc_insertion_point(module_scope)

@@ -15,7 +15,7 @@ import EvtSetAttackTargetInfo_pb2 as EvtSetAttackTargetInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtSetAttackTargetNotify.proto\x1a\x1c\x45vtSetAttackTargetInfo.proto\x1a\x11\x46orwardType.proto\"v\n\x18\x45vtSetAttackTargetNotify\x12\x37\n\x16\x65vtSetAttackTargetInfo\x18\x01 \x01(\x0b\x32\x17.EvtSetAttackTargetInfo\x12!\n\x0b\x66orwardType\x18\x0f \x01(\x0e\x32\x0c.ForwardTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtSetAttackTargetNotify.proto\x1a\x1c\x45vtSetAttackTargetInfo.proto\x1a\x11\x46orwardType.proto\"{\n\x18\x45vtSetAttackTargetNotify\x12;\n\x1a\x65vt_set_attack_target_info\x18\x05 \x01(\x0b\x32\x17.EvtSetAttackTargetInfo\x12\"\n\x0c\x66orward_type\x18\x01 \x01(\x0e\x32\x0c.ForwardTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtSetAttackTargetNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_EVTSETATTACKTARGETNOTIFY']._serialized_start=83
-  _globals['_EVTSETATTACKTARGETNOTIFY']._serialized_end=201
+  _globals['_EVTSETATTACKTARGETNOTIFY']._serialized_end=206
 # @@protoc_insertion_point(module_scope)

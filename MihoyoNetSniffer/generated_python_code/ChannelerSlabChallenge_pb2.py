@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChannelerSlabCamp_pb2 as ChannelerSlabCamp__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43hannelerSlabChallenge.proto\x1a\x17\x43hannelerSlabCamp.proto\"W\n\x16\x43hannelerSlabChallenge\x12$\n\x08\x63\x61mpList\x18\x0f \x03(\x0b\x32\x12.ChannelerSlabCamp\x12\x17\n\x0f\x61\x63tiveCampIndex\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43hannelerSlabChallenge.proto\x1a\x17\x43hannelerSlabCamp.proto\"Z\n\x16\x43hannelerSlabChallenge\x12%\n\tcamp_list\x18\x08 \x03(\x0b\x32\x12.ChannelerSlabCamp\x12\x19\n\x11\x61\x63tive_camp_index\x18\x01 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabChallenge_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CHANNELERSLABCHALLENGE']._serialized_start=57
-  _globals['_CHANNELERSLABCHALLENGE']._serialized_end=144
+  _globals['_CHANNELERSLABCHALLENGE']._serialized_end=147
 # @@protoc_insertion_point(module_scope)

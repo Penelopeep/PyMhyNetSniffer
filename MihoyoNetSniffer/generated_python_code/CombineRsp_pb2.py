@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43ombineRsp.proto\x1a\x0fItemParam.proto\"\x9a\x02\n\nCombineRsp\x12\x14\n\x0c\x63ombineCount\x18\n \x01(\r\x12\"\n\x0eresultItemList\x18\r \x03(\x0b\x32\n.ItemParam\x12\x12\n\navatarGuid\x18\x07 \x01(\x04\x12&\n\x12totalExtraItemList\x18\x01 \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\'\n\x13totalRandomItemList\x18\x03 \x03(\x0b\x32\n.ItemParam\x12\x11\n\tcombineId\x18\x05 \x01(\r\x12 \n\x0c\x63ostItemList\x18\x02 \x03(\x0b\x32\n.ItemParam\x12\'\n\x13totalReturnItemList\x18\x04 \x03(\x0b\x32\n.ItemParamB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43ombineRsp.proto\x1a\x0fItemParam.proto\"\x85\x02\n\nCombineRsp\x12\x1f\n\x0bNOBMIMNDGLA\x18\t \x03(\x0b\x32\n.ItemParam\x12\x1f\n\x0b\x41KCCLGFBJMD\x18\r \x03(\x0b\x32\n.ItemParam\x12\x13\n\x0b\x61vatar_guid\x18\n \x01(\x04\x12\x1f\n\x0bLOCKHJBEGDL\x18\x06 \x03(\x0b\x32\n.ItemParam\x12\x1f\n\x0bINKENHANDMB\x18\x0e \x03(\x0b\x32\n.ItemParam\x12\"\n\x0e\x63ost_item_list\x18\x05 \x03(\x0b\x32\n.ItemParam\x12\x15\n\rcombine_count\x18\x01 \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x12\n\ncombine_id\x18\x02 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CombineRsp_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_COMBINERSP']._serialized_start=38
-  _globals['_COMBINERSP']._serialized_end=320
+  _globals['_COMBINERSP']._serialized_end=299
 # @@protoc_insertion_point(module_scope)

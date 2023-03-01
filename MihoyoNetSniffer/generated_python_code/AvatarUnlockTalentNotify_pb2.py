@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41vatarUnlockTalentNotify.proto\"h\n\x18\x41vatarUnlockTalentNotify\x12\x12\n\navatarGuid\x18\x0c \x01(\x04\x12\x10\n\x08talentId\x18\n \x01(\r\x12\x14\n\x0cskillDepotId\x18\x0f \x01(\r\x12\x10\n\x08\x65ntityId\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41vatarUnlockTalentNotify.proto\"m\n\x18\x41vatarUnlockTalentNotify\x12\x16\n\x0eskill_depot_id\x18\t \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\x06 \x01(\x04\x12\x11\n\ttalent_id\x18\x04 \x01(\r\x12\x11\n\tentity_id\x18\x0c \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarUnlockTalentNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_AVATARUNLOCKTALENTNOTIFY']._serialized_start=34
-  _globals['_AVATARUNLOCKTALENTNOTIFY']._serialized_end=138
+  _globals['_AVATARUNLOCKTALENTNOTIFY']._serialized_end=143
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SealBattleType.proto*x\n\x0eSealBattleType\x12\x1f\n\x1bSEAL_BATTLE_TYPE_KEEP_ALIVE\x10\x00\x12!\n\x1dSEAL_BATTLE_TYPE_KILL_MONSTER\x10\x01\x12\"\n\x1eSEAL_BATTLE_TYPE_ENERGY_CHARGE\x10\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SealBattleType.proto*i\n\x0eSealBattleType\x12\x1a\n\x16SEAL_BATTLE_KEEP_ALIVE\x10\x00\x12\x1c\n\x18SEAL_BATTLE_KILL_MONSTER\x10\x01\x12\x1d\n\x19SEAL_BATTLE_ENERGY_CHARGE\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SealBattleType_pb2', _globa
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SEALBATTLETYPE']._serialized_start=24
-  _globals['_SEALBATTLETYPE']._serialized_end=144
+  _globals['_SEALBATTLETYPE']._serialized_end=129
 # @@protoc_insertion_point(module_scope)

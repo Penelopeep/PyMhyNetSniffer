@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x46urnitureMakeMakeInfo.proto\"A\n\x15\x46urnitureMakeMakeInfo\x12\x14\n\x0c\x66urniture_id\x18\r \x01(\r\x12\x12\n\nmake_count\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x46urnitureMakeMakeInfo.proto\"A\n\x15\x46urnitureMakeMakeInfo\x12\x12\n\nmake_count\x18\x05 \x01(\r\x12\x14\n\x0c\x66urniture_id\x18\x06 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeMakeInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeMakeInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FURNITUREMAKEMAKEINFO._serialized_start=31
-  _FURNITUREMAKEMAKEINFO._serialized_end=96
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_FURNITUREMAKEMAKEINFO']._serialized_start=31
+  _globals['_FURNITUREMAKEMAKEINFO']._serialized_end=96
 # @@protoc_insertion_point(module_scope)

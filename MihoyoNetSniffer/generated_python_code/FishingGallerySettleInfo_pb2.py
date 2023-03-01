@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import FishingScore_pb2 as FishingScore__pb2
-import FishInfo_pb2 as FishInfo__pb2
+import GMIFBLJMMNA_pb2 as GMIFBLJMMNA__pb2
+import PDKLFCHIAMH_pb2 as PDKLFCHIAMH__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46ishingGallerySettleInfo.proto\x1a\x12\x46ishingScore.proto\x1a\x0e\x46ishInfo.proto\"\xb7\x01\n\x18\x46ishingGallerySettleInfo\x12\'\n\x10\x66ishingScoreList\x18\x04 \x03(\x0b\x32\r.FishingScore\x12\x37\n\x07\x66ishMap\x18\t \x03(\x0b\x32&.FishingGallerySettleInfo.FishMapEntry\x1a\x39\n\x0c\x46ishMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x18\n\x05value\x18\x02 \x01(\x0b\x32\t.FishInfo:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46ishingGallerySettleInfo.proto\x1a\x11GMIFBLJMMNA.proto\x1a\x11PDKLFCHIAMH.proto\"\xc0\x01\n\x18\x46ishingGallerySettleInfo\x12!\n\x0b\x45KEAHMCHEOH\x18\x05 \x03(\x0b\x32\x0c.GMIFBLJMMNA\x12?\n\x0bHIPPDLHJGGN\x18\x06 \x03(\x0b\x32*.FishingGallerySettleInfo.HIPPDLHJGGNEntry\x1a@\n\x10HIPPDLHJGGNEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1b\n\x05value\x18\x02 \x01(\x0b\x32\x0c.PDKLFCHIAMH:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,11 +23,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishingGallerySettleInfo_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _FISHINGGALLERYSETTLEINFO_FISHMAPENTRY._options = None
-  _FISHINGGALLERYSETTLEINFO_FISHMAPENTRY._serialized_options = b'8\001'
-  _globals['_FISHINGGALLERYSETTLEINFO']._serialized_start=71
-  _globals['_FISHINGGALLERYSETTLEINFO']._serialized_end=254
-  _globals['_FISHINGGALLERYSETTLEINFO_FISHMAPENTRY']._serialized_start=197
-  _globals['_FISHINGGALLERYSETTLEINFO_FISHMAPENTRY']._serialized_end=254
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _FISHINGGALLERYSETTLEINFO_HIPPDLHJGGNENTRY._options = None
+  _FISHINGGALLERYSETTLEINFO_HIPPDLHJGGNENTRY._serialized_options = b'8\001'
+  _globals['_FISHINGGALLERYSETTLEINFO']._serialized_start=73
+  _globals['_FISHINGGALLERYSETTLEINFO']._serialized_end=265
+  _globals['_FISHINGGALLERYSETTLEINFO_HIPPDLHJGGNENTRY']._serialized_start=201
+  _globals['_FISHINGGALLERYSETTLEINFO_HIPPDLHJGGNENTRY']._serialized_end=265
 # @@protoc_insertion_point(module_scope)

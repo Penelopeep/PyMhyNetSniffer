@@ -11,12 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import WeeklyBossResinDiscountInfo_pb2 as WeeklyBossResinDiscountInfo__pb2
-import LockState_pb2 as LockState__pb2
 import Vector_pb2 as Vector__pb2
+import WeeklyBossResinDiscountInfo_pb2 as WeeklyBossResinDiscountInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aInvestigationMonster.proto\x1a!WeeklyBossResinDiscountInfo.proto\x1a\x0fLockState.proto\x1a\x0cVector.proto\"\xa8\x03\n\x14InvestigationMonster\x12\x17\n\x0fnextRefreshTime\x18\x01 \x01(\r\x12\x14\n\x0c\x62ossChestNum\x18\n \x01(\r\x12\x41\n\x1bweeklyBossResinDiscountInfo\x18\x08 \x01(\x0b\x32\x1c.WeeklyBossResinDiscountInfo\x12\x1d\n\tlockState\x18\x02 \x01(\x0e\x32\n.LockState\x12\x17\n\x0frefreshInterval\x18\x06 \x01(\r\x12\x0f\n\x07groupId\x18P \x01(\r\x12\x0f\n\x07sceneId\x18\r \x01(\r\x12\x0e\n\x06\x63ityId\x18\x07 \x01(\r\x12\x17\n\x0fmaxBossChestNum\x18\x0b \x01(\r\x12\x14\n\x03pos\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x14\n\x0cisAreaLocked\x18\x05 \x01(\x08\x12\r\n\x05level\x18\x03 \x01(\r\x12\n\n\x02id\x18\x0f \x01(\r\x12\x12\n\tmonsterId\x18\xd5\x0b \x01(\r\x12 \n\x18nextBossChestRefreshTime\x18\x0c \x01(\r\x12\r\n\x05resin\x18\t \x01(\r\x12\x0f\n\x07isAlive\x18\x0e \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aInvestigationMonster.proto\x1a\x0cVector.proto\x1a!WeeklyBossResinDiscountInfo.proto\"\xe2\x03\n\x14InvestigationMonster\x12\x13\n\x0bHFEFHDCOMLB\x18\r \x01(\r\x12\x13\n\x0bMFGIMDGKDHH\x18\x0e \x01(\x08\x12\x13\n\x0bNKADJMFOMGB\x18\x03 \x01(\r\x12\x13\n\x0b\x41\x42\x43\x45NJAFGOF\x18\x0b \x01(\x08\x12\x45\n\x1fweekly_boss_resin_discount_info\x18\t \x01(\x0b\x32\x1c.WeeklyBossResinDiscountInfo\x12\x19\n\x11next_refresh_time\x18\x08 \x01(\r\x12\x11\n\x08group_id\x18\xb6\t \x01(\r\x12\n\n\x02id\x18\x06 \x01(\r\x12\x10\n\x08scene_id\x18\x07 \x01(\r\x12\r\n\x05level\x18\x05 \x01(\r\x12\x33\n\nlock_state\x18\n \x01(\x0e\x32\x1f.InvestigationMonster.LockState\x12\x13\n\x0bJPBJFFCFINC\x18\x04 \x01(\r\x12\r\n\x05resin\x18\x0f \x01(\r\x12\x13\n\nmonster_id\x18\xb4\x02 \x01(\r\x12\x13\n\x0bHDIBPIICNBB\x18\x01 \x01(\r\x12\x0f\n\x07\x63ity_id\x18\x02 \x01(\r\x12\x14\n\x03pos\x18\x0c \x01(\x0b\x32\x07.Vector\"*\n\tLockState\x12\r\n\tLOCK_NONE\x10\x00\x12\x0e\n\nLOCK_QUEST\x10\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +23,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InvestigationMonster_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_INVESTIGATIONMONSTER']._serialized_start=97
-  _globals['_INVESTIGATIONMONSTER']._serialized_end=521
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_INVESTIGATIONMONSTER']._serialized_start=80
+  _globals['_INVESTIGATIONMONSTER']._serialized_end=562
+  _globals['_INVESTIGATIONMONSTER_LOCKSTATE']._serialized_start=520
+  _globals['_INVESTIGATIONMONSTER_LOCKSTATE']._serialized_end=562
 # @@protoc_insertion_point(module_scope)

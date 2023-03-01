@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import FungusTrainingPoolPreviewDetail_pb2 as FungusTrainingPoolPreviewDetail__pb2
-import FungusFighterMonsterDetail_pb2 as FungusFighterMonsterDetail__pb2
+import BHKGAINOAON_pb2 as BHKGAINOAON__pb2
+import OLAHPIKKKOM_pb2 as OLAHPIKKKOM__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"FungusTrainingProgressDetail.proto\x1a%FungusTrainingPoolPreviewDetail.proto\x1a FungusFighterMonsterDetail.proto\"\x8e\x02\n\x1c\x46ungusTrainingProgressDetail\x12\x1b\n\x13Unk3300_EEOIMDJOHCM\x18\x0f \x03(\r\x12\x10\n\x08\x63urRound\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_NLHEFGBEOAC\x18\x08 \x03(\r\x12@\n\x16monsterPoolPreviewList\x18\t \x03(\x0b\x32 .FungusTrainingPoolPreviewDetail\x12\x15\n\rtotalUsedTime\x18\x04 \x01(\r\x12\x36\n\x11monsterDetailList\x18\x02 \x03(\x0b\x32\x1b.FungusFighterMonsterDetail\x12\x11\n\tdungeonId\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"FungusTrainingProgressDetail.proto\x1a\x11\x42HKGAINOAON.proto\x1a\x11OLAHPIKKKOM.proto\"\xce\x01\n\x1c\x46ungusTrainingProgressDetail\x12\x13\n\x0bOHPPOCHJMHE\x18\x0f \x03(\r\x12\x11\n\tcur_round\x18\x05 \x01(\r\x12\x12\n\ndungeon_id\x18\x0b \x01(\r\x12\x17\n\x0ftotal_used_time\x18\n \x01(\r\x12\x13\n\x0bJACIJBCLOMD\x18\x06 \x03(\r\x12!\n\x0bOKIHACBIMGP\x18\x0c \x03(\x0b\x32\x0c.OLAHPIKKKOM\x12!\n\x0bPPJNMMHPAKP\x18\x0e \x03(\x0b\x32\x0c.BHKGAINOAONB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusTrainingProgressDetai
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_FUNGUSTRAININGPROGRESSDETAIL']._serialized_start=112
-  _globals['_FUNGUSTRAININGPROGRESSDETAIL']._serialized_end=382
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_FUNGUSTRAININGPROGRESSDETAIL']._serialized_start=77
+  _globals['_FUNGUSTRAININGPROGRESSDETAIL']._serialized_end=283
 # @@protoc_insertion_point(module_scope)

@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import WaterInfo_pb2 as WaterInfo__pb2
-import GrassInfo_pb2 as GrassInfo__pb2
-import BoxInfo_pb2 as BoxInfo__pb2
+import MassiveBoxInfo_pb2 as MassiveBoxInfo__pb2
+import MassiveGrassInfo_pb2 as MassiveGrassInfo__pb2
+import MassiveWaterInfo_pb2 as MassiveWaterInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19ServerMassiveEntity.proto\x1a\x0fWaterInfo.proto\x1a\x0fGrassInfo.proto\x1a\rBoxInfo.proto\"\xe7\x01\n\x13ServerMassiveEntity\x12\x12\n\nentityType\x18\x01 \x01(\r\x12\x10\n\x08\x63onfigId\x18\x02 \x01(\r\x12\x11\n\truntimeId\x18\x03 \x01(\r\x12\x17\n\x0f\x61uthorityPeerId\x18\x04 \x01(\r\x12\r\n\x05objId\x18\x05 \x01(\x03\x12 \n\nwater_info\x18\x06 \x01(\x0b\x32\n.WaterInfoH\x00\x12 \n\ngrass_info\x18\x07 \x01(\x0b\x32\n.GrassInfoH\x00\x12\x1c\n\x08\x62ox_info\x18\x08 \x01(\x0b\x32\x08.BoxInfoH\x00\x42\r\n\x0b\x65ntity_infoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19ServerMassiveEntity.proto\x1a\x14MassiveBoxInfo.proto\x1a\x16MassiveGrassInfo.proto\x1a\x16MassiveWaterInfo.proto\"\x82\x02\n\x13ServerMassiveEntity\x12\x13\n\x0b\x65ntity_type\x18\x01 \x01(\r\x12\x11\n\tconfig_id\x18\x02 \x01(\r\x12\x12\n\nruntime_id\x18\x03 \x01(\r\x12\x19\n\x11\x61uthority_peer_id\x18\x04 \x01(\r\x12\x0e\n\x06obj_id\x18\x05 \x01(\x03\x12\'\n\nwater_info\x18\x06 \x01(\x0b\x32\x11.MassiveWaterInfoH\x00\x12\'\n\ngrass_info\x18\x07 \x01(\x0b\x32\x11.MassiveGrassInfoH\x00\x12#\n\x08\x62ox_info\x18\x08 \x01(\x0b\x32\x0f.MassiveBoxInfoH\x00\x42\r\n\x0b\x65ntity_infoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerMassiveEntity_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_SERVERMASSIVEENTITY']._serialized_start=79
-  _globals['_SERVERMASSIVEENTITY']._serialized_end=310
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SERVERMASSIVEENTITY']._serialized_start=100
+  _globals['_SERVERMASSIVEENTITY']._serialized_end=358
 # @@protoc_insertion_point(module_scope)

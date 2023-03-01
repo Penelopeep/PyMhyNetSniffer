@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGTCTavernChallengeData_pb2 as GCGTCTavernChallengeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGGrowthLevelNotify.proto\x1a\x1eGCGTCTavernChallengeData.proto\"F\n\x14GCGGrowthLevelNotify\x12.\n\x0b\x65\x65kdbogblnc\x18\x05 \x03(\x0b\x32\x19.GCGTCTavernChallengeDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGGrowthLevelNotify.proto\"2\n\x14GCGGrowthLevelNotify\x12\r\n\x05level\x18\n \x01(\r\x12\x0b\n\x03\x65xp\x18\x07 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGGrowthLevelNotify_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_GCGGROWTHLEVELNOTIFY']._serialized_start=62
-  _globals['_GCGGROWTHLEVELNOTIFY']._serialized_end=132
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGGROWTHLEVELNOTIFY']._serialized_start=30
+  _globals['_GCGGROWTHLEVELNOTIFY']._serialized_end=80
 # @@protoc_insertion_point(module_scope)

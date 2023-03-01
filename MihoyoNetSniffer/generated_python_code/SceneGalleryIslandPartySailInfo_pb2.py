@@ -15,13 +15,15 @@ import GalleryStartSource_pb2 as GalleryStartSource__pb2
 import IslandPartySailStage_pb2 as IslandPartySailStage__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SceneGalleryIslandPartySailInfo.proto\x1a\x18GalleryStartSource.proto\x1a\x1aIslandPartySailStage.proto\"\xf4\x01\n\x1fSceneGalleryIslandPartySailInfo\x12\x0c\n\x04\x63oin\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_HCJGDHEMBLM\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_MJHMCAPGBIK\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_PFCJODGNDCI\x18\x03 \x01(\r\x12$\n\x05stage\x18\x0e \x01(\x0e\x32\x15.IslandPartySailStage\x12\x1b\n\x13Unk3300_MJOIIJIBAHF\x18\n \x01(\r\x12)\n\x0cstart_source\x18\r \x01(\x0e\x32\x13.GalleryStartSourceb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SceneGalleryIslandPartySailInfo.proto\x1a\x18GalleryStartSource.proto\x1a\x1aIslandPartySailStage.proto\"\xd4\x01\n\x1fSceneGalleryIslandPartySailInfo\x12\x0c\n\x04\x63oin\x18\x01 \x01(\r\x12)\n\x0cstart_source\x18\x0b \x01(\x0e\x32\x13.GalleryStartSource\x12\x13\n\x0bPCDHDGNHKIH\x18\x07 \x01(\r\x12\x13\n\x0bHGHNCOGIFOB\x18\t \x01(\r\x12\x13\n\x0b\x43\x42JLPHIDMMA\x18\n \x01(\r\x12$\n\x05stage\x18\x06 \x01(\x0e\x32\x15.IslandPartySailStage\x12\x13\n\x0b\x42PMNGFDGLGL\x18\x0e \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryIslandPartySailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryIslandPartySailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYISLANDPARTYSAILINFO._serialized_start=96
-  _SCENEGALLERYISLANDPARTYSAILINFO._serialized_end=340
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYISLANDPARTYSAILINFO']._serialized_start=96
+  _globals['_SCENEGALLERYISLANDPARTYSAILINFO']._serialized_end=308
 # @@protoc_insertion_point(module_scope)

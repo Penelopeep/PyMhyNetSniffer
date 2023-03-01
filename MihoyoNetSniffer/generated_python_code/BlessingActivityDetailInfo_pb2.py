@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BlessingActivityDetailInfo.proto\"\xbc\x02\n\x1a\x42lessingActivityDetailInfo\x12\x14\n\x0cleftMonsters\x18\x05 \x01(\x08\x12\x18\n\x10\x63ontentCloseTime\x18\x0b \x01(\r\x12\x15\n\rcurDayScanNum\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_INOHLELBOAM\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_JLADHEKJPBP\x18\t \x01(\r\x12=\n\tpicNumMap\x18\x07 \x03(\x0b\x32*.BlessingActivityDetailInfo.PicNumMapEntry\x12\x17\n\x0fnextRefreshTime\x18\x0e \x01(\r\x12\x13\n\x0bisActivated\x18\x08 \x01(\x08\x1a\x30\n\x0ePicNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BlessingActivityDetailInfo.proto\"\xb6\x02\n\x1a\x42lessingActivityDetailInfo\x12\x19\n\x11is_content_closed\x18\n \x01(\x08\x12\x14\n\x0cis_activated\x18\x04 \x01(\x08\x12\x13\n\x0b\x44\x43KODCGGHDJ\x18\x02 \x01(\r\x12\x1a\n\x12\x63ontent_close_time\x18\x05 \x01(\r\x12\x13\n\x0bGNNKHIMAANK\x18\x08 \x01(\r\x12\x19\n\x11next_refresh_time\x18\x0e \x01(\r\x12?\n\x0bpic_num_map\x18\x0c \x03(\x0b\x32*.BlessingActivityDetailInfo.PicNumMapEntry\x12\x13\n\x0b\x45HJJNMKIPEF\x18\x06 \x01(\r\x1a\x30\n\x0ePicNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,11 +21,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingActivityDetailInfo_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _BLESSINGACTIVITYDETAILINFO_PICNUMMAPENTRY._options = None
   _BLESSINGACTIVITYDETAILINFO_PICNUMMAPENTRY._serialized_options = b'8\001'
   _globals['_BLESSINGACTIVITYDETAILINFO']._serialized_start=37
-  _globals['_BLESSINGACTIVITYDETAILINFO']._serialized_end=353
-  _globals['_BLESSINGACTIVITYDETAILINFO_PICNUMMAPENTRY']._serialized_start=305
-  _globals['_BLESSINGACTIVITYDETAILINFO_PICNUMMAPENTRY']._serialized_end=353
+  _globals['_BLESSINGACTIVITYDETAILINFO']._serialized_end=347
+  _globals['_BLESSINGACTIVITYDETAILINFO_PICNUMMAPENTRY']._serialized_start=299
+  _globals['_BLESSINGACTIVITYDETAILINFO_PICNUMMAPENTRY']._serialized_end=347
 # @@protoc_insertion_point(module_scope)

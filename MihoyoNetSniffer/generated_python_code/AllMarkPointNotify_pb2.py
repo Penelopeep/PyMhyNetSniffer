@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MapMarkPoint_pb2 as MapMarkPoint__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41llMarkPointNotify.proto\x1a\x12MapMarkPoint.proto\"5\n\x12\x41llMarkPointNotify\x12\x1f\n\x08markList\x18\x06 \x03(\x0b\x32\r.MapMarkPointB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41llMarkPointNotify.proto\x1a\x12MapMarkPoint.proto\"6\n\x12\x41llMarkPointNotify\x12 \n\tmark_list\x18\x0e \x03(\x0b\x32\r.MapMarkPointB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AllMarkPointNotify_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ALLMARKPOINTNOTIFY']._serialized_start=48
-  _globals['_ALLMARKPOINTNOTIFY']._serialized_end=101
+  _globals['_ALLMARKPOINTNOTIFY']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

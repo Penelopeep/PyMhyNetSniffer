@@ -11,11 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import UgcMusicBriefInfo_pb2 as UgcMusicBriefInfo__pb2
+import UgcMusicRecord_pb2 as UgcMusicRecord__pb2
 import UgcType_pb2 as UgcType__pb2
-import MusicRecord_pb2 as MusicRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10SaveUgcReq.proto\x1a\rUgcType.proto\x1a\x11MusicRecord.proto\"W\n\nSaveUgcReq\x12\x19\n\x07ugcType\x18\x01 \x01(\x0e\x32\x08.UgcType\x12$\n\x0cmusic_record\x18\x0f \x01(\x0b\x32\x0c.MusicRecordH\x00\x42\x08\n\x06recordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10SaveUgcReq.proto\x1a\x17UgcMusicBriefInfo.proto\x1a\x14UgcMusicRecord.proto\x1a\rUgcType.proto\"\xaf\x01\n\nSaveUgcReq\x12\x1a\n\x08ugc_type\x18\r \x01(\x0e\x32\x08.UgcType\x12\x13\n\x0bschedule_id\x18\x02 \x01(\r\x12\'\n\x0cmusic_record\x18\x0b \x01(\x0b\x32\x0f.UgcMusicRecordH\x00\x12/\n\x10music_brief_info\x18\xfc\x02 \x01(\x0b\x32\x12.UgcMusicBriefInfoH\x01\x42\r\n\x0bHIKDHNPCMFDB\x07\n\x05\x62riefB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SaveUgcReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_SAVEUGCREQ']._serialized_start=54
-  _globals['_SAVEUGCREQ']._serialized_end=141
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SAVEUGCREQ']._serialized_start=83
+  _globals['_SAVEUGCREQ']._serialized_end=258
 # @@protoc_insertion_point(module_scope)

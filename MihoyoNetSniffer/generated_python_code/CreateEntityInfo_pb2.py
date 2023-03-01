@@ -11,10 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import CreateGadgetInfo_pb2 as CreateGadgetInfo__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43reateEntityInfo.proto\x1a\x0cVector.proto\"\xe0\x01\n\x10\x43reateEntityInfo\x12\x14\n\nmonster_id\x18\x01 \x01(\rH\x00\x12\x10\n\x06npc_id\x18\x02 \x01(\rH\x00\x12\x13\n\tgadget_id\x18\x03 \x01(\rH\x00\x12\x11\n\x07item_id\x18\x04 \x01(\rH\x00\x12\r\n\x05level\x18\x05 \x01(\r\x12\x14\n\x03pos\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x0f\n\x07sceneId\x18\n \x01(\r\x12\x0e\n\x06roomId\x18\x0b \x01(\r\x12\x16\n\x0e\x63lientUniqueId\x18\x0c \x01(\rB\x08\n\x06\x65ntityB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43reateEntityInfo.proto\x1a\x16\x43reateGadgetInfo.proto\x1a\x0cVector.proto\"\x98\x02\n\x10\x43reateEntityInfo\x12\r\n\x05level\x18\x05 \x01(\r\x12\x14\n\x03pos\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08scene_id\x18\n \x01(\r\x12\x0f\n\x07room_id\x18\x0b \x01(\r\x12\x18\n\x10\x63lient_unique_id\x18\x0c \x01(\r\x12\x14\n\nmonster_id\x18\x01 \x01(\rH\x00\x12\x10\n\x06npc_id\x18\x02 \x01(\rH\x00\x12\x13\n\tgadget_id\x18\x03 \x01(\rH\x00\x12\x11\n\x07item_id\x18\x04 \x01(\rH\x00\x12#\n\x06gadget\x18\r \x01(\x0b\x32\x11.CreateGadgetInfoH\x01\x42\x08\n\x06\x65ntityB\r\n\x0bMGPBKHBAPPHB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CreateEntityInfo_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_CREATEENTITYINFO']._serialized_start=41
-  _globals['_CREATEENTITYINFO']._serialized_end=265
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_CREATEENTITYINFO']._serialized_start=65
+  _globals['_CREATEENTITYINFO']._serialized_end=345
 # @@protoc_insertion_point(module_scope)

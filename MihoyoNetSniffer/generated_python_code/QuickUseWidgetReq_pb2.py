@@ -11,13 +11,13 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import LocationInfo_pb2 as LocationInfo__pb2
-import CameraInfo_pb2 as CameraInfo__pb2
-import CreatorInfo_pb2 as CreatorInfo__pb2
-import ThunderBirdFeatherInfo_pb2 as ThunderBirdFeatherInfo__pb2
+import WidgetCameraInfo_pb2 as WidgetCameraInfo__pb2
+import WidgetCreateLocationInfo_pb2 as WidgetCreateLocationInfo__pb2
+import WidgetCreatorInfo_pb2 as WidgetCreatorInfo__pb2
+import WidgetThunderBirdFeatherInfo_pb2 as WidgetThunderBirdFeatherInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17QuickUseWidgetReq.proto\x1a\x12LocationInfo.proto\x1a\x10\x43\x61meraInfo.proto\x1a\x11\x43reatorInfo.proto\x1a\x1cThunderBirdFeatherInfo.proto\"\xd0\x01\n\x11QuickUseWidgetReq\x12\'\n\rlocation_info\x18\x86\x0c \x01(\x0b\x32\r.LocationInfoH\x00\x12#\n\x0b\x63\x61mera_info\x18\xda\r \x01(\x0b\x32\x0b.CameraInfoH\x00\x12%\n\x0c\x63reator_info\x18\xb9\x06 \x01(\x0b\x32\x0c.CreatorInfoH\x00\x12=\n\x19thunder_bird_feather_info\x18\xd5\n \x01(\x0b\x32\x17.ThunderBirdFeatherInfoH\x00\x42\x07\n\x05paramB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17QuickUseWidgetReq.proto\x1a\x16WidgetCameraInfo.proto\x1a\x1eWidgetCreateLocationInfo.proto\x1a\x17WidgetCreatorInfo.proto\x1a\"WidgetThunderBirdFeatherInfo.proto\"\x84\x02\n\x11QuickUseWidgetReq\x12\x14\n\x0bOJJOGCGCBPC\x18\xe6\x02 \x01(\x08\x12\x33\n\rlocation_info\x18\xd0\x06 \x01(\x0b\x32\x19.WidgetCreateLocationInfoH\x00\x12)\n\x0b\x63\x61mera_info\x18\xfb\x06 \x01(\x0b\x32\x11.WidgetCameraInfoH\x00\x12+\n\x0c\x63reator_info\x18\xbf\r \x01(\x0b\x32\x12.WidgetCreatorInfoH\x00\x12\x43\n\x19thunder_bird_feather_info\x18\xf1\t \x01(\x0b\x32\x1d.WidgetThunderBirdFeatherInfoH\x00\x42\x07\n\x05paramB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -25,7 +25,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuickUseWidgetReq_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_QUICKUSEWIDGETREQ']._serialized_start=115
-  _globals['_QUICKUSEWIDGETREQ']._serialized_end=323
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_QUICKUSEWIDGETREQ']._serialized_start=145
+  _globals['_QUICKUSEWIDGETREQ']._serialized_end=405
 # @@protoc_insertion_point(module_scope)

@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ItemParam_pb2 as ItemParam__pb2
 import GachaTransferItem_pb2 as GachaTransferItem__pb2
+import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGachaItem.proto\x1a\x0fItemParam.proto\x1a\x17GachaTransferItem.proto\"\xa5\x01\n\tGachaItem\x12)\n\rtransferItems\x18\n \x03(\x0b\x32\x12.GachaTransferItem\x12\x16\n\x0eisGachaItemNew\x18\t \x01(\x08\x12!\n\rtokenItemList\x18\x0c \x03(\x0b\x32\n.ItemParam\x12\x1d\n\tgachaItem\x18\x04 \x01(\x0b\x32\n.ItemParam\x12\x13\n\x0bisFlashCard\x18\x0b \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGachaItem.proto\x1a\x17GachaTransferItem.proto\x1a\x0fItemParam.proto\"\xa6\x01\n\tGachaItem\x12#\n\x0ftoken_item_list\x18\r \x03(\x0b\x32\n.ItemParam\x12\x1e\n\ngacha_item\x18\x0f \x01(\x0b\x32\n.ItemParam\x12\x13\n\x0b\x45\x43\x44\x45IIANGJN\x18\x04 \x01(\x08\x12*\n\x0etransfer_items\x18\x07 \x03(\x0b\x32\x12.GachaTransferItem\x12\x13\n\x0bHFDPDGIDDLB\x18\n \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaItem_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GACHAITEM']._serialized_start=62
-  _globals['_GACHAITEM']._serialized_end=227
+  _globals['_GACHAITEM']._serialized_end=228
 # @@protoc_insertion_point(module_scope)

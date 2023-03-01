@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Uint32Pair_pb2 as Uint32Pair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RogueDiaryRoomInfo.proto\x1a\x10Uint32Pair.proto\"`\n\x12RogueDiaryRoomInfo\x12(\n\x13Unk3300_EEBEOCMAIKN\x18\x08 \x03(\x0b\x32\x0b.Uint32Pair\x12\x0e\n\x06isBoss\x18\x04 \x01(\x08\x12\x10\n\x08\x63onfigId\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RogueDiaryRoomInfo.proto\x1a\x10Uint32Pair.proto\"[\n\x12RogueDiaryRoomInfo\x12\x0f\n\x07is_boss\x18\t \x01(\x08\x12\x11\n\tconfig_id\x18\x0c \x01(\r\x12!\n\x0cmonster_list\x18\x02 \x03(\x0b\x32\x0b.Uint32PairB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueDiaryRoomInfo_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ROGUEDIARYROOMINFO']._serialized_start=46
-  _globals['_ROGUEDIARYROOMINFO']._serialized_end=142
+  _globals['_ROGUEDIARYROOMINFO']._serialized_end=137
 # @@protoc_insertion_point(module_scope)

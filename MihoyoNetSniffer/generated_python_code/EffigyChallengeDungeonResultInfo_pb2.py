@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&EffigyChallengeDungeonResultInfo.proto\"\x94\x01\n EffigyChallengeDungeonResultInfo\x12\x19\n\x11\x63hallengeMaxScore\x18\x06 \x01(\r\x12\x15\n\risInTimeLimit\x18\x01 \x01(\x08\x12\x16\n\x0e\x63hallengeScore\x18\x0e \x01(\r\x12\x11\n\tisSuccess\x18\x02 \x01(\x08\x12\x13\n\x0b\x63hallengeId\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&EffigyChallengeDungeonResultInfo.proto\"\x9c\x01\n EffigyChallengeDungeonResultInfo\x12\x1b\n\x13\x63hallenge_max_score\x18\n \x01(\r\x12\x18\n\x10is_in_time_limit\x18\x01 \x01(\x08\x12\x14\n\x0c\x63hallenge_id\x18\x0b \x01(\r\x12\x12\n\nis_success\x18\x05 \x01(\x08\x12\x17\n\x0f\x63hallenge_score\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EffigyChallengeDungeonResul
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_EFFIGYCHALLENGEDUNGEONRESULTINFO']._serialized_start=43
-  _globals['_EFFIGYCHALLENGEDUNGEONRESULTINFO']._serialized_end=191
+  _globals['_EFFIGYCHALLENGEDUNGEONRESULTINFO']._serialized_end=199
 # @@protoc_insertion_point(module_scope)

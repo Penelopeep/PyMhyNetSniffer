@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'PlantFlowerAcceptFlowerResultInfo.proto\"\xd8\x02\n!PlantFlowerAcceptFlowerResultInfo\x12W\n\x13Unk3300_PALEJEDIAJP\x18\t \x03(\x0b\x32:.PlantFlowerAcceptFlowerResultInfo.Unk3300PALEJEDIAJPEntry\x12\x0b\n\x03uid\x18\n \x01(\r\x12W\n\x13Unk3300_ILAADDCOPKE\x18\x04 \x03(\x0b\x32:.PlantFlowerAcceptFlowerResultInfo.Unk3300ILAADDCOPKEEntry\x1a\x39\n\x17Unk3300PALEJEDIAJPEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x39\n\x17Unk3300ILAADDCOPKEEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'PlantFlowerAcceptFlowerResultInfo.proto\"\xac\x02\n!PlantFlowerAcceptFlowerResultInfo\x12H\n\x0bMFBGONHGOKI\x18\x0e \x03(\x0b\x32\x33.PlantFlowerAcceptFlowerResultInfo.MFBGONHGOKIEntry\x12H\n\x0b\x44OONOMIFCJA\x18\r \x03(\x0b\x32\x33.PlantFlowerAcceptFlowerResultInfo.DOONOMIFCJAEntry\x12\x0b\n\x03uid\x18\x0c \x01(\r\x1a\x32\n\x10MFBGONHGOKIEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x32\n\x10\x44OONOMIFCJAEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,15 +21,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerAcceptFlowerResu
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY._options = None
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY._serialized_options = b'8\001'
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY._options = None
-  _PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _PLANTFLOWERACCEPTFLOWERRESULTINFO_MFBGONHGOKIENTRY._options = None
+  _PLANTFLOWERACCEPTFLOWERRESULTINFO_MFBGONHGOKIENTRY._serialized_options = b'8\001'
+  _PLANTFLOWERACCEPTFLOWERRESULTINFO_DOONOMIFCJAENTRY._options = None
+  _PLANTFLOWERACCEPTFLOWERRESULTINFO_DOONOMIFCJAENTRY._serialized_options = b'8\001'
   _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO']._serialized_start=44
-  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO']._serialized_end=388
-  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY']._serialized_start=272
-  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300PALEJEDIAJPENTRY']._serialized_end=329
-  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY']._serialized_start=331
-  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_UNK3300ILAADDCOPKEENTRY']._serialized_end=388
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO']._serialized_end=344
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_MFBGONHGOKIENTRY']._serialized_start=242
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_MFBGONHGOKIENTRY']._serialized_end=292
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_DOONOMIFCJAENTRY']._serialized_start=294
+  _globals['_PLANTFLOWERACCEPTFLOWERRESULTINFO_DOONOMIFCJAENTRY']._serialized_end=344
 # @@protoc_insertion_point(module_scope)

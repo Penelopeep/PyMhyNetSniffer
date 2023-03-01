@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x44ropHintNotify.proto\x1a\x0cVector.proto\"?\n\x0e\x44ropHintNotify\x12\x19\n\x08position\x18\t \x01(\x0b\x32\x07.Vector\x12\x12\n\nitemIdList\x18\n \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x44ropHintNotify.proto\x1a\x0cVector.proto\"A\n\x0e\x44ropHintNotify\x12\x19\n\x08position\x18\x0e \x01(\x0b\x32\x07.Vector\x12\x14\n\x0citem_id_list\x18\x05 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DropHintNotify_pb2', _globa
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DROPHINTNOTIFY']._serialized_start=38
-  _globals['_DROPHINTNOTIFY']._serialized_end=101
+  _globals['_DROPHINTNOTIFY']._serialized_end=103
 # @@protoc_insertion_point(module_scope)

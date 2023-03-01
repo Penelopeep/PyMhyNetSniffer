@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SumoDungeonTeam_pb2 as SumoDungeonTeam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SumoSetNoSwitchPunishTimeNotify.proto\x1a\x15SumoDungeonTeam.proto\"\xc8\x01\n\x1fSumoSetNoSwitchPunishTimeNotify\x12\x1b\n\x13Unk3300_BNJBIGHIJOC\x18\x0b \x01(\r\x12)\n\x0f\x64ungeonTeamList\x18\x03 \x03(\x0b\x32\x10.SumoDungeonTeam\x12\x1b\n\x13Unk3300_CBAMLHDMKJF\x18\x0e \x01(\r\x12\x0f\n\x07stageId\x18\x01 \x01(\r\x12\x12\n\nactivityId\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_DJBJACGHGDM\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SumoSetNoSwitchPunishTimeNotify.proto\x1a\x15SumoDungeonTeam.proto\"\xb4\x01\n\x1fSumoSetNoSwitchPunishTimeNotify\x12\x10\n\x08stage_id\x18\x03 \x01(\r\x12\x13\n\x0b\x46\x44GOAAPAMDK\x18\x0f \x01(\r\x12+\n\x11\x64ungeon_team_list\x18\r \x03(\x0b\x32\x10.SumoDungeonTeam\x12\x13\n\x0bJOLHHGEAOGA\x18\n \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x07 \x01(\r\x12\x13\n\x0bPDDNDHHKBIH\x18\x05 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoSetNoSwitchPunishTimeNo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SUMOSETNOSWITCHPUNISHTIMENOTIFY']._serialized_start=65
-  _globals['_SUMOSETNOSWITCHPUNISHTIMENOTIFY']._serialized_end=265
+  _globals['_SUMOSETNOSWITCHPUNISHTIMENOTIFY']._serialized_end=245
 # @@protoc_insertion_point(module_scope)

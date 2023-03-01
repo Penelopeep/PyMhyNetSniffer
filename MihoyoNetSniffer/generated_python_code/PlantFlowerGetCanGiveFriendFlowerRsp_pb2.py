@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*PlantFlowerGetCanGiveFriendFlowerRsp.proto\"\xcf\x01\n$PlantFlowerGetCanGiveFriendFlowerRsp\x12\x12\n\nscheduleId\x18\r \x01(\r\x12M\n\x0c\x66lowerNumMap\x18\n \x03(\x0b\x32\x37.PlantFlowerGetCanGiveFriendFlowerRsp.FlowerNumMapEntry\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x1a\x33\n\x11\x46lowerNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*PlantFlowerGetCanGiveFriendFlowerRsp.proto\"\xd2\x01\n$PlantFlowerGetCanGiveFriendFlowerRsp\x12O\n\x0e\x66lower_num_map\x18\x06 \x03(\x0b\x32\x37.PlantFlowerGetCanGiveFriendFlowerRsp.FlowerNumMapEntry\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x13\n\x0bschedule_id\x18\x08 \x01(\r\x1a\x33\n\x11\x46lowerNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,11 +21,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerGetCanGiveFriend
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _PLANTFLOWERGETCANGIVEFRIENDFLOWERRSP_FLOWERNUMMAPENTRY._options = None
   _PLANTFLOWERGETCANGIVEFRIENDFLOWERRSP_FLOWERNUMMAPENTRY._serialized_options = b'8\001'
   _globals['_PLANTFLOWERGETCANGIVEFRIENDFLOWERRSP']._serialized_start=47
-  _globals['_PLANTFLOWERGETCANGIVEFRIENDFLOWERRSP']._serialized_end=254
-  _globals['_PLANTFLOWERGETCANGIVEFRIENDFLOWERRSP_FLOWERNUMMAPENTRY']._serialized_start=203
-  _globals['_PLANTFLOWERGETCANGIVEFRIENDFLOWERRSP_FLOWERNUMMAPENTRY']._serialized_end=254
+  _globals['_PLANTFLOWERGETCANGIVEFRIENDFLOWERRSP']._serialized_end=257
+  _globals['_PLANTFLOWERGETCANGIVEFRIENDFLOWERRSP_FLOWERNUMMAPENTRY']._serialized_start=206
+  _globals['_PLANTFLOWERGETCANGIVEFRIENDFLOWERRSP_FLOWERNUMMAPENTRY']._serialized_end=257
 # @@protoc_insertion_point(module_scope)

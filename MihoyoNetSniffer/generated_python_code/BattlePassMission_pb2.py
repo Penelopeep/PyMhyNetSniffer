@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import MissionStatus_pb2 as MissionStatus__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61ttlePassMission.proto\x1a\x13MissionStatus.proto\"\xc9\x02\n\x11\x42\x61ttlePassMission\x12\x11\n\tmissionId\x18\x06 \x01(\r\x12\x13\n\x0bmissionType\x18\x0e \x01(\r\x12\x37\n\rmissionStatus\x18\t \x01(\x0e\x32 .BattlePassMission.MissionStatus\x12\x13\n\x0b\x63urProgress\x18\x0b \x01(\r\x12\x1d\n\x15rewardBattlePassPoint\x18\n \x01(\r\x12\x15\n\rtotalProgress\x18\r \x01(\r\"\x87\x01\n\rMissionStatus\x12\x1a\n\x16MISSION_STATUS_INVALID\x10\x00\x12\x1d\n\x19MISSION_STATUS_UNFINISHED\x10\x01\x12\x1b\n\x17MISSION_STATUS_FINISHED\x10\x02\x12\x1e\n\x1aMISSION_STATUS_POINT_TAKEN\x10\x03\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61ttlePassMission.proto\"\xa6\x02\n\x11\x42\x61ttlePassMission\x12\x13\n\x0b\x43GCJJAMPFME\x18\x0b \x01(\r\x12\x14\n\x0c\x63ur_progress\x18\x01 \x01(\r\x12\x13\n\x0bINNGDEGBMHO\x18\n \x01(\r\x12\x16\n\x0etotal_progress\x18\x05 \x01(\r\x12\x12\n\nmission_id\x18\x0c \x01(\r\x12\x38\n\x0emission_status\x18\x03 \x01(\x0e\x32 .BattlePassMission.MissionStatus\"k\n\rMissionStatus\x12\x13\n\x0fMISSION_INVALID\x10\x00\x12\x16\n\x12MISSION_UNFINISHED\x10\x01\x12\x14\n\x10MISSION_FINISHED\x10\x02\x12\x17\n\x13MISSION_POINT_TAKEN\x10\x03\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,9 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattlePassMission_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_BATTLEPASSMISSION']._serialized_start=49
-  _globals['_BATTLEPASSMISSION']._serialized_end=378
-  _globals['_BATTLEPASSMISSION_MISSIONSTATUS']._serialized_start=243
-  _globals['_BATTLEPASSMISSION_MISSIONSTATUS']._serialized_end=378
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_BATTLEPASSMISSION']._serialized_start=28
+  _globals['_BATTLEPASSMISSION']._serialized_end=322
+  _globals['_BATTLEPASSMISSION_MISSIONSTATUS']._serialized_start=215
+  _globals['_BATTLEPASSMISSION_MISSIONSTATUS']._serialized_end=322
 # @@protoc_insertion_point(module_scope)

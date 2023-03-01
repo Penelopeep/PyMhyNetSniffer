@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import SvrMsgId_pb2 as SvrMsgId__pb2
 import MsgParam_pb2 as MsgParam__pb2
+import SvrMsgId_pb2 as SvrMsgId__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ShowMessageNotify.proto\x1a\x0eSvrMsgId.proto\x1a\x0eMsgParam.proto\"H\n\x11ShowMessageNotify\x12\x18\n\x05msgId\x18\x07 \x01(\x0e\x32\t.SvrMsgId\x12\x19\n\x06params\x18\x05 \x03(\x0b\x32\t.MsgParamB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ShowMessageNotify.proto\x1a\x0eMsgParam.proto\x1a\x0eSvrMsgId.proto\"I\n\x11ShowMessageNotify\x12\x19\n\x06params\x18\x01 \x03(\x0b\x32\t.MsgParam\x12\x19\n\x06msg_id\x18\x08 \x01(\x0e\x32\t.SvrMsgIdB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ShowMessageNotify_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SHOWMESSAGENOTIFY']._serialized_start=59
-  _globals['_SHOWMESSAGENOTIFY']._serialized_end=131
+  _globals['_SHOWMESSAGENOTIFY']._serialized_end=132
 # @@protoc_insertion_point(module_scope)

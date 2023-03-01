@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import EffigyChallengeV2LevelData_pb2 as EffigyChallengeV2LevelData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!EffigyChallengeV2DetailInfo.proto\x1a EffigyChallengeV2LevelData.proto\"S\n\x1b\x45\x66\x66igyChallengeV2DetailInfo\x12\x34\n\x0flevel_data_list\x18\x01 \x03(\x0b\x32\x1b.EffigyChallengeV2LevelDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!EffigyChallengeV2DetailInfo.proto\x1a EffigyChallengeV2LevelData.proto\"S\n\x1b\x45\x66\x66igyChallengeV2DetailInfo\x12\x34\n\x0flevel_data_list\x18\r \x03(\x0b\x32\x1b.EffigyChallengeV2LevelDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EffigyChallengeV2DetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EffigyChallengeV2DetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EFFIGYCHALLENGEV2DETAILINFO._serialized_start=71
-  _EFFIGYCHALLENGEV2DETAILINFO._serialized_end=154
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_EFFIGYCHALLENGEV2DETAILINFO']._serialized_start=71
+  _globals['_EFFIGYCHALLENGEV2DETAILINFO']._serialized_end=154
 # @@protoc_insertion_point(module_scope)

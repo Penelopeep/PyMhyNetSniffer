@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import CPBMIAMDLPE_pb2 as CPBMIAMDLPE__pb2
+import GFDBMHNEOFL_pb2 as GFDBMHNEOFL__pb2
 import PropChangeReason_pb2 as PropChangeReason__pb2
-import ChangeHpReason_pb2 as ChangeHpReason__pb2
-import ChangeEnergyReason_pb2 as ChangeEnergyReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'EntityFightPropChangeReasonNotify.proto\x1a\x16PropChangeReason.proto\x1a\x14\x43hangeHpReason.proto\x1a\x18\x43hangeEnergyReason.proto\"\xea\x01\n!EntityFightPropChangeReasonNotify\x12\x11\n\tpropDelta\x18\x04 \x01(\x02\x12!\n\x06reason\x18\r \x01(\x0e\x32\x11.PropChangeReason\x12\x10\n\x08\x65ntityId\x18\x0c \x01(\r\x12\x11\n\tparamList\x18\x01 \x03(\r\x12\'\n\x0e\x63hangeHpReason\x18\x06 \x01(\x0e\x32\x0f.ChangeHpReason\x12/\n\x12\x63hangeEnergyReason\x18\x03 \x01(\x0e\x32\x13.ChangeEnergyReason\x12\x10\n\x08propType\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'EntityFightPropChangeReasonNotify.proto\x1a\x11\x43PBMIAMDLPE.proto\x1a\x11GFDBMHNEOFL.proto\x1a\x16PropChangeReason.proto\"\xda\x01\n!EntityFightPropChangeReasonNotify\x12\x12\n\nparam_list\x18\x0c \x03(\r\x12\x11\n\tprop_type\x18\t \x01(\r\x12!\n\x0b\x46HLNGJNGPNN\x18\x0e \x01(\x0e\x32\x0c.CPBMIAMDLPE\x12!\n\x0bKAKKINHPKPN\x18\n \x01(\x0e\x32\x0c.GFDBMHNEOFL\x12!\n\x06reason\x18\x0b \x01(\x0e\x32\x11.PropChangeReason\x12\x12\n\nprop_delta\x18\x0f \x01(\x02\x12\x11\n\tentity_id\x18\x06 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityFightPropChangeReason
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_ENTITYFIGHTPROPCHANGEREASONNOTIFY']._serialized_start=116
-  _globals['_ENTITYFIGHTPROPCHANGEREASONNOTIFY']._serialized_end=350
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ENTITYFIGHTPROPCHANGEREASONNOTIFY']._serialized_start=106
+  _globals['_ENTITYFIGHTPROPCHANGEREASONNOTIFY']._serialized_end=324
 # @@protoc_insertion_point(module_scope)

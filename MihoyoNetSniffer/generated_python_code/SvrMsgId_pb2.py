@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eSvrMsgId.proto*\xe3\x01\n\x08SvrMsgId\x12\x0f\n\x0bMSG_UNKNOWN\x10\x00\x12\x1f\n\x1bMSG_BLOCK_REFRESH_COUNTDOWN\x10\x01\x12\x1f\n\x1bMSG_AVATAR_REVIVE_BY_STATUE\x10\x02\x12!\n\x1dMSG_DAILY_TASK_REWARD_MAX_NUM\x10\x03\x12\x1d\n\x19MSG_ROUTINE_TYPE_NOT_OPEN\x10\x04\x12#\n\x1fMSG_ROUTINE_TYPE_REWARD_MAX_NUM\x10\x05\x12\x1d\n\x19MSG_MECHANICUS_COIN_LIMIT\x10\x06\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eSvrMsgId.proto*\xe3\x01\n\x08SvrMsgId\x12\x0f\n\x0bMSG_UNKNOWN\x10\x00\x12\x1f\n\x1bMSG_BLOCK_REFRESH_COUNTDOWN\x10\x01\x12\x1f\n\x1bMSG_AVATAR_REVIVE_BY_STATUE\x10\x02\x12!\n\x1dMSG_DAILY_TASK_REWARD_MAX_NUM\x10\x03\x12\x1d\n\x19MSG_ROUTINE_TYPE_NOT_OPEN\x10\x04\x12#\n\x1fMSG_ROUTINE_TYPE_REWARD_MAX_NUM\x10\x05\x12\x1d\n\x19MSG_MECHANICUS_COIN_LIMIT\x10\x06\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SvrMsgId_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SVRMSGID']._serialized_start=19
   _globals['_SVRMSGID']._serialized_end=246
 # @@protoc_insertion_point(module_scope)

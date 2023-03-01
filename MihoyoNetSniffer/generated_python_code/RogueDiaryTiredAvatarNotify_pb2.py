@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RogueDiaryAvatar_pb2 as RogueDiaryAvatar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!RogueDiaryTiredAvatarNotify.proto\x1a\x16RogueDiaryAvatar.proto\"\x9f\x01\n\x1bRogueDiaryTiredAvatarNotify\x12\x12\n\nisNeedShow\x18\x0c \x01(\x08\x12\x1b\n\x13Unk3300_BGEJGLBMFII\x18\n \x01(\r\x12\x1b\n\x13Unk3300_DMEMBBPEIGK\x18\x08 \x01(\r\x12\x32\n\x17optionalTiredAvatarList\x18\x0f \x03(\x0b\x32\x11.RogueDiaryAvatarB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!RogueDiaryTiredAvatarNotify.proto\x1a\x16RogueDiaryAvatar.proto\"\x94\x01\n\x1bRogueDiaryTiredAvatarNotify\x12\x14\n\x0cis_need_show\x18\n \x01(\x08\x12\x35\n\x1aoptianal_tired_avatar_list\x18\x01 \x03(\x0b\x32\x11.RogueDiaryAvatar\x12\x13\n\x0bJIFCMKCIKMM\x18\x06 \x01(\r\x12\x13\n\x0bGABBOIAJKLA\x18\x02 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueDiaryTiredAvatarNotify
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ROGUEDIARYTIREDAVATARNOTIFY']._serialized_start=62
-  _globals['_ROGUEDIARYTIREDAVATARNOTIFY']._serialized_end=221
+  _globals['_ROGUEDIARYTIREDAVATARNOTIFY']._serialized_end=210
 # @@protoc_insertion_point(module_scope)

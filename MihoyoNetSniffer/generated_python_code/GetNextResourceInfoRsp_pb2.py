@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ResVersionConfig_pb2 as ResVersionConfig__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetNextResourceInfoRsp.proto\x1a\x16ResVersionConfig.proto\"s\n\x16GetNextResourceInfoRsp\x12/\n\x14nextResVersionConfig\x18\x05 \x01(\x0b\x32\x11.ResVersionConfig\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x17\n\x0fnextResourceUrl\x18\x01 \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetNextResourceInfoRsp.proto\x1a\x16ResVersionConfig.proto\"s\n\x16GetNextResourceInfoRsp\x12-\n\x12res_version_config\x18\x0b \x01(\x0b\x32\x11.ResVersionConfig\x12\x19\n\x11next_resource_url\x18\x07 \x01(\t\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetNextResourceInfoRsp_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETNEXTRESOURCEINFORSP']._serialized_start=56
   _globals['_GETNEXTRESOURCEINFORSP']._serialized_end=171
 # @@protoc_insertion_point(module_scope)

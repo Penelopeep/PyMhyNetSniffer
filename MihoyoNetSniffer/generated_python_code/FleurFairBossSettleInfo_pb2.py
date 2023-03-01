@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FleurFairPlayerStatInfo_pb2 as FleurFairPlayerStatInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46leurFairBossSettleInfo.proto\x1a\x1d\x46leurFairPlayerStatInfo.proto\"\x96\x01\n\x17\x46leurFairBossSettleInfo\x12.\n\x0cstatInfoList\x18\x03 \x03(\x0b\x32\x18.FleurFairPlayerStatInfo\x12\x16\n\x0erewardTokenNum\x18\x04 \x01(\r\x12\x0e\n\x06\x65nergy\x18\x08 \x01(\r\x12\x10\n\x08\x63ostTime\x18\x02 \x01(\r\x12\x11\n\tisSuccess\x18\x06 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46leurFairBossSettleInfo.proto\x1a\x1d\x46leurFairPlayerStatInfo.proto\"\x9c\x01\n\x17\x46leurFairBossSettleInfo\x12\x30\n\x0estat_info_list\x18\x02 \x03(\x0b\x32\x18.FleurFairPlayerStatInfo\x12\x0e\n\x06\x65nergy\x18\x0b \x01(\r\x12\x18\n\x10reward_token_num\x18\x06 \x01(\r\x12\x11\n\tcost_time\x18\x04 \x01(\r\x12\x12\n\nis_success\x18\r \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairBossSettleInfo_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_FLEURFAIRBOSSSETTLEINFO']._serialized_start=65
-  _globals['_FLEURFAIRBOSSSETTLEINFO']._serialized_end=215
+  _globals['_FLEURFAIRBOSSSETTLEINFO']._serialized_end=221
 # @@protoc_insertion_point(module_scope)

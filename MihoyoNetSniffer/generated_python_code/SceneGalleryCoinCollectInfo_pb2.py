@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SceneGalleryCoinCollectInfo.proto\"W\n\x1bSceneGalleryCoinCollectInfo\x12\x1b\n\x13Unk3300_DKBJMLJGLIB\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_CPLDPCMBHOE\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SceneGalleryCoinCollectInfo.proto\"G\n\x1bSceneGalleryCoinCollectInfo\x12\x13\n\x0bJIEODOEOBID\x18\x0f \x01(\r\x12\x13\n\x0b\x42OFDHHNBNCH\x18\x06 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryCoinCollectInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryCoinCollectInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYCOINCOLLECTINFO._serialized_start=37
-  _SCENEGALLERYCOINCOLLECTINFO._serialized_end=124
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYCOINCOLLECTINFO']._serialized_start=37
+  _globals['_SCENEGALLERYCOINCOLLECTINFO']._serialized_end=108
 # @@protoc_insertion_point(module_scope)

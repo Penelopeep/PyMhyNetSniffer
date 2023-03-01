@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ActivityShopSheetInfo_pb2 as ActivityShopSheetInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GetActivityShopSheetInfoRsp.proto\x1a\x1b\x41\x63tivityShopSheetInfo.proto\"o\n\x1bGetActivityShopSheetInfoRsp\x12\x10\n\x08shopType\x18\x07 \x01(\r\x12-\n\rsheetInfoList\x18\n \x03(\x0b\x32\x16.ActivityShopSheetInfo\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GetActivityShopSheetInfoRsp.proto\x1a\x1b\x41\x63tivityShopSheetInfo.proto\"r\n\x1bGetActivityShopSheetInfoRsp\x12/\n\x0fsheet_info_list\x18\r \x03(\x0b\x32\x16.ActivityShopSheetInfo\x12\x11\n\tshop_type\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetActivityShopSheetInfoRsp
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETACTIVITYSHOPSHEETINFORSP']._serialized_start=66
-  _globals['_GETACTIVITYSHOPSHEETINFORSP']._serialized_end=177
+  _globals['_GETACTIVITYSHOPSHEETINFORSP']._serialized_end=180
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x44ungeonDataNotify.proto\"\x8a\x01\n\x11\x44ungeonDataNotify\x12>\n\x0e\x64ungeonDataMap\x18\x06 \x03(\x0b\x32&.DungeonDataNotify.DungeonDataMapEntry\x1a\x35\n\x13\x44ungeonDataMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x44ungeonDataNotify.proto\"\x8c\x01\n\x11\x44ungeonDataNotify\x12@\n\x10\x64ungeon_data_map\x18\x06 \x03(\x0b\x32&.DungeonDataNotify.DungeonDataMapEntry\x1a\x35\n\x13\x44ungeonDataMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,11 +21,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonDataNotify_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _DUNGEONDATANOTIFY_DUNGEONDATAMAPENTRY._options = None
   _DUNGEONDATANOTIFY_DUNGEONDATAMAPENTRY._serialized_options = b'8\001'
   _globals['_DUNGEONDATANOTIFY']._serialized_start=28
-  _globals['_DUNGEONDATANOTIFY']._serialized_end=166
-  _globals['_DUNGEONDATANOTIFY_DUNGEONDATAMAPENTRY']._serialized_start=113
-  _globals['_DUNGEONDATANOTIFY_DUNGEONDATAMAPENTRY']._serialized_end=166
+  _globals['_DUNGEONDATANOTIFY']._serialized_end=168
+  _globals['_DUNGEONDATANOTIFY_DUNGEONDATAMAPENTRY']._serialized_start=115
+  _globals['_DUNGEONDATANOTIFY_DUNGEONDATAMAPENTRY']._serialized_end=168
 # @@protoc_insertion_point(module_scope)

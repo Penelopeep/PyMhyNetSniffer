@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43\x61rdProductRewardNotify.proto\"O\n\x17\x43\x61rdProductRewardNotify\x12\x11\n\tproductId\x18\t \x01(\t\x12\r\n\x05hcoin\x18\x06 \x01(\r\x12\x12\n\nremainDays\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43\x61rdProductRewardNotify.proto\"W\n\x17\x43\x61rdProductRewardNotify\x12\x13\n\x0bMIBMBPJHBBM\x18\x02 \x01(\r\x12\x13\n\x0bLLBAKMPCPGI\x18\x06 \x01(\r\x12\x12\n\nproduct_id\x18\x0f \x01(\tB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CardProductRewardNotify_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CARDPRODUCTREWARDNOTIFY']._serialized_start=33
-  _globals['_CARDPRODUCTREWARDNOTIFY']._serialized_end=112
+  _globals['_CARDPRODUCTREWARDNOTIFY']._serialized_end=120
 # @@protoc_insertion_point(module_scope)

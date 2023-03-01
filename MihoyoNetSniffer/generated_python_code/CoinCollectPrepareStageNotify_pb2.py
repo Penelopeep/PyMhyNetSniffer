@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import CoinCollectInfo_pb2 as CoinCollectInfo__pb2
+import CoinCollectStageInfo_pb2 as CoinCollectStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#CoinCollectPrepareStageNotify.proto\x1a\x15\x43oinCollectInfo.proto\"F\n\x1d\x43oinCollectPrepareStageNotify\x12%\n\x0blocpgggjmdl\x18\x07 \x01(\x0b\x32\x10.CoinCollectInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#CoinCollectPrepareStageNotify.proto\x1a\x1a\x43oinCollectStageInfo.proto\"Q\n\x1d\x43oinCollectPrepareStageNotify\x12\x30\n\x11\x63oin_collect_info\x18\t \x01(\x0b\x32\x15.CoinCollectStageInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoinCollectPrepareStageNoti
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_COINCOLLECTPREPARESTAGENOTIFY']._serialized_start=62
-  _globals['_COINCOLLECTPREPARESTAGENOTIFY']._serialized_end=132
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_COINCOLLECTPREPARESTAGENOTIFY']._serialized_start=67
+  _globals['_COINCOLLECTPREPARESTAGENOTIFY']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ScenePlayInfo.proto\"R\n\rScenePlayInfo\x12\x0f\n\x07\x65ntryId\x18\x01 \x01(\r\x12\x0e\n\x06playId\x18\x08 \x01(\r\x12\x0e\n\x06isOpen\x18\x02 \x01(\x08\x12\x10\n\x08playType\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ScenePlayInfo.proto\"V\n\rScenePlayInfo\x12\x0f\n\x07is_open\x18\x04 \x01(\x08\x12\x11\n\tplay_type\x18\x0f \x01(\r\x12\x0f\n\x07play_id\x18\t \x01(\r\x12\x10\n\x08\x65ntry_id\x18\n \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayInfo_pb2', _global
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SCENEPLAYINFO']._serialized_start=23
-  _globals['_SCENEPLAYINFO']._serialized_end=105
+  _globals['_SCENEPLAYINFO']._serialized_end=109
 # @@protoc_insertion_point(module_scope)

@@ -131,3 +131,6 @@ dmypy.json
 .pyre/
 
 dumped/
+
+#hehe
+MihoyoNetSniffer/gui.py

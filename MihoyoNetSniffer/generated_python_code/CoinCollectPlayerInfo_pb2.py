@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CoinCollectTeamAvatarInfo_pb2 as CoinCollectTeamAvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43oinCollectPlayerInfo.proto\x1a\x1f\x43oinCollectTeamAvatarInfo.proto\"\x9e\x01\n\x15\x43oinCollectPlayerInfo\x12\x32\n\x0e\x61vatarInfoList\x18\x0e \x03(\x0b\x32\x1a.CoinCollectTeamAvatarInfo\x12\x13\n\x0b\x64\x64\x62hiknpgnp\x18\x08 \x01(\x08\x12\x15\n\rchooseSkillNo\x18\n \x01(\r\x12\x12\n\nplayerName\x18\x04 \x01(\t\x12\x11\n\tplayerUid\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43oinCollectPlayerInfo.proto\x1a\x1f\x43oinCollectTeamAvatarInfo.proto\"\xa3\x01\n\x15\x43oinCollectPlayerInfo\x12\x13\n\x0bplayer_name\x18\x0c \x01(\t\x12\x12\n\nplayer_uid\x18\x06 \x01(\r\x12\x12\n\nis_prepare\x18\x05 \x01(\x08\x12\x34\n\x10\x61vatar_info_list\x18\x04 \x03(\x0b\x32\x1a.CoinCollectTeamAvatarInfo\x12\x17\n\x0f\x63hoose_skill_no\x18\x02 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoinCollectPlayerInfo_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_COINCOLLECTPLAYERINFO']._serialized_start=65
-  _globals['_COINCOLLECTPLAYERINFO']._serialized_end=223
+  _globals['_COINCOLLECTPLAYERINFO']._serialized_end=228
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)GameplayRecommendationSkillResponse.proto\"T\n#GameplayRecommendationSkillResponse\x12\x15\n\rskill_id_list\x18\x01 \x03(\r\x12\x16\n\x0eskill_depot_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)GameplayRecommendationSkillResponse.proto\"T\n#GameplayRecommendationSkillResponse\x12\x16\n\x0eskill_depot_id\x18\x02 \x01(\r\x12\x15\n\rskill_id_list\x18\x06 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GameplayRecommendationSkillResponse_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GameplayRecommendationSkillResponse_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GAMEPLAYRECOMMENDATIONSKILLRESPONSE._serialized_start=45
-  _GAMEPLAYRECOMMENDATIONSKILLRESPONSE._serialized_end=129
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GAMEPLAYRECOMMENDATIONSKILLRESPONSE']._serialized_start=45
+  _globals['_GAMEPLAYRECOMMENDATIONSKILLRESPONSE']._serialized_end=129
 # @@protoc_insertion_point(module_scope)

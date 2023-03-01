@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x42\x61rtenderCompleteOrderRsp.proto\"\x89\x01\n\x19\x42\x61rtenderCompleteOrderRsp\x12\x11\n\taffixList\x18\x0b \x03(\r\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x0f\n\x07questId\x18\x06 \x01(\r\x12\x15\n\rfinishOrderId\x18\x07 \x01(\r\x12\r\n\x05isNew\x18\x0e \x01(\x08\x12\x11\n\tformulaId\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x42\x61rtenderCompleteOrderRsp.proto\"\x8f\x01\n\x19\x42\x61rtenderCompleteOrderRsp\x12\x10\n\x08quest_id\x18\x0f \x01(\r\x12\x12\n\nformula_id\x18\x06 \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x17\n\x0f\x66inish_order_id\x18\x08 \x01(\r\x12\x12\n\naffix_list\x18\x0e \x03(\r\x12\x0e\n\x06is_new\x18\x05 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BartenderCompleteOrderRsp_p
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BARTENDERCOMPLETEORDERRSP']._serialized_start=36
-  _globals['_BARTENDERCOMPLETEORDERRSP']._serialized_end=173
+  _globals['_BARTENDERCOMPLETEORDERRSP']._serialized_end=179
 # @@protoc_insertion_point(module_scope)

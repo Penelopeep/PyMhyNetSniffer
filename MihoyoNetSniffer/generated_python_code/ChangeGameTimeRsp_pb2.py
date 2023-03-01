@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43hangeGameTimeRsp.proto\"L\n\x11\x43hangeGameTimeRsp\x12\x13\n\x0b\x63urGameTime\x18\x0f \x01(\r\x12\x11\n\textraDays\x18\x05 \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43hangeGameTimeRsp.proto\"O\n\x11\x43hangeGameTimeRsp\x12\x15\n\rcur_game_time\x18\r \x01(\r\x12\x12\n\nextra_days\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeGameTimeRsp_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CHANGEGAMETIMERSP']._serialized_start=27
-  _globals['_CHANGEGAMETIMERSP']._serialized_end=103
+  _globals['_CHANGEGAMETIMERSP']._serialized_end=106
 # @@protoc_insertion_point(module_scope)

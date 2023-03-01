@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45xhibitionDisplayInfo.proto\"G\n\x15\x45xhibitionDisplayInfo\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05param\x18\x02 \x01(\r\x12\x13\n\x0b\x64\x65tailParam\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45xhibitionDisplayInfo.proto\"H\n\x15\x45xhibitionDisplayInfo\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05param\x18\x02 \x01(\r\x12\x14\n\x0c\x64\x65tail_param\x18\x03 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExhibitionDisplayInfo_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_EXHIBITIONDISPLAYINFO']._serialized_start=31
-  _globals['_EXHIBITIONDISPLAYINFO']._serialized_end=102
+  _globals['_EXHIBITIONDISPLAYINFO']._serialized_end=103
 # @@protoc_insertion_point(module_scope)

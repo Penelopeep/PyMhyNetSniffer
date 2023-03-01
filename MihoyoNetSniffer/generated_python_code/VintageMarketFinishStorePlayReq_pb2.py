@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import VintageMarketStoreOpInfo_pb2 as VintageMarketStoreOpInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%VintageMarketFinishStorePlayReq.proto\x1a\x1eVintageMarketStoreOpInfo.proto\"e\n\x1fVintageMarketFinishStorePlayReq\x12\x12\n\nstoreRound\x18\x08 \x01(\r\x12.\n\x0bstoreOpList\x18\x0c \x03(\x0b\x32\x19.VintageMarketStoreOpInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%VintageMarketFinishStorePlayReq.proto\x1a\x1eVintageMarketStoreOpInfo.proto\"h\n\x1fVintageMarketFinishStorePlayReq\x12\x13\n\x0bstore_round\x18\n \x01(\r\x12\x30\n\rstore_op_list\x18\x0e \x03(\x0b\x32\x19.VintageMarketStoreOpInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageMarketFinishStorePla
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_VINTAGEMARKETFINISHSTOREPLAYREQ']._serialized_start=73
-  _globals['_VINTAGEMARKETFINISHSTOREPLAYREQ']._serialized_end=174
+  _globals['_VINTAGEMARKETFINISHSTOREPLAYREQ']._serialized_end=177
 # @@protoc_insertion_point(module_scope)

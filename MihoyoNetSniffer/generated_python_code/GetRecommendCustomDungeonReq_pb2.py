@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GetRecommendCustomDungeonReq.proto\"1\n\x1cGetRecommendCustomDungeonReq\x12\x11\n\tisRefresh\x18\x06 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GetRecommendCustomDungeonReq.proto\"2\n\x1cGetRecommendCustomDungeonReq\x12\x12\n\nis_refresh\x18\x0c \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetRecommendCustomDungeonRe
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETRECOMMENDCUSTOMDUNGEONREQ']._serialized_start=38
-  _globals['_GETRECOMMENDCUSTOMDUNGEONREQ']._serialized_end=87
+  _globals['_GETRECOMMENDCUSTOMDUNGEONREQ']._serialized_end=88
 # @@protoc_insertion_point(module_scope)

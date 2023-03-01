@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BattlePassRewardTakeOption_pb2 as BattlePassRewardTakeOption__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTakeBattlePassRewardReq.proto\x1a BattlePassRewardTakeOption.proto\"N\n\x17TakeBattlePassRewardReq\x12\x33\n\x0etakeOptionList\x18\x01 \x03(\x0b\x32\x1b.BattlePassRewardTakeOptionB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTakeBattlePassRewardReq.proto\x1a BattlePassRewardTakeOption.proto\"P\n\x17TakeBattlePassRewardReq\x12\x35\n\x10take_option_list\x18\x0b \x03(\x0b\x32\x1b.BattlePassRewardTakeOptionB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeBattlePassRewardReq_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TAKEBATTLEPASSREWARDREQ']._serialized_start=67
-  _globals['_TAKEBATTLEPASSREWARDREQ']._serialized_end=145
+  _globals['_TAKEBATTLEPASSREWARDREQ']._serialized_end=147
 # @@protoc_insertion_point(module_scope)

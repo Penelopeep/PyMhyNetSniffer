@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'BrickBreakerPlayerSetAvatarNotify.proto\"]\n!BrickBreakerPlayerSetAvatarNotify\x12\x15\n\rcostumeIdList\x18\x06 \x03(\r\x12\x0b\n\x03uid\x18\x03 \x01(\r\x12\x14\n\x0c\x61vatarIdList\x18\r \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'BrickBreakerPlayerSetAvatarNotify.proto\"a\n!BrickBreakerPlayerSetAvatarNotify\x12\x0b\n\x03uid\x18\x0b \x01(\r\x12\x17\n\x0f\x63ostume_id_list\x18\x0e \x03(\r\x12\x16\n\x0e\x61vatar_id_list\x18\x05 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BrickBreakerPlayerSetAvatar
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BRICKBREAKERPLAYERSETAVATARNOTIFY']._serialized_start=43
-  _globals['_BRICKBREAKERPLAYERSETAVATARNOTIFY']._serialized_end=136
+  _globals['_BRICKBREAKERPLAYERSETAVATARNOTIFY']._serialized_end=140
 # @@protoc_insertion_point(module_scope)

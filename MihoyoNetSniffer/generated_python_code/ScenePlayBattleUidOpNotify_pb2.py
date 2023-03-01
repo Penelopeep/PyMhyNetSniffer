@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ScenePlayBattleUidOpNotify.proto\"\xd6\x01\n\x1aScenePlayBattleUidOpNotify\x12\x10\n\x08\x65ntityId\x18\x04 \x01(\r\x12\x12\n\nparamIndex\x18\x07 \x01(\r\x12\x17\n\x0fparamTargetList\x18\t \x03(\r\x12\x0f\n\x07uidList\x18\x01 \x03(\r\x12\x0e\n\x06playId\x18\x0b \x01(\r\x12\x11\n\tparamList\x18\x02 \x03(\r\x12\x10\n\x08playType\x18\x05 \x01(\r\x12\n\n\x02op\x18\r \x01(\r\x12\x10\n\x08paramStr\x18\x0c \x01(\t\x12\x15\n\rparamDuration\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ScenePlayBattleUidOpNotify.proto\"\xe0\x01\n\x1aScenePlayBattleUidOpNotify\x12\x11\n\tparam_str\x18\x06 \x01(\t\x12\x10\n\x08uid_list\x18\x05 \x03(\r\x12\x13\n\x0bparam_index\x18\x08 \x01(\r\x12\x16\n\x0eparam_duration\x18\x0c \x01(\r\x12\x0f\n\x07play_id\x18\x0b \x01(\r\x12\x19\n\x11param_target_list\x18\r \x03(\r\x12\x11\n\tplay_type\x18\x02 \x01(\r\x12\x12\n\nparam_list\x18\x03 \x03(\r\x12\n\n\x02op\x18\x04 \x01(\r\x12\x11\n\tentity_id\x18\n \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayBattleUidOpNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SCENEPLAYBATTLEUIDOPNOTIFY']._serialized_start=37
-  _globals['_SCENEPLAYBATTLEUIDOPNOTIFY']._serialized_end=251
+  _globals['_SCENEPLAYBATTLEUIDOPNOTIFY']._serialized_end=261
 # @@protoc_insertion_point(module_scope)

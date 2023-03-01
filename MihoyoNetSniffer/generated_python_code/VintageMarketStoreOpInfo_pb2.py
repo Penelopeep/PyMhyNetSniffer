@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eVintageMarketStoreOpInfo.proto\"|\n\x18VintageMarketStoreOpInfo\x12\x0f\n\x07helpUid\x18\x0e \x01(\r\x12\x13\n\x0bhelpSkillId\x18\r \x01(\r\x12\x13\n\x0b\x61\x64\x64\x41ttrList\x18\x03 \x03(\r\x12\x0f\n\x07storeId\x18\x02 \x01(\r\x12\x14\n\x0cstrategyList\x18\x04 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eVintageMarketStoreOpInfo.proto\"\x84\x01\n\x18VintageMarketStoreOpInfo\x12\x13\n\x0bOMJNBCDJOOM\x18\x05 \x01(\r\x12\x10\n\x08store_id\x18\x0b \x01(\r\x12\x13\n\x0b\x46MMECOPACKC\x18\n \x01(\r\x12\x15\n\radd_attr_list\x18\x0c \x03(\r\x12\x15\n\rstrategy_list\x18\x04 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageMarketStoreOpInfo_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_VINTAGEMARKETSTOREOPINFO']._serialized_start=34
-  _globals['_VINTAGEMARKETSTOREOPINFO']._serialized_end=158
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_VINTAGEMARKETSTOREOPINFO']._serialized_start=35
+  _globals['_VINTAGEMARKETSTOREOPINFO']._serialized_end=167
 # @@protoc_insertion_point(module_scope)

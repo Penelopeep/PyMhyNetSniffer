@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bItemCdGroupTimeNotify.proto\"\x83\x01\n\x15ItemCdGroupTimeNotify\x12\x38\n\titemCdMap\x18\r \x03(\x0b\x32%.ItemCdGroupTimeNotify.ItemCdMapEntry\x1a\x30\n\x0eItemCdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x04:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bItemCdGroupTimeNotify.proto\"\x85\x01\n\x15ItemCdGroupTimeNotify\x12:\n\x0bitem_cd_map\x18\x03 \x03(\x0b\x32%.ItemCdGroupTimeNotify.ItemCdMapEntry\x1a\x30\n\x0eItemCdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x04:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,11 +21,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ItemCdGroupTimeNotify_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _ITEMCDGROUPTIMENOTIFY_ITEMCDMAPENTRY._options = None
   _ITEMCDGROUPTIMENOTIFY_ITEMCDMAPENTRY._serialized_options = b'8\001'
   _globals['_ITEMCDGROUPTIMENOTIFY']._serialized_start=32
-  _globals['_ITEMCDGROUPTIMENOTIFY']._serialized_end=163
-  _globals['_ITEMCDGROUPTIMENOTIFY_ITEMCDMAPENTRY']._serialized_start=115
-  _globals['_ITEMCDGROUPTIMENOTIFY_ITEMCDMAPENTRY']._serialized_end=163
+  _globals['_ITEMCDGROUPTIMENOTIFY']._serialized_end=165
+  _globals['_ITEMCDGROUPTIMENOTIFY_ITEMCDMAPENTRY']._serialized_start=117
+  _globals['_ITEMCDGROUPTIMENOTIFY_ITEMCDMAPENTRY']._serialized_end=165
 # @@protoc_insertion_point(module_scope)

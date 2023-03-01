@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18HideAndSeekMapInfo.proto\"5\n\x12HideAndSeekMapInfo\x12\n\n\x02id\x18\x07 \x01(\r\x12\x13\n\x0bkccalkjgkkd\x18\x05 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18HideAndSeekMapInfo.proto\"@\n\x12HideAndSeekMapInfo\x12\n\n\x02id\x18\x01 \x01(\r\x12\x1e\n\x16match_lock_reason_list\x18\x03 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekMapInfo_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HIDEANDSEEKMAPINFO']._serialized_start=28
-  _globals['_HIDEANDSEEKMAPINFO']._serialized_end=81
+  _globals['_HIDEANDSEEKMAPINFO']._serialized_end=92
 # @@protoc_insertion_point(module_scope)

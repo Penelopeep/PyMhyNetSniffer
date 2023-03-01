@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DeshretObeliskChestInfo_pb2 as DeshretObeliskChestInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DeshretObeliskChestInfoNotify.proto\x1a\x1d\x44\x65shretObeliskChestInfo.proto\"P\n\x1d\x44\x65shretObeliskChestInfoNotify\x12/\n\rchestInfoList\x18\x04 \x03(\x0b\x32\x18.DeshretObeliskChestInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DeshretObeliskChestInfoNotify.proto\x1a\x1d\x44\x65shretObeliskChestInfo.proto\"R\n\x1d\x44\x65shretObeliskChestInfoNotify\x12\x31\n\x0f\x63hest_info_list\x18\x0c \x03(\x0b\x32\x18.DeshretObeliskChestInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeshretObeliskChestInfoNoti
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DESHRETOBELISKCHESTINFONOTIFY']._serialized_start=70
-  _globals['_DESHRETOBELISKCHESTINFONOTIFY']._serialized_end=150
+  _globals['_DESHRETOBELISKCHESTINFONOTIFY']._serialized_end=152
 # @@protoc_insertion_point(module_scope)

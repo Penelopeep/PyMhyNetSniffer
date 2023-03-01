@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMsgParam.proto\"R\n\x08MsgParam\x12\x13\n\tint_param\x18\n \x01(\rH\x00\x12\x13\n\tflt_param\x18\x07 \x01(\x02H\x00\x12\x13\n\tstr_param\x18\x0f \x01(\tH\x00\x42\x07\n\x05paramB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMsgParam.proto\"R\n\x08MsgParam\x12\x13\n\tint_param\x18\x03 \x01(\rH\x00\x12\x13\n\tflt_param\x18\x05 \x01(\x02H\x00\x12\x13\n\tstr_param\x18\x08 \x01(\tH\x00\x42\x07\n\x05paramB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MsgParam_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_MSGPARAM']._serialized_start=18
   _globals['_MSGPARAM']._serialized_end=100
 # @@protoc_insertion_point(module_scope)

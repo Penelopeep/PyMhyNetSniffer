@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41sterLargeDetailInfo.proto\"9\n\x14\x41sterLargeDetailInfo\x12\x0e\n\x06isOpen\x18\x03 \x01(\x08\x12\x11\n\tbeginTime\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41sterLargeDetailInfo.proto\";\n\x14\x41sterLargeDetailInfo\x12\x0f\n\x07is_open\x18\n \x01(\x08\x12\x12\n\nbegin_time\x18\x02 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AsterLargeDetailInfo_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ASTERLARGEDETAILINFO']._serialized_start=30
-  _globals['_ASTERLARGEDETAILINFO']._serialized_end=87
+  _globals['_ASTERLARGEDETAILINFO']._serialized_end=89
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46orgeQueueData.proto\"\xab\x01\n\x0e\x46orgeQueueData\x12\x0f\n\x07\x66orgeId\x18\x06 \x01(\r\x12\x13\n\x0b\x66inishCount\x18\x01 \x01(\r\x12\x0f\n\x07queueId\x18\t \x01(\r\x12\x15\n\runfinishCount\x18\x08 \x01(\r\x12\x1c\n\x14totalFinishTimestamp\x18\x0b \x01(\r\x12\x10\n\x08\x61vatarId\x18\x0c \x01(\r\x12\x1b\n\x13nextFinishTimestamp\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46orgeQueueData.proto\"\x9e\x01\n\x0e\x46orgeQueueData\x12\x13\n\x0bNEGHCLJNONO\x18\x0b \x01(\r\x12\x11\n\tavatar_id\x18\r \x01(\r\x12\x10\n\x08\x66orge_id\x18\x03 \x01(\r\x12\x13\n\x0bIJIGJHCPBIO\x18\x06 \x01(\r\x12\x13\n\x0b\x44PLHKMGEIKA\x18\x05 \x01(\r\x12\x13\n\x0bGFMEEGMBJKI\x18\x02 \x01(\r\x12\x13\n\x0bKOLFAOPJMFA\x18\n \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeQueueData_pb2', _globa
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_FORGEQUEUEDATA']._serialized_start=25
-  _globals['_FORGEQUEUEDATA']._serialized_end=196
+  _globals['_FORGEQUEUEDATA']._serialized_end=183
 # @@protoc_insertion_point(module_scope)

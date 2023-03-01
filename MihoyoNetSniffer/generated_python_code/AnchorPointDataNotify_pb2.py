@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AnchorPointData_pb2 as AnchorPointData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41nchorPointDataNotify.proto\x1a\x15\x41nchorPointData.proto\"Z\n\x15\x41nchorPointDataNotify\x12\x16\n\x0enextUsableTime\x18\n \x01(\r\x12)\n\x0f\x61nchorPointList\x18\x0b \x03(\x0b\x32\x10.AnchorPointDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41nchorPointDataNotify.proto\x1a\x15\x41nchorPointData.proto\"^\n\x15\x41nchorPointDataNotify\x12+\n\x11\x61nchor_point_list\x18\x0f \x03(\x0b\x32\x10.AnchorPointData\x12\x18\n\x10next_usable_time\x18\x07 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnchorPointDataNotify_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ANCHORPOINTDATANOTIFY']._serialized_start=54
-  _globals['_ANCHORPOINTDATANOTIFY']._serialized_end=144
+  _globals['_ANCHORPOINTDATANOTIFY']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

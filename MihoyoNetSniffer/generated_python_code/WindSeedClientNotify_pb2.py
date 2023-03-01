@@ -12,10 +12,9 @@ _sym_db = _symbol_database.Default()
 
 
 import Vector_pb2 as Vector__pb2
-import bytes_pb2 as bytes__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWindSeedClientNotify.proto\x1a\x0cVector.proto\x1a\x0b\x62ytes.proto\"\xb7\x03\n\x14WindSeedClientNotify\x12=\n\x0erefresh_notify\x18\x0b \x01(\x0b\x32#.WindSeedClientNotify.RefreshNotifyH\x00\x12K\n\x16\x61\x64\x64_wind_bullet_notify\x18\x08 \x01(\x0b\x32).WindSeedClientNotify.AddWindBulletNotifyH\x00\x12\x37\n\x0b\x61rea_notify\x18\x02 \x01(\x0b\x32 .WindSeedClientNotify.AreaNotifyH\x00\x1a#\n\rRefreshNotify\x12\x12\n\nrefreshNum\x18\r \x01(\r\x1ai\n\x13\x41\x64\x64WindBulletNotify\x12\x1b\n\x13Unk3300_CKIKKCAFJBC\x18\x01 \x01(\r\x12\x18\n\x07seedPos\x18\n \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_MPDFAPBDJAH\x18\r \x01(\r\x1a@\n\nAreaNotify\x12\x10\n\x08\x61reaType\x18\x05 \x01(\r\x12\x0e\n\x06\x61reaId\x18\x0c \x01(\r\x12\x10\n\x08\x61reaCode\x18\x01 \x01(\x0c\x42\x08\n\x06notifyB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWindSeedClientNotify.proto\x1a\x0cVector.proto\"\xac\x03\n\x14WindSeedClientNotify\x12=\n\x0erefresh_notify\x18\r \x01(\x0b\x32#.WindSeedClientNotify.RefreshNotifyH\x00\x12K\n\x16\x61\x64\x64_wind_bullet_notify\x18\x04 \x01(\x0b\x32).WindSeedClientNotify.AddWindBulletNotifyH\x00\x12\x37\n\x0b\x61rea_notify\x18\x0c \x01(\x0b\x32 .WindSeedClientNotify.AreaNotifyH\x00\x1a$\n\rRefreshNotify\x12\x13\n\x0brefresh_num\x18\x08 \x01(\r\x1aZ\n\x13\x41\x64\x64WindBulletNotify\x12\x13\n\x0bICPHHBKENBN\x18\x0c \x01(\r\x12\x13\n\x0b\x45\x41IILHENDGN\x18\r \x01(\r\x12\x19\n\x08seed_pos\x18\x07 \x01(\x0b\x32\x07.Vector\x1a\x43\n\nAreaNotify\x12\x0f\n\x07\x61rea_id\x18\x0c \x01(\r\x12\x11\n\tarea_type\x18\t \x01(\r\x12\x11\n\tarea_code\x18\x02 \x01(\x0c\x42\x08\n\x06notifyB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,13 +22,13 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WindSeedClientNotify_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_WINDSEEDCLIENTNOTIFY']._serialized_start=58
-  _globals['_WINDSEEDCLIENTNOTIFY']._serialized_end=497
-  _globals['_WINDSEEDCLIENTNOTIFY_REFRESHNOTIFY']._serialized_start=279
-  _globals['_WINDSEEDCLIENTNOTIFY_REFRESHNOTIFY']._serialized_end=314
-  _globals['_WINDSEEDCLIENTNOTIFY_ADDWINDBULLETNOTIFY']._serialized_start=316
-  _globals['_WINDSEEDCLIENTNOTIFY_ADDWINDBULLETNOTIFY']._serialized_end=421
-  _globals['_WINDSEEDCLIENTNOTIFY_AREANOTIFY']._serialized_start=423
-  _globals['_WINDSEEDCLIENTNOTIFY_AREANOTIFY']._serialized_end=487
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_WINDSEEDCLIENTNOTIFY']._serialized_start=45
+  _globals['_WINDSEEDCLIENTNOTIFY']._serialized_end=473
+  _globals['_WINDSEEDCLIENTNOTIFY_REFRESHNOTIFY']._serialized_start=266
+  _globals['_WINDSEEDCLIENTNOTIFY_REFRESHNOTIFY']._serialized_end=302
+  _globals['_WINDSEEDCLIENTNOTIFY_ADDWINDBULLETNOTIFY']._serialized_start=304
+  _globals['_WINDSEEDCLIENTNOTIFY_ADDWINDBULLETNOTIFY']._serialized_end=394
+  _globals['_WINDSEEDCLIENTNOTIFY_AREANOTIFY']._serialized_start=396
+  _globals['_WINDSEEDCLIENTNOTIFY_AREANOTIFY']._serialized_end=463
 # @@protoc_insertion_point(module_scope)

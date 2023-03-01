@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EnterCustomDungeonType_pb2 as EnterCustomDungeonType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45nterCustomDungeonReq.proto\x1a\x1c\x45nterCustomDungeonType.proto\"k\n\x15\x45nterCustomDungeonReq\x12*\n\tenterType\x18\x02 \x01(\x0e\x32\x17.EnterCustomDungeonType\x12\x11\n\tdungeonId\x18\r \x01(\r\x12\x13\n\x0b\x64ungeonGuid\x18\x03 \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45nterCustomDungeonReq.proto\x1a\x1c\x45nterCustomDungeonType.proto\"n\n\x15\x45nterCustomDungeonReq\x12\x14\n\x0c\x64ungeon_guid\x18\x03 \x01(\x04\x12\x12\n\ndungeon_id\x18\x02 \x01(\r\x12+\n\nenter_type\x18\x06 \x01(\x0e\x32\x17.EnterCustomDungeonTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterCustomDungeonReq_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ENTERCUSTOMDUNGEONREQ']._serialized_start=61
-  _globals['_ENTERCUSTOMDUNGEONREQ']._serialized_end=168
+  _globals['_ENTERCUSTOMDUNGEONREQ']._serialized_end=171
 # @@protoc_insertion_point(module_scope)

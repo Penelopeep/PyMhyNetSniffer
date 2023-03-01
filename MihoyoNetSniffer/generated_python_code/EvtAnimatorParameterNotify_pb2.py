@@ -15,7 +15,7 @@ import EvtAnimatorParameterInfo_pb2 as EvtAnimatorParameterInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n EvtAnimatorParameterNotify.proto\x1a\x1e\x45vtAnimatorParameterInfo.proto\x1a\x11\x46orwardType.proto\"u\n\x1a\x45vtAnimatorParameterNotify\x12\x34\n\x11\x61nimatorParamInfo\x18\n \x01(\x0b\x32\x19.EvtAnimatorParameterInfo\x12!\n\x0b\x66orwardType\x18\x04 \x01(\x0e\x32\x0c.ForwardTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n EvtAnimatorParameterNotify.proto\x1a\x1e\x45vtAnimatorParameterInfo.proto\x1a\x11\x46orwardType.proto\"x\n\x1a\x45vtAnimatorParameterNotify\x12\x36\n\x13\x61nimator_param_info\x18\x04 \x01(\x0b\x32\x19.EvtAnimatorParameterInfo\x12\"\n\x0c\x66orward_type\x18\x0e \x01(\x0e\x32\x0c.ForwardTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAnimatorParameterNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_EVTANIMATORPARAMETERNOTIFY']._serialized_start=87
-  _globals['_EVTANIMATORPARAMETERNOTIFY']._serialized_end=204
+  _globals['_EVTANIMATORPARAMETERNOTIFY']._serialized_end=207
 # @@protoc_insertion_point(module_scope)

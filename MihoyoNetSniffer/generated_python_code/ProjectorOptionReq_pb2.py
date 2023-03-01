@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18ProjectorOptionReq.proto\"6\n\x12ProjectorOptionReq\x12\x0e\n\x06opType\x18\x0f \x01(\r\x12\x10\n\x08\x65ntityId\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18ProjectorOptionReq.proto\"\x9e\x01\n\x12ProjectorOptionReq\x12\x0f\n\x07op_type\x18\x07 \x01(\r\x12\x11\n\tentity_id\x18\x04 \x01(\r\"d\n\x0b\x42\x42KDNKKPBNN\x12\x1b\n\x17\x42\x42KDNKKPBNN_GGELPENFCJK\x10\x00\x12\x1b\n\x17\x42\x42KDNKKPBNN_DFLAGIJHLLB\x10\x01\x12\x1b\n\x17\x42\x42KDNKKPBNN_ABDNMKKFHHI\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ProjectorOptionReq_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_PROJECTOROPTIONREQ']._serialized_start=28
-  _globals['_PROJECTOROPTIONREQ']._serialized_end=82
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_PROJECTOROPTIONREQ']._serialized_start=29
+  _globals['_PROJECTOROPTIONREQ']._serialized_end=187
+  _globals['_PROJECTOROPTIONREQ_BBKDNKKPBNN']._serialized_start=87
+  _globals['_PROJECTOROPTIONREQ_BBKDNKKPBNN']._serialized_end=187
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fShopGoods.proto\x1a\x0fItemParam.proto\"\xc8\x03\n\tShopGoods\x12\x1c\n\x13Unk3300_MBGOMHNBHMG\x18\x8f\x05 \x01(\r\x12\x10\n\x08maxLevel\x18\x03 \x01(\r\x12\r\n\x05hcoin\x18\r \x01(\r\x12\x19\n\x10secondarySheetId\x18\xeb\x02 \x01(\r\x12\r\n\x05scoin\x18\x0b \x01(\r\x12\x0f\n\x07goodsId\x18\x02 \x01(\r\x12\x10\n\x08\x62uyLimit\x18\n \x01(\r\x12\x16\n\x0epreGoodsIdList\x18\x0c \x03(\r\x12\x1d\n\tgoodsItem\x18\x06 \x01(\x0b\x32\n.ItemParam\x12 \n\x0c\x63ostItemList\x18\x07 \x03(\x0b\x32\n.ItemParam\x12\x14\n\x0bsingleLimit\x18\xa8\x03 \x01(\r\x12\x17\n\x0fnextRefreshTime\x18\x01 \x01(\r\x12\x1c\n\x13Unk3300_NJCPAJBCEPH\x18\xb6\x01 \x01(\r\x12\x11\n\tboughtNum\x18\x04 \x01(\r\x12\x1c\n\x13Unk3300_OMKIFIMDGDN\x18\xfc\x04 \x01(\r\x12\x10\n\x08minLevel\x18\x0e \x01(\r\x12\x0f\n\x07\x65ndTime\x18\x0f \x01(\r\x12\x11\n\tbeginTime\x18\x08 \x01(\r\x12\x13\n\x0b\x64isableType\x18\t \x01(\r\x12\r\n\x05mcoin\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fShopGoods.proto\x1a\x0fItemParam.proto\"\xd6\x03\n\tShopGoods\x12\x13\n\x0bOCIGJMBPIMN\x18\x07 \x01(\r\x12\x14\n\x0bJAFFFHILNCD\x18\x99\x0e \x01(\r\x12\x1e\n\ngoods_item\x18\x08 \x01(\x0b\x32\n.ItemParam\x12\x10\n\x08\x65nd_time\x18\x0c \x01(\r\x12\x13\n\x0bJPCBEPKDBGA\x18\x0e \x01(\r\x12\x19\n\x11pre_goods_id_list\x18\x03 \x03(\r\x12\x14\n\x0b\x41LOPKNFLFBE\x18\xba\x04 \x01(\r\x12\x13\n\x0bKCHMFBKCLKO\x18\x04 \x01(\r\x12\x13\n\x0bGOMAIIJPDKD\x18\t \x01(\r\x12\x13\n\x0bHBAEGHNDCKB\x18\x0b \x01(\r\x12\x14\n\x0bKKINAOMJKAD\x18\xf9\x03 \x01(\r\x12\x13\n\x0b\x46GACANHEBMH\x18\x06 \x01(\r\x12\x12\n\nbegin_time\x18\x05 \x01(\r\x12\x19\n\x11next_refresh_time\x18\n \x01(\r\x12\"\n\x0e\x63ost_item_list\x18\x01 \x03(\x0b\x32\n.ItemParam\x12\x14\n\x0bLMOPLEOOIJM\x18\xbb\x0b \x01(\r\x12\x13\n\x0bLLJPJOEMPFE\x18\x0f \x01(\r\x12\x13\n\x0bMIBMBPJHBBM\x18\x02 \x01(\r\x12\x14\n\x0bLLCOFLCEKDB\x18\xc0\n \x01(\r\x12\x13\n\x0b\x43\x41\x42PCJFGBLJ\x18\r \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ShopGoods_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SHOPGOODS']._serialized_start=37
-  _globals['_SHOPGOODS']._serialized_end=493
+  _globals['_SHOPGOODS']._serialized_end=507
 # @@protoc_insertion_point(module_scope)

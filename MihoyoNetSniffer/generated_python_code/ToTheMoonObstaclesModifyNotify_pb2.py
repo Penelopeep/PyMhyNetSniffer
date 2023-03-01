@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ToTheMoonObstacleInfo_pb2 as ToTheMoonObstacleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$ToTheMoonObstaclesModifyNotify.proto\x1a\x1bToTheMoonObstacleInfo.proto\"\x8b\x01\n\x1eToTheMoonObstaclesModifyNotify\x12\x0f\n\x07useEdge\x18\n \x01(\x08\x12\x0f\n\x07sceneId\x18\x0b \x01(\r\x12\x19\n\x11removeObstacleIds\x18\x04 \x03(\x05\x12,\n\x0c\x61\x64\x64Obstacles\x18\x0e \x03(\x0b\x32\x16.ToTheMoonObstacleInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$ToTheMoonObstaclesModifyNotify.proto\x1a\x1bToTheMoonObstacleInfo.proto\"\x90\x01\n\x1eToTheMoonObstaclesModifyNotify\x12\x10\n\x08scene_id\x18\x04 \x01(\r\x12-\n\radd_obstacles\x18\x01 \x03(\x0b\x32\x16.ToTheMoonObstacleInfo\x12\x10\n\x08use_edge\x18\x05 \x01(\x08\x12\x1b\n\x13remove_obstacle_ids\x18\x0b \x03(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ToTheMoonObstaclesModifyNot
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TOTHEMOONOBSTACLESMODIFYNOTIFY']._serialized_start=70
-  _globals['_TOTHEMOONOBSTACLESMODIFYNOTIFY']._serialized_end=209
+  _globals['_TOTHEMOONOBSTACLESMODIFYNOTIFY']._serialized_end=214
 # @@protoc_insertion_point(module_scope)

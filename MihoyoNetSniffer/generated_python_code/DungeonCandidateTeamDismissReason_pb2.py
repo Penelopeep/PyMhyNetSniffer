@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'DungeonCandidateTeamDismissReason.proto*\xc9\x01\n!DungeonCandidateTeamDismissReason\x12\x35\n1DUNGEON_CANDIDATE_TEAM_DISMISS_REASON_TPDR_NORMAL\x10\x00\x12\x32\n.DUNGEON_CANDIDATE_TEAM_DISMISS_REASON_TPDR_DIE\x10\x01\x12\x39\n5DUNGEON_CANDIDATE_TEAM_DISMISS_REASON_TPDR_DISCONNECT\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'DungeonCandidateTeamDismissReason.proto*\x8d\x01\n!DungeonCandidateTeamDismissReason\x12!\n\x1d\x44UNGEON_CANDIDATE_TPDR_NORMAL\x10\x00\x12\x1e\n\x1a\x44UNGEON_CANDIDATE_TPDR_DIE\x10\x01\x12%\n!DUNGEON_CANDIDATE_TPDR_DISCONNECT\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamDismissReason_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamDismissReason_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DUNGEONCANDIDATETEAMDISMISSREASON._serialized_start=44
-  _DUNGEONCANDIDATETEAMDISMISSREASON._serialized_end=245
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_DUNGEONCANDIDATETEAMDISMISSREASON']._serialized_start=44
+  _globals['_DUNGEONCANDIDATETEAMDISMISSREASON']._serialized_end=185
 # @@protoc_insertion_point(module_scope)

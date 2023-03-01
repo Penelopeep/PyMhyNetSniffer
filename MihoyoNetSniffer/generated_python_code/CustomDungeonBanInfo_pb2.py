@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CustomDungeonBanType_pb2 as CustomDungeonBanType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ustomDungeonBanInfo.proto\x1a\x1a\x43ustomDungeonBanType.proto\"g\n\x14\x43ustomDungeonBanInfo\x12\x12\n\nexpireTime\x18\x0c \x01(\r\x12&\n\x07\x62\x61nType\x18\x06 \x01(\x0e\x32\x15.CustomDungeonBanType\x12\x13\n\x0b\x64ungeonGuid\x18\x01 \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ustomDungeonBanInfo.proto\x1a\x1a\x43ustomDungeonBanType.proto\"j\n\x14\x43ustomDungeonBanInfo\x12\x13\n\x0b\x65xpire_time\x18\x0e \x01(\r\x12\'\n\x08\x62\x61n_type\x18\x04 \x01(\x0e\x32\x15.CustomDungeonBanType\x12\x14\n\x0c\x64ungeon_guid\x18\x0c \x01(\x04\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonBanInfo_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CUSTOMDUNGEONBANINFO']._serialized_start=58
-  _globals['_CUSTOMDUNGEONBANINFO']._serialized_end=161
+  _globals['_CUSTOMDUNGEONBANINFO']._serialized_end=164
 # @@protoc_insertion_point(module_scope)

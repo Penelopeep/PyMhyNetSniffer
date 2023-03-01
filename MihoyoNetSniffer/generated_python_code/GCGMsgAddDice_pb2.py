@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGReason_pb2 as GCGReason__pb2
 import GCGDiceSideType_pb2 as GCGDiceSideType__pb2
+import GCGReason_pb2 as GCGReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13GCGMsgAddDice.proto\x1a\x0fGCGReason.proto\x1a\x15GCGDiceSideType.proto\"\xfa\x02\n\rGCGMsgAddDice\x12\x43\n\x13Unk3300_PCMPCCLFEIM\x18\x0f \x03(\x0b\x32&.GCGMsgAddDice.Unk3300PCMPCCLFEIMEntry\x12\x43\n\x13Unk3300_KFKOGOKPIFN\x18\x05 \x03(\x0b\x32&.GCGMsgAddDice.Unk3300KFKOGOKPIFNEntry\x12\x14\n\x0c\x63ontrollerId\x18\x03 \x01(\r\x12\x1a\n\x06reason\x18\t \x01(\x0e\x32\n.GCGReason\x12\x13\n\x0b\x63hangeCount\x18\n \x01(\x05\x1aK\n\x17Unk3300PCMPCCLFEIMEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0e\x32\x10.GCGDiceSideType:\x02\x38\x01\x1aK\n\x17Unk3300KFKOGOKPIFNEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0e\x32\x10.GCGDiceSideType:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13GCGMsgAddDice.proto\x1a\x15GCGDiceSideType.proto\x1a\x0fGCGReason.proto\"\xd0\x02\n\rGCGMsgAddDice\x12\x34\n\x0b\x46HJPIJFMAPL\x18\x0b \x03(\x0b\x32\x1f.GCGMsgAddDice.FHJPIJFMAPLEntry\x12\x15\n\rcontroller_id\x18\x05 \x01(\r\x12\x1a\n\x06reason\x18\x01 \x01(\x0e\x32\n.GCGReason\x12\x14\n\x0c\x63hange_count\x18\x0e \x01(\x05\x12\x34\n\x0bPNELDJLCNOP\x18\x08 \x03(\x0b\x32\x1f.GCGMsgAddDice.PNELDJLCNOPEntry\x1a\x44\n\x10\x46HJPIJFMAPLEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0e\x32\x10.GCGDiceSideType:\x02\x38\x01\x1a\x44\n\x10PNELDJLCNOPEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0e\x32\x10.GCGDiceSideType:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,15 +23,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgAddDice_pb2', _global
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _GCGMSGADDDICE_UNK3300PCMPCCLFEIMENTRY._options = None
-  _GCGMSGADDDICE_UNK3300PCMPCCLFEIMENTRY._serialized_options = b'8\001'
-  _GCGMSGADDDICE_UNK3300KFKOGOKPIFNENTRY._options = None
-  _GCGMSGADDDICE_UNK3300KFKOGOKPIFNENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _GCGMSGADDDICE_FHJPIJFMAPLENTRY._options = None
+  _GCGMSGADDDICE_FHJPIJFMAPLENTRY._serialized_options = b'8\001'
+  _GCGMSGADDDICE_PNELDJLCNOPENTRY._options = None
+  _GCGMSGADDDICE_PNELDJLCNOPENTRY._serialized_options = b'8\001'
   _globals['_GCGMSGADDDICE']._serialized_start=64
-  _globals['_GCGMSGADDDICE']._serialized_end=442
-  _globals['_GCGMSGADDDICE_UNK3300PCMPCCLFEIMENTRY']._serialized_start=290
-  _globals['_GCGMSGADDDICE_UNK3300PCMPCCLFEIMENTRY']._serialized_end=365
-  _globals['_GCGMSGADDDICE_UNK3300KFKOGOKPIFNENTRY']._serialized_start=367
-  _globals['_GCGMSGADDDICE_UNK3300KFKOGOKPIFNENTRY']._serialized_end=442
+  _globals['_GCGMSGADDDICE']._serialized_end=400
+  _globals['_GCGMSGADDDICE_FHJPIJFMAPLENTRY']._serialized_start=262
+  _globals['_GCGMSGADDDICE_FHJPIJFMAPLENTRY']._serialized_end=330
+  _globals['_GCGMSGADDDICE_PNELDJLCNOPENTRY']._serialized_start=332
+  _globals['_GCGMSGADDDICE_PNELDJLCNOPENTRY']._serialized_end=400
 # @@protoc_insertion_point(module_scope)

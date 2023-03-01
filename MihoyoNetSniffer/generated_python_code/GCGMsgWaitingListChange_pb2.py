@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGCGMsgWaitingListChange.proto\"A\n\x17GCGMsgWaitingListChange\x12\x14\n\x0c\x63ontrollerId\x18\x04 \x01(\r\x12\x10\n\x08\x63urIndex\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGCGMsgWaitingListChange.proto\"C\n\x17GCGMsgWaitingListChange\x12\x11\n\tcur_index\x18\x04 \x01(\r\x12\x15\n\rcontroller_id\x18\x07 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgWaitingListChange_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GCGMSGWAITINGLISTCHANGE']._serialized_start=33
-  _globals['_GCGMSGWAITINGLISTCHANGE']._serialized_end=98
+  _globals['_GCGMSGWAITINGLISTCHANGE']._serialized_end=100
 # @@protoc_insertion_point(module_scope)

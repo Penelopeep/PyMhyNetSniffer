@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$VintageMarketStartStorePlayRsp.proto\"\x7f\n\x1eVintageMarketStartStorePlayRsp\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x1b\n\x13Unk3300_LCCNEKGONFG\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_ADJKIIJFNME\x18\r \x01(\r\x12\x12\n\nstoreRound\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$VintageMarketStartStorePlayRsp.proto\"p\n\x1eVintageMarketStartStorePlayRsp\x12\x13\n\x0b\x45KMPDNHDLEG\x18\r \x01(\r\x12\x13\n\x0bstore_round\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x13\n\x0b\x41HPFPDKBBCA\x18\x06 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageMarketStartStorePlay
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_VINTAGEMARKETSTARTSTOREPLAYRSP']._serialized_start=40
-  _globals['_VINTAGEMARKETSTARTSTOREPLAYRSP']._serialized_end=167
+  _globals['_VINTAGEMARKETSTARTSTOREPLAYRSP']._serialized_end=152
 # @@protoc_insertion_point(module_scope)

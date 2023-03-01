@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeCustomFurnitureInfo_pb2 as HomeCustomFurnitureInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeEditCustomFurnitureReq.proto\x1a\x1dHomeCustomFurnitureInfo.proto\"S\n\x1aHomeEditCustomFurnitureReq\x12\x35\n\x13\x63ustomFurnitureInfo\x18\x05 \x01(\x0b\x32\x18.HomeCustomFurnitureInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeEditCustomFurnitureReq.proto\x1a\x1dHomeCustomFurnitureInfo.proto\"U\n\x1aHomeEditCustomFurnitureReq\x12\x37\n\x15\x63ustom_furniture_info\x18\n \x01(\x0b\x32\x18.HomeCustomFurnitureInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeEditCustomFurnitureReq_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOMEEDITCUSTOMFURNITUREREQ']._serialized_start=67
-  _globals['_HOMEEDITCUSTOMFURNITUREREQ']._serialized_end=150
+  _globals['_HOMEEDITCUSTOMFURNITUREREQ']._serialized_end=152
 # @@protoc_insertion_point(module_scope)

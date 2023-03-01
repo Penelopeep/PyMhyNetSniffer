@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHideAndSeekStageType.proto*\xed\x01\n\x14HideAndSeekStageType\x12$\n HIDE_AND_SEEK_STAGE_TYPE_PREPARE\x10\x00\x12!\n\x1dHIDE_AND_SEEK_STAGE_TYPE_PICK\x10\x01\x12!\n\x1dHIDE_AND_SEEK_STAGE_TYPE_GAME\x10\x02\x12!\n\x1dHIDE_AND_SEEK_STAGE_TYPE_HIDE\x10\x03\x12!\n\x1dHIDE_AND_SEEK_STAGE_TYPE_SEEK\x10\x04\x12#\n\x1fHIDE_AND_SEEK_STAGE_TYPE_SETTLE\x10\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHideAndSeekStageType.proto*\xcf\x01\n\x14HideAndSeekStageType\x12\x1f\n\x1bHIDE_AND_SEEK_STAGE_PREPARE\x10\x00\x12\x1c\n\x18HIDE_AND_SEEK_STAGE_PICK\x10\x01\x12\x1c\n\x18HIDE_AND_SEEK_STAGE_GAME\x10\x02\x12\x1c\n\x18HIDE_AND_SEEK_STAGE_HIDE\x10\x03\x12\x1c\n\x18HIDE_AND_SEEK_STAGE_SEEK\x10\x04\x12\x1e\n\x1aHIDE_AND_SEEK_STAGE_SETTLE\x10\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekStageType_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HIDEANDSEEKSTAGETYPE']._serialized_start=31
-  _globals['_HIDEANDSEEKSTAGETYPE']._serialized_end=268
+  _globals['_HIDEANDSEEKSTAGETYPE']._serialized_end=238
 # @@protoc_insertion_point(module_scope)

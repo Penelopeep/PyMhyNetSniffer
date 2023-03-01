@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x63tivityReadPushTipsReq.proto\"M\n\x17\x41\x63tivityReadPushTipsReq\x12\x1e\n\x16\x61\x63tivityPushTipsIdList\x18\x0b \x03(\r\x12\x12\n\nactivityId\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x63tivityReadPushTipsReq.proto\"R\n\x17\x41\x63tivityReadPushTipsReq\x12\x13\n\x0b\x61\x63tivity_id\x18\x04 \x01(\r\x12\"\n\x1a\x61\x63tivity_push_tips_id_list\x18\t \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityReadPushTipsReq_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ACTIVITYREADPUSHTIPSREQ']._serialized_start=33
-  _globals['_ACTIVITYREADPUSHTIPSREQ']._serialized_end=110
+  _globals['_ACTIVITYREADPUSHTIPSREQ']._serialized_end=115
 # @@protoc_insertion_point(module_scope)

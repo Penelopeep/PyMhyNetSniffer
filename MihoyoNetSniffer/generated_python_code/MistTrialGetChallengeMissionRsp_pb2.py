@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MistTrialMissionInfo_pb2 as MistTrialMissionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%MistTrialGetChallengeMissionRsp.proto\x1a\x1aMistTrialMissionInfo.proto\"s\n\x1fMistTrialGetChallengeMissionRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x0f\n\x07trialId\x18\t \x01(\r\x12.\n\x0fmissionInfoList\x18\x06 \x03(\x0b\x32\x15.MistTrialMissionInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%MistTrialGetChallengeMissionRsp.proto\x1a\x1aMistTrialMissionInfo.proto\"v\n\x1fMistTrialGetChallengeMissionRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x10\n\x08trial_id\x18\x03 \x01(\r\x12\x30\n\x11mission_info_list\x18\n \x03(\x0b\x32\x15.MistTrialMissionInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialGetChallengeMissio
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_MISTTRIALGETCHALLENGEMISSIONRSP']._serialized_start=69
-  _globals['_MISTTRIALGETCHALLENGEMISSIONRSP']._serialized_end=184
+  _globals['_MISTTRIALGETCHALLENGEMISSIONRSP']._serialized_end=187
 # @@protoc_insertion_point(module_scope)

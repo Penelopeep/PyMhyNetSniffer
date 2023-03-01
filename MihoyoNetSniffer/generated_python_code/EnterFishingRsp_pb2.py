@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45nterFishingRsp.proto\"6\n\x0f\x45nterFishingRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x12\n\nfishPoolId\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45nterFishingRsp.proto\"8\n\x0f\x45nterFishingRsp\x12\x14\n\x0c\x66ish_pool_id\x18\t \x01(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterFishingRsp_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ENTERFISHINGRSP']._serialized_start=25
-  _globals['_ENTERFISHINGRSP']._serialized_end=79
+  _globals['_ENTERFISHINGRSP']._serialized_end=81
 # @@protoc_insertion_point(module_scope)

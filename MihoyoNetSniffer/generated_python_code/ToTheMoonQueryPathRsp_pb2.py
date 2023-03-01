@@ -11,11 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import PathStatusType_pb2 as PathStatusType__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bToTheMoonQueryPathRsp.proto\x1a\x14PathStatusType.proto\x1a\x0cVector.proto\"\x97\x01\n\x15ToTheMoonQueryPathRsp\x12\x0f\n\x07queryId\x18\x0b \x01(\x05\x12$\n\x0bqueryStatus\x18\x0f \x01(\x0e\x32\x0f.PathStatusType\x12\r\n\x05index\x18\n \x03(\x03\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x18\n\x07\x63orners\x18\x03 \x03(\x0b\x32\x07.Vector\x12\r\n\x05level\x18\r \x03(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bToTheMoonQueryPathRsp.proto\x1a\x0cVector.proto\"\xf7\x01\n\x15ToTheMoonQueryPathRsp\x12;\n\x0cquery_status\x18\x06 \x01(\x0e\x32%.ToTheMoonQueryPathRsp.PathStatusType\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\r\n\x05index\x18\x05 \x03(\x03\x12\x10\n\x08query_id\x18\t \x01(\x05\x12\x18\n\x07\x63orners\x18\x03 \x03(\x0b\x32\x07.Vector\x12\r\n\x05level\x18\x07 \x03(\x05\"F\n\x0ePathStatusType\x12\x0f\n\x0bSTATUS_FAIL\x10\x00\x12\x0f\n\x0bSTATUS_SUCC\x10\x01\x12\x12\n\x0eSTATUS_PARTIAL\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +22,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ToTheMoonQueryPathRsp_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_TOTHEMOONQUERYPATHRSP']._serialized_start=68
-  _globals['_TOTHEMOONQUERYPATHRSP']._serialized_end=219
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_TOTHEMOONQUERYPATHRSP']._serialized_start=46
+  _globals['_TOTHEMOONQUERYPATHRSP']._serialized_end=293
+  _globals['_TOTHEMOONQUERYPATHRSP_PATHSTATUSTYPE']._serialized_start=223
+  _globals['_TOTHEMOONQUERYPATHRSP_PATHSTATUSTYPE']._serialized_end=293
 # @@protoc_insertion_point(module_scope)

@@ -12,10 +12,9 @@ _sym_db = _symbol_database.Default()
 
 
 import Vector_pb2 as Vector__pb2
-import FollowType_pb2 as FollowType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,BeginCameraSceneLookWithTemplateNotify.proto\x1a\x0cVector.proto\x1a\x10\x46ollowType.proto\"\xd0\x01\n&BeginCameraSceneLookWithTemplateNotify\x12\x12\n\ntemplateId\x18\t \x01(\r\x12$\n\x13Unk3300_FJDFGLNLMBN\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x1f\n\nfollowType\x18\x03 \x01(\x0e\x32\x0b.FollowType\x12\x13\n\x0botherParams\x18\x08 \x03(\t\x12\x10\n\x08\x65ntityId\x18\x0e \x01(\r\x12$\n\x13Unk3300_PPCIDICMIEN\x18\x07 \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,BeginCameraSceneLookWithTemplateNotify.proto\x1a\x0cVector.proto\"\xde\x02\n&BeginCameraSceneLookWithTemplateNotify\x12G\n\x0b\x66ollow_type\x18\x0b \x01(\x0e\x32\x32.BeginCameraSceneLookWithTemplateNotify.FollowType\x12\x1c\n\x0bINNJAHCEIJC\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x1c\n\x0b\x45\x44\x46\x41\x45PBKAAH\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x13\n\x0btemplate_id\x18\r \x01(\r\x12\x14\n\x0cother_params\x18\x04 \x03(\t\x12\x11\n\tentity_id\x18\n \x01(\r\"q\n\nFollowType\x12\x1f\n\x1b\x46OLLOW_TYPE_INIT_FOLLOW_POS\x10\x00\x12\x1e\n\x1a\x46OLLOW_TYPE_SET_FOLLOW_POS\x10\x01\x12\"\n\x1e\x46OLLOW_TYPE_SET_ABS_FOLLOW_POS\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +22,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BeginCameraSceneLookWithTem
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_BEGINCAMERASCENELOOKWITHTEMPLATENOTIFY']._serialized_start=81
-  _globals['_BEGINCAMERASCENELOOKWITHTEMPLATENOTIFY']._serialized_end=289
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_BEGINCAMERASCENELOOKWITHTEMPLATENOTIFY']._serialized_start=63
+  _globals['_BEGINCAMERASCENELOOKWITHTEMPLATENOTIFY']._serialized_end=413
+  _globals['_BEGINCAMERASCENELOOKWITHTEMPLATENOTIFY_FOLLOWTYPE']._serialized_start=300
+  _globals['_BEGINCAMERASCENELOOKWITHTEMPLATENOTIFY_FOLLOWTYPE']._serialized_end=413
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTakeAchievementRewardRsp.proto\x1a\x0fItemParam.proto\"Y\n\x18TakeAchievementRewardRsp\x12\x1c\n\x08itemList\x18\x07 \x03(\x0b\x32\n.ItemParam\x12\x0e\n\x06idList\x18\x04 \x03(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTakeAchievementRewardRsp.proto\x1a\x0fItemParam.proto\"[\n\x18TakeAchievementRewardRsp\x12\x1d\n\titem_list\x18\x05 \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x0f\n\x07id_list\x18\x01 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeAchievementRewardRsp_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TAKEACHIEVEMENTREWARDRSP']._serialized_start=51
-  _globals['_TAKEACHIEVEMENTREWARDRSP']._serialized_end=140
+  _globals['_TAKEACHIEVEMENTREWARDRSP']._serialized_end=142
 # @@protoc_insertion_point(module_scope)

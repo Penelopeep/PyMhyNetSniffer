@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"WidgetThunderBirdFeatherInfo.proto\"6\n\x1cWidgetThunderBirdFeatherInfo\x12\x16\n\x0e\x65ntity_id_list\x18\t \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"WidgetThunderBirdFeatherInfo.proto\"6\n\x1cWidgetThunderBirdFeatherInfo\x12\x16\n\x0e\x65ntity_id_list\x18\x02 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetThunderBirdFeatherInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetThunderBirdFeatherInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WIDGETTHUNDERBIRDFEATHERINFO._serialized_start=38
-  _WIDGETTHUNDERBIRDFEATHERINFO._serialized_end=92
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_WIDGETTHUNDERBIRDFEATHERINFO']._serialized_start=38
+  _globals['_WIDGETTHUNDERBIRDFEATHERINFO']._serialized_end=92
 # @@protoc_insertion_point(module_scope)

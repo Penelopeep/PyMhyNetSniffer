@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import LuaOptionType_pb2 as LuaOptionType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18LuaSetOptionNotify.proto\x1a\x13LuaOptionType.proto\"M\n\x12LuaSetOptionNotify\x12\x13\n\x0bluaSetParam\x18\x04 \x01(\t\x12\"\n\noptionType\x18\x0e \x01(\x0e\x32\x0e.LuaOptionTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18LuaSetOptionNotify.proto\"\xa6\x01\n\x12LuaSetOptionNotify\x12\x36\n\x0boption_type\x18\x03 \x01(\x0e\x32!.LuaSetOptionNotify.LuaOptionType\x12\x15\n\rlua_set_param\x18\t \x01(\t\"A\n\rLuaOptionType\x12\x13\n\x0fLUA_OPTION_NONE\x10\x00\x12\x1b\n\x17LUA_OPTION_PLAYER_INPUT\x10\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LuaSetOptionNotify_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_LUASETOPTIONNOTIFY']._serialized_start=49
-  _globals['_LUASETOPTIONNOTIFY']._serialized_end=126
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_LUASETOPTIONNOTIFY']._serialized_start=29
+  _globals['_LUASETOPTIONNOTIFY']._serialized_end=195
+  _globals['_LUASETOPTIONNOTIFY_LUAOPTIONTYPE']._serialized_start=130
+  _globals['_LUASETOPTIONNOTIFY_LUAOPTIONTYPE']._serialized_end=195
 # @@protoc_insertion_point(module_scope)

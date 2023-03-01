@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import IrodoriChessMapData_pb2 as IrodoriChessMapData__pb2
+import MCOPOAMEGCP_pb2 as MCOPOAMEGCP__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bIrodoriChessLevelData.proto\x1a\x19IrodoriChessMapData.proto\"\xa0\x01\n\x15IrodoriChessLevelData\x12\x0f\n\x07levelId\x18\n \x01(\r\x12\x10\n\x08openTime\x18\x07 \x01(\r\x12\x31\n\x13Unk3300_BGINEMHBNAD\x18\x0e \x01(\x0b\x32\x14.IrodoriChessMapData\x12\x31\n\x13Unk3300_GCIGNCGOBML\x18\x0f \x01(\x0b\x32\x14.IrodoriChessMapDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bIrodoriChessLevelData.proto\x1a\x11MCOPOAMEGCP.proto\"\x82\x01\n\x15IrodoriChessLevelData\x12!\n\x0bPMIDHJGPANG\x18\x0f \x01(\x0b\x32\x0c.MCOPOAMEGCP\x12\x11\n\topen_time\x18\x06 \x01(\r\x12!\n\x0bPLIOEJLDHLF\x18\x0e \x01(\x0b\x32\x0c.MCOPOAMEGCP\x12\x10\n\x08level_id\x18\x02 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriChessLevelData_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_IRODORICHESSLEVELDATA']._serialized_start=59
-  _globals['_IRODORICHESSLEVELDATA']._serialized_end=219
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_IRODORICHESSLEVELDATA']._serialized_start=51
+  _globals['_IRODORICHESSLEVELDATA']._serialized_end=181
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PropValue_pb2 as PropValue__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45ntityPropNotify.proto\x1a\x0fPropValue.proto\"\x91\x01\n\x10\x45ntityPropNotify\x12/\n\x07propMap\x18\x06 \x03(\x0b\x32\x1e.EntityPropNotify.PropMapEntry\x12\x10\n\x08\x65ntityId\x18\t \x01(\r\x1a:\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45ntityPropNotify.proto\x1a\x0fPropValue.proto\"\x93\x01\n\x10\x45ntityPropNotify\x12\x30\n\x08prop_map\x18\x05 \x03(\x0b\x32\x1e.EntityPropNotify.PropMapEntry\x12\x11\n\tentity_id\x18\x0f \x01(\r\x1a:\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,11 +22,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityPropNotify_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _ENTITYPROPNOTIFY_PROPMAPENTRY._options = None
   _ENTITYPROPNOTIFY_PROPMAPENTRY._serialized_options = b'8\001'
   _globals['_ENTITYPROPNOTIFY']._serialized_start=44
-  _globals['_ENTITYPROPNOTIFY']._serialized_end=189
-  _globals['_ENTITYPROPNOTIFY_PROPMAPENTRY']._serialized_start=131
-  _globals['_ENTITYPROPNOTIFY_PROPMAPENTRY']._serialized_end=189
+  _globals['_ENTITYPROPNOTIFY']._serialized_end=191
+  _globals['_ENTITYPROPNOTIFY_PROPMAPENTRY']._serialized_start=133
+  _globals['_ENTITYPROPNOTIFY_PROPMAPENTRY']._serialized_end=191
 # @@protoc_insertion_point(module_scope)

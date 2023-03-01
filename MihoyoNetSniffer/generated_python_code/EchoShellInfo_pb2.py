@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import SummerTimeDungeonInfo_pb2 as SummerTimeDungeonInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x45\x63hoShellInfo.proto\x1a\x1bSummerTimeDungeonInfo.proto\"\x99\x01\n\rEchoShellInfo\x12\x1b\n\x13Unk3300_NEFBJPKBEHF\x18\n \x03(\r\x12\x1b\n\x13Unk3300_OOCDFANFFDG\x18\x05 \x03(\r\x12\x17\n\x0ftakenRewardList\x18\x0e \x03(\r\x12\x35\n\x15summerTimeDungeonList\x18\r \x03(\x0b\x32\x16.SummerTimeDungeonInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x45\x63hoShellInfo.proto\"!\n\rEchoShellInfo\x12\x10\n\x08shell_id\x18\x01 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EchoShellInfo_pb2', _global
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_ECHOSHELLINFO']._serialized_start=53
-  _globals['_ECHOSHELLINFO']._serialized_end=206
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ECHOSHELLINFO']._serialized_start=23
+  _globals['_ECHOSHELLINFO']._serialized_end=56
 # @@protoc_insertion_point(module_scope)

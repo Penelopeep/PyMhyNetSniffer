@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41nchorPointOpReq.proto\"D\n\x10\x41nchorPointOpReq\x12\x15\n\ranchorPointId\x18\x0f \x01(\r\x12\x19\n\x11\x61nchorPointOpType\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41nchorPointOpReq.proto\"\xaf\x01\n\x10\x41nchorPointOpReq\x12\x1c\n\x14\x61nchor_point_op_type\x18\x01 \x01(\r\x12\x17\n\x0f\x61nchor_point_id\x18\x0b \x01(\r\"d\n\x0bKFMHCPAPAEI\x12\x1b\n\x17KFMHCPAPAEI_PIPFHBGIFDP\x10\x00\x12\x1b\n\x17KFMHCPAPAEI_KKBPNDIFMLB\x10\x01\x12\x1b\n\x17KFMHCPAPAEI_GGECCCDJFEF\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnchorPointOpReq_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_ANCHORPOINTOPREQ']._serialized_start=26
-  _globals['_ANCHORPOINTOPREQ']._serialized_end=94
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ANCHORPOINTOPREQ']._serialized_start=27
+  _globals['_ANCHORPOINTOPREQ']._serialized_end=202
+  _globals['_ANCHORPOINTOPREQ_KFMHCPAPAEI']._serialized_start=102
+  _globals['_ANCHORPOINTOPREQ_KFMHCPAPAEI']._serialized_end=202
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGOperationAttack.proto\"D\n\x12GCGOperationAttack\x12\x10\n\x08skill_id\x18\x0f \x01(\r\x12\x1c\n\x14\x63ost_dice_index_list\x18\x03 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GCGOperationAttack.proto\"D\n\x12GCGOperationAttack\x12\x10\n\x08skill_id\x18\x0e \x01(\r\x12\x1c\n\x14\x63ost_dice_index_list\x18\x07 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationAttack_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationAttack_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGOPERATIONATTACK._serialized_start=28
-  _GCGOPERATIONATTACK._serialized_end=96
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGOPERATIONATTACK']._serialized_start=28
+  _globals['_GCGOPERATIONATTACK']._serialized_end=96
 # @@protoc_insertion_point(module_scope)

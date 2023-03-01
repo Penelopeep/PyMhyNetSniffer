@@ -11,12 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Vector_pb2 as Vector__pb2
 import MathQuaternion_pb2 as MathQuaternion__pb2
-import ShapeType_pb2 as ShapeType__pb2
+import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bToTheMoonObstacleInfo.proto\x1a\x0cVector.proto\x1a\x14MathQuaternion.proto\x1a\x0fShapeType.proto\"\x8a\x02\n\x15ToTheMoonObstacleInfo\x12\x17\n\x06\x63\x65nter\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08handleId\x18\x05 \x01(\x05\x12!\n\x08rotation\x18\x08 \x01(\x0b\x32\x0f.MathQuaternion\x12\x1c\n\x0bhalfExtents\x18\t \x01(\x0b\x32\x07.Vector\x12.\n\x04type\x18\x01 \x01(\x0e\x32 .ToTheMoonObstacleInfo.ShapeType\"U\n\tShapeType\x12%\n!SHAPE_TYPE_OBSTACLE_SHAPE_CAPSULE\x10\x00\x12!\n\x1dSHAPE_TYPE_OBSTACLE_SHAPE_BOX\x10\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bToTheMoonObstacleInfo.proto\x1a\x14MathQuaternion.proto\x1a\x0cVector.proto\"\xf6\x01\n\x15ToTheMoonObstacleInfo\x12.\n\x04type\x18\x0b \x01(\x0e\x32 .ToTheMoonObstacleInfo.ShapeType\x12\x1d\n\x0chalf_extents\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x17\n\x06\x63\x65nter\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x11\n\thandle_id\x18\x05 \x01(\x05\x12!\n\x08rotation\x18\x0c \x01(\x0b\x32\x0f.MathQuaternion\"?\n\tShapeType\x12\x1a\n\x16OBSTACLE_SHAPE_CAPSULE\x10\x00\x12\x16\n\x12OBSTACLE_SHAPE_BOX\x10\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,9 +23,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ToTheMoonObstacleInfo_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_TOTHEMOONOBSTACLEINFO']._serialized_start=85
-  _globals['_TOTHEMOONOBSTACLEINFO']._serialized_end=351
-  _globals['_TOTHEMOONOBSTACLEINFO_SHAPETYPE']._serialized_start=266
-  _globals['_TOTHEMOONOBSTACLEINFO_SHAPETYPE']._serialized_end=351
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_TOTHEMOONOBSTACLEINFO']._serialized_start=68
+  _globals['_TOTHEMOONOBSTACLEINFO']._serialized_end=314
+  _globals['_TOTHEMOONOBSTACLEINFO_SHAPETYPE']._serialized_start=251
+  _globals['_TOTHEMOONOBSTACLEINFO_SHAPETYPE']._serialized_end=314
 # @@protoc_insertion_point(module_scope)

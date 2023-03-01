@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ChannelerSlabOneoffDungeon_pb2 as ChannelerSlabOneoffDungeon__pb2
 import ChannelerSlabChallenge_pb2 as ChannelerSlabChallenge__pb2
+import ChannelerSlabOneoffDungeon_pb2 as ChannelerSlabOneoffDungeon__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!ChannelerSlabChallengeStage.proto\x1a ChannelerSlabOneoffDungeon.proto\x1a\x1c\x43hannelerSlabChallenge.proto\"\xb2\x01\n\x1b\x43hannelerSlabChallengeStage\x12\x10\n\x08openTime\x18\n \x01(\r\x12.\n\rchallengeList\x18\x0c \x03(\x0b\x32\x17.ChannelerSlabChallenge\x12\x30\n\x0b\x64ungeonInfo\x18\x05 \x01(\x0b\x32\x1b.ChannelerSlabOneoffDungeon\x12\x0f\n\x07stageId\x18\r \x01(\r\x12\x0e\n\x06isOpen\x18\x01 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!ChannelerSlabChallengeStage.proto\x1a\x1c\x43hannelerSlabChallenge.proto\x1a ChannelerSlabOneoffDungeon.proto\"\xb7\x01\n\x1b\x43hannelerSlabChallengeStage\x12\x0f\n\x07is_open\x18\x07 \x01(\x08\x12\x10\n\x08stage_id\x18\x0c \x01(\r\x12\x11\n\topen_time\x18\x03 \x01(\r\x12\x31\n\x0c\x64ungeon_info\x18\x0f \x01(\x0b\x32\x1b.ChannelerSlabOneoffDungeon\x12/\n\x0e\x63hallenge_list\x18\x0b \x03(\x0b\x32\x17.ChannelerSlabChallengeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabChallengeStage
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CHANNELERSLABCHALLENGESTAGE']._serialized_start=102
-  _globals['_CHANNELERSLABCHALLENGESTAGE']._serialized_end=280
+  _globals['_CHANNELERSLABCHALLENGESTAGE']._serialized_end=285
 # @@protoc_insertion_point(module_scope)

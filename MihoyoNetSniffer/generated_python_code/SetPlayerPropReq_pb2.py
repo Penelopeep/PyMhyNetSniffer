@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PropValue_pb2 as PropValue__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SetPlayerPropReq.proto\x1a\x0fPropValue.proto\"0\n\x10SetPlayerPropReq\x12\x1c\n\x08propList\x18\x08 \x03(\x0b\x32\n.PropValueB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SetPlayerPropReq.proto\x1a\x0fPropValue.proto\"1\n\x10SetPlayerPropReq\x12\x1d\n\tprop_list\x18\n \x03(\x0b\x32\n.PropValueB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetPlayerPropReq_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SETPLAYERPROPREQ']._serialized_start=43
-  _globals['_SETPLAYERPROPREQ']._serialized_end=91
+  _globals['_SETPLAYERPROPREQ']._serialized_end=92
 # @@protoc_insertion_point(module_scope)

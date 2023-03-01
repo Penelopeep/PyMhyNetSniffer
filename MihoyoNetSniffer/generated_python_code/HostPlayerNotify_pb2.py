@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HostPlayerNotify.proto\"7\n\x10HostPlayerNotify\x12\x0f\n\x07hostUid\x18\x04 \x01(\r\x12\x12\n\nhostPeerId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HostPlayerNotify.proto\":\n\x10HostPlayerNotify\x12\x14\n\x0chost_peer_id\x18\x0e \x01(\r\x12\x10\n\x08host_uid\x18\x02 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HostPlayerNotify_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOSTPLAYERNOTIFY']._serialized_start=26
-  _globals['_HOSTPLAYERNOTIFY']._serialized_end=81
+  _globals['_HOSTPLAYERNOTIFY']._serialized_end=84
 # @@protoc_insertion_point(module_scope)

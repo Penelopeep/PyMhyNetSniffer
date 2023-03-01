@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeLimitedShopGoods_pb2 as HomeLimitedShopGoods__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeLimitedShopBuyGoodsReq.proto\x1a\x1aHomeLimitedShopGoods.proto\"T\n\x1aHomeLimitedShopBuyGoodsReq\x12$\n\x05goods\x18\x01 \x01(\x0b\x32\x15.HomeLimitedShopGoods\x12\x10\n\x08\x62uyCount\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeLimitedShopBuyGoodsReq.proto\x1a\x1aHomeLimitedShopGoods.proto\"U\n\x1aHomeLimitedShopBuyGoodsReq\x12\x11\n\tbuy_count\x18\x0e \x01(\r\x12$\n\x05goods\x18\r \x01(\x0b\x32\x15.HomeLimitedShopGoodsB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeLimitedShopBuyGoodsReq_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOMELIMITEDSHOPBUYGOODSREQ']._serialized_start=64
-  _globals['_HOMELIMITEDSHOPBUYGOODSREQ']._serialized_end=148
+  _globals['_HOMELIMITEDSHOPBUYGOODSREQ']._serialized_end=149
 # @@protoc_insertion_point(module_scope)

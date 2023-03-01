@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cMpPlayGuestReplyNotify.proto\"H\n\x16MpPlayGuestReplyNotify\x12\x0f\n\x07isAgree\x18\x07 \x01(\x08\x12\x10\n\x08mpPlayId\x18\x0c \x01(\r\x12\x0b\n\x03uid\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cMpPlayGuestReplyNotify.proto\"K\n\x16MpPlayGuestReplyNotify\x12\x0b\n\x03uid\x18\x02 \x01(\r\x12\x12\n\nmp_play_id\x18\x0e \x01(\r\x12\x10\n\x08is_agree\x18\n \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MpPlayGuestReplyNotify_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_MPPLAYGUESTREPLYNOTIFY']._serialized_start=32
-  _globals['_MPPLAYGUESTREPLYNOTIFY']._serialized_end=104
+  _globals['_MPPLAYGUESTREPLYNOTIFY']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FriendBrief_pb2 as FriendBrief__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PSNBlackListNotify.proto\x1a\x11\x46riendBrief.proto\"8\n\x12PSNBlackListNotify\x12\"\n\x0cpsnBlacklist\x18\n \x03(\x0b\x32\x0c.FriendBriefB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PSNBlackListNotify.proto\x1a\x11\x46riendBrief.proto\"9\n\x12PSNBlackListNotify\x12#\n\rpsn_blacklist\x18\x0b \x03(\x0b\x32\x0c.FriendBriefB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PSNBlackListNotify_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PSNBLACKLISTNOTIFY']._serialized_start=47
-  _globals['_PSNBLACKLISTNOTIFY']._serialized_end=103
+  _globals['_PSNBLACKLISTNOTIFY']._serialized_end=104
 # @@protoc_insertion_point(module_scope)

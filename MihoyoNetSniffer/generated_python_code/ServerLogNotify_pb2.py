@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ServerLogLevel_pb2 as ServerLogLevel__pb2
-import ServerLogType_pb2 as ServerLogType__pb2
+import FKGPKKHNDLC_pb2 as FKGPKKHNDLC__pb2
+import LAGAGLFKNNA_pb2 as LAGAGLFKNNA__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ServerLogNotify.proto\x1a\x14ServerLogLevel.proto\x1a\x13ServerLogType.proto\"h\n\x0fServerLogNotify\x12\x11\n\tserverLog\x18\n \x01(\t\x12!\n\x08logLevel\x18\x0f \x01(\x0e\x32\x0f.ServerLogLevel\x12\x1f\n\x07logType\x18\t \x01(\x0e\x32\x0e.ServerLogTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ServerLogNotify.proto\x1a\x11\x46KGPKKHNDLC.proto\x1a\x11LAGAGLFKNNA.proto\"k\n\x0fServerLogNotify\x12!\n\x0b\x44KIGGOECGIM\x18\x0c \x01(\x0e\x32\x0c.FKGPKKHNDLC\x12\x12\n\nserver_log\x18\x0e \x01(\t\x12!\n\x0bNFNHENANPAE\x18\x01 \x01(\x0e\x32\x0c.LAGAGLFKNNAB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerLogNotify_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_SERVERLOGNOTIFY']._serialized_start=68
-  _globals['_SERVERLOGNOTIFY']._serialized_end=172
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SERVERLOGNOTIFY']._serialized_start=63
+  _globals['_SERVERLOGNOTIFY']._serialized_end=170
 # @@protoc_insertion_point(module_scope)

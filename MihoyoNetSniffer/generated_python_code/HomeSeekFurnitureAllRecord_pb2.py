@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeSeekFurnitureOneRecord_pb2 as HomeSeekFurnitureOneRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeSeekFurnitureAllRecord.proto\x1a HomeSeekFurnitureOneRecord.proto\"M\n\x1aHomeSeekFurnitureAllRecord\x12/\n\nrecordList\x18\x05 \x03(\x0b\x32\x1b.HomeSeekFurnitureOneRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeSeekFurnitureAllRecord.proto\x1a HomeSeekFurnitureOneRecord.proto\"N\n\x1aHomeSeekFurnitureAllRecord\x12\x30\n\x0brecord_list\x18\x05 \x03(\x0b\x32\x1b.HomeSeekFurnitureOneRecordB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeSeekFurnitureAllRecord_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOMESEEKFURNITUREALLRECORD']._serialized_start=70
-  _globals['_HOMESEEKFURNITUREALLRECORD']._serialized_end=147
+  _globals['_HOMESEEKFURNITUREALLRECORD']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

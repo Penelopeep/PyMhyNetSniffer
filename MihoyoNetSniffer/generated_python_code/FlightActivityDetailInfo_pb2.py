@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import FlightDailyRecord_pb2 as FlightDailyRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46lightActivityDetailInfo.proto\x1a\x17\x46lightDailyRecord.proto\"\x83\x01\n\x18\x46lightActivityDetailInfo\x12-\n\x11\x64\x61ily_record_list\x18\x0c \x03(\x0b\x32\x12.FlightDailyRecord\x12\x19\n\x11preview_reward_id\x18\x01 \x01(\r\x12\x1d\n\x15min_open_player_level\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46lightActivityDetailInfo.proto\x1a\x17\x46lightDailyRecord.proto\"s\n\x18\x46lightActivityDetailInfo\x12-\n\x11\x64\x61ily_record_list\x18\r \x03(\x0b\x32\x12.FlightDailyRecord\x12\x13\n\x0bPKCNGGOJEJA\x18\x0e \x01(\r\x12\x13\n\x0b\x45PFPMGJEMJH\x18\x04 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FlightActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FlightActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FLIGHTACTIVITYDETAILINFO._serialized_start=60
-  _FLIGHTACTIVITYDETAILINFO._serialized_end=191
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_FLIGHTACTIVITYDETAILINFO']._serialized_start=59
+  _globals['_FLIGHTACTIVITYDETAILINFO']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

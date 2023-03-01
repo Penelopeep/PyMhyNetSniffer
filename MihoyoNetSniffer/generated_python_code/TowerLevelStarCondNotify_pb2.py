@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TowerLevelStarCondData_pb2 as TowerLevelStarCondData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTowerLevelStarCondNotify.proto\x1a\x1cTowerLevelStarCondData.proto\"n\n\x18TowerLevelStarCondNotify\x12\x0f\n\x07\x66loorId\x18\r \x01(\r\x12\x12\n\nlevelIndex\x18\x04 \x01(\r\x12-\n\x0c\x63ondDataList\x18\x0f \x03(\x0b\x32\x17.TowerLevelStarCondDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTowerLevelStarCondNotify.proto\x1a\x1cTowerLevelStarCondData.proto\"r\n\x18TowerLevelStarCondNotify\x12\x13\n\x0blevel_index\x18\t \x01(\r\x12/\n\x0e\x63ond_data_list\x18\x08 \x03(\x0b\x32\x17.TowerLevelStarCondData\x12\x10\n\x08\x66loor_id\x18\r \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerLevelStarCondNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TOWERLEVELSTARCONDNOTIFY']._serialized_start=64
-  _globals['_TOWERLEVELSTARCONDNOTIFY']._serialized_end=174
+  _globals['_TOWERLEVELSTARCONDNOTIFY']._serialized_end=178
 # @@protoc_insertion_point(module_scope)

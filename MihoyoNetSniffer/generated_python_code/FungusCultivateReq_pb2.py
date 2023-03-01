@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x46ungusCultivateReq.proto\"\xe5\x01\n\x12\x46ungusCultivateReq\x12\x13\n\x0b\x63ultivateId\x18\x0f \x01(\r\x12\x0c\n\x04time\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_MBPLICBFAGL\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_PGJKEICFKLL\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_DJEGJDACDEF\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_AEGCNHLOPEP\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_IMEGFNOLDCE\x18\r \x01(\r\x12\x1b\n\x13Unk3300_IOANLJBMBAI\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x46ungusCultivateReq.proto\"\xb6\x01\n\x12\x46ungusCultivateReq\x12\x14\n\x0c\x63ultivate_id\x18\x0f \x01(\r\x12\x13\n\x0bPEMEEBICACO\x18\r \x01(\r\x12\x13\n\x0b\x44\x41LIOFECCHH\x18\x08 \x01(\r\x12\x13\n\x0bMDEFDDPPPFJ\x18\n \x01(\r\x12\x13\n\x0bONNAFGONBKP\x18\x05 \x01(\r\x12\x0c\n\x04time\x18\x0e \x01(\r\x12\x13\n\x0bGOEOLKBNFFE\x18\x0c \x01(\r\x12\x13\n\x0bLIMHENMOOKA\x18\x01 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FungusCultivateReq_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_FUNGUSCULTIVATEREQ']._serialized_start=29
-  _globals['_FUNGUSCULTIVATEREQ']._serialized_end=258
+  _globals['_FUNGUSCULTIVATEREQ']._serialized_end=211
 # @@protoc_insertion_point(module_scope)

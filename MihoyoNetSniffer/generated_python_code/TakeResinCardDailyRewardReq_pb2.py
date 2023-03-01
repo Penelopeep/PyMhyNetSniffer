@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeResinCardDailyRewardReq.proto\"6\n\x1bTakeResinCardDailyRewardReq\x12\x17\n\x0fproductConfigId\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeResinCardDailyRewardReq.proto\"8\n\x1bTakeResinCardDailyRewardReq\x12\x19\n\x11product_config_id\x18\x0b \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeResinCardDailyRewardReq
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TAKERESINCARDDAILYREWARDREQ']._serialized_start=37
-  _globals['_TAKERESINCARDDAILYREWARDREQ']._serialized_end=91
+  _globals['_TAKERESINCARDDAILYREWARDREQ']._serialized_end=93
 # @@protoc_insertion_point(module_scope)

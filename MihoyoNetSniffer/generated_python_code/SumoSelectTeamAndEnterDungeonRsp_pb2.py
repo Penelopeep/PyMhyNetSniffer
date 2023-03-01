@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SumoTeamData_pb2 as SumoTeamData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SumoSelectTeamAndEnterDungeonRsp.proto\x1a\x12SumoTeamData.proto\"\x8f\x01\n SumoSelectTeamAndEnterDungeonRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x14\n\x0c\x64ifficultyId\x18\x0e \x01(\r\x12\x12\n\nactivityId\x18\r \x01(\r\x12\x1f\n\x08teamList\x18\x02 \x03(\x0b\x32\r.SumoTeamData\x12\x0f\n\x07stageId\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SumoSelectTeamAndEnterDungeonRsp.proto\x1a\x12SumoTeamData.proto\"\x93\x01\n SumoSelectTeamAndEnterDungeonRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x15\n\rdifficulty_id\x18\x02 \x01(\r\x12\x10\n\x08stage_id\x18\x03 \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x08 \x01(\r\x12 \n\tteam_list\x18\x04 \x03(\x0b\x32\r.SumoTeamDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoSelectTeamAndEnterDunge
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SUMOSELECTTEAMANDENTERDUNGEONRSP']._serialized_start=63
-  _globals['_SUMOSELECTTEAMANDENTERDUNGEONRSP']._serialized_end=206
+  _globals['_SUMOSELECTTEAMANDENTERDUNGEONRSP']._serialized_end=210
 # @@protoc_insertion_point(module_scope)

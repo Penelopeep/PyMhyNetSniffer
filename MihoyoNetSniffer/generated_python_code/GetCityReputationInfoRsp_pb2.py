@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CityReputationInfo_pb2 as CityReputationInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetCityReputationInfoRsp.proto\x1a\x18\x43ityReputationInfo.proto\"l\n\x18GetCityReputationInfoRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x0e\n\x06\x63ityId\x18\x06 \x01(\r\x12/\n\x12\x63ityReputationInfo\x18\x05 \x01(\x0b\x32\x13.CityReputationInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetCityReputationInfoRsp.proto\x1a\x18\x43ityReputationInfo.proto\"o\n\x18GetCityReputationInfoRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x0f\n\x07\x63ity_id\x18\x08 \x01(\r\x12\x31\n\x14\x63ity_reputation_info\x18\t \x01(\x0b\x32\x13.CityReputationInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetCityReputationInfoRsp_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETCITYREPUTATIONINFORSP']._serialized_start=60
-  _globals['_GETCITYREPUTATIONINFORSP']._serialized_end=168
+  _globals['_GETCITYREPUTATIONINFORSP']._serialized_end=171
 # @@protoc_insertion_point(module_scope)

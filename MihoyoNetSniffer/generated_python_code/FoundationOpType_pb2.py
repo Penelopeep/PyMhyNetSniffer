@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46oundationOpType.proto*\xeb\x01\n\x10\x46oundationOpType\x12\x1b\n\x17\x46OUNDATION_OP_TYPE_NONE\x10\x00\x12\x1c\n\x18\x46OUNDATION_OP_TYPE_BUILD\x10\x01\x12!\n\x1d\x46OUNDATION_OP_TYPE_DEMOLITION\x10\x02\x12\x1e\n\x1a\x46OUNDATION_OP_TYPE_REBUILD\x10\x03\x12\x1d\n\x19\x46OUNDATION_OP_TYPE_ROTATE\x10\x04\x12\x1b\n\x17\x46OUNDATION_OP_TYPE_LOCK\x10\x05\x12\x1d\n\x19\x46OUNDATION_OP_TYPE_UNLOCK\x10\x06\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46oundationOpType.proto*\xc8\x01\n\x10\x46oundationOpType\x12\x16\n\x12\x46OUNDATION_OP_NONE\x10\x00\x12\x17\n\x13\x46OUNDATION_OP_BUILD\x10\x01\x12\x1c\n\x18\x46OUNDATION_OP_DEMOLITION\x10\x02\x12\x19\n\x15\x46OUNDATION_OP_REBUILD\x10\x03\x12\x18\n\x14\x46OUNDATION_OP_ROTATE\x10\x04\x12\x16\n\x12\x46OUNDATION_OP_LOCK\x10\x05\x12\x18\n\x14\x46OUNDATION_OP_UNLOCK\x10\x06\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FoundationOpType_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_FOUNDATIONOPTYPE']._serialized_start=27
-  _globals['_FOUNDATIONOPTYPE']._serialized_end=262
+  _globals['_FOUNDATIONOPTYPE']._serialized_end=227
 # @@protoc_insertion_point(module_scope)

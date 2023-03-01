@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGalleryFlowerCatchNotify.proto\"Q\n\x18GalleryFlowerCatchNotify\x12\x10\n\x08\x61\x64\x64Score\x18\x01 \x01(\r\x12\x10\n\x08\x63urScore\x18\x08 \x01(\r\x12\x11\n\tgalleryId\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGalleryFlowerCatchNotify.proto\"T\n\x18GalleryFlowerCatchNotify\x12\x11\n\tcur_score\x18\x0c \x01(\r\x12\x12\n\ngallery_id\x18\x04 \x01(\r\x12\x11\n\tadd_score\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryFlowerCatchNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GALLERYFLOWERCATCHNOTIFY']._serialized_start=34
-  _globals['_GALLERYFLOWERCATCHNOTIFY']._serialized_end=115
+  _globals['_GALLERYFLOWERCATCHNOTIFY']._serialized_end=118
 # @@protoc_insertion_point(module_scope)

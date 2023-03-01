@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import UgcMusicTrack_pb2 as UgcMusicTrack__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14UgcMusicRecord.proto\x1a\x13UgcMusicTrack.proto\"L\n\x0eUgcMusicRecord\x12\x10\n\x08music_id\x18\x01 \x01(\r\x12(\n\x10music_track_list\x18\x04 \x03(\x0b\x32\x0e.UgcMusicTrackb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14UgcMusicRecord.proto\x1a\x13UgcMusicTrack.proto\"L\n\x0eUgcMusicRecord\x12\x10\n\x08music_id\x18\x06 \x01(\r\x12(\n\x10music_track_list\x18\x02 \x03(\x0b\x32\x0e.UgcMusicTrackB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UgcMusicRecord_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UgcMusicRecord_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _UGCMUSICRECORD._serialized_start=45
-  _UGCMUSICRECORD._serialized_end=121
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_UGCMUSICRECORD']._serialized_start=45
+  _globals['_UGCMUSICRECORD']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GalleryStartSource_pb2 as GalleryStartSource__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)SceneGalleryIslandPartyDownHillInfo.proto\x1a\x18GalleryStartSource.proto\"\xa0\x01\n#SceneGalleryIslandPartyDownHillInfo\x12\x1e\n\x16max_kill_monster_count\x18\n \x01(\r\x12)\n\x0cstart_source\x18\x02 \x01(\x0e\x32\x13.GalleryStartSource\x12 \n\x18total_kill_monster_count\x18\x0c \x01(\r\x12\x0c\n\x04\x63oin\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)SceneGalleryIslandPartyDownHillInfo.proto\x1a\x18GalleryStartSource.proto\"\xa0\x01\n#SceneGalleryIslandPartyDownHillInfo\x12\x0c\n\x04\x63oin\x18\x04 \x01(\r\x12 \n\x18total_kill_monster_count\x18\x0c \x01(\r\x12)\n\x0cstart_source\x18\x02 \x01(\x0e\x32\x13.GalleryStartSource\x12\x1e\n\x16max_kill_monster_count\x18\x01 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryIslandPartyDownHillInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryIslandPartyDownHillInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYISLANDPARTYDOWNHILLINFO._serialized_start=72
-  _SCENEGALLERYISLANDPARTYDOWNHILLINFO._serialized_end=232
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYISLANDPARTYDOWNHILLINFO']._serialized_start=72
+  _globals['_SCENEGALLERYISLANDPARTYDOWNHILLINFO']._serialized_end=232
 # @@protoc_insertion_point(module_scope)

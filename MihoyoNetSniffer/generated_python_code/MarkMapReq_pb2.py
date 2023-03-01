@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MapMarkPoint_pb2 as MapMarkPoint__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10MarkMapReq.proto\x1a\x12MapMarkPoint.proto\"\xc1\x01\n\nMarkMapReq\x12!\n\x02op\x18\x03 \x01(\x0e\x32\x15.MarkMapReq.Operation\x12\x1a\n\x03old\x18\x07 \x01(\x0b\x32\r.MapMarkPoint\x12\x1b\n\x04mark\x18\n \x01(\x0b\x32\r.MapMarkPoint\"W\n\tOperation\x12\x11\n\rOPERATION_ADD\x10\x00\x12\x11\n\rOPERATION_MOD\x10\x01\x12\x11\n\rOPERATION_DEL\x10\x02\x12\x11\n\rOPERATION_GET\x10\x03\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10MarkMapReq.proto\x1a\x12MapMarkPoint.proto\"\x99\x01\n\nMarkMapReq\x12\x1a\n\x03old\x18\t \x01(\x0b\x32\r.MapMarkPoint\x12\x1b\n\x04mark\x18\x0f \x01(\x0b\x32\r.MapMarkPoint\x12!\n\x02op\x18\x01 \x01(\x0e\x32\x15.MarkMapReq.Operation\"/\n\tOperation\x12\x07\n\x03\x41\x44\x44\x10\x00\x12\x07\n\x03MOD\x10\x01\x12\x07\n\x03\x44\x45L\x10\x02\x12\x07\n\x03GET\x10\x03\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,9 +22,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MarkMapReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_MARKMAPREQ']._serialized_start=41
-  _globals['_MARKMAPREQ']._serialized_end=234
+  _globals['_MARKMAPREQ']._serialized_end=194
   _globals['_MARKMAPREQ_OPERATION']._serialized_start=147
-  _globals['_MARKMAPREQ_OPERATION']._serialized_end=234
+  _globals['_MARKMAPREQ_OPERATION']._serialized_end=194
 # @@protoc_insertion_point(module_scope)

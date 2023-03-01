@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import AbilityScalarValueEntry_pb2 as AbilityScalarValueEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AbilityMetaReInitOverrideMap.proto\x1a\x1d\x41\x62ilityScalarValueEntry.proto\"N\n\x1c\x41\x62ilityMetaReInitOverrideMap\x12.\n\x0coverride_map\x18\n \x03(\x0b\x32\x18.AbilityScalarValueEntryb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AbilityMetaReInitOverrideMap.proto\x1a\x1d\x41\x62ilityScalarValueEntry.proto\"N\n\x1c\x41\x62ilityMetaReInitOverrideMap\x12.\n\x0coverride_map\x18\t \x03(\x0b\x32\x18.AbilityScalarValueEntryB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaReInitOverrideMap_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaReInitOverrideMap_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ABILITYMETAREINITOVERRIDEMAP._serialized_start=69
-  _ABILITYMETAREINITOVERRIDEMAP._serialized_end=147
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ABILITYMETAREINITOVERRIDEMAP']._serialized_start=69
+  _globals['_ABILITYMETAREINITOVERRIDEMAP']._serialized_end=147
 # @@protoc_insertion_point(module_scope)

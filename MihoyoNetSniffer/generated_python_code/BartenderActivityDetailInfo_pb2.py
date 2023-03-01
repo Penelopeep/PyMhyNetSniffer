@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import BartenderTaskInfo_pb2 as BartenderTaskInfo__pb2
 import BartenderLevelInfo_pb2 as BartenderLevelInfo__pb2
+import BartenderTaskInfo_pb2 as BartenderTaskInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BartenderActivityDetailInfo.proto\x1a\x17\x42\x61rtenderTaskInfo.proto\x1a\x18\x42\x61rtenderLevelInfo.proto\"\xdd\x01\n\x1b\x42\x61rtenderActivityDetailInfo\x12*\n\x0eunlockTaskList\x18\x0f \x03(\x0b\x32\x12.BartenderTaskInfo\x12\x1b\n\x13isDevelopModuleOpen\x18\n \x01(\x08\x12\x16\n\x0eunlockItemList\x18\x08 \x03(\r\x12\x19\n\x11unlockFormulaList\x18\x0e \x03(\r\x12\x14\n\x0cleftMonsters\x18\x02 \x01(\x08\x12,\n\x0funlockLevelList\x18\x04 \x03(\x0b\x32\x13.BartenderLevelInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BartenderActivityDetailInfo.proto\x1a\x18\x42\x61rtenderLevelInfo.proto\x1a\x17\x42\x61rtenderTaskInfo.proto\"\xe0\x01\n\x1b\x42\x61rtenderActivityDetailInfo\x12.\n\x11unlock_level_list\x18\n \x03(\x0b\x32\x13.BartenderLevelInfo\x12\x1e\n\x16is_develop_module_open\x18\x04 \x01(\x08\x12\x13\n\x0bHABKKALDAHF\x18\x06 \x03(\r\x12\x19\n\x11is_content_closed\x18\x05 \x01(\x08\x12\x13\n\x0b\x44PFPEEGPEKO\x18\x0f \x03(\r\x12,\n\x10unlock_task_list\x18\x01 \x03(\x0b\x32\x12.BartenderTaskInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BartenderActivityDetailInfo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BARTENDERACTIVITYDETAILINFO']._serialized_start=89
-  _globals['_BARTENDERACTIVITYDETAILINFO']._serialized_end=310
+  _globals['_BARTENDERACTIVITYDETAILINFO']._serialized_end=313
 # @@protoc_insertion_point(module_scope)

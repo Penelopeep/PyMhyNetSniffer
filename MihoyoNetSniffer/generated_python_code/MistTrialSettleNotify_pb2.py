@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MistTrialBestAvatar_pb2 as MistTrialBestAvatar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bMistTrialSettleNotify.proto\x1a\x19MistTrialBestAvatar.proto\"\xb1\x03\n\x15MistTrialSettleNotify\x12+\n\rbestHitAvatar\x18\x02 \x01(\x0b\x32\x14.MistTrialBestAvatar\x12K\n\x13Unk3300_KFKHAACDJDJ\x18\n \x03(\x0b\x32..MistTrialSettleNotify.Unk3300KFKHAACDJDJEntry\x12,\n\x0e\x62\x65stAvatarList\x18\x05 \x03(\x0b\x32\x14.MistTrialBestAvatar\x12\x15\n\rfirstPassTime\x18\t \x01(\r\x12\x16\n\x0e\x64ungeonSceneId\x18\x0e \x01(\r\x12K\n\x13Unk3300_GMPEELLANLI\x18\x0b \x03(\x0b\x32..MistTrialSettleNotify.Unk3300GMPEELLANLIEntry\x1a\x39\n\x17Unk3300KFKHAACDJDJEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x39\n\x17Unk3300GMPEELLANLIEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bMistTrialSettleNotify.proto\x1a\x19MistTrialBestAvatar.proto\"\x8d\x03\n\x15MistTrialSettleNotify\x12.\n\x10\x62\x65st_avatar_list\x18\x03 \x03(\x0b\x32\x14.MistTrialBestAvatar\x12\x17\n\x0f\x66irst_pass_time\x18\x08 \x01(\r\x12<\n\x0bIIGOLKJOKAL\x18\x0f \x03(\x0b\x32\'.MistTrialSettleNotify.IIGOLKJOKALEntry\x12-\n\x0f\x62\x65st_hit_avatar\x18\x05 \x01(\x0b\x32\x14.MistTrialBestAvatar\x12<\n\x0bGIGIAGDALHG\x18\x0c \x03(\x0b\x32\'.MistTrialSettleNotify.GIGIAGDALHGEntry\x12\x18\n\x10\x64ungeon_scene_id\x18\x0e \x01(\r\x1a\x32\n\x10IIGOLKJOKALEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x32\n\x10GIGIAGDALHGEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,15 +22,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialSettleNotify_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _MISTTRIALSETTLENOTIFY_UNK3300KFKHAACDJDJENTRY._options = None
-  _MISTTRIALSETTLENOTIFY_UNK3300KFKHAACDJDJENTRY._serialized_options = b'8\001'
-  _MISTTRIALSETTLENOTIFY_UNK3300GMPEELLANLIENTRY._options = None
-  _MISTTRIALSETTLENOTIFY_UNK3300GMPEELLANLIENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _MISTTRIALSETTLENOTIFY_IIGOLKJOKALENTRY._options = None
+  _MISTTRIALSETTLENOTIFY_IIGOLKJOKALENTRY._serialized_options = b'8\001'
+  _MISTTRIALSETTLENOTIFY_GIGIAGDALHGENTRY._options = None
+  _MISTTRIALSETTLENOTIFY_GIGIAGDALHGENTRY._serialized_options = b'8\001'
   _globals['_MISTTRIALSETTLENOTIFY']._serialized_start=59
-  _globals['_MISTTRIALSETTLENOTIFY']._serialized_end=492
-  _globals['_MISTTRIALSETTLENOTIFY_UNK3300KFKHAACDJDJENTRY']._serialized_start=376
-  _globals['_MISTTRIALSETTLENOTIFY_UNK3300KFKHAACDJDJENTRY']._serialized_end=433
-  _globals['_MISTTRIALSETTLENOTIFY_UNK3300GMPEELLANLIENTRY']._serialized_start=435
-  _globals['_MISTTRIALSETTLENOTIFY_UNK3300GMPEELLANLIENTRY']._serialized_end=492
+  _globals['_MISTTRIALSETTLENOTIFY']._serialized_end=456
+  _globals['_MISTTRIALSETTLENOTIFY_IIGOLKJOKALENTRY']._serialized_start=354
+  _globals['_MISTTRIALSETTLENOTIFY_IIGOLKJOKALENTRY']._serialized_end=404
+  _globals['_MISTTRIALSETTLENOTIFY_GIGIAGDALHGENTRY']._serialized_start=406
+  _globals['_MISTTRIALSETTLENOTIFY_GIGIAGDALHGENTRY']._serialized_end=456
 # @@protoc_insertion_point(module_scope)

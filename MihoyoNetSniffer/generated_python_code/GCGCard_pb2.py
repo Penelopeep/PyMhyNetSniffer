@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGToken_pb2 as GCGToken__pb2
 import GCGSkillLimitsInfo_pb2 as GCGSkillLimitsInfo__pb2
+import GCGToken_pb2 as GCGToken__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rGCGCard.proto\x1a\x0eGCGToken.proto\x1a\x18GCGSkillLimitsInfo.proto\"\xcc\x01\n\x07GCGCard\x12\x13\n\x0bskillIdList\x18\x0b \x03(\r\x12\x1c\n\ttokenList\x18\x03 \x03(\x0b\x32\t.GCGToken\x12\x14\n\x0c\x63ontrollerId\x18\x02 \x01(\r\x12\x0f\n\x07tagList\x18\t \x03(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\r\x12\x0c\n\x04guid\x18\x08 \x01(\r\x12\n\n\x02id\x18\x0e \x01(\r\x12\x0e\n\x06isShow\x18\r \x01(\x08\x12,\n\x0fskillLimitsList\x18\x0c \x03(\x0b\x32\x13.GCGSkillLimitsInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rGCGCard.proto\x1a\x18GCGSkillLimitsInfo.proto\x1a\x0eGCGToken.proto\"\xd6\x01\n\x07GCGCard\x12\x0c\n\x04guid\x18\x0f \x01(\r\x12\n\n\x02id\x18\r \x01(\r\x12\x0f\n\x07is_show\x18\x0e \x01(\x08\x12\x1d\n\ntoken_list\x18\t \x03(\x0b\x32\t.GCGToken\x12\x10\n\x08tag_list\x18\x08 \x03(\r\x12\x15\n\rskill_id_list\x18\x07 \x03(\r\x12.\n\x11skill_limits_list\x18\x02 \x03(\x0b\x32\x13.GCGSkillLimitsInfo\x12\x11\n\tface_type\x18\x0b \x01(\r\x12\x15\n\rcontroller_id\x18\n \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGCard_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GCGCARD']._serialized_start=60
-  _globals['_GCGCARD']._serialized_end=264
+  _globals['_GCGCARD']._serialized_end=274
 # @@protoc_insertion_point(module_scope)

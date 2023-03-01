@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GCGSelectOnStageCostInfo_pb2 as GCGSelectOnStageCostInfo__pb2
-import GCGAttackCostInfo_pb2 as GCGAttackCostInfo__pb2
-import GCGPlayCardCostInfo_pb2 as GCGPlayCardCostInfo__pb2
+import JFDLFELGAEJ_pb2 as JFDLFELGAEJ__pb2
+import MJMMGKPBGGH_pb2 as MJMMGKPBGGH__pb2
+import PLPINEPGFHD_pb2 as PLPINEPGFHD__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GCGCostReviseInfo.proto\x1a\x1eGCGSelectOnStageCostInfo.proto\x1a\x17GCGAttackCostInfo.proto\x1a\x19GCGPlayCardCostInfo.proto\"\xdc\x01\n\x11GCGCostReviseInfo\x12\x13\n\x0bisCanAttack\x18\x02 \x01(\x08\x12\x38\n\x15selectOnStageCostList\x18\x05 \x03(\x0b\x32\x19.GCGSelectOnStageCostInfo\x12*\n\x0e\x61ttackCostList\x18\x08 \x03(\x0b\x32\x12.GCGAttackCostInfo\x12\x1c\n\x14\x63\x61nUseHandCardIdList\x18\x07 \x03(\r\x12.\n\x10playCardCostList\x18\x0f \x03(\x0b\x32\x14.GCGPlayCardCostInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GCGCostReviseInfo.proto\x1a\x11JFDLFELGAEJ.proto\x1a\x11MJMMGKPBGGH.proto\x1a\x11PLPINEPGFHD.proto\"\xb6\x01\n\x11GCGCostReviseInfo\x12!\n\x0b\x45\x46LDLOMLAHO\x18\r \x03(\x0b\x32\x0c.JFDLFELGAEJ\x12\x15\n\ris_can_attack\x18\x0f \x01(\x08\x12!\n\x19\x63\x61n_use_hand_card_id_list\x18\x01 \x03(\r\x12!\n\x0b\x46IJCIJMNPLB\x18\x06 \x03(\x0b\x32\x0c.PLPINEPGFHD\x12!\n\x0bGNPBHDMACIH\x18\x05 \x03(\x0b\x32\x0c.MJMMGKPBGGHB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGCostReviseInfo_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_GCGCOSTREVISEINFO']._serialized_start=112
-  _globals['_GCGCOSTREVISEINFO']._serialized_end=332
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGCOSTREVISEINFO']._serialized_start=85
+  _globals['_GCGCOSTREVISEINFO']._serialized_end=267
 # @@protoc_insertion_point(module_scope)

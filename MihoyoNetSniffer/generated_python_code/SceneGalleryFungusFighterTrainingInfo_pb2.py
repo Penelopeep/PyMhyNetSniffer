@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+SceneGalleryFungusFighterTrainingInfo.proto\"\xe4\x01\n%SceneGalleryFungusFighterTrainingInfo\x12\x1b\n\x13Unk3300_GMLIPFDMDOG\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_IOEELCAMDCK\x18\x08 \x01(\r\x12\x19\n\x11max_monster_count\x18\n \x01(\r\x12\x1b\n\x13Unk3300_EDHANEGNMJM\x18\x02 \x01(\r\x12\x0f\n\x07\x62uff_id\x18\r \x01(\r\x12\x1b\n\x13Unk3300_HGPGNCMNDJN\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_EKAMCPNGCGH\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+SceneGalleryFungusFighterTrainingInfo.proto\"\xb6\x01\n%SceneGalleryFungusFighterTrainingInfo\x12\x13\n\x0bOGPBADNDKBP\x18\x0e \x01(\r\x12\x13\n\x0b\x44PIPHICOICA\x18\x02 \x01(\r\x12\x0f\n\x07\x62uff_id\x18\x07 \x01(\r\x12\x13\n\x0bKNEABBDMNHN\x18\x03 \x01(\r\x12\x13\n\x0bPOCKPBDHDLA\x18\x0b \x01(\r\x12\x13\n\x0bHFBFHNOPEJB\x18\r \x01(\r\x12\x13\n\x0b\x41KLIJMLEDNH\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryFungusFighterTrainingInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryFungusFighterTrainingInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYFUNGUSFIGHTERTRAININGINFO._serialized_start=48
-  _SCENEGALLERYFUNGUSFIGHTERTRAININGINFO._serialized_end=276
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYFUNGUSFIGHTERTRAININGINFO']._serialized_start=48
+  _globals['_SCENEGALLERYFUNGUSFIGHTERTRAININGINFO']._serialized_end=230
 # @@protoc_insertion_point(module_scope)

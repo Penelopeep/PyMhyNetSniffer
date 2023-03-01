@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGCGOperationSurrender.proto\"\x17\n\x15GCGOperationSurrenderb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGCGOperationSurrender.proto\"\x17\n\x15GCGOperationSurrenderB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationSurrender_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGOperationSurrender_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGOPERATIONSURRENDER._serialized_start=31
-  _GCGOPERATIONSURRENDER._serialized_end=54
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGOPERATIONSURRENDER']._serialized_start=31
+  _globals['_GCGOPERATIONSURRENDER']._serialized_end=54
 # @@protoc_insertion_point(module_scope)

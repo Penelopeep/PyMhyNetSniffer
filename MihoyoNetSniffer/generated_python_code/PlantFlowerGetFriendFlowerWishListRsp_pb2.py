@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlantFlowerFriendFlowerWishData_pb2 as PlantFlowerFriendFlowerWishData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+PlantFlowerGetFriendFlowerWishListRsp.proto\x1a%PlantFlowerFriendFlowerWishData.proto\"\x8c\x01\n%PlantFlowerGetFriendFlowerWishListRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x12\n\nscheduleId\x18\x07 \x01(\r\x12>\n\x14\x66riendFlowerWishList\x18\x01 \x03(\x0b\x32 .PlantFlowerFriendFlowerWishDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+PlantFlowerGetFriendFlowerWishListRsp.proto\x1a%PlantFlowerFriendFlowerWishData.proto\"\x90\x01\n%PlantFlowerGetFriendFlowerWishListRsp\x12\x41\n\x17\x66riend_flower_wish_list\x18\x0b \x03(\x0b\x32 .PlantFlowerFriendFlowerWishData\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x13\n\x0bschedule_id\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerGetFriendFlowerW
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLANTFLOWERGETFRIENDFLOWERWISHLISTRSP']._serialized_start=87
-  _globals['_PLANTFLOWERGETFRIENDFLOWERWISHLISTRSP']._serialized_end=227
+  _globals['_PLANTFLOWERGETFRIENDFLOWERWISHLISTRSP']._serialized_end=231
 # @@protoc_insertion_point(module_scope)

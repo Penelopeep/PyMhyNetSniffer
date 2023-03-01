@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RedPointData_pb2 as RedPointData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aUpdateRedPointNotify.proto\x1a\x12RedPointData.proto\";\n\x14UpdateRedPointNotify\x12#\n\x0credPointList\x18\x08 \x03(\x0b\x32\r.RedPointDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aUpdateRedPointNotify.proto\x1a\x12RedPointData.proto\"=\n\x14UpdateRedPointNotify\x12%\n\x0ered_point_list\x18\x07 \x03(\x0b\x32\r.RedPointDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdateRedPointNotify_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_UPDATEREDPOINTNOTIFY']._serialized_start=50
-  _globals['_UPDATEREDPOINTNOTIFY']._serialized_end=109
+  _globals['_UPDATEREDPOINTNOTIFY']._serialized_end=111
 # @@protoc_insertion_point(module_scope)

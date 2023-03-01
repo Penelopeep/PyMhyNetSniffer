@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ChannelerSlabBuffInfo_pb2 as ChannelerSlabBuffInfo__pb2
-import ChannelerSlabLoopDungeonStageInfo_pb2 as ChannelerSlabLoopDungeonStageInfo__pb2
+import AIGHOMHDNIL_pb2 as AIGHOMHDNIL__pb2
 import ChannelerSlabChallengeStage_pb2 as ChannelerSlabChallengeStage__pb2
+import HALOLKMILLH_pb2 as HALOLKMILLH__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%ChannelerSlabActivityDetailInfo.proto\x1a\x1b\x43hannelerSlabBuffInfo.proto\x1a\'ChannelerSlabLoopDungeonStageInfo.proto\x1a!ChannelerSlabChallengeStage.proto\"\xd3\x01\n\x1f\x43hannelerSlabActivityDetailInfo\x12(\n\x08\x62uffInfo\x18\r \x01(\x0b\x32\x16.ChannelerSlabBuffInfo\x12\x13\n\x0bplayEndTime\x18\x07 \x01(\r\x12@\n\x14loopDungeonStageInfo\x18\x04 \x01(\x0b\x32\".ChannelerSlabLoopDungeonStageInfo\x12/\n\tstageList\x18\t \x03(\x0b\x32\x1c.ChannelerSlabChallengeStageB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%ChannelerSlabActivityDetailInfo.proto\x1a\x11\x41IGHOMHDNIL.proto\x1a!ChannelerSlabChallengeStage.proto\x1a\x11HALOLKMILLH.proto\"\xb0\x01\n\x1f\x43hannelerSlabActivityDetailInfo\x12\x15\n\rplay_end_time\x18\x03 \x01(\r\x12\x30\n\nstage_list\x18\x02 \x03(\x0b\x32\x1c.ChannelerSlabChallengeStage\x12!\n\x0b\x42NGGDPMFDDH\x18\x0f \x01(\x0b\x32\x0c.AIGHOMHDNIL\x12!\n\x0bGLGFLPCODAB\x18\x01 \x01(\x0b\x32\x0c.HALOLKMILLHB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabActivityDetail
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_CHANNELERSLABACTIVITYDETAILINFO']._serialized_start=147
-  _globals['_CHANNELERSLABACTIVITYDETAILINFO']._serialized_end=358
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_CHANNELERSLABACTIVITYDETAILINFO']._serialized_start=115
+  _globals['_CHANNELERSLABACTIVITYDETAILINFO']._serialized_end=291
 # @@protoc_insertion_point(module_scope)

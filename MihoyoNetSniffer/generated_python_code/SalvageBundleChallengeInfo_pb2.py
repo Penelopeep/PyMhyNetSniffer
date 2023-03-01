@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SalvageBundleChallengeInfo.proto\":\n\x1aSalvageBundleChallengeInfo\x12\x1c\n\x14\x66inished_bundle_list\x18\x0b \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SalvageBundleChallengeInfo.proto\":\n\x1aSalvageBundleChallengeInfo\x12\x1c\n\x14\x66inished_bundle_list\x18\r \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvageBundleChallengeInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvageBundleChallengeInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SALVAGEBUNDLECHALLENGEINFO._serialized_start=36
-  _SALVAGEBUNDLECHALLENGEINFO._serialized_end=94
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SALVAGEBUNDLECHALLENGEINFO']._serialized_start=36
+  _globals['_SALVAGEBUNDLECHALLENGEINFO']._serialized_end=94
 # @@protoc_insertion_point(module_scope)

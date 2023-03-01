@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eVintageBoothUsedItemData.proto\"<\n\x18VintageBoothUsedItemData\x12\x10\n\x08gadgetId\x18\x0c \x01(\r\x12\x0e\n\x06isOpen\x18\x02 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eVintageBoothUsedItemData.proto\">\n\x18VintageBoothUsedItemData\x12\x11\n\tgadget_id\x18\x01 \x01(\r\x12\x0f\n\x07is_open\x18\x05 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageBoothUsedItemData_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_VINTAGEBOOTHUSEDITEMDATA']._serialized_start=34
-  _globals['_VINTAGEBOOTHUSEDITEMDATA']._serialized_end=94
+  _globals['_VINTAGEBOOTHUSEDITEMDATA']._serialized_end=96
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14TrackingIOInfo.proto\"\xc9\x01\n\x0eTrackingIOInfo\x12\x14\n\x0crydevicetype\x18\x02 \x01(\t\x12\x10\n\x08\x63lientTz\x18\x06 \x01(\t\x12\x1b\n\x13Unk3300_CCOGBICMHKG\x18\x0f \x01(\t\x12\x1b\n\x13Unk3300_NMDNLHLAKAM\x18\x0b \x01(\t\x12\x1b\n\x13Unk3300_PIBFPDAMJLE\x18\x05 \x01(\t\x12\x1b\n\x13Unk3300_DJHKHEFPCDK\x18\t \x01(\t\x12\x1b\n\x13Unk3300_CNPIGDOEJPB\x18\x03 \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14TrackingIOInfo.proto\"\xa3\x01\n\x0eTrackingIOInfo\x12\x13\n\x0b\x46MNKFIHICLO\x18\x08 \x01(\t\x12\x13\n\x0b\x42HHPIADAKIM\x18\x0f \x01(\t\x12\x13\n\x0bJHHDFCFBEAG\x18\r \x01(\t\x12\x13\n\x0b\x45PLDBBDOILI\x18\n \x01(\t\x12\x13\n\x0b\x45LHMDDNHHCG\x18\x02 \x01(\t\x12\x13\n\x0bMEGCNKBIJDE\x18\x0c \x01(\t\x12\x13\n\x0b\x45\x46PIHAGMJPD\x18\x03 \x01(\tB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TrackingIOInfo_pb2', _globa
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TRACKINGIOINFO']._serialized_start=25
-  _globals['_TRACKINGIOINFO']._serialized_end=226
+  _globals['_TRACKINGIOINFO']._serialized_end=188
 # @@protoc_insertion_point(module_scope)

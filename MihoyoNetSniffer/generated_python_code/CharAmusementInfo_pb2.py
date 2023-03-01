@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CharAmusementAvatarInfo_pb2 as CharAmusementAvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43harAmusementInfo.proto\x1a\x1d\x43harAmusementAvatarInfo.proto\"\x91\x01\n\x11\x43harAmusementInfo\x12\x30\n\x0e\x61vatarInfoList\x18\x0b \x03(\x0b\x32\x18.CharAmusementAvatarInfo\x12\x13\n\x0b\x65mdkpmhihmp\x18\x03 \x01(\r\x12\x0f\n\x07levelId\x18\x06 \x01(\r\x12\x0f\n\x07stageId\x18\x08 \x01(\r\x12\x13\n\x0binllhgjoaco\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43harAmusementInfo.proto\x1a\x1d\x43harAmusementAvatarInfo.proto\"\x95\x01\n\x11\x43harAmusementInfo\x12\x32\n\x10\x61vatar_info_list\x18\t \x03(\x0b\x32\x18.CharAmusementAvatarInfo\x12\x13\n\x0bJNLHFFKMCNM\x18\x05 \x01(\r\x12\x10\n\x08stage_id\x18\x07 \x01(\r\x12\x13\n\x0bOEHEMHPFFBO\x18\x0e \x01(\r\x12\x10\n\x08level_id\x18\x01 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CharAmusementInfo_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CHARAMUSEMENTINFO']._serialized_start=59
-  _globals['_CHARAMUSEMENTINFO']._serialized_end=204
+  _globals['_CHARAMUSEMENTINFO']._serialized_end=208
 # @@protoc_insertion_point(module_scope)

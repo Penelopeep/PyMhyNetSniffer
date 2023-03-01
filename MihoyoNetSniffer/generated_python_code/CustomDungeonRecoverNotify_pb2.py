@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import TryCustomDungeonType_pb2 as TryCustomDungeonType__pb2
-import EnterCustomDungeonType_pb2 as EnterCustomDungeonType__pb2
 import CustomDungeon_pb2 as CustomDungeon__pb2
+import EnterCustomDungeonType_pb2 as EnterCustomDungeonType__pb2
+import TryCustomDungeonType_pb2 as TryCustomDungeonType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n CustomDungeonRecoverNotify.proto\x1a\x1aTryCustomDungeonType.proto\x1a\x1c\x45nterCustomDungeonType.proto\x1a\x13\x43ustomDungeon.proto\"\xb6\x01\n\x1a\x43ustomDungeonRecoverNotify\x12&\n\x07tryType\x18\x05 \x01(\x0e\x32\x15.TryCustomDungeonType\x12*\n\tenterType\x18\n \x01(\x0e\x32\x17.EnterCustomDungeonType\x12\x1d\n\x15officialBlackCoinList\x18\x0e \x03(\r\x12%\n\rcustomDungeon\x18\x03 \x01(\x0b\x32\x0e.CustomDungeonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n CustomDungeonRecoverNotify.proto\x1a\x13\x43ustomDungeon.proto\x1a\x1c\x45nterCustomDungeonType.proto\x1a\x1aTryCustomDungeonType.proto\"\xbc\x01\n\x1a\x43ustomDungeonRecoverNotify\x12+\n\nenter_type\x18\x04 \x01(\x0e\x32\x17.EnterCustomDungeonType\x12\'\n\x08try_type\x18\x0c \x01(\x0e\x32\x15.TryCustomDungeonType\x12&\n\x0e\x63ustom_dungeon\x18\t \x01(\x0b\x32\x0e.CustomDungeon\x12 \n\x18official_black_coin_list\x18\x02 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonRecoverNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CUSTOMDUNGEONRECOVERNOTIFY']._serialized_start=116
-  _globals['_CUSTOMDUNGEONRECOVERNOTIFY']._serialized_end=298
+  _globals['_CUSTOMDUNGEONRECOVERNOTIFY']._serialized_end=304
 # @@protoc_insertion_point(module_scope)

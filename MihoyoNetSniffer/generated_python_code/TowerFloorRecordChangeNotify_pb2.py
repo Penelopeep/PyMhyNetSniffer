@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TowerFloorRecord_pb2 as TowerFloorRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TowerFloorRecordChangeNotify.proto\x1a\x16TowerFloorRecord.proto\"p\n\x1cTowerFloorRecordChangeNotify\x12\x1f\n\x17isFinishedEntranceFloor\x18\x0b \x01(\x08\x12/\n\x14towerFloorRecordList\x18\x0c \x03(\x0b\x32\x11.TowerFloorRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TowerFloorRecordChangeNotify.proto\x1a\x16TowerFloorRecord.proto\"v\n\x1cTowerFloorRecordChangeNotify\x12\"\n\x1ais_finished_entrance_floor\x18\x07 \x01(\x08\x12\x32\n\x17tower_floor_record_list\x18\x06 \x03(\x0b\x32\x11.TowerFloorRecordB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerFloorRecordChangeNotif
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TOWERFLOORRECORDCHANGENOTIFY']._serialized_start=62
-  _globals['_TOWERFLOORRECORDCHANGENOTIFY']._serialized_end=174
+  _globals['_TOWERFLOORRECORDCHANGENOTIFY']._serialized_end=180
 # @@protoc_insertion_point(module_scope)

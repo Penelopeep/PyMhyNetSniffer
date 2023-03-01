@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import EntityConfigHashEntry_pb2 as EntityConfigHashEntry__pb2
+import MGPCDHIOCGA_pb2 as MGPCDHIOCGA__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45ntityConfigHashNotify.proto\x1a\x1b\x45ntityConfigHashEntry.proto\"\xac\x01\n\x16\x45ntityConfigHashNotify\x12/\n\x0f\x61vatarEntryList\x18\x0c \x03(\x0b\x32\x16.EntityConfigHashEntry\x12\x30\n\x10\x61\x62ilityEntryList\x18\x07 \x03(\x0b\x32\x16.EntityConfigHashEntry\x12/\n\x0f\x63ombatEntryList\x18\x01 \x03(\x0b\x32\x16.EntityConfigHashEntryB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45ntityConfigHashNotify.proto\x1a\x11MGPCDHIOCGA.proto\"\x81\x01\n\x16\x45ntityConfigHashNotify\x12!\n\x0bLJEBDGHMJHG\x18\x06 \x03(\x0b\x32\x0c.MGPCDHIOCGA\x12!\n\x0bLJCPLFAOJJP\x18\x03 \x03(\x0b\x32\x0c.MGPCDHIOCGA\x12!\n\x0bLKOBJJCPKHD\x18\x0e \x03(\x0b\x32\x0c.MGPCDHIOCGAB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityConfigHashNotify_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_ENTITYCONFIGHASHNOTIFY']._serialized_start=62
-  _globals['_ENTITYCONFIGHASHNOTIFY']._serialized_end=234
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ENTITYCONFIGHASHNOTIFY']._serialized_start=52
+  _globals['_ENTITYCONFIGHASHNOTIFY']._serialized_end=181
 # @@protoc_insertion_point(module_scope)

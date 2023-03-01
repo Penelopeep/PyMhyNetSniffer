@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GCGSettleOption.proto*\x98\x01\n\x0fGCGSettleOption\x12\x1e\n\x1aGCG_SETTLE_OPTION_OPT_NONE\x10\x00\x12\x1e\n\x1aGCG_SETTLE_OPTION_OPT_EXIT\x10\x01\x12\"\n\x1eGCG_SETTLE_OPTION_OPT_CONTINUE\x10\x02\x12!\n\x1dGCG_SETTLE_OPTION_OPT_RESTART\x10\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GCGSettleOption.proto*|\n\x0fGCGSettleOption\x12\x17\n\x13GCG_SETTLE_OPT_NONE\x10\x00\x12\x17\n\x13GCG_SETTLE_OPT_EXIT\x10\x01\x12\x1b\n\x17GCG_SETTLE_OPT_CONTINUE\x10\x02\x12\x1a\n\x16GCG_SETTLE_OPT_RESTART\x10\x03\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSettleOption_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGSettleOption_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGSETTLEOPTION._serialized_start=26
-  _GCGSETTLEOPTION._serialized_end=178
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGSETTLEOPTION']._serialized_start=25
+  _globals['_GCGSETTLEOPTION']._serialized_end=149
 # @@protoc_insertion_point(module_scope)

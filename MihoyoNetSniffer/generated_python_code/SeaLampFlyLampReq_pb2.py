@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SeaLampFlyLampReq.proto\x1a\x0cVector.proto\"Y\n\x11SeaLampFlyLampReq\x12\x14\n\x03pos\x18\x0e \x01(\x0b\x32\x07.Vector\x12\x0e\n\x06itemId\x18\x04 \x01(\r\x12\x0f\n\x07itemNum\x18\x01 \x01(\r\x12\r\n\x05param\x18\x0f \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SeaLampFlyLampReq.proto\x1a\x0cVector.proto\"[\n\x11SeaLampFlyLampReq\x12\x14\n\x03pos\x18\x08 \x01(\x0b\x32\x07.Vector\x12\r\n\x05param\x18\r \x01(\x05\x12\x0f\n\x07item_id\x18\x0b \x01(\r\x12\x10\n\x08item_num\x18\x0e \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampFlyLampReq_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SEALAMPFLYLAMPREQ']._serialized_start=41
-  _globals['_SEALAMPFLYLAMPREQ']._serialized_end=130
+  _globals['_SEALAMPFLYLAMPREQ']._serialized_end=132
 # @@protoc_insertion_point(module_scope)

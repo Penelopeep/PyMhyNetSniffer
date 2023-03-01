@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import QuestVarOp_pb2 as QuestVarOp__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cQuestUpdateQuestVarReq.proto\x1a\x10QuestVarOp.proto\"\x80\x01\n\x16QuestUpdateQuestVarReq\x12\x19\n\x11parentQuestVarSeq\x18\t \x01(\r\x12\x15\n\rparentQuestId\x18\x0c \x01(\r\x12#\n\x0equestVarOpList\x18\x04 \x03(\x0b\x32\x0b.QuestVarOp\x12\x0f\n\x07questId\x18\x03 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cQuestUpdateQuestVarReq.proto\x1a\x10QuestVarOp.proto\"\x89\x01\n\x16QuestUpdateQuestVarReq\x12\x10\n\x08quest_id\x18\n \x01(\r\x12\x1c\n\x14parent_quest_var_seq\x18\x0b \x01(\r\x12&\n\x11quest_var_op_list\x18\x07 \x03(\x0b\x32\x0b.QuestVarOp\x12\x17\n\x0fparent_quest_id\x18\x01 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestUpdateQuestVarReq_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_QUESTUPDATEQUESTVARREQ']._serialized_start=51
-  _globals['_QUESTUPDATEQUESTVARREQ']._serialized_end=179
+  _globals['_QUESTUPDATEQUESTVARREQ']._serialized_end=188
 # @@protoc_insertion_point(module_scope)

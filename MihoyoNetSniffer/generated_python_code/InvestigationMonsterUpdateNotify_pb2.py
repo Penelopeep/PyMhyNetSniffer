@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import InvestigationMonster_pb2 as InvestigationMonster__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&InvestigationMonsterUpdateNotify.proto\x1a\x1aInvestigationMonster.proto\"W\n InvestigationMonsterUpdateNotify\x12\x33\n\x14investigationMonster\x18\x0f \x01(\x0b\x32\x15.InvestigationMonsterB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&InvestigationMonsterUpdateNotify.proto\x1a\x1aInvestigationMonster.proto\"X\n InvestigationMonsterUpdateNotify\x12\x34\n\x15investigation_monster\x18\r \x01(\x0b\x32\x15.InvestigationMonsterB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InvestigationMonsterUpdateN
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_INVESTIGATIONMONSTERUPDATENOTIFY']._serialized_start=70
-  _globals['_INVESTIGATIONMONSTERUPDATENOTIFY']._serialized_end=157
+  _globals['_INVESTIGATIONMONSTERUPDATENOTIFY']._serialized_end=158
 # @@protoc_insertion_point(module_scope)

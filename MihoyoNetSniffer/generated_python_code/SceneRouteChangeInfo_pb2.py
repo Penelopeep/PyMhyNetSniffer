@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RoutePointChangeInfo_pb2 as RoutePointChangeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneRouteChangeInfo.proto\x1a\x1aRoutePointChangeInfo.proto\"r\n\x14SceneRouteChangeInfo\x12\x11\n\tisForward\x18\x07 \x01(\x08\x12(\n\tpointList\x18\x0e \x03(\x0b\x32\x15.RoutePointChangeInfo\x12\x0c\n\x04type\x18\x0b \x01(\r\x12\x0f\n\x07routeId\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneRouteChangeInfo.proto\x1a\x1aRoutePointChangeInfo.proto\"u\n\x14SceneRouteChangeInfo\x12\x0c\n\x04type\x18\x0c \x01(\r\x12\x12\n\nis_forward\x18\x05 \x01(\x08\x12\x10\n\x08route_id\x18\x02 \x01(\r\x12)\n\npoint_list\x18\x01 \x03(\x0b\x32\x15.RoutePointChangeInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneRouteChangeInfo_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SCENEROUTECHANGEINFO']._serialized_start=58
-  _globals['_SCENEROUTECHANGEINFO']._serialized_end=172
+  _globals['_SCENEROUTECHANGEINFO']._serialized_end=175
 # @@protoc_insertion_point(module_scope)

@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import State_pb2 as State__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPlayerPreEnterMpNotify.proto\x1a\x0bState.proto\"N\n\x16PlayerPreEnterMpNotify\x12\x15\n\x05state\x18\x07 \x01(\x0e\x32\x06.State\x12\x0b\n\x03uid\x18\n \x01(\r\x12\x10\n\x08nickname\x18\x0f \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPlayerPreEnterMpNotify.proto\"\x93\x01\n\x16PlayerPreEnterMpNotify\x12\x10\n\x08nickname\x18\n \x01(\t\x12,\n\x05state\x18\x0e \x01(\x0e\x32\x1d.PlayerPreEnterMpNotify.State\x12\x0b\n\x03uid\x18\x0c \x01(\r\",\n\x05State\x12\x0b\n\x07INVALID\x10\x00\x12\t\n\x05START\x10\x01\x12\x0b\n\x07TIMEOUT\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerPreEnterMpNotify_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_PLAYERPREENTERMPNOTIFY']._serialized_start=45
-  _globals['_PLAYERPREENTERMPNOTIFY']._serialized_end=123
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_PLAYERPREENTERMPNOTIFY']._serialized_start=33
+  _globals['_PLAYERPREENTERMPNOTIFY']._serialized_end=180
+  _globals['_PLAYERPREENTERMPNOTIFY_STATE']._serialized_start=136
+  _globals['_PLAYERPREENTERMPNOTIFY_STATE']._serialized_end=180
 # @@protoc_insertion_point(module_scope)

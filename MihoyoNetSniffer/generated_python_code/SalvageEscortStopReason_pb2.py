@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSalvageEscortStopReason.proto*\xa5\x02\n\x17SalvageEscortStopReason\x12#\n\x1fSALVAGE_ESCORT_STOP_REASON_NONE\x10\x00\x12&\n\"SALVAGE_ESCORT_STOP_REASON_SUCCESS\x10\x01\x12#\n\x1fSALVAGE_ESCORT_STOP_REASON_DUMP\x10\x02\x12#\n\x1fSALVAGE_ESCORT_STOP_REASON_TIME\x10\x03\x12(\n$SALVAGE_ESCORT_STOP_REASON_INTERRUPT\x10\x04\x12$\n SALVAGE_ESCORT_STOP_REASON_LEAVE\x10\x05\x12#\n\x1fSALVAGE_ESCORT_STOP_REASON_FULL\x10\x06\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSalvageEscortStopReason.proto*\xf4\x01\n\x17SalvageEscortStopReason\x12\x1c\n\x18SALVAGE_ESCORT_STOP_NONE\x10\x00\x12\x1f\n\x1bSALVAGE_ESCORT_STOP_SUCCESS\x10\x01\x12\x1c\n\x18SALVAGE_ESCORT_STOP_DUMP\x10\x02\x12\x1c\n\x18SALVAGE_ESCORT_STOP_TIME\x10\x03\x12!\n\x1dSALVAGE_ESCORT_STOP_INTERRUPT\x10\x04\x12\x1d\n\x19SALVAGE_ESCORT_STOP_LEAVE\x10\x05\x12\x1c\n\x18SALVAGE_ESCORT_STOP_FULL\x10\x06\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalvageEscortStopReason_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SALVAGEESCORTSTOPREASON']._serialized_start=34
-  _globals['_SALVAGEESCORTSTOPREASON']._serialized_end=327
+  _globals['_SALVAGEESCORTSTOPREASON']._serialized_end=278
 # @@protoc_insertion_point(module_scope)

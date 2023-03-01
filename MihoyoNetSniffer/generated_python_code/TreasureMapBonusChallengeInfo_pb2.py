@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapBonusChallengeInfo.proto\"\xe1\x01\n\x1dTreasureMapBonusChallengeInfo\x12\x10\n\x08isActive\x18\x05 \x01(\x08\x12\x44\n\x0b\x66ragmentMap\x18\r \x03(\x0b\x32/.TreasureMapBonusChallengeInfo.FragmentMapEntry\x12\x12\n\nsolutionId\x18\x0e \x01(\r\x12\x0e\n\x06isDone\x18\x02 \x01(\x08\x12\x10\n\x08\x63onfigId\x18\t \x01(\r\x1a\x32\n\x10\x46ragmentMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x08:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapBonusChallengeInfo.proto\"\xe6\x01\n\x1dTreasureMapBonusChallengeInfo\x12\x0f\n\x07is_done\x18\x0b \x01(\x08\x12\x11\n\tis_active\x18\x0e \x01(\x08\x12\x45\n\x0c\x66ragment_map\x18\x02 \x03(\x0b\x32/.TreasureMapBonusChallengeInfo.FragmentMapEntry\x12\x13\n\x0bsolution_id\x18\x03 \x01(\r\x12\x11\n\tconfig_id\x18\x06 \x01(\r\x1a\x32\n\x10\x46ragmentMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x08:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,11 +21,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapBonusChallengeIn
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _TREASUREMAPBONUSCHALLENGEINFO_FRAGMENTMAPENTRY._options = None
   _TREASUREMAPBONUSCHALLENGEINFO_FRAGMENTMAPENTRY._serialized_options = b'8\001'
   _globals['_TREASUREMAPBONUSCHALLENGEINFO']._serialized_start=40
-  _globals['_TREASUREMAPBONUSCHALLENGEINFO']._serialized_end=265
-  _globals['_TREASUREMAPBONUSCHALLENGEINFO_FRAGMENTMAPENTRY']._serialized_start=215
-  _globals['_TREASUREMAPBONUSCHALLENGEINFO_FRAGMENTMAPENTRY']._serialized_end=265
+  _globals['_TREASUREMAPBONUSCHALLENGEINFO']._serialized_end=270
+  _globals['_TREASUREMAPBONUSCHALLENGEINFO_FRAGMENTMAPENTRY']._serialized_start=220
+  _globals['_TREASUREMAPBONUSCHALLENGEINFO_FRAGMENTMAPENTRY']._serialized_end=270
 # @@protoc_insertion_point(module_scope)

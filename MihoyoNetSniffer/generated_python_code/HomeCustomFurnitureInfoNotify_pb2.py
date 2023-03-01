@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeCustomFurnitureInfo_pb2 as HomeCustomFurnitureInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#HomeCustomFurnitureInfoNotify.proto\x1a\x1dHomeCustomFurnitureInfo.proto\"\x9e\x02\n\x1dHomeCustomFurnitureInfoNotify\x12!\n\x19\x64\x65leteCustomFurnitureList\x18\x0e \x03(\r\x12\x39\n\x17\x63ustomFurnitureInfoList\x18\x0f \x03(\x0b\x32\x18.HomeCustomFurnitureInfo\x12^\n\x18usedSubFurnitureCountMap\x18\x02 \x03(\x0b\x32<.HomeCustomFurnitureInfoNotify.UsedSubFurnitureCountMapEntry\x1a?\n\x1dUsedSubFurnitureCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#HomeCustomFurnitureInfoNotify.proto\x1a\x1dHomeCustomFurnitureInfo.proto\"\xa8\x02\n\x1dHomeCustomFurnitureInfoNotify\x12$\n\x1c\x64\x65lete_custom_furniture_list\x18\n \x03(\r\x12\x62\n\x1cused_sub_furniture_count_map\x18\r \x03(\x0b\x32<.HomeCustomFurnitureInfoNotify.UsedSubFurnitureCountMapEntry\x12<\n\x1a\x63ustom_furniture_info_list\x18\t \x03(\x0b\x32\x18.HomeCustomFurnitureInfo\x1a?\n\x1dUsedSubFurnitureCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,11 +22,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeCustomFurnitureInfoNoti
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _HOMECUSTOMFURNITUREINFONOTIFY_USEDSUBFURNITURECOUNTMAPENTRY._options = None
   _HOMECUSTOMFURNITUREINFONOTIFY_USEDSUBFURNITURECOUNTMAPENTRY._serialized_options = b'8\001'
   _globals['_HOMECUSTOMFURNITUREINFONOTIFY']._serialized_start=71
-  _globals['_HOMECUSTOMFURNITUREINFONOTIFY']._serialized_end=357
-  _globals['_HOMECUSTOMFURNITUREINFONOTIFY_USEDSUBFURNITURECOUNTMAPENTRY']._serialized_start=294
-  _globals['_HOMECUSTOMFURNITUREINFONOTIFY_USEDSUBFURNITURECOUNTMAPENTRY']._serialized_end=357
+  _globals['_HOMECUSTOMFURNITUREINFONOTIFY']._serialized_end=367
+  _globals['_HOMECUSTOMFURNITUREINFONOTIFY_USEDSUBFURNITURECOUNTMAPENTRY']._serialized_start=304
+  _globals['_HOMECUSTOMFURNITUREINFONOTIFY_USEDSUBFURNITURECOUNTMAPENTRY']._serialized_end=367
 # @@protoc_insertion_point(module_scope)

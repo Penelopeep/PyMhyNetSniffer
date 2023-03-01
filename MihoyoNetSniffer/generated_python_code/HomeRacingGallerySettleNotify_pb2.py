@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RacingGallerySettleInfo_pb2 as RacingGallerySettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#HomeRacingGallerySettleNotify.proto\x1a\x1dRacingGallerySettleInfo.proto\"\x83\x01\n\x1dHomeRacingGallerySettleNotify\x12,\n\nsettleInfo\x18\n \x01(\x0b\x32\x18.RacingGallerySettleInfo\x12\x11\n\tgalleryId\x18\x04 \x01(\r\x12\x0c\n\x04rank\x18\x01 \x01(\r\x12\x13\n\x0bisNewRecord\x18\x05 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#HomeRacingGallerySettleNotify.proto\x1a\x1dRacingGallerySettleInfo.proto\"\x87\x01\n\x1dHomeRacingGallerySettleNotify\x12\x0c\n\x04rank\x18\t \x01(\r\x12\x12\n\ngallery_id\x18\x06 \x01(\r\x12-\n\x0bsettle_info\x18\x08 \x01(\x0b\x32\x18.RacingGallerySettleInfo\x12\x15\n\ris_new_record\x18\x05 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeRacingGallerySettleNoti
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOMERACINGGALLERYSETTLENOTIFY']._serialized_start=71
-  _globals['_HOMERACINGGALLERYSETTLENOTIFY']._serialized_end=202
+  _globals['_HOMERACINGGALLERYSETTLENOTIFY']._serialized_end=206
 # @@protoc_insertion_point(module_scope)

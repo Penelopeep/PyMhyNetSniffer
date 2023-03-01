@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%VintageMarketFinishStorePlayRsp.proto\"\x96\x03\n\x1fVintageMarketFinishStorePlayRsp\x12\x1b\n\x13Unk3300_DGECJOKMDGN\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_DJILELFHFHJ\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x1b\n\x13Unk3300_HJIHIOIGAPP\x18\x02 \x03(\r\x12\x1b\n\x13Unk3300_DLNFCBPDBBH\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_GCDNOPJEIBG\x18\x07 \x01(\r\x12L\n\x0estoreIncomeMap\x18\x01 \x03(\x0b\x32\x34.VintageMarketFinishStorePlayRsp.StoreIncomeMapEntry\x12\x12\n\nstoreRound\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_BDAIONEPKIK\x18\x05 \x03(\r\x12\x1b\n\x13Unk3300_OCIMKEPJOOL\x18\t \x03(\r\x1a\x35\n\x13StoreIncomeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%VintageMarketFinishStorePlayRsp.proto\"\xe1\x02\n\x1fVintageMarketFinishStorePlayRsp\x12\x13\n\x0bJMNHDHPGGAD\x18\x01 \x01(\r\x12\x13\n\x0bMFIPINDGKDL\x18\x0b \x01(\r\x12\x13\n\x0bOLNLGBFKJHM\x18\x05 \x03(\r\x12\x13\n\x0bNAMBHBHGNAC\x18\t \x03(\r\x12\x13\n\x0bstore_round\x18\r \x01(\r\x12\x13\n\x0bJGPDNHJEDFJ\x18\x07 \x03(\r\x12\x13\n\x0b\x41\x42KMNONAJLK\x18\x04 \x01(\r\x12N\n\x10store_income_map\x18\x0f \x03(\x0b\x32\x34.VintageMarketFinishStorePlayRsp.StoreIncomeMapEntry\x12\x13\n\x0b\x41IHLDCOLJPB\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x1a\x35\n\x13StoreIncomeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,11 +21,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageMarketFinishStorePla
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _VINTAGEMARKETFINISHSTOREPLAYRSP_STOREINCOMEMAPENTRY._options = None
   _VINTAGEMARKETFINISHSTOREPLAYRSP_STOREINCOMEMAPENTRY._serialized_options = b'8\001'
   _globals['_VINTAGEMARKETFINISHSTOREPLAYRSP']._serialized_start=42
-  _globals['_VINTAGEMARKETFINISHSTOREPLAYRSP']._serialized_end=448
-  _globals['_VINTAGEMARKETFINISHSTOREPLAYRSP_STOREINCOMEMAPENTRY']._serialized_start=395
-  _globals['_VINTAGEMARKETFINISHSTOREPLAYRSP_STOREINCOMEMAPENTRY']._serialized_end=448
+  _globals['_VINTAGEMARKETFINISHSTOREPLAYRSP']._serialized_end=395
+  _globals['_VINTAGEMARKETFINISHSTOREPLAYRSP_STOREINCOMEMAPENTRY']._serialized_start=342
+  _globals['_VINTAGEMARKETFINISHSTOREPLAYRSP_STOREINCOMEMAPENTRY']._serialized_end=395
 # @@protoc_insertion_point(module_scope)

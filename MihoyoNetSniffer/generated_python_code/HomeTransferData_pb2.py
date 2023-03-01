@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HomeTransferData.proto\x1a\x0cVector.proto\"<\n\x10HomeTransferData\x12\x1a\n\tspawn_pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x0c\n\x04guid\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HomeTransferData.proto\x1a\x0cVector.proto\"<\n\x10HomeTransferData\x12\x0c\n\x04guid\x18\x06 \x01(\r\x12\x1a\n\tspawn_pos\x18\x0f \x01(\x0b\x32\x07.VectorB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeTransferData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeTransferData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMETRANSFERDATA._serialized_start=40
-  _HOMETRANSFERDATA._serialized_end=100
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_HOMETRANSFERDATA']._serialized_start=40
+  _globals['_HOMETRANSFERDATA']._serialized_end=100
 # @@protoc_insertion_point(module_scope)

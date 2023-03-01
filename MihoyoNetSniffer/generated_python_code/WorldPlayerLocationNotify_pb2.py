@@ -15,7 +15,7 @@ import PlayerLocationInfo_pb2 as PlayerLocationInfo__pb2
 import PlayerWorldLocationInfo_pb2 as PlayerWorldLocationInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWorldPlayerLocationNotify.proto\x1a\x18PlayerLocationInfo.proto\x1a\x1dPlayerWorldLocationInfo.proto\"}\n\x19WorldPlayerLocationNotify\x12*\n\rplayerLocList\x18\x04 \x03(\x0b\x32\x13.PlayerLocationInfo\x12\x34\n\x12playerWorldLocList\x18\x03 \x03(\x0b\x32\x18.PlayerWorldLocationInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWorldPlayerLocationNotify.proto\x1a\x18PlayerLocationInfo.proto\x1a\x1dPlayerWorldLocationInfo.proto\"\x82\x01\n\x19WorldPlayerLocationNotify\x12,\n\x0fplayer_loc_list\x18\x08 \x03(\x0b\x32\x13.PlayerLocationInfo\x12\x37\n\x15player_world_loc_list\x18\x01 \x03(\x0b\x32\x18.PlayerWorldLocationInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldPlayerLocationNotify_p
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_WORLDPLAYERLOCATIONNOTIFY']._serialized_start=92
-  _globals['_WORLDPLAYERLOCATIONNOTIFY']._serialized_end=217
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_WORLDPLAYERLOCATIONNOTIFY']._serialized_start=93
+  _globals['_WORLDPLAYERLOCATIONNOTIFY']._serialized_end=223
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AvatarSatiationData_pb2 as AvatarSatiationData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41vatarSatiationDataNotify.proto\x1a\x19\x41vatarSatiationData.proto\"L\n\x19\x41vatarSatiationDataNotify\x12/\n\x11satiationDataList\x18\t \x03(\x0b\x32\x14.AvatarSatiationDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41vatarSatiationDataNotify.proto\x1a\x19\x41vatarSatiationData.proto\"N\n\x19\x41vatarSatiationDataNotify\x12\x31\n\x13satiation_data_list\x18\x03 \x03(\x0b\x32\x14.AvatarSatiationDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSatiationDataNotify_p
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_AVATARSATIATIONDATANOTIFY']._serialized_start=62
-  _globals['_AVATARSATIATIONDATANOTIFY']._serialized_end=138
+  _globals['_AVATARSATIATIONDATANOTIFY']._serialized_end=140
 # @@protoc_insertion_point(module_scope)

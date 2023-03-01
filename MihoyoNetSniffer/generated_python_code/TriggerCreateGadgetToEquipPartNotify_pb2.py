@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*TriggerCreateGadgetToEquipPartNotify.proto\"u\n$TriggerCreateGadgetToEquipPartNotify\x12\x10\n\x08\x65ntityId\x18\x03 \x01(\r\x12\x10\n\x08gadgetId\x18\x05 \x01(\r\x12\x16\n\x0egadgetEntityId\x18\x04 \x01(\r\x12\x11\n\tequipPart\x18\x07 \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*TriggerCreateGadgetToEquipPartNotify.proto\"z\n$TriggerCreateGadgetToEquipPartNotify\x12\x11\n\tentity_id\x18\x08 \x01(\r\x12\x11\n\tgadget_id\x18\t \x01(\r\x12\x12\n\nequip_part\x18\x03 \x01(\t\x12\x18\n\x10gadget_entity_id\x18\x01 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TriggerCreateGadgetToEquipP
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TRIGGERCREATEGADGETTOEQUIPPARTNOTIFY']._serialized_start=46
-  _globals['_TRIGGERCREATEGADGETTOEQUIPPARTNOTIFY']._serialized_end=163
+  _globals['_TRIGGERCREATEGADGETTOEQUIPPARTNOTIFY']._serialized_end=168
 # @@protoc_insertion_point(module_scope)

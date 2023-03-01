@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MapMarkPointType.proto*\xf5\x01\n\x10MapMarkPointType\x12\x1b\n\x17MAP_MARK_POINT_TYPE_NPC\x10\x00\x12\x1d\n\x19MAP_MARK_POINT_TYPE_QUEST\x10\x01\x12\x1f\n\x1bMAP_MARK_POINT_TYPE_SPECIAL\x10\x02\x12\x1c\n\x18MAP_MARK_POINT_TYPE_MINE\x10\x03\x12\"\n\x1eMAP_MARK_POINT_TYPE_COLLECTION\x10\x04\x12\x1f\n\x1bMAP_MARK_POINT_TYPE_MONSTER\x10\x05\x12!\n\x1dMAP_MARK_POINT_TYPE_FISH_POOL\x10\x06\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MapMarkPointType.proto*i\n\x10MapMarkPointType\x12\x07\n\x03NPC\x10\x00\x12\t\n\x05QUEST\x10\x01\x12\x0b\n\x07SPECIAL\x10\x02\x12\x08\n\x04MINE\x10\x03\x12\x0e\n\nCOLLECTION\x10\x04\x12\x0b\n\x07MONSTER\x10\x05\x12\r\n\tFISH_POOL\x10\x06\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MapMarkPointType_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_MAPMARKPOINTTYPE']._serialized_start=27
-  _globals['_MAPMARKPOINTTYPE']._serialized_end=272
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_MAPMARKPOINTTYPE']._serialized_start=26
+  _globals['_MAPMARKPOINTTYPE']._serialized_end=131
 # @@protoc_insertion_point(module_scope)

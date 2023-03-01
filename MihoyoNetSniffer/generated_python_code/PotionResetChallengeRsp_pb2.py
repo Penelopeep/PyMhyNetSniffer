@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PotionStageData_pb2 as PotionStageData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPotionResetChallengeRsp.proto\x1a\x15PotionStageData.proto\"O\n\x17PotionResetChallengeRsp\x12#\n\tstageData\x18\x07 \x01(\x0b\x32\x10.PotionStageData\x12\x0f\n\x07retcode\x18\r \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPotionResetChallengeRsp.proto\x1a\x15PotionStageData.proto\"P\n\x17PotionResetChallengeRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12$\n\nstage_data\x18\x04 \x01(\x0b\x32\x10.PotionStageDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PotionResetChallengeRsp_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_POTIONRESETCHALLENGERSP']._serialized_start=56
-  _globals['_POTIONRESETCHALLENGERSP']._serialized_end=135
+  _globals['_POTIONRESETCHALLENGERSP']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

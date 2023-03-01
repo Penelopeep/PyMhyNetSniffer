@@ -11,23 +11,25 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import ChannellerSlabLoopDungeonResultInfo_pb2 as ChannellerSlabLoopDungeonResultInfo__pb2
+import CrystalLinkDungeonSettleInfo_pb2 as CrystalLinkDungeonSettleInfo__pb2
+import DPACDAIBBIL_pb2 as DPACDAIBBIL__pb2
+import EffigyChallengeDungeonResultInfo_pb2 as EffigyChallengeDungeonResultInfo__pb2
+import EffigyChallengeV2SettleInfo_pb2 as EffigyChallengeV2SettleInfo__pb2
+import EOLLJLFBEKA_pb2 as EOLLJLFBEKA__pb2
+import InstableSprayDungeonSettleInfo_pb2 as InstableSprayDungeonSettleInfo__pb2
+import KECDCNCPKIO_pb2 as KECDCNCPKIO__pb2
+import MBLNIKHFGKN_pb2 as MBLNIKHFGKN__pb2
+import RoguelikeDungeonSettleInfo_pb2 as RoguelikeDungeonSettleInfo__pb2
+import StrengthenPointData_pb2 as StrengthenPointData__pb2
+import SummerTimeV2DungeonSettleInfo_pb2 as SummerTimeV2DungeonSettleInfo__pb2
+import TeamChainSettleInfo_pb2 as TeamChainSettleInfo__pb2
 import TowerLevelEndNotify_pb2 as TowerLevelEndNotify__pb2
 import TrialAvatarFirstPassDungeonNotify_pb2 as TrialAvatarFirstPassDungeonNotify__pb2
-import ChannellerSlabLoopDungeonResultInfo_pb2 as ChannellerSlabLoopDungeonResultInfo__pb2
-import EffigyChallengeDungeonResultInfo_pb2 as EffigyChallengeDungeonResultInfo__pb2
-import RoguelikeDungeonSettleInfo_pb2 as RoguelikeDungeonSettleInfo__pb2
-import CrystalLinkSettleInfo_pb2 as CrystalLinkSettleInfo__pb2
-import SummerTimeV2DungeonSettleInfo_pb2 as SummerTimeV2DungeonSettleInfo__pb2
-import InstableSpraySettleInfo_pb2 as InstableSpraySettleInfo__pb2
 import WindFieldDungeonSettleInfo_pb2 as WindFieldDungeonSettleInfo__pb2
-import EffigyChallengeV2SettleInfo_pb2 as EffigyChallengeV2SettleInfo__pb2
-import TeamChainSettleInfo_pb2 as TeamChainSettleInfo__pb2
-import DungeonSettleExhibitionInfo_pb2 as DungeonSettleExhibitionInfo__pb2
-import ParamList_pb2 as ParamList__pb2
-import StrengthenPointData_pb2 as StrengthenPointData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonSettleNotify.proto\x1a\x19TowerLevelEndNotify.proto\x1a\'TrialAvatarFirstPassDungeonNotify.proto\x1a)ChannellerSlabLoopDungeonResultInfo.proto\x1a&EffigyChallengeDungeonResultInfo.proto\x1a RoguelikeDungeonSettleInfo.proto\x1a\x1b\x43rystalLinkSettleInfo.proto\x1a#SummerTimeV2DungeonSettleInfo.proto\x1a\x1dInstableSpraySettleInfo.proto\x1a WindFieldDungeonSettleInfo.proto\x1a!EffigyChallengeV2SettleInfo.proto\x1a\x19TeamChainSettleInfo.proto\x1a!DungeonSettleExhibitionInfo.proto\x1a\x0fParamList.proto\x1a\x19StrengthenPointData.proto\"\x9d\n\n\x13\x44ungeonSettleNotify\x12\x38\n\x12\x65xhibitionInfoList\x18\x0c \x03(\x0b\x32\x1c.DungeonSettleExhibitionInfo\x12\x38\n\nsettleShow\x18\x0e \x03(\x0b\x32$.DungeonSettleNotify.SettleShowEntry\x12P\n\x16strengthenPointDataMap\x18\x01 \x03(\x0b\x32\x30.DungeonSettleNotify.StrengthenPointDataMapEntry\x12\x0e\n\x06result\x18\x0f \x01(\r\x12\x0f\n\x07useTime\x18\x02 \x01(\r\x12\x11\n\tdungeonId\x18\x07 \x01(\r\x12\x14\n\x0c\x66\x61ilCondList\x18\x08 \x03(\r\x12\x17\n\x0f\x63reatePlayerUid\x18\t \x01(\r\x12\x11\n\tisSuccess\x18\x04 \x01(\x08\x12\x11\n\tcloseTime\x18\x06 \x01(\r\x12\x37\n\x16tower_level_end_notify\x18\x99\x02 \x01(\x0b\x32\x14.TowerLevelEndNotifyH\x00\x12U\n&trial_avatar_first_pass_dungeon_notify\x18\xc9\r \x01(\x0b\x32\".TrialAvatarFirstPassDungeonNotifyH\x00\x12Y\n(channeller_slab_loop_dungeon_result_info\x18\x95\x08 \x01(\x0b\x32$.ChannellerSlabLoopDungeonResultInfoH\x00\x12R\n$effigy_challenge_dungeon_result_info\x18\xbb\x07 \x01(\x0b\x32!.EffigyChallengeDungeonResultInfoH\x00\x12\x45\n\x1droguelike_dungeon_settle_info\x18\x9f\x06 \x01(\x0b\x32\x1b.RoguelikeDungeonSettleInfoH\x00\x12;\n\x18\x63rystal_link_settle_info\x18\xf4\x04 \x01(\x0b\x32\x16.CrystalLinkSettleInfoH\x00\x12K\n!summer_time_v2dungeon_settle_info\x18` \x01(\x0b\x32\x1e.SummerTimeV2DungeonSettleInfoH\x00\x12?\n\x1ainstable_spray_settle_info\x18\x85\x0e \x01(\x0b\x32\x18.InstableSpraySettleInfoH\x00\x12\x46\n\x1ewind_field_dungeon_settle_info\x18\xf1\x07 \x01(\x0b\x32\x1b.WindFieldDungeonSettleInfoH\x00\x12G\n\x1e\x65\x66\x66igy_challenge_v2settle_info\x18\xaf\x0e \x01(\x0b\x32\x1c.EffigyChallengeV2SettleInfoH\x00\x12\x37\n\x16team_chain_settle_info\x18\xa8\n \x01(\x0b\x32\x14.TeamChainSettleInfoH\x00\x1a=\n\x0fSettleShowEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.ParamList:\x02\x38\x01\x1aS\n\x1bStrengthenPointDataMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.StrengthenPointData:\x02\x38\x01\x42\x08\n\x06\x64\x65tailB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonSettleNotify.proto\x1a)ChannellerSlabLoopDungeonResultInfo.proto\x1a\"CrystalLinkDungeonSettleInfo.proto\x1a\x11\x44PACDAIBBIL.proto\x1a&EffigyChallengeDungeonResultInfo.proto\x1a!EffigyChallengeV2SettleInfo.proto\x1a\x11\x45OLLJLFBEKA.proto\x1a$InstableSprayDungeonSettleInfo.proto\x1a\x11KECDCNCPKIO.proto\x1a\x11MBLNIKHFGKN.proto\x1a RoguelikeDungeonSettleInfo.proto\x1a\x19StrengthenPointData.proto\x1a#SummerTimeV2DungeonSettleInfo.proto\x1a\x19TeamChainSettleInfo.proto\x1a\x19TowerLevelEndNotify.proto\x1a\'TrialAvatarFirstPassDungeonNotify.proto\x1a WindFieldDungeonSettleInfo.proto\"\x8a\x0b\n\x13\x44ungeonSettleNotify\x12\x12\n\ndungeon_id\x18\x04 \x01(\r\x12\x10\n\x08use_time\x18\x07 \x01(\r\x12\x12\n\nclose_time\x18\x0b \x01(\r\x12\x13\n\x0b\x43\x46MPHBBHMBL\x18\n \x01(\r\x12\x16\n\x0e\x66\x61il_cond_list\x18\x03 \x03(\r\x12!\n\x0bHIEPPAOLFOH\x18\x0e \x03(\x0b\x32\x0c.DPACDAIBBIL\x12:\n\x0bNLEILHLODMF\x18\x06 \x03(\x0b\x32%.DungeonSettleNotify.NLEILHLODMFEntry\x12S\n\x19strengthen_point_data_map\x18\t \x03(\x0b\x32\x30.DungeonSettleNotify.StrengthenPointDataMapEntry\x12\x12\n\nis_success\x18\x0f \x01(\x08\x12\x13\n\x0bIHBGNOACKJJ\x18\x0c \x01(\r\x12\x37\n\x16tower_level_end_notify\x18\x83\x06 \x01(\x0b\x32\x14.TowerLevelEndNotifyH\x00\x12U\n&trial_avatar_first_pass_dungeon_notify\x18\xf2\x04 \x01(\x0b\x32\".TrialAvatarFirstPassDungeonNotifyH\x00\x12Y\n(channeller_slab_loop_dungeon_result_info\x18\xee\x07 \x01(\x0b\x32$.ChannellerSlabLoopDungeonResultInfoH\x00\x12R\n$effigy_challenge_dungeon_result_info\x18\xf3\x01 \x01(\x0b\x32!.EffigyChallengeDungeonResultInfoH\x00\x12\x45\n\x1droguelike_dungeon_settle_info\x18\x97\x07 \x01(\x0b\x32\x1b.RoguelikeDungeonSettleInfoH\x00\x12\x42\n\x18\x63rystal_link_settle_info\x18\xca\x01 \x01(\x0b\x32\x1d.CrystalLinkDungeonSettleInfoH\x00\x12M\n\"summer_time_v2_dungeon_settle_info\x18\xa3\t \x01(\x0b\x32\x1e.SummerTimeV2DungeonSettleInfoH\x00\x12\x46\n\x1ainstable_spray_settle_info\x18\xe2\x0b \x01(\x0b\x32\x1f.InstableSprayDungeonSettleInfoH\x00\x12\x46\n\x1ewind_field_dungeon_settle_info\x18\xa9\x0c \x01(\x0b\x32\x1b.WindFieldDungeonSettleInfoH\x00\x12H\n\x1f\x65\x66\x66igy_challenge_v2_settle_info\x18\xf5\x05 \x01(\x0b\x32\x1c.EffigyChallengeV2SettleInfoH\x00\x12\x37\n\x16team_chain_settle_info\x18\xd9\x0e \x01(\x0b\x32\x14.TeamChainSettleInfoH\x00\x12+\n\x12pacman_settle_info\x18\xba\r \x01(\x0b\x32\x0c.EOLLJLFBEKAH\x00\x12\x35\n\x1d\x66ungus_fighter_v2_settle_info\x18? \x01(\x0b\x32\x0c.KECDCNCPKIOH\x00\x1a@\n\x10NLEILHLODMFEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1b\n\x05value\x18\x02 \x01(\x0b\x32\x0c.MBLNIKHFGKN:\x02\x38\x01\x1aS\n\x1bStrengthenPointDataMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.StrengthenPointData:\x02\x38\x01\x42\x08\n\x06\x64\x65tailB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -35,15 +37,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonSettleNotify_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _DUNGEONSETTLENOTIFY_SETTLESHOWENTRY._options = None
-  _DUNGEONSETTLENOTIFY_SETTLESHOWENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _DUNGEONSETTLENOTIFY_NLEILHLODMFENTRY._options = None
+  _DUNGEONSETTLENOTIFY_NLEILHLODMFENTRY._serialized_options = b'8\001'
   _DUNGEONSETTLENOTIFY_STRENGTHENPOINTDATAMAPENTRY._options = None
   _DUNGEONSETTLENOTIFY_STRENGTHENPOINTDATAMAPENTRY._serialized_options = b'8\001'
-  _globals['_DUNGEONSETTLENOTIFY']._serialized_start=487
-  _globals['_DUNGEONSETTLENOTIFY']._serialized_end=1796
-  _globals['_DUNGEONSETTLENOTIFY_SETTLESHOWENTRY']._serialized_start=1640
-  _globals['_DUNGEONSETTLENOTIFY_SETTLESHOWENTRY']._serialized_end=1701
-  _globals['_DUNGEONSETTLENOTIFY_STRENGTHENPOINTDATAMAPENTRY']._serialized_start=1703
-  _globals['_DUNGEONSETTLENOTIFY_STRENGTHENPOINTDATAMAPENTRY']._serialized_end=1786
+  _globals['_DUNGEONSETTLENOTIFY']._serialized_start=525
+  _globals['_DUNGEONSETTLENOTIFY']._serialized_end=1943
+  _globals['_DUNGEONSETTLENOTIFY_NLEILHLODMFENTRY']._serialized_start=1784
+  _globals['_DUNGEONSETTLENOTIFY_NLEILHLODMFENTRY']._serialized_end=1848
+  _globals['_DUNGEONSETTLENOTIFY_STRENGTHENPOINTDATAMAPENTRY']._serialized_start=1850
+  _globals['_DUNGEONSETTLENOTIFY_STRENGTHENPOINTDATAMAPENTRY']._serialized_end=1933
 # @@protoc_insertion_point(module_scope)

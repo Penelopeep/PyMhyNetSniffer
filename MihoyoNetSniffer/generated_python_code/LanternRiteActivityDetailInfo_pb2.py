@@ -11,18 +11,20 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import LanternProjectionInfo_pb2 as LanternProjectionInfo__pb2
-import LanternRiteFireworksInfo_pb2 as LanternRiteFireworksInfo__pb2
+import JFAEOPHPBGL_pb2 as JFAEOPHPBGL__pb2
+import MCJJAJKEOAM_pb2 as MCJJAJKEOAM__pb2
 import SalvageStageInfo_pb2 as SalvageStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#LanternRiteActivityDetailInfo.proto\x1a\x1bLanternProjectionInfo.proto\x1a\x1eLanternRiteFireworksInfo.proto\x1a\x16SalvageStageInfo.proto\"\x84\x02\n\x1dLanternRiteActivityDetailInfo\x12*\n\x0fstage_info_list\x18\x05 \x03(\x0b\x32\x11.SalvageStageInfo\x12\x31\n\x0e\x66ireworks_info\x18\x0f \x01(\x0b\x32\x19.LanternRiteFireworksInfo\x12\x1b\n\x13Unk3300_PDFJNCDGKGH\x18\x0b \x01(\x08\x12/\n\x0fprojection_info\x18\x03 \x01(\x0b\x32\x16.LanternProjectionInfo\x12\x1b\n\x13Unk3300_DKBJLCIMBAL\x18\x08 \x01(\x08\x12\x19\n\x11is_content_closed\x18\x0e \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#LanternRiteActivityDetailInfo.proto\x1a\x11JFAEOPHPBGL.proto\x1a\x11MCJJAJKEOAM.proto\x1a\x16SalvageStageInfo.proto\"\xd6\x01\n\x1dLanternRiteActivityDetailInfo\x12\x13\n\x0bOEMINLMOPPP\x18\x01 \x01(\x08\x12\x13\n\x0bMMEOMGJBGNE\x18\x07 \x01(\x08\x12*\n\x0fstage_info_list\x18\t \x03(\x0b\x32\x11.SalvageStageInfo\x12!\n\x0bOEEDOHKBLMD\x18\x08 \x01(\x0b\x32\x0c.JFAEOPHPBGL\x12\x19\n\x11is_content_closed\x18\x06 \x01(\x08\x12!\n\x0b\x45GDHPACCIFB\x18\n \x01(\x0b\x32\x0c.MCJJAJKEOAMB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanternRiteActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanternRiteActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _LANTERNRITEACTIVITYDETAILINFO._serialized_start=125
-  _LANTERNRITEACTIVITYDETAILINFO._serialized_end=385
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_LANTERNRITEACTIVITYDETAILINFO']._serialized_start=102
+  _globals['_LANTERNRITEACTIVITYDETAILINFO']._serialized_end=316
 # @@protoc_insertion_point(module_scope)

@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import RegionEvent_pb2 as RegionEvent__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$RegionSearchChangeRegionNotify.proto\x1a\x11RegionEvent.proto\"O\n\x1eRegionSearchChangeRegionNotify\x12\x10\n\x08regionId\x18\x08 \x01(\r\x12\x1b\n\x05\x65vent\x18\x0c \x01(\x0e\x32\x0c.RegionEventB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$RegionSearchChangeRegionNotify.proto\"\xc5\x01\n\x1eRegionSearchChangeRegionNotify\x12\x11\n\tregion_id\x18\x07 \x01(\r\x12:\n\x05\x65vent\x18\x06 \x01(\x0e\x32+.RegionSearchChangeRegionNotify.RegionEvent\"T\n\x0bRegionEvent\x12\x15\n\x11REGION_EVENT_NONE\x10\x00\x12\x16\n\x12REGION_EVENT_ENTER\x10\x01\x12\x16\n\x12REGION_EVENT_LEAVE\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RegionSearchChangeRegionNot
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_REGIONSEARCHCHANGEREGIONNOTIFY']._serialized_start=59
-  _globals['_REGIONSEARCHCHANGEREGIONNOTIFY']._serialized_end=138
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_REGIONSEARCHCHANGEREGIONNOTIFY']._serialized_start=41
+  _globals['_REGIONSEARCHCHANGEREGIONNOTIFY']._serialized_end=238
+  _globals['_REGIONSEARCHCHANGEREGIONNOTIFY_REGIONEVENT']._serialized_start=154
+  _globals['_REGIONSEARCHCHANGEREGIONNOTIFY_REGIONEVENT']._serialized_end=238
 # @@protoc_insertion_point(module_scope)

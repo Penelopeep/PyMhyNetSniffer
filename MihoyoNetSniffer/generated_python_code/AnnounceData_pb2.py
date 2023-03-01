@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x41nnounceData.proto\"\xf6\x01\n\x0c\x41nnounceData\x12\x10\n\x08\x63onfigId\x18\t \x01(\r\x12\x1d\n\x15\x63\x65nterSystemFrequency\x18\x0e \x01(\r\x12\x0f\n\x07\x65ndTime\x18\x05 \x01(\r\x12\x11\n\tbeginTime\x18\x04 \x01(\r\x12\x15\n\rcountDownText\x18\x07 \x01(\t\x12(\n isCenterSystemLast_5EveryMinutes\x18\x0c \x01(\x08\x12\x1a\n\x12\x64ungeonConfirmText\x18\x02 \x01(\t\x12\x1a\n\x12\x63ountDownFrequency\x18\x08 \x01(\r\x12\x18\n\x10\x63\x65nterSystemText\x18\r \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x41nnounceData.proto\"\xdf\x01\n\x0c\x41nnounceData\x12-\n%is_center_system_last_5_every_minutes\x18\x08 \x01(\x08\x12\x13\n\x0bHJNFJIEBMEL\x18\x0c \x01(\r\x12\x10\n\x08\x65nd_time\x18\x0f \x01(\r\x12\x11\n\tconfig_id\x18\x0b \x01(\r\x12\x13\n\x0bLJCFLKABNFM\x18\x03 \x01(\t\x12\x13\n\x0bPOMBEEAPGDL\x18\x05 \x01(\t\x12\x13\n\x0bMBGAKKMFHFF\x18\x06 \x01(\t\x12\x13\n\x0b\x42LHPFGPJAFE\x18\x07 \x01(\r\x12\x12\n\nbegin_time\x18\r \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnnounceData_pb2', _globals
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ANNOUNCEDATA']._serialized_start=23
-  _globals['_ANNOUNCEDATA']._serialized_end=269
+  _globals['_ANNOUNCEDATA']._serialized_end=246
 # @@protoc_insertion_point(module_scope)

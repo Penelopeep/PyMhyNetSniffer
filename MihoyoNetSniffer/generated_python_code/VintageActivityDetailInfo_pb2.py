@@ -11,32 +11,34 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import GKLODALBJDF_pb2 as GKLODALBJDF__pb2
+import HEIHACODPGK_pb2 as HEIHACODPGK__pb2
+import HOPFOECLFLA_pb2 as HOPFOECLFLA__pb2
+import KINEAIJCOHJ_pb2 as KINEAIJCOHJ__pb2
 import VintageBoothUsedItemData_pb2 as VintageBoothUsedItemData__pb2
-import VintageCampChallengeStageData_pb2 as VintageCampChallengeStageData__pb2
-import VintageHuntingStageData_pb2 as VintageHuntingStageData__pb2
-import VintageMarketInfo_pb2 as VintageMarketInfo__pb2
-import VintagePresentStageData_pb2 as VintagePresentStageData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fVintageActivityDetailInfo.proto\x1a\x1eVintageBoothUsedItemData.proto\x1a#VintageCampChallengeStageData.proto\x1a\x1dVintageHuntingStageData.proto\x1a\x17VintageMarketInfo.proto\x1a\x1dVintagePresentStageData.proto\"\x86\x05\n\x19VintageActivityDetailInfo\x12O\n\x13Unk3300_PCIIGPJJHGF\x18\x0b \x03(\x0b\x32\x32.VintageActivityDetailInfo.Unk3300PCIIGPJJHGFEntry\x12\x19\n\x11is_content_closed\x18\r \x01(\x08\x12O\n\x13Unk3300_EHHPFKIOKOO\x18\n \x03(\x0b\x32\x32.VintageActivityDetailInfo.Unk3300EHHPFKIOKOOEntry\x12-\n\nbooth_data\x18\t \x01(\x0b\x32\x19.VintageBoothUsedItemData\x12O\n\x13Unk3300_NPKMDFCLGBJ\x18\x02 \x03(\x0b\x32\x32.VintageActivityDetailInfo.Unk3300NPKMDFCLGBJEntry\x12\'\n\x0bmarket_info\x18\x0e \x01(\x0b\x32\x12.VintageMarketInfo\x1aS\n\x17Unk3300PCIIGPJJHGFEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\'\n\x05value\x18\x02 \x01(\x0b\x32\x18.VintagePresentStageData:\x02\x38\x01\x1aS\n\x17Unk3300EHHPFKIOKOOEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\'\n\x05value\x18\x02 \x01(\x0b\x32\x18.VintageHuntingStageData:\x02\x38\x01\x1aY\n\x17Unk3300NPKMDFCLGBJEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12-\n\x05value\x18\x02 \x01(\x0b\x32\x1e.VintageCampChallengeStageData:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fVintageActivityDetailInfo.proto\x1a\x11GKLODALBJDF.proto\x1a\x11HEIHACODPGK.proto\x1a\x11HOPFOECLFLA.proto\x1a\x11KINEAIJCOHJ.proto\x1a\x1eVintageBoothUsedItemData.proto\"\x94\x04\n\x19VintageActivityDetailInfo\x12@\n\x0bNDLDNIILLHF\x18\x0e \x03(\x0b\x32+.VintageActivityDetailInfo.NDLDNIILLHFEntry\x12-\n\nbooth_data\x18\x05 \x01(\x0b\x32\x19.VintageBoothUsedItemData\x12!\n\x0bMINNOOOGPKD\x18\n \x01(\x0b\x32\x0c.HEIHACODPGK\x12@\n\x0bKOPJCBGBNJD\x18\x02 \x03(\x0b\x32+.VintageActivityDetailInfo.KOPJCBGBNJDEntry\x12@\n\x0bNEFCCGDCBOK\x18\x04 \x03(\x0b\x32+.VintageActivityDetailInfo.NEFCCGDCBOKEntry\x12\x19\n\x11is_content_closed\x18\t \x01(\x08\x1a@\n\x10NDLDNIILLHFEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1b\n\x05value\x18\x02 \x01(\x0b\x32\x0c.GKLODALBJDF:\x02\x38\x01\x1a@\n\x10KOPJCBGBNJDEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1b\n\x05value\x18\x02 \x01(\x0b\x32\x0c.KINEAIJCOHJ:\x02\x38\x01\x1a@\n\x10NEFCCGDCBOKEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1b\n\x05value\x18\x02 \x01(\x0b\x32\x0c.HOPFOECLFLA:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _VINTAGEACTIVITYDETAILINFO_UNK3300PCIIGPJJHGFENTRY._options = None
-  _VINTAGEACTIVITYDETAILINFO_UNK3300PCIIGPJJHGFENTRY._serialized_options = b'8\001'
-  _VINTAGEACTIVITYDETAILINFO_UNK3300EHHPFKIOKOOENTRY._options = None
-  _VINTAGEACTIVITYDETAILINFO_UNK3300EHHPFKIOKOOENTRY._serialized_options = b'8\001'
-  _VINTAGEACTIVITYDETAILINFO_UNK3300NPKMDFCLGBJENTRY._options = None
-  _VINTAGEACTIVITYDETAILINFO_UNK3300NPKMDFCLGBJENTRY._serialized_options = b'8\001'
-  _VINTAGEACTIVITYDETAILINFO._serialized_start=192
-  _VINTAGEACTIVITYDETAILINFO._serialized_end=838
-  _VINTAGEACTIVITYDETAILINFO_UNK3300PCIIGPJJHGFENTRY._serialized_start=579
-  _VINTAGEACTIVITYDETAILINFO_UNK3300PCIIGPJJHGFENTRY._serialized_end=662
-  _VINTAGEACTIVITYDETAILINFO_UNK3300EHHPFKIOKOOENTRY._serialized_start=664
-  _VINTAGEACTIVITYDETAILINFO_UNK3300EHHPFKIOKOOENTRY._serialized_end=747
-  _VINTAGEACTIVITYDETAILINFO_UNK3300NPKMDFCLGBJENTRY._serialized_start=749
-  _VINTAGEACTIVITYDETAILINFO_UNK3300NPKMDFCLGBJENTRY._serialized_end=838
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _VINTAGEACTIVITYDETAILINFO_NDLDNIILLHFENTRY._options = None
+  _VINTAGEACTIVITYDETAILINFO_NDLDNIILLHFENTRY._serialized_options = b'8\001'
+  _VINTAGEACTIVITYDETAILINFO_KOPJCBGBNJDENTRY._options = None
+  _VINTAGEACTIVITYDETAILINFO_KOPJCBGBNJDENTRY._serialized_options = b'8\001'
+  _VINTAGEACTIVITYDETAILINFO_NEFCCGDCBOKENTRY._options = None
+  _VINTAGEACTIVITYDETAILINFO_NEFCCGDCBOKENTRY._serialized_options = b'8\001'
+  _globals['_VINTAGEACTIVITYDETAILINFO']._serialized_start=144
+  _globals['_VINTAGEACTIVITYDETAILINFO']._serialized_end=676
+  _globals['_VINTAGEACTIVITYDETAILINFO_NDLDNIILLHFENTRY']._serialized_start=480
+  _globals['_VINTAGEACTIVITYDETAILINFO_NDLDNIILLHFENTRY']._serialized_end=544
+  _globals['_VINTAGEACTIVITYDETAILINFO_KOPJCBGBNJDENTRY']._serialized_start=546
+  _globals['_VINTAGEACTIVITYDETAILINFO_KOPJCBGBNJDENTRY']._serialized_end=610
+  _globals['_VINTAGEACTIVITYDETAILINFO_NEFCCGDCBOKENTRY']._serialized_start=612
+  _globals['_VINTAGEACTIVITYDETAILINFO_NEFCCGDCBOKENTRY']._serialized_end=676
 # @@protoc_insertion_point(module_scope)

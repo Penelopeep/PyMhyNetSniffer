@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneGallerySumoInfo.proto\"f\n\x14SceneGallerySumoInfo\x12\x1e\n\x16kill_elite_monster_num\x18\x04 \x01(\r\x12\r\n\x05score\x18\x07 \x01(\r\x12\x1f\n\x17kill_normal_monster_num\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneGallerySumoInfo.proto\"O\n\x14SceneGallerySumoInfo\x12\r\n\x05score\x18\x0e \x01(\r\x12\x13\n\x0b\x44NCGDPEOCHL\x18\r \x01(\r\x12\x13\n\x0b\x41\x43LMNJDOGKP\x18\x02 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGallerySumoInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGallerySumoInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYSUMOINFO._serialized_start=30
-  _SCENEGALLERYSUMOINFO._serialized_end=132
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYSUMOINFO']._serialized_start=30
+  _globals['_SCENEGALLERYSUMOINFO']._serialized_end=109
 # @@protoc_insertion_point(module_scope)

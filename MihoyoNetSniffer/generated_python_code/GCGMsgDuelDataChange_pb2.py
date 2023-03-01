@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGMsgDuelDataChange.proto\"%\n\x14GCGMsgDuelDataChange\x12\r\n\x05round\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGCGMsgDuelDataChange.proto\"%\n\x14GCGMsgDuelDataChange\x12\r\n\x05round\x18\x0e \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgDuelDataChange_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgDuelDataChange_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGDUELDATACHANGE._serialized_start=30
-  _GCGMSGDUELDATACHANGE._serialized_end=67
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGMSGDUELDATACHANGE']._serialized_start=30
+  _globals['_GCGMSGDUELDATACHANGE']._serialized_end=67
 # @@protoc_insertion_point(module_scope)

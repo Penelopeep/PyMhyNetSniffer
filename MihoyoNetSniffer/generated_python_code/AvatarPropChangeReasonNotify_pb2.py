@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PropChangeReason_pb2 as PropChangeReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AvatarPropChangeReasonNotify.proto\x1a\x16PropChangeReason.proto\"\x8b\x01\n\x1c\x41vatarPropChangeReasonNotify\x12\x10\n\x08\x63urValue\x18\x02 \x01(\x02\x12\x10\n\x08propType\x18\n \x01(\r\x12\x10\n\x08oldValue\x18\x04 \x01(\x02\x12!\n\x06reason\x18\x05 \x01(\x0e\x32\x11.PropChangeReason\x12\x12\n\navatarGuid\x18\x0c \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AvatarPropChangeReasonNotify.proto\x1a\x16PropChangeReason.proto\"\x8f\x01\n\x1c\x41vatarPropChangeReasonNotify\x12\x11\n\told_value\x18\x0c \x01(\x02\x12\x13\n\x0b\x61vatar_guid\x18\x0e \x01(\x04\x12!\n\x06reason\x18\x05 \x01(\x0e\x32\x11.PropChangeReason\x12\x11\n\tcur_value\x18\x06 \x01(\x02\x12\x11\n\tprop_type\x18\x0f \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarPropChangeReasonNotif
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_AVATARPROPCHANGEREASONNOTIFY']._serialized_start=63
-  _globals['_AVATARPROPCHANGEREASONNOTIFY']._serialized_end=202
+  _globals['_AVATARPROPCHANGEREASONNOTIFY']._serialized_end=206
 # @@protoc_insertion_point(module_scope)

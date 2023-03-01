@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import InstableSprayAvatarInfo_pb2 as InstableSprayAvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$InstableSprayRestartDungeonReq.proto\x1a\x1dInstableSprayAvatarInfo.proto\"R\n\x1eInstableSprayRestartDungeonReq\x12\x30\n\x0e\x61vatarInfoList\x18\x03 \x03(\x0b\x32\x18.InstableSprayAvatarInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$InstableSprayRestartDungeonReq.proto\x1a\x1dInstableSprayAvatarInfo.proto\"T\n\x1eInstableSprayRestartDungeonReq\x12\x32\n\x10\x61vatar_info_list\x18\x0e \x03(\x0b\x32\x18.InstableSprayAvatarInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InstableSprayRestartDungeon
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_INSTABLESPRAYRESTARTDUNGEONREQ']._serialized_start=71
-  _globals['_INSTABLESPRAYRESTARTDUNGEONREQ']._serialized_end=153
+  _globals['_INSTABLESPRAYRESTARTDUNGEONREQ']._serialized_end=155
 # @@protoc_insertion_point(module_scope)

@@ -15,7 +15,7 @@ import StoreType_pb2 as StoreType__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x44ropItemReq.proto\x1a\x0fStoreType.proto\x1a\x0cVector.proto\"_\n\x0b\x44ropItemReq\x12\x0c\n\x04guid\x18\n \x01(\x04\x12\r\n\x05\x63ount\x18\x03 \x01(\r\x12\x1d\n\tstoreType\x18\x0c \x01(\x0e\x32\n.StoreType\x12\x14\n\x03pos\x18\r \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x44ropItemReq.proto\x1a\x0fStoreType.proto\x1a\x0cVector.proto\"`\n\x0b\x44ropItemReq\x12\r\n\x05\x63ount\x18\x05 \x01(\r\x12\x0c\n\x04guid\x18\x01 \x01(\x04\x12\x1e\n\nstore_type\x18\x04 \x01(\x0e\x32\n.StoreType\x12\x14\n\x03pos\x18\x0c \x01(\x0b\x32\x07.VectorB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DropItemReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DROPITEMREQ']._serialized_start=52
-  _globals['_DROPITEMREQ']._serialized_end=147
+  _globals['_DROPITEMREQ']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

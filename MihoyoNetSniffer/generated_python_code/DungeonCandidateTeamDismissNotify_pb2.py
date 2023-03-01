@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import DungeonCandidateTeamPlayerDismissReason_pb2 as DungeonCandidateTeamPlayerDismissReason__pb2
+import DungeonCandidateTeamDismissReason_pb2 as DungeonCandidateTeamDismissReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'DungeonCandidateTeamDismissNotify.proto\x1a-DungeonCandidateTeamPlayerDismissReason.proto\"p\n!DungeonCandidateTeamDismissNotify\x12\x11\n\tplayerUid\x18\x03 \x01(\r\x12\x38\n\x06reason\x18\x04 \x01(\x0e\x32(.DungeonCandidateTeamPlayerDismissReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'DungeonCandidateTeamDismissNotify.proto\x1a\'DungeonCandidateTeamDismissReason.proto\"k\n!DungeonCandidateTeamDismissNotify\x12\x12\n\nplayer_uid\x18\x0f \x01(\r\x12\x32\n\x06reason\x18\x03 \x01(\x0e\x32\".DungeonCandidateTeamDismissReasonB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamDismiss
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_DUNGEONCANDIDATETEAMDISMISSNOTIFY']._serialized_start=90
-  _globals['_DUNGEONCANDIDATETEAMDISMISSNOTIFY']._serialized_end=202
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_DUNGEONCANDIDATETEAMDISMISSNOTIFY']._serialized_start=84
+  _globals['_DUNGEONCANDIDATETEAMDISMISSNOTIFY']._serialized_end=191
 # @@protoc_insertion_point(module_scope)

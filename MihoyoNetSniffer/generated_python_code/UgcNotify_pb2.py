@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fUgcNotify.proto\"a\n\tUgcNotify\x12\x1b\n\x13Unk3300_IBLDINGJJFI\x18\r \x01(\x08\x12\x1b\n\x13Unk3300_KPABJPMLHCD\x18\x05 \x01(\x08\x12\x1a\n\x12isUgcFeatureClosed\x18\n \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fUgcNotify.proto\"_\n\tUgcNotify\x12\x13\n\x0b\x46NFJAIOGDIL\x18\x06 \x01(\x08\x12\x13\n\x0bOLEDANJLOEI\x18\x05 \x01(\x08\x12\x13\n\x0bNFBPGNCIKPD\x18\x08 \x01(\x08\x12\x13\n\x0b\x45\x42ONPFLOCKN\x18\x03 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UgcNotify_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_UGCNOTIFY']._serialized_start=19
-  _globals['_UGCNOTIFY']._serialized_end=116
+  _globals['_UGCNOTIFY']._serialized_end=114
 # @@protoc_insertion_point(module_scope)

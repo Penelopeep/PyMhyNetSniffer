@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dWatcherEventStageNotify.proto\"P\n\x17WatcherEventStageNotify\x12\x13\n\x0b\x61\x64\x64Progress\x18\x03 \x01(\r\x12\x11\n\twatcherId\x18\r \x01(\r\x12\r\n\x05stage\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dWatcherEventStageNotify.proto\"R\n\x17WatcherEventStageNotify\x12\r\n\x05stage\x18\x03 \x01(\r\x12\x12\n\nwatcher_id\x18\x0c \x01(\r\x12\x14\n\x0c\x61\x64\x64_progress\x18\x07 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WatcherEventStageNotify_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_WATCHEREVENTSTAGENOTIFY']._serialized_start=33
-  _globals['_WATCHEREVENTSTAGENOTIFY']._serialized_end=113
+  _globals['_WATCHEREVENTSTAGENOTIFY']._serialized_end=115
 # @@protoc_insertion_point(module_scope)

@@ -15,7 +15,7 @@ import GravenInnocencePhotoObjectInfo_pb2 as GravenInnocencePhotoObjectInfo__pb2
 import GravenInnocencePhotoStageInfo_pb2 as GravenInnocencePhotoStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGravenInnocencePhotoInfo.proto\x1a$GravenInnocencePhotoObjectInfo.proto\x1a#GravenInnocencePhotoStageInfo.proto\"\x8a\x01\n\x18GravenInnocencePhotoInfo\x12\x37\n\x0eobjectInfoList\x18\n \x03(\x0b\x32\x1f.GravenInnocencePhotoObjectInfo\x12\x35\n\rstageInfoList\x18\x03 \x03(\x0b\x32\x1e.GravenInnocencePhotoStageInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGravenInnocencePhotoInfo.proto\x1a$GravenInnocencePhotoObjectInfo.proto\x1a#GravenInnocencePhotoStageInfo.proto\"\x8e\x01\n\x18GravenInnocencePhotoInfo\x12\x37\n\x0fstage_info_list\x18\n \x03(\x0b\x32\x1e.GravenInnocencePhotoStageInfo\x12\x39\n\x10object_info_list\x18\t \x03(\x0b\x32\x1f.GravenInnocencePhotoObjectInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GravenInnocencePhotoInfo_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GRAVENINNOCENCEPHOTOINFO']._serialized_start=110
-  _globals['_GRAVENINNOCENCEPHOTOINFO']._serialized_end=248
+  _globals['_GRAVENINNOCENCEPHOTOINFO']._serialized_end=252
 # @@protoc_insertion_point(module_scope)

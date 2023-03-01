@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TryEnterHomeRsp.proto\"H\n\x0fTryEnterHomeRsp\x12\x11\n\ttargetUid\x18\x0f \x01(\r\x12\x11\n\tparamList\x18\n \x03(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TryEnterHomeRsp.proto\"J\n\x0fTryEnterHomeRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x12\n\ntarget_uid\x18\x04 \x01(\r\x12\x12\n\nparam_list\x18\x05 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TryEnterHomeRsp_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TRYENTERHOMERSP']._serialized_start=25
-  _globals['_TRYENTERHOMERSP']._serialized_end=97
+  _globals['_TRYENTERHOMERSP']._serialized_end=99
 # @@protoc_insertion_point(module_scope)

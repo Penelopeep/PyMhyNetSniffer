@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19VehicleInteractType.proto*r\n\x13VehicleInteractType\x12\x1e\n\x1aVEHICLE_INTERACT_TYPE_NONE\x10\x00\x12\x1c\n\x18VEHICLE_INTERACT_TYPE_IN\x10\x01\x12\x1d\n\x19VEHICLE_INTERACT_TYPE_OUT\x10\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19VehicleInteractType.proto*c\n\x13VehicleInteractType\x12\x19\n\x15VEHICLE_INTERACT_NONE\x10\x00\x12\x17\n\x13VEHICLE_INTERACT_IN\x10\x01\x12\x18\n\x14VEHICLE_INTERACT_OUT\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VehicleInteractType_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_VEHICLEINTERACTTYPE']._serialized_start=29
-  _globals['_VEHICLEINTERACTTYPE']._serialized_end=143
+  _globals['_VEHICLEINTERACTTYPE']._serialized_end=128
 # @@protoc_insertion_point(module_scope)

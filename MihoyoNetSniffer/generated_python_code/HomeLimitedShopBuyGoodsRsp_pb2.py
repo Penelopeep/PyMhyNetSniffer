@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeLimitedShopGoods_pb2 as HomeLimitedShopGoods__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeLimitedShopBuyGoodsRsp.proto\x1a\x1aHomeLimitedShopGoods.proto\"\x8f\x01\n\x1aHomeLimitedShopBuyGoodsRsp\x12(\n\tgoodsList\x18\x05 \x03(\x0b\x32\x15.HomeLimitedShopGoods\x12$\n\x05goods\x18\x08 \x01(\x0b\x32\x15.HomeLimitedShopGoods\x12\x10\n\x08\x62uyCount\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeLimitedShopBuyGoodsRsp.proto\x1a\x1aHomeLimitedShopGoods.proto\"\x91\x01\n\x1aHomeLimitedShopBuyGoodsRsp\x12)\n\ngoods_list\x18\x03 \x03(\x0b\x32\x15.HomeLimitedShopGoods\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x11\n\tbuy_count\x18\r \x01(\r\x12$\n\x05goods\x18\x07 \x01(\x0b\x32\x15.HomeLimitedShopGoodsB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeLimitedShopBuyGoodsRsp_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOMELIMITEDSHOPBUYGOODSRSP']._serialized_start=65
-  _globals['_HOMELIMITEDSHOPBUYGOODSRSP']._serialized_end=208
+  _globals['_HOMELIMITEDSHOPBUYGOODSRSP']._serialized_end=210
 # @@protoc_insertion_point(module_scope)

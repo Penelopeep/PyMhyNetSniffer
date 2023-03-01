@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TreasureMapRegionInfo_pb2 as TreasureMapRegionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TreasureMapRegionInfoNotify.proto\x1a\x1bTreasureMapRegionInfo.proto\"I\n\x1bTreasureMapRegionInfoNotify\x12*\n\nregionInfo\x18\x06 \x01(\x0b\x32\x16.TreasureMapRegionInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TreasureMapRegionInfoNotify.proto\x1a\x1bTreasureMapRegionInfo.proto\"J\n\x1bTreasureMapRegionInfoNotify\x12+\n\x0bregion_info\x18\x06 \x01(\x0b\x32\x16.TreasureMapRegionInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapRegionInfoNotify
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TREASUREMAPREGIONINFONOTIFY']._serialized_start=66
-  _globals['_TREASUREMAPREGIONINFONOTIFY']._serialized_end=139
+  _globals['_TREASUREMAPREGIONINFONOTIFY']._serialized_end=140
 # @@protoc_insertion_point(module_scope)

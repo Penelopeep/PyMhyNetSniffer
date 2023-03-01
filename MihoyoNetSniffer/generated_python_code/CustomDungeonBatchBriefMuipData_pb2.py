@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import CustomDungeonBriefMuipData_pb2 as CustomDungeonBriefMuipData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%CustomDungeonBatchBriefMuipData.proto\x1a CustomDungeonBriefMuipData.proto\"R\n\x1f\x43ustomDungeonBatchBriefMuipData\x12/\n\nbrief_list\x18\x01 \x03(\x0b\x32\x1b.CustomDungeonBriefMuipDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%CustomDungeonBatchBriefMuipData.proto\x1a CustomDungeonBriefMuipData.proto\"R\n\x1f\x43ustomDungeonBatchBriefMuipData\x12/\n\nbrief_list\x18\x01 \x03(\x0b\x32\x1b.CustomDungeonBriefMuipDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonBatchBriefMuipData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonBatchBriefMuipData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CUSTOMDUNGEONBATCHBRIEFMUIPDATA._serialized_start=75
-  _CUSTOMDUNGEONBATCHBRIEFMUIPDATA._serialized_end=157
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_CUSTOMDUNGEONBATCHBRIEFMUIPDATA']._serialized_start=75
+  _globals['_CUSTOMDUNGEONBATCHBRIEFMUIPDATA']._serialized_end=157
 # @@protoc_insertion_point(module_scope)

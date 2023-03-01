@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilityInvokeEntry_pb2 as AbilityInvokeEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AbilityInvocationFixedNotify.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"\xca\x02\n\x1c\x41\x62ilityInvocationFixedNotify\x12\x30\n\x13Unk3300_LDIAOMFIBPL\x18\x03 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_AHDFHHFHEFM\x18\x06 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_ONGNOHLIIBO\x18\x08 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_EMGKKHKLIEG\x18\x05 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_KFMHLLHECCJ\x18\x0f \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_GAFFBFFKDIC\x18\x01 \x01(\x0b\x32\x13.AbilityInvokeEntryB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AbilityInvocationFixedNotify.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"\x9a\x02\n\x1c\x41\x62ilityInvocationFixedNotify\x12(\n\x0bJHGOOOAKDKF\x18\n \x01(\x0b\x32\x13.AbilityInvokeEntry\x12(\n\x0bIPKLDHAPACC\x18\x08 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12(\n\x0bLFJKNMKCNMP\x18\x04 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12(\n\x0bHLNLPLLLAKN\x18\r \x01(\x0b\x32\x13.AbilityInvokeEntry\x12(\n\x0bMDFGHEGMPMF\x18\x01 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12(\n\x0bMLOIJCEODAD\x18\x0c \x01(\x0b\x32\x13.AbilityInvokeEntryB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityInvocationFixedNotif
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ABILITYINVOCATIONFIXEDNOTIFY']._serialized_start=65
-  _globals['_ABILITYINVOCATIONFIXEDNOTIFY']._serialized_end=395
+  _globals['_ABILITYINVOCATIONFIXEDNOTIFY']._serialized_end=347
 # @@protoc_insertion_point(module_scope)

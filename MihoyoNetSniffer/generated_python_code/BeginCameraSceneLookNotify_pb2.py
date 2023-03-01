@@ -11,11 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import KeepRotType_pb2 as KeepRotType__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BeginCameraSceneLookNotify.proto\x1a\x11KeepRotType.proto\x1a\x0cVector.proto\"\xde\x04\n\x1a\x42\x65ginCameraSceneLookNotify\x12\x1b\n\x13Unk3300_ONBDMCHFPDL\x18\x02 \x01(\x08\x12\x1b\n\x13Unk3300_PIEFLAEGGBI\x18\x08 \x01(\x08\x12\x1b\n\x13Unk3300_NJLBIMJDFHJ\x18\x01 \x01(\x08\x12\x10\n\x08\x64uration\x18\n \x01(\x02\x12!\n\x0bkeepRotType\x18\x0e \x01(\x0e\x32\x0c.KeepRotType\x12$\n\x13Unk3300_FJDFGLNLMBN\x18\r \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_FIOLGCIKFLH\x18\x05 \x01(\x02\x12\x1b\n\x13Unk3300_HFPCHFNFJKP\x18\x0b \x01(\x02\x12\x13\n\x0botherParams\x18\x0c \x03(\t\x12\x11\n\x08\x65ntityId\x18\xa7\x01 \x01(\r\x12\x1b\n\x13Unk3300_ODADMBBFPAP\x18\x04 \x01(\x08\x12\x1b\n\x13Unk3300_EELNOAICHOJ\x18\x03 \x01(\x08\x12\x1c\n\x13Unk3300_KCHKKBODNCJ\x18\xad\x0f \x01(\r\x12\x1b\n\x13Unk3300_DFPCMOFONNK\x18\x0f \x01(\x08\x12\x1c\n\x13Unk3300_HKKCHCEMJIE\x18\xd4\x0f \x01(\x02\x12\x1b\n\x13Unk3300_AJEENEOCFON\x18j \x01(\r\x12$\n\x13Unk3300_PPCIDICMIEN\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x1c\n\x13Unk3300_AAOGBCCNJAF\x18\x84\x05 \x01(\x08\x12\x1b\n\x13Unk3300_HCLPGGAOIAC\x18\x06 \x01(\x02\x12\x1b\n\x13Unk3300_ILMHDLHLKGJ\x18\t \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BeginCameraSceneLookNotify.proto\x1a\x0cVector.proto\"\xae\x04\n\x1a\x42\x65ginCameraSceneLookNotify\x12\x10\n\x08\x64uration\x18\r \x01(\x02\x12\x13\n\x0b\x43GOMOLBNCEK\x18\t \x01(\x08\x12\x13\n\x0b\x44MJLAAJBLIP\x18\x0e \x01(\x08\x12\x14\n\x0cother_params\x18\x05 \x03(\t\x12\x1c\n\x0b\x45\x44\x46\x41\x45PBKAAH\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x14\n\x0bMBABNKEGBLC\x18\xbb\x0f \x01(\x08\x12\x13\n\x0bPKOFLCGCONC\x18\x07 \x01(\x08\x12\x13\n\x0bOABBMACDPPB\x18\x0c \x01(\x02\x12\x13\n\x0b\x44\x41ILGEOMEGO\x18\x08 \x01(\x08\x12\x1c\n\x0bINNJAHCEIJC\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x13\n\x0b\x46NKPCFHJNKA\x18\x06 \x01(\x02\x12\x14\n\x0b\x43HEMGMDHDGD\x18\xb0\t \x01(\r\x12\x13\n\x0bOMIOEABHHHO\x18\n \x01(\x08\x12\x13\n\x0b\x44JJAMHOCMBE\x18\x02 \x01(\x02\x12\x14\n\x0bGDMECCJFMEP\x18\xf9\x02 \x01(\x02\x12\x14\n\x0b\x45\x42MJCELJDDE\x18\xf1\x0e \x01(\r\x12>\n\rkeep_rot_type\x18\x0b \x01(\x0e\x32\'.BeginCameraSceneLookNotify.KeepRotType\x12\x12\n\tentity_id\x18\xb2\x03 \x01(\r\x12\x13\n\x0b\x45\x45PFDDMCFHK\x18\x01 \x01(\x08\x12\x13\n\x0bMMOIMCGINIH\x18\x03 \x01(\x08\".\n\x0bKeepRotType\x12\x0e\n\nKEEP_ROT_X\x10\x00\x12\x0f\n\x0bKEEP_ROT_XY\x10\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +22,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BeginCameraSceneLookNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_BEGINCAMERASCENELOOKNOTIFY']._serialized_start=70
-  _globals['_BEGINCAMERASCENELOOKNOTIFY']._serialized_end=676
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_BEGINCAMERASCENELOOKNOTIFY']._serialized_start=51
+  _globals['_BEGINCAMERASCENELOOKNOTIFY']._serialized_end=609
+  _globals['_BEGINCAMERASCENELOOKNOTIFY_KEEPROTTYPE']._serialized_start=563
+  _globals['_BEGINCAMERASCENELOOKNOTIFY_KEEPROTTYPE']._serialized_end=609
 # @@protoc_insertion_point(module_scope)

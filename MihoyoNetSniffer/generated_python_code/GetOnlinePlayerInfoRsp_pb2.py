@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetOnlinePlayerInfoRsp.proto\x1a\x16OnlinePlayerInfo.proto\"x\n\x16GetOnlinePlayerInfoRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12+\n\x10targetPlayerInfo\x18\x0b \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x11\n\ttargetUid\x18\x03 \x01(\r\x12\r\n\x05param\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetOnlinePlayerInfoRsp.proto\x1a\x16OnlinePlayerInfo.proto\"{\n\x16GetOnlinePlayerInfoRsp\x12-\n\x12target_player_info\x18\x0f \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x12\n\ntarget_uid\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\r\n\x05param\x18\x06 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetOnlinePlayerInfoRsp_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETONLINEPLAYERINFORSP']._serialized_start=56
-  _globals['_GETONLINEPLAYERINFORSP']._serialized_end=176
+  _globals['_GETONLINEPLAYERINFORSP']._serialized_end=179
 # @@protoc_insertion_point(module_scope)

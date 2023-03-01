@@ -11,9 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import ExclusiveRuleInfo_pb2 as ExclusiveRuleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45xclusiveRuleNotify.proto\")\n\x13\x45xclusiveRuleNotify\x12\x12\n\ncompoundId\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45xclusiveRuleNotify.proto\x1a\x17\x45xclusiveRuleInfo.proto\"A\n\x13\x45xclusiveRuleNotify\x12*\n\x0erule_info_list\x18\x04 \x03(\x0b\x32\x12.ExclusiveRuleInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExclusiveRuleNotify_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_EXCLUSIVERULENOTIFY']._serialized_start=29
-  _globals['_EXCLUSIVERULENOTIFY']._serialized_end=70
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_EXCLUSIVERULENOTIFY']._serialized_start=54
+  _globals['_EXCLUSIVERULENOTIFY']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

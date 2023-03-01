@@ -12,10 +12,9 @@ _sym_db = _symbol_database.Default()
 
 
 import Vector_pb2 as Vector__pb2
-import PlaySoundType_pb2 as PlaySoundType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cScenePlayerSoundNotify.proto\x1a\x0cVector.proto\x1a\x13PlaySoundType.proto\"g\n\x16ScenePlayerSoundNotify\x12\x11\n\tsoundName\x18\x0b \x01(\t\x12\x18\n\x07playPos\x18\x06 \x01(\x0b\x32\x07.Vector\x12 \n\x08playType\x18\n \x01(\x0e\x32\x0e.PlaySoundTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cScenePlayerSoundNotify.proto\x1a\x0cVector.proto\"\xd2\x01\n\x16ScenePlayerSoundNotify\x12\x38\n\tplay_type\x18\x0e \x01(\x0e\x32%.ScenePlayerSoundNotify.PlaySoundType\x12\x19\n\x08play_pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x12\n\nsound_name\x18\x04 \x01(\t\"O\n\rPlaySoundType\x12\x13\n\x0fPLAY_SOUND_NONE\x10\x00\x12\x14\n\x10PLAY_SOUND_START\x10\x01\x12\x13\n\x0fPLAY_SOUND_STOP\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +22,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayerSoundNotify_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_SCENEPLAYERSOUNDNOTIFY']._serialized_start=67
-  _globals['_SCENEPLAYERSOUNDNOTIFY']._serialized_end=170
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEPLAYERSOUNDNOTIFY']._serialized_start=47
+  _globals['_SCENEPLAYERSOUNDNOTIFY']._serialized_end=257
+  _globals['_SCENEPLAYERSOUNDNOTIFY_PLAYSOUNDTYPE']._serialized_start=178
+  _globals['_SCENEPLAYERSOUNDNOTIFY_PLAYSOUNDTYPE']._serialized_end=257
 # @@protoc_insertion_point(module_scope)

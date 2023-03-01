@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DungeonEntryInfo_pb2 as DungeonEntryInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44\x61ilyDungeonEntryInfo.proto\x1a\x16\x44ungeonEntryInfo.proto\"\x9f\x01\n\x15\x44\x61ilyDungeonEntryInfo\x12\x1a\n\x12recommendDungeonId\x18\r \x01(\r\x12\x16\n\x0e\x64ungeonEntryId\x18\x08 \x01(\r\x12\x1c\n\x14\x64ungeonEntryConfigId\x18\x02 \x01(\r\x12\x34\n\x19recommendDungeonEntryInfo\x18\x0e \x01(\x0b\x32\x11.DungeonEntryInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44\x61ilyDungeonEntryInfo.proto\x1a\x16\x44ungeonEntryInfo.proto\"\x98\x01\n\x15\x44\x61ilyDungeonEntryInfo\x12\x1c\n\x14recommend_dungeon_id\x18\x03 \x01(\r\x12\x13\n\x0bGGGEMNHNCNJ\x18\x01 \x01(\r\x12\x13\n\x0bMNDEGGLANGF\x18\x0e \x01(\r\x12\x37\n\x1crecommend_dungeon_entry_info\x18\x07 \x01(\x0b\x32\x11.DungeonEntryInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DailyDungeonEntryInfo_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DAILYDUNGEONENTRYINFO']._serialized_start=56
-  _globals['_DAILYDUNGEONENTRYINFO']._serialized_end=215
+  _globals['_DAILYDUNGEONENTRYINFO']._serialized_end=208
 # @@protoc_insertion_point(module_scope)

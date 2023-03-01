@@ -16,13 +16,15 @@ import VintageHuntingSecondStageInfo_pb2 as VintageHuntingSecondStageInfo__pb2
 import VintageHuntingThirdStageInfo_pb2 as VintageHuntingThirdStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneGalleryVintageHuntingInfo.proto\x1a\"VintageHuntingFirstStageInfo.proto\x1a#VintageHuntingSecondStageInfo.proto\x1a\"VintageHuntingThirdStageInfo.proto\"\xed\x01\n\x1eSceneGalleryVintageHuntingInfo\x12\x10\n\x08stage_id\x18\t \x01(\r\x12\x39\n\x10\x66irst_stage_info\x18\x05 \x01(\x0b\x32\x1d.VintageHuntingFirstStageInfoH\x00\x12;\n\x11second_stage_info\x18\x0e \x01(\x0b\x32\x1e.VintageHuntingSecondStageInfoH\x00\x12\x39\n\x10third_stage_info\x18\x08 \x01(\x0b\x32\x1d.VintageHuntingThirdStageInfoH\x00\x42\x06\n\x04infob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneGalleryVintageHuntingInfo.proto\x1a\"VintageHuntingFirstStageInfo.proto\x1a#VintageHuntingSecondStageInfo.proto\x1a\"VintageHuntingThirdStageInfo.proto\"\xed\x01\n\x1eSceneGalleryVintageHuntingInfo\x12\x10\n\x08stage_id\x18\x07 \x01(\r\x12\x39\n\x10\x66irst_stage_info\x18\x06 \x01(\x0b\x32\x1d.VintageHuntingFirstStageInfoH\x00\x12;\n\x11second_stage_info\x18\x03 \x01(\x0b\x32\x1e.VintageHuntingSecondStageInfoH\x00\x12\x39\n\x10third_stage_info\x18\x04 \x01(\x0b\x32\x1d.VintageHuntingThirdStageInfoH\x00\x42\x06\n\x04infoB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryVintageHuntingInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryVintageHuntingInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYVINTAGEHUNTINGINFO._serialized_start=150
-  _SCENEGALLERYVINTAGEHUNTINGINFO._serialized_end=387
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYVINTAGEHUNTINGINFO']._serialized_start=150
+  _globals['_SCENEGALLERYVINTAGEHUNTINGINFO']._serialized_end=387
 # @@protoc_insertion_point(module_scope)

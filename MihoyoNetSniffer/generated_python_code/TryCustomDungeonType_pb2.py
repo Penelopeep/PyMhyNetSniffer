@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aTryCustomDungeonType.proto*\xa6\x01\n\x14TryCustomDungeonType\x12 \n\x1cTRY_CUSTOM_DUNGEON_TYPE_NONE\x10\x00\x12 \n\x1cTRY_CUSTOM_DUNGEON_TYPE_ROOM\x10\x01\x12\x1f\n\x1bTRY_CUSTOM_DUNGEON_TYPE_ALL\x10\x02\x12)\n%TRY_CUSTOM_DUNGEON_TYPE_OFFICIAL_PLAY\x10\x03\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aTryCustomDungeonType.proto*\x92\x01\n\x14TryCustomDungeonType\x12\x1b\n\x17TRY_CUSTOM_DUNGEON_NONE\x10\x00\x12\x1b\n\x17TRY_CUSTOM_DUNGEON_ROOM\x10\x01\x12\x1a\n\x16TRY_CUSTOM_DUNGEON_ALL\x10\x02\x12$\n TRY_CUSTOM_DUNGEON_OFFICIAL_PLAY\x10\x03\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TryCustomDungeonType_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TRYCUSTOMDUNGEONTYPE']._serialized_start=31
-  _globals['_TRYCUSTOMDUNGEONTYPE']._serialized_end=197
+  _globals['_TRYCUSTOMDUNGEONTYPE']._serialized_end=177
 # @@protoc_insertion_point(module_scope)

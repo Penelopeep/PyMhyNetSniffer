@@ -11,9 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import TeamChainChooseTeamInfo_pb2 as TeamChainChooseTeamInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n TeamChainRestartDungeonReq.proto\"-\n\x1aTeamChainRestartDungeonReq\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n TeamChainRestartDungeonReq.proto\x1a\x1dTeamChainChooseTeamInfo.proto\"N\n\x1aTeamChainRestartDungeonReq\x12\x30\n\x0eteam_info_list\x18\x07 \x03(\x0b\x32\x18.TeamChainChooseTeamInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TeamChainRestartDungeonReq_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_TEAMCHAINRESTARTDUNGEONREQ']._serialized_start=36
-  _globals['_TEAMCHAINRESTARTDUNGEONREQ']._serialized_end=81
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_TEAMCHAINRESTARTDUNGEONREQ']._serialized_start=67
+  _globals['_TEAMCHAINRESTARTDUNGEONREQ']._serialized_end=145
 # @@protoc_insertion_point(module_scope)

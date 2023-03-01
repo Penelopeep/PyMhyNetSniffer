@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import QuitReason_pb2 as QuitReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPlayerQuitFromMpNotify.proto\x1a\x10QuitReason.proto\"5\n\x16PlayerQuitFromMpNotify\x12\x1b\n\x06reason\x18\x01 \x01(\x0e\x32\x0b.QuitReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPlayerQuitFromMpNotify.proto\"\xe1\x02\n\x16PlayerQuitFromMpNotify\x12\x32\n\x06reason\x18\x01 \x01(\x0e\x32\".PlayerQuitFromMpNotify.QuitReason\"\x92\x02\n\nQuitReason\x12\x0b\n\x07INVALID\x10\x00\x12\x18\n\x14HOST_NO_OTHER_PLAYER\x10\x01\x12\x10\n\x0cKICK_BY_HOST\x10\x02\x12\x14\n\x10\x42\x41\x43K_TO_MY_WORLD\x10\x03\x12\x17\n\x13KICK_BY_HOST_LOGOUT\x10\x04\x12\x16\n\x12KICK_BY_HOST_BLOCK\x10\x05\x12\x0e\n\nBE_BLOCKED\x10\x06\x12\x1b\n\x17KICK_BY_HOST_ENTER_HOME\x10\x07\x12\x16\n\x12HOST_SCENE_INVALID\x10\x08\x12\x10\n\x0cKICK_BY_PLAY\x10\t\x12-\n)KICK_BY_ISLAND_PARTY_GALLERY_START_FAILED\x10\nB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerQuitFromMpNotify_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_PLAYERQUITFROMMPNOTIFY']._serialized_start=50
-  _globals['_PLAYERQUITFROMMPNOTIFY']._serialized_end=103
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_PLAYERQUITFROMMPNOTIFY']._serialized_start=33
+  _globals['_PLAYERQUITFROMMPNOTIFY']._serialized_end=386
+  _globals['_PLAYERQUITFROMMPNOTIFY_QUITREASON']._serialized_start=112
+  _globals['_PLAYERQUITFROMMPNOTIFY_QUITREASON']._serialized_end=386
 # @@protoc_insertion_point(module_scope)

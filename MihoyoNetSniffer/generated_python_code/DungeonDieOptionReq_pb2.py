@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlayerDieOption_pb2 as PlayerDieOption__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonDieOptionReq.proto\x1a\x15PlayerDieOption.proto\"U\n\x13\x44ungeonDieOptionReq\x12#\n\tdieOption\x18\x03 \x01(\x0e\x32\x10.PlayerDieOption\x12\x19\n\x11isQuitImmediately\x18\x0b \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonDieOptionReq.proto\x1a\x15PlayerDieOption.proto\"X\n\x13\x44ungeonDieOptionReq\x12$\n\ndie_option\x18\x0b \x01(\x0e\x32\x10.PlayerDieOption\x12\x1b\n\x13is_quit_immediately\x18\t \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonDieOptionReq_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DUNGEONDIEOPTIONREQ']._serialized_start=52
-  _globals['_DUNGEONDIEOPTIONREQ']._serialized_end=137
+  _globals['_DUNGEONDIEOPTIONREQ']._serialized_end=140
 # @@protoc_insertion_point(module_scope)

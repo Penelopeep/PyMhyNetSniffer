@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x44oGachaReq.proto\"s\n\nDoGachaReq\x12\x13\n\x0bgachaRandom\x18\x0c \x01(\r\x12\x11\n\tgachaType\x18\x02 \x01(\r\x12\x17\n\x0fgachaScheduleId\x18\x03 \x01(\r\x12\x10\n\x08gachaTag\x18\x0f \x01(\t\x12\x12\n\ngachaTimes\x18\n \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x44oGachaReq.proto\"s\n\nDoGachaReq\x12\x13\n\x0bPKCLGOCJPLN\x18\x03 \x01(\r\x12\x13\n\x0b\x44GIFMDIADJF\x18\x06 \x01(\r\x12\x13\n\x0bNMKGGDOKHLF\x18\x0c \x01(\r\x12\x13\n\x0bHKJAAPBGNEI\x18\x05 \x01(\r\x12\x11\n\tgacha_tag\x18\x0e \x01(\tB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DoGachaReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DOGACHAREQ']._serialized_start=20
   _globals['_DOGACHAREQ']._serialized_end=135
 # @@protoc_insertion_point(module_scope)

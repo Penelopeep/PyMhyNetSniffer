@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import WindFieldDungeonFailReason_pb2 as WindFieldDungeonFailReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n WindFieldDungeonSettleInfo.proto\x1a WindFieldDungeonFailReason.proto\"\x87\x01\n\x1aWindFieldDungeonSettleInfo\x12\x1b\n\x13Unk3300_EMCOILGACOC\x18\x06 \x03(\r\x12/\n\nfailReason\x18\x0c \x01(\x0e\x32\x1b.WindFieldDungeonFailReason\x12\x1b\n\x13Unk3300_FJGFOJBGBKM\x18\x03 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n WindFieldDungeonSettleInfo.proto\x1a WindFieldDungeonFailReason.proto\"x\n\x1aWindFieldDungeonSettleInfo\x12\x30\n\x0b\x66\x61il_reason\x18\x03 \x01(\x0e\x32\x1b.WindFieldDungeonFailReason\x12\x13\n\x0bOCAANIJGLBH\x18\x06 \x03(\r\x12\x13\n\x0bMFIDCJGMDKF\x18\x04 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WindFieldDungeonSettleInfo_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_WINDFIELDDUNGEONSETTLEINFO']._serialized_start=71
-  _globals['_WINDFIELDDUNGEONSETTLEINFO']._serialized_end=206
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_WINDFIELDDUNGEONSETTLEINFO']._serialized_start=70
+  _globals['_WINDFIELDDUNGEONSETTLEINFO']._serialized_end=190
 # @@protoc_insertion_point(module_scope)

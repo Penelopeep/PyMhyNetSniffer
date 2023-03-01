@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45xpeditionState.proto*\xa5\x01\n\x0f\x45xpeditionState\x12\x19\n\x15\x45XPEDITION_STATE_NONE\x10\x00\x12\x1c\n\x18\x45XPEDITION_STATE_STARTED\x10\x01\x12\x1d\n\x19\x45XPEDITION_STATE_FINISHED\x10\x02\x12\x1d\n\x19\x45XPEDITION_STATE_REWARDED\x10\x03\x12\x1b\n\x17\x45XPEDITION_STATE_LOCKED\x10\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45xpeditionState.proto*\x87\x01\n\x0f\x45xpeditionState\x12\x13\n\x0f\x45XPEDITION_NONE\x10\x00\x12\x16\n\x12\x45XPEDITION_STARTED\x10\x01\x12\x17\n\x13\x45XPEDITION_FINISHED\x10\x02\x12\x17\n\x13\x45XPEDITION_REWARDED\x10\x03\x12\x15\n\x11\x45XPEDITION_LOCKED\x10\x04\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExpeditionState_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_EXPEDITIONSTATE']._serialized_start=26
-  _globals['_EXPEDITIONSTATE']._serialized_end=191
+  _globals['_EXPEDITIONSTATE']._serialized_end=161
 # @@protoc_insertion_point(module_scope)

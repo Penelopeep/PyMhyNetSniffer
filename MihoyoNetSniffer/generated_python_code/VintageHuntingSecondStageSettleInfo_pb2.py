@@ -13,17 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)VintageHuntingSecondStageSettleInfo.proto\"\xdf\x01\n#VintageHuntingSecondStageSettleInfo\x12\x1a\n\x12\x63\x61pture_animal_num\x18\x02 \x01(\r\x12R\n\x10\x61nimal_count_map\x18\x03 \x03(\x0b\x32\x38.VintageHuntingSecondStageSettleInfo.AnimalCountMapEntry\x12\x11\n\ttotal_num\x18\x01 \x01(\r\x1a\x35\n\x13\x41nimalCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)VintageHuntingSecondStageSettleInfo.proto\"\xdf\x01\n#VintageHuntingSecondStageSettleInfo\x12\x11\n\ttotal_num\x18\x0c \x01(\r\x12\x1a\n\x12\x63\x61pture_animal_num\x18\x0e \x01(\r\x12R\n\x10\x61nimal_count_map\x18\x08 \x03(\x0b\x32\x38.VintageHuntingSecondStageSettleInfo.AnimalCountMapEntry\x1a\x35\n\x13\x41nimalCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageHuntingSecondStageSettleInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VintageHuntingSecondStageSettleInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _VINTAGEHUNTINGSECONDSTAGESETTLEINFO_ANIMALCOUNTMAPENTRY._options = None
   _VINTAGEHUNTINGSECONDSTAGESETTLEINFO_ANIMALCOUNTMAPENTRY._serialized_options = b'8\001'
-  _VINTAGEHUNTINGSECONDSTAGESETTLEINFO._serialized_start=46
-  _VINTAGEHUNTINGSECONDSTAGESETTLEINFO._serialized_end=269
-  _VINTAGEHUNTINGSECONDSTAGESETTLEINFO_ANIMALCOUNTMAPENTRY._serialized_start=216
-  _VINTAGEHUNTINGSECONDSTAGESETTLEINFO_ANIMALCOUNTMAPENTRY._serialized_end=269
+  _globals['_VINTAGEHUNTINGSECONDSTAGESETTLEINFO']._serialized_start=46
+  _globals['_VINTAGEHUNTINGSECONDSTAGESETTLEINFO']._serialized_end=269
+  _globals['_VINTAGEHUNTINGSECONDSTAGESETTLEINFO_ANIMALCOUNTMAPENTRY']._serialized_start=216
+  _globals['_VINTAGEHUNTINGSECONDSTAGESETTLEINFO_ANIMALCOUNTMAPENTRY']._serialized_end=269
 # @@protoc_insertion_point(module_scope)

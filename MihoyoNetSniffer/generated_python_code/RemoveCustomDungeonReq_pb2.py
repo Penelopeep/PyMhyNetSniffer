@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cRemoveCustomDungeonReq.proto\"-\n\x16RemoveCustomDungeonReq\x12\x13\n\x0b\x64ungeonGuid\x18\x01 \x01(\x04\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cRemoveCustomDungeonReq.proto\".\n\x16RemoveCustomDungeonReq\x12\x14\n\x0c\x64ungeon_guid\x18\x06 \x01(\x04\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RemoveCustomDungeonReq_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_REMOVECUSTOMDUNGEONREQ']._serialized_start=32
-  _globals['_REMOVECUSTOMDUNGEONREQ']._serialized_end=77
+  _globals['_REMOVECUSTOMDUNGEONREQ']._serialized_end=78
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'SceneGalleryEffigyChallengeV2Info.proto\"\xb4\x01\n!SceneGalleryEffigyChallengeV2Info\x12\x1b\n\x13Unk3300_MICPCKIOEJA\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_BMPCKGJAGPE\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_EOGAPBOFHOP\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_MBHBNIPEPNJ\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_AIEEGIBMOFH\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'SceneGalleryEffigyChallengeV2Info.proto\"\x8c\x01\n!SceneGalleryEffigyChallengeV2Info\x12\x13\n\x0b\x41\x43PFEHKCGGB\x18\x0b \x01(\r\x12\x13\n\x0b\x46\x43\x44ILAKFBIJ\x18\x08 \x01(\r\x12\x13\n\x0bNLLDKGABJMC\x18\t \x01(\r\x12\x13\n\x0bHGJABDBDDMP\x18\x0f \x01(\r\x12\x13\n\x0bMEGPGIHPIMJ\x18\x0e \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryEffigyChallengeV2Info_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryEffigyChallengeV2Info_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYEFFIGYCHALLENGEV2INFO._serialized_start=44
-  _SCENEGALLERYEFFIGYCHALLENGEV2INFO._serialized_end=224
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYEFFIGYCHALLENGEV2INFO']._serialized_start=44
+  _globals['_SCENEGALLERYEFFIGYCHALLENGEV2INFO']._serialized_end=184
 # @@protoc_insertion_point(module_scope)

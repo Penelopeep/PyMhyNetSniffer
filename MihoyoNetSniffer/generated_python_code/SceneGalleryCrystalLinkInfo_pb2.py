@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SceneGalleryCrystalLinkInfo.proto\",\n\x1bSceneGalleryCrystalLinkInfo\x12\r\n\x05score\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SceneGalleryCrystalLinkInfo.proto\",\n\x1bSceneGalleryCrystalLinkInfo\x12\r\n\x05score\x18\x0f \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryCrystalLinkInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryCrystalLinkInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYCRYSTALLINKINFO._serialized_start=37
-  _SCENEGALLERYCRYSTALLINKINFO._serialized_end=81
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SCENEGALLERYCRYSTALLINKINFO']._serialized_start=37
+  _globals['_SCENEGALLERYCRYSTALLINKINFO']._serialized_end=81
 # @@protoc_insertion_point(module_scope)

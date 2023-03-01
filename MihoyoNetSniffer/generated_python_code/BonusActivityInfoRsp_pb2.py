@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BonusActivityInfo_pb2 as BonusActivityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x42onusActivityInfoRsp.proto\x1a\x17\x42onusActivityInfo.proto\"Z\n\x14\x42onusActivityInfoRsp\x12\x31\n\x15\x62onusActivityInfoList\x18\r \x03(\x0b\x32\x12.BonusActivityInfo\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x42onusActivityInfoRsp.proto\x1a\x17\x42onusActivityInfo.proto\"]\n\x14\x42onusActivityInfoRsp\x12\x34\n\x18\x62onus_activity_info_list\x18\x05 \x03(\x0b\x32\x12.BonusActivityInfo\x12\x0f\n\x07retcode\x18\t \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BonusActivityInfoRsp_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BONUSACTIVITYINFORSP']._serialized_start=55
-  _globals['_BONUSACTIVITYINFORSP']._serialized_end=145
+  _globals['_BONUSACTIVITYINFORSP']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

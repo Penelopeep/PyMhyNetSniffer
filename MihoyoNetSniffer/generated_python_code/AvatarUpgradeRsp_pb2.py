@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarUpgradeRsp.proto\"\xcd\x02\n\x10\x41vatarUpgradeRsp\x12?\n\x0f\x63urFightPropMap\x18\x0b \x03(\x0b\x32&.AvatarUpgradeRsp.CurFightPropMapEntry\x12\x12\n\navatarGuid\x18\x08 \x01(\x04\x12?\n\x0foldFightPropMap\x18\x0e \x03(\x0b\x32&.AvatarUpgradeRsp.OldFightPropMapEntry\x12\x10\n\x08oldLevel\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x10\n\x08\x63urLevel\x18\x06 \x01(\r\x1a\x36\n\x14\x43urFightPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x1a\x36\n\x14OldFightPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarUpgradeRsp.proto\"\xbc\x02\n\x10\x41vatarUpgradeRsp\x12\x13\n\x0bMFNMHANCIMP\x18\x03 \x01(\r\x12\x13\n\x0bPJNELCLHMOH\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x13\n\x0b\x61vatar_guid\x18\r \x01(\x04\x12\x37\n\x0bGEKBLKPMJCG\x18\x07 \x03(\x0b\x32\".AvatarUpgradeRsp.GEKBLKPMJCGEntry\x12\x37\n\x0b\x41\x46\x45\x44LAOGFOC\x18\x0c \x03(\x0b\x32\".AvatarUpgradeRsp.AFEDLAOGFOCEntry\x1a\x32\n\x10GEKBLKPMJCGEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x1a\x32\n\x10\x41\x46\x45\x44LAOGFOCEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x02:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,15 +21,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarUpgradeRsp_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _AVATARUPGRADERSP_CURFIGHTPROPMAPENTRY._options = None
-  _AVATARUPGRADERSP_CURFIGHTPROPMAPENTRY._serialized_options = b'8\001'
-  _AVATARUPGRADERSP_OLDFIGHTPROPMAPENTRY._options = None
-  _AVATARUPGRADERSP_OLDFIGHTPROPMAPENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _AVATARUPGRADERSP_GEKBLKPMJCGENTRY._options = None
+  _AVATARUPGRADERSP_GEKBLKPMJCGENTRY._serialized_options = b'8\001'
+  _AVATARUPGRADERSP_AFEDLAOGFOCENTRY._options = None
+  _AVATARUPGRADERSP_AFEDLAOGFOCENTRY._serialized_options = b'8\001'
   _globals['_AVATARUPGRADERSP']._serialized_start=27
-  _globals['_AVATARUPGRADERSP']._serialized_end=360
-  _globals['_AVATARUPGRADERSP_CURFIGHTPROPMAPENTRY']._serialized_start=250
-  _globals['_AVATARUPGRADERSP_CURFIGHTPROPMAPENTRY']._serialized_end=304
-  _globals['_AVATARUPGRADERSP_OLDFIGHTPROPMAPENTRY']._serialized_start=306
-  _globals['_AVATARUPGRADERSP_OLDFIGHTPROPMAPENTRY']._serialized_end=360
+  _globals['_AVATARUPGRADERSP']._serialized_end=343
+  _globals['_AVATARUPGRADERSP_GEKBLKPMJCGENTRY']._serialized_start=241
+  _globals['_AVATARUPGRADERSP_GEKBLKPMJCGENTRY']._serialized_end=291
+  _globals['_AVATARUPGRADERSP_AFEDLAOGFOCENTRY']._serialized_start=293
+  _globals['_AVATARUPGRADERSP_AFEDLAOGFOCENTRY']._serialized_end=343
 # @@protoc_insertion_point(module_scope)

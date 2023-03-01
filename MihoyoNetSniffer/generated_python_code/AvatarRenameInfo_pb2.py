@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarRenameInfo.proto\"8\n\x10\x41vatarRenameInfo\x12\x10\n\x08\x61vatarId\x18\x01 \x01(\r\x12\x12\n\navatarName\x18\x08 \x01(\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarRenameInfo.proto\":\n\x10\x41vatarRenameInfo\x12\x11\n\tavatar_id\x18\x01 \x01(\r\x12\x13\n\x0b\x61vatar_name\x18\x0b \x01(\tB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarRenameInfo_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_AVATARRENAMEINFO']._serialized_start=26
-  _globals['_AVATARRENAMEINFO']._serialized_end=82
+  _globals['_AVATARRENAMEINFO']._serialized_end=84
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeGroupRecord_pb2 as HomeGroupRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeGetGroupRecordRsp.proto\x1a\x15HomeGroupRecord.proto\"c\n\x15HomeGetGroupRecordRsp\x12\x12\n\nrecordType\x18\x0c \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12%\n\x0bgroupRecord\x18\r \x01(\x0b\x32\x10.HomeGroupRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeGetGroupRecordRsp.proto\x1a\x15HomeGroupRecord.proto\"e\n\x15HomeGetGroupRecordRsp\x12\x13\n\x0brecord_type\x18\x07 \x01(\r\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12&\n\x0cgroup_record\x18\x0c \x01(\x0b\x32\x10.HomeGroupRecordB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetGroupRecordRsp_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOMEGETGROUPRECORDRSP']._serialized_start=54
-  _globals['_HOMEGETGROUPRECORDRSP']._serialized_end=153
+  _globals['_HOMEGETGROUPRECORDRSP']._serialized_end=155
 # @@protoc_insertion_point(module_scope)

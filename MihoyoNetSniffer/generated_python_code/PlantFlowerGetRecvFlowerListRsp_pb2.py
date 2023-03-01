@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlantFlowerRecvFlowerData_pb2 as PlantFlowerRecvFlowerData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%PlantFlowerGetRecvFlowerListRsp.proto\x1a\x1fPlantFlowerRecvFlowerData.proto\"z\n\x1fPlantFlowerGetRecvFlowerListRsp\x12\x32\n\x0erecvFlowerList\x18\x0c \x03(\x0b\x32\x1a.PlantFlowerRecvFlowerData\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x12\n\nscheduleId\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%PlantFlowerGetRecvFlowerListRsp.proto\x1a\x1fPlantFlowerRecvFlowerData.proto\"}\n\x1fPlantFlowerGetRecvFlowerListRsp\x12\x13\n\x0bschedule_id\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x34\n\x10recv_flower_list\x18\n \x03(\x0b\x32\x1a.PlantFlowerRecvFlowerDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerGetRecvFlowerLis
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLANTFLOWERGETRECVFLOWERLISTRSP']._serialized_start=74
-  _globals['_PLANTFLOWERGETRECVFLOWERLISTRSP']._serialized_end=196
+  _globals['_PLANTFLOWERGETRECVFLOWERLISTRSP']._serialized_end=199
 # @@protoc_insertion_point(module_scope)

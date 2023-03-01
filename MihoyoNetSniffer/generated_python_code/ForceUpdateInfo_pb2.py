@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x46orceUpdateInfo.proto\"+\n\x0f\x46orceUpdateInfo\x12\x18\n\x10\x66orce_update_url\x18\x01 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x46orceUpdateInfo.proto\"+\n\x0f\x46orceUpdateInfo\x12\x18\n\x10\x66orce_update_url\x18\x01 \x01(\tB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForceUpdateInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForceUpdateInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _FORCEUPDATEINFO._serialized_start=25
-  _FORCEUPDATEINFO._serialized_end=68
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_FORCEUPDATEINFO']._serialized_start=25
+  _globals['_FORCEUPDATEINFO']._serialized_end=68
 # @@protoc_insertion_point(module_scope)

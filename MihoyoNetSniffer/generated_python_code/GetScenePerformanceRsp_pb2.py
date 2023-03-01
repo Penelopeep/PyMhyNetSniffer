@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetScenePerformanceRsp.proto\x1a\x0cVector.proto\"\x8a\x02\n\x16GetScenePerformanceRsp\x12\x1b\n\x13Unk3300_GLNFIFPNJIE\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_MIJMKLBGKML\x18\x03 \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x1b\n\x13Unk3300_PDPJEMEKHKD\x18\n \x01(\r\x12\x1b\n\x13Unk3300_JMLJLNKLJNP\x18\x08 \x01(\r\x12\x14\n\x03pos\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_IHBPCPCJIBC\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_LIOFGAHKNIA\x18\r \x01(\r\x12\x1b\n\x13Unk3300_MMALJIFDKJK\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetScenePerformanceRsp.proto\x1a\x0cVector.proto\"\xd2\x01\n\x16GetScenePerformanceRsp\x12\x13\n\x0b\x41\x44\x46PDKKFBFA\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x13\n\x0b\x46\x46IGGEJJKHB\x18\x05 \x01(\r\x12\x13\n\x0b\x46\x43NENPIPOHF\x18\n \x01(\r\x12\x13\n\x0b\x42GNBOPLNAGE\x18\x02 \x01(\r\x12\x13\n\x0bOOJBBDPEAFK\x18\x06 \x01(\r\x12\x13\n\x0bOKDLGDADHNA\x18\r \x01(\r\x12\x13\n\x0bHMKFIEOOMLE\x18\x07 \x01(\r\x12\x14\n\x03pos\x18\x0f \x01(\x0b\x32\x07.VectorB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetScenePerformanceRsp_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETSCENEPERFORMANCERSP']._serialized_start=47
-  _globals['_GETSCENEPERFORMANCERSP']._serialized_end=313
+  _globals['_GETSCENEPERFORMANCERSP']._serialized_end=257
 # @@protoc_insertion_point(module_scope)

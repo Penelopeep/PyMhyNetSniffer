@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DeliveryActivityDetailInfo.proto\"o\n\x1a\x44\x65liveryActivityDetailInfo\x12\x11\n\tday_index\x18\x01 \x01(\r\x12\x17\n\x0fis_taken_reward\x18\x0b \x01(\x08\x12%\n\x1d\x66inished_delivery_quest_index\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DeliveryActivityDetailInfo.proto\"o\n\x1a\x44\x65liveryActivityDetailInfo\x12\x17\n\x0fis_taken_reward\x18\x05 \x01(\x08\x12%\n\x1d\x66inished_delivery_quest_index\x18\x01 \x03(\r\x12\x11\n\tday_index\x18\n \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeliveryActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeliveryActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DELIVERYACTIVITYDETAILINFO._serialized_start=36
-  _DELIVERYACTIVITYDETAILINFO._serialized_end=147
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_DELIVERYACTIVITYDETAILINFO']._serialized_start=36
+  _globals['_DELIVERYACTIVITYDETAILINFO']._serialized_end=147
 # @@protoc_insertion_point(module_scope)

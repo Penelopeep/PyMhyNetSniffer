@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MassiveWaterInfo.proto\"\x1e\n\x10MassiveWaterInfo\x12\n\n\x02id\x18\x01 \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16MassiveWaterInfo.proto\"\x1e\n\x10MassiveWaterInfo\x12\n\n\x02id\x18\x01 \x01(\x03\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MassiveWaterInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MassiveWaterInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MASSIVEWATERINFO._serialized_start=26
-  _MASSIVEWATERINFO._serialized_end=56
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_MASSIVEWATERINFO']._serialized_start=26
+  _globals['_MASSIVEWATERINFO']._serialized_end=56
 # @@protoc_insertion_point(module_scope)

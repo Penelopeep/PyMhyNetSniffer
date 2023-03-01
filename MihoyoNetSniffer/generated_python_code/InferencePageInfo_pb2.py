@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import InferenceWordInfo_pb2 as InferenceWordInfo__pb2
+import InfernceWordInfo_pb2 as InfernceWordInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17InferencePageInfo.proto\x1a\x17InferenceWordInfo.proto\"O\n\x11InferencePageInfo\x12\x0e\n\x06pageId\x18\x06 \x01(\r\x12*\n\x0eunlockWordList\x18\x08 \x03(\x0b\x32\x12.InferenceWordInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17InferencePageInfo.proto\x1a\x16InfernceWordInfo.proto\"Q\n\x11InferencePageInfo\x12+\n\x10unlock_word_list\x18\x08 \x03(\x0b\x32\x11.InfernceWordInfo\x12\x0f\n\x07page_id\x18\x05 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InferencePageInfo_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_INFERENCEPAGEINFO']._serialized_start=52
-  _globals['_INFERENCEPAGEINFO']._serialized_end=131
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_INFERENCEPAGEINFO']._serialized_start=51
+  _globals['_INFERENCEPAGEINFO']._serialized_end=132
 # @@protoc_insertion_point(module_scope)

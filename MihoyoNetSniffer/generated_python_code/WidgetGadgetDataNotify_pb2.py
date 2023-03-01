@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import WidgetGadgetData_pb2 as WidgetGadgetData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cWidgetGadgetDataNotify.proto\x1a\x16WidgetGadgetData.proto\"E\n\x16WidgetGadgetDataNotify\x12+\n\x10widgetGadgetData\x18\n \x01(\x0b\x32\x11.WidgetGadgetDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cWidgetGadgetDataNotify.proto\x1a\x16WidgetGadgetData.proto\"G\n\x16WidgetGadgetDataNotify\x12-\n\x12widget_gadget_data\x18\x05 \x01(\x0b\x32\x11.WidgetGadgetDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetGadgetDataNotify_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_WIDGETGADGETDATANOTIFY']._serialized_start=56
-  _globals['_WIDGETGADGETDATANOTIFY']._serialized_end=125
+  _globals['_WIDGETGADGETDATANOTIFY']._serialized_end=127
 # @@protoc_insertion_point(module_scope)

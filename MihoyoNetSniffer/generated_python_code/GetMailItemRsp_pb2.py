@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EquipParam_pb2 as EquipParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GetMailItemRsp.proto\x1a\x10\x45quipParam.proto\"T\n\x0eGetMailItemRsp\x12\x1d\n\x08itemList\x18\t \x03(\x0b\x32\x0b.EquipParam\x12\x12\n\nmailIdList\x18\x06 \x03(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GetMailItemRsp.proto\x1a\x10\x45quipParam.proto\"W\n\x0eGetMailItemRsp\x12\x1e\n\titem_list\x18\x0f \x03(\x0b\x32\x0b.EquipParam\x12\x14\n\x0cmail_id_list\x18\x0b \x03(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetMailItemRsp_pb2', _globa
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETMAILITEMRSP']._serialized_start=42
-  _globals['_GETMAILITEMRSP']._serialized_end=126
+  _globals['_GETMAILITEMRSP']._serialized_end=129
 # @@protoc_insertion_point(module_scope)

@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHomeVerifyFurnitureData.proto\"@\n\x17HomeVerifyFurnitureData\x12\x0c\n\x04type\x18\x0c \x03(\r\x12\x0b\n\x03num\x18\x07 \x01(\r\x12\n\n\x02id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHomeVerifyFurnitureData.proto\"@\n\x17HomeVerifyFurnitureData\x12\x0c\n\x04type\x18\x06 \x03(\r\x12\x0b\n\x03num\x18\r \x01(\r\x12\n\n\x02id\x18\x05 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeVerifyFurnitureData_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeVerifyFurnitureData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEVERIFYFURNITUREDATA._serialized_start=33
-  _HOMEVERIFYFURNITUREDATA._serialized_end=97
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_HOMEVERIFYFURNITUREDATA']._serialized_start=33
+  _globals['_HOMEVERIFYFURNITUREDATA']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

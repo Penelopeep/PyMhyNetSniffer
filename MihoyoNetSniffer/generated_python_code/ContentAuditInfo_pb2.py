@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AuditState_pb2 as AuditState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43ontentAuditInfo.proto\x1a\x10\x41uditState.proto\"~\n\x10\x43ontentAuditInfo\x12\x0e\n\x06isOpen\x18\x01 \x01(\x08\x12\x0f\n\x07\x63ontent\x18\x02 \x01(\t\x12\x13\n\x0bsubmitCount\x18\x03 \x01(\r\x12\x1f\n\nauditState\x18\x04 \x01(\x0e\x32\x0b.AuditState\x12\x13\n\x0bsubmitLimit\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43ontentAuditInfo.proto\x1a\x10\x41uditState.proto\"\x82\x01\n\x10\x43ontentAuditInfo\x12\x0f\n\x07is_open\x18\x01 \x01(\x08\x12\x0f\n\x07\x63ontent\x18\x02 \x01(\t\x12\x14\n\x0csubmit_count\x18\x03 \x01(\r\x12 \n\x0b\x61udit_state\x18\x04 \x01(\x0e\x32\x0b.AuditState\x12\x14\n\x0csubmit_limit\x18\x05 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ContentAuditInfo_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_CONTENTAUDITINFO']._serialized_start=44
-  _globals['_CONTENTAUDITINFO']._serialized_end=170
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_CONTENTAUDITINFO']._serialized_start=45
+  _globals['_CONTENTAUDITINFO']._serialized_end=175
 # @@protoc_insertion_point(module_scope)

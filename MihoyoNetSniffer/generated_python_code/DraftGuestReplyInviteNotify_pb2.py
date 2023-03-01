@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DraftGuestReplyInviteNotify.proto\"Q\n\x1b\x44raftGuestReplyInviteNotify\x12\x10\n\x08guestUid\x18\r \x01(\r\x12\x0f\n\x07\x64raftId\x18\x0f \x01(\r\x12\x0f\n\x07isAgree\x18\x07 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DraftGuestReplyInviteNotify.proto\"T\n\x1b\x44raftGuestReplyInviteNotify\x12\x11\n\tguest_uid\x18\x0e \x01(\r\x12\x10\n\x08is_agree\x18\x06 \x01(\x08\x12\x10\n\x08\x64raft_id\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftGuestReplyInviteNotify
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DRAFTGUESTREPLYINVITENOTIFY']._serialized_start=37
-  _globals['_DRAFTGUESTREPLYINVITENOTIFY']._serialized_end=118
+  _globals['_DRAFTGUESTREPLYINVITENOTIFY']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

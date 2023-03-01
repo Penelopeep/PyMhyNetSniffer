@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import State_pb2 as State__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19InvestigationTarget.proto\x1a\x0bState.proto\"\x7f\n\x13InvestigationTarget\x12\x17\n\x0finvestigationId\x18\r \x01(\r\x12\x15\n\x05state\x18\x07 \x01(\x0e\x32\x06.State\x12\x15\n\rtotalProgress\x18\x01 \x01(\r\x12\x0f\n\x07questId\x18\x03 \x01(\r\x12\x10\n\x08progress\x18\x0f \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19InvestigationTarget.proto\"\xdd\x01\n\x13InvestigationTarget\x12)\n\x05state\x18\x06 \x01(\x0e\x32\x1a.InvestigationTarget.State\x12\x16\n\x0etotal_progress\x18\x05 \x01(\r\x12\x18\n\x10investigation_id\x18\x07 \x01(\r\x12\x10\n\x08quest_id\x18\x0e \x01(\r\x12\x10\n\x08progress\x18\x01 \x01(\r\"E\n\x05State\x12\x0b\n\x07INVALID\x10\x00\x12\x0f\n\x0bIN_PROGRESS\x10\x01\x12\x0c\n\x08\x43OMPLETE\x10\x02\x12\x10\n\x0cREWARD_TAKEN\x10\x03\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InvestigationTarget_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_INVESTIGATIONTARGET']._serialized_start=42
-  _globals['_INVESTIGATIONTARGET']._serialized_end=169
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_INVESTIGATIONTARGET']._serialized_start=30
+  _globals['_INVESTIGATIONTARGET']._serialized_end=251
+  _globals['_INVESTIGATIONTARGET_STATE']._serialized_start=182
+  _globals['_INVESTIGATIONTARGET_STATE']._serialized_end=251
 # @@protoc_insertion_point(module_scope)

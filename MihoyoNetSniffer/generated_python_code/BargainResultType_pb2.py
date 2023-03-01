@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61rgainResultType.proto*\x86\x01\n\x11\x42\x61rgainResultType\x12%\n!BARGAIN_RESULT_TYPE_COMPLETE_SUCC\x10\x00\x12#\n\x1f\x42\x41RGAIN_RESULT_TYPE_SINGLE_FAIL\x10\x01\x12%\n!BARGAIN_RESULT_TYPE_COMPLETE_FAIL\x10\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61rgainResultType.proto*b\n\x11\x42\x61rgainResultType\x12\x19\n\x15\x42\x41RGAIN_COMPLETE_SUCC\x10\x00\x12\x17\n\x13\x42\x41RGAIN_SINGLE_FAIL\x10\x01\x12\x19\n\x15\x42\x41RGAIN_COMPLETE_FAIL\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BargainResultType_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_BARGAINRESULTTYPE']._serialized_start=28
-  _globals['_BARGAINRESULTTYPE']._serialized_end=162
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_BARGAINRESULTTYPE']._serialized_start=27
+  _globals['_BARGAINRESULTTYPE']._serialized_end=125
 # @@protoc_insertion_point(module_scope)

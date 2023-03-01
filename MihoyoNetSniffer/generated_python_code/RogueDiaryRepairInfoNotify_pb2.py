@@ -15,7 +15,7 @@ import RogueDiaryAvatar_pb2 as RogueDiaryAvatar__pb2
 import RogueDiaryRoomInfo_pb2 as RogueDiaryRoomInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n RogueDiaryRepairInfoNotify.proto\x1a\x16RogueDiaryAvatar.proto\x1a\x18RogueDiaryRoomInfo.proto\"\x9a\x02\n\x1aRogueDiaryRepairInfoNotify\x12\x0f\n\x07stageId\x18\n \x01(\r\x12%\n\navatarList\x18\r \x03(\x0b\x32\x11.RogueDiaryAvatar\x12+\n\x10selectAvatarList\x18\x07 \x03(\x0b\x32\x11.RogueDiaryAvatar\x12\x14\n\x0crandCardList\x18\x0c \x03(\r\x12\x16\n\x0eselectCardList\x18\x01 \x03(\r\x12\x16\n\x0e\x63hosenCardList\x18\x08 \x03(\r\x12*\n\x0ftrialAvatarList\x18\x03 \x03(\x0b\x32\x11.RogueDiaryAvatar\x12%\n\x08roomList\x18\x05 \x03(\x0b\x32\x13.RogueDiaryRoomInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n RogueDiaryRepairInfoNotify.proto\x1a\x16RogueDiaryAvatar.proto\x1a\x18RogueDiaryRoomInfo.proto\"\xa7\x02\n\x1aRogueDiaryRepairInfoNotify\x12&\n\troom_list\x18\r \x03(\x0b\x32\x13.RogueDiaryRoomInfo\x12\x18\n\x10\x63hosen_card_list\x18\x06 \x03(\r\x12,\n\x11trial_avatar_list\x18\x08 \x03(\x0b\x32\x11.RogueDiaryAvatar\x12\x16\n\x0erand_card_list\x18\x02 \x03(\r\x12-\n\x12select_avatar_list\x18\x0b \x03(\x0b\x32\x11.RogueDiaryAvatar\x12\x18\n\x10select_card_list\x18\x01 \x03(\r\x12\x10\n\x08stage_id\x18\x05 \x01(\r\x12&\n\x0b\x61vatar_list\x18\x0e \x03(\x0b\x32\x11.RogueDiaryAvatarB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueDiaryRepairInfoNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ROGUEDIARYREPAIRINFONOTIFY']._serialized_start=87
-  _globals['_ROGUEDIARYREPAIRINFONOTIFY']._serialized_end=369
+  _globals['_ROGUEDIARYREPAIRINFONOTIFY']._serialized_end=382
 # @@protoc_insertion_point(module_scope)

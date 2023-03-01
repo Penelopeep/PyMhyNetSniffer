@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10SignInData.proto\x1a\x0fItemParam.proto\"B\n\nSignInData\x12\x10\n\x08\x64\x61yCount\x18\x03 \x01(\r\x12\"\n\x0erewardItemList\x18\x01 \x03(\x0b\x32\n.ItemParamB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10SignInData.proto\x1a\x0fItemParam.proto\"E\n\nSignInData\x12\x11\n\tday_count\x18\n \x01(\r\x12$\n\x10reward_item_list\x18\x07 \x03(\x0b\x32\n.ItemParamB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SignInData_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SIGNINDATA']._serialized_start=37
-  _globals['_SIGNINDATA']._serialized_end=103
+  _globals['_SIGNINDATA']._serialized_end=106
 # @@protoc_insertion_point(module_scope)

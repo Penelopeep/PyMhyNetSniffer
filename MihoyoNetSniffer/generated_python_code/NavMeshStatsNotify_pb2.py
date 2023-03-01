@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PbNavMeshStatsInfo_pb2 as PbNavMeshStatsInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18NavMeshStatsNotify.proto\x1a\x18PbNavMeshStatsInfo.proto\"8\n\x12NavMeshStatsNotify\x12\"\n\x05infos\x18\r \x03(\x0b\x32\x13.PbNavMeshStatsInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18NavMeshStatsNotify.proto\x1a\x18PbNavMeshStatsInfo.proto\"8\n\x12NavMeshStatsNotify\x12\"\n\x05infos\x18\x0b \x03(\x0b\x32\x13.PbNavMeshStatsInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'NavMeshStatsNotify_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_NAVMESHSTATSNOTIFY']._serialized_start=54
   _globals['_NAVMESHSTATSNOTIFY']._serialized_end=110
 # @@protoc_insertion_point(module_scope)

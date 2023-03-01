@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ChannelerSlabAssistInfo_pb2 as ChannelerSlabAssistInfo__pb2
+import ChannellerSlabAssistInfo_pb2 as ChannellerSlabAssistInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%ChannellerSlabSaveAssistInfoReq.proto\x1a\x1d\x43hannelerSlabAssistInfo.proto\"S\n\x1f\x43hannellerSlabSaveAssistInfoReq\x12\x30\n\x0e\x61ssistInfoList\x18\x06 \x03(\x0b\x32\x18.ChannelerSlabAssistInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%ChannellerSlabSaveAssistInfoReq.proto\x1a\x1e\x43hannellerSlabAssistInfo.proto\"V\n\x1f\x43hannellerSlabSaveAssistInfoReq\x12\x33\n\x10\x61ssist_info_list\x18\x03 \x03(\x0b\x32\x19.ChannellerSlabAssistInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannellerSlabSaveAssistInf
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_CHANNELLERSLABSAVEASSISTINFOREQ']._serialized_start=72
-  _globals['_CHANNELLERSLABSAVEASSISTINFOREQ']._serialized_end=155
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_CHANNELLERSLABSAVEASSISTINFOREQ']._serialized_start=73
+  _globals['_CHANNELLERSLABSAVEASSISTINFOREQ']._serialized_end=159
 # @@protoc_insertion_point(module_scope)

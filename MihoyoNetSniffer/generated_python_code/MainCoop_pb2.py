@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Status_pb2 as Status__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMainCoop.proto\x1a\x0cStatus.proto\"\x95\x03\n\x08MainCoop\x12\x16\n\x0eselfConfidence\x18\x03 \x01(\r\x12\x17\n\x0fsavePointIdList\x18\x06 \x03(\r\x12\n\n\x02id\x18\x0f \x01(\r\x12\x31\n\x0cnormalVarMap\x18\x0c \x03(\x0b\x32\x1b.MainCoop.NormalVarMapEntry\x12\x17\n\x06status\x18\x08 \x01(\x0e\x32\x07.Status\x12-\n\ntempVarMap\x18\x02 \x03(\x0b\x32\x19.MainCoop.TempVarMapEntry\x12\x33\n\rseenEndingMap\x18\x04 \x03(\x0b\x32\x1c.MainCoop.SeenEndingMapEntry\x1a\x33\n\x11NormalVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0fTempVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x34\n\x12SeenEndingMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMainCoop.proto\"\xd6\x03\n\x08MainCoop\x12\x1a\n\x12save_point_id_list\x18\x04 \x03(\r\x12\n\n\x02id\x18\x02 \x01(\r\x12\x17\n\x0fself_confidence\x18\x0c \x01(\r\x12/\n\x0bPENJAEJFOCP\x18\x0f \x03(\x0b\x32\x1a.MainCoop.PENJAEJFOCPEntry\x12/\n\x0bGIINOODGCOO\x18\x03 \x03(\x0b\x32\x1a.MainCoop.GIINOODGCOOEntry\x12\x35\n\x0fseen_ending_map\x18\x01 \x03(\x0b\x32\x1c.MainCoop.SeenEndingMapEntry\x12 \n\x06status\x18\x07 \x01(\x0e\x32\x10.MainCoop.Status\x1a\x32\n\x10PENJAEJFOCPEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x32\n\x10GIINOODGCOOEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x34\n\x12SeenEndingMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\"0\n\x06Status\x12\x0b\n\x07INVALID\x10\x00\x12\x0b\n\x07RUNNING\x10\x01\x12\x0c\n\x08\x46INISHED\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,19 +21,21 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MainCoop_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _MAINCOOP_NORMALVARMAPENTRY._options = None
-  _MAINCOOP_NORMALVARMAPENTRY._serialized_options = b'8\001'
-  _MAINCOOP_TEMPVARMAPENTRY._options = None
-  _MAINCOOP_TEMPVARMAPENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _MAINCOOP_PENJAEJFOCPENTRY._options = None
+  _MAINCOOP_PENJAEJFOCPENTRY._serialized_options = b'8\001'
+  _MAINCOOP_GIINOODGCOOENTRY._options = None
+  _MAINCOOP_GIINOODGCOOENTRY._serialized_options = b'8\001'
   _MAINCOOP_SEENENDINGMAPENTRY._options = None
   _MAINCOOP_SEENENDINGMAPENTRY._serialized_options = b'8\001'
-  _globals['_MAINCOOP']._serialized_start=33
-  _globals['_MAINCOOP']._serialized_end=438
-  _globals['_MAINCOOP_NORMALVARMAPENTRY']._serialized_start=282
-  _globals['_MAINCOOP_NORMALVARMAPENTRY']._serialized_end=333
-  _globals['_MAINCOOP_TEMPVARMAPENTRY']._serialized_start=335
-  _globals['_MAINCOOP_TEMPVARMAPENTRY']._serialized_end=384
-  _globals['_MAINCOOP_SEENENDINGMAPENTRY']._serialized_start=386
-  _globals['_MAINCOOP_SEENENDINGMAPENTRY']._serialized_end=438
+  _globals['_MAINCOOP']._serialized_start=19
+  _globals['_MAINCOOP']._serialized_end=489
+  _globals['_MAINCOOP_PENJAEJFOCPENTRY']._serialized_start=283
+  _globals['_MAINCOOP_PENJAEJFOCPENTRY']._serialized_end=333
+  _globals['_MAINCOOP_GIINOODGCOOENTRY']._serialized_start=335
+  _globals['_MAINCOOP_GIINOODGCOOENTRY']._serialized_end=385
+  _globals['_MAINCOOP_SEENENDINGMAPENTRY']._serialized_start=387
+  _globals['_MAINCOOP_SEENENDINGMAPENTRY']._serialized_end=439
+  _globals['_MAINCOOP_STATUS']._serialized_start=441
+  _globals['_MAINCOOP_STATUS']._serialized_end=489
 # @@protoc_insertion_point(module_scope)

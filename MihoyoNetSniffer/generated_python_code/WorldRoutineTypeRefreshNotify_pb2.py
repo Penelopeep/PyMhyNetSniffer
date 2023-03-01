@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import WorldRoutineTypeInfo_pb2 as WorldRoutineTypeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WorldRoutineTypeRefreshNotify.proto\x1a\x1aWorldRoutineTypeInfo.proto\"P\n\x1dWorldRoutineTypeRefreshNotify\x12/\n\x10worldRoutineType\x18\x0f \x01(\x0b\x32\x15.WorldRoutineTypeInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WorldRoutineTypeRefreshNotify.proto\x1a\x1aWorldRoutineTypeInfo.proto\"R\n\x1dWorldRoutineTypeRefreshNotify\x12\x31\n\x12world_routine_type\x18\r \x01(\x0b\x32\x15.WorldRoutineTypeInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldRoutineTypeRefreshNoti
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_WORLDROUTINETYPEREFRESHNOTIFY']._serialized_start=67
-  _globals['_WORLDROUTINETYPEREFRESHNOTIFY']._serialized_end=147
+  _globals['_WORLDROUTINETYPEREFRESHNOTIFY']._serialized_end=149
 # @@protoc_insertion_point(module_scope)

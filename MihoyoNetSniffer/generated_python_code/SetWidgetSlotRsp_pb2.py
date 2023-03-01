@@ -15,7 +15,7 @@ import WidgetSlotOp_pb2 as WidgetSlotOp__pb2
 import WidgetSlotTag_pb2 as WidgetSlotTag__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SetWidgetSlotRsp.proto\x1a\x12WidgetSlotOp.proto\x1a\x13WidgetSlotTag.proto\"s\n\x10SetWidgetSlotRsp\x12\x1f\n\x07tagList\x18\x07 \x03(\x0e\x32\x0e.WidgetSlotTag\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x12\n\nmaterialId\x18\x0c \x01(\r\x12\x19\n\x02op\x18\t \x01(\x0e\x32\r.WidgetSlotOpB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SetWidgetSlotRsp.proto\x1a\x12WidgetSlotOp.proto\x1a\x13WidgetSlotTag.proto\"u\n\x10SetWidgetSlotRsp\x12\x13\n\x0bmaterial_id\x18\x0c \x01(\r\x12 \n\x08tag_list\x18\x0f \x03(\x0e\x32\x0e.WidgetSlotTag\x12\x19\n\x02op\x18\x02 \x01(\x0e\x32\r.WidgetSlotOp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetWidgetSlotRsp_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SETWIDGETSLOTRSP']._serialized_start=67
-  _globals['_SETWIDGETSLOTRSP']._serialized_end=182
+  _globals['_SETWIDGETSLOTRSP']._serialized_end=184
 # @@protoc_insertion_point(module_scope)

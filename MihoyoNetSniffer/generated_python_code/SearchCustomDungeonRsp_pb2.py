@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OtherCustomDungeonBrief_pb2 as OtherCustomDungeonBrief__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSearchCustomDungeonRsp.proto\x1a\x1dOtherCustomDungeonBrief.proto\"_\n\x16SearchCustomDungeonRsp\x12\x34\n\x12\x63ustomDungeonBrief\x18\x06 \x01(\x0b\x32\x18.OtherCustomDungeonBrief\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSearchCustomDungeonRsp.proto\x1a\x1dOtherCustomDungeonBrief.proto\"a\n\x16SearchCustomDungeonRsp\x12\x36\n\x14\x63ustom_dungeon_brief\x18\x02 \x01(\x0b\x32\x18.OtherCustomDungeonBrief\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SearchCustomDungeonRsp_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SEARCHCUSTOMDUNGEONRSP']._serialized_start=63
-  _globals['_SEARCHCUSTOMDUNGEONRSP']._serialized_end=158
+  _globals['_SEARCHCUSTOMDUNGEONRSP']._serialized_end=160
 # @@protoc_insertion_point(module_scope)

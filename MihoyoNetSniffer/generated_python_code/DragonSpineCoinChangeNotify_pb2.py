@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DragonSpineCoinChangeNotify.proto\"\x88\x01\n\x1b\x44ragonSpineCoinChangeNotify\x12\x1b\n\x13Unk3300_FOHJDGCAKEK\x18\x07 \x01(\r\x12\x12\n\nscheduleId\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_IMLKIJAOADF\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_NEOCMGJCEOJ\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DragonSpineCoinChangeNotify.proto\"q\n\x1b\x44ragonSpineCoinChangeNotify\x12\x13\n\x0bPEJFBHBOLEA\x18\t \x01(\r\x12\x13\n\x0bschedule_id\x18\r \x01(\r\x12\x13\n\x0bPBPIPINOBLB\x18\n \x01(\r\x12\x13\n\x0bNIPPAPELMPN\x18\x0e \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DragonSpineCoinChangeNotify
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_DRAGONSPINECOINCHANGENOTIFY']._serialized_start=38
-  _globals['_DRAGONSPINECOINCHANGENOTIFY']._serialized_end=174
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_DRAGONSPINECOINCHANGENOTIFY']._serialized_start=37
+  _globals['_DRAGONSPINECOINCHANGENOTIFY']._serialized_end=150
 # @@protoc_insertion_point(module_scope)

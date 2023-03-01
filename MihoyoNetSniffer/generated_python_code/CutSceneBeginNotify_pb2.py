@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CutSceneExtraParam_pb2 as CutSceneExtraParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43utSceneBeginNotify.proto\x1a\x18\x43utSceneExtraParam.proto\"l\n\x13\x43utSceneBeginNotify\x12\x14\n\x0cisWaitOthers\x18\x03 \x01(\x08\x12+\n\x0e\x65xtraParamList\x18\x0e \x03(\x0b\x32\x13.CutSceneExtraParam\x12\x12\n\ncutsceneId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43utSceneBeginNotify.proto\x1a\x18\x43utSceneExtraParam.proto\"q\n\x13\x43utSceneBeginNotify\x12\x16\n\x0eis_wait_others\x18\x0c \x01(\x08\x12\x13\n\x0b\x63utscene_id\x18\n \x01(\r\x12-\n\x10\x65xtra_param_list\x18\x07 \x03(\x0b\x32\x13.CutSceneExtraParamB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CutSceneBeginNotify_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CUTSCENEBEGINNOTIFY']._serialized_start=55
-  _globals['_CUTSCENEBEGINNOTIFY']._serialized_end=163
+  _globals['_CUTSCENEBEGINNOTIFY']._serialized_end=168
 # @@protoc_insertion_point(module_scope)

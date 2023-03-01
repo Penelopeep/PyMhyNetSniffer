@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RogueEliteCellDifficultyType_pb2 as RogueEliteCellDifficultyType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%StartRogueEliteCellChallengeReq.proto\x1a\"RogueEliteCellDifficultyType.proto\"w\n\x1fStartRogueEliteCellChallengeReq\x12\x0e\n\x06\x63\x65llId\x18\x0c \x01(\r\x12\x31\n\ndifficulty\x18\x07 \x01(\x0e\x32\x1d.RogueEliteCellDifficultyType\x12\x11\n\tdungeonId\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%StartRogueEliteCellChallengeReq.proto\x1a\"RogueEliteCellDifficultyType.proto\"y\n\x1fStartRogueEliteCellChallengeReq\x12\x12\n\ndungeon_id\x18\x0c \x01(\r\x12\x31\n\ndifficulty\x18\x0e \x01(\x0e\x32\x1d.RogueEliteCellDifficultyType\x12\x0f\n\x07\x63\x65ll_id\x18\x0f \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StartRogueEliteCellChalleng
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_STARTROGUEELITECELLCHALLENGEREQ']._serialized_start=77
-  _globals['_STARTROGUEELITECELLCHALLENGEREQ']._serialized_end=196
+  _globals['_STARTROGUEELITECELLCHALLENGEREQ']._serialized_end=198
 # @@protoc_insertion_point(module_scope)

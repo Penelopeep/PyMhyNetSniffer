@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import ExhibitionDisplayInfo_pb2 as ExhibitionDisplayInfo__pb2
 import GalleryStopReason_pb2 as GalleryStopReason__pb2
 import IslandPartyGallerySettleInfo_pb2 as IslandPartyGallerySettleInfo__pb2
-import ExhibitionDisplayInfo_pb2 as ExhibitionDisplayInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dIslandPartySettleNotify.proto\x1a\x17GalleryStopReason.proto\x1a\"IslandPartyGallerySettleInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\"\xc8\x01\n\x17IslandPartySettleNotify\x12\x35\n\x0esettleInfoList\x18\t \x03(\x0b\x32\x1d.IslandPartyGallerySettleInfo\x12)\n\tscoreList\x18\x08 \x03(\x0b\x32\x16.ExhibitionDisplayInfo\x12\x13\n\x0bisNewRecord\x18\x0e \x01(\x08\x12\x12\n\ntimeRemain\x18\x02 \x01(\r\x12\"\n\x06reason\x18\r \x01(\x0e\x32\x12.GalleryStopReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dIslandPartySettleNotify.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\x1a\x17GalleryStopReason.proto\x1a\"IslandPartyGallerySettleInfo.proto\"\xce\x01\n\x17IslandPartySettleNotify\x12\x13\n\x0btime_remain\x18\x02 \x01(\r\x12\x37\n\x10settle_info_list\x18\x03 \x03(\x0b\x32\x1d.IslandPartyGallerySettleInfo\x12*\n\nscore_list\x18\x06 \x03(\x0b\x32\x16.ExhibitionDisplayInfo\x12\"\n\x06reason\x18\x0b \x01(\x0e\x32\x12.GalleryStopReason\x12\x15\n\ris_new_record\x18\x07 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IslandPartySettleNotify_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ISLANDPARTYSETTLENOTIFY']._serialized_start=124
-  _globals['_ISLANDPARTYSETTLENOTIFY']._serialized_end=324
+  _globals['_ISLANDPARTYSETTLENOTIFY']._serialized_end=330
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RegionSearchInfo_pb2 as RegionSearchInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RegionSearchNotify.proto\x1a\x16RegionSearchInfo.proto\"N\n\x12RegionSearchNotify\x12\x0b\n\x03uid\x18\x01 \x01(\r\x12+\n\x10regionSearchList\x18\x0f \x03(\x0b\x32\x11.RegionSearchInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RegionSearchNotify.proto\x1a\x16RegionSearchInfo.proto\"P\n\x12RegionSearchNotify\x12-\n\x12region_search_list\x18\x0b \x03(\x0b\x32\x11.RegionSearchInfo\x12\x0b\n\x03uid\x18\n \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RegionSearchNotify_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_REGIONSEARCHNOTIFY']._serialized_start=52
-  _globals['_REGIONSEARCHNOTIFY']._serialized_end=130
+  _globals['_REGIONSEARCHNOTIFY']._serialized_end=132
 # @@protoc_insertion_point(module_scope)

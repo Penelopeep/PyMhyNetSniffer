@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45xclusiveRuleInfo.proto\">\n\x11\x45xclusiveRuleInfo\x12\x11\n\trule_type\x18\x02 \x01(\r\x12\x16\n\x0eobject_id_list\x18\x0f \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45xclusiveRuleInfo.proto\">\n\x11\x45xclusiveRuleInfo\x12\x16\n\x0eobject_id_list\x18\x01 \x03(\r\x12\x11\n\trule_type\x18\x0e \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExclusiveRuleInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExclusiveRuleInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EXCLUSIVERULEINFO._serialized_start=27
-  _EXCLUSIVERULEINFO._serialized_end=89
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_EXCLUSIVERULEINFO']._serialized_start=27
+  _globals['_EXCLUSIVERULEINFO']._serialized_end=89
 # @@protoc_insertion_point(module_scope)

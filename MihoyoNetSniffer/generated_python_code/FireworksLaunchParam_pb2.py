@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FireworksLaunchParamType_pb2 as FireworksLaunchParamType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x46ireworksLaunchParam.proto\x1a\x1e\x46ireworksLaunchParamType.proto\"N\n\x14\x46ireworksLaunchParam\x12\'\n\x04type\x18\x05 \x01(\x0e\x32\x19.FireworksLaunchParamType\x12\r\n\x05value\x18\x0e \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x46ireworksLaunchParam.proto\x1a\x1e\x46ireworksLaunchParamType.proto\"N\n\x14\x46ireworksLaunchParam\x12\r\n\x05value\x18\x06 \x01(\x05\x12\'\n\x04type\x18\x05 \x01(\x0e\x32\x19.FireworksLaunchParamTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FireworksLaunchParam_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_FIREWORKSLAUNCHPARAM']._serialized_start=62
   _globals['_FIREWORKSLAUNCHPARAM']._serialized_end=140
 # @@protoc_insertion_point(module_scope)

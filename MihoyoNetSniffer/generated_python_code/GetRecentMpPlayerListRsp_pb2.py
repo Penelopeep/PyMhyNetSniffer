@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FriendBrief_pb2 as FriendBrief__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetRecentMpPlayerListRsp.proto\x1a\x11\x46riendBrief.proto\"Z\n\x18GetRecentMpPlayerListRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12-\n\x17recentMpPlayerBriefList\x18\x06 \x03(\x0b\x32\x0c.FriendBriefB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetRecentMpPlayerListRsp.proto\x1a\x11\x46riendBrief.proto\"^\n\x18GetRecentMpPlayerListRsp\x12\x31\n\x1brecent_mp_player_brief_list\x18\x0c \x03(\x0b\x32\x0c.FriendBrief\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetRecentMpPlayerListRsp_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETRECENTMPPLAYERLISTRSP']._serialized_start=53
-  _globals['_GETRECENTMPPLAYERLISTRSP']._serialized_end=143
+  _globals['_GETRECENTMPPLAYERLISTRSP']._serialized_end=147
 # @@protoc_insertion_point(module_scope)

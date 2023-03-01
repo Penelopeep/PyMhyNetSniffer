@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ForgeQueueData_pb2 as ForgeQueueData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x46orgeQueueDataNotify.proto\x1a\x14\x46orgeQueueData.proto\"\xbd\x01\n\x14\x46orgeQueueDataNotify\x12\x1d\n\x15removedForgeQueueList\x18\n \x03(\r\x12?\n\rforgeQueueMap\x18\x0e \x03(\x0b\x32(.ForgeQueueDataNotify.ForgeQueueMapEntry\x1a\x45\n\x12\x46orgeQueueMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1e\n\x05value\x18\x02 \x01(\x0b\x32\x0f.ForgeQueueData:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x46orgeQueueDataNotify.proto\x1a\x14\x46orgeQueueData.proto\"\xc2\x01\n\x14\x46orgeQueueDataNotify\x12\x41\n\x0f\x66orge_queue_map\x18\t \x03(\x0b\x32(.ForgeQueueDataNotify.ForgeQueueMapEntry\x12 \n\x18removed_forge_queue_list\x18\x0e \x03(\r\x1a\x45\n\x12\x46orgeQueueMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1e\n\x05value\x18\x02 \x01(\x0b\x32\x0f.ForgeQueueData:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,11 +22,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeQueueDataNotify_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _FORGEQUEUEDATANOTIFY_FORGEQUEUEMAPENTRY._options = None
   _FORGEQUEUEDATANOTIFY_FORGEQUEUEMAPENTRY._serialized_options = b'8\001'
   _globals['_FORGEQUEUEDATANOTIFY']._serialized_start=53
-  _globals['_FORGEQUEUEDATANOTIFY']._serialized_end=242
-  _globals['_FORGEQUEUEDATANOTIFY_FORGEQUEUEMAPENTRY']._serialized_start=173
-  _globals['_FORGEQUEUEDATANOTIFY_FORGEQUEUEMAPENTRY']._serialized_end=242
+  _globals['_FORGEQUEUEDATANOTIFY']._serialized_end=247
+  _globals['_FORGEQUEUEDATANOTIFY_FORGEQUEUEMAPENTRY']._serialized_start=178
+  _globals['_FORGEQUEUEDATANOTIFY_FORGEQUEUEMAPENTRY']._serialized_end=247
 # @@protoc_insertion_point(module_scope)

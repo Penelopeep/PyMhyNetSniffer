@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GCGEndReason.proto*\xd6\x02\n\x0cGCGEndReason\x12\x1a\n\x16GCG_END_REASON_DEFAULT\x10\x00\x12\x16\n\x12GCG_END_REASON_DIE\x10\x01\x12\x1c\n\x18GCG_END_REASON_SURRENDER\x10\x02\x12\x1f\n\x1bGCG_END_REASON_DISCONNECTED\x10\x03\x12\x1e\n\x1aGCG_END_REASON_ROUND_LIMIT\x10\x04\x12\x15\n\x11GCG_END_REASON_GM\x10\x05\x12\x1c\n\x18GCG_END_REASON_NO_PLAYER\x10\x06\x12\x1a\n\x16GCG_END_REASON_GIVE_UP\x10\x07\x12\x1f\n\x1bGCG_END_REASON_INIT_TIMEOUT\x10\x08\x12\x19\n\x15GCG_END_REASON_EFFECT\x10\t\x12&\n\"GCG_END_REASON_Unk3300_INAPHKAKKHF\x10\nB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GCGEndReason.proto*\xce\x02\n\x0cGCGEndReason\x12\x1a\n\x16GCG_END_REASON_DEFAULT\x10\x00\x12\x16\n\x12GCG_END_REASON_DIE\x10\x01\x12\x1c\n\x18GCG_END_REASON_SURRENDER\x10\x02\x12\x1f\n\x1bGCG_END_REASON_DISCONNECTED\x10\x03\x12\x1e\n\x1aGCG_END_REASON_ROUND_LIMIT\x10\x04\x12\x15\n\x11GCG_END_REASON_GM\x10\x05\x12\x1c\n\x18GCG_END_REASON_NO_PLAYER\x10\x06\x12\x1a\n\x16GCG_END_REASON_GIVE_UP\x10\x07\x12\x1f\n\x1bGCG_END_REASON_INIT_TIMEOUT\x10\x08\x12\x19\n\x15GCG_END_REASON_EFFECT\x10\t\x12\x1e\n\x1aGCG_END_REASON_MEBCCAFFADK\x10\nB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGEndReason_pb2', _globals
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GCGENDREASON']._serialized_start=23
-  _globals['_GCGENDREASON']._serialized_end=365
+  _globals['_GCGENDREASON']._serialized_end=357
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import GCGDiceSideType_pb2 as GCGDiceSideType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GCGMsgDiceRoll.proto\x1a\x15GCGDiceSideType.proto\"c\n\x0eGCGMsgDiceRoll\x12\x15\n\rcontroller_id\x18\t \x01(\r\x12\x10\n\x08\x64ice_num\x18\x03 \x01(\r\x12(\n\x0e\x64ice_side_list\x18\x0e \x03(\x0e\x32\x10.GCGDiceSideTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GCGMsgDiceRoll.proto\x1a\x15GCGDiceSideType.proto\"c\n\x0eGCGMsgDiceRoll\x12\x10\n\x08\x64ice_num\x18\x0f \x01(\r\x12\x15\n\rcontroller_id\x18\x02 \x01(\r\x12(\n\x0e\x64ice_side_list\x18\x0e \x03(\x0e\x32\x10.GCGDiceSideTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgDiceRoll_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgDiceRoll_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GCGMSGDICEROLL._serialized_start=47
-  _GCGMSGDICEROLL._serialized_end=146
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGMSGDICEROLL']._serialized_start=47
+  _globals['_GCGMSGDICEROLL']._serialized_end=146
 # @@protoc_insertion_point(module_scope)

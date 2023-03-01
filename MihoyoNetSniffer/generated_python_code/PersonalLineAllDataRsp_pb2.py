@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import LockedPersonallineData_pb2 as LockedPersonallineData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPersonalLineAllDataRsp.proto\x1a\x1cLockedPersonallineData.proto\"\xe8\x01\n\x16PersonalLineAllDataRsp\x12\x1f\n\x17ongoingPersonalLineList\x18\x05 \x03(\r\x12\x19\n\x11legendaryKeyCount\x18\x07 \x01(\r\x12!\n\x19\x63urFinishedDailyTaskCount\x18\x02 \x01(\r\x12%\n\x1d\x63\x61nBeUnlockedPersonalLineList\x18\x04 \x03(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x37\n\x16lockedPersonalLineList\x18\n \x03(\x0b\x32\x17.LockedPersonallineDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPersonalLineAllDataRsp.proto\x1a\x1cLockedPersonallineData.proto\"\xd3\x01\n\x16PersonalLineAllDataRsp\x12:\n\x19locked_personal_line_list\x18\n \x03(\x0b\x32\x17.LockedPersonallineData\x12%\n\x1d\x63ur_finished_daily_task_count\x18\x02 \x01(\r\x12\x1b\n\x13legendary_key_count\x18\x07 \x01(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x13\n\x0bLFBFDPFCOGN\x18\x0c \x03(\r\x12\x13\n\x0bNEBDFELPDCO\x18\x06 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PersonalLineAllDataRsp_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PERSONALLINEALLDATARSP']._serialized_start=63
-  _globals['_PERSONALLINEALLDATARSP']._serialized_end=295
+  _globals['_PERSONALLINEALLDATARSP']._serialized_end=274
 # @@protoc_insertion_point(module_scope)

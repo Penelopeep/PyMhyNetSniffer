@@ -11,79 +11,81 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import SamLampInfo_pb2 as SamLampInfo__pb2
-import CrucibleInfo_pb2 as CrucibleInfo__pb2
-import SalesmanInfo_pb2 as SalesmanInfo__pb2
-import TrialAvatarInfo_pb2 as TrialAvatarInfo__pb2
-import DeliveryInfo_pb2 as DeliveryInfo__pb2
-import AsterInfo_pb2 as AsterInfo__pb2
-import FlightInfo_pb2 as FlightInfo__pb2
-import DragonSpineInfo_pb2 as DragonSpineInfo__pb2
-import EffigyInfo_pb2 as EffigyInfo__pb2
-import TreasureMapInfo_pb2 as TreasureMapInfo__pb2
-import BlessingInfo_pb2 as BlessingInfo__pb2
-import SeaLampInfo_pb2 as SeaLampInfo__pb2
-import ExpeditionInfo_pb2 as ExpeditionInfo__pb2
-import ArenaChallengeInfo_pb2 as ArenaChallengeInfo__pb2
-import FleurFairInfo_pb2 as FleurFairInfo__pb2
-import WaterSpiritInfo_pb2 as WaterSpiritInfo__pb2
-import ChallnelerSlabInfo_pb2 as ChallnelerSlabInfo__pb2
-import MistTrialActivityInfo_pb2 as MistTrialActivityInfo__pb2
-import HideAndSeekInfo_pb2 as HideAndSeekInfo__pb2
-import FindHilichurlInfo_pb2 as FindHilichurlInfo__pb2
-import SummerTimeInfo_pb2 as SummerTimeInfo__pb2
-import BuoyantCombatInfo_pb2 as BuoyantCombatInfo__pb2
-import EchoShellInfo_pb2 as EchoShellInfo__pb2
-import BounceConjuringInfo_pb2 as BounceConjuringInfo__pb2
-import BlitzRushInfo_pb2 as BlitzRushInfo__pb2
-import ChessInfo_pb2 as ChessInfo__pb2
-import SumoInfo_pb2 as SumoInfo__pb2
-import MoonfinTrialInfo_pb2 as MoonfinTrialInfo__pb2
-import LunaRiteInfo_pb2 as LunaRiteInfo__pb2
-import PlantFlowerInfo_pb2 as PlantFlowerInfo__pb2
-import MusicGameActivityDetailInfo_pb2 as MusicGameActivityDetailInfo__pb2
-import RoguelikeDungoenInfo_pb2 as RoguelikeDungoenInfo__pb2
-import DigInfo_pb2 as DigInfo__pb2
-import HachiInfo_pb2 as HachiInfo__pb2
-import WinterCampInfo_pb2 as WinterCampInfo__pb2
-import PotionInfo_pb2 as PotionInfo__pb2
-import TanukiTravelActivityInfo_pb2 as TanukiTravelActivityInfo__pb2
-import LanternRiteActivityInfo_pb2 as LanternRiteActivityInfo__pb2
-import MichiaeMatsuriInfo_pb2 as MichiaeMatsuriInfo__pb2
-import BartenderInfo_pb2 as BartenderInfo__pb2
-import UgcInfo_pb2 as UgcInfo__pb2
-import CrystalLinkInfo_pb2 as CrystalLinkInfo__pb2
-import IrodoriInfo_pb2 as IrodoriInfo__pb2
-import PhotoInfo_pb2 as PhotoInfo__pb2
-import SpiceInfo_pb2 as SpiceInfo__pb2
-import GachaInfo_pb2 as GachaInfo__pb2
-import LuminanceStoneChallengeInfo_pb2 as LuminanceStoneChallengeInfo__pb2
-import RogueDiaryInfo_pb2 as RogueDiaryInfo__pb2
-import SummerTimeV2Info_pb2 as SummerTimeV2Info__pb2
-import IslandPartyInfo_pb2 as IslandPartyInfo__pb2
-import GearInfo_pb2 as GearInfo__pb2
-import GravenInnocenceInfo_pb2 as GravenInnocenceInfo__pb2
-import InstableSprayInfo_pb2 as InstableSprayInfo__pb2
-import MuqadasPotionInfo_pb2 as MuqadasPotionInfo__pb2
-import TreasureSeelieInfo_pb2 as TreasureSeelieInfo__pb2
-import RockBoardExploreInfo_pb2 as RockBoardExploreInfo__pb2
-import VintageInfo_pb2 as VintageInfo__pb2
-import WindFieldInfo_pb2 as WindFieldInfo__pb2
-import FungusFighterInfo_pb2 as FungusFighterInfo__pb2
-import CharAmusementInfo_pb2 as CharAmusementInfo__pb2
-import EffigyChallengeInfo_pb2 as EffigyChallengeInfo__pb2
-import CoinCollectInfo_pb2 as CoinCollectInfo__pb2
-import BrickBreakerInfo_pb2 as BrickBreakerInfo__pb2
-import DuelHeartInfo_pb2 as DuelHeartInfo__pb2
-import SeaLampV3Info_pb2 as SeaLampV3Info__pb2
-import TeamChainInfo_pb2 as TeamChainInfo__pb2
-import ElectroherculesBattleInfo_pb2 as ElectroherculesBattleInfo__pb2
-import GcgFestivalInfo_pb2 as GcgFestivalInfo__pb2
 import ActivityPushTipsData_pb2 as ActivityPushTipsData__pb2
 import ActivityWatcherInfo_pb2 as ActivityWatcherInfo__pb2
+import AMFOFAPEHGM_pb2 as AMFOFAPEHGM__pb2
+import ArenaChallengeActivityDetailInfo_pb2 as ArenaChallengeActivityDetailInfo__pb2
+import AsterActivityDetailInfo_pb2 as AsterActivityDetailInfo__pb2
+import BartenderActivityDetailInfo_pb2 as BartenderActivityDetailInfo__pb2
+import BlessingActivityDetailInfo_pb2 as BlessingActivityDetailInfo__pb2
+import BlitzRushActivityDetailInfo_pb2 as BlitzRushActivityDetailInfo__pb2
+import BounceConjuringActivityDetailInfo_pb2 as BounceConjuringActivityDetailInfo__pb2
+import BrickBreakerDetailInfo_pb2 as BrickBreakerDetailInfo__pb2
+import BuoyantCombatDetailInfo_pb2 as BuoyantCombatDetailInfo__pb2
+import ChannelerSlabActivityDetailInfo_pb2 as ChannelerSlabActivityDetailInfo__pb2
+import CharAmusementDetailInfo_pb2 as CharAmusementDetailInfo__pb2
+import ChessActivityDetailInfo_pb2 as ChessActivityDetailInfo__pb2
+import CoinCollectDetailInfo_pb2 as CoinCollectDetailInfo__pb2
+import CrucibleActivityDetailInfo_pb2 as CrucibleActivityDetailInfo__pb2
+import CrystalLinkActivityDetailInfo_pb2 as CrystalLinkActivityDetailInfo__pb2
+import DeliveryActivityDetailInfo_pb2 as DeliveryActivityDetailInfo__pb2
+import DigActivityDetailInfo_pb2 as DigActivityDetailInfo__pb2
+import DragonSpineActivityDetailInfo_pb2 as DragonSpineActivityDetailInfo__pb2
+import DuelHeartDetailInfo_pb2 as DuelHeartDetailInfo__pb2
+import EchoShellDetailInfo_pb2 as EchoShellDetailInfo__pb2
+import EffigyActivityDetailInfo_pb2 as EffigyActivityDetailInfo__pb2
+import EffigyChallengeV2DetailInfo_pb2 as EffigyChallengeV2DetailInfo__pb2
+import ExpeditionActivityDetailInfo_pb2 as ExpeditionActivityDetailInfo__pb2
+import FHPFPENBEIB_pb2 as FHPFPENBEIB__pb2
+import FindHilichurlDetailInfo_pb2 as FindHilichurlDetailInfo__pb2
+import FleurFairActivityDetailInfo_pb2 as FleurFairActivityDetailInfo__pb2
+import FlightActivityDetailInfo_pb2 as FlightActivityDetailInfo__pb2
+import FungusFighterDetailInfo_pb2 as FungusFighterDetailInfo__pb2
+import GachaActivityDetailInfo_pb2 as GachaActivityDetailInfo__pb2
+import GearActivityDetailInfo_pb2 as GearActivityDetailInfo__pb2
+import GravenInnocenceDetailInfo_pb2 as GravenInnocenceDetailInfo__pb2
+import HachiActivityDetailInfo_pb2 as HachiActivityDetailInfo__pb2
+import HideAndSeekActivityDetailInfo_pb2 as HideAndSeekActivityDetailInfo__pb2
+import InstableSprayDetailInfo_pb2 as InstableSprayDetailInfo__pb2
+import IrodoriActivityDetailInfo_pb2 as IrodoriActivityDetailInfo__pb2
+import IslandPartyDetailInfo_pb2 as IslandPartyDetailInfo__pb2
+import LanternRiteActivityDetailInfo_pb2 as LanternRiteActivityDetailInfo__pb2
+import LHPBALCGMJH_pb2 as LHPBALCGMJH__pb2
+import LuminanceStoneChallengeActivityDetailInfo_pb2 as LuminanceStoneChallengeActivityDetailInfo__pb2
+import LunaRiteDetailInfo_pb2 as LunaRiteDetailInfo__pb2
+import MichiaeMatsuriActivityDetailInfo_pb2 as MichiaeMatsuriActivityDetailInfo__pb2
+import MistTrialActivityDetailInfo_pb2 as MistTrialActivityDetailInfo__pb2
+import MoonfinTrialActivityDetailInfo_pb2 as MoonfinTrialActivityDetailInfo__pb2
+import MuqadasPotionActivityDetailInfo_pb2 as MuqadasPotionActivityDetailInfo__pb2
+import MusicGameActivityDetailInfo_pb2 as MusicGameActivityDetailInfo__pb2
+import NFHMNCKJOEI_pb2 as NFHMNCKJOEI__pb2
+import PhotoActivityDetailInfo_pb2 as PhotoActivityDetailInfo__pb2
+import PlantFlowerActivityDetailInfo_pb2 as PlantFlowerActivityDetailInfo__pb2
+import PotionActivityDetailInfo_pb2 as PotionActivityDetailInfo__pb2
+import RockBoardExploreDetailInfo_pb2 as RockBoardExploreDetailInfo__pb2
+import RogueDiaryActivityDetailInfo_pb2 as RogueDiaryActivityDetailInfo__pb2
+import RoguelikeDungeonActivityDetailInfo_pb2 as RoguelikeDungeonActivityDetailInfo__pb2
+import SalesmanActivityDetailInfo_pb2 as SalesmanActivityDetailInfo__pb2
+import SeaLampActivityDetailInfo_pb2 as SeaLampActivityDetailInfo__pb2
+import SeaLampActivityInfo_pb2 as SeaLampActivityInfo__pb2
+import SeaLampV3DetailInfo_pb2 as SeaLampV3DetailInfo__pb2
+import SpiceActivityDetailInfo_pb2 as SpiceActivityDetailInfo__pb2
+import SummerTimeDetailInfo_pb2 as SummerTimeDetailInfo__pb2
+import SummerTimeV2DetailInfo_pb2 as SummerTimeV2DetailInfo__pb2
+import SumoActivityDetailInfo_pb2 as SumoActivityDetailInfo__pb2
+import TanukiTravelActivityDetailInfo_pb2 as TanukiTravelActivityDetailInfo__pb2
+import TeamChainDetailInfo_pb2 as TeamChainDetailInfo__pb2
+import TreasureMapActivityDetailInfo_pb2 as TreasureMapActivityDetailInfo__pb2
+import TreasureSeelieActivityDetailInfo_pb2 as TreasureSeelieActivityDetailInfo__pb2
+import TrialAvatarActivityDetailInfo_pb2 as TrialAvatarActivityDetailInfo__pb2
+import UgcActivityDetailInfo_pb2 as UgcActivityDetailInfo__pb2
+import VintageActivityDetailInfo_pb2 as VintageActivityDetailInfo__pb2
+import WaterSpiritActivityDetailInfo_pb2 as WaterSpiritActivityDetailInfo__pb2
+import WindFieldDetailInfo_pb2 as WindFieldDetailInfo__pb2
+import WinterCampActivityDetailInfo_pb2 as WinterCampActivityDetailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x41\x63tivityInfo.proto\x1a\x11SamLampInfo.proto\x1a\x12\x43rucibleInfo.proto\x1a\x12SalesmanInfo.proto\x1a\x15TrialAvatarInfo.proto\x1a\x12\x44\x65liveryInfo.proto\x1a\x0f\x41sterInfo.proto\x1a\x10\x46lightInfo.proto\x1a\x15\x44ragonSpineInfo.proto\x1a\x10\x45\x66\x66igyInfo.proto\x1a\x15TreasureMapInfo.proto\x1a\x12\x42lessingInfo.proto\x1a\x11SeaLampInfo.proto\x1a\x14\x45xpeditionInfo.proto\x1a\x18\x41renaChallengeInfo.proto\x1a\x13\x46leurFairInfo.proto\x1a\x15WaterSpiritInfo.proto\x1a\x18\x43hallnelerSlabInfo.proto\x1a\x1bMistTrialActivityInfo.proto\x1a\x15HideAndSeekInfo.proto\x1a\x17\x46indHilichurlInfo.proto\x1a\x14SummerTimeInfo.proto\x1a\x17\x42uoyantCombatInfo.proto\x1a\x13\x45\x63hoShellInfo.proto\x1a\x19\x42ounceConjuringInfo.proto\x1a\x13\x42litzRushInfo.proto\x1a\x0f\x43hessInfo.proto\x1a\x0eSumoInfo.proto\x1a\x16MoonfinTrialInfo.proto\x1a\x12LunaRiteInfo.proto\x1a\x15PlantFlowerInfo.proto\x1a!MusicGameActivityDetailInfo.proto\x1a\x1aRoguelikeDungoenInfo.proto\x1a\rDigInfo.proto\x1a\x0fHachiInfo.proto\x1a\x14WinterCampInfo.proto\x1a\x10PotionInfo.proto\x1a\x1eTanukiTravelActivityInfo.proto\x1a\x1dLanternRiteActivityInfo.proto\x1a\x18MichiaeMatsuriInfo.proto\x1a\x13\x42\x61rtenderInfo.proto\x1a\rUgcInfo.proto\x1a\x15\x43rystalLinkInfo.proto\x1a\x11IrodoriInfo.proto\x1a\x0fPhotoInfo.proto\x1a\x0fSpiceInfo.proto\x1a\x0fGachaInfo.proto\x1a!LuminanceStoneChallengeInfo.proto\x1a\x14RogueDiaryInfo.proto\x1a\x16SummerTimeV2Info.proto\x1a\x15IslandPartyInfo.proto\x1a\x0eGearInfo.proto\x1a\x19GravenInnocenceInfo.proto\x1a\x17InstableSprayInfo.proto\x1a\x17MuqadasPotionInfo.proto\x1a\x18TreasureSeelieInfo.proto\x1a\x1aRockBoardExploreInfo.proto\x1a\x11VintageInfo.proto\x1a\x13WindFieldInfo.proto\x1a\x17\x46ungusFighterInfo.proto\x1a\x17\x43harAmusementInfo.proto\x1a\x19\x45\x66\x66igyChallengeInfo.proto\x1a\x15\x43oinCollectInfo.proto\x1a\x16\x42rickBreakerInfo.proto\x1a\x13\x44uelHeartInfo.proto\x1a\x13SeaLampV3Info.proto\x1a\x13TeamChainInfo.proto\x1a\x1f\x45lectroherculesBattleInfo.proto\x1a\x15GcgFestivalInfo.proto\x1a\x1a\x41\x63tivityPushTipsData.proto\x1a\x19\x41\x63tivityWatcherInfo.proto\"\xbb\x1f\n\x0c\x41\x63tivityInfo\x12<\n\x0f\x61\x63tivityCoinMap\x18\x96\x03 \x03(\x0b\x32\".ActivityInfo.ActivityCoinMapEntry\x12\x13\n\nscoreLimit\x18\xd9\x0b \x01(\r\x12\x18\n\x0ftakenRewardList\x18\x84\x05 \x03(\r\x12\x1b\n\x13Unk3300_MDBDPIBEGGH\x18\x07 \x01(\x08\x12\x1c\n\x13Unk3300_MJNPGEKLOCG\x18\xf2\x05 \x01(\x08\x12\x0f\n\x07\x65ndTime\x18\x0c \x01(\r\x12\x14\n\x0c\x61\x63tivityType\x18\n \x01(\r\x12\x1f\n\x16selectedAvatarRewardId\x18\x87\x04 \x01(\r\x12\x14\n\x0cmeetCondList\x18\x02 \x03(\r\x12\x12\n\nactivityId\x18\x0f \x01(\r\x12\x1c\n\x13Unk3300_ABJKLALKLDG\x18\x99\x04 \x01(\x08\x12\x12\n\nisFinished\x18\x03 \x01(\x08\x12\x38\n\x18\x61\x63tivityPushTipsDataList\x18\xd0\x02 \x03(\x0b\x32\x15.ActivityPushTipsData\x12-\n\x0fwatcherInfoList\x18\x0e \x03(\x0b\x32\x14.ActivityWatcherInfo\x12\x1c\n\x13Unk3300_CBCEHLJJOGI\x18\xe6\x08 \x01(\x08\x12\x12\n\nscheduleId\x18\x06 \x01(\r\x12\x16\n\x0e\x65xpireCondList\x18\t \x03(\r\x12\x14\n\x0b\x66\x64jefldhela\x18\xe5\x0f \x03(\r\x12\x1b\n\x13Unk3300_ICNJJKDHPCH\x18\x0b \x01(\x08\x12\x1a\n\x11\x66irstDayStartTime\x18\xd6\x04 \x01(\r\x12\x11\n\x08\x63urScore\x18\x8c\x03 \x01(\r\x12:\n\x0ewishGiftNumMap\x18\x9c\x08 \x03(\x0b\x32!.ActivityInfo.WishGiftNumMapEntry\x12\x1c\n\x13Unk3300_NEPKLLBJFKK\x18\xe5\x0c \x01(\x08\x12\x11\n\tbeginTime\x18\x05 \x01(\r\x12%\n\rsam_lamp_info\x18\x04 \x01(\x0b\x32\x0c.SamLampInfoH\x00\x12&\n\rcrucible_info\x18\r \x01(\x0b\x32\r.CrucibleInfoH\x00\x12&\n\rsalesman_info\x18\x01 \x01(\x0b\x32\r.SalesmanInfoH\x00\x12-\n\x11trial_avatar_info\x18\x08 \x01(\x0b\x32\x10.TrialAvatarInfoH\x00\x12&\n\rdelivery_info\x18  \x01(\x0b\x32\r.DeliveryInfoH\x00\x12!\n\naster_info\x18\x90\x0e \x01(\x0b\x32\n.AsterInfoH\x00\x12#\n\x0b\x66light_info\x18\xa6\x08 \x01(\x0b\x32\x0b.FlightInfoH\x00\x12.\n\x11\x64ragon_spine_info\x18\xfa\x02 \x01(\x0b\x32\x10.DragonSpineInfoH\x00\x12#\n\x0b\x65\x66\x66igy_info\x18\xc7\x0f \x01(\x0b\x32\x0b.EffigyInfoH\x00\x12.\n\x11treasure_map_info\x18\xa2\x04 \x01(\x0b\x32\x10.TreasureMapInfoH\x00\x12\'\n\rblessing_info\x18\xae\t \x01(\x0b\x32\r.BlessingInfoH\x00\x12&\n\rsea_lamp_info\x18\xc2\x04 \x01(\x0b\x32\x0c.SeaLampInfoH\x00\x12+\n\x0f\x65xpedition_info\x18\xa2\x07 \x01(\x0b\x32\x0f.ExpeditionInfoH\x00\x12\x34\n\x14\x61rena_challenge_info\x18\xbb\x05 \x01(\x0b\x32\x13.ArenaChallengeInfoH\x00\x12*\n\x0f\x66leur_fair_info\x18\xdc\x08 \x01(\x0b\x32\x0e.FleurFairInfoH\x00\x12.\n\x11water_spirit_info\x18\xf3\x0c \x01(\x0b\x32\x10.WaterSpiritInfoH\x00\x12\x34\n\x14\x63hallneler_slab_info\x18\xef\x08 \x01(\x0b\x32\x13.ChallnelerSlabInfoH\x00\x12;\n\x18mist_trial_activity_info\x18\xa8\n \x01(\x0b\x32\x16.MistTrialActivityInfoH\x00\x12/\n\x12hide_and_seek_info\x18\xb5\x08 \x01(\x0b\x32\x10.HideAndSeekInfoH\x00\x12\x32\n\x13\x66ind_hilichurl_info\x18\xa1\x03 \x01(\x0b\x32\x12.FindHilichurlInfoH\x00\x12,\n\x10summer_time_info\x18\xc5\x0b \x01(\x0b\x32\x0f.SummerTimeInfoH\x00\x12\x32\n\x13\x62uoyant_combat_info\x18\xfd\t \x01(\x0b\x32\x12.BuoyantCombatInfoH\x00\x12*\n\x0f\x65\x63ho_shell_info\x18\x94\t \x01(\x0b\x32\x0e.EchoShellInfoH\x00\x12\x36\n\x15\x62ounce_conjuring_info\x18\x96\x02 \x01(\x0b\x32\x14.BounceConjuringInfoH\x00\x12*\n\x0f\x62litz_rush_info\x18\xc0\x01 \x01(\x0b\x32\x0e.BlitzRushInfoH\x00\x12!\n\nchess_info\x18\x85\x0e \x01(\x0b\x32\n.ChessInfoH\x00\x12\x1f\n\tsumo_info\x18\xe3\n \x01(\x0b\x32\t.SumoInfoH\x00\x12\x30\n\x12moonfin_trial_info\x18\xe2\x08 \x01(\x0b\x32\x11.MoonfinTrialInfoH\x00\x12\'\n\x0eluna_rite_info\x18R \x01(\x0b\x32\r.LunaRiteInfoH\x00\x12.\n\x11plant_flower_info\x18\xc8\x0e \x01(\x0b\x32\x10.PlantFlowerInfoH\x00\x12\x38\n\x0fmusic_game_info\x18\xc4\t \x01(\x0b\x32\x1c.MusicGameActivityDetailInfoH\x00\x12\x38\n\x16roguelike_dungoen_info\x18\x99\x0e \x01(\x0b\x32\x15.RoguelikeDungoenInfoH\x00\x12\x1d\n\x08\x64ig_info\x18\xa8\x01 \x01(\x0b\x32\x08.DigInfoH\x00\x12!\n\nhachi_info\x18\xff\x0c \x01(\x0b\x32\n.HachiInfoH\x00\x12+\n\x10winter_camp_info\x18r \x01(\x0b\x32\x0f.WinterCampInfoH\x00\x12#\n\x0bpotion_info\x18\x90\x0c \x01(\x0b\x32\x0b.PotionInfoH\x00\x12\x41\n\x1btanuki_travel_activity_info\x18\xad\x0b \x01(\x0b\x32\x19.TanukiTravelActivityInfoH\x00\x12?\n\x1alantern_rite_activity_info\x18\xdc\n \x01(\x0b\x32\x18.LanternRiteActivityInfoH\x00\x12\x34\n\x14michiae_matsuri_info\x18\xac\x03 \x01(\x0b\x32\x13.MichiaeMatsuriInfoH\x00\x12(\n\x0e\x62\x61rtender_info\x18# \x01(\x0b\x32\x0e.BartenderInfoH\x00\x12\x1d\n\x08ugc_info\x18\xcd\x04 \x01(\x0b\x32\x08.UgcInfoH\x00\x12.\n\x11\x63rystal_link_info\x18\xdf\n \x01(\x0b\x32\x10.CrystalLinkInfoH\x00\x12%\n\x0cirodori_info\x18\xf6\x07 \x01(\x0b\x32\x0c.IrodoriInfoH\x00\x12!\n\nphoto_info\x18\xb5\x02 \x01(\x0b\x32\n.PhotoInfoH\x00\x12!\n\nspice_info\x18\xa6\x0b \x01(\x0b\x32\n.SpiceInfoH\x00\x12!\n\ngacha_info\x18\x99\t \x01(\x0b\x32\n.GachaInfoH\x00\x12G\n\x1eluminance_stone_challenge_info\x18\x8e\x01 \x01(\x0b\x32\x1c.LuminanceStoneChallengeInfoH\x00\x12,\n\x10rogue_diary_info\x18\x8d\x03 \x01(\x0b\x32\x0f.RogueDiaryInfoH\x00\x12\x30\n\x12summer_time_v2info\x18\xb7\x07 \x01(\x0b\x32\x11.SummerTimeV2InfoH\x00\x12.\n\x11island_party_info\x18\xdf\x0c \x01(\x0b\x32\x10.IslandPartyInfoH\x00\x12\x1f\n\tgear_info\x18\x89\x0e \x01(\x0b\x32\t.GearInfoH\x00\x12\x36\n\x15graven_innocence_info\x18\x95\t \x01(\x0b\x32\x14.GravenInnocenceInfoH\x00\x12\x32\n\x13instable_spray_info\x18\xb0\x07 \x01(\x0b\x32\x12.InstableSprayInfoH\x00\x12\x32\n\x13muqadas_potion_info\x18\xc6\n \x01(\x0b\x32\x12.MuqadasPotionInfoH\x00\x12\x34\n\x14treasure_seelie_info\x18\xf6\x08 \x01(\x0b\x32\x13.TreasureSeelieInfoH\x00\x12\x39\n\x17rock_board_explore_info\x18\xf9\t \x01(\x0b\x32\x15.RockBoardExploreInfoH\x00\x12%\n\x0cvintage_info\x18\xa4\n \x01(\x0b\x32\x0c.VintageInfoH\x00\x12*\n\x0fwind_field_info\x18\xed\x0f \x01(\x0b\x32\x0e.WindFieldInfoH\x00\x12\x32\n\x13\x66ungus_fighter_info\x18\x87\x0c \x01(\x0b\x32\x12.FungusFighterInfoH\x00\x12\x32\n\x13\x63har_amusement_info\x18\xf8\x03 \x01(\x0b\x32\x12.CharAmusementInfoH\x00\x12\x36\n\x15\x65\x66\x66igy_challenge_info\x18\xf8\x08 \x01(\x0b\x32\x14.EffigyChallengeInfoH\x00\x12.\n\x11\x63oin_collect_info\x18\xaf\x04 \x01(\x0b\x32\x10.CoinCollectInfoH\x00\x12\x30\n\x12\x62rick_breaker_info\x18\xfb\t \x01(\x0b\x32\x11.BrickBreakerInfoH\x00\x12*\n\x0f\x64uel_heart_info\x18\xdd\x01 \x01(\x0b\x32\x0e.DuelHeartInfoH\x00\x12*\n\x0fsea_lamp_v3info\x18\xb8\x08 \x01(\x0b\x32\x0e.SeaLampV3InfoH\x00\x12*\n\x0fteam_chain_info\x18\x90\x01 \x01(\x0b\x32\x0e.TeamChainInfoH\x00\x12\x42\n\x1b\x65lectrohercules_battle_info\x18\xac\x01 \x01(\x0b\x32\x1a.ElectroherculesBattleInfoH\x00\x12-\n\x11gcg_festival_info\x18G \x01(\x0b\x32\x10.GcgFestivalInfoH\x00\x1a\x36\n\x14\x41\x63tivityCoinMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x35\n\x13WishGiftNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x08\n\x06\x64\x65tailB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x41\x63tivityInfo.proto\x1a\x1a\x41\x63tivityPushTipsData.proto\x1a\x19\x41\x63tivityWatcherInfo.proto\x1a\x11\x41MFOFAPEHGM.proto\x1a&ArenaChallengeActivityDetailInfo.proto\x1a\x1d\x41sterActivityDetailInfo.proto\x1a!BartenderActivityDetailInfo.proto\x1a BlessingActivityDetailInfo.proto\x1a!BlitzRushActivityDetailInfo.proto\x1a\'BounceConjuringActivityDetailInfo.proto\x1a\x1c\x42rickBreakerDetailInfo.proto\x1a\x1d\x42uoyantCombatDetailInfo.proto\x1a%ChannelerSlabActivityDetailInfo.proto\x1a\x1d\x43harAmusementDetailInfo.proto\x1a\x1d\x43hessActivityDetailInfo.proto\x1a\x1b\x43oinCollectDetailInfo.proto\x1a CrucibleActivityDetailInfo.proto\x1a#CrystalLinkActivityDetailInfo.proto\x1a DeliveryActivityDetailInfo.proto\x1a\x1b\x44igActivityDetailInfo.proto\x1a#DragonSpineActivityDetailInfo.proto\x1a\x19\x44uelHeartDetailInfo.proto\x1a\x19\x45\x63hoShellDetailInfo.proto\x1a\x1e\x45\x66\x66igyActivityDetailInfo.proto\x1a!EffigyChallengeV2DetailInfo.proto\x1a\"ExpeditionActivityDetailInfo.proto\x1a\x11\x46HPFPENBEIB.proto\x1a\x1d\x46indHilichurlDetailInfo.proto\x1a!FleurFairActivityDetailInfo.proto\x1a\x1e\x46lightActivityDetailInfo.proto\x1a\x1d\x46ungusFighterDetailInfo.proto\x1a\x1dGachaActivityDetailInfo.proto\x1a\x1cGearActivityDetailInfo.proto\x1a\x1fGravenInnocenceDetailInfo.proto\x1a\x1dHachiActivityDetailInfo.proto\x1a#HideAndSeekActivityDetailInfo.proto\x1a\x1dInstableSprayDetailInfo.proto\x1a\x1fIrodoriActivityDetailInfo.proto\x1a\x1bIslandPartyDetailInfo.proto\x1a#LanternRiteActivityDetailInfo.proto\x1a\x11LHPBALCGMJH.proto\x1a/LuminanceStoneChallengeActivityDetailInfo.proto\x1a\x18LunaRiteDetailInfo.proto\x1a&MichiaeMatsuriActivityDetailInfo.proto\x1a!MistTrialActivityDetailInfo.proto\x1a$MoonfinTrialActivityDetailInfo.proto\x1a%MuqadasPotionActivityDetailInfo.proto\x1a!MusicGameActivityDetailInfo.proto\x1a\x11NFHMNCKJOEI.proto\x1a\x1dPhotoActivityDetailInfo.proto\x1a#PlantFlowerActivityDetailInfo.proto\x1a\x1ePotionActivityDetailInfo.proto\x1a RockBoardExploreDetailInfo.proto\x1a\"RogueDiaryActivityDetailInfo.proto\x1a(RoguelikeDungeonActivityDetailInfo.proto\x1a SalesmanActivityDetailInfo.proto\x1a\x1fSeaLampActivityDetailInfo.proto\x1a\x19SeaLampActivityInfo.proto\x1a\x19SeaLampV3DetailInfo.proto\x1a\x1dSpiceActivityDetailInfo.proto\x1a\x1aSummerTimeDetailInfo.proto\x1a\x1cSummerTimeV2DetailInfo.proto\x1a\x1cSumoActivityDetailInfo.proto\x1a$TanukiTravelActivityDetailInfo.proto\x1a\x19TeamChainDetailInfo.proto\x1a#TreasureMapActivityDetailInfo.proto\x1a&TreasureSeelieActivityDetailInfo.proto\x1a#TrialAvatarActivityDetailInfo.proto\x1a\x1bUgcActivityDetailInfo.proto\x1a\x1fVintageActivityDetailInfo.proto\x1a#WaterSpiritActivityDetailInfo.proto\x1a\x19WindFieldDetailInfo.proto\x1a\"WinterCampActivityDetailInfo.proto\"\xb5%\n\x0c\x41\x63tivityInfo\x12\x14\n\x0b\x41NGGLPJEBLE\x18\xb6\x03 \x01(\r\x12\x13\n\x0bschedule_id\x18\x0e \x01(\r\x12\x13\n\x0b\x46LFGIDFALEK\x18\x0f \x01(\x08\x12\x14\n\x0bLPOCNCICJHM\x18\xe5\x03 \x01(\r\x12>\n\x11\x61\x63tivity_coin_map\x18\xbf\x05 \x03(\x0b\x32\".ActivityInfo.ActivityCoinMapEntry\x12\x13\n\x0bPAGIONJOCJN\x18\x02 \x03(\r\x12\x10\n\x08\x65nd_time\x18\x04 \x01(\r\x12\x14\n\x0bGLOONPBGOHM\x18\xb3\n \x01(\x08\x12<\n\x1c\x61\x63tivity_push_tips_data_list\x18\xa3\x0e \x03(\x0b\x32\x15.ActivityPushTipsData\x12\x13\n\x0bLGCJBENHFOB\x18\r \x03(\r\x12\x13\n\x0bis_finished\x18\x06 \x01(\x08\x12\x14\n\x0b\x45OPFKDBBOII\x18\xfe\x06 \x03(\r\x12/\n\x11watcher_info_list\x18\x08 \x03(\x0b\x32\x14.ActivityWatcherInfo\x12\x13\n\x0bKMOFHMKLGHD\x18\x05 \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x07 \x01(\r\x12\x13\n\x0b\x43JDFLBKBNPL\x18\n \x01(\x08\x12=\n\x11wish_gift_num_map\x18\xb3\x0b \x03(\x0b\x32!.ActivityInfo.WishGiftNumMapEntry\x12\x14\n\x0bOEBHLKFBCOG\x18\xb8\x05 \x01(\x08\x12\x14\n\x0bLGKOJCGDGBH\x18\xc8\r \x01(\x08\x12\x12\n\nbegin_time\x18\t \x01(\r\x12\x14\n\x0b\x44\x44\x42JAKPEPLC\x18\x8a\x06 \x03(\r\x12\x1d\n\x14\x66irst_day_start_time\x18\x8d\r \x01(\r\x12\x12\n\tcur_score\x18\xed\x07 \x01(\r\x12\x14\n\x0b\x45\x46JOLIOFLBG\x18\x82\x04 \x01(\x08\x12\x33\n\rsam_lamp_info\x18\x01 \x01(\x0b\x32\x1a.SeaLampActivityDetailInfoH\x00\x12\x34\n\rcrucible_info\x18\x0b \x01(\x0b\x32\x1b.CrucibleActivityDetailInfoH\x00\x12\x34\n\rsalesman_info\x18\x03 \x01(\x0b\x32\x1b.SalesmanActivityDetailInfoH\x00\x12;\n\x11trial_avatar_info\x18\x0c \x01(\x0b\x32\x1e.TrialAvatarActivityDetailInfoH\x00\x12\x35\n\rdelivery_info\x18\xb4\x0f \x01(\x0b\x32\x1b.DeliveryActivityDetailInfoH\x00\x12/\n\naster_info\x18\xb2\x02 \x01(\x0b\x32\x18.AsterActivityDetailInfoH\x00\x12\x31\n\x0b\x66light_info\x18\xd0\x0e \x01(\x0b\x32\x19.FlightActivityDetailInfoH\x00\x12<\n\x11\x64ragon_spine_info\x18\xd1\x04 \x01(\x0b\x32\x1e.DragonSpineActivityDetailInfoH\x00\x12\x31\n\x0b\x65\x66\x66igy_info\x18\xfc\x0f \x01(\x0b\x32\x19.EffigyActivityDetailInfoH\x00\x12<\n\x11treasure_map_info\x18\xec\x06 \x01(\x0b\x32\x1e.TreasureMapActivityDetailInfoH\x00\x12\x35\n\rblessing_info\x18\xe6\x05 \x01(\x0b\x32\x1b.BlessingActivityDetailInfoH\x00\x12.\n\rsea_lamp_info\x18\x95\r \x01(\x0b\x32\x14.SeaLampActivityInfoH\x00\x12\x39\n\x0f\x65xpedition_info\x18\xf7\n \x01(\x0b\x32\x1d.ExpeditionActivityDetailInfoH\x00\x12\x42\n\x14\x61rena_challenge_info\x18\xd3\t \x01(\x0b\x32!.ArenaChallengeActivityDetailInfoH\x00\x12\x38\n\x0f\x66leur_fair_info\x18\xc5\x04 \x01(\x0b\x32\x1c.FleurFairActivityDetailInfoH\x00\x12<\n\x11water_spirit_info\x18\xe7\x08 \x01(\x0b\x32\x1e.WaterSpiritActivityDetailInfoH\x00\x12\x41\n\x14\x63hallneler_slab_info\x18\xd7\x04 \x01(\x0b\x32 .ChannelerSlabActivityDetailInfoH\x00\x12\x41\n\x18mist_trial_activity_info\x18\x85\x05 \x01(\x0b\x32\x1c.MistTrialActivityDetailInfoH\x00\x12=\n\x12hide_and_seek_info\x18\x9a\x06 \x01(\x0b\x32\x1e.HideAndSeekActivityDetailInfoH\x00\x12\x38\n\x13\x66ind_hilichurl_info\x18\xc0\n \x01(\x0b\x32\x18.FindHilichurlDetailInfoH\x00\x12\x32\n\x10summer_time_info\x18\xa2\x08 \x01(\x0b\x32\x15.SummerTimeDetailInfoH\x00\x12\x38\n\x13\x62uoyant_combat_info\x18\x83\x06 \x01(\x0b\x32\x18.BuoyantCombatDetailInfoH\x00\x12\x30\n\x0f\x65\x63ho_shell_info\x18\xe0\x0c \x01(\x0b\x32\x14.EchoShellDetailInfoH\x00\x12\x44\n\x15\x62ounce_conjuring_info\x18\x92\x0c \x01(\x0b\x32\".BounceConjuringActivityDetailInfoH\x00\x12\x38\n\x0f\x62litz_rush_info\x18\xbd\n \x01(\x0b\x32\x1c.BlitzRushActivityDetailInfoH\x00\x12/\n\nchess_info\x18\x98\x05 \x01(\x0b\x32\x18.ChessActivityDetailInfoH\x00\x12-\n\tsumo_info\x18\x82\r \x01(\x0b\x32\x17.SumoActivityDetailInfoH\x00\x12>\n\x12moonfin_trial_info\x18\xcd\x02 \x01(\x0b\x32\x1f.MoonfinTrialActivityDetailInfoH\x00\x12-\n\x0eluna_rite_info\x18w \x01(\x0b\x32\x13.LunaRiteDetailInfoH\x00\x12<\n\x11plant_flower_info\x18\xdd\x02 \x01(\x0b\x32\x1e.PlantFlowerActivityDetailInfoH\x00\x12\x38\n\x0fmusic_game_info\x18\xae\x0f \x01(\x0b\x32\x1c.MusicGameActivityDetailInfoH\x00\x12\x46\n\x16roguelike_dungoen_info\x18\xf2\x0f \x01(\x0b\x32#.RoguelikeDungeonActivityDetailInfoH\x00\x12+\n\x08\x64ig_info\x18\x82\x0b \x01(\x0b\x32\x16.DigActivityDetailInfoH\x00\x12/\n\nhachi_info\x18\xc3\x0c \x01(\x0b\x32\x18.HachiActivityDetailInfoH\x00\x12:\n\x10winter_camp_info\x18\xc9\t \x01(\x0b\x32\x1d.WinterCampActivityDetailInfoH\x00\x12\x31\n\x0bpotion_info\x18\xa7\x0b \x01(\x0b\x32\x19.PotionActivityDetailInfoH\x00\x12G\n\x1btanuki_travel_activity_info\x18\xaf\n \x01(\x0b\x32\x1f.TanukiTravelActivityDetailInfoH\x00\x12\x45\n\x1alantern_rite_activity_info\x18\xfe\x0c \x01(\x0b\x32\x1e.LanternRiteActivityDetailInfoH\x00\x12\x42\n\x14michiae_matsuri_info\x18\xab\x0b \x01(\x0b\x32!.MichiaeMatsuriActivityDetailInfoH\x00\x12\x37\n\x0e\x62\x61rtender_info\x18\xf5\x0f \x01(\x0b\x32\x1c.BartenderActivityDetailInfoH\x00\x12+\n\x08ugc_info\x18\xb7\t \x01(\x0b\x32\x16.UgcActivityDetailInfoH\x00\x12<\n\x11\x63rystal_link_info\x18\x8b\t \x01(\x0b\x32\x1e.CrystalLinkActivityDetailInfoH\x00\x12\x33\n\x0cirodori_info\x18\xc7\x06 \x01(\x0b\x32\x1a.IrodoriActivityDetailInfoH\x00\x12/\n\nphoto_info\x18\xdc\x0b \x01(\x0b\x32\x18.PhotoActivityDetailInfoH\x00\x12/\n\nspice_info\x18\xaf\x0c \x01(\x0b\x32\x18.SpiceActivityDetailInfoH\x00\x12/\n\ngacha_info\x18\xc3\x04 \x01(\x0b\x32\x18.GachaActivityDetailInfoH\x00\x12U\n\x1eluminance_stone_challenge_info\x18\xf3\x0b \x01(\x0b\x32*.LuminanceStoneChallengeActivityDetailInfoH\x00\x12:\n\x10rogue_diary_info\x18\x9c\t \x01(\x0b\x32\x1d.RogueDiaryActivityDetailInfoH\x00\x12\x37\n\x13summer_time_v2_info\x18\xe4\r \x01(\x0b\x32\x17.SummerTimeV2DetailInfoH\x00\x12\x34\n\x11island_party_info\x18\xb9\x01 \x01(\x0b\x32\x16.IslandPartyDetailInfoH\x00\x12-\n\tgear_info\x18\x81\x0c \x01(\x0b\x32\x17.GearActivityDetailInfoH\x00\x12<\n\x15graven_innocence_info\x18\xe3\x0f \x01(\x0b\x32\x1a.GravenInnocenceDetailInfoH\x00\x12\x38\n\x13instable_spray_info\x18\xd4\x0e \x01(\x0b\x32\x18.InstableSprayDetailInfoH\x00\x12@\n\x13muqadas_potion_info\x18\xfa\n \x01(\x0b\x32 .MuqadasPotionActivityDetailInfoH\x00\x12\x42\n\x14treasure_seelie_info\x18\xa3\x0b \x01(\x0b\x32!.TreasureSeelieActivityDetailInfoH\x00\x12?\n\x17rock_board_explore_info\x18\x9a\x01 \x01(\x0b\x32\x1b.RockBoardExploreDetailInfoH\x00\x12\x33\n\x0cvintage_info\x18\xec\x01 \x01(\x0b\x32\x1a.VintageActivityDetailInfoH\x00\x12\x30\n\x0fwind_field_info\x18\xec\x04 \x01(\x0b\x32\x14.WindFieldDetailInfoH\x00\x12\x38\n\x13\x66ungus_fighter_info\x18\xc5\x0b \x01(\x0b\x32\x18.FungusFighterDetailInfoH\x00\x12\x38\n\x13\x63har_amusement_info\x18\xcc\n \x01(\x0b\x32\x18.CharAmusementDetailInfoH\x00\x12>\n\x15\x65\x66\x66igy_challenge_info\x18\x85\x02 \x01(\x0b\x32\x1c.EffigyChallengeV2DetailInfoH\x00\x12\x34\n\x11\x63oin_collect_info\x18\x83\x0b \x01(\x0b\x32\x16.CoinCollectDetailInfoH\x00\x12\x36\n\x12\x62rick_breaker_info\x18\xce\x06 \x01(\x0b\x32\x17.BrickBreakerDetailInfoH\x00\x12/\n\x0f\x64uel_heart_info\x18\x7f \x01(\x0b\x32\x14.DuelHeartDetailInfoH\x00\x12\x31\n\x10sea_lamp_v3_info\x18\xe2\x05 \x01(\x0b\x32\x14.SeaLampV3DetailInfoH\x00\x12\x30\n\x0fteam_chain_info\x18\xae\x05 \x01(\x0b\x32\x14.TeamChainDetailInfoH\x00\x12\x34\n\x1b\x65lectrohercules_battle_info\x18\x9c\x04 \x01(\x0b\x32\x0c.FHPFPENBEIBH\x00\x12*\n\x11gcg_festival_info\x18\xed\x0c \x01(\x0b\x32\x0c.LHPBALCGMJHH\x00\x12*\n\x12\x66leur_fair_v2_info\x18\x61 \x01(\x0b\x32\x0c.NFHMNCKJOEIH\x00\x12/\n\x16\x66ungus_fighter_v2_info\x18\xa5\x04 \x01(\x0b\x32\x0c.AMFOFAPEHGMH\x00\x1a\x36\n\x14\x41\x63tivityCoinMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x35\n\x13WishGiftNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x08\n\x06\x64\x65tailB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -91,15 +93,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityInfo_pb2', _globals
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _ACTIVITYINFO_ACTIVITYCOINMAPENTRY._options = None
   _ACTIVITYINFO_ACTIVITYCOINMAPENTRY._serialized_options = b'8\001'
   _ACTIVITYINFO_WISHGIFTNUMMAPENTRY._options = None
   _ACTIVITYINFO_WISHGIFTNUMMAPENTRY._serialized_options = b'8\001'
-  _globals['_ACTIVITYINFO']._serialized_start=1616
-  _globals['_ACTIVITYINFO']._serialized_end=5643
-  _globals['_ACTIVITYINFO_ACTIVITYCOINMAPENTRY']._serialized_start=5524
-  _globals['_ACTIVITYINFO_ACTIVITYCOINMAPENTRY']._serialized_end=5578
-  _globals['_ACTIVITYINFO_WISHGIFTNUMMAPENTRY']._serialized_start=5580
-  _globals['_ACTIVITYINFO_WISHGIFTNUMMAPENTRY']._serialized_end=5633
+  _globals['_ACTIVITYINFO']._serialized_start=2365
+  _globals['_ACTIVITYINFO']._serialized_end=7154
+  _globals['_ACTIVITYINFO_ACTIVITYCOINMAPENTRY']._serialized_start=7035
+  _globals['_ACTIVITYINFO_ACTIVITYCOINMAPENTRY']._serialized_end=7089
+  _globals['_ACTIVITYINFO_WISHGIFTNUMMAPENTRY']._serialized_start=7091
+  _globals['_ACTIVITYINFO_WISHGIFTNUMMAPENTRY']._serialized_end=7144
 # @@protoc_insertion_point(module_scope)

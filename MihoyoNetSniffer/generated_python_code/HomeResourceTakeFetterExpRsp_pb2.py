@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import HomeResource_pb2 as HomeResource__pb2
+import FHCMHOPJELB_pb2 as FHCMHOPJELB__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"HomeResourceTakeFetterExpRsp.proto\x1a\x12HomeResource.proto\"Q\n\x1cHomeResourceTakeFetterExpRsp\x12 \n\tfetterExp\x18\x0c \x01(\x0b\x32\r.HomeResource\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"HomeResourceTakeFetterExpRsp.proto\x1a\x11\x46HCMHOPJELB.proto\"R\n\x1cHomeResourceTakeFetterExpRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12!\n\x0b\x44PCGMOMFNCD\x18\t \x01(\x0b\x32\x0c.FHCMHOPJELBB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeResourceTakeFetterExpRs
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_HOMERESOURCETAKEFETTEREXPRSP']._serialized_start=58
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_HOMERESOURCETAKEFETTEREXPRSP']._serialized_start=57
   _globals['_HOMERESOURCETAKEFETTEREXPRSP']._serialized_end=139
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43lientCollectorData.proto\"P\n\x13\x43lientCollectorData\x12\x11\n\tmaxPoints\x18\x08 \x01(\r\x12\x12\n\ncurrPoints\x18\x02 \x01(\r\x12\x12\n\nmaterialId\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43lientCollectorData.proto\"T\n\x13\x43lientCollectorData\x12\x13\n\x0bMOHICPCPAFK\x18\t \x01(\r\x12\x13\n\x0bmaterial_id\x18\x05 \x01(\r\x12\x13\n\x0bGEDKAGMKGAA\x18\x0f \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientCollectorData_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CLIENTCOLLECTORDATA']._serialized_start=29
-  _globals['_CLIENTCOLLECTORDATA']._serialized_end=109
+  _globals['_CLIENTCOLLECTORDATA']._serialized_end=113
 # @@protoc_insertion_point(module_scope)

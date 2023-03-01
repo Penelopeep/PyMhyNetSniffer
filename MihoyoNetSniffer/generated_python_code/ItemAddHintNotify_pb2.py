@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Vector_pb2 as Vector__pb2
 import ItemHint_pb2 as ItemHint__pb2
+import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ItemAddHintNotify.proto\x1a\x0cVector.proto\x1a\x0eItemHint.proto\"\xf3\x01\n\x11ItemAddHintNotify\x12\x0f\n\x07questId\x18\x07 \x01(\r\x12.\n\x1boverflowTransformedItemList\x18\x01 \x03(\x0b\x32\t.ItemHint\x12\x1b\n\x13Unk3300_NIJLGEHNBNC\x18\x0e \x01(\x08\x12\x1b\n\x13Unk3300_FLIKEBJINCL\x18\x0c \x01(\x08\x12\x0e\n\x06reason\x18\x03 \x01(\r\x12\x19\n\x08position\x18\t \x01(\x0b\x32\x07.Vector\x12\x1b\n\x08itemList\x18\x08 \x03(\x0b\x32\t.ItemHint\x12\x1b\n\x13Unk3300_KIOMJNHFMDE\x18\x0b \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ItemAddHintNotify.proto\x1a\x0eItemHint.proto\x1a\x0cVector.proto\"\xe0\x01\n\x11ItemAddHintNotify\x12\x1c\n\titem_list\x18\x0b \x03(\x0b\x32\t.ItemHint\x12\x10\n\x08quest_id\x18\x05 \x01(\r\x12\x13\n\x0bGALFDOGLCNI\x18\x04 \x01(\x08\x12\x13\n\x0bIIFOCJEDKDG\x18\x08 \x01(\x08\x12\x13\n\x0bKHGDOCNILIJ\x18\x02 \x01(\x08\x12\x19\n\x08position\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x0e\n\x06reason\x18\x03 \x01(\r\x12\x31\n\x1eoverflow_transformed_item_list\x18\x0c \x03(\x0b\x32\t.ItemHintB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ItemAddHintNotify_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ITEMADDHINTNOTIFY']._serialized_start=58
-  _globals['_ITEMADDHINTNOTIFY']._serialized_end=301
+  _globals['_ITEMADDHINTNOTIFY']._serialized_end=282
 # @@protoc_insertion_point(module_scope)

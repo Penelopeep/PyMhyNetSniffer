@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42reakoutSyncPing.proto\"F\n\x10\x42reakoutSyncPing\x12\x18\n\x10\x63lient_game_time\x18\x08 \x01(\x04\x12\x18\n\x10server_game_time\x18\x05 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42reakoutSyncPing.proto\"F\n\x10\x42reakoutSyncPing\x12\x18\n\x10\x63lient_game_time\x18\x08 \x01(\x04\x12\x18\n\x10server_game_time\x18\t \x01(\x04\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BreakoutSyncPing_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BreakoutSyncPing_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BREAKOUTSYNCPING._serialized_start=26
-  _BREAKOUTSYNCPING._serialized_end=96
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_BREAKOUTSYNCPING']._serialized_start=26
+  _globals['_BREAKOUTSYNCPING']._serialized_end=96
 # @@protoc_insertion_point(module_scope)

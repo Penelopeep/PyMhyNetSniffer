@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ContentAuditInfo_pb2 as ContentAuditInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerSignatureAuditDataNotify.proto\x1a\x16\x43ontentAuditInfo.proto\"A\n\x1ePlayerSignatureAuditDataNotify\x12\x1f\n\x04info\x18\x04 \x01(\x0b\x32\x11.ContentAuditInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerSignatureAuditDataNotify.proto\x1a\x16\x43ontentAuditInfo.proto\"A\n\x1ePlayerSignatureAuditDataNotify\x12\x1f\n\x04info\x18\x0e \x01(\x0b\x32\x11.ContentAuditInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerSignatureAuditDataNot
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLAYERSIGNATUREAUDITDATANOTIFY']._serialized_start=64
   _globals['_PLAYERSIGNATUREAUDITDATANOTIFY']._serialized_end=129
 # @@protoc_insertion_point(module_scope)

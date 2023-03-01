@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42lossomChestInfo.proto\"\x91\x01\n\x10\x42lossomChestInfo\x12\r\n\x05resin\x18\x01 \x01(\r\x12\x16\n\x0equalifyUidList\x18\x02 \x03(\r\x12\x15\n\rremainUidList\x18\x03 \x03(\r\x12\x10\n\x08\x64\x65\x61\x64Time\x18\x04 \x01(\r\x12\x1a\n\x12\x62lossomRefreshType\x18\x05 \x01(\r\x12\x11\n\trefreshId\x18\x06 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42lossomChestInfo.proto\"\x99\x01\n\x10\x42lossomChestInfo\x12\r\n\x05resin\x18\x01 \x01(\r\x12\x18\n\x10qualify_uid_list\x18\x02 \x03(\r\x12\x17\n\x0fremain_uid_list\x18\x03 \x03(\r\x12\x11\n\tdead_time\x18\x04 \x01(\r\x12\x1c\n\x14\x62lossom_refresh_type\x18\x05 \x01(\r\x12\x12\n\nrefresh_id\x18\x06 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlossomChestInfo_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BLOSSOMCHESTINFO']._serialized_start=27
-  _globals['_BLOSSOMCHESTINFO']._serialized_end=172
+  _globals['_BLOSSOMCHESTINFO']._serialized_end=180
 # @@protoc_insertion_point(module_scope)

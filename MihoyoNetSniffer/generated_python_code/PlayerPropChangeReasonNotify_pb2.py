@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PropChangeReason_pb2 as PropChangeReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"PlayerPropChangeReasonNotify.proto\x1a\x16PropChangeReason.proto\"w\n\x1cPlayerPropChangeReasonNotify\x12\x10\n\x08propType\x18\x06 \x01(\r\x12\x10\n\x08oldValue\x18\x0c \x01(\x02\x12\x10\n\x08\x63urValue\x18\t \x01(\x02\x12!\n\x06reason\x18\x01 \x01(\x0e\x32\x11.PropChangeReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"PlayerPropChangeReasonNotify.proto\x1a\x16PropChangeReason.proto\"z\n\x1cPlayerPropChangeReasonNotify\x12\x11\n\tcur_value\x18\x0f \x01(\x02\x12\x11\n\tprop_type\x18\x05 \x01(\r\x12\x11\n\told_value\x18\r \x01(\x02\x12!\n\x06reason\x18\x04 \x01(\x0e\x32\x11.PropChangeReasonB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerPropChangeReasonNotif
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLAYERPROPCHANGEREASONNOTIFY']._serialized_start=62
-  _globals['_PLAYERPROPCHANGEREASONNOTIFY']._serialized_end=181
+  _globals['_PLAYERPROPCHANGEREASONNOTIFY']._serialized_end=184
 # @@protoc_insertion_point(module_scope)

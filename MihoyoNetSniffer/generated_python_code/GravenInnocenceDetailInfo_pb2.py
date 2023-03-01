@@ -11,19 +11,21 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GravenInnocenceCampInfo_pb2 as GravenInnocenceCampInfo__pb2
-import GravenInnocenceCarveInfo_pb2 as GravenInnocenceCarveInfo__pb2
+import EJDDAFOGCEF_pb2 as EJDDAFOGCEF__pb2
+import FIDBMENLPEP_pb2 as FIDBMENLPEP__pb2
 import GravenInnocencePhotoInfo_pb2 as GravenInnocencePhotoInfo__pb2
-import GravenInnocenceRaceInfo_pb2 as GravenInnocenceRaceInfo__pb2
+import HKCAHHHHPGL_pb2 as HKCAHHHHPGL__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGravenInnocenceDetailInfo.proto\x1a\x1dGravenInnocenceCampInfo.proto\x1a\x1eGravenInnocenceCarveInfo.proto\x1a\x1eGravenInnocencePhotoInfo.proto\x1a\x1dGravenInnocenceRaceInfo.proto\"\xee\x01\n\x19GravenInnocenceDetailInfo\x12\x19\n\x11is_content_closed\x18\x08 \x01(\x08\x12+\n\trace_info\x18\x02 \x01(\x0b\x32\x18.GravenInnocenceRaceInfo\x12+\n\tcamp_info\x18\x03 \x01(\x0b\x32\x18.GravenInnocenceCampInfo\x12-\n\ncarve_info\x18\r \x01(\x0b\x32\x19.GravenInnocenceCarveInfo\x12-\n\nphoto_info\x18\n \x01(\x0b\x32\x19.GravenInnocencePhotoInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGravenInnocenceDetailInfo.proto\x1a\x11\x45JDDAFOGCEF.proto\x1a\x11\x46IDBMENLPEP.proto\x1a\x1eGravenInnocencePhotoInfo.proto\x1a\x11HKCAHHHHPGL.proto\"\xce\x01\n\x19GravenInnocenceDetailInfo\x12!\n\x0bOMIGMFKNCIK\x18\x0b \x01(\x0b\x32\x0c.EJDDAFOGCEF\x12!\n\x0b\x43IGEOIIBPHF\x18\x03 \x01(\x0b\x32\x0c.FIDBMENLPEP\x12!\n\x0bNLHOPBFKEKD\x18\x0c \x01(\x0b\x32\x0c.HKCAHHHHPGL\x12-\n\nphoto_info\x18\x05 \x01(\x0b\x32\x19.GravenInnocencePhotoInfo\x12\x19\n\x11is_content_closed\x18\x08 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GravenInnocenceDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GravenInnocenceDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GRAVENINNOCENCEDETAILINFO._serialized_start=162
-  _GRAVENINNOCENCEDETAILINFO._serialized_end=400
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GRAVENINNOCENCEDETAILINFO']._serialized_start=125
+  _globals['_GRAVENINNOCENCEDETAILINFO']._serialized_end=331
 # @@protoc_insertion_point(module_scope)

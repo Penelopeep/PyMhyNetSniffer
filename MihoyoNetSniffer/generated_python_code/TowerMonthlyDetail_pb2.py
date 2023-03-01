@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import TowerMonthlyBrief_pb2 as TowerMonthlyBrief__pb2
-import TowerMonthlyCombatRecord_pb2 as TowerMonthlyCombatRecord__pb2
+import DKDAOPDHNED_pb2 as DKDAOPDHNED__pb2
+import GKPCNMJKNBG_pb2 as GKPCNMJKNBG__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TowerMonthlyDetail.proto\x1a\x17TowerMonthlyBrief.proto\x1a\x1eTowerMonthlyCombatRecord.proto\"v\n\x12TowerMonthlyDetail\x12(\n\x0cmonthlyBrief\x18\x05 \x01(\x0b\x32\x12.TowerMonthlyBrief\x12\x36\n\x13monthlyCombatRecord\x18\x01 \x01(\x0b\x32\x19.TowerMonthlyCombatRecordB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TowerMonthlyDetail.proto\x1a\x11\x44KDAOPDHNED.proto\x1a\x11GKPCNMJKNBG.proto\"Z\n\x12TowerMonthlyDetail\x12!\n\x0bGPCJOCOKPCL\x18\x03 \x01(\x0b\x32\x0c.DKDAOPDHNED\x12!\n\x0bPLABCAJDHND\x18\x02 \x01(\x0b\x32\x0c.GKPCNMJKNBGB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerMonthlyDetail_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_TOWERMONTHLYDETAIL']._serialized_start=85
-  _globals['_TOWERMONTHLYDETAIL']._serialized_end=203
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_TOWERMONTHLYDETAIL']._serialized_start=66
+  _globals['_TOWERMONTHLYDETAIL']._serialized_end=156
 # @@protoc_insertion_point(module_scope)

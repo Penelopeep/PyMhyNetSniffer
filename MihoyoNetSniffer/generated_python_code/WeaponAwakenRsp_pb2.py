@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15WeaponAwakenRsp.proto\"\xe7\x02\n\x0fWeaponAwakenRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x1f\n\x17targetWeaponAwakenLevel\x18\x03 \x01(\r\x12\x18\n\x10targetWeaponGuid\x18\x02 \x01(\x04\x12\x12\n\navatarGuid\x18\x05 \x01(\x04\x12@\n\x10oldAffixLevelMap\x18\x06 \x03(\x0b\x32&.WeaponAwakenRsp.OldAffixLevelMapEntry\x12@\n\x10\x63urAffixLevelMap\x18\x0c \x03(\x0b\x32&.WeaponAwakenRsp.CurAffixLevelMapEntry\x1a\x37\n\x15OldAffixLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x37\n\x15\x43urAffixLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15WeaponAwakenRsp.proto\"\xcf\x02\n\x0fWeaponAwakenRsp\x12\x36\n\x0b\x41\x45ICCHNADDH\x18\x04 \x03(\x0b\x32!.WeaponAwakenRsp.AEICCHNADDHEntry\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x1a\n\x12target_weapon_guid\x18\x0f \x01(\x04\x12\x36\n\x0bHKHDCHGMGIJ\x18\r \x03(\x0b\x32!.WeaponAwakenRsp.HKHDCHGMGIJEntry\x12\x13\n\x0b\x61vatar_guid\x18\x06 \x01(\x04\x12\"\n\x1atarget_weapon_awaken_level\x18\x0e \x01(\r\x1a\x32\n\x10\x41\x45ICCHNADDHEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x32\n\x10HKHDCHGMGIJEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,15 +21,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WeaponAwakenRsp_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _WEAPONAWAKENRSP_OLDAFFIXLEVELMAPENTRY._options = None
-  _WEAPONAWAKENRSP_OLDAFFIXLEVELMAPENTRY._serialized_options = b'8\001'
-  _WEAPONAWAKENRSP_CURAFFIXLEVELMAPENTRY._options = None
-  _WEAPONAWAKENRSP_CURAFFIXLEVELMAPENTRY._serialized_options = b'8\001'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _WEAPONAWAKENRSP_AEICCHNADDHENTRY._options = None
+  _WEAPONAWAKENRSP_AEICCHNADDHENTRY._serialized_options = b'8\001'
+  _WEAPONAWAKENRSP_HKHDCHGMGIJENTRY._options = None
+  _WEAPONAWAKENRSP_HKHDCHGMGIJENTRY._serialized_options = b'8\001'
   _globals['_WEAPONAWAKENRSP']._serialized_start=26
-  _globals['_WEAPONAWAKENRSP']._serialized_end=385
-  _globals['_WEAPONAWAKENRSP_OLDAFFIXLEVELMAPENTRY']._serialized_start=273
-  _globals['_WEAPONAWAKENRSP_OLDAFFIXLEVELMAPENTRY']._serialized_end=328
-  _globals['_WEAPONAWAKENRSP_CURAFFIXLEVELMAPENTRY']._serialized_start=330
-  _globals['_WEAPONAWAKENRSP_CURAFFIXLEVELMAPENTRY']._serialized_end=385
+  _globals['_WEAPONAWAKENRSP']._serialized_end=361
+  _globals['_WEAPONAWAKENRSP_AEICCHNADDHENTRY']._serialized_start=259
+  _globals['_WEAPONAWAKENRSP_AEICCHNADDHENTRY']._serialized_end=309
+  _globals['_WEAPONAWAKENRSP_HKHDCHGMGIJENTRY']._serialized_start=311
+  _globals['_WEAPONAWAKENRSP_HKHDCHGMGIJENTRY']._serialized_end=361
 # @@protoc_insertion_point(module_scope)

@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import DetectorData_pb2 as DetectorData__pb2
+import OneoffGatherPointDetectorData_pb2 as OneoffGatherPointDetectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)OneoffGatherPointDetectorDataNotify.proto\x1a\x12\x44\x65tectorData.proto\"_\n#OneoffGatherPointDetectorDataNotify\x12\x38\n!oneoffGatherPointDetectorDataList\x18\n \x03(\x0b\x32\r.DetectorDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)OneoffGatherPointDetectorDataNotify.proto\x1a#OneoffGatherPointDetectorData.proto\"u\n#OneoffGatherPointDetectorDataNotify\x12N\n&oneoff_gather_point_detector_data_list\x18\x01 \x03(\x0b\x32\x1e.OneoffGatherPointDetectorDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OneoffGatherPointDetectorDa
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_ONEOFFGATHERPOINTDETECTORDATANOTIFY']._serialized_start=65
-  _globals['_ONEOFFGATHERPOINTDETECTORDATANOTIFY']._serialized_end=160
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ONEOFFGATHERPOINTDETECTORDATANOTIFY']._serialized_start=82
+  _globals['_ONEOFFGATHERPOINTDETECTORDATANOTIFY']._serialized_end=199
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ScenePlayOwnerStartInviteReq.proto\"C\n\x1cScenePlayOwnerStartInviteReq\x12\x13\n\x0bisSkipMatch\x18\x0b \x01(\x08\x12\x0e\n\x06playId\x18\x07 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ScenePlayOwnerStartInviteReq.proto\"F\n\x1cScenePlayOwnerStartInviteReq\x12\x0f\n\x07play_id\x18\x07 \x01(\r\x12\x15\n\ris_skip_match\x18\n \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayOwnerStartInviteRe
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SCENEPLAYOWNERSTARTINVITEREQ']._serialized_start=38
-  _globals['_SCENEPLAYOWNERSTARTINVITEREQ']._serialized_end=105
+  _globals['_SCENEPLAYOWNERSTARTINVITEREQ']._serialized_end=108
 # @@protoc_insertion_point(module_scope)

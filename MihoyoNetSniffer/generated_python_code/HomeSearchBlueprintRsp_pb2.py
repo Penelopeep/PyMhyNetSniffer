@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeBlueprintSearchInfo_pb2 as HomeBlueprintSearchInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeSearchBlueprintRsp.proto\x1a\x1dHomeBlueprintSearchInfo.proto\"W\n\x16HomeSearchBlueprintRsp\x12,\n\nsearchInfo\x18\t \x01(\x0b\x32\x18.HomeBlueprintSearchInfo\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeSearchBlueprintRsp.proto\x1a\x1dHomeBlueprintSearchInfo.proto\"X\n\x16HomeSearchBlueprintRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12-\n\x0bsearch_info\x18\r \x01(\x0b\x32\x18.HomeBlueprintSearchInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeSearchBlueprintRsp_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOMESEARCHBLUEPRINTRSP']._serialized_start=63
-  _globals['_HOMESEARCHBLUEPRINTRSP']._serialized_end=150
+  _globals['_HOMESEARCHBLUEPRINTRSP']._serialized_end=151
 # @@protoc_insertion_point(module_scope)

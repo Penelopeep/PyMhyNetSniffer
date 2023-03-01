@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ActivityAcceptGiftResultInfo_pb2 as ActivityAcceptGiftResultInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41\x63tivityAcceptGiveGiftRsp.proto\x1a\"ActivityAcceptGiftResultInfo.proto\"}\n\x19\x41\x63tivityAcceptGiveGiftRsp\x12\x12\n\nscheduleId\x18\x04 \x01(\r\x12;\n\x14\x61\x63\x63\x65ptGiftResultInfo\x18\t \x01(\x0b\x32\x1d.ActivityAcceptGiftResultInfo\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41\x63tivityAcceptGiveGiftRsp.proto\x1a\"ActivityAcceptGiftResultInfo.proto\"\x81\x01\n\x19\x41\x63tivityAcceptGiveGiftRsp\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x13\n\x0bschedule_id\x18\n \x01(\r\x12>\n\x17\x61\x63\x63\x65pt_gift_result_info\x18\r \x01(\x0b\x32\x1d.ActivityAcceptGiftResultInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityAcceptGiveGiftRsp_p
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_ACTIVITYACCEPTGIVEGIFTRSP']._serialized_start=71
-  _globals['_ACTIVITYACCEPTGIVEGIFTRSP']._serialized_end=196
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ACTIVITYACCEPTGIVEGIFTRSP']._serialized_start=72
+  _globals['_ACTIVITYACCEPTGIVEGIFTRSP']._serialized_end=201
 # @@protoc_insertion_point(module_scope)

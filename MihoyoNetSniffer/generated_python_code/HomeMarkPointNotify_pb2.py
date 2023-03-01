@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeMarkPointSceneData_pb2 as HomeMarkPointSceneData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeMarkPointNotify.proto\x1a\x1cHomeMarkPointSceneData.proto\"I\n\x13HomeMarkPointNotify\x12\x32\n\x11markPointDataList\x18\x0b \x03(\x0b\x32\x17.HomeMarkPointSceneDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeMarkPointNotify.proto\x1a\x1cHomeMarkPointSceneData.proto\"L\n\x13HomeMarkPointNotify\x12\x35\n\x14mark_point_data_list\x18\x06 \x03(\x0b\x32\x17.HomeMarkPointSceneDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeMarkPointNotify_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOMEMARKPOINTNOTIFY']._serialized_start=59
-  _globals['_HOMEMARKPOINTNOTIFY']._serialized_end=132
+  _globals['_HOMEMARKPOINTNOTIFY']._serialized_end=135
 # @@protoc_insertion_point(module_scope)

@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import EnterCustomDungeonType_pb2 as EnterCustomDungeonType__pb2
 import CustomDungeon_pb2 as CustomDungeon__pb2
+import EnterCustomDungeonType_pb2 as EnterCustomDungeonType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45nterCustomDungeonRsp.proto\x1a\x1c\x45nterCustomDungeonType.proto\x1a\x13\x43ustomDungeon.proto\"\xed\x01\n\x15\x45nterCustomDungeonRsp\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12*\n\tenterType\x18\x04 \x01(\x0e\x32\x17.EnterCustomDungeonType\x12<\n\x0broomCostMap\x18\x02 \x03(\x0b\x32\'.EnterCustomDungeonRsp.RoomCostMapEntry\x12%\n\rcustomDungeon\x18\x07 \x01(\x0b\x32\x0e.CustomDungeon\x1a\x32\n\x10RoomCostMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45nterCustomDungeonRsp.proto\x1a\x13\x43ustomDungeon.proto\x1a\x1c\x45nterCustomDungeonType.proto\"\xf1\x01\n\x15\x45nterCustomDungeonRsp\x12+\n\nenter_type\x18\x05 \x01(\x0e\x32\x17.EnterCustomDungeonType\x12&\n\x0e\x63ustom_dungeon\x18\x0e \x01(\x0b\x32\x0e.CustomDungeon\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12>\n\rroom_cost_map\x18\x03 \x03(\x0b\x32\'.EnterCustomDungeonRsp.RoomCostMapEntry\x1a\x32\n\x10RoomCostMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,11 +23,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterCustomDungeonRsp_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _ENTERCUSTOMDUNGEONRSP_ROOMCOSTMAPENTRY._options = None
   _ENTERCUSTOMDUNGEONRSP_ROOMCOSTMAPENTRY._serialized_options = b'8\001'
   _globals['_ENTERCUSTOMDUNGEONRSP']._serialized_start=83
-  _globals['_ENTERCUSTOMDUNGEONRSP']._serialized_end=320
-  _globals['_ENTERCUSTOMDUNGEONRSP_ROOMCOSTMAPENTRY']._serialized_start=270
-  _globals['_ENTERCUSTOMDUNGEONRSP_ROOMCOSTMAPENTRY']._serialized_end=320
+  _globals['_ENTERCUSTOMDUNGEONRSP']._serialized_end=324
+  _globals['_ENTERCUSTOMDUNGEONRSP_ROOMCOSTMAPENTRY']._serialized_start=274
+  _globals['_ENTERCUSTOMDUNGEONRSP_ROOMCOSTMAPENTRY']._serialized_end=324
 # @@protoc_insertion_point(module_scope)

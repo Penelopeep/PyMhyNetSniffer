@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import BreakoutVector2_pb2 as BreakoutVector2__pb2
-import BreakoutPhysicalObjectModifier_pb2 as BreakoutPhysicalObjectModifier__pb2
 import BreakoutBrickInfo_pb2 as BreakoutBrickInfo__pb2
+import BreakoutPhysicalObjectModifier_pb2 as BreakoutPhysicalObjectModifier__pb2
+import BreakoutVector2_pb2 as BreakoutVector2__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42reakoutPhysicalObject.proto\x1a\x15\x42reakoutVector2.proto\x1a$BreakoutPhysicalObjectModifier.proto\x1a\x17\x42reakoutBrickInfo.proto\"\x93\x03\n\x16\x42reakoutPhysicalObject\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05index\x18\x02 \x01(\r\x12\x10\n\x08isActive\x18\x03 \x01(\x08\x12\x1d\n\x03pos\x18\x04 \x01(\x0b\x32\x10.BreakoutVector2\x12%\n\x0bmjehpphliia\x18\x05 \x01(\x0b\x32\x10.BreakoutVector2\x12\r\n\x05speed\x18\x06 \x01(\x05\x12\x13\n\x0b\x64lgpedplibk\x18\x07 \x01(\r\x12\r\n\x05state\x18\x08 \x01(\r\x12\x13\n\x0b\x65lementType\x18\t \x01(\r\x12\x13\n\x0binhflokdoal\x18\n \x01(\r\x12\x34\n\x0b\x64lijmbkhdif\x18\x0b \x03(\x0b\x32\x1f.BreakoutPhysicalObjectModifier\x12\x13\n\x0b\x61\x62olecjpbhb\x18\x0c \x01(\x05\x12$\n\x08infoList\x18\r \x03(\x0b\x32\x12.BreakoutBrickInfo\x12\x13\n\x0bhmgmjglmbpl\x18\x0e \x01(\r\x12\x13\n\x0b\x61piembahlab\x18\x0f \x01(\r\x12\x0e\n\x06offset\x18\x10 \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42reakoutPhysicalObject.proto\x1a\x17\x42reakoutBrickInfo.proto\x1a$BreakoutPhysicalObjectModifier.proto\x1a\x15\x42reakoutVector2.proto\"\xb1\x03\n\x16\x42reakoutPhysicalObject\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05index\x18\x02 \x01(\r\x12\x11\n\tis_active\x18\x03 \x01(\x08\x12\x1d\n\x03pos\x18\x04 \x01(\x0b\x32\x10.BreakoutVector2\x12\"\n\x08move_dir\x18\x05 \x01(\x0b\x32\x10.BreakoutVector2\x12\r\n\x05speed\x18\x06 \x01(\x05\x12\x14\n\x0cinit_peer_id\x18\x07 \x01(\r\x12\r\n\x05state\x18\x08 \x01(\r\x12\x14\n\x0c\x65lement_type\x18\t \x01(\r\x12\x1d\n\x15\x65lement_reaction_buff\x18\n \x01(\r\x12\x36\n\rmodifier_list\x18\x0b \x03(\x0b\x32\x1f.BreakoutPhysicalObjectModifier\x12\x16\n\x0etotal_rotation\x18\x0c \x01(\x05\x12%\n\tinfo_list\x18\r \x03(\x0b\x32\x12.BreakoutBrickInfo\x12\x18\n\x10last_hit_peer_id\x18\x0e \x01(\r\x12\x1c\n\x14speed_increase_count\x18\x0f \x01(\r\x12\x0e\n\x06offset\x18\x10 \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BreakoutPhysicalObject_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BREAKOUTPHYSICALOBJECT']._serialized_start=119
-  _globals['_BREAKOUTPHYSICALOBJECT']._serialized_end=522
+  _globals['_BREAKOUTPHYSICALOBJECT']._serialized_end=552
 # @@protoc_insertion_point(module_scope)

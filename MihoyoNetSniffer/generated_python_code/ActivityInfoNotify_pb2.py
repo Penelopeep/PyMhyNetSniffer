@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ActivityInfo_pb2 as ActivityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41\x63tivityInfoNotify.proto\x1a\x12\x41\x63tivityInfo.proto\"9\n\x12\x41\x63tivityInfoNotify\x12#\n\x0c\x61\x63tivityInfo\x18\x03 \x01(\x0b\x32\r.ActivityInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41\x63tivityInfoNotify.proto\x1a\x12\x41\x63tivityInfo.proto\":\n\x12\x41\x63tivityInfoNotify\x12$\n\ractivity_info\x18\t \x01(\x0b\x32\r.ActivityInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityInfoNotify_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ACTIVITYINFONOTIFY']._serialized_start=48
-  _globals['_ACTIVITYINFONOTIFY']._serialized_end=105
+  _globals['_ACTIVITYINFONOTIFY']._serialized_end=106
 # @@protoc_insertion_point(module_scope)

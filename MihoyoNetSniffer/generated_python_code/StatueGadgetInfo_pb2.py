@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16StatueGadgetInfo.proto\"2\n\x10StatueGadgetInfo\x12\x1e\n\x16opened_statue_uid_list\x18\x01 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16StatueGadgetInfo.proto\"2\n\x10StatueGadgetInfo\x12\x1e\n\x16opened_statue_uid_list\x18\x01 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StatueGadgetInfo_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_STATUEGADGETINFO']._serialized_start=26
   _globals['_STATUEGADGETINFO']._serialized_end=76
 # @@protoc_insertion_point(module_scope)

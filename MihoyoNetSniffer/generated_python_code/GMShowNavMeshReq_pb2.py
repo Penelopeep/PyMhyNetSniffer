@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GMShowNavMeshReq.proto\x1a\x0cVector.proto\"D\n\x10GMShowNavMeshReq\x12\x17\n\x06\x63\x65nter\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x17\n\x06\x65xtent\x18\r \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GMShowNavMeshReq.proto\x1a\x0cVector.proto\"D\n\x10GMShowNavMeshReq\x12\x17\n\x06\x63\x65nter\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x17\n\x06\x65xtent\x18\r \x01(\x0b\x32\x07.VectorB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GMShowNavMeshReq_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GMSHOWNAVMESHREQ']._serialized_start=40
   _globals['_GMSHOWNAVMESHREQ']._serialized_end=108
 # @@protoc_insertion_point(module_scope)

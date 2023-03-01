@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aQuestRenameAvatarRsp.proto\"^\n\x14QuestRenameAvatarRsp\x12\x12\n\navatarName\x18\x0f \x01(\t\x12\x0f\n\x07isCheck\x18\x02 \x01(\x08\x12\x10\n\x08renameId\x18\r \x01(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aQuestRenameAvatarRsp.proto\"a\n\x14QuestRenameAvatarRsp\x12\x10\n\x08is_check\x18\x0b \x01(\x08\x12\x11\n\trename_id\x18\x0e \x01(\r\x12\x13\n\x0b\x61vatar_name\x18\x0c \x01(\t\x12\x0f\n\x07retcode\x18\r \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestRenameAvatarRsp_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_QUESTRENAMEAVATARRSP']._serialized_start=30
-  _globals['_QUESTRENAMEAVATARRSP']._serialized_end=124
+  _globals['_QUESTRENAMEAVATARRSP']._serialized_end=127
 # @@protoc_insertion_point(module_scope)

@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n EvtSyncSkillAnchorPosition.proto\x1a\x0cVector.proto\"W\n\x1a\x45vtSyncSkillAnchorPosition\x12&\n\x15skill_anchor_position\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n EvtSyncSkillAnchorPosition.proto\x1a\x0cVector.proto\"W\n\x1a\x45vtSyncSkillAnchorPosition\x12\x11\n\tentity_id\x18\x05 \x01(\r\x12&\n\x15skill_anchor_position\x18\x01 \x01(\x0b\x32\x07.VectorB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtSyncSkillAnchorPosition_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtSyncSkillAnchorPosition_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EVTSYNCSKILLANCHORPOSITION._serialized_start=50
-  _EVTSYNCSKILLANCHORPOSITION._serialized_end=137
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_EVTSYNCSKILLANCHORPOSITION']._serialized_start=50
+  _globals['_EVTSYNCSKILLANCHORPOSITION']._serialized_end=137
 # @@protoc_insertion_point(module_scope)

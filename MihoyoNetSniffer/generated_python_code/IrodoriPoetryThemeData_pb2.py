@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cIrodoriPoetryThemeData.proto\"\xc4\x01\n\x16IrodoriPoetryThemeData\x12\x1b\n\x13Unk3300_CNNMEHOGGLL\x18\x06 \x03(\r\x12\x1b\n\x13Unk3300_HODJKKDBJDJ\x18\x04 \x03(\r\x12\x10\n\x08progress\x18\x0e \x01(\r\x12\x13\n\x0bmaxProgress\x18\r \x01(\r\x12\x1b\n\x13Unk3300_NJHMNLIAGIK\x18\x07 \x01(\r\x12\x0f\n\x07themeId\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_HFMKPNOBPDK\x18\x0f \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cIrodoriPoetryThemeData.proto\"\xa8\x01\n\x16IrodoriPoetryThemeData\x12\x13\n\x0bNEAELGDFMIL\x18\x08 \x03(\r\x12\x10\n\x08progress\x18\x03 \x01(\r\x12\x13\n\x0b\x44MKGFAJADNC\x18\t \x01(\r\x12\x13\n\x0bOBDOEOGAGHH\x18\r \x01(\r\x12\x13\n\x0b\x43GGCACEMFPB\x18\x0e \x01(\r\x12\x13\n\x0bOGDCJBFODEB\x18\x0b \x01(\r\x12\x13\n\x0bIEIFGEDGHLI\x18\x06 \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriPoetryThemeData_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_IRODORIPOETRYTHEMEDATA']._serialized_start=33
-  _globals['_IRODORIPOETRYTHEMEDATA']._serialized_end=229
+  _globals['_IRODORIPOETRYTHEMEDATA']._serialized_end=201
 # @@protoc_insertion_point(module_scope)

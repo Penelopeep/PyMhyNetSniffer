@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MatchReason_pb2 as MatchReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerMatchStopNotify.proto\x1a\x11MatchReason.proto\"F\n\x15PlayerMatchStopNotify\x12\x0f\n\x07hostUid\x18\x04 \x01(\r\x12\x1c\n\x06reason\x18\t \x01(\x0e\x32\x0c.MatchReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerMatchStopNotify.proto\x1a\x11MatchReason.proto\"G\n\x15PlayerMatchStopNotify\x12\x1c\n\x06reason\x18\t \x01(\x0e\x32\x0c.MatchReason\x12\x10\n\x08host_uid\x18\r \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerMatchStopNotify_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLAYERMATCHSTOPNOTIFY']._serialized_start=50
-  _globals['_PLAYERMATCHSTOPNOTIFY']._serialized_end=120
+  _globals['_PLAYERMATCHSTOPNOTIFY']._serialized_end=121
 # @@protoc_insertion_point(module_scope)

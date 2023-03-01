@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hangeAvatarReq.proto\x1a\x0cVector.proto\"Z\n\x0f\x43hangeAvatarReq\x12\x0c\n\x04guid\x18\x0c \x01(\x04\x12\x0e\n\x06isMove\x18\n \x01(\x08\x12\x18\n\x07movePos\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x0f\n\x07skillId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hangeAvatarReq.proto\x1a\x0cVector.proto\"]\n\x0f\x43hangeAvatarReq\x12\x19\n\x08move_pos\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x0c\n\x04guid\x18\t \x01(\x04\x12\x0f\n\x07is_move\x18\x0f \x01(\x08\x12\x10\n\x08skill_id\x18\r \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeAvatarReq_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CHANGEAVATARREQ']._serialized_start=39
-  _globals['_CHANGEAVATARREQ']._serialized_end=129
+  _globals['_CHANGEAVATARREQ']._serialized_end=132
 # @@protoc_insertion_point(module_scope)

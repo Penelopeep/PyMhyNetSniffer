@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CityReputationSimpleInfo_pb2 as CityReputationSimpleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43ityReputationDataNotify.proto\x1a\x1e\x43ityReputationSimpleInfo.proto\"M\n\x18\x43ityReputationDataNotify\x12\x31\n\x0esimpleInfoList\x18\x08 \x03(\x0b\x32\x19.CityReputationSimpleInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43ityReputationDataNotify.proto\x1a\x1e\x43ityReputationSimpleInfo.proto\"O\n\x18\x43ityReputationDataNotify\x12\x33\n\x10simple_info_list\x18\n \x03(\x0b\x32\x19.CityReputationSimpleInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CityReputationDataNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CITYREPUTATIONDATANOTIFY']._serialized_start=66
-  _globals['_CITYREPUTATIONDATANOTIFY']._serialized_end=143
+  _globals['_CITYREPUTATIONDATANOTIFY']._serialized_end=145
 # @@protoc_insertion_point(module_scope)

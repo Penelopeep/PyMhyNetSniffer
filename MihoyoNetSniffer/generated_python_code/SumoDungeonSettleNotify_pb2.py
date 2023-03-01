@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSumoDungeonSettleNotify.proto\"\x9e\x01\n\x17SumoDungeonSettleNotify\x12\x1b\n\x13killEliteMonsterNum\x18\r \x01(\r\x12\x0f\n\x07stageId\x18\x03 \x01(\r\x12\x13\n\x0bisNewRecord\x18\x0f \x01(\x08\x12\x16\n\x0ekillMonsterNum\x18\x04 \x01(\r\x12\x14\n\x0c\x64ifficultyId\x18\x02 \x01(\r\x12\x12\n\nfinalScore\x18\x0b \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSumoDungeonSettleNotify.proto\"\x98\x01\n\x17SumoDungeonSettleNotify\x12\x10\n\x08stage_id\x18\x07 \x01(\r\x12\x13\n\x0b\x66inal_score\x18\x06 \x01(\r\x12\x13\n\x0bLFMGDDMJGIP\x18\x03 \x01(\r\x12\x13\n\x0b\x44NCGDPEOCHL\x18\x0e \x01(\r\x12\x15\n\ris_new_record\x18\x0c \x01(\x08\x12\x15\n\rdifficulty_id\x18\x0b \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoDungeonSettleNotify_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SUMODUNGEONSETTLENOTIFY']._serialized_start=34
-  _globals['_SUMODUNGEONSETTLENOTIFY']._serialized_end=192
+  _globals['_SUMODUNGEONSETTLENOTIFY']._serialized_end=186
 # @@protoc_insertion_point(module_scope)

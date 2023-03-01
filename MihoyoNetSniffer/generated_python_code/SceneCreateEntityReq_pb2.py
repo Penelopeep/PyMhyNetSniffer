@@ -15,7 +15,7 @@ import CreateEntityInfo_pb2 as CreateEntityInfo__pb2
 import CreateReason_pb2 as CreateReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneCreateEntityReq.proto\x1a\x16\x43reateEntityInfo.proto\x1a\x12\x43reateReason.proto\"y\n\x14SceneCreateEntityReq\x12\x1f\n\x17isDestroyWhenDisconnect\x18\r \x01(\x08\x12!\n\x06\x65ntity\x18\t \x01(\x0b\x32\x11.CreateEntityInfo\x12\x1d\n\x06reason\x18\x01 \x01(\x0e\x32\r.CreateReasonB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneCreateEntityReq.proto\x1a\x16\x43reateEntityInfo.proto\x1a\x12\x43reateReason.proto\"|\n\x14SceneCreateEntityReq\x12\x1d\n\x06reason\x18\x0b \x01(\x0e\x32\r.CreateReason\x12!\n\x06\x65ntity\x18\x0e \x01(\x0b\x32\x11.CreateEntityInfo\x12\"\n\x1ais_destroy_when_disconnect\x18\x03 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneCreateEntityReq_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SCENECREATEENTITYREQ']._serialized_start=74
-  _globals['_SCENECREATEENTITYREQ']._serialized_end=195
+  _globals['_SCENECREATEENTITYREQ']._serialized_end=198
 # @@protoc_insertion_point(module_scope)

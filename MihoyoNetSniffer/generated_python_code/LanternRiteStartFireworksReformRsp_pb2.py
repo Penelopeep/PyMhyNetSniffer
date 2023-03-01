@@ -15,7 +15,7 @@ import LanternRiteFireworksReformFactorInfo_pb2 as LanternRiteFireworksReformFac
 import LanternRiteFireworksReformSkillInfo_pb2 as LanternRiteFireworksReformSkillInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(LanternRiteStartFireworksReformRsp.proto\x1a*LanternRiteFireworksReformFactorInfo.proto\x1a)LanternRiteFireworksReformSkillInfo.proto\"\xcb\x02\n\"LanternRiteStartFireworksReformRsp\x12\x1b\n\x13Unk3300_LKOFBPDKEGG\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_OMHPIGGDCBO\x18\x07 \x01(\r\x12=\n\x0e\x66\x61\x63torInfoList\x18\x01 \x03(\x0b\x32%.LanternRiteFireworksReformFactorInfo\x12\x13\n\x0b\x63hallengeId\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_BJHGCFANMBI\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_LKKBPAJOCML\x18\x0e \x01(\r\x12\x0f\n\x07stageId\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12;\n\rskillInfoList\x18\x0f \x03(\x0b\x32$.LanternRiteFireworksReformSkillInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(LanternRiteStartFireworksReformRsp.proto\x1a*LanternRiteFireworksReformFactorInfo.proto\x1a)LanternRiteFireworksReformSkillInfo.proto\"\xb1\x02\n\"LanternRiteStartFireworksReformRsp\x12\x14\n\x0c\x63hallenge_id\x18\x02 \x01(\r\x12?\n\x10\x66\x61\x63tor_info_list\x18\x0c \x03(\x0b\x32%.LanternRiteFireworksReformFactorInfo\x12\x13\n\x0bJPDEEDPFBMB\x18\x04 \x01(\r\x12\x13\n\x0b\x46OPCMLBHHHF\x18\x0f \x01(\r\x12\x13\n\x0b\x46\x42HAEFIAIHM\x18\x06 \x01(\r\x12\x10\n\x08stage_id\x18\x01 \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12=\n\x0fskill_info_list\x18\x05 \x03(\x0b\x32$.LanternRiteFireworksReformSkillInfo\x12\x13\n\x0b\x45OFAHKCJBKK\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanternRiteStartFireworksRe
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_LANTERNRITESTARTFIREWORKSREFORMRSP']._serialized_start=132
-  _globals['_LANTERNRITESTARTFIREWORKSREFORMRSP']._serialized_end=463
+  _globals['_LANTERNRITESTARTFIREWORKSREFORMRSP']._serialized_end=437
 # @@protoc_insertion_point(module_scope)

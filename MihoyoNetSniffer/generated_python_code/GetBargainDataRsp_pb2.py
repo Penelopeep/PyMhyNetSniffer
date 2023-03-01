@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BargainSnapshot_pb2 as BargainSnapshot__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GetBargainDataRsp.proto\x1a\x15\x42\x61rgainSnapshot.proto\"[\n\x11GetBargainDataRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\"\n\x08snapshot\x18\r \x01(\x0b\x32\x10.BargainSnapshot\x12\x11\n\tbargainId\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GetBargainDataRsp.proto\x1a\x15\x42\x61rgainSnapshot.proto\"\\\n\x11GetBargainDataRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x12\n\nbargain_id\x18\x04 \x01(\r\x12\"\n\x08snapshot\x18\x07 \x01(\x0b\x32\x10.BargainSnapshotB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetBargainDataRsp_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETBARGAINDATARSP']._serialized_start=50
-  _globals['_GETBARGAINDATARSP']._serialized_end=141
+  _globals['_GETBARGAINDATARSP']._serialized_end=142
 # @@protoc_insertion_point(module_scope)

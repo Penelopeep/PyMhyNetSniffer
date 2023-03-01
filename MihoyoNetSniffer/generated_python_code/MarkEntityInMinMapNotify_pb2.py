@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMarkEntityInMinMapNotify.proto\x1a\x0cVector.proto\"Z\n\x18MarkEntityInMinMapNotify\x12\x11\n\tmonsterId\x18\x0c \x01(\r\x12\x10\n\x08\x65ntityId\x18\x03 \x01(\r\x12\x19\n\x08position\x18\r \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMarkEntityInMinMapNotify.proto\x1a\x0cVector.proto\"\\\n\x18MarkEntityInMinMapNotify\x12\x11\n\tentity_id\x18\x07 \x01(\r\x12\x12\n\nmonster_id\x18\x02 \x01(\r\x12\x19\n\x08position\x18\x0c \x01(\x0b\x32\x07.VectorB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MarkEntityInMinMapNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_MARKENTITYINMINMAPNOTIFY']._serialized_start=48
-  _globals['_MARKENTITYINMINMAPNOTIFY']._serialized_end=138
+  _globals['_MARKENTITYINMINMAPNOTIFY']._serialized_end=140
 # @@protoc_insertion_point(module_scope)

@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import HomeLimitedShopInfo_pb2 as HomeLimitedShopInfo__pb2
+import ILEIPGLHFAP_pb2 as ILEIPGLHFAP__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeLimitedShopInfoNotify.proto\x1a\x19HomeLimitedShopInfo.proto\"C\n\x19HomeLimitedShopInfoNotify\x12&\n\x08shopInfo\x18\r \x01(\x0b\x32\x14.HomeLimitedShopInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeLimitedShopInfoNotify.proto\x1a\x11ILEIPGLHFAP.proto\">\n\x19HomeLimitedShopInfoNotify\x12!\n\x0bGKOFIJJACGA\x18\x0b \x01(\x0b\x32\x0c.ILEIPGLHFAPB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeLimitedShopInfoNotify_p
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_HOMELIMITEDSHOPINFONOTIFY']._serialized_start=62
-  _globals['_HOMELIMITEDSHOPINFONOTIFY']._serialized_end=129
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_HOMELIMITEDSHOPINFONOTIFY']._serialized_start=54
+  _globals['_HOMELIMITEDSHOPINFONOTIFY']._serialized_end=116
 # @@protoc_insertion_point(module_scope)

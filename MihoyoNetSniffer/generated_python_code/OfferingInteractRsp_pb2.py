@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlayerOfferingData_pb2 as PlayerOfferingData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19OfferingInteractRsp.proto\x1a\x18PlayerOfferingData.proto\"Q\n\x13OfferingInteractRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12)\n\x0cofferingData\x18\x0e \x01(\x0b\x32\x13.PlayerOfferingDataB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19OfferingInteractRsp.proto\x1a\x18PlayerOfferingData.proto\"R\n\x13OfferingInteractRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12*\n\roffering_data\x18\x0e \x01(\x0b\x32\x13.PlayerOfferingDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OfferingInteractRsp_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_OFFERINGINTERACTRSP']._serialized_start=55
-  _globals['_OFFERINGINTERACTRSP']._serialized_end=136
+  _globals['_OFFERINGINTERACTRSP']._serialized_end=137
 # @@protoc_insertion_point(module_scope)

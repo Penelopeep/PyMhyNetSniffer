@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ScenePlayBattleInfo_pb2 as ScenePlayBattleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fScenePlayBattleInfoNotify.proto\x1a\x19ScenePlayBattleInfo.proto\"E\n\x19ScenePlayBattleInfoNotify\x12(\n\nbattleInfo\x18\x03 \x01(\x0b\x32\x14.ScenePlayBattleInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fScenePlayBattleInfoNotify.proto\x1a\x19ScenePlayBattleInfo.proto\"F\n\x19ScenePlayBattleInfoNotify\x12)\n\x0b\x62\x61ttle_info\x18\x02 \x01(\x0b\x32\x14.ScenePlayBattleInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayBattleInfoNotify_p
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SCENEPLAYBATTLEINFONOTIFY']._serialized_start=62
-  _globals['_SCENEPLAYBATTLEINFONOTIFY']._serialized_end=131
+  _globals['_SCENEPLAYBATTLEINFONOTIFY']._serialized_end=132
 # @@protoc_insertion_point(module_scope)

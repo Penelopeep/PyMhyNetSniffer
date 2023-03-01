@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cTrialAvatarGrantRecord.proto\"B\n\x16TrialAvatarGrantRecord\x12\x13\n\x0b\x64glgipiglnd\x18\x01 \x01(\r\x12\x13\n\x0b\x63\x61lgbbolcpn\x18\x02 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cTrialAvatarGrantRecord.proto\"\xac\x04\n\x16TrialAvatarGrantRecord\x12\x14\n\x0cgrant_reason\x18\x01 \x01(\r\x12\x1c\n\x14\x66rom_parent_quest_id\x18\x02 \x01(\r\"\xdd\x03\n\x0b\x46JBKKFJNBHD\x12\x1b\n\x17\x46JBKKFJNBHD_MLBFMJIBJEP\x10\x00\x12\x1b\n\x17\x46JBKKFJNBHD_NDIBKKFOJKH\x10\x01\x12\x1b\n\x17\x46JBKKFJNBHD_CBHCDCFMGJC\x10\x02\x12\x1b\n\x17\x46JBKKFJNBHD_CJONEJKHGGD\x10\x03\x12\x1b\n\x17\x46JBKKFJNBHD_LKFLHJBKDAL\x10\x04\x12\x1b\n\x17\x46JBKKFJNBHD_KEDGKBAANHA\x10\x05\x12\x1b\n\x17\x46JBKKFJNBHD_NGEADLFHLPL\x10\x06\x12\x1b\n\x17\x46JBKKFJNBHD_HGIMGKGCPFP\x10\x07\x12\x1b\n\x17\x46JBKKFJNBHD_IENCKFHOCGO\x10\x08\x12\x1b\n\x17\x46JBKKFJNBHD_JGNOOBCCHGL\x10\t\x12\x1b\n\x17\x46JBKKFJNBHD_KBOHKIPDMAB\x10\n\x12\x1b\n\x17\x46JBKKFJNBHD_DKCNBCHPJOA\x10\x0b\x12\x1b\n\x17\x46JBKKFJNBHD_FKMOBKNNLLK\x10\x0c\x12\x1b\n\x17\x46JBKKFJNBHD_ENDFNEMHAKM\x10\r\x12\x1b\n\x17\x46JBKKFJNBHD_HMLDNDBKNFL\x10\x0e\x12\x1b\n\x17\x46JBKKFJNBHD_PJDEJIHFCPP\x10\x0f\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TrialAvatarGrantRecord_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_TRIALAVATARGRANTRECORD']._serialized_start=32
-  _globals['_TRIALAVATARGRANTRECORD']._serialized_end=98
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_TRIALAVATARGRANTRECORD']._serialized_start=33
+  _globals['_TRIALAVATARGRANTRECORD']._serialized_end=589
+  _globals['_TRIALAVATARGRANTRECORD_FJBKKFJNBHD']._serialized_start=112
+  _globals['_TRIALAVATARGRANTRECORD_FJBKKFJNBHD']._serialized_end=589
 # @@protoc_insertion_point(module_scope)

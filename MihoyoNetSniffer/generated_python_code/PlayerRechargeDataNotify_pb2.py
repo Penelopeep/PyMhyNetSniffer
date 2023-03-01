@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ProductPriceTier_pb2 as ProductPriceTier__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerRechargeDataNotify.proto\x1a\x16ProductPriceTier.proto\"j\n\x18PlayerRechargeDataNotify\x12\x1d\n\x15\x63\x61rdProductRemainDays\x18\x0e \x01(\r\x12/\n\x14productPriceTierList\x18\n \x03(\x0b\x32\x11.ProductPriceTierB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerRechargeDataNotify.proto\x1a\x16ProductPriceTier.proto\"p\n\x18PlayerRechargeDataNotify\x12 \n\x18\x63\x61rd_product_remain_days\x18\x0c \x01(\r\x12\x32\n\x17product_price_tier_list\x18\x08 \x03(\x0b\x32\x11.ProductPriceTierB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerRechargeDataNotify_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PLAYERRECHARGEDATANOTIFY']._serialized_start=58
-  _globals['_PLAYERRECHARGEDATANOTIFY']._serialized_end=164
+  _globals['_PLAYERRECHARGEDATANOTIFY']._serialized_end=170
 # @@protoc_insertion_point(module_scope)

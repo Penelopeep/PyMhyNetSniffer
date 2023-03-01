@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GCGMsgUseSkillEnd.proto\"6\n\x11GCGMsgUseSkillEnd\x12\x0f\n\x07skillId\x18\x05 \x01(\r\x12\x10\n\x08\x63\x61rdGuid\x18\r \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GCGMsgUseSkillEnd.proto\"8\n\x11GCGMsgUseSkillEnd\x12\x10\n\x08skill_id\x18\x05 \x01(\r\x12\x11\n\tcard_guid\x18\x08 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgUseSkillEnd_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GCGMSGUSESKILLEND']._serialized_start=27
-  _globals['_GCGMSGUSESKILLEND']._serialized_end=81
+  _globals['_GCGMSGUSESKILLEND']._serialized_end=83
 # @@protoc_insertion_point(module_scope)

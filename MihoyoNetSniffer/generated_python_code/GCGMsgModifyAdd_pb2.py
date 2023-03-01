@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import GCGReason_pb2 as GCGReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GCGMsgModifyAdd.proto\x1a\x0fGCGReason.proto\"}\n\x0fGCGMsgModifyAdd\x12\x0b\n\x03pos\x18\x0b \x01(\r\x12\x15\n\rownerCardGuid\x18\n \x01(\r\x12\x14\n\x0c\x63ontrollerId\x18\x07 \x01(\r\x12\x1a\n\x06reason\x18\x0e \x01(\x0e\x32\n.GCGReason\x12\x14\n\x0c\x63\x61rdGuidList\x18\x04 \x03(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GCGMsgModifyAdd.proto\x1a\x0fGCGReason.proto\"\x82\x01\n\x0fGCGMsgModifyAdd\x12\x16\n\x0e\x63\x61rd_guid_list\x18\x04 \x03(\r\x12\x0b\n\x03pos\x18\x06 \x01(\r\x12\x15\n\rcontroller_id\x18\x0c \x01(\r\x12\x17\n\x0fowner_card_guid\x18\x08 \x01(\r\x12\x1a\n\x06reason\x18\x07 \x01(\x0e\x32\n.GCGReasonB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGMsgModifyAdd_pb2', _glob
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_GCGMSGMODIFYADD']._serialized_start=42
-  _globals['_GCGMSGMODIFYADD']._serialized_end=167
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGMSGMODIFYADD']._serialized_start=43
+  _globals['_GCGMSGMODIFYADD']._serialized_end=173
 # @@protoc_insertion_point(module_scope)

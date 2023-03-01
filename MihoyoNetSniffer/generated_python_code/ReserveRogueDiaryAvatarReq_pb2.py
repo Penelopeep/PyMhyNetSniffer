@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RogueDiaryAvatar_pb2 as RogueDiaryAvatar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ReserveRogueDiaryAvatarReq.proto\x1a\x16RogueDiaryAvatar.proto\"J\n\x1aReserveRogueDiaryAvatarReq\x12,\n\x11reserveAvatarList\x18\x01 \x03(\x0b\x32\x11.RogueDiaryAvatarB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ReserveRogueDiaryAvatarReq.proto\x1a\x16RogueDiaryAvatar.proto\"L\n\x1aReserveRogueDiaryAvatarReq\x12.\n\x13reserve_avatar_list\x18\x04 \x03(\x0b\x32\x11.RogueDiaryAvatarB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReserveRogueDiaryAvatarReq_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_RESERVEROGUEDIARYAVATARREQ']._serialized_start=60
-  _globals['_RESERVEROGUEDIARYAVATARREQ']._serialized_end=134
+  _globals['_RESERVEROGUEDIARYAVATARREQ']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

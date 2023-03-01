@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11MatchReason.proto*\xb1\x02\n\x0bMatchReason\x12\x15\n\x11MATCH_REASON_NONE\x10\x00\x12\x17\n\x13MATCH_REASON_FINISH\x10\x01\x12\x1e\n\x1aMATCH_REASON_PLAYER_CANCEL\x10\x02\x12\x18\n\x14MATCH_REASON_TIMEOUT\x10\x03\x12\x1f\n\x1bMATCH_REASON_PLAYER_CONFIRM\x10\x04\x12\x17\n\x13MATCH_REASON_FAILED\x10\x05\x12\x1d\n\x19MATCH_REASON_SYSTEM_ERROR\x10\x06\x12\x1c\n\x18MATCH_REASON_INTERRUPTED\x10\x07\x12\x1f\n\x1bMATCH_REASON_MP_UNAVAILABLE\x10\x08\x12 \n\x1cMATCH_REASON_CONFIRM_TIMEOUT\x10\tB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11MatchReason.proto*\xeb\x01\n\x0bMatchReason\x12\x0e\n\nMATCH_NONE\x10\x00\x12\x10\n\x0cMATCH_FINISH\x10\x01\x12\x17\n\x13MATCH_PLAYER_CANCEL\x10\x02\x12\x11\n\rMATCH_TIMEOUT\x10\x03\x12\x18\n\x14MATCH_PLAYER_CONFIRM\x10\x04\x12\x10\n\x0cMATCH_FAILED\x10\x05\x12\x16\n\x12MATCH_SYSTEM_ERROR\x10\x06\x12\x15\n\x11MATCH_INTERRUPTED\x10\x07\x12\x18\n\x14MATCH_MP_UNAVAILABLE\x10\x08\x12\x19\n\x15MATCH_CONFIRM_TIMEOUT\x10\tB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MatchReason_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_MATCHREASON']._serialized_start=22
-  _globals['_MATCHREASON']._serialized_end=327
+  _globals['_MATCHREASON']._serialized_end=257
 # @@protoc_insertion_point(module_scope)

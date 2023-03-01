@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ParentQuestRandomInfo_pb2 as ParentQuestRandomInfo__pb2
 import ChildQuest_pb2 as ChildQuest__pb2
 import InferencePageInfo_pb2 as InferencePageInfo__pb2
+import ParentQuestRandomInfo_pb2 as ParentQuestRandomInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11ParentQuest.proto\x1a\x1bParentQuestRandomInfo.proto\x1a\x10\x43hildQuest.proto\x1a\x17InferencePageInfo.proto\"\x82\x03\n\x0bParentQuest\x12*\n\nrandomInfo\x18\x07 \x01(\x0b\x32\x16.ParentQuestRandomInfo\x12\x10\n\x08questVar\x18\x08 \x03(\x05\x12#\n\x0e\x63hildQuestList\x18\n \x03(\x0b\x32\x0b.ChildQuest\x12\x12\n\nisFinished\x18\t \x01(\x08\x12\x10\n\x08isRandom\x18\x0b \x01(\x08\x12\x15\n\rparentQuestId\x18\x01 \x01(\r\x12\x30\n\ntimeVarMap\x18\x0c \x03(\x0b\x32\x1c.ParentQuest.TimeVarMapEntry\x12\x18\n\x10parentQuestState\x18\x0f \x01(\r\x12\x10\n\x08videoKey\x18\x02 \x01(\x04\x12-\n\x11inferencePageList\x18\x05 \x03(\x0b\x32\x12.InferencePageInfo\x12\x13\n\x0bquestVarSeq\x18\x04 \x01(\r\x1a\x31\n\x0fTimeVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11ParentQuest.proto\x1a\x10\x43hildQuest.proto\x1a\x17InferencePageInfo.proto\x1a\x1bParentQuestRandomInfo.proto\"\x8a\x03\n\x0bParentQuest\x12\x11\n\tis_random\x18\x01 \x01(\x08\x12%\n\x10\x63hild_quest_list\x18\r \x03(\x0b\x32\x0b.ChildQuest\x12\x11\n\tquest_var\x18\x02 \x03(\x05\x12/\n\x13inference_page_list\x18\x04 \x03(\x0b\x32\x12.InferencePageInfo\x12\x13\n\x0b\x44OCNJADOIPJ\x18\x05 \x01(\r\x12\x13\n\x0b\x46LPFBJMELEB\x18\t \x01(\r\x12\x11\n\tvideo_key\x18\x06 \x01(\x04\x12\x32\n\x0ctime_var_map\x18\x0e \x03(\x0b\x32\x1c.ParentQuest.TimeVarMapEntry\x12\x13\n\x0bis_finished\x18\x08 \x01(\x08\x12\x17\n\x0fparent_quest_id\x18\x0b \x01(\r\x12+\n\x0brandom_info\x18\x03 \x01(\x0b\x32\x16.ParentQuestRandomInfo\x1a\x31\n\x0fTimeVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,11 +24,11 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ParentQuest_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _PARENTQUEST_TIMEVARMAPENTRY._options = None
   _PARENTQUEST_TIMEVARMAPENTRY._serialized_options = b'8\001'
   _globals['_PARENTQUEST']._serialized_start=94
-  _globals['_PARENTQUEST']._serialized_end=480
-  _globals['_PARENTQUEST_TIMEVARMAPENTRY']._serialized_start=431
-  _globals['_PARENTQUEST_TIMEVARMAPENTRY']._serialized_end=480
+  _globals['_PARENTQUEST']._serialized_end=488
+  _globals['_PARENTQUEST_TIMEVARMAPENTRY']._serialized_start=439
+  _globals['_PARENTQUEST_TIMEVARMAPENTRY']._serialized_end=488
 # @@protoc_insertion_point(module_scope)

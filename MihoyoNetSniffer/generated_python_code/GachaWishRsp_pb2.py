@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GachaWishRsp.proto\"\x8e\x01\n\x0cGachaWishRsp\x12\x14\n\x0cwishProgress\x18\x03 \x01(\r\x12\x17\n\x0fwishMaxProgress\x18\x07 \x01(\r\x12\x11\n\tgachaType\x18\x06 \x01(\r\x12\x17\n\x0fgachaScheduleId\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x12\n\nwishItemId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12GachaWishRsp.proto\"\x88\x01\n\x0cGachaWishRsp\x12\x13\n\x0b\x44NGKJJJHNEN\x18\x03 \x01(\r\x12\x13\n\x0b\x44GIFMDIADJF\x18\n \x01(\r\x12\x13\n\x0bKJHBJPGBOFP\x18\x08 \x01(\r\x12\x13\n\x0bNMKGGDOKHLF\x18\x05 \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x13\n\x0bLJJKNKCHHFM\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaWishRsp_pb2', _globals
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GACHAWISHRSP']._serialized_start=23
-  _globals['_GACHAWISHRSP']._serialized_end=165
+  _globals['_GACHAWISHRSP']._serialized_end=159
 # @@protoc_insertion_point(module_scope)

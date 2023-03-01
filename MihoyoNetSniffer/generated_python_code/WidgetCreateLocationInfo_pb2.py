@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWidgetCreateLocationInfo.proto\x1a\x0cVector.proto\"F\n\x18WidgetCreateLocationInfo\x12\x14\n\x03pos\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\x04 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWidgetCreateLocationInfo.proto\x1a\x0cVector.proto\"F\n\x18WidgetCreateLocationInfo\x12\x14\n\x03rot\x18\n \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x02 \x01(\x0b\x32\x07.VectorB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetCreateLocationInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetCreateLocationInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WIDGETCREATELOCATIONINFO._serialized_start=48
-  _WIDGETCREATELOCATIONINFO._serialized_end=118
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_WIDGETCREATELOCATIONINFO']._serialized_start=48
+  _globals['_WIDGETCREATELOCATIONINFO']._serialized_end=118
 # @@protoc_insertion_point(module_scope)

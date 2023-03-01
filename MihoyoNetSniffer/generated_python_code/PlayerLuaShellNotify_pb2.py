@@ -11,11 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import bytes_pb2 as bytes__pb2
 import LuaShellType_pb2 as LuaShellType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPlayerLuaShellNotify.proto\x1a\x0b\x62ytes.proto\x1a\x12LuaShellType.proto\"g\n\x14PlayerLuaShellNotify\x12\x10\n\x08luaShell\x18\x05 \x01(\x0c\x12\x0f\n\x07useType\x18\x08 \x01(\r\x12 \n\tshellType\x18\x07 \x01(\x0e\x32\r.LuaShellType\x12\n\n\x02id\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPlayerLuaShellNotify.proto\x1a\x12LuaShellType.proto\"j\n\x14PlayerLuaShellNotify\x12\x10\n\x08use_type\x18\x0e \x01(\r\x12\n\n\x02id\x18\x05 \x01(\r\x12\x11\n\tlua_shell\x18\r \x01(\x0c\x12!\n\nshell_type\x18\x0b \x01(\x0e\x32\r.LuaShellTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerLuaShellNotify_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_PLAYERLUASHELLNOTIFY']._serialized_start=63
-  _globals['_PLAYERLUASHELLNOTIFY']._serialized_end=166
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_PLAYERLUASHELLNOTIFY']._serialized_start=50
+  _globals['_PLAYERLUASHELLNOTIFY']._serialized_end=156
 # @@protoc_insertion_point(module_scope)

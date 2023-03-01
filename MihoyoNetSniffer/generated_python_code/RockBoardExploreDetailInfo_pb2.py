@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import RockBoardExploreStageData_pb2 as RockBoardExploreStageData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n RockBoardExploreDetailInfo.proto\x1a\x1fRockBoardExploreStageData.proto\"Q\n\x1aRockBoardExploreDetailInfo\x12\x33\n\x0fstage_data_list\x18\r \x03(\x0b\x32\x1a.RockBoardExploreStageDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n RockBoardExploreDetailInfo.proto\x1a\x1fRockBoardExploreStageData.proto\"Q\n\x1aRockBoardExploreDetailInfo\x12\x33\n\x0fstage_data_list\x18\x05 \x03(\x0b\x32\x1a.RockBoardExploreStageDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RockBoardExploreDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RockBoardExploreDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROCKBOARDEXPLOREDETAILINFO._serialized_start=69
-  _ROCKBOARDEXPLOREDETAILINFO._serialized_end=150
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ROCKBOARDEXPLOREDETAILINFO']._serialized_start=69
+  _globals['_ROCKBOARDEXPLOREDETAILINFO']._serialized_end=150
 # @@protoc_insertion_point(module_scope)

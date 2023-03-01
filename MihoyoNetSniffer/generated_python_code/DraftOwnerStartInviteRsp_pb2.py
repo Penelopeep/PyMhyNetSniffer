@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DraftInviteFailInfo_pb2 as DraftInviteFailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44raftOwnerStartInviteRsp.proto\x1a\x19\x44raftInviteFailInfo.proto\"\x80\x01\n\x18\x44raftOwnerStartInviteRsp\x12\x30\n\x12inviteFailInfoList\x18\x06 \x03(\x0b\x32\x14.DraftInviteFailInfo\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x0f\n\x07\x64raftId\x18\t \x01(\r\x12\x10\n\x08wrongUid\x18\x0f \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44raftOwnerStartInviteRsp.proto\x1a\x19\x44raftInviteFailInfo.proto\"\x85\x01\n\x18\x44raftOwnerStartInviteRsp\x12\x10\n\x08\x64raft_id\x18\x05 \x01(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x33\n\x15invite_fail_info_list\x18\x0c \x03(\x0b\x32\x14.DraftInviteFailInfo\x12\x11\n\twrong_uid\x18\x04 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftOwnerStartInviteRsp_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DRAFTOWNERSTARTINVITERSP']._serialized_start=62
-  _globals['_DRAFTOWNERSTARTINVITERSP']._serialized_end=190
+  _globals['_DRAFTOWNERSTARTINVITERSP']._serialized_end=195
 # @@protoc_insertion_point(module_scope)

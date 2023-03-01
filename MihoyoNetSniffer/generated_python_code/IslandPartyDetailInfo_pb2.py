@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import IslandPartyStageData_pb2 as IslandPartyStageData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bIslandPartyDetailInfo.proto\x1a\x1aIslandPartyStageData.proto\"G\n\x15IslandPartyDetailInfo\x12.\n\x0fstage_data_list\x18\t \x03(\x0b\x32\x15.IslandPartyStageDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bIslandPartyDetailInfo.proto\x1a\x1aIslandPartyStageData.proto\"G\n\x15IslandPartyDetailInfo\x12.\n\x0fstage_data_list\x18\r \x03(\x0b\x32\x15.IslandPartyStageDataB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IslandPartyDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IslandPartyDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ISLANDPARTYDETAILINFO._serialized_start=59
-  _ISLANDPARTYDETAILINFO._serialized_end=130
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ISLANDPARTYDETAILINFO']._serialized_start=59
+  _globals['_ISLANDPARTYDETAILINFO']._serialized_end=130
 # @@protoc_insertion_point(module_scope)

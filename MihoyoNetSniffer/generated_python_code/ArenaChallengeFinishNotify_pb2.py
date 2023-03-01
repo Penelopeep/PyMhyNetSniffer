@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ArenaChallengeChildChallengeInfo_pb2 as ArenaChallengeChildChallengeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ArenaChallengeFinishNotify.proto\x1a&ArenaChallengeChildChallengeInfo.proto\"\xa8\x01\n\x1a\x41renaChallengeFinishNotify\x12\x11\n\tisSuccess\x18\x07 \x01(\x08\x12=\n\x12\x63hildChallengeList\x18\x06 \x03(\x0b\x32!.ArenaChallengeChildChallengeInfo\x12\x1b\n\x13Unk3300_DBHAGHMMLAI\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_FDFNFLAKONG\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ArenaChallengeFinishNotify.proto\x1a&ArenaChallengeChildChallengeInfo.proto\"\x9b\x01\n\x1a\x41renaChallengeFinishNotify\x12\x12\n\nis_success\x18\x05 \x01(\x08\x12?\n\x14\x63hild_challenge_list\x18\r \x03(\x0b\x32!.ArenaChallengeChildChallengeInfo\x12\x13\n\x0bNEFKFHIPLHG\x18\x01 \x01(\r\x12\x13\n\x0b\x42\x43HEDLFFNKC\x18\x08 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ArenaChallengeFinishNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ARENACHALLENGEFINISHNOTIFY']._serialized_start=77
-  _globals['_ARENACHALLENGEFINISHNOTIFY']._serialized_end=245
+  _globals['_ARENACHALLENGEFINISHNOTIFY']._serialized_end=232
 # @@protoc_insertion_point(module_scope)

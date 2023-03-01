@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%CustomDungeonBattleRecordNotify.proto\"K\n\x1f\x43ustomDungeonBattleRecordNotify\x12\x13\n\x0b\x64ungeonGuid\x18\r \x01(\x04\x12\x13\n\x0bminCostTime\x18\x0c \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%CustomDungeonBattleRecordNotify.proto\"N\n\x1f\x43ustomDungeonBattleRecordNotify\x12\x15\n\rmin_cost_time\x18\x08 \x01(\r\x12\x14\n\x0c\x64ungeon_guid\x18\x0b \x01(\x04\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonBattleRecordNo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CUSTOMDUNGEONBATTLERECORDNOTIFY']._serialized_start=41
-  _globals['_CUSTOMDUNGEONBATTLERECORDNOTIFY']._serialized_end=116
+  _globals['_CUSTOMDUNGEONBATTLERECORDNOTIFY']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

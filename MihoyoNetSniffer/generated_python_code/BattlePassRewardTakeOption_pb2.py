@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BattlePassRewardTag_pb2 as BattlePassRewardTag__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BattlePassRewardTakeOption.proto\x1a\x19\x42\x61ttlePassRewardTag.proto\"R\n\x1a\x42\x61ttlePassRewardTakeOption\x12!\n\x03tag\x18\x0f \x01(\x0b\x32\x14.BattlePassRewardTag\x12\x11\n\toptionIdx\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BattlePassRewardTakeOption.proto\x1a\x19\x42\x61ttlePassRewardTag.proto\"S\n\x1a\x42\x61ttlePassRewardTakeOption\x12!\n\x03tag\x18\x0c \x01(\x0b\x32\x14.BattlePassRewardTag\x12\x12\n\noption_idx\x18\r \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattlePassRewardTakeOption_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BATTLEPASSREWARDTAKEOPTION']._serialized_start=63
-  _globals['_BATTLEPASSREWARDTAKEOPTION']._serialized_end=145
+  _globals['_BATTLEPASSREWARDTAKEOPTION']._serialized_end=146
 # @@protoc_insertion_point(module_scope)

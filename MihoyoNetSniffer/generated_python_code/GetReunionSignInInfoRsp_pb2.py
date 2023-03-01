@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ReunionSignInInfo_pb2 as ReunionSignInInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetReunionSignInInfoRsp.proto\x1a\x17ReunionSignInInfo.proto\"R\n\x17GetReunionSignInInfoRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12&\n\nsignInInfo\x18\x04 \x01(\x0b\x32\x12.ReunionSignInInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetReunionSignInInfoRsp.proto\x1a\x17ReunionSignInInfo.proto\"T\n\x17GetReunionSignInInfoRsp\x12(\n\x0csign_in_info\x18\x08 \x01(\x0b\x32\x12.ReunionSignInInfo\x12\x0f\n\x07retcode\x18\n \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetReunionSignInInfoRsp_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETREUNIONSIGNININFORSP']._serialized_start=58
-  _globals['_GETREUNIONSIGNININFORSP']._serialized_end=140
+  _globals['_GETREUNIONSIGNININFORSP']._serialized_end=142
 # @@protoc_insertion_point(module_scope)

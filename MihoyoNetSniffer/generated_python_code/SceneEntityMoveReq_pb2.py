@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MotionInfo_pb2 as MotionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SceneEntityMoveReq.proto\x1a\x10MotionInfo.proto\"o\n\x12SceneEntityMoveReq\x12\x1f\n\nmotionInfo\x18\x05 \x01(\x0b\x32\x0b.MotionInfo\x12\x13\n\x0breliableSeq\x18\x03 \x01(\r\x12\x10\n\x08\x65ntityId\x18\x01 \x01(\r\x12\x11\n\tsceneTime\x18\x0e \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SceneEntityMoveReq.proto\x1a\x10MotionInfo.proto\"s\n\x12SceneEntityMoveReq\x12\x11\n\tentity_id\x18\x03 \x01(\r\x12\x12\n\nscene_time\x18\x06 \x01(\r\x12\x14\n\x0creliable_seq\x18\x04 \x01(\r\x12 \n\x0bmotion_info\x18\x02 \x01(\x0b\x32\x0b.MotionInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntityMoveReq_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SCENEENTITYMOVEREQ']._serialized_start=46
-  _globals['_SCENEENTITYMOVEREQ']._serialized_end=157
+  _globals['_SCENEENTITYMOVEREQ']._serialized_end=161
 # @@protoc_insertion_point(module_scope)

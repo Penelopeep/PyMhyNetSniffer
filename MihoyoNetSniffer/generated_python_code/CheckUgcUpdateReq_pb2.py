@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import UgcType_pb2 as UgcType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43heckUgcUpdateReq.proto\x1a\rUgcType.proto\".\n\x11\x43heckUgcUpdateReq\x12\x19\n\x07ugcType\x18\x03 \x01(\x0e\x32\x08.UgcTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43heckUgcUpdateReq.proto\x1a\rUgcType.proto\"/\n\x11\x43heckUgcUpdateReq\x12\x1a\n\x08ugc_type\x18\x03 \x01(\x0e\x32\x08.UgcTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CheckUgcUpdateReq_pb2', _gl
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CHECKUGCUPDATEREQ']._serialized_start=42
-  _globals['_CHECKUGCUPDATEREQ']._serialized_end=88
+  _globals['_CHECKUGCUPDATEREQ']._serialized_end=89
 # @@protoc_insertion_point(module_scope)

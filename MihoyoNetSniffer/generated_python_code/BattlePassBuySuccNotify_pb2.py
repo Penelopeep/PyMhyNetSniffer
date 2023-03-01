@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42\x61ttlePassBuySuccNotify.proto\x1a\x0fItemParam.proto\"\x85\x01\n\x17\x42\x61ttlePassBuySuccNotify\x12\x1b\n\x13Unk3300_IJOIKKDNKDE\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_PJODFJKAFLG\x18\x06 \x01(\r\x12\x12\n\nscheduleId\x18\x0e \x01(\r\x12\x1c\n\x08itemList\x18\x02 \x03(\x0b\x32\n.ItemParamB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42\x61ttlePassBuySuccNotify.proto\x1a\x0fItemParam.proto\"w\n\x17\x42\x61ttlePassBuySuccNotify\x12\x1d\n\titem_list\x18\x0b \x03(\x0b\x32\n.ItemParam\x12\x13\n\x0bschedule_id\x18\x05 \x01(\r\x12\x13\n\x0bLLLJGJDMKJC\x18\x0c \x01(\r\x12\x13\n\x0bGFGLGCCELCI\x18\t \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattlePassBuySuccNotify_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_BATTLEPASSBUYSUCCNOTIFY']._serialized_start=51
-  _globals['_BATTLEPASSBUYSUCCNOTIFY']._serialized_end=184
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_BATTLEPASSBUYSUCCNOTIFY']._serialized_start=50
+  _globals['_BATTLEPASSBUYSUCCNOTIFY']._serialized_end=169
 # @@protoc_insertion_point(module_scope)

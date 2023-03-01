@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"BartenderLevelProgressNotify.proto\"e\n\x1c\x42\x61rtenderLevelProgressNotify\x12\x0f\n\x07levelId\x18\r \x01(\r\x12\r\n\x05score\x18\x03 \x01(\r\x12\x13\n\x0bisNewRecord\x18\n \x01(\x08\x12\x10\n\x08isFinish\x18\x05 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"BartenderLevelProgressNotify.proto\"i\n\x1c\x42\x61rtenderLevelProgressNotify\x12\x15\n\ris_new_record\x18\x01 \x01(\x08\x12\x10\n\x08level_id\x18\x02 \x01(\r\x12\x11\n\tis_finish\x18\x04 \x01(\x08\x12\r\n\x05score\x18\x0b \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BartenderLevelProgressNotif
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BARTENDERLEVELPROGRESSNOTIFY']._serialized_start=38
-  _globals['_BARTENDERLEVELPROGRESSNOTIFY']._serialized_end=139
+  _globals['_BARTENDERLEVELPROGRESSNOTIFY']._serialized_end=143
 # @@protoc_insertion_point(module_scope)

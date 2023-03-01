@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FlightActivitySettleNotify.proto\"\xc2\x01\n\x1a\x46lightActivitySettleNotify\x12\x1b\n\x13Unk3300_PLFMJPNPPLI\x18\t \x01(\r\x12\x11\n\tisSuccess\x18\r \x01(\x08\x12\x1b\n\x13Unk3300_MEEKFJJIOKE\x18\x02 \x01(\r\x12\x13\n\x0bisNewRecord\x18\x0f \x01(\x08\x12\x10\n\x08totalNum\x18\x03 \x01(\r\x12\x0f\n\x07groupId\x18\n \x01(\r\x12\r\n\x05score\x18\x0c \x01(\r\x12\x10\n\x08leftTime\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FlightActivitySettleNotify.proto\"\xb8\x01\n\x1a\x46lightActivitySettleNotify\x12\x13\n\x0b\x45\x43GNDJEFALL\x18\x07 \x01(\r\x12\x13\n\x0b\x44OJCKDMCLJE\x18\x0e \x01(\r\x12\r\n\x05score\x18\x05 \x01(\r\x12\x15\n\ris_new_record\x18\x0f \x01(\x08\x12\x10\n\x08group_id\x18\x03 \x01(\r\x12\x11\n\tleft_time\x18\t \x01(\r\x12\x12\n\nis_success\x18\x04 \x01(\x08\x12\x11\n\ttotal_num\x18\n \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FlightActivitySettleNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_FLIGHTACTIVITYSETTLENOTIFY']._serialized_start=37
-  _globals['_FLIGHTACTIVITYSETTLENOTIFY']._serialized_end=231
+  _globals['_FLIGHTACTIVITYSETTLENOTIFY']._serialized_end=221
 # @@protoc_insertion_point(module_scope)

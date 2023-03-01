@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EntityMoveFailInfo_pb2 as EntityMoveFailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSceneEntitiesMovesRsp.proto\x1a\x18\x45ntityMoveFailInfo.proto\"L\n\x15SceneEntitiesMovesRsp\x12\x33\n\x16\x65ntityMoveFailInfoList\x18\x05 \x03(\x0b\x32\x13.EntityMoveFailInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSceneEntitiesMovesRsp.proto\x1a\x18\x45ntityMoveFailInfo.proto\"P\n\x15SceneEntitiesMovesRsp\x12\x37\n\x1a\x65ntity_move_fail_info_list\x18\t \x03(\x0b\x32\x13.EntityMoveFailInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntitiesMovesRsp_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SCENEENTITIESMOVESRSP']._serialized_start=57
-  _globals['_SCENEENTITIESMOVESRSP']._serialized_end=133
+  _globals['_SCENEENTITIESMOVESRSP']._serialized_end=137
 # @@protoc_insertion_point(module_scope)

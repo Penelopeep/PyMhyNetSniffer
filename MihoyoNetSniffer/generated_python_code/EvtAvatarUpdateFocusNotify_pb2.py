@@ -15,7 +15,7 @@ import ForwardType_pb2 as ForwardType__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n EvtAvatarUpdateFocusNotify.proto\x1a\x11\x46orwardType.proto\x1a\x0cVector.proto\"p\n\x1a\x45vtAvatarUpdateFocusNotify\x12\x10\n\x08\x65ntityId\x18\x05 \x01(\r\x12!\n\x0b\x66orwardType\x18\x0f \x01(\x0e\x32\x0c.ForwardType\x12\x1d\n\x0c\x66ocusForward\x18\x03 \x01(\x0b\x32\x07.VectorB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n EvtAvatarUpdateFocusNotify.proto\x1a\x11\x46orwardType.proto\x1a\x0cVector.proto\"s\n\x1a\x45vtAvatarUpdateFocusNotify\x12\x1e\n\rfocus_forward\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\r \x01(\r\x12\"\n\x0c\x66orward_type\x18\x02 \x01(\x0e\x32\x0c.ForwardTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAvatarUpdateFocusNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_EVTAVATARUPDATEFOCUSNOTIFY']._serialized_start=69
-  _globals['_EVTAVATARUPDATEFOCUSNOTIFY']._serialized_end=181
+  _globals['_EVTAVATARUPDATEFOCUSNOTIFY']._serialized_end=184
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CustomGadgetTreeInfo_pb2 as CustomGadgetTreeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GadgetCustomTreeInfoNotify.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"i\n\x1aGadgetCustomTreeInfoNotify\x12\x16\n\x0egadgetEntityId\x18\x02 \x01(\r\x12\x33\n\x14\x63ustomGadgetTreeInfo\x18\t \x01(\x0b\x32\x15.CustomGadgetTreeInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GadgetCustomTreeInfoNotify.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"n\n\x1aGadgetCustomTreeInfoNotify\x12\x36\n\x17\x63ustom_gadget_tree_info\x18\x04 \x01(\x0b\x32\x15.CustomGadgetTreeInfo\x12\x18\n\x10gadget_entity_id\x18\x08 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetCustomTreeInfoNotify_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GADGETCUSTOMTREEINFONOTIFY']._serialized_start=64
-  _globals['_GADGETCUSTOMTREEINFONOTIFY']._serialized_end=169
+  _globals['_GADGETCUSTOMTREEINFONOTIFY']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

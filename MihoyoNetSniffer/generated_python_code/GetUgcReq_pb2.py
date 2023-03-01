@@ -11,12 +11,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import RecordUsage_pb2 as RecordUsage__pb2
 import GetUgcType_pb2 as GetUgcType__pb2
+import RecordUsage_pb2 as RecordUsage__pb2
 import UgcType_pb2 as UgcType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGetUgcReq.proto\x1a\x11RecordUsage.proto\x1a\x10GetUgcType.proto\x1a\rUgcType.proto\"\x96\x01\n\tGetUgcReq\x12$\n\x0eugcRecordUsage\x18\x08 \x01(\x0e\x32\x0c.RecordUsage\x12\x1f\n\ngetUgcType\x18\n \x01(\x0e\x32\x0b.GetUgcType\x12\x0f\n\x07ugcGuid\x18\x0f \x01(\x04\x12\x19\n\x07ugcType\x18\x02 \x01(\x0e\x32\x08.UgcType\x12\x16\n\x0eisRequireBrief\x18\x05 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGetUgcReq.proto\x1a\x10GetUgcType.proto\x1a\x11RecordUsage.proto\x1a\rUgcType.proto\"\xb3\x01\n\tGetUgcReq\x12&\n\x10ugc_record_usage\x18\x02 \x01(\x0e\x32\x0c.RecordUsage\x12!\n\x0cget_ugc_type\x18\x03 \x01(\x0e\x32\x0b.GetUgcType\x12\x18\n\x10is_require_brief\x18\r \x01(\x08\x12\x1a\n\x08ugc_type\x18\x07 \x01(\x0e\x32\x08.UgcType\x12\x13\n\x0bschedule_id\x18\x0c \x01(\r\x12\x10\n\x08ugc_guid\x18\x0e \x01(\x04\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -24,7 +24,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetUgcReq_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETUGCREQ']._serialized_start=72
-  _globals['_GETUGCREQ']._serialized_end=222
+  _globals['_GETUGCREQ']._serialized_end=251
 # @@protoc_insertion_point(module_scope)

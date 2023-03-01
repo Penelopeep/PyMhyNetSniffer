@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ForwardType_pb2 as ForwardType__pb2
 import EvtAnimatorStateChangedInfo_pb2 as EvtAnimatorStateChangedInfo__pb2
+import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#EvtAnimatorStateChangedNotify.proto\x1a\x11\x46orwardType.proto\x1a!EvtAnimatorStateChangedInfo.proto\"\x85\x01\n\x1d\x45vtAnimatorStateChangedNotify\x12!\n\x0b\x66orwardType\x18\x06 \x01(\x0e\x32\x0c.ForwardType\x12\x41\n\x1b\x65vtAnimatorStateChangedInfo\x18\x08 \x01(\x0b\x32\x1c.EvtAnimatorStateChangedInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#EvtAnimatorStateChangedNotify.proto\x1a!EvtAnimatorStateChangedInfo.proto\x1a\x11\x46orwardType.proto\"\x8a\x01\n\x1d\x45vtAnimatorStateChangedNotify\x12\x45\n\x1f\x65vt_animator_state_changed_info\x18\x04 \x01(\x0b\x32\x1c.EvtAnimatorStateChangedInfo\x12\"\n\x0c\x66orward_type\x18\r \x01(\x0e\x32\x0c.ForwardTypeB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,7 +23,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAnimatorStateChangedNoti
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_EVTANIMATORSTATECHANGEDNOTIFY']._serialized_start=94
-  _globals['_EVTANIMATORSTATECHANGEDNOTIFY']._serialized_end=227
+  _globals['_EVTANIMATORSTATECHANGEDNOTIFY']._serialized_end=232
 # @@protoc_insertion_point(module_scope)

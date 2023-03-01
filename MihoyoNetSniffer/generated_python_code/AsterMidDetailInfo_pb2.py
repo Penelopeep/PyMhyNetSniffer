@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AsterMidCampInfo_pb2 as AsterMidCampInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41sterMidDetailInfo.proto\x1a\x16\x41sterMidCampInfo.proto\"r\n\x12\x41sterMidDetailInfo\x12#\n\x08\x63\x61mpList\x18\x02 \x03(\x0b\x32\x11.AsterMidCampInfo\x12\x0e\n\x06isOpen\x18\n \x01(\x08\x12\x11\n\tbeginTime\x18\r \x01(\r\x12\x14\n\x0c\x63ollectCount\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41sterMidDetailInfo.proto\x1a\x16\x41sterMidCampInfo.proto\"v\n\x12\x41sterMidDetailInfo\x12\x15\n\rcollect_count\x18\x0b \x01(\r\x12$\n\tcamp_list\x18\n \x03(\x0b\x32\x11.AsterMidCampInfo\x12\x0f\n\x07is_open\x18\x0c \x01(\x08\x12\x12\n\nbegin_time\x18\r \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AsterMidDetailInfo_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ASTERMIDDETAILINFO']._serialized_start=52
-  _globals['_ASTERMIDDETAILINFO']._serialized_end=166
+  _globals['_ASTERMIDDETAILINFO']._serialized_end=170
 # @@protoc_insertion_point(module_scope)

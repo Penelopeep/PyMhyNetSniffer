@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ObstacleInfo_pb2 as ObstacleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aObstacleModifyNotify.proto\x1a\x12ObstacleInfo.proto\"g\n\x14ObstacleModifyNotify\x12#\n\x0c\x61\x64\x64Obstacles\x18\x0e \x03(\x0b\x32\r.ObstacleInfo\x12\x19\n\x11removeObstacleIds\x18\x07 \x03(\x05\x12\x0f\n\x07sceneId\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aObstacleModifyNotify.proto\x1a\x12ObstacleInfo.proto\"k\n\x14ObstacleModifyNotify\x12$\n\radd_obstacles\x18\x05 \x03(\x0b\x32\r.ObstacleInfo\x12\x10\n\x08scene_id\x18\x08 \x01(\r\x12\x1b\n\x13remove_obstacle_ids\x18\x02 \x03(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ObstacleModifyNotify_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_OBSTACLEMODIFYNOTIFY']._serialized_start=50
-  _globals['_OBSTACLEMODIFYNOTIFY']._serialized_end=153
+  _globals['_OBSTACLEMODIFYNOTIFY']._serialized_end=157
 # @@protoc_insertion_point(module_scope)

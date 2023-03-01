@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44ungeonWayPointNotify.proto\"B\n\x15\x44ungeonWayPointNotify\x12\x1a\n\x12\x61\x63tiveWayPointList\x18\x0f \x03(\r\x12\r\n\x05isAdd\x18\x03 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44ungeonWayPointNotify.proto\"F\n\x15\x44ungeonWayPointNotify\x12\x0e\n\x06is_add\x18\x03 \x01(\x08\x12\x1d\n\x15\x61\x63tive_way_point_list\x18\x0b \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonWayPointNotify_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DUNGEONWAYPOINTNOTIFY']._serialized_start=31
-  _globals['_DUNGEONWAYPOINTNOTIFY']._serialized_end=97
+  _globals['_DUNGEONWAYPOINTNOTIFY']._serialized_end=101
 # @@protoc_insertion_point(module_scope)

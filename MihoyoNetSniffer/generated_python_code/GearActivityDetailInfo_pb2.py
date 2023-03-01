@@ -11,17 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import GearLevelData_pb2 as GearLevelData__pb2
-import JigsawPictureData_pb2 as JigsawPictureData__pb2
+import ALAMJIMOCOP_pb2 as ALAMJIMOCOP__pb2
+import KFMDIFPCNOC_pb2 as KFMDIFPCNOC__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGearActivityDetailInfo.proto\x1a\x13GearLevelData.proto\x1a\x17JigsawPictureData.proto\"w\n\x16GearActivityDetailInfo\x12,\n\x14gear_level_data_list\x18\x02 \x03(\x0b\x32\x0e.GearLevelData\x12/\n\x13jigsaw_picture_data\x18\x08 \x01(\x0b\x32\x12.JigsawPictureDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGearActivityDetailInfo.proto\x1a\x11\x41LAMJIMOCOP.proto\x1a\x11KFMDIFPCNOC.proto\"^\n\x16GearActivityDetailInfo\x12!\n\x0bGGOBGABGAJH\x18\x04 \x03(\x0b\x32\x0c.ALAMJIMOCOP\x12!\n\x0bNDHPACEIAPO\x18\r \x01(\x0b\x32\x0c.KFMDIFPCNOCB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GearActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GearActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GEARACTIVITYDETAILINFO._serialized_start=78
-  _GEARACTIVITYDETAILINFO._serialized_end=197
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GEARACTIVITYDETAILINFO']._serialized_start=70
+  _globals['_GEARACTIVITYDETAILINFO']._serialized_end=164
 # @@protoc_insertion_point(module_scope)

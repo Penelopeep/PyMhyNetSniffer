@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SignInData_pb2 as SignInData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10SignInInfo.proto\x1a\x10SignInData.proto\"\xe5\x01\n\nSignInInfo\x12\x10\n\x08\x63onfigId\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_MNJELIDKMCF\x18\x05 \x01(\r\x12\x17\n\x0fisCondSatisfied\x18\r \x01(\x08\x12\x15\n\rrewardDayList\x18\x07 \x03(\r\x12\x1b\n\x13Unk3300_NFNOKBNBLGE\x18\x04 \x01(\r\x12\x0f\n\x07\x65ndTime\x18\x0c \x01(\r\x12#\n\x0esigninDataList\x18\x0e \x03(\x0b\x32\x0b.SignInData\x12\x12\n\nscheduleId\x18\x01 \x01(\r\x12\x11\n\tbeginTime\x18\x08 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10SignInInfo.proto\x1a\x10SignInData.proto\"\xdf\x01\n\nSignInInfo\x12\x12\n\nbegin_time\x18\n \x01(\r\x12\x10\n\x08\x65nd_time\x18\x0c \x01(\r\x12\x13\n\x0bschedule_id\x18\x08 \x01(\r\x12\x13\n\x0bKKDLGAMOOHA\x18\x0b \x01(\r\x12\x11\n\tconfig_id\x18\x06 \x01(\r\x12%\n\x10signin_data_list\x18\x07 \x03(\x0b\x32\x0b.SignInData\x12\x19\n\x11is_cond_satisfied\x18\x04 \x01(\x08\x12\x17\n\x0freward_day_list\x18\x02 \x03(\r\x12\x13\n\x0b\x41\x46GHLGEJAHK\x18\r \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SignInInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SIGNININFO']._serialized_start=39
-  _globals['_SIGNININFO']._serialized_end=268
+  _globals['_SIGNININFO']._serialized_end=262
 # @@protoc_insertion_point(module_scope)

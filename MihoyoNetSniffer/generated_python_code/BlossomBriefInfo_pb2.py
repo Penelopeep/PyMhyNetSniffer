@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42lossomBriefInfo.proto\x1a\x0cVector.proto\"\xcf\x01\n\x10\x42lossomBriefInfo\x12\x15\n\risGuideOpened\x18\x06 \x01(\x08\x12\r\n\x05resin\x18\x03 \x01(\r\x12\x14\n\x03pos\x18\t \x01(\x0b\x32\x07.Vector\x12\x0f\n\x07sceneId\x18\r \x01(\r\x12\r\n\x05state\x18\n \x01(\r\x12\x0e\n\x06\x63ityId\x18\x08 \x01(\r\x12\x10\n\x08rewardId\x18\x0b \x01(\r\x12\x14\n\x0c\x63ircleCampId\x18\x02 \x01(\r\x12\x14\n\x0cmonsterLevel\x18\x0f \x01(\r\x12\x11\n\trefreshId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42lossomBriefInfo.proto\x1a\x0cVector.proto\"\xd8\x01\n\x10\x42lossomBriefInfo\x12\x17\n\x0fis_guide_opened\x18\n \x01(\x08\x12\r\n\x05resin\x18\r \x01(\r\x12\x14\n\x03pos\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x12\n\nrefresh_id\x18\x07 \x01(\r\x12\x10\n\x08scene_id\x18\x08 \x01(\r\x12\x11\n\treward_id\x18\x01 \x01(\r\x12\x15\n\rmonster_level\x18\x02 \x01(\r\x12\x16\n\x0e\x63ircle_camp_id\x18\x0e \x01(\r\x12\x0f\n\x07\x63ity_id\x18\x05 \x01(\r\x12\r\n\x05state\x18\x06 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlossomBriefInfo_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_BLOSSOMBRIEFINFO']._serialized_start=41
-  _globals['_BLOSSOMBRIEFINFO']._serialized_end=248
+  _globals['_BLOSSOMBRIEFINFO']._serialized_end=257
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ExpeditionState_pb2 as ExpeditionState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45xpeditionPathInfo.proto\x1a\x15\x45xpeditionState.proto\"\x91\x02\n\x12\x45xpeditionPathInfo\x12\x11\n\tstartTime\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_LFIFDGAGFDC\x18\x07 \x01(\r\x12\x0e\n\x06pathId\x18\x0b \x01(\r\x12\x14\n\x0c\x61vatarIdList\x18\x02 \x03(\r\x12\x13\n\x0b\x63hallengeId\x18\x03 \x01(\r\x12\x1f\n\x05state\x18\t \x01(\x0e\x32\x10.ExpeditionState\x12\x1b\n\x13Unk3300_AIEJKADFLKG\x18\n \x01(\r\x12\x1b\n\x13Unk3300_LKAHOEBNBBI\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_AFGPGIIGAKA\x18\x0e \x01(\r\x12\x18\n\x10\x62onusProbability\x18\x08 \x01(\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45xpeditionPathInfo.proto\x1a\x15\x45xpeditionState.proto\"\xf7\x01\n\x12\x45xpeditionPathInfo\x12\x13\n\x0bLOHMHPCOLBG\x18\n \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\x01 \x01(\r\x12\x13\n\x0bLDEBEBPADLF\x18\x0f \x01(\r\x12\x1f\n\x05state\x18\x03 \x01(\x0e\x32\x10.ExpeditionState\x12\x13\n\x0bOOKCMLMGMJB\x18\x0e \x01(\r\x12\x12\n\nstart_time\x18\x02 \x01(\r\x12\x0f\n\x07path_id\x18\r \x01(\r\x12\x13\n\x0b\x43\x42\x44\x45\x44\x41\x43LCPN\x18\x04 \x01(\r\x12\x19\n\x11\x62onus_probability\x18\x07 \x01(\x02\x12\x16\n\x0e\x61vatar_id_list\x18\x0b \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExpeditionPathInfo_pb2', _g
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_EXPEDITIONPATHINFO']._serialized_start=52
-  _globals['_EXPEDITIONPATHINFO']._serialized_end=325
+  _globals['_EXPEDITIONPATHINFO']._serialized_end=299
 # @@protoc_insertion_point(module_scope)

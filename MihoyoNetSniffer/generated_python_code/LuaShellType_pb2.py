@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12LuaShellType.proto*\xa2\x01\n\x0cLuaShellType\x12 \n\x1cLUA_SHELL_TYPE_LUASHELL_NONE\x10\x00\x12\"\n\x1eLUA_SHELL_TYPE_LUASHELL_NORMAL\x10\x01\x12$\n LUA_SHELL_TYPE_LUASHELL_SECURITY\x10\x02\x12&\n\"LUA_SHELL_TYPE_LUASHELL_SHELL_CODE\x10\x03\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12LuaShellType.proto*f\n\x0cLuaShellType\x12\x11\n\rLUASHELL_NONE\x10\x00\x12\x13\n\x0fLUASHELL_NORMAL\x10\x01\x12\x15\n\x11LUASHELL_SECURITY\x10\x02\x12\x17\n\x13LUASHELL_SHELL_CODE\x10\x03\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LuaShellType_pb2', _globals
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_LUASHELLTYPE']._serialized_start=23
-  _globals['_LUASHELLTYPE']._serialized_end=185
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_LUASHELLTYPE']._serialized_start=22
+  _globals['_LUASHELLTYPE']._serialized_end=124
 # @@protoc_insertion_point(module_scope)

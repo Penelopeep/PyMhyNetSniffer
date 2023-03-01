@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WidgetCreatorOpType.proto*\x89\x01\n\x13WidgetCreatorOpType\x12\x1f\n\x1bWIDGET_CREATOR_OP_TYPE_NONE\x10\x00\x12\"\n\x1eWIDGET_CREATOR_OP_TYPE_RETRACT\x10\x01\x12-\n)WIDGET_CREATOR_OP_TYPE_RETRACT_AND_CREATE\x10\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WidgetCreatorOpType.proto*\x80\x01\n\x13WidgetCreatorOpType\x12\x1c\n\x18WIDGET_CREATOR_TYPE_NONE\x10\x00\x12\x1f\n\x1bWIDGET_CREATOR_TYPE_RETRACT\x10\x01\x12*\n&WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetCreatorOpType_pb2', _
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_WIDGETCREATOROPTYPE']._serialized_start=30
-  _globals['_WIDGETCREATOROPTYPE']._serialized_end=167
+  _globals['_WIDGETCREATOROPTYPE']._serialized_end=158
 # @@protoc_insertion_point(module_scope)

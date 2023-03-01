@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44raftInviteFailReason.proto*\xae\x02\n\x15\x44raftInviteFailReason\x12$\n DRAFT_INVITE_FAIL_REASON_UNKNOWN\x10\x00\x12.\n*DRAFT_INVITE_FAIL_REASON_ACTIVITY_NOT_OPEN\x10\x01\x12\x33\n/DRAFT_INVITE_FAIL_REASON_ACTIVITY_PLAY_NOT_OPEN\x10\x02\x12+\n\'DRAFT_INVITE_FAIL_REASON_SCENE_NOT_MEET\x10\x03\x12+\n\'DRAFT_INVITE_FAIL_REASON_WORLD_NOT_MEET\x10\x04\x12\x30\n,DRAFT_INVITE_FAIL_REASON_PLAY_LIMIT_NOT_MEET\x10\x05\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44raftInviteFailReason.proto*\xc1\x01\n\x15\x44raftInviteFailReason\x12\x16\n\x12\x44RAFT_FAIL_UNKNOWN\x10\x00\x12\x1b\n\x17\x44RAFT_ACTIVITY_NOT_OPEN\x10\x01\x12 \n\x1c\x44RAFT_ACTIVITY_PLAY_NOT_OPEN\x10\x02\x12\x18\n\x14\x44RAFT_SCENE_NOT_MEET\x10\x03\x12\x18\n\x14\x44RAFT_WORLD_NOT_MEET\x10\x04\x12\x1d\n\x19\x44RAFT_PLAY_LIMIT_NOT_MEET\x10\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftInviteFailReason_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DRAFTINVITEFAILREASON']._serialized_start=32
-  _globals['_DRAFTINVITEFAILREASON']._serialized_end=334
+  _globals['_DRAFTINVITEFAILREASON']._serialized_end=225
 # @@protoc_insertion_point(module_scope)

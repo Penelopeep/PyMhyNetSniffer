@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GCGDuelChallenge.proto\"S\n\x10GCGDuelChallenge\x12\x15\n\rtotalProgress\x18\t \x01(\r\x12\x13\n\x0b\x63hallengeId\x18\n \x01(\r\x12\x13\n\x0b\x63urProgress\x18\x01 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GCGDuelChallenge.proto\"V\n\x10GCGDuelChallenge\x12\x16\n\x0etotal_progress\x18\x0b \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\r \x01(\r\x12\x14\n\x0c\x63ur_progress\x18\x0c \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGDuelChallenge_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GCGDUELCHALLENGE']._serialized_start=26
-  _globals['_GCGDUELCHALLENGE']._serialized_end=109
+  _globals['_GCGDUELCHALLENGE']._serialized_end=112
 # @@protoc_insertion_point(module_scope)

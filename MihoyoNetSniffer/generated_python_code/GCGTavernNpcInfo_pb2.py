@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GCGTavernNpcInfo.proto*\x99\x01\n\x10GCGTavernNpcInfo\x12\x1e\n\x1aGCG_SETTLE_OPTION_OPT_NONE\x10\x00\x12\x1e\n\x1aGCG_SETTLE_OPTION_OPT_EXIT\x10\x01\x12\"\n\x1eGCG_SETTLE_OPTION_OPT_CONTINUE\x10\x02\x12!\n\x1dGCG_SETTLE_OPTION_OPT_RESTART\x10\x03\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GCGTavernNpcInfo.proto\"H\n\x10GCGTavernNpcInfo\x12\x10\n\x08level_id\x18\x0e \x01(\r\x12\n\n\x02id\x18\x08 \x01(\r\x12\x16\n\x0escene_point_id\x18\n \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GCGTavernNpcInfo_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_GCGTAVERNNPCINFO']._serialized_start=27
-  _globals['_GCGTAVERNNPCINFO']._serialized_end=180
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_GCGTAVERNNPCINFO']._serialized_start=26
+  _globals['_GCGTAVERNNPCINFO']._serialized_end=98
 # @@protoc_insertion_point(module_scope)

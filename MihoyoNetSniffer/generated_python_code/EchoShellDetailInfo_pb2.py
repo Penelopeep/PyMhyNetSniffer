@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import SummerTimeDungeonInfo_pb2 as SummerTimeDungeonInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45\x63hoShellDetailInfo.proto\x1a\x1bSummerTimeDungeonInfo.proto\"\xa4\x01\n\x13\x45\x63hoShellDetailInfo\x12\x1b\n\x13Unk3300_OOCDFANFFDG\x18\x06 \x03(\r\x12\x19\n\x11taken_reward_list\x18\x05 \x03(\r\x12\x38\n\x18summer_time_dungeon_list\x18\x03 \x03(\x0b\x32\x16.SummerTimeDungeonInfo\x12\x1b\n\x13Unk3300_NEFBJPKBEHF\x18\n \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45\x63hoShellDetailInfo.proto\x1a\x1bSummerTimeDungeonInfo.proto\"\x8e\x01\n\x13\x45\x63hoShellDetailInfo\x12\x13\n\x0b\x41PBIFCEBBOM\x18\x05 \x03(\r\x12\x13\n\x0b\x44\x44\x42JAKPEPLC\x18\x02 \x03(\r\x12\x38\n\x18summer_time_dungeon_list\x18\x0b \x03(\x0b\x32\x16.SummerTimeDungeonInfo\x12\x13\n\x0bLMDEDBBNLIF\x18\x0c \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EchoShellDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EchoShellDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ECHOSHELLDETAILINFO._serialized_start=59
-  _ECHOSHELLDETAILINFO._serialized_end=223
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_ECHOSHELLDETAILINFO']._serialized_start=59
+  _globals['_ECHOSHELLDETAILINFO']._serialized_end=201
 # @@protoc_insertion_point(module_scope)

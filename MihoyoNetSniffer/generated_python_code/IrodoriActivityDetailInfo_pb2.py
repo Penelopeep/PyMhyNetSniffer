@@ -11,19 +11,21 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import AIOCEOMJKII_pb2 as AIOCEOMJKII__pb2
 import IrodoriChessData_pb2 as IrodoriChessData__pb2
-import IrodoriFlowerData_pb2 as IrodoriFlowerData__pb2
-import IrodoriMasterLevelInfo_pb2 as IrodoriMasterLevelInfo__pb2
-import IrodoriPoetryData_pb2 as IrodoriPoetryData__pb2
+import NMJJDGLFAOO_pb2 as NMJJDGLFAOO__pb2
+import ONGFFNHKKIA_pb2 as ONGFFNHKKIA__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fIrodoriActivityDetailInfo.proto\x1a\x16IrodoriChessData.proto\x1a\x17IrodoriFlowerData.proto\x1a\x1cIrodoriMasterLevelInfo.proto\x1a\x17IrodoriPoetryData.proto\"\xc8\x01\n\x19IrodoriActivityDetailInfo\x12%\n\nchess_data\x18\x05 \x01(\x0b\x32\x11.IrodoriChessData\x12\'\n\x0b\x66lower_data\x18\x03 \x01(\x0b\x32\x12.IrodoriFlowerData\x12\'\n\x0bpoetry_data\x18\x06 \x01(\x0b\x32\x12.IrodoriPoetryData\x12\x32\n\x11master_level_list\x18\x01 \x03(\x0b\x32\x17.IrodoriMasterLevelInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fIrodoriActivityDetailInfo.proto\x1a\x11\x41IOCEOMJKII.proto\x1a\x16IrodoriChessData.proto\x1a\x11NMJJDGLFAOO.proto\x1a\x11ONGFFNHKKIA.proto\"\xab\x01\n\x19IrodoriActivityDetailInfo\x12!\n\x0b\x44\x43\x41\x43NKBIMLD\x18\x06 \x01(\x0b\x32\x0c.AIOCEOMJKII\x12!\n\x0b\x44GPMKMAFKBO\x18\x04 \x03(\x0b\x32\x0c.ONGFFNHKKIA\x12%\n\nchess_data\x18\x0e \x01(\x0b\x32\x11.IrodoriChessData\x12!\n\x0b\x42\x43KHFBJPBHE\x18\x03 \x01(\x0b\x32\x0c.NMJJDGLFAOOB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _IRODORIACTIVITYDETAILINFO._serialized_start=140
-  _IRODORIACTIVITYDETAILINFO._serialized_end=340
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_IRODORIACTIVITYDETAILINFO']._serialized_start=117
+  _globals['_IRODORIACTIVITYDETAILINFO']._serialized_end=288
 # @@protoc_insertion_point(module_scope)

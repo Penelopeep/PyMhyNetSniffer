@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12QueryPathRsp.proto\x1a\x0cVector.proto\"\xe3\x01\n\x0cQueryPathRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x18\n\x07\x63orners\x18\x0b \x03(\x0b\x32\x07.Vector\x12\x31\n\x0bqueryStatus\x18\x06 \x01(\x0e\x32\x1c.QueryPathRsp.PathStatusType\x12\x0f\n\x07queryId\x18\x0f \x01(\x05\"d\n\x0ePathStatusType\x12\x19\n\x15PATH_STATUS_TYPE_FAIL\x10\x00\x12\x19\n\x15PATH_STATUS_TYPE_SUCC\x10\x01\x12\x1c\n\x18PATH_STATUS_TYPE_PARTIAL\x10\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12QueryPathRsp.proto\x1a\x0cVector.proto\"\xc7\x01\n\x0cQueryPathRsp\x12\x18\n\x07\x63orners\x18\x02 \x03(\x0b\x32\x07.Vector\x12\x32\n\x0cquery_status\x18\x0c \x01(\x0e\x32\x1c.QueryPathRsp.PathStatusType\x12\x10\n\x08query_id\x18\x07 \x01(\x05\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\"F\n\x0ePathStatusType\x12\x0f\n\x0bSTATUS_FAIL\x10\x00\x12\x0f\n\x0bSTATUS_SUCC\x10\x01\x12\x12\n\x0eSTATUS_PARTIAL\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,9 +22,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QueryPathRsp_pb2', _globals
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_QUERYPATHRSP']._serialized_start=37
-  _globals['_QUERYPATHRSP']._serialized_end=264
-  _globals['_QUERYPATHRSP_PATHSTATUSTYPE']._serialized_start=164
-  _globals['_QUERYPATHRSP_PATHSTATUSTYPE']._serialized_end=264
+  _globals['_QUERYPATHRSP']._serialized_end=236
+  _globals['_QUERYPATHRSP_PATHSTATUSTYPE']._serialized_start=166
+  _globals['_QUERYPATHRSP_PATHSTATUSTYPE']._serialized_end=236
 # @@protoc_insertion_point(module_scope)

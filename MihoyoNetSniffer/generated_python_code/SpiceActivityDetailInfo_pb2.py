@@ -14,13 +14,15 @@ _sym_db = _symbol_database.Default()
 import SpiceStageData_pb2 as SpiceStageData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSpiceActivityDetailInfo.proto\x1a\x14SpiceStageData.proto\"\x83\x01\n\x17SpiceActivityDetailInfo\x12\x1b\n\x13Unk3300_CIHIAJEGCBO\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_LAKPMMIPBMI\x18\x08 \x01(\r\x12.\n\x15spice_stage_data_list\x18\x06 \x03(\x0b\x32\x0f.SpiceStageDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSpiceActivityDetailInfo.proto\x1a\x14SpiceStageData.proto\"s\n\x17SpiceActivityDetailInfo\x12\x13\n\x0bOFGCHEAEEAG\x18\n \x01(\r\x12.\n\x15spice_stage_data_list\x18\x0e \x03(\x0b\x32\x0f.SpiceStageData\x12\x13\n\x0bOCLAPMEFLPK\x18\x03 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
-_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
-_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SpiceActivityDetailInfo_pb2', globals())
+_globals = globals()
+_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
+_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SpiceActivityDetailInfo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SPICEACTIVITYDETAILINFO._serialized_start=56
-  _SPICEACTIVITYDETAILINFO._serialized_end=187
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_SPICEACTIVITYDETAILINFO']._serialized_start=55
+  _globals['_SPICEACTIVITYDETAILINFO']._serialized_end=170
 # @@protoc_insertion_point(module_scope)

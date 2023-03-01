@@ -11,10 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import bytes_pb2 as bytes__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eUnionCmd.proto\x1a\x0b\x62ytes.proto\"+\n\x08UnionCmd\x12\x11\n\tmessageId\x18\x03 \x01(\r\x12\x0c\n\x04\x62ody\x18\x05 \x01(\x0c\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eUnionCmd.proto\",\n\x08UnionCmd\x12\x0c\n\x04\x62ody\x18\x01 \x01(\x0c\x12\x12\n\nmessage_id\x18\x05 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UnionCmd_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
-  _globals['_UNIONCMD']._serialized_start=31
-  _globals['_UNIONCMD']._serialized_end=74
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
+  _globals['_UNIONCMD']._serialized_start=18
+  _globals['_UNIONCMD']._serialized_end=62
 # @@protoc_insertion_point(module_scope)

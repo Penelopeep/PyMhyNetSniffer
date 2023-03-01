@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DealAddFriendResultType_pb2 as DealAddFriendResultType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x44\x65\x61lAddFriendRsp.proto\x1a\x1d\x44\x65\x61lAddFriendResultType.proto\"m\n\x10\x44\x65\x61lAddFriendRsp\x12\x35\n\x13\x64\x65\x61lAddFriendResult\x18\x02 \x01(\x0e\x32\x18.DealAddFriendResultType\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x11\n\ttargetUid\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x44\x65\x61lAddFriendRsp.proto\x1a\x1d\x44\x65\x61lAddFriendResultType.proto\"q\n\x10\x44\x65\x61lAddFriendRsp\x12\x38\n\x16\x64\x65\x61l_add_friend_result\x18\x08 \x01(\x0e\x32\x18.DealAddFriendResultType\x12\x12\n\ntarget_uid\x18\x02 \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DealAddFriendRsp_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_DEALADDFRIENDRSP']._serialized_start=57
-  _globals['_DEALADDFRIENDRSP']._serialized_end=166
+  _globals['_DEALADDFRIENDRSP']._serialized_end=170
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ClientInputType_pb2 as ClientInputType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ViewLanternProjectionTipsReq.proto\x1a\x15\x43lientInputType.proto\"X\n\x1cViewLanternProjectionTipsReq\x12\x13\n\x0bisInputTips\x18\x02 \x01(\x08\x12#\n\tinputType\x18\x01 \x01(\x0e\x32\x10.ClientInputTypeB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ViewLanternProjectionTipsReq.proto\x1a\x15\x43lientInputType.proto\"[\n\x1cViewLanternProjectionTipsReq\x12$\n\ninput_type\x18\x05 \x01(\x0e\x32\x10.ClientInputType\x12\x15\n\ris_input_tips\x18\x0f \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ViewLanternProjectionTipsRe
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_VIEWLANTERNPROJECTIONTIPSREQ']._serialized_start=61
-  _globals['_VIEWLANTERNPROJECTIONTIPSREQ']._serialized_end=149
+  _globals['_VIEWLANTERNPROJECTIONTIPSREQ']._serialized_end=152
 # @@protoc_insertion_point(module_scope)

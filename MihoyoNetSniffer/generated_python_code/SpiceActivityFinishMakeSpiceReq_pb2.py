@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SpiceActivityFinishMakeSpiceReq.proto\"t\n\x1fSpiceActivityFinishMakeSpiceReq\x12\x0f\n\x07stageId\x18\t \x01(\r\x12\x11\n\tisSuccess\x18\x0c \x01(\x08\x12\x1a\n\x12leftMaterialIdList\x18\x01 \x03(\r\x12\x11\n\tleftTurns\x18\x04 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SpiceActivityFinishMakeSpiceReq.proto\"z\n\x1fSpiceActivityFinishMakeSpiceReq\x12\x10\n\x08stage_id\x18\x0c \x01(\r\x12\x12\n\nis_success\x18\x08 \x01(\x08\x12\x1d\n\x15left_material_id_list\x18\x01 \x03(\r\x12\x12\n\nleft_turns\x18\x07 \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SpiceActivityFinishMakeSpic
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_SPICEACTIVITYFINISHMAKESPICEREQ']._serialized_start=41
-  _globals['_SPICEACTIVITYFINISHMAKESPICEREQ']._serialized_end=157
+  _globals['_SPICEACTIVITYFINISHMAKESPICEREQ']._serialized_end=163
 # @@protoc_insertion_point(module_scope)

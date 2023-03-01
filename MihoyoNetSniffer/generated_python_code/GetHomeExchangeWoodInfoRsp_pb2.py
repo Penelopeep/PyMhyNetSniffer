@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetHomeExchangeWoodInfoRsp.proto\"\xe5\x01\n\x1aGetHomeExchangeWoodInfoRsp\x12\x46\n\x0cwoodInfoList\x18\x0b \x03(\x0b\x32\x30.GetHomeExchangeWoodInfoRsp.HomeExchangeWoodInfo\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x1an\n\x14HomeExchangeWoodInfo\x12\x15\n\rexchangeLimit\x18\x08 \x01(\r\x12\x0e\n\x06woodId\x18\x02 \x01(\r\x12\x17\n\x0fnextRefreshTime\x18\x03 \x01(\r\x12\x16\n\x0e\x65xchangedCount\x18\t \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetHomeExchangeWoodInfoRsp.proto\"\xd0\x01\n\x1aGetHomeExchangeWoodInfoRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12<\n\x0bNMIIHLAHDBN\x18\n \x03(\x0b\x32\'.GetHomeExchangeWoodInfoRsp.LHNJKLLKOAI\x1a\x63\n\x0bLHNJKLLKOAI\x12\x13\n\x0bKHGAODFOGNM\x18\n \x01(\r\x12\x13\n\x0bHFHHPNMIHPA\x18\x04 \x01(\r\x12\x19\n\x11next_refresh_time\x18\t \x01(\r\x12\x0f\n\x07wood_id\x18\x0b \x01(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,9 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetHomeExchangeWoodInfoRsp_
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_GETHOMEEXCHANGEWOODINFORSP']._serialized_start=37
-  _globals['_GETHOMEEXCHANGEWOODINFORSP']._serialized_end=266
-  _globals['_GETHOMEEXCHANGEWOODINFORSP_HOMEEXCHANGEWOODINFO']._serialized_start=156
-  _globals['_GETHOMEEXCHANGEWOODINFORSP_HOMEEXCHANGEWOODINFO']._serialized_end=266
+  _globals['_GETHOMEEXCHANGEWOODINFORSP']._serialized_end=245
+  _globals['_GETHOMEEXCHANGEWOODINFORSP_LHNJKLLKOAI']._serialized_start=146
+  _globals['_GETHOMEEXCHANGEWOODINFORSP_LHNJKLLKOAI']._serialized_end=245
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(TakeCityReputationExploreRewardRsp.proto\x1a\x0fItemParam.proto\"z\n\"TakeCityReputationExploreRewardRsp\x12\x0e\n\x06\x63ityId\x18\x04 \x01(\r\x12\x15\n\rexploreIdList\x18\x02 \x03(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x1c\n\x08itemList\x18\x0b \x03(\x0b\x32\n.ItemParamB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(TakeCityReputationExploreRewardRsp.proto\x1a\x0fItemParam.proto\"~\n\"TakeCityReputationExploreRewardRsp\x12\x0f\n\x07\x63ity_id\x18\x02 \x01(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x1d\n\titem_list\x18\x0b \x03(\x0b\x32\n.ItemParam\x12\x17\n\x0f\x65xplore_id_list\x18\x0c \x03(\rB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeCityReputationExploreRe
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_TAKECITYREPUTATIONEXPLOREREWARDRSP']._serialized_start=61
-  _globals['_TAKECITYREPUTATIONEXPLOREREWARDRSP']._serialized_end=183
+  _globals['_TAKECITYREPUTATIONEXPLOREREWARDRSP']._serialized_end=187
 # @@protoc_insertion_point(module_scope)

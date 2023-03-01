@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPhotoActivityFinishReq.proto\"L\n\x16PhotoActivityFinishReq\x12\x0e\n\x06isSucc\x18\x0b \x01(\x08\x12\x13\n\x0b\x63heckRootId\x18\x03 \x01(\r\x12\r\n\x05posId\x18\x05 \x01(\rB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPhotoActivityFinishReq.proto\"P\n\x16PhotoActivityFinishReq\x12\x0e\n\x06pos_id\x18\x01 \x01(\r\x12\x15\n\rcheck_root_id\x18\x08 \x01(\r\x12\x0f\n\x07is_succ\x18\x04 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PhotoActivityFinishReq_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_PHOTOACTIVITYFINISHREQ']._serialized_start=32
-  _globals['_PHOTOACTIVITYFINISHREQ']._serialized_end=108
+  _globals['_PHOTOACTIVITYFINISHREQ']._serialized_end=112
 # @@protoc_insertion_point(module_scope)

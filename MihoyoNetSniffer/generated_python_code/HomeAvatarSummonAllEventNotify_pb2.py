@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeAvatarSummonEventInfo_pb2 as HomeAvatarSummonEventInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAvatarSummonAllEventNotify.proto\x1a\x1fHomeAvatarSummonEventInfo.proto\"U\n\x1eHomeAvatarSummonAllEventNotify\x12\x33\n\x0fsummonEventList\x18\x0f \x03(\x0b\x32\x1a.HomeAvatarSummonEventInfoB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAvatarSummonAllEventNotify.proto\x1a\x1fHomeAvatarSummonEventInfo.proto\"W\n\x1eHomeAvatarSummonAllEventNotify\x12\x35\n\x11summon_event_list\x18\x07 \x03(\x0b\x32\x1a.HomeAvatarSummonEventInfoB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarSummonAllEventNot
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_HOMEAVATARSUMMONALLEVENTNOTIFY']._serialized_start=73
-  _globals['_HOMEAVATARSUMMONALLEVENTNOTIFY']._serialized_end=158
+  _globals['_HOMEAVATARSUMMONALLEVENTNOTIFY']._serialized_end=160
 # @@protoc_insertion_point(module_scope)

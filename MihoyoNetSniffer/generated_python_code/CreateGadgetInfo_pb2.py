@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import GadgetBornType_pb2 as GadgetBornType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43reateGadgetInfo.proto\x1a\x14GadgetBornType.proto\"\x95\x01\n\x10\x43reateGadgetInfo\x12!\n\x08\x62ornType\x18\x01 \x01(\x0e\x32\x0f.GadgetBornType\x12&\n\x05\x63hest\x18\x02 \x01(\x0b\x32\x17.CreateGadgetInfo.Chest\x1a\x36\n\x05\x43hest\x12\x15\n\rchest_drop_id\x18\x01 \x01(\r\x12\x16\n\x0eisShowCutscene\x18\x02 \x01(\x08\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43reateGadgetInfo.proto\x1a\x14GadgetBornType.proto\"\x98\x01\n\x10\x43reateGadgetInfo\x12\"\n\tborn_type\x18\x01 \x01(\x0e\x32\x0f.GadgetBornType\x12&\n\x05\x63hest\x18\x02 \x01(\x0b\x32\x17.CreateGadgetInfo.Chest\x1a\x38\n\x05\x43hest\x12\x15\n\rchest_drop_id\x18\x01 \x01(\r\x12\x18\n\x10is_show_cutscene\x18\x02 \x01(\x08\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,9 +22,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CreateGadgetInfo_pb2', _glo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_CREATEGADGETINFO']._serialized_start=49
-  _globals['_CREATEGADGETINFO']._serialized_end=198
-  _globals['_CREATEGADGETINFO_CHEST']._serialized_start=144
-  _globals['_CREATEGADGETINFO_CHEST']._serialized_end=198
+  _globals['_CREATEGADGETINFO']._serialized_end=201
+  _globals['_CREATEGADGETINFO_CHEST']._serialized_start=145
+  _globals['_CREATEGADGETINFO_CHEST']._serialized_end=201
 # @@protoc_insertion_point(module_scope)

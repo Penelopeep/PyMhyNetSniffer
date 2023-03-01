@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Uint32Pair_pb2 as Uint32Pair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n3ActivityDisableTransferPointInteractionNotify.proto\x1a\x10Uint32Pair.proto\"g\n-ActivityDisableTransferPointInteractionNotify\x12\x11\n\tisDisable\x18\x0f \x01(\x08\x12#\n\x0escenePointPair\x18\x08 \x01(\x0b\x32\x0b.Uint32PairB\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n3ActivityDisableTransferPointInteractionNotify.proto\x1a\x10Uint32Pair.proto\"j\n-ActivityDisableTransferPointInteractionNotify\x12\x12\n\nis_disable\x18\x0e \x01(\x08\x12%\n\x10scene_point_pair\x18\x0f \x01(\x0b\x32\x0b.Uint32PairB\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityDisableTransferPoin
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_ACTIVITYDISABLETRANSFERPOINTINTERACTIONNOTIFY']._serialized_start=73
-  _globals['_ACTIVITYDISABLETRANSFERPOINTINTERACTIONNOTIFY']._serialized_end=176
+  _globals['_ACTIVITYDISABLETRANSFERPOINTINTERACTIONNOTIFY']._serialized_end=179
 # @@protoc_insertion_point(module_scope)

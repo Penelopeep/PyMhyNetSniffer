@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fStoreType.proto*K\n\tStoreType\x12\x13\n\x0fSTORE_TYPE_NONE\x10\x00\x12\x13\n\x0fSTORE_TYPE_PACK\x10\x01\x12\x14\n\x10STORE_TYPE_DEPOT\x10\x02\x42\x1b\n\x19\x65mu.grasscutter.net.protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fStoreType.proto*<\n\tStoreType\x12\x0e\n\nSTORE_NONE\x10\x00\x12\x0e\n\nSTORE_PACK\x10\x01\x12\x0f\n\x0bSTORE_DEPOT\x10\x02\x42\x13\n\x11layla.sleep.protob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StoreType_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\031emu.grasscutter.net.proto'
+  DESCRIPTOR._serialized_options = b'\n\021layla.sleep.proto'
   _globals['_STORETYPE']._serialized_start=19
-  _globals['_STORETYPE']._serialized_end=94
+  _globals['_STORETYPE']._serialized_end=79
 # @@protoc_insertion_point(module_scope)
